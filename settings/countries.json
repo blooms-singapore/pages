@@ -1,0 +1,23 @@
+{
+   "60": {
+      "country": "Malaysia",
+      "code": "MY",
+      "currency": "MYR",
+      "minAmount": 2.5,
+      "len": 9
+   },
+   "65": {
+      "country": "Singapore",
+      "code": "SG",
+      "currency": "SGD",
+      "minAmount": 0.7,
+      "len": 8
+   },
+   "86": {
+      "country": "China",
+      "code": "CN",
+      "currency": "CNY",
+      "minAmount": 4,
+      "len": 11
+   }
+}

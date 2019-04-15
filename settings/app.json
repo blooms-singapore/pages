@@ -1,0 +1,25 @@
+{
+  "iosVersion": 0.55,
+  "androidVersion": 0.55,
+  "iosDownload": "https://blooms.sg",
+  "androidDownload": "https://expo.io/@qazs/blooms",
+  "homeTitle": "Choose a home service",
+  "defaultCountryCode": "60",
+  "defaultCurrency": "MYR",
+  "customerSupport": "60108830800",
+  "cancelBuffer": 1,
+  "discounts": {
+    "SGD": 1,
+    "MYR": 2,
+    "CNY": 3
+  },
+  "timeBuffer": 60,
+  "timeStart": {
+    "hour": 9,
+    "minutes": 0
+  },
+  "timeEnd": {
+    "hour": 22,
+    "minutes": 0
+  }
+}

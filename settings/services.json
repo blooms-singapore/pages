@@ -1,0 +1,134 @@
+{
+  "cleaning-standard": {
+    "name": "Standard Cleaning",
+    "lastSlot": "20:00",
+    "options": {
+      "standard": {
+        "label": "Standard",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "1",
+          "MYR": "1",
+          "CNY": "10"
+        },
+        "quantity": {
+          "label": "Hour",
+          "min": 60,
+          "max": 300,
+          "increment": 60,
+          "multiplier": 1,
+          "unit": "hour"
+        }
+      },
+      "deep": {
+        "label": "Deep",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "2.5",
+          "MYR": "2",
+          "CNY": "22.5"
+        },
+        "quantity": {
+          "label": "Qty",
+          "min": 0,
+          "max": 0,
+          "increment": 30,
+          "multiplier": 0.5,
+          "unit": "hour"
+        }
+      }
+    }
+  },
+  "cleaning-deep": {
+    "name": "Deep Cleaning",
+    "lastSlot": "20:00",
+    "options": {
+      "deep": {
+        "label": "Deep",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "2.5",
+          "MYR": "2",
+          "CNY": "22.5"
+        },
+        "quantity": {
+          "label": "Hour",
+          "min": 60,
+          "max": 0,
+          "increment": 60,
+          "multiplier": 1,
+          "unit": "hour"
+        }
+      }
+    }
+  },
+  "aircon": {
+    "name": "Aircon Servicing",
+    "lastSlot": "21:30",
+    "options": {
+      "default": {
+        "label": "Standard",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "3.5",
+          "MYR": "3",
+          "CNY": "32.5"
+        },
+        "quantity": {
+          "label": "Qty",
+          "min": 60,
+          "max": 0,
+          "increment": 60,
+          "multiplier": 1,
+          "unit": "hour"
+        }
+      }
+    }
+  },
+  "painting": {
+    "name": "Painting",
+    "lastSlot": "21:00",
+    "options": {
+      "default": {
+        "label": "Default",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "5.5",
+          "MYR": "5",
+          "CNY": "52.5"
+        },
+        "quantity": {
+          "label": "Size",
+          "min": 60,
+          "max": 0,
+          "increment": 60,
+          "multiplier": 1,
+          "unit": "hour"
+        }
+      }
+    }
+  },
+  "installation": {
+    "name": "Standard Installation",
+    "lastSlot": "18:00",
+    "options": {
+      "standard": {
+        "label": "Standard",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "6.5",
+          "MYR": "6",
+          "CNY": "62.5"
+        },
+        "quantity": {
+          "label": "Qty",
+          "min": 60,
+          "max": 0,
+          "increment": 60,
+          "multiplier": 1,
+          "unit": "hour"
+        }
+      }
+    }
+  }
+}
