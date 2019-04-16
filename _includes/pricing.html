@@ -1,0 +1,76 @@
+
+<div id="app">
+  <table class="pricing">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Pricing</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="option in options">
+        <!-- <td>${option}</td> -->
+        <td>${option.label}</td>
+        <td>${currency} ${option.cost[currency]} / ${option.quantity.label}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+
+const urlParams = new URLSearchParams(window.location.search)
+const currency = urlParams.get('currency') || 'MYR'
+const uri = urlParams.get('uri') || 'pages.blooms.sg'
+const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
+// const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
+
+
+new Vue({
+  delimiters: ['${', '}'],
+  el: '#app',
+  data () {
+    return {
+      uri: null,
+      currency: currency,
+      serviceKey: serviceKey,
+      service: null,
+      options: null
+    }
+  },
+  mounted () {
+
+    function readResponseAsJSON(response) {
+      return response.json();
+    }
+
+    var root = this
+    root.uri = uri
+    fetch('http://'+uri+'/settings/services.json')
+    .then(readResponseAsJSON) // 3
+    .then(function(response) {
+      // Do stuff with the response
+      var res = response[serviceKey]
+      root.service = res
+      root.options = _.toArray(res.options)
+      console.log('res', root.options)
+    })
+    .catch(function(error) {
+      console.log('Looks like there was a problem: \n', error);
+    });
+
+    // axios
+    //   .get('https://pages.blooms.sg/settings/services.json', {
+    //     headers: {
+    //       'Access-Control-Allow-Origin': '*',
+    //     },
+    //   })
+    //   .then(response => {
+    //
+    //     this.service = response.data[serviceKey]
+    //     this.options = this.service.options
+    //     console.log('res', this.service)
+    //   })
+  }
+})
+</script>

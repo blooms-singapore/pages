@@ -30,6 +30,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
+tunnel: http://10.23.132.23:4000
+
 defaults:
   - scope:
       path: "assets/img"

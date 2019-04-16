@@ -1,13 +1,114 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/{{page.layout}}.css">
     <style>
     .hero{
       width: 100%;
     }
     </style>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.bootcss.com/lodash.js/4.17.12-pre/lodash.core.min.js"></script>
+
   </head>
-  <body>
-    {{content}}
+  <body class="layout-{{page.layout}}">
+    <div id="app">
+      <img class='hero' v-bind:src="banner" />
+      <div class='content'>
+        <h1>{{page.title}}</h1>
+
+        <div class="subtitle">
+          {{page.subtitle}}
+        </div>
+
+        <div class="main">
+
+
+          <table class="pricing">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Pricing</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="option in options">
+                <!-- <td>${option}</td> -->
+                <td>${option.label}</td>
+                <td>${currency} ${option.cost[currency]}<span v-if="option.quantity.label != ''"> / </span>${option.quantity.unit || option.quantity.label}</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          {{content}}
+
+
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+    const urlParams = new URLSearchParams(window.location.search)
+    const currency = urlParams.get('currency') || 'MYR'
+    const uri = urlParams.get('uri') || 'pages.blooms.sg'
+    const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
+    // const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
+
+
+    new Vue({
+      delimiters: ['${', '}'],
+      el: '#app',
+      data () {
+        return {
+          uri: null,
+          currency: currency,
+          serviceKey: serviceKey,
+          service: null,
+          options: null,
+          banner: '../assets/img/banners/'+serviceKey+'.png'
+        }
+      },
+      mounted () {
+
+        function readResponseAsJSON(response) {
+          return response.json();
+        }
+
+        var root = this
+        root.uri = uri
+        fetch('http://'+uri+'/settings/services.json')
+        .then(readResponseAsJSON) // 3
+        .then(function(response) {
+          // Do stuff with the response
+          var res = response[serviceKey]
+          root.service = res
+          root.options = _.toArray(res.options)
+          console.log('res', root.options)
+        })
+        .catch(function(error) {
+          console.log('Looks like there was a problem: \n', error);
+        });
+
+        // axios
+        //   .get('https://pages.blooms.sg/settings/services.json', {
+        //     headers: {
+        //       'Access-Control-Allow-Origin': '*',
+        //     },
+        //   })
+        //   .then(response => {
+        //
+        //     this.service = response.data[serviceKey]
+        //     this.options = this.service.options
+        //     console.log('res', this.service)
+        //   })
+      }
+    })
+    </script>
+
   </body>
 </html>
