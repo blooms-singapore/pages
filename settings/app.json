@@ -1,6 +1,6 @@
 {
-  "iosVersion": 0.55,
-  "androidVersion": 0.55,
+  "iosVersion": 0.66,
+  "androidVersion": 0.66,
   "iosDownload": "https://blooms.sg",
   "androidDownload": "https://expo.io/@qazs/blooms",
   "homeTitle": "Choose a home service",
