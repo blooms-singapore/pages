@@ -55,7 +55,8 @@
 
     const urlParams = new URLSearchParams(window.location.search)
     const currency = urlParams.get('currency') || 'MYR'
-    const uri = urlParams.get('uri') || 'pages.blooms.sg'
+    const uri = urlParams.get('uri')
+    const host = uri ? 'http://'+uri : 'https://pages.blooms.sg'
     const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
     // const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
 
@@ -81,7 +82,7 @@
 
         var root = this
         root.uri = uri
-        fetch('http://'+uri+'/settings/services.json')
+        fetch(host+'/settings/services.json')
         .then(readResponseAsJSON) // 3
         .then(function(response) {
           // Do stuff with the response
