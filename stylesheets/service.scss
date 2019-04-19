@@ -15,12 +15,14 @@
   .example{
     color: #999;
   }
+  .pricing{
+    margin: 20px 0;
+  }
   .content{
-    margin:0 20px;
     .subtitle{
-      margin: 20px 0;
-      padding-bottom: 20px;
-      border-bottom:1px solid #eee;
+      margin: 20px;
+      // padding-bottom: 20px;
+      // border-bottom:1px solid #eee;
       color: $primaryColor;
       font-weight: bold;
     }

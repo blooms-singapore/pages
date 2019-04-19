@@ -3,6 +3,7 @@
   "androidVersion": 0.66,
   "iosDownload": "https://blooms.sg",
   "androidDownload": "https://expo.io/@qazs/blooms",
+  "devicesUrl": "https://github.com",
   "homeTitle": "Choose a home service",
   "defaultCountryCode": "60",
   "defaultCurrency": "MYR",
