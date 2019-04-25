@@ -1,15 +1,15 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="../stylesheets/style.css">
-    <link rel="stylesheet" href="../stylesheets/{{page.layout}}.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/{{page.layout}}.css">
     <style>
     .hero{
       width: 100%;
     }
     </style>
 
-    <script src="../assets/js/bundle.min.js"></script>
+    <script src="/assets/js/bundle.min.js"></script>
 
   </head>
   <body class="layout-{{page.layout}}">
@@ -62,7 +62,7 @@
     // const host = uri ? 'http://'+uri : 'https://pages.blooms.sg'
     const host = '..'
     const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
-    
+
     new Vue({
       delimiters: ['${', '}'],
       el: '#app',
@@ -73,7 +73,7 @@
           serviceKey: serviceKey,
           service: null,
           options: null,
-          banner: '../assets/img/banners/'+serviceKey+'.png'
+          banner: '/assets/img/banners/'+serviceKey+'.png'
         }
       },
       mounted () {
@@ -84,7 +84,7 @@
 
         var root = this
         root.uri = uri
-        fetch(host+'/settings/services.json')
+        fetch('/settings/services.json')
         .then(readResponseAsJSON) // 3
         .then(function(response) {
           // Do stuff with the response
