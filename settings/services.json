@@ -189,6 +189,11 @@
   "painting": {
     "name": "Painting",
     "lastSlot": "21:00",
+    "startPrice": {
+      "SGD": "10",
+      "MYR": "500",
+      "CNY": "50"
+    },
     "options": {
       "survey": {
         "label": "House Survey",
