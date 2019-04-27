@@ -8,14 +8,14 @@
         "description": "Label standard",
         "cost": {
           "SGD": "11.5",
-          "MYR": "75",
+          "MYR": "32.5",
           "CNY": "60.7"
         },
         "quantity": {
-          "label": "hour",
-          "min": 0,
+          "label": "0.5 hour",
+          "min": 30,
           "max": 0,
-          "increment": 60,
+          "increment": 30,
           "base": 60
         }
       },
@@ -24,14 +24,14 @@
         "description": "Label standard",
         "cost": {
           "SGD": "13",
-          "MYR": "85",
+          "MYR": "42.5",
           "CNY": "68.5"
         },
         "quantity": {
-          "label": "hour",
-          "min": 0,
+          "label": "0.5 hour",
+          "min": 30,
           "max": 0,
-          "increment": 60,
+          "increment": 30,
           "base": 60
         }
       }
