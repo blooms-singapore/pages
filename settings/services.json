@@ -30,6 +30,7 @@
         },
         "quantity": {
           "label": "Hour",
+          "unit": "0.5 Hour",
           "min": 60,
           "max": 0,
           "increment": 30,
