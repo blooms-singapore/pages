@@ -8,15 +8,15 @@
         "description": "Label standard",
         "cost": {
           "SGD": "11.5",
-          "MYR": "32.5",
-          "CNY": "60.7"
+          "MYR": "75",
+          "CNY": "75"
         },
         "quantity": {
           "label": "Hour",
-          "unit": "0.5 Hour",
-          "min": 60,
+          "min": 0,
           "max": 0,
           "increment": 30,
+          "default": 60,
           "base": 60
         }
       },
@@ -25,15 +25,15 @@
         "description": "Label standard",
         "cost": {
           "SGD": "13",
-          "MYR": "42.5",
-          "CNY": "68.5"
+          "MYR": "90",
+          "CNY": "90"
         },
         "quantity": {
           "label": "Hour",
-          "unit": "0.5 Hour",
-          "min": 60,
+          "min": 0,
           "max": 0,
           "increment": 30,
+          "default": 60,
           "base": 60
         }
       }
@@ -48,15 +48,16 @@
         "description": "Label standard",
         "cost": {
           "SGD": "17",
-          "MYR": "35",
-          "CNY": "80"
+          "MYR": "70",
+          "CNY": "70"
         },
         "quantity": {
           "label": "Hour",
-          "unit": "0.5 Hour",
-          "min": 30,
+          "unit": "Hour",
+          "min": 90,
           "max": 0,
           "increment": 30,
+          "default": 60,
           "base": 60
         }
       },
@@ -66,14 +67,40 @@
         "cost": {
           "SGD": "2.5",
           "MYR": "20",
-          "CNY": "22.5"
+          "CNY": "20"
         },
         "quantity": {
           "label": "",
           "min": 0,
           "max": 1,
           "increment": 1,
+          "default": 1,
           "base": 1
+        },
+        "hidden": true
+      }
+    },
+    "types": {
+      "house": {
+        "label": "House Type",
+        "description": "Label standard",
+        "values": {
+          "condo": {
+            "label": "Condominium",
+            "cost": {
+              "SGD": "2.5",
+              "MYR": "20",
+              "CNY": "20"
+            }
+          },
+          "landed": {
+            "label": "Landed House",
+            "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            }
+          }
         }
       }
     }
@@ -83,35 +110,39 @@
     "lastSlot": "20:00",
     "options": {
       "condo": {
-        "label": "Condominium",
+        "label": "Service Hours",
+        "displayLabel": "Condominium",
         "description": "Label standard",
         "cost": {
           "SGD": "2.5",
           "MYR": "27.5",
-          "CNY": "22.5"
+          "CNY": "27.5"
         },
         "quantity": {
-          "label": "Hour",
-          "default": 120,
-          "min": 0,
+          "label": "",
+          "min": 120,
           "max": 0,
-          "increment": 120,
+          "default": 120,
+          "increment": 60,
           "base": 60
         }
       },
       "landed": {
-        "label": "Landed House",
+        "label": "Service Hours",
+        "displayLabel": "Landed House",
         "description": "Label standard",
+        "hidden": true,
         "cost": {
           "SGD": "1",
           "MYR": "55",
-          "CNY": "10"
+          "CNY": "55"
         },
         "quantity": {
-          "label": "Hour",
-          "min": 0,
+          "label": "",
+          "min": 180,
           "max": 0,
-          "increment": 180,
+          "default": 180,
+          "increment": 60,
           "base": 60
         }
       },
@@ -121,14 +152,40 @@
         "cost": {
           "SGD": "2.5",
           "MYR": "10",
-          "CNY": "22.5"
+          "CNY": "10"
         },
         "quantity": {
           "label": "",
           "min": 0,
           "max": 1,
+          "default": 1,
           "increment": 1,
           "base": 1
+        },
+        "hidden": true
+      }
+    },
+    "types": {
+      "house": {
+        "label": "House Type",
+        "description": "Label standard",
+        "values": {
+          "condo": {
+            "label": "Condominium",
+            "cost": {
+              "SGD": "2.5",
+              "MYR": "10",
+              "CNY": "10"
+            }
+          },
+          "landed": {
+            "label": "Landed House",
+            "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            }
+          }
         }
       }
     }
@@ -138,37 +195,41 @@
     "lastSlot": "20:00",
     "options": {
       "condo": {
-        "label": "Condominium",
+        "label": "Service Hours",
+        "displayLabel": "Condominium",
         "description": "Label standard",
         "cost": {
           "SGD": "2.5",
           "MYR": "32.5",
-          "CNY": "22.5"
+          "CNY": "32.5"
         },
         "quantity": {
-          "label": "Hour",
+          "label": "",
           "default": 180,
-          "min": 0,
+          "min": 180,
           "max": 0,
-          "increment": 180,
+          "increment": 60,
           "base": 60
         }
       },
       "landed": {
-        "label": "Landed House",
+        "label": "Service Hours",
+        "displayLabel": "Landed House",
         "description": "Label standard",
         "cost": {
           "SGD": "2.5",
           "MYR": "65",
-          "CNY": "22.5"
+          "CNY": "65"
         },
         "quantity": {
-          "label": "Hour",
-          "min": 0,
+          "label": "",
+          "min": 300,
           "max": 0,
-          "increment": 300,
+          "default": 300,
+          "increment": 60,
           "base": 60
-        }
+        },
+        "hidden": true
       },
       "condo-surcharge": {
         "label": "Condo Surcharge",
@@ -176,14 +237,40 @@
         "cost": {
           "SGD": "2.5",
           "MYR": "10",
-          "CNY": "22.5"
+          "CNY": "10"
         },
         "quantity": {
           "label": "",
           "min": 0,
           "max": 1,
+          "default": 1,
           "increment": 1,
           "base": 1
+        },
+        "hidden": true
+      }
+    },
+    "types": {
+      "house": {
+        "label": "House Type",
+        "description": "Label standard",
+        "values": {
+          "condo": {
+            "label": "Condominium",
+            "cost": {
+              "SGD": "2.5",
+              "MYR": "10",
+              "CNY": "10"
+            }
+          },
+          "landed": {
+            "label": "Landed House",
+            "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            }
+          }
         }
       }
     }
@@ -194,7 +281,7 @@
     "startPrice": {
       "SGD": "10",
       "MYR": "500",
-      "CNY": "50"
+      "CNY": "500"
     },
     "options": {
       "survey": {
@@ -203,12 +290,13 @@
         "cost": {
           "SGD": "10",
           "MYR": "35",
-          "CNY": "50"
+          "CNY": "35"
         },
         "quantity": {
           "label": "",
           "min": 1,
           "max": 1,
+          "default": 1,
           "increment": 1,
           "base": 1,
           "multiplier": 1
@@ -220,14 +308,40 @@
         "cost": {
           "SGD": "2.5",
           "MYR": "10",
-          "CNY": "22.5"
+          "CNY": "10"
         },
         "quantity": {
           "label": "",
           "min": 0,
           "max": 1,
+          "default": 1,
           "increment": 1,
           "base": 1
+        },
+        "hidden": true
+      }
+    },
+    "types": {
+      "house": {
+        "label": "House Type",
+        "description": "Label standard",
+        "values": {
+          "condo": {
+            "label": "Condominium",
+            "cost": {
+              "SGD": "2.5",
+              "MYR": "10",
+              "CNY": "10"
+            }
+          },
+          "landed": {
+            "label": "Landed House",
+            "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            }
+          }
         }
       }
     }

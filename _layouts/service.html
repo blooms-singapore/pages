@@ -31,14 +31,14 @@
               <thead>
                 <tr>
                   <th>Item</th>
-                  <th>Pricing</th>
+                  <th>Pricing (${currency})</th>
                 </tr>
               </thead>
               <tbody>
                 <tr v-for="option in options">
                   <!-- <td>${option}</td> -->
-                  <td>${option.label}</td>
-                  <td>${currency} ${option.cost[currency]}<span v-if="option.quantity.label != ''"> / </span>${option.quantity.unit || option.quantity.label}</td>
+                  <td>${option.displayLabel || option.label}</td>
+                  <td>${option.cost[currency]}<span v-if="option.quantity.label != ''"> / </span>${option.quantity.unit || option.quantity.label}</td>
                 </tr>
               </tbody>
             </table>
