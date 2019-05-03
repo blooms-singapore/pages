@@ -192,7 +192,7 @@
   },
   "cleaning-deep": {
     "name": "Deep Cleaning",
-    "lastSlot": "20:00",
+    "lastSlot": "15:30",
     "options": {
       "condo": {
         "label": "Service Hours",
@@ -277,7 +277,7 @@
   },
   "painting": {
     "name": "Painting",
-    "lastSlot": "21:00",
+    "lastSlot": "15:30",
     "startPrice": {
       "SGD": "10",
       "MYR": "500",
