@@ -107,7 +107,7 @@
   },
   "cleaning-standard": {
     "name": "Standard Cleaning",
-    "lastSlot": "20:00",
+    "lastSlot": "15:30",
     "options": {
       "condo": {
         "label": "Service Hours",
