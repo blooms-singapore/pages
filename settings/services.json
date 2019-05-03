@@ -41,7 +41,7 @@
   },
   "aircon": {
     "name": "Aircon Servicing",
-    "lastSlot": "21:30",
+    "lastSlot": "15:30",
     "options": {
       "service": {
         "label": "Service",
