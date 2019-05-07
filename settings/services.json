@@ -47,7 +47,7 @@
     "options": {
       "service": {
         "label": "Servicing",
-        "orderLabel": "Service Hour",
+        "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
           "SGD": "17",
