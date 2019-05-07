@@ -5,6 +5,7 @@
     "options": {
       "standard": {
         "label": "Standard",
+        "orderLabel": "Hour (Standard)",
         "description": "Label standard",
         "cost": {
           "SGD": "11.5",
@@ -22,6 +23,7 @@
       },
       "electrical": {
         "label": "Electrical",
+        "orderLabel": "Hour (Electrical)",
         "description": "Label standard",
         "cost": {
           "SGD": "13",
@@ -44,7 +46,8 @@
     "lastSlot": "21:30",
     "options": {
       "service": {
-        "label": "Service",
+        "label": "Servicing",
+        "orderLabel": "Service Hour",
         "description": "Label standard",
         "cost": {
           "SGD": "17",
@@ -53,7 +56,6 @@
         },
         "quantity": {
           "label": "Hour",
-          "unit": "Hour",
           "min": 90,
           "max": 0,
           "increment": 30,
@@ -87,6 +89,7 @@
         "values": {
           "condo": {
             "label": "Condominium",
+            "orderLabel": "Condo Surcharge",
             "cost": {
               "SGD": "2.5",
               "MYR": "20",
@@ -110,8 +113,9 @@
     "lastSlot": "20:00",
     "options": {
       "condo": {
-        "label": "Service Hours",
+        "label": "Cleaning",
         "displayLabel": "Condominium",
+        "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
           "SGD": "2.5",
@@ -119,7 +123,7 @@
           "CNY": "27.5"
         },
         "quantity": {
-          "label": "",
+          "label": "Hour",
           "min": 120,
           "max": 0,
           "default": 120,
@@ -128,8 +132,9 @@
         }
       },
       "landed": {
-        "label": "Service Hours",
+        "label": "Cleaning",
         "displayLabel": "Landed House",
+        "orderLabel": "Hour",
         "description": "Label standard",
         "hidden": true,
         "cost": {
@@ -138,7 +143,7 @@
           "CNY": "55"
         },
         "quantity": {
-          "label": "",
+          "label": "Hour",
           "min": 180,
           "max": 0,
           "default": 180,
@@ -172,6 +177,7 @@
         "values": {
           "condo": {
             "label": "Condominium",
+            "orderLabel": "Condo Surcharge",
             "cost": {
               "SGD": "2.5",
               "MYR": "10",
@@ -195,8 +201,9 @@
     "lastSlot": "20:00",
     "options": {
       "condo": {
-        "label": "Service Hours",
+        "label": "Cleaning",
         "displayLabel": "Condominium",
+        "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
           "SGD": "2.5",
@@ -204,7 +211,7 @@
           "CNY": "32.5"
         },
         "quantity": {
-          "label": "",
+          "label": "Hour",
           "default": 180,
           "min": 180,
           "max": 0,
@@ -213,8 +220,9 @@
         }
       },
       "landed": {
-        "label": "Service Hours",
+        "label": "Cleaning",
         "displayLabel": "Landed House",
+        "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
           "SGD": "2.5",
@@ -222,7 +230,7 @@
           "CNY": "65"
         },
         "quantity": {
-          "label": "",
+          "label": "Hour",
           "min": 300,
           "max": 0,
           "default": 300,
@@ -257,6 +265,7 @@
         "values": {
           "condo": {
             "label": "Condominium",
+            "orderLabel": "Condo Surcharge",
             "cost": {
               "SGD": "2.5",
               "MYR": "10",
@@ -328,6 +337,7 @@
         "values": {
           "condo": {
             "label": "Condominium",
+            "orderLabel": "Condo Surcharge",
             "cost": {
               "SGD": "2.5",
               "MYR": "10",

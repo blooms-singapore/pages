@@ -38,12 +38,12 @@
                 <tr v-for="option in options">
                   <!-- <td>${option}</td> -->
                   <td>${option.displayLabel || option.label}</td>
-                  <td>${option.cost[currency]}<span v-if="option.quantity.label != ''"> / </span>${option.quantity.unit || option.quantity.label}</td>
+                  <td>${option.cost[currency]}<span v-if="option.quantity.label != ''"> / ${option.quantity.label || option.label}</span></td>
                 </tr>
               </tbody>
             </table>
             <div class="fineprint">
-              Price subject to change without prior notice
+              Prices subject to change without prior notice
             </div>
           </div>
 
