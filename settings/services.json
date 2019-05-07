@@ -43,7 +43,7 @@
   },
   "aircon": {
     "name": "Aircon Servicing",
-    "lastSlot": "21:30",
+    "lastSlot": "15:30",
     "options": {
       "service": {
         "label": "Servicing",
@@ -110,7 +110,7 @@
   },
   "cleaning-standard": {
     "name": "Standard Cleaning",
-    "lastSlot": "20:00",
+    "lastSlot": "15:30",
     "options": {
       "condo": {
         "label": "Cleaning",
@@ -198,7 +198,7 @@
   },
   "cleaning-deep": {
     "name": "Deep Cleaning",
-    "lastSlot": "20:00",
+    "lastSlot": "15:30",
     "options": {
       "condo": {
         "label": "Cleaning",
@@ -286,7 +286,7 @@
   },
   "painting": {
     "name": "Painting",
-    "lastSlot": "21:00",
+    "lastSlot": "15:30",
     "startPrice": {
       "SGD": "10",
       "MYR": "500",
