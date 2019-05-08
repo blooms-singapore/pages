@@ -4,6 +4,7 @@
 @import '_settings';
 
 .layout-service{
+  padding-bottom: 50px;
   .hero{
     // display: none;
   }
@@ -40,7 +41,9 @@
       font-weight: normal;
     }
     h4{
-      font-weight: bold;
+      font-weight: normal;
+      font-size: larger;
+      color: #999;
       margin-bottom: 10px;
     }
     .service-info{
