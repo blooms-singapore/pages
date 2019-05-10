@@ -88,6 +88,7 @@
   "aircon": {
     "name": "Aircon Servicing",
     "lastSlot": "15:30",
+    "startPrice":{"SGD":"60", "MYR":"125", "CNY": "300"},
     "options": {
       "service": {
         "label": "Servicing",
