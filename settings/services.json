@@ -154,6 +154,7 @@
   "cleaning-standard": {
     "name": "Standard Cleaning",
     "lastSlot": "15:30",
+    "startPrice":{"SGD":"88", "MYR":"65", "CNY": "200"},
     "options": {
       "condo": {
         "label": "Cleaning",
