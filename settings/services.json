@@ -154,7 +154,7 @@
   "cleaning-standard": {
     "name": "Standard Cleaning",
     "lastSlot": "15:30",
-    "startPrice":{"SGD":"88", "MYR":"65", "CNY": "200"},
+    "startPrice":{"SGD":"35", "MYR":"65", "CNY": "150"},
     "options": {
       "condo": {
         "label": "Cleaning",
@@ -243,6 +243,7 @@
   "cleaning-deep": {
     "name": "Deep Cleaning",
     "lastSlot": "15:30",
+    "startPrice":{"SGD":"80", "MYR":"107.5", "CNY": "400"},
     "options": {
       "condo": {
         "label": "Cleaning",
