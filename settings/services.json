@@ -2,6 +2,7 @@
   "installation": {
     "name": "Installation",
     "lastSlot": "1530",
+    "startPrice":{"SGD":"50", "MYR":"95", "CNY": "250"},
     "options": {
       "standard": {
         "label": "Standard",
@@ -154,7 +155,7 @@
   "cleaning-standard": {
     "name": "Standard Cleaning",
     "lastSlot": "15:30",
-    "startPrice":{"SGD":"35", "MYR":"65", "CNY": "150"},
+    "startPrice":{"SGD":"40", "MYR":"65", "CNY": "180"},
     "options": {
       "condo": {
         "label": "Cleaning",
