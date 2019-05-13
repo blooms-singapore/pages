@@ -2,7 +2,7 @@
   "installation": {
     "name": "Installation",
     "lastSlot": "1530",
-    "startPrice":{"SGD":"50", "MYR":"95", "CNY": "250"},
+    "startPrice":{"SGD":"40", "MYR":"75", "CNY": "200"},
     "options": {
       "standard": {
         "label": "Standard",
