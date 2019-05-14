@@ -2,7 +2,7 @@
   "iosVersion": 0.79,
   "androidVersion": 0.79,
   "iosDownload": "https://expo.io/@qazs/blooms",
-  "androidDownload": "http://rebrand.ly/blooms-android",
+  "androidDownload": "http://s.blooms.sg/android",
   "devicesUrl": "https://pages.blooms.sg/en/pages/devices.html",
   "homeTitle": "Choose a home service",
   "defaultCountryCode": "60",
