@@ -2,14 +2,14 @@
   "installation": {
     "name": "Installation",
     "lastSlot": "1530",
-    "startPrice":{"SGD":"40", "MYR":"75", "CNY": "200"},
+    "startPrice":{"SGD":"30", "MYR":"75", "CNY": "200"},
     "options": {
       "standard": {
         "label": "Standard",
         "orderLabel": "Hour (Standard)",
         "description": "Label standard",
         "cost": {
-          "SGD": "11.5",
+          "SGD": "30",
           "MYR": "75",
           "CNY": "75"
         },
@@ -27,7 +27,7 @@
         "orderLabel": "Hour (Electrical)",
         "description": "Label standard",
         "cost": {
-          "SGD": "13",
+          "SGD": "40",
           "MYR": "90",
           "CNY": "90"
         },
@@ -44,7 +44,7 @@
         "label": "Condo Surcharge",
         "description": "Label standard",
         "cost": {
-          "SGD": "20",
+          "SGD": "10",
           "MYR": "20",
           "CNY": "20"
         },
@@ -68,7 +68,7 @@
             "label": "Condominium",
             "orderLabel": "Condo Surcharge",
             "cost": {
-              "SGD": "20",
+              "SGD": "10",
               "MYR": "20",
               "CNY": "20"
             }
@@ -88,14 +88,14 @@
   "aircon": {
     "name": "Aircon Servicing",
     "lastSlot": "15:30",
-    "startPrice":{"SGD":"50", "MYR":"105", "CNY": "250"},
+    "startPrice":{"SGD":"45", "MYR":"105", "CNY": "250"},
     "options": {
       "service": {
         "label": "Servicing",
         "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
-          "SGD": "17",
+          "SGD": "45",
           "MYR": "70",
           "CNY": "70"
         },
@@ -112,7 +112,7 @@
         "label": "Condo Surcharge",
         "description": "Label standard",
         "cost": {
-          "SGD": "2.5",
+          "SGD": "10",
           "MYR": "20",
           "CNY": "20"
         },
@@ -136,7 +136,7 @@
             "label": "Condominium",
             "orderLabel": "Condo Surcharge",
             "cost": {
-              "SGD": "2.5",
+              "SGD": "10",
               "MYR": "20",
               "CNY": "20"
             }
@@ -156,7 +156,7 @@
   "cleaning-standard": {
     "name": "Standard Cleaning",
     "lastSlot": "15:30",
-    "startPrice":{"SGD":"35", "MYR":"65", "CNY":"180"},
+    "startPrice":{"SGD":"30", "MYR":"65", "CNY":"180"},
     "options": {
       "condo": {
         "label": "Cleaning",
@@ -164,7 +164,7 @@
         "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
-          "SGD": "2.5",
+          "SGD": "15",
           "MYR": "27.5",
           "CNY": "27.5"
         },
@@ -184,7 +184,7 @@
         "description": "Label standard",
         "hidden": true,
         "cost": {
-          "SGD": "1",
+          "SGD": "25",
           "MYR": "55",
           "CNY": "55"
         },
@@ -201,7 +201,7 @@
         "label": "Condo Surcharge",
         "description": "Label standard",
         "cost": {
-          "SGD": "2.5",
+          "SGD": "5",
           "MYR": "10",
           "CNY": "10"
         },
@@ -225,7 +225,7 @@
             "label": "Condominium",
             "orderLabel": "Condo Surcharge",
             "cost": {
-              "SGD": "2.5",
+              "SGD": "5",
               "MYR": "10",
               "CNY": "10"
             }
@@ -245,7 +245,7 @@
   "cleaning-deep": {
     "name": "Deep Cleaning",
     "lastSlot": "15:30",
-    "startPrice":{"SGD":"80", "MYR":"107.5", "CNY": "400"},
+    "startPrice":{"SGD":"50", "MYR":"107.5", "CNY": "400"},
     "options": {
       "condo": {
         "label": "Cleaning",
@@ -253,7 +253,7 @@
         "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
-          "SGD": "2.5",
+          "SGD": "20",
           "MYR": "32.5",
           "CNY": "32.5"
         },
@@ -272,7 +272,7 @@
         "orderLabel": "Hour",
         "description": "Label standard",
         "cost": {
-          "SGD": "2.5",
+          "SGD": "30",
           "MYR": "65",
           "CNY": "65"
         },
@@ -290,7 +290,7 @@
         "label": "Condo Surcharge",
         "description": "Label standard",
         "cost": {
-          "SGD": "2.5",
+          "SGD": "5",
           "MYR": "10",
           "CNY": "10"
         },
@@ -314,7 +314,7 @@
             "label": "Condominium",
             "orderLabel": "Condo Surcharge",
             "cost": {
-              "SGD": "2.5",
+              "SGD": "5",
               "MYR": "10",
               "CNY": "10"
             }
@@ -344,7 +344,7 @@
         "label": "House Survey",
         "description": "Label standard",
         "cost": {
-          "SGD": "10",
+          "SGD": "15",
           "MYR": "35",
           "CNY": "35"
         },
@@ -362,7 +362,7 @@
         "label": "Condo Surcharge",
         "description": "Label standard",
         "cost": {
-          "SGD": "2.5",
+          "SGD": "5",
           "MYR": "10",
           "CNY": "10"
         },
@@ -386,7 +386,7 @@
             "label": "Condominium",
             "orderLabel": "Condo Surcharge",
             "cost": {
-              "SGD": "2.5",
+              "SGD": "5",
               "MYR": "10",
               "CNY": "10"
             }
