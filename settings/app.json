@@ -5,7 +5,7 @@
   "androidDownload": "http://s.blooms.sg/android",
   "devicesUrl": "https://pages.blooms.sg/en/pages/devices.html",
   "homeTitle": "Choose a home service",
-  "promptAddress": "To proceed with booking, please register your address, name and contact phone number.",
+  "promptAddress": "To proceed with booking, please register your address, contact name and phone number.",
   "defaultCountryCode": "60",
   "defaultCurrency": "MYR",
   "customerSupport": "60108830800",
