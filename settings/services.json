@@ -333,7 +333,7 @@
   },
   "painting": {
     "name": "Painting",
-    "lastSlot": "15:30",
+    "lastSlot": "17:30",
     "startPrice": {
       "SGD": "50",
       "MYR": "120",
@@ -346,7 +346,7 @@
         "cost": {
           "SGD": "15",
           "MYR": "35",
-          "CNY": "35"
+          "CNY": "60
         },
         "quantity": {
           "label": "",
