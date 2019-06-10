@@ -87,8 +87,8 @@
   },
   "aircon": {
     "name": "Aircon Servicing",
-    "lastSlot": "15:30",
-    "startPrice":{"SGD":"45", "MYR":"105", "CNY": "250"},
+    "lastSlot": "16:30",
+    "startPrice":{"SGD":"70", "MYR":"150", "CNY": "300"},
     "options": {
       "service": {
         "label": "Servicing",
@@ -96,12 +96,12 @@
         "description": "Label standard",
         "cost": {
           "SGD": "45",
-          "MYR": "70",
+          "MYR": "150",
           "CNY": "70"
         },
         "quantity": {
           "label": "Hour",
-          "min": 90,
+          "min": 60,
           "max": 0,
           "increment": 30,
           "default": 60,
