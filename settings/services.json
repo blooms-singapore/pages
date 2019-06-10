@@ -335,9 +335,9 @@
     "name": "Painting",
     "lastSlot": "17:30",
     "startPrice": {
-      "SGD": "50",
-      "MYR": "120",
-      "CNY": "500"
+      "SGD": "35",
+      "MYR": "60",
+      "CNY": "165"
     },
     "options": {
       "survey": {
@@ -346,7 +346,7 @@
         "cost": {
           "SGD": "15",
           "MYR": "35",
-          "CNY": "60"
+          "CNY": "70"
         },
         "quantity": {
           "label": "",
@@ -364,7 +364,7 @@
         "cost": {
           "SGD": "5",
           "MYR": "10",
-          "CNY": "10"
+          "CNY": "20"
         },
         "quantity": {
           "label": "",
@@ -388,7 +388,7 @@
             "cost": {
               "SGD": "5",
               "MYR": "10",
-              "CNY": "10"
+              "CNY": "20"
             }
           },
           "landed": {
