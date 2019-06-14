@@ -71,6 +71,11 @@
               "SGD": "10",
               "MYR": "20",
               "CNY": "20"
+            },
+            "oneOffCost": {
+              "SGD": "20",
+              "MYR": "20",
+              "CNY": "20"
             }
           },
           "landed": {
@@ -217,6 +222,39 @@
       }
     },
     "types": {
+      "color": {
+        "label": "Color Type",
+        "description": "Label standard",
+        "values": {
+          "condo": {
+            "label": "Condominium",
+            "orderLabel": "Condo Surcharge",
+            "cost": {
+              "SGD": "5",
+              "MYR": "10",
+              "CNY": "10"
+            },
+            "oneOffCost": {
+              "SGD": "8",
+              "MYR": "8",
+              "CNY": "8"
+            }
+          },
+          "landed": {
+            "label": "Landed House",
+            "cost": {
+              "SGD": "50",
+              "MYR": "50",
+              "CNY": "50"
+            },
+            "oneOffCost": {
+              "SGD": "100",
+              "MYR": "100",
+              "CNY": "100"
+            }
+          }
+        }
+      },
       "house": {
         "label": "House Type",
         "description": "Label standard",
@@ -228,14 +266,24 @@
               "SGD": "5",
               "MYR": "10",
               "CNY": "10"
+            },
+            "oneOffCost": {
+              "SGD": "8",
+              "MYR": "8",
+              "CNY": "8"
             }
           },
           "landed": {
             "label": "Landed House",
             "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
+              "SGD": "50",
+              "MYR": "50",
+              "CNY": "50"
+            },
+            "oneOffCost": {
+              "SGD": "100",
+              "MYR": "100",
+              "CNY": "100"
             }
           }
         }
@@ -317,11 +365,21 @@
               "SGD": "5",
               "MYR": "10",
               "CNY": "10"
+            },
+            "oneOffCost": {
+              "SGD": "10",
+              "MYR": "10",
+              "CNY": "10"
             }
           },
           "landed": {
             "label": "Landed House",
             "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            },
+            "oneOffCost": {
               "SGD": "0",
               "MYR": "0",
               "CNY": "0"
@@ -389,11 +447,21 @@
               "SGD": "5",
               "MYR": "10",
               "CNY": "20"
+            },
+            "oneOffCost": {
+              "SGD": "10",
+              "MYR": "10",
+              "CNY": "10"
             }
           },
           "landed": {
             "label": "Landed House",
             "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            },
+            "oneOffCost": {
               "SGD": "0",
               "MYR": "0",
               "CNY": "0"
