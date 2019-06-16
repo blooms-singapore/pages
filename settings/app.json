@@ -12,9 +12,9 @@
   "cancelBuffer": 72,
   "bookingDays": 21,
   "discounts": {
-    "SGD": 10,
-    "MYR": 10,
-    "CNY": 10
+    "SGD": 2,
+    "MYR": 5,
+    "CNY": 12
   },
   "timeBuffer": 720,
   "timeStart": {
@@ -22,7 +22,7 @@
     "minutes": 0
   },
   "timeEnd": {
-    "hour": 22,
+    "hour": 18,
     "minutes": 0
   }
 }
