@@ -25,8 +25,7 @@
       "increment": 30, // Value to increase. Eg. Increase by 30 min.
       "default": 60, // Default value
       "base": 60 // To calculate option cost. Eg. 300 (min) / 60 (base) = 5 (quantity)
-    },
-    "hidden": true // Hide option in info (Optional)
+    }
   }
   ```
 - **types**:
@@ -38,7 +37,11 @@
     "condo": {
       "label": "Condominium",
       "orderLabel": "Condo Surcharge", // Appear in order summary (Optional, if not set will use 'label')
-      "cost": { // Specify cost for each currency
+      "cost": { // Specify cost for this type, related to options
+        "SGD": "x",
+        "MYR": "x"
+      },
+      "oneOffCost": { // Specify one off charges for this type
         "SGD": "x",
         "MYR": "x"
       }

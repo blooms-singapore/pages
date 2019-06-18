@@ -1,321 +1,337 @@
 {
-  "installation": {
-    "name": "Installation",
-    "lastSlot": "1530",
-    "startPrice":{"SGD":"30", "MYR":"75", "CNY": "200"},
-    "options": {
-      "standard": {
-        "label": "Standard",
-        "orderLabel": "Hour (Standard)",
-        "description": "Label standard",
-        "cost": {
-          "SGD": "30",
-          "MYR": "75",
-          "CNY": "75"
-        },
-        "quantity": {
-          "label": "Hour",
-          "min": 0,
-          "max": 0,
-          "increment": 30,
-          "default": 60,
-          "base": 60
-        }
-      },
-      "electrical": {
-        "label": "Electrical",
-        "orderLabel": "Hour (Electrical)",
-        "description": "Label standard",
-        "cost": {
-          "SGD": "40",
-          "MYR": "90",
-          "CNY": "90"
-        },
-        "quantity": {
-          "label": "Hour",
-          "min": 0,
-          "max": 0,
-          "increment": 30,
-          "default": 60,
-          "base": 60
-        }
-      }
-    },
-    "types": {
-      "house": {
-        "label": "House Type",
-        "description": "Label standard",
-        "values": {
-          "condo": {
-            "label": "Condominium",
-            "orderLabel": "Condo Surcharge",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            },
-            "oneOffCost": {
-              "SGD": "20",
-              "MYR": "20",
-              "CNY": "20"
-            }
-          },
-          "landed": {
-            "label": "Landed House",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            }
-          }
-        }
-      }
-    }
-  },
-  "aircon": {
-    "name": "Aircon Servicing",
-    "lastSlot": "16:30",
-    "startPrice":{"SGD":"70", "MYR":"150", "CNY": "300"},
-    "options": {
-      "service": {
-        "label": "Servicing",
-        "orderLabel": "Hour",
-        "description": "Label standard",
-        "cost": {
-          "SGD": "45",
-          "MYR": "150",
-          "CNY": "150"
-        },
-        "quantity": {
-          "label": "Hour",
-          "min": 60,
-          "max": 0,
-          "increment": 30,
-          "default": 60,
-          "base": 60
-        }
-      }
-    },
-    "types": {
-      "house": {
-        "label": "House Type",
-        "description": "Label standard",
-        "values": {
-          "condo": {
-            "label": "Condominium",
-            "orderLabel": "Condo Surcharge",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            },
-            "oneOffCost": {
-              "SGD": "20",
-              "MYR": "20",
-              "CNY": "20"
-            }
-          },
-          "landed": {
-            "label": "Landed House",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            },
-            "oneOffCost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            }
-          }
-        }
-      }
-    }
-  },
-  "cleaning-standard": {
-    "name": "Standard Cleaning",
-    "lastSlot": "15:30",
-    "startPrice":{"SGD":"30", "MYR":"65", "CNY":"180"},
-    "options": {
-      "condo": {
-        "label": "Cleaning",
-        "displayLabel": "Condominium",
-        "orderLabel": "Hour",
-        "description": "Label standard",
-        "cost": {
-          "SGD": "15",
-          "MYR": "27.5",
-          "CNY": "27.5"
-        },
-        "quantity": {
-          "label": "Hour",
-          "min": 120,
-          "max": 0,
-          "default": 120,
-          "increment": 60,
-          "base": 60
-        }
-      }
-    },
-    "types": {
-      "house": {
-        "label": "House Type",
-        "description": "Label standard",
-        "values": {
-          "condo": {
-            "label": "Condominium",
-            "orderLabel": "Condo Surcharge",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            },
-            "oneOffCost": {
-              "SGD": "10",
-              "MYR": "10",
-              "CNY": "10"
-            }
-          },
-          "landed": {
-            "label": "Landed House",
-            "cost": {
-              "SGD": "27.5",
-              "MYR": "27.5",
-              "CNY": "27.5"
-            },
-            "oneOffCost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            }
-          }
-        }
-      }
-    }
-  },
-  "cleaning-deep": {
-    "name": "Deep Cleaning",
-    "lastSlot": "14:30",
-    "startPrice":{"SGD":"50", "MYR":"107.5", "CNY": "400"},
-    "options": {
-      "condo": {
-        "label": "Cleaning",
-        "displayLabel": "Condominium",
-        "orderLabel": "Hour",
-        "description": "Label standard",
-        "cost": {
-          "SGD": "20",
-          "MYR": "32.5",
-          "CNY": "32.5"
-        },
-        "quantity": {
-          "label": "Hour",
-          "default": 180,
-          "min": 300,
-          "max": 0,
-          "increment": 60,
-          "base": 60
-        }
-      }
-    },
-    "types": {
-      "house": {
-        "label": "House Type",
-        "description": "Label standard",
-        "values": {
-          "condo": {
-            "label": "Condominium",
-            "orderLabel": "Condo Surcharge",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            },
-            "oneOffCost": {
-              "SGD": "10",
-              "MYR": "10",
-              "CNY": "10"
-            }
-          },
-          "landed": {
-            "label": "Landed House",
-            "cost": {
-              "SGD": "32.5",
-              "MYR": "32.5",
-              "CNY": "32.5"
-            },
-            "oneOffCost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            }
-          }
-        }
-      }
-    }
-  },
-  "painting": {
-    "name": "Painting",
-    "lastSlot": "17:30",
-    "startPrice": {
-      "SGD": "35",
-      "MYR": "60",
-      "CNY": "165"
-    },
-    "options": {
-      "survey": {
-        "label": "House Survey",
-        "description": "Label standard",
-        "cost": {
-          "SGD": "15",
-          "MYR": "35",
-          "CNY": "35"
-        },
-        "quantity": {
-          "label": "",
-          "min": 1,
-          "max": 1,
-          "default": 1,
-          "increment": 1,
-          "base": 1,
-          "multiplier": 1
-        }
-      }
-    },
-    "types": {
-      "house": {
-        "label": "House Type",
-        "description": "Label standard",
-        "values": {
-          "condo": {
-            "label": "Condominium",
-            "orderLabel": "Condo Surcharge",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            },
-            "oneOffCost": {
-              "SGD": "10",
-              "MYR": "10",
-              "CNY": "10"
-            }
-          },
-          "landed": {
-            "label": "Landed House",
-            "cost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            },
-            "oneOffCost": {
-              "SGD": "0",
-              "MYR": "0",
-              "CNY": "0"
-            }
-          }
-        }
-      }
-    }
-  }
+	"installation": {
+		"name": "Installation",
+		"lastSlot": "1530",
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "75",
+			"CNY": "75"
+		},
+		"options": {
+			"standard": {
+				"label": "Standard",
+				"orderLabel": "Hour (Standard)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "75"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			"electrical": {
+				"label": "Electrical",
+				"orderLabel": "Hour (Electrical)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "90",
+					"CNY": "90"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "20",
+							"MYR": "20",
+							"CNY": "20"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	"aircon": {
+		"name": "Aircon Servicing",
+		"lastSlot": "16:30",
+		"startPrice": {
+			"SGD": "70",
+			"MYR": "150",
+			"CNY": "150"
+		},
+		"options": {
+			"service": {
+				"label": "Servicing",
+				"orderLabel": "Hour",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "150",
+					"CNY": "150"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 60,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "20",
+							"MYR": "20",
+							"CNY": "20"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	"cleaning-standard": {
+		"name": "Standard Cleaning",
+		"lastSlot": "15:30",
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "65",
+			"CNY": "65"
+		},
+		"options": {
+			"condo": {
+				"label": "Cleaning",
+				"displayLabel": "Condominium",
+				"orderLabel": "Hour",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "27.5",
+					"CNY": "27.5"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 120,
+					"max": 0,
+					"default": 120,
+					"increment": 60,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "27.5",
+							"MYR": "27.5",
+							"CNY": "27.5"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	"cleaning-deep": {
+		"name": "Deep Cleaning",
+		"lastSlot": "14:30",
+		"startPrice": {
+			"SGD": "50",
+			"MYR": "107.5",
+			"CNY": "400"
+		},
+		"options": {
+			"condo": {
+				"label": "Cleaning",
+				"displayLabel": "Condominium",
+				"orderLabel": "Hour",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "32.5",
+					"CNY": "32.5"
+				},
+				"quantity": {
+					"label": "Hour",
+					"default": 180,
+					"min": 300,
+					"max": 0,
+					"increment": 60,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "32.5",
+							"MYR": "32.5",
+							"CNY": "32.5"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	"painting": {
+		"name": "Painting",
+		"lastSlot": "17:30",
+		"startPrice": {
+			"SGD": "35",
+			"MYR": "60",
+			"CNY": "60"
+		},
+		"options": {
+			"survey": {
+				"label": "House Survey",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "35",
+					"CNY": "35"
+				},
+				"quantity": {
+					"label": "",
+					"min": 1,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	}
 }
