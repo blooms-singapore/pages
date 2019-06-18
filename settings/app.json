@@ -1,6 +1,6 @@
 {
-  "iosVersion": 0.83,
-  "androidVersion": 0.83,
+  "iosVersion": 0.84,
+  "androidVersion": 0.84,
   "iosDownload": "https://expo.io/@qazs/blooms",
   "androidDownload": "http://s.blooms.sg/android",
   "devicesUrl": "https://pages.blooms.sg/en/pages/devices.html",
