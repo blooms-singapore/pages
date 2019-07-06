@@ -59,9 +59,9 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "8",
-							"MYR": "20",
-							"CNY": "35"
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "25"
 						}
 					},
 					"landed": {
@@ -118,9 +118,9 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "8",
-							"MYR": "20",
-							"CNY": "35"
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "25"
 						}
 					},
 					"landed": {
@@ -284,7 +284,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "35",
+					"MYR": "20",
 					"CNY": "70"
 				},
 				"quantity": {
@@ -312,9 +312,9 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "10",
-							"CNY": "25"
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
 					"landed": {
