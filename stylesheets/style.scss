@@ -9,6 +9,10 @@ body{
   color: #333;
 }
 
+a{
+  color: $primaryColor;
+}
+
 body,
 table {
   font-size: 0.95em;
