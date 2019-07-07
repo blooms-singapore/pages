@@ -1,7 +1,7 @@
 {
 	"installation": {
 		"name": "Installation",
-		"lastSlot": "1530",
+		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "75",
@@ -59,9 +59,9 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "20",
-							"MYR": "20",
-							"CNY": "20"
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "25"
 						}
 					},
 					"landed": {
@@ -80,9 +80,9 @@
 		"name": "Aircon Servicing",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "70",
+			"SGD": "65",
 			"MYR": "150",
-			"CNY": "150"
+			"CNY": "280"
 		},
 		"options": {
 			"service": {
@@ -90,9 +90,9 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "65",
 					"MYR": "150",
-					"CNY": "150"
+					"CNY": "280"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -118,9 +118,9 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "20",
-							"MYR": "20",
-							"CNY": "20"
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "25"
 						}
 					},
 					"landed": {
@@ -144,9 +144,9 @@
 		"name": "Standard Cleaning",
 		"lastSlot": "15:30",
 		"startPrice": {
-			"SGD": "30",
+			"SGD": "25",
 			"MYR": "65",
-			"CNY": "65"
+			"CNY": "120"
 		},
 		"options": {
 			"condo": {
@@ -157,7 +157,7 @@
 				"cost": {
 					"SGD": "15",
 					"MYR": "27.5",
-					"CNY": "27.5"
+					"CNY": "65"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -183,17 +183,17 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "5",
 							"MYR": "10",
-							"CNY": "10"
+							"CNY": "25"
 						}
 					},
 					"landed": {
 						"label": "Landed House",
 						"cost": {
-							"SGD": "27.5",
+							"SGD": "15",
 							"MYR": "27.5",
-							"CNY": "27.5"
+							"CNY": "65"
 						},
 						"oneOffCost": {
 							"SGD": "0",
@@ -209,9 +209,9 @@
 		"name": "Deep Cleaning",
 		"lastSlot": "14:30",
 		"startPrice": {
-			"SGD": "50",
+			"SGD": "40",
 			"MYR": "107.5",
-			"CNY": "400"
+			"CNY": "180"
 		},
 		"options": {
 			"condo": {
@@ -220,9 +220,9 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "15",
 					"MYR": "32.5",
-					"CNY": "32.5"
+					"CNY": "70"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -248,17 +248,17 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "5",
 							"MYR": "10",
-							"CNY": "10"
+							"CNY": "25"
 						}
 					},
 					"landed": {
 						"label": "Landed House",
 						"cost": {
-							"SGD": "32.5",
+							"SGD": "15",
 							"MYR": "32.5",
-							"CNY": "32.5"
+							"CNY": "70"
 						},
 						"oneOffCost": {
 							"SGD": "0",
@@ -272,7 +272,7 @@
 	},
 	"painting": {
 		"name": "Painting",
-		"lastSlot": "17:30",
+		"lastSlot": "17:00",
 		"startPrice": {
 			"SGD": "35",
 			"MYR": "60",
@@ -284,8 +284,8 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "35",
-					"CNY": "35"
+					"MYR": "20",
+					"CNY": "70"
 				},
 				"quantity": {
 					"label": "",
@@ -312,9 +312,9 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "10",
-							"CNY": "10"
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
 					"landed": {
