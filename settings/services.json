@@ -77,7 +77,7 @@
 		}
 	},
 	"aircon": {
-		"name": "Aircon Servicing",
+		"name": "Aircon Works",
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "65",
