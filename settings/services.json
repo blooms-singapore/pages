@@ -150,8 +150,8 @@
 		},
 		"options": {
 			"condo": {
-				"label": "Cleaning",
-				"displayLabel": "Condominium",
+				"label": "Condo or Office Building / 公寓或办公楼",
+				"displayLabel": "Condominium or Office Building ",
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
@@ -165,6 +165,24 @@
 					"max": 0,
 					"default": 120,
 					"increment": 60,
+					"base": 60
+				}
+			},
+			"Landed House": {
+				"label": "Landed House / 有地住宅",
+				"orderLabel": "Hour (Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "55",
+					"CNY": "85"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 180,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
 					"base": 60
 				}
 			}
