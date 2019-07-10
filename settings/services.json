@@ -9,7 +9,7 @@
 		},
 		"options": {
 			"standard": {
-				"label": "Standard",
+				"label": "Standard / 标准",
 				"orderLabel": "Hour (Standard)",
 				"description": "Label standard",
 				"cost": {
@@ -27,7 +27,7 @@
 				}
 			},
 			"electrical": {
-				"label": "Electrical",
+				"label": "Electrical / 家电",
 				"orderLabel": "Hour (Electrical)",
 				"description": "Label standard",
 				"cost": {
