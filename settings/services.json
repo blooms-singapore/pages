@@ -175,7 +175,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
+						"label": "Condominium (1 crew) / 公寓 （1人）",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -189,7 +189,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House",
+						"label": "Landed House (2 crews) / 有地住宅 （2人）",
 						"cost": {
 							"SGD": "15",
 							"MYR": "27.5",
