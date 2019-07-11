@@ -175,7 +175,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium (1 crew) / 公寓 （1人）",
+						"label": "Condominium (1 crew) / <p> 公寓 （1人）</p>",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
