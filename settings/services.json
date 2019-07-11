@@ -150,8 +150,8 @@
 		},
 		"options": {
 			"condo": {
-				"label": "Condo or Office Building / 公寓或办公楼",
-				"displayLabel": "Condominium or Office Building ",
+				"label": "Cleaning Booking Hrs / 清洗预约点钟",
+				"displayLabel": "Cleaning Booking Hrs / 清洗预约点钟",
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
