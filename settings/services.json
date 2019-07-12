@@ -80,9 +80,9 @@
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "65",
-			"MYR": "150",
-			"CNY": "280"
+			"SGD": "50",
+			"MYR": "130",
+			"CNY": "220"
 		},
 		"options": {
 			"service": {
@@ -90,9 +90,9 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "65",
-					"MYR": "150",
-					"CNY": "280"
+					"SGD": "50",
+					"MYR": "130",
+					"CNY": "220"
 				},
 				"quantity": {
 					"label": "Hour",
