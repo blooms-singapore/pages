@@ -80,9 +80,9 @@
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "50",
-			"MYR": "130",
-			"CNY": "220"
+			"SGD": "45",
+			"MYR": "120",
+			"CNY": "200"
 		},
 		"options": {
 			"service": {
@@ -90,9 +90,9 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
-					"MYR": "130",
-					"CNY": "220"
+					"SGD": "45",
+					"MYR": "120",
+					"CNY": "200"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -142,7 +142,7 @@
 	},
 	"cleaning-standard": {
 		"name": "Standard Cleaning",
-		"lastSlot": "15:30",
+		"lastSlot": "14:30",
 		"startPrice": {
 			"SGD": "25",
 			"MYR": "65",
