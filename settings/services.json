@@ -5,7 +5,7 @@
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "75",
-			"CNY": "75"
+			"CNY": "150"
 		},
 		"options": {
 			"standard": {
@@ -15,7 +15,7 @@
 				"cost": {
 					"SGD": "30",
 					"MYR": "75",
-					"CNY": "75"
+					"CNY": "150"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -31,9 +31,9 @@
 				"orderLabel": "Hour (Electrical)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "35",
 					"MYR": "90",
-					"CNY": "90"
+					"CNY": "180"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -144,9 +144,9 @@
 		"name": "Standard Cleaning",
 		"lastSlot": "14:30",
 		"startPrice": {
-			"SGD": "25",
-			"MYR": "65",
-			"CNY": "120"
+			"SGD": "50",
+			"MYR": "92.5",
+			"CNY": "200"
 		},
 		"options": {
 			"condo": {
@@ -209,9 +209,9 @@
 		"name": "Deep Cleaning",
 		"lastSlot": "14:30",
 		"startPrice": {
-			"SGD": "40",
+			"SGD": "59",
 			"MYR": "107.5",
-			"CNY": "180"
+			"CNY": "240"
 		},
 		"options": {
 			"condo": {
@@ -274,16 +274,16 @@
 		"name": "Painting",
 		"lastSlot": "17:00",
 		"startPrice": {
-			"SGD": "35",
+			"SGD": "40",
 			"MYR": "60",
-			"CNY": "60"
+			"CNY": "200"
 		},
 		"options": {
 			"survey": {
 				"label": "House Survey",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "70"
 				},
