@@ -3,9 +3,9 @@
 		"name": "Installation",
 		"lastSlot": "1630",
 		"startPrice": {
-			"SGD": "35",
-			"MYR": "85",
-			"CNY": "180"
+			"SGD": "30",
+			"MYR": "75",
+			"CNY": "150"
 		},
 		"options": {
 			"standard": {
@@ -81,7 +81,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "60",
-			"MYR": "130",
+			"MYR": "135",
 			"CNY": "280"
 		},
 		"options": {
@@ -90,9 +90,9 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
-					"MYR": "130",
-					"CNY": "220"
+					"SGD": "60",
+					"MYR": "135",
+					"CNY": "280"
 				},
 				"quantity": {
 					"label": "Hour",
