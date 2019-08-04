@@ -146,7 +146,7 @@
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "92.5",
-			"CNY": "200"
+			"CNY": "92.5"
 		},
 		"options": {
 			"condo": {
@@ -157,7 +157,7 @@
 				"cost": {
 					"SGD": "15",
 					"MYR": "27.5",
-					"CNY": "65"
+					"CNY": "27.5"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -185,7 +185,7 @@
 						"oneOffCost": {
 							"SGD": "5",
 							"MYR": "10",
-							"CNY": "25"
+							"CNY": "10"
 						}
 					},
 					"landed": {
@@ -193,7 +193,7 @@
 						"cost": {
 							"SGD": "15",
 							"MYR": "27.5",
-							"CNY": "65"
+							"CNY": "27.5"
 						},
 						"oneOffCost": {
 							"SGD": "0",
