@@ -17,13 +17,13 @@
     "MYR": 5,
     "CNY": 12
   },
-  "timeBuffer": 720,
+  "timeBuffer": 870,
   "timeStart": {
     "hour": 9,
     "minutes": 0
   },
   "timeEnd": {
-    "hour": 18,
-    "minutes": 0
+    "hour": 16,
+    "minutes": 30
   }
 }
