@@ -48,3 +48,19 @@
     }
   }
   ```
+ 
+ ### Price Calculation Examples:
+ 
+First thing is find quantity first:  _300 (min) / 60 (options.quantity.base) = 3_
+ 
+ #### 3 hours standard cleaning (Condo):
+ ```
+ 180 (min) / 60 (options.quantity.base) x 27.5 (options.cost) + 10 (types...oneOffCost) = 92.5
+ ```
+ 
+  #### 5 hours deep cleaning (Landed):
+ ```
+ 300 (min) / 60 (options.quantity.base) x 40 (options.cost) + ((300 (min) / 60 (options.quantity.base)) x 40 (types...cost)) = 400
+ ```
+ 
+ 
