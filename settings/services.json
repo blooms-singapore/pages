@@ -7,7 +7,6 @@
 			"MYR": "75",
 			"CNY": "150"
 		},
-		"hasNote": 1,
 		"options": {
 			"standard": {
 				"label": "Standard / 标准",
@@ -279,6 +278,7 @@
 			"MYR": "60",
 			"CNY": "200"
 		},
+		"hasNote": 1,
 		"options": {
 			"survey": {
 				"label": "House Survey",
