@@ -334,5 +334,88 @@
 				}
 			}
 		}
+	},
+	"plumbing": {
+		"name": "Plumbing",
+		"lastSlot": "1630",
+		"startPrice": {
+			"SGD": "50",
+			"MYR": "50",
+			"CNY": "50"
+		},
+		"options": {
+			"sink": {
+				"label": "Sink",
+				"orderLabel": "Pc (Sink)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "80",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"toilet": {
+				"label": "Toilet Cistern",
+				"orderLabel": "Pc (Toilet Cistern)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "60",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"faucet": {
+				"label": "Faucet (Tap)",
+				"orderLabel": "Pc (Faucet)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"shower": {
+				"label": "Shower Head & Fitting",
+				"orderLabel": "Pc (Shower Head & Fitting)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		}
 	}
 }
