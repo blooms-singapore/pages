@@ -212,9 +212,9 @@
 		"name": "Deep Cleaning",
 		"lastSlot": "14:30",
 		"startPrice": {
-			"SGD": "85",
-			"MYR": "210",
-			"CNY": "380"
+			"SGD": "70",
+			"MYR": "185",
+			"CNY": "350"
 		},
 		"hasNote": 1,
 		"options": {
@@ -224,9 +224,9 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "40",
-					"CNY": "40"
+					"SGD": "15",
+					"MYR": "35",
+					"CNY": "75"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -260,9 +260,9 @@
 					"landed": {
 						"label": "Landed House: 2 crews / 有地住宅: 2人",
 						"cost": {
-							"SGD": "40",
-							"MYR": "40",
-							"CNY": "40"
+							"SGD": "15",
+							"MYR": "35",
+							"CNY": "75"
 						},
 						"oneOffCost": {
 							"SGD": "0",
