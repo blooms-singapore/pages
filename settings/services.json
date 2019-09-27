@@ -210,7 +210,7 @@
 	},
 	"cleaning-deep": {
 		"name": "Deep Cleaning",
-		"lastSlot": "14:30",
+		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "70",
 			"MYR": "185",
@@ -231,7 +231,7 @@
 				"quantity": {
 					"label": "Hour",
 					"default": 180,
-					"min": 300,
+					"min": 0,
 					"max": 0,
 					"increment": 60,
 					"base": 60
