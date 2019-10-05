@@ -276,11 +276,11 @@
 	},
 	"painting": {
 		"name": "Painting",
-		"lastSlot": "17:00",
+		"lastSlot": "16:00",
 		"startPrice": {
-			"SGD": "40",
-			"MYR": "60",
-			"CNY": "200"
+			"SGD": "20",
+			"MYR": "45",
+			"CNY": "110"
 		},
 		"hasNote": 1,
 		"options": {
@@ -295,8 +295,8 @@
 				"quantity": {
 					"label": "",
 					"min": 1,
-					"max": 1,
-					"default": 1,
+					"max": 8,
+					"default": 0,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
