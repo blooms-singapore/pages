@@ -7,7 +7,7 @@
   "homeTitle": "Choose a home service",
   "promptAddress": "To proceed with booking, please register your address, contact name and phone number.",
   "promptLogin": "Please login to continue.",
-  "noteLabel": "Input Quoted Price, Service Duration & Survey Order No (if applicable)",
+  "noteLabel": "Tab here to input non-standard job info: Price, Survey Order No, etc..",
   "defaultCountryCode": "60",
   "defaultCurrency": "MYR",
   "customerSupport": "+6010 935 2700",
