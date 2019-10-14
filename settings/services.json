@@ -423,7 +423,7 @@
 			},
 			"Picking": {
 				"label": "New Part Picking Charges",
-				"orderLabel": "Hrs (New Part Picking Charges)",
+				"orderLabel": "Hr (New Part Picking Charges)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -433,7 +433,7 @@
 				"quantity": {
 					"label": "Hr",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
