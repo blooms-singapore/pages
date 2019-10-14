@@ -385,9 +385,9 @@
 					"base": 60
 				}
 			},
-			"faucet": {
-				"label": "Faucet (Tap)",
-				"orderLabel": "Pc (Faucet)",
+			"Tap": {
+				"label": "Tap or Shower fittings",
+				"orderLabel": "Pc (Tap or Shower fittings)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -403,25 +403,7 @@
 					"base": 60
 				}
 			},
-			"shower": {
-				"label": "Shower Head & Fitting",
-				"orderLabel": "Pc (Shower Head & Fitting)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Picking": {
+			 "Picking": {
 				"label": "Picking Charges",
 				"orderLabel": "Hr (Picking Charges)",
 				"description": "Label standard",
