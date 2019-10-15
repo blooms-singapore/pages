@@ -207,7 +207,7 @@
 				}
 			}
 		}
-		"Queen Size" {
+		"Queen Size": {
 				"label": "Queen Size Mattress",
 				"orderLabel": "Pc (Queen Size Mattress)",
 				"description": "Label standard",
