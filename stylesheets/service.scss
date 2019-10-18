@@ -46,9 +46,14 @@
       color: #999;
       margin-bottom: 10px;
     }
+    .gap:last-child{
+      .service-info{
+        padding-bottom: 15px;
+      }
+    }
     .service-info{
       margin-bottom: 30px;
-      padding-bottom: 15px;
+      // padding-bottom: 15px;
       // border: 1px solid #eee;
       border-bottom: 1px solid #ddd;
       &:last-child{
