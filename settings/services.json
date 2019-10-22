@@ -478,14 +478,15 @@
 					"CNY": "20"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
 					"default": 0,
-					"base": 60
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
 				}
-			},
+			  },
 			"cutting": {
 				"label": "Grass Cutting",
 				"orderLabel": "Hr (Grass Cutting)",
