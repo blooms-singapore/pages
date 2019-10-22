@@ -479,8 +479,8 @@
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 0,
-					"max": 0,
+					"min": 1,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -497,8 +497,8 @@
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 0,
-					"max": 0,
+					"min": 1,
+					"max": 8,
 					"increment": 60,
 					"default": 0,
 					"base": 60
