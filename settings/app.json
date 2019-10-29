@@ -1,6 +1,6 @@
 {
   "iosVersion": 0.85,
-  "androidVersion": 0.85,
+  "androidVersion": 1.20,
   "iosDownload": "http://s.blooms.sg/ios",
   "androidDownload": "http://s.blooms.sg/android",
   "devicesUrl": "https://pages.blooms.sg/en/pages/news.html",
