@@ -350,7 +350,7 @@
 		"hasNote": 1,
 		"options": {
 			"sink": {
-				"label": "Sink",
+				"label": "Sink / 水槽",
 				"orderLabel": "Pc (Sink)",
 				"description": "Label standard",
 				"cost": {
