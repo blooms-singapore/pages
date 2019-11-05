@@ -403,9 +403,9 @@
 					"base": 60
 				}
 			},
-			 "Picking": {
-				"label": "Picking Charges",
-				"orderLabel": "Hr (Picking Charges)",
+			 "Non-Standard": {
+				"label": "Non-Standard Work",
+				"orderLabel": "Job (Non-Standard Work)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -413,7 +413,7 @@
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Hr",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
