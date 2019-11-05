@@ -351,7 +351,7 @@
 		"options": {
 			"sink": {
 				"label": "Sink / 水槽",
-				"orderLabel": "Pc (Sink)",
+				"orderLabel": "Pc (Sink / 水槽)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -369,7 +369,7 @@
 			},
 			"toilet": {
 				"label": "Toilet Cistern / 抽水系统",
-				"orderLabel": "Pc (Toilet Cistern)",
+				"orderLabel": "Pc (Toilet Cistern / 抽水系统)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -387,7 +387,7 @@
 			},
 			"Tap": {
 				"label": "Tap or Shower fittings / 水龙头或淋浴配件",
-				"orderLabel": "Pc (Tap or Shower fittings)",
+				"orderLabel": "Pc (Tap or Shower fittings / 水龙头或淋浴配件)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -405,7 +405,7 @@
 			},
 			 "Non-Standard Work Survey": {
 				"label": "Non-Standard Work Survey / 非标准湿工调查",
-				"orderLabel": "Job (Non-Standard Work Survey)",
+				"orderLabel": "Job (Non-Standard Work Survey / 非标准湿工调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
