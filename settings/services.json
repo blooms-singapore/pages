@@ -403,13 +403,13 @@
 					"base": 60
 				}
 			},
-			 "Non-Standard": {
-				"label": "Non-Standard Work / 非标准湿工",
-				"orderLabel": "Job (Non-Standard Work)",
+			 "Non-Standard Work Survey": {
+				"label": "Non-Standard Work Survey / 非标准湿工调查",
+				"orderLabel": "Job (Non-Standard Work Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "80",
+					"MYR": "0",
 					"CNY": "60"
 				},
 				"quantity": {
