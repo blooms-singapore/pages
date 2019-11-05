@@ -349,7 +349,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"sink": {
+			"Sink": {
 				"label": "Sink",
 				"orderLabel": "Pc (Sink)",
 				"description": "Label standard",
@@ -385,7 +385,7 @@
 					"base": 60
 				}
 			},
-			"Tap": {
+			"Tap or Shower fittings": {
 				"label": "Tap or Shower fittings",
 				"orderLabel": "Pc (Tap or Shower fittings)",
 				"description": "Label standard",
@@ -403,13 +403,13 @@
 					"base": 60
 				}
 			},
-			 "Non-Standard Work": {
-				"label": "Non-Standard Work Survey",
-				"orderLabel": "Pc (Non-Standard Work Survey)",
+			 "Non Standard Work": {
+				"label": "Non Standard Work Survey",
+				"orderLabel": "Pc (Non Standard Work Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "0",
+					"MYR": "10",
 					"CNY": "60"
 				},
 				"quantity": {
