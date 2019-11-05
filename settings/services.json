@@ -405,7 +405,7 @@
 			},
 			 "Non-Standard Work Survey": {
 				"label": "Non-Standard Work Survey",
-				"orderLabel": "Job (Non-Standard Work Survey"),
+				"orderLabel": "Pc (Non-Standard Work Survey"),
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
