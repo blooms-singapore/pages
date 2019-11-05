@@ -368,7 +368,7 @@
 				}
 			},
 			"toilet": {
-				"label": "Toilet Cistern",
+				"label": "Toilet Cistern / 抽水系统",
 				"orderLabel": "Pc (Toilet Cistern)",
 				"description": "Label standard",
 				"cost": {
@@ -386,7 +386,7 @@
 				}
 			},
 			"Tap": {
-				"label": "Tap or Shower fittings",
+				"label": "Tap or Shower fittings / 水龙头或淋浴配件",
 				"orderLabel": "Pc (Tap or Shower fittings)",
 				"description": "Label standard",
 				"cost": {
@@ -404,7 +404,7 @@
 				}
 			},
 			 "Non-Standard": {
-				"label": "Non-Standard Work",
+				"label": "Non-Standard Work / 非标准湿工",
 				"orderLabel": "Job (Non-Standard Work)",
 				"description": "Label standard",
 				"cost": {
