@@ -403,9 +403,9 @@
 					"base": 60
 				}
 			},
-			 "Non-Standard Work Survey": {
+			 "Non-Standard Work": {
 				"label": "Non-Standard Work Survey",
-				"orderLabel": "Pc (Non-Standard Work Survey"),
+				"orderLabel": "Pc (Non-Standard Work Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -413,7 +413,7 @@
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
