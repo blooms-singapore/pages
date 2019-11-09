@@ -595,8 +595,8 @@
 		"hasNote": 1,
 		"options": {
 			"survey": {
-				"label": "Site Survey",
-				"orderLabel": "Trip (Site Survey)",
+				"label": "Site Survey / 实地调查",
+				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -604,7 +604,7 @@
 					"CNY": "20"
 				},
 				"quantity": {
-					"label": "trip",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"default": 0,
@@ -614,8 +614,8 @@
 				}
 			  },
 			"cutting": {
-				"label": "Grass Cutting",
-				"orderLabel": "Hr (Grass Cutting)",
+				"label": "Grass Cutting Booking / 割草预约点钟",
+				"orderLabel": "Hour (Grass Cutting / 割草预约点钟)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
