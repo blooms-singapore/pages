@@ -374,9 +374,9 @@
 					"multiplier": 1
 				}
 			},
-			"Painting Labour Booking": {
-				"label": "Painting Booking Hours / 油漆预约点钟",
-				"orderLabel": "Hour (Painting Booking Hours / 油漆预约点钟)",
+			"Painting Booking": {
+				"label": "Painting Booking / 油漆预约点钟",
+				"orderLabel": "Hour (Painting Booking / 油漆预约点钟)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -385,7 +385,7 @@
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 60,
+					"min": 0,
 					"max": 0,
 					"increment": 60,
 					"default": 60,
