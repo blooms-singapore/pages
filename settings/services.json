@@ -421,7 +421,7 @@
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "10",
 							"CNY": "0"
 						},
 						"oneOffCost": {
