@@ -357,7 +357,7 @@
 		"hasNote": 1,
 		"options": {
 			"survey": {
-				"label": "House Survey",
+				"label": "House Survey / 实地调查",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -365,7 +365,7 @@
 					"CNY": "70"
 				},
 				"quantity": {
-					"label": "trip",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"default": 0,
