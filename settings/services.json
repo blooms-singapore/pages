@@ -589,7 +589,7 @@
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "25",
+			"MYR": "40",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -626,7 +626,7 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
