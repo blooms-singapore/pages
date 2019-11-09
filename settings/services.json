@@ -388,7 +388,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 60,
-					"default": 60,
+					"default": 0,
 					"base": 60
 				}
 			},
@@ -421,12 +421,12 @@
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "10",
 							"CNY": "0"
 						}
 					},
