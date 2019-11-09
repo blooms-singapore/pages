@@ -386,8 +386,8 @@
 				}
 			},
 			"toilet": {
-				"label": "Toilet Cistern",
-				"orderLabel": "Pc (Toilet Cistern)",
+				"label": "Toilet Cistern / 厕所冲水系统",
+				"orderLabel": "Pc (Toilet Cistern / 厕所冲水系统)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -404,8 +404,8 @@
 				}
 			},
 			"Tap or Shower fittings": {
-				"label": "Tap or Shower fittings",
-				"orderLabel": "Pc (Tap or Shower fittings)",
+				"label": "Tap or Shower fittings / 水喉或淋浴配件",
+				"orderLabel": "Pc (Tap or Shower fittings / 水喉或淋浴配件)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
