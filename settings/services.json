@@ -368,8 +368,8 @@
 		"hasNote": 1,
 		"options": {
 			"Sink": {
-				"label": "Sink",
-				"orderLabel": "Pc (Sink)",
+				"label": "Sink / 水槽",
+				"orderLabel": "Pc (Sink / 水槽)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -422,16 +422,16 @@
 				}
 			},
 			 "Non Standard Work": {
-				"label": "Non Standard Work Survey",
-				"orderLabel": "Pc (Non Standard Work Survey)",
+				"label": "Non Standard Work Survey / 非标准湿工调查",
+				"orderLabel": "Job (Non Standard Work Survey / 非标准湿工调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
-					"MYR": "10",
-					"CNY": "60"
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Pc",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
