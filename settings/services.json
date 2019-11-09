@@ -475,9 +475,27 @@
 					"base": 60
 				}
 			},
-			 "Non Standard Work": {
-				"label": "Non Standard Work Survey / 非标准湿工调查",
-				"orderLabel": "Job (Non Standard Work Survey / 非标准湿工调查)",
+			 "Site Survey": {
+				"label": "Non Standard Wet Work Site Survey / 非标准湿工实地调查",
+				"orderLabel": "Trip (Non Standard Wet Work Survey / 非标准湿工实地调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "10",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			 "Project": {
+				"label": "Wet Work Project / 湿工项目",
+				"orderLabel": "Job (Wet Work Project / 湿工项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
