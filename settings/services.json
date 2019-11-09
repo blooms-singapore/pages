@@ -45,6 +45,24 @@
 					"base": 60
 				}
 			},
+			"Site Survey": {
+				"label": "Site Survey / 实地调查",
+				"orderLabel": "Trip (Site Survey / 实地调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
 			"project": {
 				"label": "Project / 项目",
 				"orderLabel": "Job (project)",
