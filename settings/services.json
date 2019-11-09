@@ -106,8 +106,8 @@
 		"hasNote": 1,
 		"options": {
 			"service": {
-				"label": "Servicing",
-				"orderLabel": "Hour",
+				"label": "Aircon Servicing / 冷气维护",
+				"orderLabel": "Hour (Aircon Servicing / 冷气维护)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "84",
