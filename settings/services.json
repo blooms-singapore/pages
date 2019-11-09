@@ -44,6 +44,24 @@
 					"default": 0,
 					"base": 60
 				}
+			},
+			"project": {
+				"label": "Project / 项目",
+				"orderLabel": "Job (project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
 			}
 		},
 		"types": {
