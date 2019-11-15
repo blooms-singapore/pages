@@ -612,7 +612,7 @@
 					"base": 1,
 					"multiplier": 1
 				}
-			  },
+			 },
 			"cutting": {
 				"label": "Grass Cutting Booking / 割草预约点钟",
 				"orderLabel": "Hour (Grass Cutting / 割草预约点钟)",
@@ -654,6 +654,143 @@
 					"landed": {
 						"label": "Landed House / 有地住宅",
 						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	"locksmith": {
+		"name": "Locksmith",
+		"lastSlot": "1630",
+		"startPrice": {
+			"SGD": "80",
+			"MYR": "80",
+			"CNY": "80"
+		},
+		"hasNote": 1,
+		"options": {
+			"unlock-morning": {
+				"label": "Room door unlock / 房门开锁 (10am to 9pm)",
+				"orderLabel": "Unit (Room door unlock - 10am to 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "80",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-evening": {
+				"label": "Room door unlock / 房门开锁 (after 9pm / 晚上9点后)",
+				"orderLabel": "Unit (Room door unlock - after 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "120",
+					"MYR": "120",
+					"CNY": "120"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-metal": {
+				"label": "Metal door unlock / 铁门开锁",
+				"orderLabel": "Unit (Metal door unlock)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "95",
+					"MYR": "95",
+					"CNY": "95"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-digital": {
+				"label": "Change new non-digital lock / 更换普通锁 (10am to 6pm)",
+				"orderLabel": "(Non-digital lock change)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "80",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-others": {
+				"label": "Other lock works survey / 其他装，拆，开锁工调查",
+				"orderLabel": "Trip (Other works survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "30",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
