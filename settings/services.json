@@ -310,7 +310,7 @@
 				}
 			},
 			"Cleaning Survey": {
-				"label": " Cleaning Project Survey / 深洗项目调查",
+				"label": "Cleaning Project Survey / 深洗项目调查",
 				"orderLabel": "Trip (Cleaning Project Survey / 深洗项目调查)",
 				"description": "Label standard",
 				"cost": {
@@ -328,7 +328,7 @@
 				}
 			},
 			"Cleaning Project": {
-				"label": " Cleaning Project / 深洗项目",
+				"label": "Cleaning Project / 深洗项目",
 				"orderLabel": "Job (Cleaning Project Survey / 深洗项目调查)",
 				"description": "Label standard",
 				"cost": {
