@@ -32,7 +32,7 @@
 				"orderLabel": "Hour (Electrical)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "40",
 					"MYR": "90",
 					"CNY": "180"
 				},
@@ -50,7 +50,7 @@
 				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "15",
 					"MYR": "10",
 					"CNY": "0"
 				},
@@ -96,7 +96,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "25"
 						}
@@ -117,7 +117,7 @@
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
 		"startPrice": {
-			"SGD": "84",
+			"SGD": "87",
 			"MYR": "135",
 			"CNY": "280"
 		},
@@ -146,7 +146,7 @@
 				"orderLabel": "Trip (Site Survey / 冷气项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "15",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -192,7 +192,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "25"
 						}
@@ -296,7 +296,7 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "45",
 					"MYR": "35",
 					"CNY": "75"
 				},
@@ -314,7 +314,7 @@
 				"orderLabel": "Trip (Cleaning Project Survey / 深洗项目调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "80"
 				},
@@ -332,7 +332,7 @@
 				"orderLabel": "Job (Cleaning Project Survey / 深洗项目调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "80"
 				},
@@ -360,7 +360,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
