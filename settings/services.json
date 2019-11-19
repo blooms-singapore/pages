@@ -216,9 +216,9 @@
 	},
 	"cleaning-standard": {
 		"name": "Standard Cleaning",
-		"lastSlot": "17:30",
+		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "35",
+			"SGD": "30",
 			"MYR": "65",
 			"CNY": "195"
 		},
@@ -258,7 +258,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
