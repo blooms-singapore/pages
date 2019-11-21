@@ -781,7 +781,25 @@
 					"base": 60
 				}
 			},
-			"unlock-others": {
+			"Misc Projects": {
+				"label":"Misc Projects / 其它项目",
+				"orderLabel": "Job (Misc Projects / 其它项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Survey": {
 				"label": "Other lock works survey / 其他装，拆，开锁工调查",
 				"orderLabel": "Trip (Other works survey)",
 				"description": "Label standard",
@@ -793,7 +811,7 @@
 				"quantity": {
 					"label": "Trip",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
