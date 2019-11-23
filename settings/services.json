@@ -4,7 +4,7 @@
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "75",
+			"MYR": "70",
 			"CNY": "150"
 		},
 		"hasNote": 1,
@@ -15,7 +15,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "75",
+					"MYR": "70",
 					"CNY": "150"
 				},
 				"quantity": {
@@ -33,7 +33,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "90",
+					"MYR": "85",
 					"CNY": "180"
 				},
 				"quantity": {
@@ -219,7 +219,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "65",
+			"MYR": "60",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -231,7 +231,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "27.5",
+					"MYR": "25",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -267,7 +267,7 @@
 						"label": "Landed House / 有地住宅 : 2 crews / 人",
 						"cost": {
 							"SGD": "15",
-							"MYR": "27.5",
+							"MYR": "25",
 							"CNY": "82.5"
 						},
 						"oneOffCost": {
