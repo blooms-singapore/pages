@@ -117,7 +117,7 @@
 		"name": "Aircon Works",
 		"lastSlot": "17:00",
 		"startPrice": {
-			"SGD": "87",
+			"SGD": "75",
 			"MYR": "135",
 			"CNY": "280"
 		},
@@ -128,7 +128,7 @@
 				"orderLabel": "Hour (Aircon Service / 冷气维护)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "87",
+					"SGD": "75",
 					"MYR": "135",
 					"CNY": "280"
 				},
@@ -146,7 +146,7 @@
 				"orderLabel": "Trip (Site Survey / 冷气项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "5",
 					"MYR": "0",
 					"CNY": "0"
 				},
