@@ -141,6 +141,96 @@
 					"base": 60
 				}
 			},
+			"Chem Wash #1": {
+				"label": "Chem Wash 1 Unit @ SGD60",
+				"orderLabel": "Unit (Chem Wash 1 Unit @ SGD60)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #2": {
+				"label": "Chem Wash 2 Units @ SGD110",
+				"orderLabel": "Unit (Chem Wash 2 Units @ SGD110)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "110",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #3": {
+				"label": "Chem Wash 3 Units @ SGD150",
+				"orderLabel": "Unit (Chem Wash 3 Units @ SGD150)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "150",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #4": {
+				"label": "Chem Wash 4 Units @ SGD200",
+				"orderLabel": "Unit (Chem Wash 4 Units @ SGD200)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "200",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #5": {
+				"label": "Chem Wash 5 Units @ SGD250",
+				"orderLabel": "Unit (Chem Wash 5 Units @ SGD250)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "250",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
 			"Site Survey": {
 				"label": "Site Survey / 实地调查",
 				"orderLabel": "Trip (Site Survey / 冷气项目)",
