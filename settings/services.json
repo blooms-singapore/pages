@@ -123,9 +123,9 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"service": {
-				"label": "Aircon Service / 冷气维护",
-				"orderLabel": "Hour (Aircon Service / 冷气维护)",
+			"Standard Wash": {
+				"label": "Standard Wash / 普通洗",
+				"orderLabel": "Hour (Standard Wash / 普通洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
