@@ -143,7 +143,7 @@
 			},
 			"Chem Wash #1": {
 				"label": "Chem Wash 1 Unit @ SGD60",
-				"orderLabel": "Unit (Chem Wash 1 Unit @ SGD60)",
+				"orderLabel": "Order (Chem Wash 1 Unit @ SGD60)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -161,7 +161,7 @@
 			},
 			"Chem Wash #2": {
 				"label": "Chem Wash 2 Units @ SGD110",
-				"orderLabel": "Unit (Chem Wash 2 Units @ SGD110)",
+				"orderLabel": "Order (Chem Wash 2 Units @ SGD110)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "110",
@@ -179,7 +179,7 @@
 			},
 			"Chem Wash #3": {
 				"label": "Chem Wash 3 Units @ SGD150",
-				"orderLabel": "Unit (Chem Wash 3 Units @ SGD150)",
+				"orderLabel": "Order (Chem Wash 3 Units @ SGD150)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
@@ -197,7 +197,7 @@
 			},
 			"Chem Wash #4": {
 				"label": "Chem Wash 4 Units @ SGD200",
-				"orderLabel": "Unit (Chem Wash 4 Units @ SGD200)",
+				"orderLabel": "Order (Chem Wash 4 Units @ SGD200)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "200",
@@ -215,7 +215,7 @@
 			},
 			"Chem Wash #5": {
 				"label": "Chem Wash 5 Units @ SGD250",
-				"orderLabel": "Unit (Chem Wash 5 Units @ SGD250)",
+				"orderLabel": "Order (Chem Wash 5 Units @ SGD250)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "250",
