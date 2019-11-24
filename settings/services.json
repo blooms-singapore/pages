@@ -125,7 +125,7 @@
 		"options": {
 			"Malaysia SW & CW": {
 				"label": "Standard or Chemical Wash / 普通或深化洗 (Malaysia Bookings Only)",
-				"orderLabel": "Hour (Standard or Chemical Wash / 普通或深化洗 @ RM135 - Malaysia Bookings Only)",
+				"orderLabel": "Hour (Standard or Chemical Wash / 普通或深化洗 - Malaysia Bookings Only)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
@@ -142,8 +142,8 @@
 				}
 			},
 			"Singapore SW": {
-				"label": "Standard Wash / 普通洗 (Singapore Bookings Only)",
-				"orderLabel": "Hour (Standard Wash / 普通洗 - Singapore Bookings Only)",
+				"label": "Standard Wash (Singapore Bookings Only)",
+				"orderLabel": "Hour (Standard Wash - Singapore Bookings Only)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
