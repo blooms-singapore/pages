@@ -123,9 +123,9 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Malaysia SC & CW": {
-				"label": "Standard or Chemical Wash / 普通或深化洗 (Malaysia Bookings Only)",
-				"orderLabel": "Hour (Standard or Chemical Wash / 普通或深化洗)",
+			"Malaysia SW & CW": {
+				"label": "Standard or Chemical Wash / 普通或深化洗 @ RM135 (Malaysia Bookings Only)",
+				"orderLabel": "Hour (Standard or Chemical Wash / 普通或深化洗 @ RM135 (Malaysia Bookings Only))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
@@ -141,9 +141,9 @@
 					"base": 60
 				}
 			},
-			"Singapore SC": {
-				"label": "Standard Wash / 化洗 (Singapore Bookings Only)",
-				"orderLabel": "Hour (Standard Wash / 化洗 (Singapore Bookings Only)",
+			"Singapore SW": {
+				"label": "Standard Wash / 普通洗 @ SGD75 (Singapore Bookings Only)",
+				"orderLabel": "Hour (Standard Wash / 普通洗 @ SGD75 (Singapore Bookings Only))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
@@ -160,8 +160,8 @@
 				}
 			},
 			"Chem Wash #1": {
-				"label": "Chem Wash 1 Unit @ SGD60",
-				"orderLabel": "Order (Chem Wash 1 Unit @ SGD60)",
+				"label": "Chem Wash 1 Unit @ SGD60 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 1 Unit @ SGD60 (Singapore Bookings Only))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -178,8 +178,8 @@
 				}
 			},
 			"Chem Wash #2": {
-				"label": "Chem Wash 2 Units @ SGD110",
-				"orderLabel": "Order (Chem Wash 2 Units @ SGD110)",
+				"label": "Chem Wash 2 Units @ SGD110 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 2 Units @ SGD110 (Singapore Bookings Only))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "110",
@@ -196,8 +196,8 @@
 				}
 			},
 			"Chem Wash #3": {
-				"label": "Chem Wash 3 Units @ SGD150",
-				"orderLabel": "Order (Chem Wash 3 Units @ SGD150)",
+				"label": "Chem Wash 3 Units @ SGD150 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 3 Units @ SGD150 (Singapore Bookings Only))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
@@ -214,8 +214,8 @@
 				}
 			},
 			"Chem Wash #4": {
-				"label": "Chem Wash 4 Units @ SGD200",
-				"orderLabel": "Order (Chem Wash 4 Units @ SGD200)",
+				"label": "Chem Wash 4 Units @ SGD200 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 4 Units @ SGD200 (Singapore Bookings Only))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "200",
@@ -232,8 +232,8 @@
 				}
 			},
 			"Chem Wash #5": {
-				"label": "Chem Wash 5 Units @ SGD250",
-				"orderLabel": "Order (Chem Wash 5 Units @ SGD250)",
+				"label": "Chem Wash 5 Units @ SGD250 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 5 Units @ SGD250 (Singapore Bookings Only))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "250",
