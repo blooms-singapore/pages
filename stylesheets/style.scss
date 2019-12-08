@@ -63,3 +63,11 @@ table{
   font-size: 18px;
   font-weight: 200;
 }
+
+.no-list{
+  margin-left: 0;
+  padding-left: 0;
+  li{
+    list-style: none;
+  }
+}
