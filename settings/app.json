@@ -7,7 +7,7 @@
   "homeTitle": "Choose a home service",
   "promptAddress": "To proceed with booking, please register your address, contact name and phone number.",
   "promptLogin": "Please login to continue.",
-  "noteLabel": "Tap here to input non-standard job info: Price, Survey Order No, Requests, Comments, etc..",
+  "noteLabel": "Input your Quotation info here: Price, Survey Order No, Requests, Comments, etc..",
   "defaultCountryCode": "60",
   "defaultCurrency": "MYR",
   "customerSupport": "+6010 883 0800",
@@ -20,7 +20,7 @@
     "MYR": 5,
     "CNY": 12
   },
-  "timeBuffer":1260,
+  "timeBuffer":600,
   "timeStart": {
     "hour": 9,
     "minutes": 0

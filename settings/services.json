@@ -4,7 +4,7 @@
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "75",
+			"MYR": "70",
 			"CNY": "150"
 		},
 		"hasNote": 1,
@@ -15,7 +15,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "75",
+					"MYR": "70",
 					"CNY": "150"
 				},
 				"quantity": {
@@ -32,8 +32,8 @@
 				"orderLabel": "Hour (Electrical)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
-					"MYR": "90",
+					"SGD": "40",
+					"MYR": "85",
 					"CNY": "180"
 				},
 				"quantity": {
@@ -50,7 +50,7 @@
 				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "5",
 					"MYR": "10",
 					"CNY": "0"
 				},
@@ -96,7 +96,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "25"
 						}
@@ -115,20 +115,20 @@
 	},
 	"aircon": {
 		"name": "Aircon Works",
-		"lastSlot": "16:00",
+		"lastSlot": "17:00",
 		"startPrice": {
-			"SGD": "84",
+			"SGD": "75",
 			"MYR": "135",
 			"CNY": "280"
 		},
 		"hasNote": 1,
 		"options": {
-			"service": {
-				"label": "Aircon Service / 冷气维护",
-				"orderLabel": "Hour (Aircon Service / 冷气维护)",
+			"Malaysia SW & CW": {
+				"label": "Standard or Chemical Wash / 普通或深化洗 (Malaysia Bookings Only)",
+				"orderLabel": "Hour (Standard or Chemical Wash / 普通或深化洗 - Malaysia Bookings Only)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "87",
+					"SGD": "75",
 					"MYR": "135",
 					"CNY": "280"
 				},
@@ -141,12 +141,120 @@
 					"base": 60
 				}
 			},
+			"Singapore SW": {
+				"label": "Standard Wash (Singapore Bookings Only)",
+				"orderLabel": "Hour (Standard Wash - Singapore Bookings Only)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "75",
+					"MYR": "135",
+					"CNY": "280"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #1": {
+				"label": "Chem Wash 1 Unit @ SGD60 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 1 Unit @ SGD 60 - Singapore Bookings Only)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #2": {
+				"label": "Chem Wash 2 Units @ SGD110 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 2 Units @ SGD110 - Singapore Bookings Only)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "110",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #3": {
+				"label": "Chem Wash 3 Units @ SGD150 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 3 Units @ SGD150 - Singapore Bookings Only)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "150",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #4": {
+				"label": "Chem Wash 4 Units @ SGD200 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 4 Units @ SGD200 - Singapore Bookings Only)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "200",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Chem Wash #5": {
+				"label": "Chem Wash 5 Units @ SGD250 (Singapore Bookings Only)",
+				"orderLabel": "Order (Chem Wash 5 Units @ SGD250 - Singapore Bookings Only)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "250",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
 			"Site Survey": {
 				"label": "Site Survey / 实地调查",
 				"orderLabel": "Trip (Site Survey / 冷气项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "5",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -192,7 +300,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "25"
 						}
@@ -216,10 +324,10 @@
 	},
 	"cleaning-standard": {
 		"name": "Standard Cleaning",
-		"lastSlot": "17:30",
+		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "35",
-			"MYR": "65",
+			"SGD": "30",
+			"MYR": "60",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -231,7 +339,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "27.5",
+					"MYR": "25",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -258,7 +366,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
@@ -267,7 +375,7 @@
 						"label": "Landed House / 有地住宅 : 2 crews / 人",
 						"cost": {
 							"SGD": "15",
-							"MYR": "27.5",
+							"MYR": "25",
 							"CNY": "82.5"
 						},
 						"oneOffCost": {
@@ -296,7 +404,7 @@
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "45",
 					"MYR": "35",
 					"CNY": "75"
 				},
@@ -314,7 +422,7 @@
 				"orderLabel": "Trip (Cleaning Project Survey / 深洗项目调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "80"
 				},
@@ -332,7 +440,7 @@
 				"orderLabel": "Job (Cleaning Project Survey / 深洗项目调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "80"
 				},
@@ -360,7 +468,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
@@ -384,7 +492,7 @@
 	},
 	"painting": {
 		"name": "Painting",
-		"lastSlot": "16:00",
+		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "45",
@@ -622,7 +730,7 @@
 	},
 	"landscape": {
 		"name": "Landscaping",
-		"lastSlot": "1630",
+		"lastSlot": "1430",
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "50",
@@ -635,12 +743,31 @@
 				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "5",
+					"MYR": "20",
 					"CNY": "20"
 				},
 				"quantity": {
 					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			"Project": {
+				"label": "Non-Standard Project / 非标准项目",
+				"orderLabel": "Job (Non-Standard Project / 非标准项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"default": 0,
@@ -654,7 +781,7 @@
 				"orderLabel": "Hour (Grass Cutting / 割草预约点钟)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "20",
 					"MYR": "50",
 					"CNY": "50"
 				},
@@ -682,7 +809,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
@@ -701,7 +828,7 @@
 	},
 	"locksmith": {
 		"name": "Locksmith",
-		"lastSlot": "1630",
+		"lastSlot": "2330",
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "80",
@@ -781,7 +908,25 @@
 					"base": 60
 				}
 			},
-			"unlock-others": {
+			"Misc Projects": {
+				"label":"Misc Projects / 其它项目",
+				"orderLabel": "Job (Misc Projects / 其它项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Survey": {
 				"label": "Other lock works survey / 其他装，拆，开锁工调查",
 				"orderLabel": "Trip (Other works survey)",
 				"description": "Label standard",
@@ -793,7 +938,7 @@
 				"quantity": {
 					"label": "Trip",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
