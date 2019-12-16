@@ -123,42 +123,6 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Malaysia SW": {
-				"label": "Standard / 普通洗",
-				"orderLabel": "Hour (Standard / 普通洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "60",
-					"CNY": "130"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 30,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Malaysia CW": {
-				"label": "Chemical Wash / 深入化洗",
-				"orderLabel": "Hour (Chemical Wash / 深入化洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 60,
-					"max": 0
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
 			"Chem Wash #1": {
 				"label": "Chem Wash 1 Unit @ SGD60 (Singapore Bookings Only)",
 				"orderLabel": "Order (Chem Wash 1 Unit @ SGD 60 - Singapore Bookings Only)",
