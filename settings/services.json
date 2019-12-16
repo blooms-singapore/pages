@@ -128,9 +128,9 @@
 				"orderLabel": "Order (Standard Wash / 普通洗 - Malaysia Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
-					"MYR": "60",
-					"CNY": "130"
+					"SGD": "50",
+					"MYR": "120",
+					"CNY": "260"
 				},
 				"quantity": {
 					"label": "Order",
