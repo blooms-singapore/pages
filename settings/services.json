@@ -124,8 +124,8 @@
 		"hasNote": 1,
 		"options": {
 			"Malaysia SW": {
-				"label": "Standard / 普通洗 (Malaysia Booking / 马来西亚预定)",
-				"orderLabel": "Hour (Standard / 普通洗 - Malaysia Booking)",
+				"label": "Standard / 普通洗",
+				"orderLabel": "Hour (Standard / 普通洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -142,8 +142,8 @@
 				}
 			},
 			"Malaysia CW": {
-				"label": "Chemical Wash / 深入化洗 (Malaysia Booking / 马来西亚预定)",
-				"orderLabel": "Hour (Chemical Wash / 深入化洗 - Malaysia Booking)",
+				"label": "Chemical Wash / 深入化洗",
+				"orderLabel": "Hour (Chemical Wash / 深入化洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
