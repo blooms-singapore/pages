@@ -231,24 +231,9 @@
 					"base": 60
 				}
 			},
-			"Chem Wash #5": {
-				"label": "Chem Wash 5 Units @ SGD250 (Singapore Bookings Only)",
-				"orderLabel": "Order (Chem Wash 5 Units @ SGD250 - Singapore Bookings Only)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "250",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
+			"Singapore": {
+				"label": "Singapore Booking"
+			},				
 			"Site Survey": {
 				"label": "Site Survey / 实地调查",
 				"orderLabel": "Trip (Site Survey / 冷气项目)",
