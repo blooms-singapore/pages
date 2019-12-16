@@ -117,26 +117,26 @@
 		"name": "Aircon Works",
 		"lastSlot": "17:00",
 		"startPrice": {
-			"SGD": "75",
-			"MYR": "130",
-			"CNY": "280"
+			"SGD": "18",
+			"MYR": "40",
+			"CNY": "100"
 		},
 		"hasNote": 1,
 		"options": {
-			"Malaysia SW & CW": {
-				"label": "Standard or Chemical Wash / 普通或深化洗 (Malaysia Bookings Only)",
-				"orderLabel": "Hour (Standard or Chemical Wash / 普通或深化洗 - Malaysia Bookings Only)",
+			"Malaysia SW": {
+				"label": "Standard / 普通洗 (Malaysia Booking)",
+				"orderLabel": "Hour (Standard Wash / 普通洗 - Malaysia Booking)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
-					"MYR": "130",
+					"MYR": "80",
 					"CNY": "280"
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 0,
+					"min": 30,
 					"max": 0,
-					"increment": 30,
+					"increment": 15,
 					"default": 0,
 					"base": 60
 				}
