@@ -124,7 +124,7 @@
 		"hasNote": 1,
 		"options": {
 			"Malaysia SW": {
-				"label": "Standard Wash / 普通洗 (Malaysia Booking / 马来西亚预定)",
+				"label": "Standard Wash / 普通洗 Malaysia Booking / 马来西亚预定",
 				"orderLabel": "Order (Standard Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -142,7 +142,7 @@
 				}
 			},
 			"Malaysia CW": {
-				"label": "Chemical Wash / 深入化洗 (Malaysia Booking / 马来西亚预定)",
+				"label": "Chemical Wash / 深入化洗 Malaysia Booking / 马来西亚预定",
 				"orderLabel": "Hour (Chemical Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
