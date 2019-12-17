@@ -117,9 +117,9 @@
 		"name": "Aircon Works",
 		"lastSlot": "17:00",
 		"startPrice": {
-			"SGD": "25",
+			"SGD": "40",
 			"MYR": "60",
-			"CNY": "135"
+			"CNY": "230"
 		},
 		"hasNote": 1,
 		"options": {
