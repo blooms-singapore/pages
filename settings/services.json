@@ -159,8 +159,8 @@
 					"base": 60
 				}
 			},
-			"Malaysia Cassette CW": {
-				"label": "Cassette Chemical Wash / 天井式深入化洗 (Malaysia Booking / 马来西亚预定)",
+			"Malaysia Cassette CW 2-3HP": {
+				"label": "Cassette Chemical Wash / 天井式深入化洗 - 2 to 3HP （马力）Malaysia Booking / 马来西亚预定",
 				"orderLabel": "Hour (Cassette Chemical Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -174,7 +174,25 @@
 					"max": 0,
 					"increment": 150,
 					"default": 0,
-					"base": 150
+					"base": 60
+				}
+			},
+			"Malaysia Cassette CW 3.5 to 5HP": {
+				"label": "Cassette Chemical Wash / 天井式深入化洗 - 3.5 to 5HP （马力）Malaysia Booking / 马来西亚预定",
+				"orderLabel": "Hour (Cassette Chemical Wash - Malaysia)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "70",
+					"MYR": "196",
+					"CNY": "365"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 150,
+					"default": 0,
+					"base": 60
 				}
 			},
 			"Chem Wash #1": {
