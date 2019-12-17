@@ -236,7 +236,7 @@
 				"orderLabel": "Hour (Standard Wash - Sin)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "75",
+					"SGD": "80",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -244,7 +244,7 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 15,
 					"default": 0,
 					"base": 60
 				}
