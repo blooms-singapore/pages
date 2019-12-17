@@ -248,7 +248,7 @@
 					"default": 0,
 					"base": 60
 				}
-			},
+			}
 		},
 		"types": {
 			"house": {
