@@ -338,9 +338,9 @@
 		"name": "Deep Cleaning",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "70",
-			"MYR": "185",
-			"CNY": "350"
+			"SGD": "35",
+			"MYR": "80",
+			"CNY": "180"
 		},
 		"hasNote": 1,
 		"options": {
