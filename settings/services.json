@@ -160,7 +160,7 @@
 				}
 			},
 			"Malaysia Cassette CW 2-3HP": {
-				"label": "Cassette Chemical Wash / 天井式化洗 2 to 3HP（马力）Malaysia Booking / 马来西亚预定",
+				"label": "Cassette Chemical Wash / 天井式化洗 : 2 to 3HP（马力）Malaysia Booking / 马来西亚预定",
 				"orderLabel": "Hour (Cassette Chemical Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -178,7 +178,7 @@
 				}
 			},
 			"Malaysia Cassette CW 3.5 to 5HP": {
-				"label": "Cassette Chemical Wash / 天井式深入化洗 3.5 to 5HP（马力）Malaysia Booking / 马来西亚预定",
+				"label": "Cassette Chemical Wash / 天井式化洗 : 3.5 to 5HP（马力）Malaysia Booking / 马来西亚预定",
 				"orderLabel": "Hour (Cassette Chemical Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -195,81 +195,9 @@
 					"base": 60
 				}
 			},
-			"Chem Wash #1": {
-				"label": "Chem Wash 1 Unit @ SGD60 (Singapore Bookings Only)",
-				"orderLabel": "Order (Chem Wash 1 Unit @ SGD 60 - Singapore Bookings Only)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Chem Wash #2": {
-				"label": "Chem Wash 2 Units @ SGD110 (Singapore Bookings Only)",
-				"orderLabel": "Order (Chem Wash 2 Units @ SGD110 - Singapore Bookings Only)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "110",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Chem Wash #3": {
-				"label": "Chem Wash 3 Units @ SGD150 (Singapore Bookings Only)",
-				"orderLabel": "Order (Chem Wash 3 Units @ SGD150 - Singapore Bookings Only)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "150",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Chem Wash #4": {
-				"label": "Chem Wash 4 Units @ SGD200 (Singapore Bookings Only)",
-				"orderLabel": "Order (Chem Wash 4 Units @ SGD200 - Singapore Bookings Only)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "200",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
 			"Site Survey": {
 				"label": "Site Survey / 实地调查",
-				"orderLabel": "Trip (Site Survey / 冷气项目)",
+				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -286,8 +214,8 @@
 				}
 			},
 			"Aircon Project": {
-				"label": "Aircon Project / 冷气项目",
-				"orderLabel": "Job (Aircon Project / 冷气项目)",
+				"label": "Aircon Project / 空调项目",
+				"orderLabel": "Job (Aircon Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
