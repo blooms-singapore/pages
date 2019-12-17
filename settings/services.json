@@ -232,7 +232,7 @@
 				}
 			},
 			"Singapore SW": {
-				"label": " Singapore / Standard Wash",
+				"label": "Singapore / Standard Wash",
 				"orderLabel": "Hour (Standard Wash - Sin)",
 				"description": "Label standard",
 				"cost": {
