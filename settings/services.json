@@ -267,7 +267,7 @@
 					"base": 60
 				}
 			}
-		},
+		}
 		"types": {
 			"house": {
 				"label": "House Type",
