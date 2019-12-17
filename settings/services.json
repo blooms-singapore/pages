@@ -124,7 +124,7 @@
 		"hasNote": 1,
 		"options": {
 			"Malaysia SW": {
-				"label": "Malaysia/马来西亚 Standard Wash/普通洗 ",
+				"label": "Malaysia / 马来西亚 Standard Wash/普通洗 ",
 				"orderLabel": "Hour (Standard Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -142,7 +142,7 @@
 				}
 			},
 			"Malaysia CW": {
-				"label": "Malaysia Booking / 马来西亚预定 Chemical Wash / 深入化洗",
+				"label": "Malaysia / 马来西亚 Chemical Wash / 深入化洗",
 				"orderLabel": "Hour (Chemical Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -160,7 +160,7 @@
 				}
 			},
 			"Malaysia Cassette CW 2-3HP": {
-				"label": "Malaysia Booking / 马来西亚预定 Cassette Chemical Wash / 天井式化洗 : 2 to 3HP（马力）",
+				"label": "Malaysia / 马来西亚 Cassette Chemical Wash / 天井式化洗 : 2 to 3HP（马力）",
 				"orderLabel": "Hour (Cassette Chemical Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -178,7 +178,7 @@
 				}
 			},
 			"Malaysia Cassette CW 3.5 to 5HP": {
-				"label": "Malaysia Booking / 马来西亚预定 Cassette Chemical Wash / 天井式化洗 : 3.5 to 5HP（马力）",
+				"label": "Malaysia / 马来西亚 Cassette Chemical Wash / 天井式化洗 : 3.5 to 5HP（马力）",
 				"orderLabel": "Hour (Cassette Chemical Wash - Malaysia)",
 				"description": "Label standard",
 				"cost": {
@@ -232,7 +232,7 @@
 				}
 			},
 			"Singapore SW": {
-				"label": " Singapore Booking Standard Wash",
+				"label": " Singapore / Standard Wash",
 				"orderLabel": "Hour (Standard Wash - Sin)",
 				"description": "Label standard",
 				"cost": {
@@ -250,7 +250,7 @@
 				}
 			},
 			"Singapore CW": {
-				"label": "Singapore Booking Chemical Wash",
+				"label": "Singapore / Chemical Wash",
 				"orderLabel": "Hour (Standard Wash - Sin)",
 				"description": "Label standard",
 				"cost": {
