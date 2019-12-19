@@ -340,7 +340,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo / 公寓 : 1 crew / 人",
+						"label": "Condo (公寓) : 1 crew (人)",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -354,7 +354,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅 : 2 crews / 人",
+						"label": "Landed House (有地住宅) : 2 crews (人)",
 						"cost": {
 							"SGD": "15",
 							"MYR": "27.5",
@@ -374,28 +374,63 @@
 		"name": "Deep Cleaning / 大扫除清洗",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "30",
-			"MYR": "54",
-			"CNY": "195"
+			"SGD": "60",
+			"MYR": "121.50",
+			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
-			"condo": {
-				"label": "Cleaning Booking Hrs / 清洗预约点钟",
-				"displayLabel": "Cleaning Booking Hrs / 清洗预约点钟",
-				"orderLabel": "Hour",
+			"Deep Clean Booking": {
+				"label": "Deep Cleaning Booking: 2 Crews / 大扫除清洗预约：2人",
+				"orderLabel": "Hour (Deep Cleaning Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "27.5",
-					"CNY": "82.5"
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 120,
+					"min": 0,
 					"max": 0,
-					"default": 120,
 					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Survey": {
+				"label": "Cleaning Project Survey / 清洗项目实地调查",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			"Deep Clean Project": {
+				"label": "Book Cleaning Project / 预定清洗项目",
+				"orderLabel": "Job (Book Cleaning Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
 					"base": 60
 				}
 			}
@@ -406,7 +441,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo / 公寓 : 1 crew / 人",
+						"label": "Condominium (公寓) : 2 crews (人)",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -416,15 +451,15 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "10",
-							"CNY": "10"
+							"CNY": "0"
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅 : 2 crews / 人",
+						"label": "Landed House (有地住宅) : 2 crews (人)",
 						"cost": {
-							"SGD": "15",
-							"MYR": "27.5",
-							"CNY": "82.5"
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
 						},
 						"oneOffCost": {
 							"SGD": "0",
