@@ -380,42 +380,6 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Cleaning Survey": {
-				"label": "Cleaning Project Survey / 深洗项目调查",
-				"orderLabel": "Trip (Cleaning Project Survey / 深洗项目调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "20",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cleaning Project": {
-				"label": "Cleaning Project / 深洗项目",
-				"orderLabel": "Job (Cleaning Project Survey / 深洗项目调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
 			"condo": {
 				"label": "Cleaning",
 				"displayLabel": "Condominium",
@@ -453,24 +417,61 @@
 							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
-						}
-					},
+						        }
+					          },
 					"landed": {
 						"label": "Landed House: 2 crews / 有地住宅: 2人",
 						"cost": {
 							"SGD": "15",
 							"MYR": "35",
 							"CNY": "75"
-						},
+						         },
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
-						}
-					}
+						        }
+					           }
+				   },
+			"Cleaning Survey": {
+				"label": "Cleaning Project Survey / 深洗项目调查",
+				"orderLabel": "Trip (Cleaning Project Survey / 深洗项目调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "20",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
 				}
-			}
-		}
+			},
+			"Cleaning Project": {
+				"label": "Cleaning Project / 深洗项目",
+				"orderLabel": "Job (Cleaning Project Survey / 深洗项目调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "80"
+				      },
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				     }  
+			     }
+		      }
+	       }
+	   }
 	},
 	"painting": {
 		"name": "Painting",
