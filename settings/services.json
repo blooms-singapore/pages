@@ -371,30 +371,30 @@
 		}
 	},
 	"cleaning-deep": {
-		"name": "Deep Cleaning",
-		"lastSlot": "15:00",
+		"name": "Standard Cleaning",
+		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "35",
-			"MYR": "80",
-			"CNY": "180"
+			"SGD": "30",
+			"MYR": "54",
+			"CNY": "195"
 		},
 		"hasNote": 1,
 		"options": {
 			"condo": {
-				"label": "Cleaning",
-				"displayLabel": "Condominium",
+				"label": "Cleaning Booking Hrs / 清洗预约点钟",
+				"displayLabel": "Cleaning Booking Hrs / 清洗预约点钟",
 				"orderLabel": "Hour",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "35",
-					"CNY": "75"
+					"SGD": "15",
+					"MYR": "27.5",
+					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hour",
-					"default": 0,
-					"min": 0,
+					"min": 120,
 					"max": 0,
+					"default": 120,
 					"increment": 60,
 					"base": 60
 				}
@@ -406,7 +406,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo: 1 crew / 公寓: 1人",
+						"label": "Condo / 公寓 : 1 crew / 人",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -417,24 +417,24 @@
 							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
-						        }
-					          },
+						}
+					},
 					"landed": {
-						"label": "Landed House: 2 crews / 有地住宅: 2人",
+						"label": "Landed House / 有地住宅 : 2 crews / 人",
 						"cost": {
 							"SGD": "15",
-							"MYR": "35",
-							"CNY": "75"
-						         },
+							"MYR": "27.5",
+							"CNY": "82.5"
+						},
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
-						        }
+						}
 					}
-		      }
-	       }
-	   }
+				}
+			}
+		}
 	},
 	"painting": {
 		"name": "Painting",
