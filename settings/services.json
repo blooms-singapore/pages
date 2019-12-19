@@ -1,6 +1,6 @@
 {
 	"installation": {
-		"name": "Installation / 安装服务",
+		"name": "Installation / 安装",
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "30",
@@ -114,7 +114,7 @@
 		}
 	},
 	"aircon": {
-		"name": "Aircon Works / 冷气服务",
+		"name": "Aircon Works / 冷气",
 		"lastSlot": "17:00",
 		"startPrice": {
 			"SGD": "40",
@@ -305,7 +305,7 @@
 		}
 	},
 	"cleaning-standard": {
-		"name": "Standard Cleaning / 普通清洗服务",
+		"name": "Standard Cleaning / 普通清洗",
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "30",
@@ -371,7 +371,7 @@
 		}
 	},
 	"cleaning-deep": {
-		"name": "Deep Cleaning / 大扫除清洗服务",
+		"name": "Deep Cleaning / 大扫除清洗",
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "30",
@@ -437,7 +437,7 @@
 		}
 	},
 	"painting": {
-		"name": "Painting / 油漆服务",
+		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "20",
@@ -538,7 +538,7 @@
 		}
 	},
 	"plumbing": {
-		"name": "Plumbing / 水工服务",
+		"name": "Plumbing / 水工",
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "50",
@@ -675,7 +675,7 @@
 		}
 	},
 	"landscape": {
-		"name": "Landscaping / 园丁修剪服务",
+		"name": "Landscaping / 园丁修剪",
 		"lastSlot": "1430",
 		"startPrice": {
 			"SGD": "20",
@@ -773,7 +773,7 @@
 		}
 	},
 	"locksmith": {
-		"name": "Locksmith / 锁匠服务",
+		"name": "Locksmith / 锁匠",
 		"lastSlot": "2330",
 		"startPrice": {
 			"SGD": "80",
