@@ -317,7 +317,7 @@
 			"condo": {
 				"label": "Cleaning Booking Hrs / 清洗预约点钟",
 				"displayLabel": "Standard Clean / 普通清洗",
-				"orderLabel": "Hour",
+				"orderLabel": "Hour (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
