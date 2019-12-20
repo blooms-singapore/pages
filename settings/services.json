@@ -118,7 +118,7 @@
 		"lastSlot": "17:00",
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "60",
+			"MYR": "50",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -128,8 +128,8 @@
 				"orderLabel": "Hour (Malaysia Standard Wash / 普通洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
-					"MYR": "120",
+					"SGD": "35",
+					"MYR": "100",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -147,7 +147,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "130",
+					"MYR": "120",
 					"CNY": "300"
 				},
 				"quantity": {
