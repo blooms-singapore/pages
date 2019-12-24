@@ -593,7 +593,7 @@
 				},
 				"quantity": {
 					"label": "Pc",
-					"min": 1,
+					"min": 60,
 					"max": 0,
 					"increment": 60,
 					"default": 0,
