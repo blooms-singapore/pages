@@ -577,14 +577,14 @@
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "50",
-			"MYR": "50",
+			"MYR": "60",
 			"CNY": "50"
 		},
 		"hasNote": 1,
 		"options": {
 			"Sink": {
-				"label": "Sink / 水槽",
-				"orderLabel": "Pc (Sink / 水槽)",
+				"label": "Standard Plumbing 1st Hr / 普通湿工第1小时预定",
+				"orderLabel": "Pc (Standard Plumbing 1st Hr / 普通湿工第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -593,7 +593,7 @@
 				},
 				"quantity": {
 					"label": "Pc",
-					"min": 0,
+					"min": 1,
 					"max": 0,
 					"increment": 60,
 					"default": 0,
