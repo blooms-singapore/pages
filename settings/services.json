@@ -582,9 +582,9 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Sink": {
+			"Standard 1st Hr": {
 				"label": "Standard Plumbing 1st Hr / 普通湿工第1小时预定",
-				"orderLabel": "Pc (Standard Plumbing 1st Hr / 普通湿工第1小时)",
+				"orderLabel": "Hour (Standard Plumbing 1st Hr / 普通湿工第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -592,17 +592,17 @@
 					"CNY": "80"
 				},
 				"quantity": {
-					"label": "Pc",
-					"min": 60,
-					"max": 0,
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
 			},
-			"toilet": {
-				"label": "Toilet Cistern / 厕所冲水系统",
-				"orderLabel": "Pc (Toilet Cistern / 厕所冲水系统)",
+			"Standard =>2Hr": {
+				"label": "Standard Plumbing 2nd Hr & more / 普通湿工第2小时以上预定",
+				"orderLabel": "Hour (Standaed Plumbing 2nd Hr or more / 普通湿工第2小时以上预定)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -610,33 +610,15 @@
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Pc",
-					"min": 0,
+					"label": "Hour",
+					"min": 30,
 					"max": 0,
-					"increment": 60,
+					"increment": 30,
 					"default": 0,
 					"base": 60
 				}
 			},
-			"Tap or Shower fittings": {
-				"label": "Tap or Shower fittings / 水喉或淋浴配件",
-				"orderLabel": "Pc (Tap or Shower fittings / 水喉或淋浴配件)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			 "Site Survey": {
+			"Site Survey": {
 				"label": "Non Standard Wet Work Site Survey / 非标准湿工实地调查",
 				"orderLabel": "Trip (Non Standard Wet Work Survey / 非标准湿工实地调查)",
 				"description": "Label standard",
