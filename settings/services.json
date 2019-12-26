@@ -481,11 +481,29 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"survey": {
-				"label": "House Survey / 实地调查",
-				"description": "Painting Survey / 油漆调查",
+			"survey <2k": {
+				"label": "House Survey / 实地调查 (<2000ft2)",
+				"description": "Painting Survey / 油漆调查 (<2000ft2)",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+                          "survey 2k+": {
+				"label": "House Survey / 实地调查 (>=2000ft2)",
+				"description": "Painting Survey / 油漆调查 (>=2000ft2)",
+				"cost": {
+					"SGD": "20",
 					"MYR": "20",
 					"CNY": "70"
 				},
@@ -500,18 +518,18 @@
 				}
 			},
 			"Painting Booking": {
-				"label": "Painting Booking / 油漆预约点钟",
-				"orderLabel": "Hour (Painting Labour / 油漆工)",
+				"label": "1st Hour Booking / 第1小时预定",
+				"orderLabel": "Hour (1st Hr Booking / 第1小时预定)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "30",
 					"MYR": "45",
 					"CNY": "80"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
