@@ -475,8 +475,8 @@
 		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "20",
-			"MYR": "45",
+			"SGD": "30",
+			"MYR": "60",
 			"CNY": "110"
 		},
 		"hasNote": 1,
