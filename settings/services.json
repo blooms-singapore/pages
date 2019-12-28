@@ -482,7 +482,7 @@
 		"hasNote": 1,
 		"options": {
 			"MY Survey": {
-				"label": "Malaysia / 马来西亚 Paint Scope Survey / 油漆调查",
+				"label": "Malaysia / 马来西亚    Paint Scope Survey / 油漆调查",
 				"description": "Malaysia / 马来西亚 Scope Survey / 调查",
 				"cost": {
 					"SGD": "0",
@@ -500,7 +500,7 @@
 				}
 			},
                           "MY Paint Project": {
-				"label": "Malaysia / 马来西亚 Paint Project / 油漆项目",
+				"label": "Malaysia / 马来西亚    Paint Project / 油漆项目",
 				"description": "Malaysia / 马来西亚 Paint Project / 油漆项目",
 				"cost": {
 					"SGD": "0",
@@ -517,9 +517,9 @@
 					"multiplier": 1
 				}
 			},
-			"Paint Labour Booking": {
-				"label": "1st Hour Booking / 第1小时预定",
-				"orderLabel": "Hour (1st Hr Booking / 第1小时预定)",
+			"1st Hr Labour Booking": {
+				"label": "Malaysia / 马来西亚 1st Hour Booking / 第1小时预订",
+				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -535,7 +535,7 @@
 					"base": 60
 				}
 			},
-			"Paint project": {
+			"": {
 				"label": "Paint Project / 油漆项目",
 				"orderLabel": "Job (Paint Project / 油漆项目)",
 				"description": "Label standard",
