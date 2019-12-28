@@ -481,9 +481,9 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"survey <2k": {
-				"label": "House Survey / 实地调查 (<2000ft2)",
-				"description": "Painting Survey / 油漆调查 (<2000ft2)",
+			"MY Survey": {
+				"label": "Malaysia / 马来西亚 Paint Scope Survey / 油漆调查",
+				"description": "Malaysia / 马来西亚 Scope Survey / 调查",
 				"cost": {
 					"SGD": "0",
 					"MYR": "20",
@@ -499,13 +499,13 @@
 					"multiplier": 1
 				}
 			},
-                          "survey 2k+": {
-				"label": "House Survey / 实地调查 (>=2000ft2)",
-				"description": "Painting Survey / 油漆调查 (>=2000ft2)",
+                          "MY Paint Project": {
+				"label": "Malaysia / 马来西亚 Paint Project / 油漆项目",
+				"description": "Malaysia / 马来西亚 Paint Project / 油漆项目",
 				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "70"
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
@@ -517,13 +517,13 @@
 					"multiplier": 1
 				}
 			},
-			"Painting Booking": {
+			"Paint Labour Booking": {
 				"label": "1st Hour Booking / 第1小时预定",
 				"orderLabel": "Hour (1st Hr Booking / 第1小时预定)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "45",
+					"MYR": "60",
 					"CNY": "80"
 				},
 				"quantity": {
