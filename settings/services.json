@@ -128,7 +128,7 @@
 				"orderLabel": "Hour (Malaysia Standard Wash / 普通洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "100",
 					"MYR": "100",
 					"CNY": "260"
 				},
@@ -146,7 +146,7 @@
 				"orderLabel": "Hour (Malaysia Chemical Wash / 化洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
+					"SGD": "60",
 					"MYR": "120",
 					"CNY": "300"
 				},
@@ -164,7 +164,7 @@
 				"orderLabel": "Hour (Malaysia Small Cassette Chemical Wash / 小天井式化洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "75",
 					"MYR": "152",
 					"CNY": "310"
 				},
@@ -182,7 +182,7 @@
 				"orderLabel": "Hour (Malaysia Big Cassette Chemical Wash / 大天井式化洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "70",
+					"SGD": "98",
 					"MYR": "196",
 					"CNY": "365"
 				},
@@ -237,7 +237,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "0",
+					"MYR": "160",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -255,7 +255,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "110",
-					"MYR": "0",
+					"MYR": "220",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -485,7 +485,7 @@
 				"label": "Malaysia / 马来西亚    Scope Survey / 调查",
 				"description": "Malaysia / 马来西亚 Scope Survey / 调查",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "70"
 				},
@@ -500,11 +500,11 @@
 				}
 			},
                         "1st Hr Labour Booking": {
-				"label": "Malaysia / 马来西亚   1st Hour Booking / 第1小时预订",
+				"label": "Malaysia / 马来西亚    1st Hour Booking / 第1小时预订",
 				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "25",
 					"MYR": "55",
 					"CNY": "80"
 				},
@@ -518,11 +518,11 @@
 				}
 			},
 			"2nd Hr Labour Booking": {
-				"label": "Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订",
+				"label": "Malaysia / 马来西亚    2nd or more Hour Booking / 2小时以上预订",
 				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "0"
 				},
@@ -554,11 +554,11 @@
 				}
 			},
 		   "SIN <2000ft2 Survey": {
-				"label": "Singapore Scope Survey < 2000ft2",
+				"label": "Singapore Scope Survey   < 2000ft2",
 				"description": "Singapore Scope Survey < 2000ft2",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -572,11 +572,11 @@
 				}
 			},
 		"SIN >2000ft2 Survey": {
-				"label": "Singapore Scope Survey >= 2000ft2",
+				"label": "Singapore Scope Survey > = 2000ft2",
 				"description": "Singapore Scope Survey >= 2000ft2",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -595,7 +595,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "0",
+					"MYR": "90",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -613,11 +613,11 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Hour",
 					"min": 0,
 					"max": 0,
 					"increment": 60,
