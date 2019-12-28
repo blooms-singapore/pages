@@ -475,8 +475,8 @@
 		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "30",
-			"MYR": "60",
+			"SGD": "25",
+			"MYR": "55",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -500,7 +500,7 @@
 				}
 			},
                         "1st Hr Labour Booking": {
-				"label": "Malaysia / 马来西亚      1st Hour Booking / 第1小时预订",
+				"label": "Malaysia / 马来西亚: 1st Hour Booking / 第1小时预订",
 				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
 				"description": "Label standard",
 				"cost": {
@@ -518,7 +518,7 @@
 				}
 			},
 			"2nd Hr Labour Booking": {
-				"label": "Malaysia / 马来西亚       2nd or more Hour Booking / 2小时以上预订",
+				"label": "Malaysia / 马来西亚: 2nd or more Hour Booking / 2小时以上预订",
 				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
 				"description": "Label standard",
 				"cost": {
