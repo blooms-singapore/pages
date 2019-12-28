@@ -482,7 +482,7 @@
 		"hasNote": 1,
 		"options": {
 			"MY Survey": {
-				"label": "Malaysia / 马来西亚    Paint Scope Survey / 油漆调查",
+				"label": "Malaysia / 马来西亚    Scope Survey / 调查",
 				"description": "Malaysia / 马来西亚 Scope Survey / 调查",
 				"cost": {
 					"SGD": "0",
@@ -499,9 +499,63 @@
 					"multiplier": 1
 				}
 			},
-                          "MY Paint Project": {
-				"label": "Malaysia / 马来西亚    Paint Project / 油漆项目",
-				"description": "Malaysia / 马来西亚 Paint Project / 油漆项目",
+                        "1st Hr Labour Booking": {
+				"label": "Malaysia / 马来西亚   1st Hour Booking / 第1小时预订",
+				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "55",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"2nd Hr Labour Booking": {
+				"label": "Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订",
+				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+		  "Paint Project": {
+				"label": "Paint Project / 油漆项目",
+				"description": "Paint Project / 油漆项目",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+		   "SIN <2000ft2 Survey": {
+				"label": "Singapore Scope Survey < 2000ft2",
+				"description": "Singapore Scope Survey < 2000ft2",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
@@ -517,14 +571,32 @@
 					"multiplier": 1
 				}
 			},
-			"1st Hr Labour Booking": {
-				"label": "Malaysia / 马来西亚 1st Hour Booking / 第1小时预订",
-				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
+		"SIN >2000ft2 Survey": {
+				"label": "Singapore Scope Survey >= 2000ft2",
+				"description": "Singapore Scope Survey >= 2000ft2",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+                        "SIN 1st Hr Labour Booking": {
+				"label": "Singapore 1st Hour Booking",
+				"orderLabel": "Hour (Singapore 1st Hr Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "80"
+					"SGD": "45",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -535,25 +607,25 @@
 					"base": 60
 				}
 			},
-			"": {
-				"label": "Paint Project / 油漆项目",
-				"orderLabel": "Job (Paint Project / 油漆项目)",
+			"SIN 2nd Hr Labour Booking": {
+				"label": "Singapore 2nd or more Hour Booking",
+				"orderLabel": "Hour (Singapore >= 2nd Hour Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
-			}
-		},
+			},
+		    },
 		"types": {
 			"house": {
 				"label": "House Type",
