@@ -417,7 +417,7 @@
 				}
 			},
 			"Deep Clean Project": {
-				"label": "Book Cleaning Project / 预定清洗项目",
+				"label": "Deep Cleaning Project / 深度清洗项目",
 				"orderLabel": "Job (Deep Cleaning Project / 深度清洗项目)",
 				"description": "Label standard",
 				"cost": {
