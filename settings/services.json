@@ -4,7 +4,7 @@
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "70",
+			"MYR": "58",
 			"CNY": "150"
 		},
 		"hasNote": 1,
@@ -118,7 +118,7 @@
 		"lastSlot": "17:00",
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "50",
+			"MYR": "40",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -309,7 +309,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "54",
+			"MYR": "44.5",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -375,7 +375,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "60",
-			"MYR": "121.50",
+			"MYR": "130",
 			"CNY": "0"
 		},
 		"hasNote": 1,
@@ -476,7 +476,7 @@
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "25",
-			"MYR": "55",
+			"MYR": "44.5",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -667,7 +667,7 @@
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "50",
-			"MYR": "60",
+			"MYR": "67",
 			"CNY": "50"
 		},
 		"hasNote": 1,
@@ -786,7 +786,7 @@
 		"lastSlot": "1430",
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "50",
+			"MYR": "40",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -884,7 +884,7 @@
 		"lastSlot": "2330",
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "80",
+			"MYR": "67",
 			"CNY": "80"
 		},
 		"hasNote": 1,
