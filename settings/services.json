@@ -475,7 +475,7 @@
 		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "25",
+			"SGD": "29.5",
 			"MYR": "44.5",
 			"CNY": "110"
 		},
@@ -594,7 +594,7 @@
 				"orderLabel": "Hour (Singapore 1st Hr Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "35",
 					"MYR": "90",
 					"CNY": "0"
 				},
@@ -612,7 +612,7 @@
 				"orderLabel": "Hour (Singapore >= 2nd Hour Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "25",
 					"MYR": "40",
 					"CNY": "0"
 				},
