@@ -9,14 +9,14 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"MY Std 1st": {
-				"label": "Malaysia Booking: Standard 1st Hr / 标准第1小时",
+			"Std 1st": {
+				"label": "Standard 1st Hr / 标准第1小时",
 				"orderLabel": "Hour (Std Installation 1st Hr/普通安装第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
 					"MYR": "70",
-					"CNY": "150"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -27,14 +27,14 @@
 					"base": 60
 				}
 			},
-			"MY Std 2nd": {
-				"label": "Malaysia Booking: Standard => 2nd Hr / 普通安装第2小时以上",
+			"Std 2nd": {
+				"label": "Standard => 2nd Hr / 普通安装第2小时以上",
 				"orderLabel": "Hour (Std Installation => 2Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
 					"MYR": "55",
-					"CNY": "180"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -45,14 +45,14 @@
 					"base": 60
 				}
 			},
-                      "MY Elec 1st": {
-				"label": "Malaysia Booking: Electrical 1st Hr / 家电安装第1小时",
+                      "Elec 1st": {
+				"label": "Electrical 1st Hr / 家电安装第1小时",
 				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
 					"MYR": "85",
-					"CNY": "150"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -63,14 +63,14 @@
 					"base": 60
 				}
 			},
-			"MY Elec 2nd": {
-				"label": "Malaysia Booking: Electrical => 2Hr / 家电安装第2小时以上",
+			"Elec 2nd": {
+				"label": "Electrical => 2Hr / 家电安装第2小时以上",
 				"orderLabel": "Hour (Elec Installation => 2nd Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "75",
-					"CNY": "180"
+					"MYR": "70",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
@@ -116,80 +116,9 @@
 					"default": 0,
 					"base": 60
 				}
+                             }
 			},
-                "SG Std 1st": {
-				"label": "Singapore Booking: Standard 1st Hr / 标准第1小时",
-				"orderLabel": "Hour (Std Installation 1st Hr/普通安装第1小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "70",
-					"CNY": "150"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"SG Std 2nd": {
-				"label": "Singapore Booking: Standard => 2nd Hr / 普通安装第2小时以上",
-				"orderLabel": "Hour (Std Installation => 2Hr/家电安装第2小时以上)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "85",
-					"CNY": "180"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-                      "SG Elec 1st": {
-				"label": "Singapore Booking: Electrical 1st Hr / 家电安装第1小时",
-				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "70",
-					"CNY": "150"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"SG Elec 2nd": {
-				"label": "Singapore Booking: Electrical => 2Hr / 家电安装第2小时以上",
-				"orderLabel": "Hour (Elec Installation => 2nd Hr/家电安装第2小时以上)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "85",
-					"CNY": "180"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
+
 		"types": {
 			"house": {
 				"label": "House Type",
