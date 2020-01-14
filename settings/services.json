@@ -10,7 +10,7 @@
 		"hasNote": 1,
 		"options": {
 			"Std 1st": {
-				"label": "Standard 1st Hr / 标准第1小时",
+				"label": "Malaysia Booking: Standard 1st Hr / 标准第1小时",
 				"orderLabel": "Hour (Std Installation 1st Hr/普通安装第1小时)",
 				"description": "Label standard",
 				"cost": {
@@ -28,7 +28,7 @@
 				}
 			},
 			"Std 2nd": {
-				"label": "Standard => 2nd Hr / 普通安装第2小时以上",
+				"label": "Malaysia Booking: Standard => 2nd Hr / 普通安装第2小时以上",
 				"orderLabel": "Hour (Std Installation => 2Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
@@ -46,7 +46,7 @@
 				}
 			},
                       "Elec 1st": {
-				"label": "Electrical 1st Hr / 家电安装第1小时",
+				"label": "Malaysia Booking: Electrical 1st Hr / 家电安装第1小时",
 				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
 				"description": "Label standard",
 				"cost": {
@@ -64,7 +64,7 @@
 				}
 			},
 			"Elec 2nd": {
-				"label": "Electrical => 2Hr / 家电安装第2小时以上",
+				"label": "Malaysia Booking: Electrical => 2Hr / 家电安装第2小时以上",
 				"orderLabel": "Hour (Elec Installation => 2nd Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
