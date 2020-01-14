@@ -9,37 +9,73 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"standard": {
-				"label": "Standard / 标准",
-				"orderLabel": "Hour (Standard Installation / 普通安装)",
+			"Std 1st": {
+				"label": "Standard 1st Hr / 标准第1小时",
+				"orderLabel": "Hour (Std Installation 1st Hr/普通安装第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "35",
 					"MYR": "70",
 					"CNY": "150"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 0,
-					"increment": 30,
+					"max": 60,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
 			},
-			"electrical": {
-				"label": "Electrical 1st Hr/家电安装第1小时",
-				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
+			"Std 2nd": {
+				"label": "Standard => 2nd Hr / 普通安装第2小时以上",
+				"orderLabel": "Hour (Std Installation => 2Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "25",
 					"MYR": "85",
 					"CNY": "180"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+                      "Elec 1st": {
+				"label": "Electrical 1st Hr / 家电安装第1小时",
+				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "70",
+					"CNY": "150"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
 					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Elec 2nd": {
+				"label": "Electrical => 2Hr / 家电安装第2小时以上",
+				"orderLabel": "Hour (Elec Installation => 2nd Hr/家电安装第2小时以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "85",
+					"CNY": "180"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
 					"increment": 60,
 					"default": 0,
 					"base": 60
