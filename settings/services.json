@@ -32,7 +32,7 @@
 				"orderLabel": "Hour (Std Installation => 2Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -68,7 +68,7 @@
 				"orderLabel": "Hour (Elec Installation => 2nd Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "40",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -87,7 +87,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "10",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
