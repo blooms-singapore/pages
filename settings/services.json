@@ -33,7 +33,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
-					"MYR": "85",
+					"MYR": "55",
 					"CNY": "180"
 				},
 				"quantity": {
@@ -51,7 +51,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "70",
+					"MYR": "85",
 					"CNY": "150"
 				},
 				"quantity": {
@@ -69,7 +69,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "85",
+					"MYR": "75",
 					"CNY": "180"
 				},
 				"quantity": {
@@ -154,7 +154,7 @@
 				}
 			},
                       "SG Elec 1st": {
-				"label": "Singapore Booking: qElectrical 1st Hr / 家电安装第1小时",
+				"label": "Singapore Booking: Electrical 1st Hr / 家电安装第1小时",
 				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
 				"description": "Label standard",
 				"cost": {
