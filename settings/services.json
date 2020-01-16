@@ -154,7 +154,7 @@
 		"name": "Aircon Works / 冷气",
 		"lastSlot": "17:00",
 		"startPrice": {
-			"SGD": "40",
+			"SGD": "34",
 			"MYR": "40",
 			"CNY": "230"
 		},
@@ -238,7 +238,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
