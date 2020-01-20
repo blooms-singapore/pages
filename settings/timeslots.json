@@ -1,7 +1,8 @@
 {
 "global": {
     "Jan-25-2020": 1,
-    "Jan-26-2020": 1,
+    "Jan-26-2020": 1
+    },
   "services": {
       "cleaning-standard": {
        "Feb-01-2020": {
