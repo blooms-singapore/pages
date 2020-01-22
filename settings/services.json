@@ -3,7 +3,7 @@
 		"name": "Installation / 安装",
 		"lastSlot": "1630",
 		"startPrice": {
-			"SGD": "26.5",
+			"SGD": "35.5",
 			"MYR": "58",
 			"CNY": "150"
 		},
@@ -14,7 +14,7 @@
 				"orderLabel": "Hour (Std Installation 1st Hr/普通安装第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "45",
 					"MYR": "70",
 					"CNY": "0"
 				},
@@ -32,7 +32,7 @@
 				"orderLabel": "Hour (Std Installation => 2Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "35",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -50,7 +50,7 @@
 				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "55",
 					"MYR": "85",
 					"CNY": "0"
 				},
@@ -68,7 +68,7 @@
 				"orderLabel": "Hour (Elec Installation => 2nd Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "45",
 					"MYR": "75",
 					"CNY": "0"
 				},
