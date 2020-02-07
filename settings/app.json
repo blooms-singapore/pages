@@ -14,7 +14,7 @@
   "cancelBuffer": 72,
   "bookingDays": 21,
   "referralLimit": 1000,
-  "referralDiscount": 10,
+  "referralDiscount": 5,
   "discounts": {
     "SGD": 2,
     "MYR": 5,
