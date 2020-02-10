@@ -917,7 +917,8 @@
 		}
 	},
 	"locksmith": {
-		"name": "Locksmith / 锁匠 （Home & Cars)",
+		"name": "Locksmith / 锁匠 
+		（Home & Cars)",
 		"lastSlot": "2330",
 		"startPrice": {
 			"SGD": "80",
