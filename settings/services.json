@@ -162,7 +162,7 @@
 		"options": {
 			"Malaysia SW 1st 30min": {
 				"label": "1st 30min Malaysia / 马来西亚 Standard Wash / 普通洗 ",
-				"orderLabel": "Hour (1st 30min Malaysia Standard Wash / 普通洗)",
+				"orderLabel": "Job (1st 30min Malaysia Standard Wash / 普通洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
@@ -170,12 +170,12 @@
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
-					"increment": 30,
+					"increment": 60,
 					"default": 0,
-					"base": 30
+					"base": 60
 				}
 			},
 			"Malaysia SW": {
