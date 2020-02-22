@@ -364,7 +364,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "82.5",
+			"MYR": "76",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -376,7 +376,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "27.5",
+					"MYR": "25",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -412,7 +412,7 @@
 						"label": "Landed House (有地住宅) : 2 crews (人)",
 						"cost": {
 							"SGD": "15",
-							"MYR": "27.5",
+							"MYR": "25",
 							"CNY": "82.5"
 						},
 						"oneOffCost": {
