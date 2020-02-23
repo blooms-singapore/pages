@@ -939,7 +939,7 @@
 		"lastSlot": "2330",
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "61.5",
+			"MYR": "52",
 			"CNY": "80"
 		},
 		"hasNote": 1,
@@ -950,7 +950,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "80",
+					"MYR": "60",
 					"CNY": "80"
 				},
 				"quantity": {
@@ -968,7 +968,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "120",
-					"MYR": "120",
+					"MYR": "100",
 					"CNY": "120"
 				},
 				"quantity": {
@@ -986,7 +986,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "95",
-					"MYR": "95",
+					"MYR": "85",
 					"CNY": "95"
 				},
 				"quantity": {
@@ -998,7 +998,25 @@
 					"base": 60
 				}
 			},
-			"unlock-digital": {
+			"Survey": {
+				"label": "Other lock works survey / 其他装，拆，开锁工调查",
+				"orderLabel": "Trip (Other works survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "20",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Digital Lock": {
 				"label": "Change new non-digital lock / 更换普通锁 (10am to 6pm)",
 				"orderLabel": "(Non-digital lock change)",
 				"description": "Label standard",
