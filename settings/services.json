@@ -161,8 +161,8 @@
 		"hasNote": 1,
 		"options": {
 			"Malaysia SW 1st 30min": {
-				"label": "1st 30min Malaysia / 马来西亚 Standard Wash / 普通洗 - Only for first 2 units ",
-				"orderLabel": "Job (1st 30min Malaysia Standard Wash / 普通洗 - first 2 units)",
+				"label": "1st 30min Malaysia / 马来西亚 Standard Wash / 普通洗 - Only 1 or 2 units",
+				"orderLabel": "Job (1st 30min Malaysia Standard Wash / 普通洗 - Only 1 or 2 units)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
