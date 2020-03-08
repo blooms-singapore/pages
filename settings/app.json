@@ -10,7 +10,7 @@
   "noteLabel": "Input your Quotation info here: Price, Survey Order No, Requests, Comments, etc..",
   "defaultCountryCode": "60",
   "defaultCurrency": "MYR",
-  "customerSupport": "+6010 883 0800",
+  "customerSupport": "+6010 935 2700",
   "cancelBuffer": 72,
   "bookingDays": 21,
   "referralLimit": 1000,
@@ -20,7 +20,7 @@
     "MYR": 5,
     "CNY": 12
   },
-  "timeBuffer":840,
+  "timeBuffer":780,
   "timeStart": {
     "hour": 9,
     "minutes": 0
