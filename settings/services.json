@@ -99,7 +99,7 @@
 					"base": 60
 				}
 			},
-			"project": {
+			"Project": {
 				"label": "Project / 项目",
 				"orderLabel": "Job (project)",
 				"description": "Label standard",
@@ -758,7 +758,7 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
@@ -781,9 +781,63 @@
 					"base": 60
 				}
 			},
+			"Water Tank 1st Hr": {
+				"label": "(B) Tank Wash 1st Hr / 水箱清洗第1小时",
+				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第1小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "110",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Water Tank 》=2nd Hr": {
+				"label": "(B) Tank Wash 2nd Hr Onward / 水箱清洗第2小时以上",
+				"orderLabel": "Hour (Tank Wash 2nd Hr Onward / 水箱清洗第2小时以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Other Tank Issue Survey": {
+				"label": "(B) Other Tank Issue Survey / 其它水箱调查",
+				"orderLabel": "Trip (Tank Issue Survey / 水箱调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
 			 "Project": {
-				"label": "(A) Project / 项目",
-				"orderLabel": "Job (Plumbing Project / 湿工项目)",
+				"label": "Project / 项目",
+				"orderLabel": "Job (Project / 项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
