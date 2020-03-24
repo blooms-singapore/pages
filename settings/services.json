@@ -718,7 +718,7 @@
 		}
 	},
 	"plumbing": {
-		"name": "Plumbing / 湿工",
+		"name": "Plumbing & Water Tank / 湿工和水箱",
 		"lastSlot": "1630",
 		"startPrice": {
 			"SGD": "50",
@@ -728,11 +728,11 @@
 		"hasNote": 1,
 		"options": {
 			"Standard 1st Hr": {
-				"label": "Standard Plumbing 1st Hr / 普通湿工第1小时预定",
-				"orderLabel": "Hour (Standard Plumbing 1st Hr / 普通湿工第1小时)",
+				"label": "(A) Std Plumbing 1st Hr / 普通湿工第1小时",
+				"orderLabel": "Hour (Std Plumbing 1st Hr / 普通湿工第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "40",
 					"MYR": "80",
 					"CNY": "80"
 				},
@@ -746,11 +746,11 @@
 				}
 			},
 			"Standard =>2Hr": {
-				"label": "Standard Plumbing 2nd Hr & more / 普通湿工第2小时以上预定",
-				"orderLabel": "Hour (Standaed Plumbing 2nd Hr or more / 普通湿工第2小时以上预定)",
+				"label": "(A) Std Plumbing 2nd Hr onward / 普通湿工第2小时以上",
+				"orderLabel": "Hour (Std Plumbing 2nd Hr onward / 普通湿工第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "60"
 				},
@@ -764,11 +764,11 @@
 				}
 			},
 			"Site Survey": {
-				"label": "Non Standard Wet Work Site Survey / 非标准湿工实地调查",
-				"orderLabel": "Trip (Non Standard Wet Work Survey / 非标准湿工实地调查)",
+				"label": "(A) Non-Standard Plumbing Survey / 非标准湿工调查",
+				"orderLabel": "Trip (Non-Std Plumbing Survey / 非标准湿工调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -782,8 +782,8 @@
 				}
 			},
 			 "Project": {
-				"label": "Wet Work Project / 湿工项目",
-				"orderLabel": "Job (Wet Work Project / 湿工项目)",
+				"label": "(A) Project / 项目",
+				"orderLabel": "Job (Plumbing Project / 湿工项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
