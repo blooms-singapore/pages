@@ -363,7 +363,7 @@
 		"name": "Standard Cleaning / 普通清洗",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "25",
+			"SGD": "55",
 			"MYR": "68",
 			"CNY": "195"
 		},
@@ -375,8 +375,8 @@
 				"orderLabel": "Hour (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "25",
+					"SGD": "20",
+					"MYR": "22.5",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -411,8 +411,8 @@
 					"landed": {
 						"label": "Landed House (有地住宅) : 2 crews (人)",
 						"cost": {
-							"SGD": "15",
-							"MYR": "25",
+							"SGD": "20",
+							"MYR": "22.5",
 							"CNY": "82.5"
 						},
 						"oneOffCost": {
