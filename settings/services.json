@@ -1,7 +1,7 @@
 {
 	"installation": {
 		"name": "Installation / 安装",
-		"lastSlot": "1630",
+		"lastSlot": "1500",
 		"startPrice": {
 			"SGD": "35.5",
 			"MYR": "57.0",
@@ -152,7 +152,7 @@
 	},
 	"aircon": {
 		"name": "Aircon Works / 冷气",
-		"lastSlot": "17:00",
+		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "34",
 			"MYR": "56.75",
