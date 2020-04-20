@@ -988,6 +988,85 @@
 			}
 		}
 	},
+	"Car Waxing": {
+		"name": "Car Waxing / 打蜡车",
+		"lastSlot": "15:00",
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "160",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Premium Wax": {
+				"label": "Premium Wax / 优质打蜡",
+				"orderLabel": "Hour (Prem Wax / 优质打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 90,
+					"max": 0,
+					"default": 60,
+					"increment": 30,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			"Econ Wax": {
+				"label": "Economic Wax / 标准打蜡",
+				"orderLabel": "Hour (Econ Wax / 标准打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "150",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 90,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "30",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
 		"lastSlot": "17:00",
