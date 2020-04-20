@@ -1,5 +1,5 @@
 {
-	"Car Waxing Icon": {
+	"car-waxing": {
 		"name": "Car Waxing / 打蜡车",
 		"lastSlot": "15:00",
 		"startPrice": {
@@ -9,7 +9,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Premium Wax": {
+			"premium-wax": {
 				"label": "Premium Wax / 优质打蜡",
 				"orderLabel": "Hour (Prem Wax / 优质打蜡)",
 				"description": "Label standard",
@@ -28,7 +28,7 @@
 					"multiplier": 1
 				}
 			 },
-			"Econ Wax": {
+			"econ-wax": {
 				"label": "Economic Wax / 标准打蜡",
 				"orderLabel": "Hour (Econ Wax / 标准打蜡)",
 				"description": "Label standard",
@@ -1067,7 +1067,7 @@
 			}
 		}
 	},
-	
+
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
 		"lastSlot": "17:00",
