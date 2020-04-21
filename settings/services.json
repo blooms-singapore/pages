@@ -797,7 +797,7 @@
 		}
 	},
 	"plumbing": {
-		"name": "Plumbing & Water Tank / 湿工和水箱",
+		"name": "Plumbing / 任何水工",
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "50",
