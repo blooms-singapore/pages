@@ -1,6 +1,6 @@
 {
 	"car-waxing": {
-		"name": "Car Waxing / 打蜡车 (coming soon)",
+		"name": "Car Waxing / 打蜡车)",
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "20",
@@ -20,7 +20,7 @@
 				},
 				"quantity": {
 					"label": "Job",
-					"min": 90,
+					"min": 120,
 					"max": 0,
 					"default": 60,
 					"increment": 30,
