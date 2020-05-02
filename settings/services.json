@@ -670,8 +670,8 @@
 				}
 			},
 		  "Paint Project": {
-				"label": "Paint Project / 油漆项目",
-				"description": "Paint Project / 油漆项目",
+				"label": "Paint Project / 油漆项目 (SIN or MY)",
+				"description": "Paint Proj / 油漆项目",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
@@ -688,8 +688,8 @@
 				}
 			},
 		   "SIN <2000ft2 Survey": {
-				"label": "Singapore Scope Survey   < 2000ft2",
-				"description": "Singapore Scope Survey < 2000ft2",
+				"label": "Sin Survey   < 2000ft2",
+				"description": "Sin Survey < 2000ft2",
 				"cost": {
 					"SGD": "0",
 					"MYR": "20",
@@ -706,8 +706,8 @@
 				}
 			},
 		"SIN >2000ft2 Survey": {
-				"label": "Singapore Scope Survey > = 2000ft2",
-				"description": "Singapore Scope Survey >= 2000ft2",
+				"label": "Sin Survey > = 2000ft2",
+				"description": "Sin Survey >= 2000ft2",
 				"cost": {
 					"SGD": "20",
 					"MYR": "20",
@@ -724,8 +724,8 @@
 				}
 			},
                         "SIN 1st Hr Labour Booking": {
-				"label": "Singapore 1st Hour Booking",
-				"orderLabel": "Hour (Singapore 1st Hr Booking)",
+				"label": "Sin 1st Hr Booking",
+				"orderLabel": "Hour (Sin 1st Hr Booking)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -742,8 +742,8 @@
 				}
 			},
 			"SIN 2nd Hr Labour Booking": {
-				"label": "Singapore 2nd or more Hour Booking",
-				"orderLabel": "Hour (Singapore >= 2nd Hour Booking)",
+				"label": "Sin 2nd onwards Booking",
+				"orderLabel": "Hour (Sin 2nd onwards Booking)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -798,7 +798,7 @@
 	},
 	"plumbing": {
 		"name": "Plumbing / 任何水工",
-		"lastSlot": "15:00",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "71",
@@ -808,7 +808,7 @@
 		"options": {
 			"Standard 1st Hr": {
 				"label": "(A) Std Plumbing 1st Hr / 普通湿工第1小时",
-				"orderLabel": "Hour (Std Plumbing 1st Hr / 普通湿工第1小时)",
+				"orderLabel": "Hour (Std 1st Hr / 普通湿工第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -825,8 +825,8 @@
 				}
 			},
 			"Standard =>2Hr": {
-				"label": "(A) Std Plumbing 2nd Hr onward / 普通湿工第2小时以上",
-				"orderLabel": "Hour (Std Plumbing 2nd Hr onward / 普通湿工第2小时以上)",
+				"label": "(A) Std Plumbing 2nd Hr onwards / 普通湿工第2小时以上",
+				"orderLabel": "Hour (Std 2nd Hr onwards / 普通湿工第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -843,8 +843,8 @@
 				}
 			},
 			"Site Survey": {
-				"label": "(A) Non-Standard Plumbing Survey / 非标准湿工调查",
-				"orderLabel": "Trip (Non-Std Plumbing Survey / 非标准湿工调查)",
+				"label": "(A) Non-Std Plumbing Survey / 非标准湿工调查",
+				"orderLabel": "Trip (Survey / 非标准湿工调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -878,9 +878,9 @@
 					"base": 60
 				}
 			},
-			"Water Tank 》=2nd Hr": {
-				"label": "(B) Tank Wash 2nd Hr Onward / 水箱清洗第2小时以上",
-				"orderLabel": "Hour (Tank Wash 2nd Hr Onward / 水箱清洗第2小时以上)",
+			"Water Tank >= 2nd Hr": {
+				"label": "(B) Tank Wash 2nd Hr Onwards / 水箱清洗第2小时以上",
+				"orderLabel": "Hour (Tank Wash 2nd Hr Onwards / 水箱清洗第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -971,7 +971,7 @@
 	},
 	"landscape": {
 		"name": "Landscaping / 园丁修剪",
-		"lastSlot": "14:00",
+		"lastSlot": "15:30",
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -1000,7 +1000,7 @@
 			 },
 			"Project": {
 				"label": "Non-Standard Project / 非标准项目",
-				"orderLabel": "Job (Non-Standard Project / 非标准项目)",
+				"orderLabel": "Job (Non-Std Project / 非标准项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
