@@ -231,7 +231,7 @@
 	},
 	"aircon": {
 		"name": "Aircon Works / 冷气",
-		"lastSlot": "15:00",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "34",
 			"MYR": "56.75",
@@ -506,7 +506,7 @@
 	},
 	"cleaning-deep": {
 		"name": "Deep Cleaning / 大扫除清洗",
-		"lastSlot": "16:30",
+		"lastSlot": "15:30",
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "204",
@@ -607,7 +607,7 @@
 	},
 	"painting": {
 		"name": "Painting / 油漆",
-		"lastSlot": "13:00",
+		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "29.5",
 			"MYR": "47.25",
@@ -620,7 +620,7 @@
 				"description": "Malaysia / 马来西亚 Scope Survey / 调查",
 				"cost": {
 					"SGD": "10",
-					"MYR": "20",
+					"MYR": "25",
 					"CNY": "70"
 				},
 				"quantity": {
