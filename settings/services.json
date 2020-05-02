@@ -80,7 +80,7 @@
 	},
 	"installation": {
 		"name": "Installation / 安装",
-		"lastSlot": "15:00",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "35.5",
 			"MYR": "57.0",
@@ -90,7 +90,7 @@
 		"options": {
 			"Std 1st": {
 				"label": "Standard 1st Hr / 标准第1小时",
-				"orderLabel": "Hour (Std Installation 1st Hr/普通安装第1小时)",
+				"orderLabel": "Hour (Std Install 1st Hr/普通安装第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -108,7 +108,7 @@
 			},
 			"Std 2nd": {
 				"label": "Standard => 2nd Hr / 普通安装第2小时以上",
-				"orderLabel": "Hour (Std Installation => 2Hr/家电安装第2小时以上)",
+				"orderLabel": "Hour (Std Install => 2Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -124,9 +124,9 @@
 					"base": 60
 				}
 			},
-                      "Elec 1st": {
-				"label": "Electrical 1st Hr / 家电安装第1小时",
-				"orderLabel": "Hour (Elec Installation 1st Hr/家电安装第1小时)",
+                      "Tech 1st": {
+				"label": "Technical 1st Hr / 技术安装第1小时",
+				"orderLabel": "Hour (Tech Install 1st Hr/技术安装第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
@@ -142,9 +142,9 @@
 					"base": 60
 				}
 			},
-			"Elec 2nd": {
-				"label": "Electrical => 2Hr / 家电安装第2小时以上",
-				"orderLabel": "Hour (Elec Installation => 2nd Hr/家电安装第2小时以上)",
+			"Tech 2nd": {
+				"label": "Technical => 2Hr / 家电安装第2小时以上",
+				"orderLabel": "Hour (Tech Install => 2nd Hr/家电安装第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -166,7 +166,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
