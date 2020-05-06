@@ -466,7 +466,26 @@
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
+				},
+				"label": "Min 3hr Booking / 最少3小时预订",
+				"displayLabel": "3hr Std Clean / 3小时普通洗",
+				"orderLabel": "Job (Standard Clean / 普通清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "75",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
 				}
+				
 			}
 		},
 		"types": {
