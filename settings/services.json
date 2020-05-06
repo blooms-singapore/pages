@@ -234,7 +234,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "34",
-			"MYR": "56.75",
+			"MYR": "66.25",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -245,7 +245,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
-					"MYR": "65",
+					"MYR": "75",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -263,7 +263,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
-					"MYR": "100",
+					"MYR": "120",
 					"CNY": "260"
 				},
 				"quantity": {
