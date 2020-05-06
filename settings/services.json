@@ -258,8 +258,8 @@
 				}
 			},
 			"Malaysia SW": {
-				"label": "Malaysia / 马来西亚 Standard Wash / 普通洗 : for 3 or more units (min 1hr booking)",
-				"orderLabel": "Hour (Malaysia Standard Wash / 普通洗)",
+				"label": "Malaysia / 马来西亚 Std Wash / 普通洗 : 3 or more units (min 1hr booking)",
+				"orderLabel": "Hour (Malaysia Std Wash / 普通洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
