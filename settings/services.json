@@ -508,7 +508,7 @@
 							"CNY": "10"
 						}
 					},
-					"landed 3hrs": {
+					"landed": {
 						"label": "Landed House (有地住宅): 2 crews (人)",
 						"cost": {
 							"SGD": "20",
@@ -516,7 +516,7 @@
 							"CNY": "82.5"
 						},
 						
-					"landed 4hrs": {
+					"landed": {
 						"label": "Landed House (有地住宅): 2 crews (人)",
 						"cost": {
 							"SGD": "20",
