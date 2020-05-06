@@ -512,7 +512,12 @@
 						"label": "Landed House (有地住宅): 2 crews (人)",
 						"cost": {
 							"SGD": "20",
-							"MYR": "10",
+							"MYR": "75",
+							"CNY": "82.5"
+						},
+						"cost": {
+							"SGD": "20",
+							"MYR": "22.5",
 							"CNY": "82.5"
 						},
 						"oneOffCost": {
