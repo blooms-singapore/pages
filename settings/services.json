@@ -472,7 +472,7 @@
 			"condo => 4hr": {
 				"label": "4hrs or more Booking / 4小时或以上预订",
 				"displayLabel": "Std Clean / 普通洗",
-				"orderLabel": "Job (Standard Clean / 普通清洗)",
+				"orderLabel": "Hr (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
