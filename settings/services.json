@@ -107,8 +107,8 @@
 				}
 			},
 			"Std 2nd": {
-				"label": "Standard => 2nd Hr / 普通安装第2小时以上",
-				"orderLabel": "Hour (Std Install => 2Hr/家电安装第2小时以上)",
+				"label": "Standard 2nd Hr or more / 普通安装第2小时或以上",
+				"orderLabel": "Hour (Std Install => 2Hr/普通安装)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -126,7 +126,7 @@
 			},
                       "Tech 1st": {
 				"label": "Technical 1st Hr / 技术安装第1小时",
-				"orderLabel": "Hour (Tech Install 1st Hr/技术安装第1小时)",
+				"orderLabel": "Hour (Tech Install 1st Hr / 技术安装第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "90",
@@ -143,8 +143,8 @@
 				}
 			},
 			"Tech 2nd": {
-				"label": "Technical => 2Hr / 家电安装第2小时以上",
-				"orderLabel": "Hour (Tech Install => 2nd Hr/家电安装第2小时以上)",
+				"label": "Technical 2Hr or more / 技术安装第2小时或以上",
+				"orderLabel": "Hour (Tech Install >= 2Hr/ 技术安装第2小时或以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
