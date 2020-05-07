@@ -467,6 +467,24 @@
 					"base": 1,
 					"multiplier": 1
 				}
+			},
+			
+			"label": "4hrs or more Booking Rate: 2 Crews / 大扫除清洗预约：2人 (min 4hrs)",
+				"orderLabel": "Hours ( Standard Clean / 深度清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "22.5",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
 			}
 		},
 			
