@@ -467,7 +467,8 @@
 					"base": 1,
 					"multiplier": 1
 				}
-			},
+			}
+		},
 			
 		"types": {
 			"house": {
