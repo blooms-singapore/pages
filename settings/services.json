@@ -83,7 +83,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "35.5",
-			"MYR": "57.0",
+			"MYR": "66.25",
 			"CNY": "150"
 		},
 		"hasNote": 1,
@@ -94,7 +94,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "65",
+					"MYR": "75",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -112,7 +112,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "50",
+					"MYR": "55",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -129,7 +129,7 @@
 				"orderLabel": "Hour (Tech Install 1st Hr/技术安装第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
+					"SGD": "90",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -148,7 +148,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "60",
+					"MYR": "65",
 					"CNY": "0"
 				},
 				"quantity": {
