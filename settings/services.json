@@ -468,7 +468,7 @@
 					"multiplier": 1
 				}
 			},
-		},
+			
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -505,7 +505,8 @@
 					}
 				}
 			}
-		},
+		}
+	},
 	
 	"cleaning-deep": {
 		"name": "Deep Cleaning / 大扫除清洗",
