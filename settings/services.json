@@ -468,26 +468,66 @@
 					"multiplier": 1
 				}
 			},
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo (公寓) : 1 crew (人)",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+											
+					"landed": {
+						"label": "Landed House (有地住宅): 2 crews (人)",
+						"cost": {
+							"SGD": "20",
+							"MYR": "22.5",
+							"CNY": "82.5"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		},
 			
-			"condo => 4hr": {
-				"label": "4hrs or more Booking / 4小时或以上预订 (min booking 4hrs)",
+		"options": {
+			"condo min 4hr": {
+				"label": "Min 4hrs Booking / 最少4小时预订",
 				"displayLabel": "Std Clean / 普通洗",
-				"orderLabel": "Hour (Standard Clean / 普通清洗)",
+				"orderLabel": "Job (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "22.5",
+					"MYR": "75",
 					"CNY": "82.5"
 				},
 				"quantity": {
-					"label": "Hours",
+					"label": "Job",
 					"min": 0,
-					"max": 0,
-					"increment": 60,
+					"max": 1,
 					"default": 0,
-					"base": 60
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
 				}
-			}
+			},
 		},
 		"types": {
 			"house": {
