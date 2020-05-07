@@ -469,13 +469,15 @@
 				}
 			},
 			
-			"label": "4hrs or more Booking Rate: 2 Crews / 大扫除清洗预约：2人 (min 4hrs)",
-				"orderLabel": "Hours ( Standard Clean / 深度清洗)",
+			"condo >= 4hrs": {
+				"label": "4hrs or more Booking / 4小时或以上预订 (min 4hrs)",
+				"displayLabel": "Std Clean / 普通洗",
+				"orderLabel": "Hour (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "20",
 					"MYR": "22.5",
-					"CNY": "0"
+					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
