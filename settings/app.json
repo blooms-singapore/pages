@@ -13,14 +13,14 @@
   "customerSupport": "+6010 935 2700",
   "cancelBuffer": 72,
   "bookingDays": 21,
-  "referralLimit": 1000,
+  "referralLimit":5,
   "referralDiscount":5,
   "discounts": {
     "SGD": 2,
     "MYR": 5,
     "CNY": 12
   },
-  "timeBuffer":1020,
+  "timeBuffer":60,
   "timeStart": {
     "hour": 9,
     "minutes": 0
