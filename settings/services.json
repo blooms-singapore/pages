@@ -3,27 +3,27 @@
 		"name": "Tiling / 瓷砖工",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "20",
-			"MYR": "50",
+			"SGD": "45.5",
+			"MYR": "109",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"premium-wax": {
-				"label": "Premium / 优质",
-				"orderLabel": "Hour (Prem / 优质)",
+			"1st Hr": {
+				"label": "1st Hour / 第1小时",
+				"orderLabel": "Hour (Std 1st Hr / 标准第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "50",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
-					"min": 120,
-					"max": 0,
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
 					"default": 60,
-					"increment": 30,
+					"increment": 60,
 					"base": 1,
 					"multiplier": 1
 				}
