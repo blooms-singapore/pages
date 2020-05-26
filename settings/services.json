@@ -28,20 +28,20 @@
 					"multiplier": 1
 				}
 			 },
-			"econ-wax": {
-				"label": "Economic Wax / 标准",
-				"orderLabel": "Hour (Econ Wax / 标准)",
+			"2nd Hr": {
+				"label": "2nd Hr or more / 第2小时以上",
+				"orderLabel": "Hour (>= 2Hr / 2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "25",
+					"MYR": "60",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
