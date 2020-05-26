@@ -1,17 +1,17 @@
 {
-	"car-waxing": {
-		"name": "Car Waxing / 汽车打蜡",
+	"tiling": {
+		"name": "Tiling / 瓷砖工",
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "160",
+			"MYR": "50",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
 			"premium-wax": {
-				"label": "Premium Wax / 优质打蜡",
-				"orderLabel": "Hour (Prem Wax / 优质打蜡)",
+				"label": "Premium / 优质",
+				"orderLabel": "Hour (Prem / 优质)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -29,8 +29,8 @@
 				}
 			 },
 			"econ-wax": {
-				"label": "Economic Wax / 标准打蜡",
-				"orderLabel": "Hour (Econ Wax / 标准打蜡)",
+				"label": "Economic Wax / 标准",
+				"orderLabel": "Hour (Econ Wax / 标准)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -78,6 +78,7 @@
 			}
 		}
 	},
+	
 	"installation": {
 		"name": "Installation / 安装",
 		"lastSlot": "16:30",
@@ -1303,19 +1304,19 @@
 		}
 	},
       
-	"tiling": {
-		"name": "Tiling / 瓷砖工",
+	"car-waxing": {
+		"name": "Car Waxing / 汽车打蜡",
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "50",
+			"MYR": "160",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
 			"premium-wax": {
-				"label": "Premium / 优质",
-				"orderLabel": "Hour (Prem / 优质)",
+				"label": "Premium Wax / 优质打蜡",
+				"orderLabel": "Hour (Prem Wax / 优质打蜡)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1333,8 +1334,8 @@
 				}
 			 },
 			"econ-wax": {
-				"label": "Economic Wax / 标准",
-				"orderLabel": "Hour (Econ Wax / 标准)",
+				"label": "Economic Wax / 标准打蜡",
+				"orderLabel": "Hour (Econ Wax / 标准打蜡)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
