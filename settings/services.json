@@ -46,7 +46,7 @@
 				}
 			},
 			"With tiles 1ft": {
-				"label": "Waterproof With tiles 1ft2 / 防水包瓷砖 1ft2",
+				"label": "1ft2 Waterproof With tiles / 防水包瓷砖",
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
@@ -63,8 +63,9 @@
 					"base": 1
 				}
 			},
+			
 			"With tiles 10ft2": {
-				"label": "Waterproof With tiles 10ft2 / 防水包瓷砖 10ft2",
+				"label": "10ft2 Waterproof With tiles / 防水包瓷砖",
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
@@ -80,8 +81,47 @@
 					"default": 0,
 					"base": 1
 				}
+			},
+			
+			"No tile 1ft2": {
+				"label": "1ft2 Waterproof exclude tile/ 防水不包括瓷砖",
+				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}，
+			
+			"No tile 10ft2": {
+				"label": "10ft2 Waterproof exclude tile/ 防水不包括瓷砖",
+				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 0,
+					"base": 1
+				}
 			}
 		},
+
 		"types": {
 			"house": {
 				"label": "House Type",
