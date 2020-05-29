@@ -1381,10 +1381,10 @@
      
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
-		"lastSlot": "16:30",
+		"lastSlot": "16:00",
 		"startPrice": {
-			"SGD": "20",
-			"MYR": "50",
+			"SGD": "45",
+			"MYR": "71",
 			"CNY": "20"
 		},
 		"hasNote": 1,
