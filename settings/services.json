@@ -1389,23 +1389,22 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"premium": {
-				"label": "Premium / 优质",
-				"orderLabel": "Hour (Prem / 优质)",
+			"1st Hr": {
+				"label": "1st Hr Rate / 第1小时收费",
+				"orderLabel": "Hour (1st Hr / 第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "35",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
-					"min": 120,
-					"max": 0,
-					"default": 60,
-					"increment": 30,
-					"base": 1,
-					"multiplier": 1
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
 				}
 			 },
 			"econ": {
