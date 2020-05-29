@@ -1407,20 +1407,20 @@
 					"base": 60
 				}
 			 },
-			"econ": {
-				"label": "Economic / 标准",
-				"orderLabel": "Hour (Econ / 标准)",
+			"2Hr Rate": {
+				"label": "2nd Hr & more Rate / 第2小时以上收费",
+				"orderLabel": "Hour (2nd Hr onwards / 第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "50",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
