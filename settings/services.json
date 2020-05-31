@@ -1097,7 +1097,7 @@
 					"default": 0,
 					"base": 60
 				}
-			}，
+			},
 			
 			">=2nd Hr cutting": {
 				"label": "2nd Hr onward Cut & Trim / 第2小时以上修剪",
