@@ -316,7 +316,7 @@
 		"hasNote": 1,
 		"options": {
 			"Malaysia SW 1st 30min": {
-				"label": "1st 30min Malaysia / 马来西亚 Standard Wash / 前30分钟普通洗: 1 or 2 units",
+				"label": "1st 30min Malaysia Standard Wash / 前30分钟普通洗: 1 or 2 units",
 				"orderLabel": "Job (1st 30min Malaysia Std Wash / 前30分钟普通洗)",
 				"description": "Label standard",
 				"cost": {
@@ -334,7 +334,7 @@
 				}
 			},
 			"Malaysia SW": {
-				"label": "Malaysia / 马来西亚 Standard Wash / 普通洗 : 3 or more units (min 1hr booking)",
+				"label": "Malaysia Standard Wash / 普通洗 : 3 or more units / 3台以上 (min 1hr booking)",
 				"orderLabel": "Hour (Malaysia Std Wash / 普通洗)",
 				"description": "Label standard",
 				"cost": {
