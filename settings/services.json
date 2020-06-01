@@ -122,8 +122,8 @@
 			},
 			
 			"Survey": {
-				"label": "Project Survey/ 项目调查",
-				"orderLabel": "Trip (Exclude tile / 不包括瓷砖)",
+				"label": "Project Survey / 项目调查",
+				"orderLabel": "Trip (Project Survey / 项目调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
