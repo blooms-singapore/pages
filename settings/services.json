@@ -119,6 +119,25 @@
 					"default": 0,
 					"base": 1
 				}
+			},
+			
+			"Survey": {
+				"label": "Project Survey/ 项目调查",
+				"orderLabel": "Trip (Exclude tile / 不包括瓷砖)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
 			}
 		},
 
