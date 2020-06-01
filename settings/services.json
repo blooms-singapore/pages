@@ -14,8 +14,8 @@
 				"orderLabel": "Hour (Std 1st Hr / 标准第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
-					"MYR": "120",
+					"SGD": "40",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -50,8 +50,8 @@
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "50",
+					"SGD": "15",
+					"MYR": "35",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -70,7 +70,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "50",
+					"MYR": "35",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -89,7 +89,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "40",
+					"MYR": "25",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -108,7 +108,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "40",
+					"MYR": "25",
 					"CNY": "50"
 				},
 				"quantity": {
