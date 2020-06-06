@@ -1157,14 +1157,14 @@
 				}
 			 },
 	
-			"Project": {
-				"label": "Non-Standard Project / 非标准项目",
-				"orderLabel": "Job (Non-Std Project / 非标准项目)",
+		"Project": {
+				"label": "Project / 项目",
+				"orderLabel": "Job (Project / 项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
-					"CNY": "0"
+					"CNY": "20"
 				},
 				"quantity": {
 					"label": "Job",
@@ -1177,6 +1177,7 @@
 				}
 			 }
 		},
+		
 		"types": {
 			"house": {
 				"label": "House Type",
