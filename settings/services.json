@@ -1476,9 +1476,17 @@
 					"SGD": "30",
 					"MYR": "0",
 					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
 				}
 			}
-		},	
+		},
 		
 		"types": {
 			"house": {
