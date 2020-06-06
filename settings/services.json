@@ -1489,7 +1489,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
