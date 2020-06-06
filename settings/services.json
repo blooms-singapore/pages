@@ -1476,7 +1476,8 @@
 					"SGD": "30",
 					"MYR": "0",
 					"CNY": "0"
-				},
+				}
+			},
 				
 			"Project": {
 				"label": "Project / 项目",
