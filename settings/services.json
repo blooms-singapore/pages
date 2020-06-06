@@ -1476,6 +1476,16 @@
 					"MYR": "0",
 					"CNY": "0"
 				},
+				
+			"Project": {
+				"label": "Project / 项目",
+				"orderLabel": "Job (Project / 项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "0",
+					"CNY": "0"
+				},
 				"quantity": {
 					"label": "Trip",
 					"min": 0,
