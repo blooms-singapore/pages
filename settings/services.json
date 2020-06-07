@@ -1573,9 +1573,9 @@
 				"orderLabel": "Job (EL Project / 电工项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "50",
-					"CNY": "50"
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
