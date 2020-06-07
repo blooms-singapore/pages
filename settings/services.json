@@ -1506,8 +1506,7 @@
 				}
 			}
 		},
-		
-		"types": {
+	            "types": {
 			"house": {
 				"label": "House Type",
 				"description": "Label standard",
