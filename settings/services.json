@@ -1538,6 +1538,124 @@
 		}
 	},
 	
+	"electrical": {
+		"name": "Electrical / 家私维修",
+		"lastSlot": "16:00",
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "71",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr": {
+				"label": "1st Hr Rate / 第1小时收费",
+				"orderLabel": "Hour (1st Hr / 第1小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },
+			
+			"2Hr Rate": {
+				"label": "2nd Hr & more Rate / 第2小时以上收费",
+				"orderLabel": "Hour (2nd Hr onwards / 第2小时以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Survey": {
+				"label": "Site Survey / 现场调查",
+				"orderLabel": "Trip (Site Survey / 现场调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project": {
+				"label": "Project / 项目",
+				"orderLabel": "Job (Project / 项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+	            "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	"car-waxing": {
 		"name": "Car Waxing / 汽车打蜡",
 		"lastSlot": "15:00",
