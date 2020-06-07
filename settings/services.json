@@ -1539,11 +1539,11 @@
 	},
 	
 	"electrical": {
-		"name": "Electrical / 家私维修",
-		"lastSlot": "16:00",
+		"name": "Electrical Project / 电工程",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "45",
-			"MYR": "71",
+			"MYR": "137.5",
 			"CNY": "20"
 		},
 		"hasNote": 1,
