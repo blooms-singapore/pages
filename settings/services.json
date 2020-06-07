@@ -1541,59 +1541,21 @@
 	
 	"electrical": {
 		"name": "Electrical / 电工",
-		"lastSlot": "12:00",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "45",
-			"MYR": "71",
+			"MYR": "137.5",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"1st Hr": {
-				"label": "1st Hr Rate / 第1小时收费",
-				"orderLabel": "Hour (1st Hr / 第1小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			 },
-			
-			"2Hr Rate": {
-				"label": "2nd Hr & more Rate / 第2小时以上收费",
-				"orderLabel": "Hour (2nd Hr onwards / 第2小时以上)",
+			"Survey": {
+				"label": "Electrical Site Survey / 电工实地调查",
+				"orderLabel": "Trip (EL Survey / 电工调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Survey": {
-				"label": "Site Survey / 现场调查",
-				"orderLabel": "Trip (Site Survey / 现场调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1604,16 +1566,16 @@
 					"default": 0,
 					"base": 60
 				}
-			},
+			 },
 			
 			"Project": {
-				"label": "Project / 项目",
-				"orderLabel": "Job (Project / 项目)",
+				"label": "Electrical Project / 电工程项目",
+				"orderLabel": "Job (EL Project / 电工项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Job",
