@@ -1539,7 +1539,7 @@
 	},
 	
 	"electrical": {
-		"name": "Electrical Project / 电工程",
+		"name": "Electrical / 电工",
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "45",
@@ -1548,17 +1548,17 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"1st Hr": {
-				"label": "1st Hr Rate / 第1小时收费",
-				"orderLabel": "Hour (1st Hr / 第1小时)",
+			"Project": {
+				"label": "Electrical Project / 电工项目",
+				"orderLabel": "Job (EL Project / 电工项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
-					"MYR": "80",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -1567,9 +1567,9 @@
 				}
 			 },
 			
-			"2Hr Rate": {
-				"label": "2nd Hr & more Rate / 第2小时以上收费",
-				"orderLabel": "Hour (2nd Hr onwards / 第2小时以上)",
+			"Survey": {
+				"label": "Site Survey / 实地调查",
+				"orderLabel": "Trip (Survey / 第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1591,8 +1591,8 @@
 				"orderLabel": "Trip (Site Survey / 现场调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "0",
+					"SGD": "15",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1605,17 +1605,17 @@
 				}
 			},
 			
-			"Project": {
-				"label": "Project / 项目",
-				"orderLabel": "Job (Project / 项目)",
+			"Emergency": {
+				"label": "Emergency Booking / 紧急预订",
+				"orderLabel": "Trip (Emergency / 紧急)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "80",
+					"MYR": "150",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
