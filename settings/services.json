@@ -326,7 +326,7 @@
 	},
 	"aircon": {
 		"name": "Aircon Works / 冷气",
-		"lastSlot": "16:30",
+		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "34",
 			"MYR": "66.25",
