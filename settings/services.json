@@ -543,44 +543,25 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"condo 3hr booking": {
-				"label": "Only for 3hr Booking / 3小时预订",
+			"Std Clean min 3.5hrs": {
+				"label": "Standard Cleaning / 普通清洗",
 				"displayLabel": "Std Clean / 普通洗",
-				"orderLabel": "Job (Standard Clean / 普通清洗)",
+				"orderLabel": "Hours (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "75",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"condo >= 4hrs": {
-				"label": "4hrs or more Booking / 4小时或以上预订 (min 4hrs)",
-				"displayLabel": "Std Clean / 普通洗",
-				"orderLabel": "Hour (Standard Clean / 普通清洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
+					"SGD": "18",
 					"MYR": "22.5",
 					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
-					"min": 0,
+					"min": 210,
 					"max": 0,
-					"increment": 60,
 					"default": 0,
-					"base": 60
+					"increment": 30,
+					"base": 1,
+					"multiplier": 1
+					
 				}
 			}
 		},
@@ -608,7 +589,7 @@
 					"landed": {
 						"label": "Landed House (有地住宅): 2 crews (人)",
 						"cost": {
-							"SGD": "20",
+							"SGD": "18",
 							"MYR": "22.5",
 							"CNY": "82.5"
 						},
