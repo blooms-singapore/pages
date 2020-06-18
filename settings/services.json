@@ -543,19 +543,19 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Std Clean min 3.5hrs": {
+			"Std Clean min 3hrs": {
 				"label": "Standard Cleaning / 普通清洗",
 				"displayLabel": "Std Clean / 普通洗",
 				"orderLabel": "Hours (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "18",
-					"MYR": "22.5",
+					"MYR": "25",
 					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
-					"min": 210,
+					"min": 180,
 					"max": 0,
 					"default": 0,
 					"increment": 30,
@@ -590,7 +590,7 @@
 						"label": "Landed House (有地住宅): 2 crews (人)",
 						"cost": {
 							"SGD": "18",
-							"MYR": "22.5",
+							"MYR": "25",
 							"CNY": "82.5"
 						},
 						
