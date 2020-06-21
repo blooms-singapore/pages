@@ -328,23 +328,23 @@
 		"name": "Aircon Works / 冷气",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "34",
-			"MYR": "66.25",
+			"SGD": "50",
+			"MYR": "109",
 			"CNY": "230"
 		},
 		"hasNote": 1,
 		"options": {
-			"Malaysia SW 1st 30min": {
-				"label": "1st 30min Malaysia Standard Wash / 前30分钟普通洗: 1 or 2 units",
-				"orderLabel": "Job (1st 30min Malaysia Std Wash / 前30分钟普通洗)",
+			"Min Order": {
+				"label": "Min Order / 最低服务收费",
+				"orderLabel": "Hour (Min Order / 最低服务收费)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "100",
-					"MYR": "75",
+					"SGD": "50",
+					"MYR": "120",
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Hour",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
