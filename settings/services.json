@@ -1553,7 +1553,7 @@
 				"orderLabel": "Trip (Survey / 第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "30",
 					"MYR": "50",
 					"CNY": "50"
 				},
@@ -1566,26 +1566,7 @@
 					"base": 60
 				}
 			},
-			
-			"Survey": {
-				"label": "Site Survey / 现场调查",
-				"orderLabel": "Trip (Site Survey / 现场调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
+					
 			"Emergency": {
 				"label": "Emergency Booking / 紧急预订",
 				"orderLabel": "Trip (Emergency / 紧急)",
@@ -1619,7 +1600,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
