@@ -126,8 +126,8 @@
 				"orderLabel": "Trip (Project Survey / 项目调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "0",
+					"SGD": "20",
+					"MYR": "30",
 					"CNY": "50"
 				},
 				"quantity": {
