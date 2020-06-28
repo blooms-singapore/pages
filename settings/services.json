@@ -388,6 +388,26 @@
 					"base": 60
 				}
 			},
+			
+			"Gas Checks": {
+				"label": "Gas Pressure Checks / 系统气压检测",
+				"orderLabel": "Hour (Pressure Checks / 气压检测)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "120",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 30,
+					"max": 60,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
 			"Malaysia Cassette CW 2-3HP": {
 				"label": "Malaysia / 马来西亚 Cassette Chemical Wash / 天井式化洗 : 2 to 3HP（马力）",
 				"orderLabel": "Hour (Malaysia Small Cassette Chemical Wash / 小天井式化洗)",
