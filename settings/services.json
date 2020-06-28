@@ -336,7 +336,7 @@
 		"options": {
 			"Min Order": {
 				"label": "Min Order / 最低服务收费",
-				"orderLabel": "Hour (Min Order / 最低服务收费)",
+				"orderLabel": "Hour (Min Order / 最低服务收费 (1 or 2 units))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
