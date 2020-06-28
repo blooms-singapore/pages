@@ -400,8 +400,8 @@
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 30,
-					"max": 60,
+					"min": 0,
+					"max": 150,
 					"increment": 30,
 					"default": 0,
 					"base": 60
