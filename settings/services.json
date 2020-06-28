@@ -335,7 +335,7 @@
 		"hasNote": 1,
 		"options": {
 			"Min Order": {
-				"label": "Min Order / 最低服务收费",
+				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (1 or 2 units)",
 				"orderLabel": "Hour (Min Order / 最低服务收费 (1 or 2 units))",
 				"description": "Label standard",
 				"cost": {
@@ -353,8 +353,8 @@
 				}
 			},
 			"Malaysia SW": {
-				"label": "Malaysia Standard Wash / 普通洗 : 3 or more units / 3台以上 (min 1hr booking)",
-				"orderLabel": "Hour (Malaysia Std Wash / 普通洗)",
+				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 3台以上 (min 1hr booking)",
+				"orderLabel": "Hour (Malaysia Std Wash -/ 普通洗 (>3 units))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
