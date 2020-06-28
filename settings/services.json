@@ -390,7 +390,7 @@
 			},
 			
 			"Gas Checks": {
-				"label": "Gas Pressure Checks / 系统气压检测",
+				"label": "Check Gas Pressure / 系统气压检测",
 				"orderLabel": "Hour (Pressure Checks / 气压检测)",
 				"description": "Label standard",
 				"cost": {
