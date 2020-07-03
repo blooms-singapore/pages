@@ -126,8 +126,8 @@
 				"orderLabel": "Trip (Project Survey / 项目调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "30",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -260,8 +260,8 @@
 				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "20",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -450,7 +450,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -657,8 +657,8 @@
 				"label": "Cleaning Survey / 清洗项目实地调查",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "30",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -740,8 +740,8 @@
 				"label": "Malaysia / 马来西亚    Scope Survey / 调查",
 				"description": "Malaysia / 马来西亚 Scope Survey / 调查",
 				"cost": {
-					"SGD": "10",
-					"MYR": "20",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "70"
 				},
 				"quantity": {
@@ -813,7 +813,7 @@
 				"description": "Sin Survey < 2000ft2",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -830,8 +830,8 @@
 				"label": "Sin Survey > = 2000ft2",
 				"description": "Sin Survey >= 2000ft2",
 				"cost": {
-					"SGD": "20",
-					"MYR": "20",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -968,8 +968,8 @@
 				"orderLabel": "Trip (Survey / 非标准湿工调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "20",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1022,8 +1022,8 @@
 				"orderLabel": "Trip (Tank Issue Survey / 水箱调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "40",
+					"SGD": "15",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1143,8 +1143,8 @@
 				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
-					"MYR": "20",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "20"
 				},
 				"quantity": {
@@ -1280,9 +1280,9 @@
 				"orderLabel": "Trip (Other works survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "20",
-					"CNY": "30"
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
@@ -1370,9 +1370,9 @@
 				"orderLabel": "Trip (Other works survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "30",
-					"CNY": "30"
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
@@ -1474,7 +1474,7 @@
 				"orderLabel": "Trip (Site Survey / 现场调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -1573,9 +1573,9 @@
 				"orderLabel": "Trip (Survey / 第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "50",
-					"CNY": "50"
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
