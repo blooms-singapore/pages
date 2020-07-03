@@ -863,8 +863,8 @@
 				}
 			},
 			"SIN 2nd Hr Labour Booking": {
-				"label": "Sin 2nd onwards Booking",
-				"orderLabel": "Hour (Sin 2nd onwards Booking)",
+				"label": "Sin 2nd or more Hour Booking",
+				"orderLabel": "Hour (Sin 2nd or more Hr Booking)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
