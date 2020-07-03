@@ -791,8 +791,8 @@
 				}
 			},
 		  "Paint Project": {
-				"label": "Paint Project / 油漆项目 (SIN or MY)",
-				"description": "Paint Proj / 油漆项目",
+				"label": "Project / 项目 (SIN & MY)",
+				"description": "Project / 项目",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
