@@ -654,11 +654,11 @@
 				}
 			},
 			"Survey": {
-				"label": "Cleaning Project Survey / 清洗项目实地调查",
+				"label": "Cleaning Survey / 清洗项目实地调查",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -673,7 +673,7 @@
 			},
 			"Deep Clean Project": {
 				"label": "Deep Cleaning Project / 深度清洗项目",
-				"orderLabel": "Job (Deep Cleaning Project / 深度清洗项目)",
+				"orderLabel": "Job (Cleaning Project / 深度清洗项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
