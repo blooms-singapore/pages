@@ -1276,7 +1276,7 @@
 				}
 			},
 			"Survey": {
-				"label": "Other lock works survey / 其他装，拆，开锁工调查",
+				"label": "Other lock work survey / 其他装，拆，开锁工调查",
 				"orderLabel": "Trip (Other works survey)",
 				"description": "Label standard",
 				"cost": {
