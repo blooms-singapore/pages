@@ -1213,7 +1213,7 @@
 
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
-		"lastSlot": "17:00",
+		"lastSlot": "18:00",
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "52",
@@ -1293,6 +1293,25 @@
 					"base": 60
 				}
 			},
+			"Misc Repair": {
+				"label": "Misc lock repair / 非标准锁维修",
+				"orderLabel": "Job (Misc repair / 非标准锁维修)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
 			"Premium Car Key Copy": {
 				"label": "Car Key Copy / 车锁复制",
 				"orderLabel": "Car Key Copy / 车锁复制",
