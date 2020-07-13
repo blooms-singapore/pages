@@ -329,19 +329,19 @@
 		"name": "Computer / 电脑",
 		"lastSlot": "15:30",
 		"startPrice": {
-			"SGD": "45",
-			"MYR": "137.5",
+			"SGD": "35",
+			"MYR": "61.5",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"Project": {
-				"label": "Coming Soon",
-				"orderLabel": "Job (EL Project / 电工项目)",
+			"Assessment": {
+				"label": "Onsite Assessment",
+				"orderLabel": "Job (Assessment / 测查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "10",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -349,6 +349,44 @@
 					"min": 0,
 					"max": 1,
 					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },
+			
+			"1st Hour": {
+				"label": "Installation 1st Hr",
+				"orderLabel": "Hour (Install 1st Hr / 测查第1小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },
+			
+			">=2 Hours": {
+				"label": "Installation 2nd Hr & more",
+				"orderLabel": "Hour (Install >= 2Hr / 测查第2小时以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 4,
+					"increment": 30,
 					"default": 0,
 					"base": 60
 				}
