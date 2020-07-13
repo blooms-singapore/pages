@@ -10,8 +10,8 @@
 		"hasNote": 1,
 		"options": {
 			"Standard 1st Hr": {
-				"label": "(A) Std Plumbing 1st Hr / 普通湿工第1小时",
-				"orderLabel": "Hour (Std 1st Hr / 普通湿工第1小时)",
+				"label": "(A) Plumbing 1st Hr / 普通湿工第1小时",
+				"orderLabel": "Hour (Plumbing 1st Hr / 普通湿工第1小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -28,8 +28,8 @@
 				}
 			},
 			"Standard =>2Hr": {
-				"label": "(A) Std Plumbing 2nd Hr & more / 普通湿工第2小时以上",
-				"orderLabel": "Hour (Std >= 2nd Hr / 普通湿工第2小时以上)",
+				"label": "(A) Plumbing 2nd Hr & more / 第2小时以上",
+				"orderLabel": "Hour (Plumbing >= 2nd Hr / 第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -47,7 +47,7 @@
 			},
 			"Site Survey": {
 				"label": "(A) Non-Std Plumbing Survey / 非标准湿工调查",
-				"orderLabel": "Trip (Survey / 非标准湿工调查)",
+				"orderLabel": "Trip (Survey / 调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
