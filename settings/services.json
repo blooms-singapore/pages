@@ -65,7 +65,7 @@
 			},
 			
 			 "Project": {
-				"label": "Project / 项目",
+				"label": "(A) Project / 项目",
 				"orderLabel": "Job (Project / 项目)",
 				"description": "Label standard",
 				"cost": {
