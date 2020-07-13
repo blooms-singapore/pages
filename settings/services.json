@@ -28,8 +28,8 @@
 				}
 			},
 			"Standard =>2Hr": {
-				"label": "(A) Std Plumbing 2nd Hr onwards / 普通湿工第2小时以上",
-				"orderLabel": "Hour (Std 2nd Hr onwards / 普通湿工第2小时以上)",
+				"label": "(A) Std Plumbing 2nd Hr & more / 普通湿工第2小时以上",
+				"orderLabel": "Hour (Std >= 2nd Hr / 普通湿工第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -82,8 +82,8 @@
 				}
 			},
 			"Water Tank >= 2nd Hr": {
-				"label": "(B) Tank Wash 2nd Hr Onwards / 水箱清洗第2小时以上",
-				"orderLabel": "Hour (Tank Wash 2nd Hr Onwards / 水箱清洗第2小时以上)",
+				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第2小时以上",
+				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第2小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
