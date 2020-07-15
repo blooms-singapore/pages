@@ -415,17 +415,17 @@
 				}
 			},
 					
-			"Emergency": {
-				"label": "Emergency Booking / 紧急预订",
-				"orderLabel": "Trip (Emergency / 紧急)",
+			"Item Sale": {
+				"label": "Item Sale / 物件销售",
+				"orderLabel": "Sale (Item Sale / 物件销售)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "150",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Sale",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -444,7 +444,7 @@
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "10",
 							"CNY": "0"
 						},
 						"oneOffCost": {
@@ -453,6 +453,7 @@
 							"CNY": "10"
 						}
 					},
+					
 					"landed": {
 						"label": "Landed House / 有地住宅",
 						"cost": {
