@@ -382,8 +382,8 @@
 				"orderLabel": "Hour (Install >= 2Hr / 测查第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "70",
+					"SGD": "25",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -463,7 +463,7 @@
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
