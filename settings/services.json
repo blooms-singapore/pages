@@ -389,7 +389,7 @@
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 4,
+					"max": 240,
 					"increment": 30,
 					"default": 0,
 					"base": 60
