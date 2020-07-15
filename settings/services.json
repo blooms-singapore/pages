@@ -396,19 +396,19 @@
 				}
 			 },
 			
-			"Survey": {
-				"label": "Site Survey / 实地调查",
-				"orderLabel": "Trip (Survey / 第2小时以上)",
+			"Workshop Repair": {
+				"label": "Workshop Repair / 回厂维修",
+				"orderLabel": "Job (Workshop Repair / 回厂维修)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "30",
+					"SGD": "40",
+					"MYR": "95",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
