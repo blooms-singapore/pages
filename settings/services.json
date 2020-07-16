@@ -1094,7 +1094,7 @@
 		"hasNote": 1,
 		"options": {
 			"1st Hr cutting": {
-				"label": "1st Hr Cut & Trim / 第1小时修剪",
+				"label": "1st Hr Cut / 第1小时修剪",
 				"orderLabel": "Hour (1st Hr Cut & Trim / 第1小时修剪)",
 				"description": "Label standard",
 				"cost": {
@@ -1113,8 +1113,8 @@
 			},
 			
 			">=2nd Hr cutting": {
-				"label": "2nd Hr onward Cut & Trim / 第2小时以上修剪",
-				"orderLabel": "Hour (2nd Hr onward Cut & Trim / 第2小时以上修剪)",
+				"label": "2nd Hr & more Cut / 第2小时以上修剪",
+				"orderLabel": "Hour (2nd Hr & more Cut / 第2小时以上修剪)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
