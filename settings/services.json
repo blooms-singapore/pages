@@ -956,7 +956,7 @@
 			},
 			
 		  "Paint Project": {
-				"label": "Project / 项目 (SIN & MY)",
+				"label": "Project / 项目 (SG & MY)",
 				"description": "Project / 项目",
 				"cost": {
 					"SGD": "0",
@@ -1010,7 +1010,7 @@
 				}
 			},
                         "SIN 1st Hr Labour Booking": {
-				"label": "Sin 1st Hr Booking",
+				"label": "SG 1st Hr Booking",
 				"orderLabel": "Hour (SG 1st Hr Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -1028,7 +1028,7 @@
 				}
 			},
 			"SIN 2nd Hr Labour Booking": {
-				"label": "Sin 2nd or more Hour Booking",
+				"label": "SG 2nd or more Hour Booking",
 				"orderLabel": "Hour (SG 2nd or more Hr Booking)",
 				"description": "Label standard",
 				"cost": {
