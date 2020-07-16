@@ -898,24 +898,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"MY Survey": {
-				"label": "Malaysia / 马来西亚    House Survey / 调查",
-				"description": "Malaysia / 马来西亚 Survey / 调查",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
+			
                         "1st Hr Labour Booking": {
 				"label": "Malaysia / 马来西亚: 1st Hour Booking / 第1小时预订",
 				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
@@ -952,6 +935,26 @@
 					"base": 60
 				}
 			},
+			
+			"MY Survey": {
+				"label": "Malaysia / 马来西亚    House Survey / 调查",
+				"description": "Malaysia / 马来西亚 Survey / 调查",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
 		  "Paint Project": {
 				"label": "Project / 项目 (SIN & MY)",
 				"description": "Project / 项目",
