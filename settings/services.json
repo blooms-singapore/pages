@@ -1824,6 +1824,105 @@
 		}
 	},
 	
+	"runner": {
+		"name": "Runner / 代工",
+		"lastSlot": "16:30",
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "137.5",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Project": {
+				"label": "Electrical Project / 电工项目",
+				"orderLabel": "Job (EL Project / 电工项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },
+			
+			"Survey": {
+				"label": "Site Survey / 实地调查",
+				"orderLabel": "Trip (Survey / 第2小时以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+					
+			"Emergency": {
+				"label": "Emergency Booking / 紧急预订",
+				"orderLabel": "Trip (Emergency / 紧急)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "150",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+	            "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	"car-waxing": {
 		"name": "Car Waxing / 汽车打蜡",
 		"lastSlot": "15:00",
