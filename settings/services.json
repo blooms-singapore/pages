@@ -1835,8 +1835,8 @@
 		"hasNote": 1,
 		"options": {
 			"Inspection": {
-				"label": "Vehicle Inspection / 车检查",
-				"orderLabel": "Job (Vehicle Inspection / 车检查)",
+				"label": "Vehicle Inspection / 车检查代劳",
+				"orderLabel": "Job (Vehicle Inspection / 车检查代劳)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
