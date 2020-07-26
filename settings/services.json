@@ -1826,21 +1826,21 @@
 	
 	"runner": {
 		"name": "Runner / 服务代劳",
-		"lastSlot": "16:30",
+		"lastSlot": "11:30",
 		"startPrice": {
 			"SGD": "45",
-			"MYR": "137.5",
+			"MYR": "25",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"Project": {
-				"label": "Electrical Project / 电工项目",
-				"orderLabel": "Job (EL Project / 电工项目)",
+			"Inspection": {
+				"label": "Vehicle Inspection / 车检查",
+				"orderLabel": "Job (Vehicle Inspection / 车检查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1853,13 +1853,13 @@
 				}
 			 },
 			
-			"Survey": {
-				"label": "Site Survey / 实地调查",
-				"orderLabel": "Trip (Survey / 第2小时以上)",
+			"Helper": {
+				"label": "Helper / 帮手",
+				"orderLabel": "Trip (Helper / 帮手)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "30",
+					"MYR": "25",
 					"CNY": "0"
 				},
 				"quantity": {
