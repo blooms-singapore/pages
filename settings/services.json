@@ -1163,7 +1163,7 @@
 	},
 	"cleaning-standard": {
 		"name": "Standard Cleaning / 普通清洗",
-		"lastSlot": "14:00",
+		"lastSlot": "14:30",
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "71",
@@ -1235,7 +1235,7 @@
 	
 	"cleaning-deep": {
 		"name": "Deep Cleaning / 大扫除清洗",
-		"lastSlot": "13:00",
+		"lastSlot": "13:30",
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "204",
