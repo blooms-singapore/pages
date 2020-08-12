@@ -1,79 +1,26 @@
 {
-	"locksmith": {
-		"name": "Locksmith / 锁匠",
-		"lastSlot": "18:00",
+	"painting": {
+		"name": "Painting / 油漆",
+		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "80",
-			"MYR": "52",
-			"CNY": "80"
+			"SGD": "30",
+			"MYR": "61.5",
+			"CNY": "110"
 		},
 		"hasNote": 1,
 		"options": {
-			"unlock-morning": {
-				"label": "Room door unlock / 房门开锁 (10am to 9pm)",
-				"orderLabel": "Unit (Room door unlock - 10am to 9pm)",
+			
+                        "1st Hr Labour Booking": {
+				"label": "Malaysia / 马来西亚: 1st Hour Booking / 第1小时预订",
+				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "60",
+					"SGD": "25",
+					"MYR": "70",
 					"CNY": "80"
 				},
 				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"unlock-evening": {
-				"label": "Room door unlock / 房门开锁 (after 9pm / 晚上9点后)",
-				"orderLabel": "Unit (Room door unlock - after 9pm)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "120",
-					"MYR": "100",
-					"CNY": "120"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"unlock-metal": {
-				"label": "Metal door unlock / 铁门开锁",
-				"orderLabel": "Unit (Metal door unlock)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "95",
-					"MYR": "85",
-					"CNY": "95"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Survey": {
-				"label": "Other lock work survey / 其他装，拆，开锁工调查",
-				"orderLabel": "Trip (Other works survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
+					"label": "Hour",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -81,101 +28,28 @@
 					"base": 60
 				}
 			},
-			"Misc Repair": {
-				"label": "Misc lock repair / 非标准锁维修",
-				"orderLabel": "Job (Misc repair / 非标准锁维修)",
+			"2nd Hr Labour Booking": {
+				"label": "Malaysia / 马来西亚: 2nd or more Hour Booking / 2小时以上预订",
+				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "20",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Hour",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
 			},
 			
-			"Premium Car Key Copy": {
-				"label": "Car Key Copy / 车锁复制",
-				"orderLabel": "Car Key Copy / 车锁复制",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "260",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"National Car Key Copy": {
-				"label": "Proton/Perodua Key Copy （车锁复制）",
-				"orderLabel": "Proton/Perodua Key Copy （车锁复制）",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "120",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Digital Lock": {
-				"label": "Install Digital lock / 安装数码锁",
-				"orderLabel": "Install Digital lock / 安装数码锁",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "600",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Misc Projects": {
-				"label":"Misc Projects / 其它项目",
-				"orderLabel": "Job (Misc Projects / 其它项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "0",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Survey": {
-				"label": "Other lock works survey / 其他装，拆，开锁工调查",
-				"orderLabel": "Trip (Other works survey)",
-				"description": "Label standard",
+			"MY Survey": {
+				"label": "Malaysia / 马来西亚    House Survey / 调查",
+				"description": "Malaysia / 马来西亚 Survey / 调查",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
@@ -185,12 +59,104 @@
 					"label": "Trip",
 					"min": 0,
 					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+		  "Paint Project": {
+				"label": "Project / 项目 (SG & MY)",
+				"description": "Project / 项目",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+		   "SIN <2000ft2 Survey": {
+				"label": "SG Survey < 2000ft2",
+				"description": "SG Survey < 2000ft2",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+		"SIN >2000ft2 Survey": {
+				"label": "SG Survey >= 2000ft2",
+				"description": "SG Survey >= 2000ft2",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+                        "SIN 1st Hr Labour Booking": {
+				"label": "SG 1st Hr Booking",
+				"orderLabel": "Hour (SG 1st Hr Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"SIN 2nd Hr Labour Booking": {
+				"label": "SG 2nd or more Hour Booking",
+				"orderLabel": "Hour (SG 2nd or more Hr Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
 			}
-		},
+		    },
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -206,7 +172,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "10",
 							"CNY": "0"
 						}
 					},
@@ -218,7 +184,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
+							"SGD": "10",
 							"MYR": "0",
 							"CNY": "0"
 						}
@@ -227,7 +193,7 @@
 			}
 		}
 	},
-     
+	
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
 		"lastSlot": "16:00",
@@ -1334,200 +1300,6 @@
 			}
 		}
 	},
-	"painting": {
-		"name": "Painting / 油漆",
-		"lastSlot": "15:00",
-		"startPrice": {
-			"SGD": "30",
-			"MYR": "61.5",
-			"CNY": "110"
-		},
-		"hasNote": 1,
-		"options": {
-			
-                        "1st Hr Labour Booking": {
-				"label": "Malaysia / 马来西亚: 1st Hour Booking / 第1小时预订",
-				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "70",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"2nd Hr Labour Booking": {
-				"label": "Malaysia / 马来西亚: 2nd or more Hour Booking / 2小时以上预订",
-				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"MY Survey": {
-				"label": "Malaysia / 马来西亚    House Survey / 调查",
-				"description": "Malaysia / 马来西亚 Survey / 调查",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-		  "Paint Project": {
-				"label": "Project / 项目 (SG & MY)",
-				"description": "Project / 项目",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-		   "SIN <2000ft2 Survey": {
-				"label": "SG Survey < 2000ft2",
-				"description": "SG Survey < 2000ft2",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-		"SIN >2000ft2 Survey": {
-				"label": "SG Survey >= 2000ft2",
-				"description": "SG Survey >= 2000ft2",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-                        "SIN 1st Hr Labour Booking": {
-				"label": "SG 1st Hr Booking",
-				"orderLabel": "Hour (SG 1st Hr Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "90",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"SIN 2nd Hr Labour Booking": {
-				"label": "SG 2nd or more Hour Booking",
-				"orderLabel": "Hour (SG 2nd or more Hr Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		    },
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "0"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
 	
 	"landscape": {
 		"name": "Landscaping / 园艺修剪",
@@ -1942,6 +1714,235 @@
 		}
 	},
 	
+	"locksmith": {
+		"name": "Locksmith / 锁匠",
+		"lastSlot": "18:00",
+		"startPrice": {
+			"SGD": "80",
+			"MYR": "52",
+			"CNY": "80"
+		},
+		"hasNote": 1,
+		"options": {
+			"unlock-morning": {
+				"label": "Room door unlock / 房门开锁 (10am to 9pm)",
+				"orderLabel": "Unit (Room door unlock - 10am to 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "60",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-evening": {
+				"label": "Room door unlock / 房门开锁 (after 9pm / 晚上9点后)",
+				"orderLabel": "Unit (Room door unlock - after 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "120",
+					"MYR": "100",
+					"CNY": "120"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-metal": {
+				"label": "Metal door unlock / 铁门开锁",
+				"orderLabel": "Unit (Metal door unlock)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "95",
+					"MYR": "85",
+					"CNY": "95"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Survey": {
+				"label": "Other lock work survey / 其他装，拆，开锁工调查",
+				"orderLabel": "Trip (Other works survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Misc Repair": {
+				"label": "Misc lock repair / 非标准锁维修",
+				"orderLabel": "Job (Misc repair / 非标准锁维修)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Premium Car Key Copy": {
+				"label": "Car Key Copy / 车锁复制",
+				"orderLabel": "Car Key Copy / 车锁复制",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "260",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"National Car Key Copy": {
+				"label": "Proton/Perodua Key Copy （车锁复制）",
+				"orderLabel": "Proton/Perodua Key Copy （车锁复制）",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "120",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Digital Lock": {
+				"label": "Install Digital lock / 安装数码锁",
+				"orderLabel": "Install Digital lock / 安装数码锁",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "600",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Misc Projects": {
+				"label":"Misc Projects / 其它项目",
+				"orderLabel": "Job (Misc Projects / 其它项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Survey": {
+				"label": "Other lock works survey / 其他装，拆，开锁工调查",
+				"orderLabel": "Trip (Other works survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+     
 	"car-waxing": {
 		"name": "Car Waxing / 汽车打蜡",
 		"lastSlot": "15:00",
