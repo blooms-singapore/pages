@@ -1616,7 +1616,7 @@
 	},
 	
 	"runner": {
-		"name": "Runner / 服务代劳",
+		"name": "Runner & Helper / 服务代劳",
 		"lastSlot": "15:30",
 		"startPrice": {
 			"SGD": "45",
