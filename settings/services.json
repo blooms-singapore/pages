@@ -1948,22 +1948,22 @@
 		"lastSlot": "15:30",
 		"startPrice": {
 			"SGD": "45",
-			"MYR": "25",
+			"MYR": "71",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"Inspection": {
-				"label": "Vehicle Inspection / 车检查代劳",
-				"orderLabel": "Job (Vehicle Inspection / 车检查代劳)",
+			"Indoor Filter Change": {
+				"label": "Indoor Filter Change / 室内过滤筒更换",
+				"orderLabel": "Set (Indoor Filter Change / 室内过滤筒更换)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "80",
+					"MYR": "320",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Set",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -1972,17 +1972,36 @@
 				}
 			 },
 			
-			"Helper": {
-				"label": "Helper / 帮手",
-				"orderLabel": "Trip (Helper / 帮手)",
+			"Outdoor Small": {
+				"label": "Small 9” Outdoor Sand Filter Change / 小 9” 户外沙碳过滤更新",
+				"orderLabel": "Job (Small 9” Outdoor Sand Filter Change / 小 9” 户外沙碳过滤更新)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "25",
+					"MYR": "300",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Outdoor Big": {
+				"label": "Big 10” Outdoor Sand Filter Change / 大 10” 户外沙碳过滤更新",
+				"orderLabel": "Job (Big 10” Outdoor Sand Filter Change / 大 10” 户外沙碳过滤更新)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "320",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 60,
@@ -1991,9 +2010,9 @@
 				}
 			},
 					
-			"Emergency": {
-				"label": "Emergency Booking / 紧急预订",
-				"orderLabel": "Trip (Emergency / 紧急)",
+			"Install Dispenser": {
+				"label": "Install Water-filter dispenser / 安装过滤器",
+				"orderLabel": "Job (Install Water-filter dispenser / 安装过滤器)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -2001,9 +2020,9 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 2,
 					"increment": 60,
 					"default": 0,
 					"base": 60
