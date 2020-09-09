@@ -593,8 +593,8 @@
 				"orderLabel": "Trip (Survey / 调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "15",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
