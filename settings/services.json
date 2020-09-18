@@ -181,7 +181,7 @@
 			},
 			"Malaysia SW": {
 				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 台 (min 1hr booking)",
-				"orderLabel": "Hour (Malaysia Std Wash -/ 普通洗 >= 3 units)",
+				"orderLabel": "Hour (MY Std Wash -/ 普通洗 >= 3 units)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
@@ -199,7 +199,7 @@
 			},
 			"Malaysia CW": {
 				"label": "Malaysia / 马来西亚 Chemical Wash / 深入化洗",
-				"orderLabel": "Hour (Malaysia Chemical Wash / 化洗)",
+				"orderLabel": "Hour (MY Chemical Wash / 化洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -217,8 +217,8 @@
 			},
 			
 			"Gas Checks": {
-				"label": "Check Gas Pressure / 系统气压检测",
-				"orderLabel": "Hour (Pressure Checks / 气压检测)",
+				"label": "Malaysia Check Gas Pressure / 系统气压检测",
+				"orderLabel": "Hour (MY Pressure Checks / 气压检测)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -237,7 +237,7 @@
 			
 			"Malaysia Small Cassette CW 2-3HP": {
 				"label": "Malaysia / 马来西亚 Small Cassette Chemical Wash / 小天井式化洗 : 2 to 3HP（马力）",
-				"orderLabel": "Hour (Malaysia Small Cassette Chemical Wash / 小天井式化洗)",
+				"orderLabel": "Hour (MY Small Cassette Chemical Wash / 小天井式化洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
@@ -271,9 +271,9 @@
 					"base": 60
 				}
 			},
-			"Site Survey": {
-				"label": "Site Survey / 实地调查",
-				"orderLabel": "Trip (Aircon Works Site Survey / 冷气项目调查)",
+			"Quotation Enquiry": {
+				"label": "Quotation Enquiry / 咨询报价",
+				"orderLabel": "Job (Quotation Enquiry / 咨询报价)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -281,7 +281,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -289,7 +289,27 @@
 					"base": 60
 				}
 			},
-			"Aircon Project": {
+			
+			"MY Trouble Shoot": {
+				"label": "Malaysia Trouble Shoot  / 查找问题",
+				"orderLabel": "Job (MY Trouble Shoot / 查找问题)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"AC Project": {
 				"label": "Aircon Project / 冷气项目",
 				"orderLabel": "Job (Aircon Project / 冷气项目)",
 				"description": "Label standard",
@@ -309,7 +329,7 @@
 			},
 			"Singapore SW": {
 				"label": "Singapore / Standard Wash",
-				"orderLabel": "Hour (Singapore Standard Wash)",
+				"orderLabel": "Hour (SG Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -327,7 +347,7 @@
 			},
 			"Singapore CW": {
 				"label": "Singapore / Chemical Wash",
-				"orderLabel": "Hour (Singapore Standard Wash)",
+				"orderLabel": "Hour (SG Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "110",
