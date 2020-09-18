@@ -292,8 +292,8 @@
 			},
 			
 			"MY Trouble Shoot": {
-				"label": "Malaysia Trouble Shoot  / 查找问题",
-				"orderLabel": "Job (MY Trouble Shoot / 查找问题)",
+				"label": "Malaysia AC Trouble Shoot  / 查找系统问题",
+				"orderLabel": "Job (AC Trouble Shoot / 查找系统问题)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
