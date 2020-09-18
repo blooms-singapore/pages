@@ -216,20 +216,20 @@
 				}
 			},
 			
-			"Gas Checks": {
-				"label": "Malaysia Check Gas Pressure / 系统气压检测",
-				"orderLabel": "Hour (MY Pressure Checks / 气压检测)",
+			"MY Gas Checks": {
+				"label": "Malaysia Detail Gas Pressure CHeck / 系统气压检测",
+				"orderLabel": "Job (MY Gas Pressure Checks / 气压检测)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "120",
+					"MYR": "50",
 					"CNY": "300"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Job",
 					"min": 0,
-					"max": 150,
-					"increment": 30,
+					"max": 1,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
@@ -295,8 +295,8 @@
 				"orderLabel": "Job (MY Trouble Shoot / 查找问题)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "45",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"quantity": {
