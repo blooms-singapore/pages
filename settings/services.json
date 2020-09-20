@@ -781,8 +781,8 @@
 			},
 			
 		       "Water Tank 1st Hr": {
-				"label": "(B) Tank Wash 1st Hr / 水箱清洗第1小时",
-				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第1小时)",
+				"label": "(B) Tank Wash 1st Hr / 水箱清洗第 1 小时",
+				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第 1 时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -800,8 +800,8 @@
 			},
 			
 			"Water Tank >= 2nd Hr": {
-				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第2小时以上",
-				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第2小时以上)",
+				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第 2 小时以上",
+				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第 2 小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -837,9 +837,28 @@
 				}
 			},
 			
-			"Water Tank Repair": {
-				"label": "(B) Tank Repair / 水箱维修",
-				"orderLabel": "Hour (Tank Repair / 水箱维修)",
+			"Tank Repair 1st Hr": {
+				"label": "(B) Tank Repair 1st Hr / 水箱维修第 1 小时",
+				"orderLabel": "Hour (Tank Repair 1st Hr / 水箱维修第 1 小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair >= 2nd Hr": {
+				"label": "(B) Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上",
+				"orderLabel": "Hour (Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -857,8 +876,8 @@
 			},
 			
 			 "Project": {
-				"label": "Project / 项目",
-				"orderLabel": "Job (Project / 项目)",
+				"label": "（C）Lump Sum Project / 包工包料项目",
+				"orderLabel": "Job (Lump Sum Project / 包工包料项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
