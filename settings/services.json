@@ -780,6 +780,25 @@
 				}
 			},
 			
+			"Plumbing Project": {
+				"label": "(A) Plumbing Project / 水喉工程项目",
+				"orderLabel": "Job (Plumbing Project / 水喉工程项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
 		       "Water Tank 1st Hr": {
 				"label": "(B) Tank Wash 1st Hr / 水箱清洗第 1 小时",
 				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第 1 时)",
@@ -875,9 +894,9 @@
 				}
 			},
 			
-			 "Project": {
-				"label": "（C）Lump Sum Project / 包工包料项目",
-				"orderLabel": "Job (Lump Sum Project / 包工包料项目)",
+			 "Tank Project": {
+				"label": "(B）Tank Project / 水箱项目",
+				"orderLabel": "Job (Tank Project / 水箱项目)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
