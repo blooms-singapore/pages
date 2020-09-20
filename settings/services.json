@@ -835,25 +835,43 @@
 					"base": 60
 				}
 			},
-			"Other Tank Issue Survey": {
-				"label": "(B) Other Tank Issue Survey / 其它水箱调查",
-				"orderLabel": "Trip (Tank Issue Survey / 水箱调查)",
+			"Tank Issue Survey": {
+				"label": "(B) Tank Issue Survey / 其它水箱调查",
+				"orderLabel": "Job (Tank Issue Survey / 水箱调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "30",
+					"SGD": "30",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 60,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
-			}
+			},
 			
+			"Water Tank Repair": {
+				"label": "(B) Tank Repair / 水箱维修",
+				"orderLabel": "Hour (Tank Repair / 水箱维修)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			}
 		},
 		
 		"types": {
