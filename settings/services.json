@@ -839,7 +839,7 @@
 			
 			"Tank Issue Survey": {
 				"label": "(B) Tank Issue Survey / 水箱调查",
-				"orderLabel": "Job (Tank Issue Survey / 水箱调查)",
+				"orderLabel": "Trip (Tank Issue Survey / 水箱调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -847,7 +847,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 60,
 					"increment": 60,
