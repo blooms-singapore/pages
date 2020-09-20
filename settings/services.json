@@ -798,6 +798,7 @@
 					"base": 60
 				}
 			},
+			
 			"Water Tank >= 2nd Hr": {
 				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第2小时以上",
 				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第2小时以上)",
@@ -816,8 +817,9 @@
 					"base": 60
 				}
 			},
+			
 			"Tank Issue Survey": {
-				"label": "(B) Tank Issue Survey / 其它水箱调查",
+				"label": "(B) Tank Issue Survey / 水箱调查",
 				"orderLabel": "Job (Tank Issue Survey / 水箱调查)",
 				"description": "Label standard",
 				"cost": {
@@ -852,10 +854,10 @@
 					"default": 0,
 					"base": 60
 				}
-			}，
+			},
 			
 			 "Project": {
-				"label": "(A) Project / 项目",
+				"label": "Project / 项目",
 				"orderLabel": "Job (Project / 项目)",
 				"description": "Label standard",
 				"cost": {
