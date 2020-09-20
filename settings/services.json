@@ -726,8 +726,8 @@
 		"hasNote": 1,
 		"options": {
 			"1st Hr": {
-				"label": "(A) 1st Hr Rate / 第1小时收费",
-				"orderLabel": "Hour (1st Hr / 第1小时)",
+				"label": "(A) 1st Hr Rate / 第 1 小时收费",
+				"orderLabel": "Hour (1st Hr / 第 1 小时)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -744,8 +744,8 @@
 				}
 			},
 			"=>2Hr": {
-				"label": "(A) 2nd Hr & more Rate / 第2小时以上收费",
-				"orderLabel": "Hour (>= 2nd Hr / 第2小时以上)",
+				"label": "(A) 2nd Hr & more Rate / 第 2 小时或以上收费",
+				"orderLabel": "Hour (2nd Hr & more / 第 2 小时或以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -819,8 +819,8 @@
 			},
 			
 			"Water Tank >= 2nd Hr": {
-				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第 2 小时以上",
-				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第 2 小时以上)",
+				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第 2 小时或以上",
+				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第 2 小时或以上)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
