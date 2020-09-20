@@ -780,26 +780,7 @@
 				}
 			},
 			
-			 "Project": {
-				"label": "(A) Project / 项目",
-				"orderLabel": "Job (Project / 项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Water Tank 1st Hr": {
+		       "Water Tank 1st Hr": {
 				"label": "(B) Tank Wash 1st Hr / 水箱清洗第1小时",
 				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第1小时)",
 				"description": "Label standard",
@@ -868,6 +849,25 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			}，
+			
+			 "Project": {
+				"label": "(A) Project / 项目",
+				"orderLabel": "Job (Project / 项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
