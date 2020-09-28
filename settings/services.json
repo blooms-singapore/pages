@@ -1245,9 +1245,9 @@
 				"orderLabel": "PKG (PKG 10X / 配套 10X)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "18",
+					"SGD": "0",
 					"MYR": "25",
-					"CNY": "82.5"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "PKG",
@@ -1256,7 +1256,7 @@
 					"default": 0,
 					"increment": 60,
 					"base": 60,
-					"multiplier": 1
+					"multiplier": 10
 					
 				}
 			}
