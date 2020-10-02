@@ -1705,7 +1705,7 @@
 			},
 			
 			"Find1000": {
-				"label": "Find 1000",
+				"label": "Find 1000 (Free)",
 				"orderLabel": "Clue (Find 1000)",
 				"description": "Label standard",
 				"cost": {
