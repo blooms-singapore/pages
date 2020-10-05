@@ -49,7 +49,6 @@
       data () {
         return {
           uri: null,
-          params: {},
           currency: currency,
           serviceKey: serviceKey,
           service: null,
@@ -58,12 +57,17 @@
           banner: '/assets/img/banners/'+serviceKey+'.png'
         }
       },
-      mounted () {
-        for(var key of urlParams.keys())
-        {
-          this.$set(params, key, urlParams.get(key))
+      computed: {
+        params: function() {
+          let newParams = {}
+          for(var key of urlParams.keys())
+          {
+            newParams[key] = urlParams.get(key)
+          }
+          return newParams
         }
-        
+      },
+      mounted () {
         function readResponseAsJSON(response) {
           return response.json();
         }
