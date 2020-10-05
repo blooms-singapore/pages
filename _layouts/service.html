@@ -59,8 +59,9 @@
         }
       },
       mounted () {
-        for(var key in urlParams.keys())
+        for(var key of urlParams.keys())
         {
+          console.log(key)
             this.params[key] = urlParams.get(key)
         }
         console.log(this.params)
