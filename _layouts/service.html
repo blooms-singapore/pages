@@ -61,10 +61,9 @@
       mounted () {
         for(var key of urlParams.keys())
         {
-          console.log(key)
-            this.params[key] = urlParams.get(key)
+          this.$set(params, key, urlParams.get(key))
         }
-        console.log(this.params)
+        
         function readResponseAsJSON(response) {
           return response.json();
         }
