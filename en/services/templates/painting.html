@@ -8,25 +8,25 @@ layout: service
     <thead>
       <tr>
         <th>Item</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
        <tr>
         <td>1st Hour Labour Rate / Crew
           <p>第1小时1人工收费</td>
-        <td>${first_hr_labour}/Hr (小时)</td>
+        <td>${params.first_hr_labour}/Hr (小时)</td>
       </tr>
       <tr>
         <td>2nd Hour or more Labour Rate / Crew
           <p>2小时或以上1人工收费</td>
-        <td>${second_hr_more_labour}/Hr (小时)</td>
+        <td>${params.second_hr_more_labour}/Hr (小时)</td>
       </tr>
     </tbody>
     <thead>
       <tr>
         <th>Project</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
@@ -45,14 +45,14 @@ layout: service
       <tr>
         <th>Other Charges
         <p>其它收费</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Service Extension
         <p>加时服务</td>
-        <td>${currency}22.5 per 30-min block
+        <td>${params.currency}22.5 per 30-min block
        <p>每30分钟块 - 马币22.5</td>
       </tr>
 

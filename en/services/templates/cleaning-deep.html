@@ -8,7 +8,7 @@ layout: service
     <thead>
       <tr>
         <th>Item</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
@@ -17,12 +17,12 @@ layout: service
           <p>公寓 / 有地住宅 : 2人
           <p>Condo min 3Hrs / 公寓 最少 3小时
           <p>Landed House min 5Hrs / 有地住宅最少 5小时</td>
-        <td>${deep_cleaning_booking}/Hr(小时)</td>
+        <td>${params.deep_cleaning_booking}/Hr(小时)</td>
       </tr>
        <tr>
         <td>Service Extension
         <p>加时服务</td>
-        <td>${currency}35 per 30-min block
+        <td>${params.currency}35 per 30-min block
        <p>每30分钟块 - 马币35</td>
       </tr>
       <tr>

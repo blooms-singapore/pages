@@ -8,39 +8,39 @@ layout: service
     <thead>
       <tr>
         <th>Items</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
         <tr>
         <td>On-site Assessment
           <p>现场测查问题</td>
-        <td>${assessment}/Job</td>
+        <td>${params.assessment}/Job</td>
       </tr>
       
        <tr>
         <td>Installation 1st Hr Rate
           <p>安装服务第1小时收费</td>
-        <td>${first_hr}/Hr</td>
+        <td>${params.first_hr}/Hr</td>
       </tr>
       
        <tr>
         <td>Installation 2nd Hr & more Rate
           <p>安装服务第2小时以上收费</td>
-        <td>${second_or_more_hr}/Hr</td>
+        <td>${params.second_or_more_hr}/Hr</td>
       </tr>
       
        <tr>
        <td>Workshop Repair
         <p>回厂维修</td>
-        <td>${workshop_repair}/Job</td>
+        <td>${params.workshop_repair}/Job</td>
       </tr>
     </tbody>
     <thead>
       <tr>
         <th>Project or Item Sale
         <p>项目或物件销售</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
@@ -60,7 +60,7 @@ layout: service
       <tr>
         <th>Other Charges
         <p>其它收费</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>

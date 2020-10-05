@@ -49,6 +49,7 @@
       data () {
         return {
           uri: null,
+          params: {},
           currency: currency,
           serviceKey: serviceKey,
           service: null,
@@ -58,7 +59,10 @@
         }
       },
       mounted () {
-
+        for(var key in urlParams.keys())
+        {
+            this.params[key] = urlParams.get(key)
+        }
         function readResponseAsJSON(response) {
           return response.json();
         }

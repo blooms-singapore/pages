@@ -8,19 +8,19 @@ layout: service
     <thead>
       <tr>
         <th>(A) Plumbing / 水喉工</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>1st Hr Rate
         <p>第 1 小时收费</td>
-        <td>${first_hr}/Hr (小时)</td>
+        <td>${params.first_hr}/Hr (小时)</td>
       </tr>
       <tr>
         <td>2nd Hr & more Rate
         <p>第 2 小时或以上收费</td>
-        <td>${second_or_more_hr}/Hr (小时)</td>
+        <td>${params.second_or_more_hr}/Hr (小时)</td>
       </tr>
       
        <tr>
@@ -28,7 +28,7 @@ layout: service
         <p>非标准水喉调查收费
         <p>Waived upon project confirmation
         <p>项目确定后免除</td>
-        <td>${survey}/Trip (趟)</td>
+        <td>${params.survey}/Trip (趟)</td>
       </tr>
 
       <tr>
@@ -42,19 +42,19 @@ layout: service
     <thead>
       <tr>
         <th>(B) Water Tank / 水箱</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Tank Wash 1st Hr
         <p>清洗水箱第 1 小时收费</td>
-        <td>${water_tank_first_hr}/Hr (小时)</span></td>
+        <td>${params.water_tank_first_hr}/Hr (小时)</span></td>
       </tr>
       <tr>
         <td>Tank Wash 2nd Hr & more
         <p>清洗水箱第 2 小时或以上收费</td>
-        <td>${water_tank_second_or_more_hr}/Hr (小时)</td>
+        <td>${params.water_tank_second_or_more_hr}/Hr (小时)</td>
       </tr>
 
       <tr>
@@ -62,19 +62,19 @@ layout: service
          <p>水箱调查收费
         <p>Waived upon project confirmation
         <p>项目确定后免除</td>
-        <td>${tank_issue_survey}/Trip (趟)</td>
+        <td>${params.tank_issue_survey}/Trip (趟)</td>
       </tr>
 
       <tr>
         <td>Tank Repair 1st Hr
         <p>维修水箱第 1 小时</td>
-        <td>${tank_repair_first_hr}/Hr (小时)</td>
+        <td>${params.tank_repair_first_hr}/Hr (小时)</td>
       </tr>
 
       <tr>
       <td>Tank Repair 2nd Hr & more
         <p>维修水箱第 2 小时或以上</td>
-        <td>${tank_repair_second_or_more_hr}/Hr (小时)</td>
+        <td>${params.tank_repair_second_or_more_hr}/Hr (小时)</td>
       </tr>
       
       <tr>
@@ -89,14 +89,14 @@ layout: service
       <tr>
         <th>(C) Other Charges
         <p>其它收费</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
        <tr>
         <td>Service Extension
         <p>加时收费</td>
-        <td>${currency}30 per 30-min block
+        <td>${params.currency}30 per 30-min block
        <p>每30分钟块 - 马币30</td>
       </tr>
       

@@ -8,45 +8,45 @@ layout: service
     <thead>
       <tr>
         <th>(A) Non-Waterproofing / 无防水</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
        <tr>
         <td>1st Hour Rate
         <p>第1小时收费</td>
-        <td>${first_hr}</td>
+        <td>${params.first_hr}</td>
       </tr>
       
        <tr>
         <td>2nd Hour Onward Rate
         <p>第2小时或以上收费</td>
-        <td>${second_or_more_hr}</td>
+        <td>${params.second_or_more_hr}</td>
       </tr>
     </tbody>
      <thead>
       <tr>
         <th>(B) Waterproof Work / 防水工</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
        <tr>
         <td>Unit Rate (Supply Tiles)
         <p>单位价 （提供瓷砖）</td>
-        <td>${with_tiles_one}/ft2</td>
+        <td>${params.with_tiles_one}/ft2</td>
       </tr>
       
        <tr>
         <td>Unit Rate (No Tile Supply)
         <p>单位价 （无瓷砖供应）</td>
-        <td>${no_tile_one}/ft2</td>
+        <td>${params.no_tile_one}/ft2</td>
       </tr>
     </tbody>
     <thead>
       <tr>
         <th>(C) Project / 项目</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
@@ -63,7 +63,7 @@ layout: service
       <tr>
         <th>Other Charges
         <p>其它费用</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
@@ -71,7 +71,7 @@ layout: service
       <tr>
         <td>Service Extension
         <p>加时服务收费</td>
-        <td>${currency}30 per 30-min block
+        <td>${params.currency}30 per 30-min block
        <p>每30分钟块 - 马币30</td>
       </tr>
       

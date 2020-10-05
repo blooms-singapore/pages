@@ -8,24 +8,24 @@ layout: service
     <thead>
       <tr>
         <th>(A) Home / 家 < 20km</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Room door unlock / 房门开锁<br>(10am to 9pm)</td>
-        <td>${unlock_morning} / unit</td>
+        <td>${params.unlock_morning} / unit</td>
       </tr>
       <tr>
         <td>Room door unlock / 房门开锁 <br>(after 9pm / 晚上9点后)</td>
-        <td>${unlock_evening} / unit</td>
+        <td>${params.unlock_evening} / unit</td>
       </tr>
       <tr>
         <td>
           <p>Metal door unlock / 铁门开锁
           </p>
         </td>
-        <td>${unlock_metal}+</td>
+        <td>${params.unlock_metal}+</td>
       </tr>
       <tr>
         <td>Other lock work survey
@@ -49,18 +49,18 @@ layout: service
     <thead>
       <tr>
         <th>(B) Car Key Copy / 车锁复制</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Audi, Honda, Kia, Lexus, Mazda, 
         <p>Mitsubishi, Nissan, Suzuki, Toyota
-        <td>${premium_car_key_copy}+ / pc</td>
+        <td>${params.premium_car_key_copy}+ / pc</td>
       </tr>
        <tr>
         <td>Proton or Perodua
-        <td>${national_car_key_copy}+ / pc</td>
+        <td>${params.national_car_key_copy}+ / pc</td>
        </tr>
         <tr>
         <td>Other Car Makes
@@ -70,13 +70,13 @@ layout: service
     <thead>
       <tr>
       <th>(C) Digital Lock / 数码科技锁</th>
-      <th>Pricing (${currency})</th>
+      <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Office or Room Door
-        <td>${digital_lock}+
+        <td>${params.digital_lock}+
           <p>Exclude Installation</td>
       </tr>
        <tr>
