@@ -7,7 +7,7 @@
 			"MYR": "66.25",
 			"CNY": "150"
 		},
-		"disableLocations": [],
+		"disableLocations": ["China", "Singapore", "China 2"],
 		"hasNote": 1,
 		"options": {
 			"Std 1st": {
@@ -160,7 +160,7 @@
 	"painting": {
 		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore", "United States"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
