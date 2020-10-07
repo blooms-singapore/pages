@@ -986,7 +986,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "55",
+			"SGD": "23.50",
 			"MYR": "98",
 			"CNY": "195"
 		},
@@ -999,7 +999,7 @@
 				"orderLabel": "Hours (Standard Clean / 普通清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "18",
+					"SGD": "8.5",
 					"MYR": "25",
 					"CNY": "82.5"
 				},
