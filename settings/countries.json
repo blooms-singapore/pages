@@ -4,7 +4,9 @@
       "code": "MY",
       "currency": "MYR",
       "minAmount": 2.5,
-      "len": 9
+      "len": 9,
+      "phone": "+60 10 883 0800",
+      "email": "wilicks@blooms.sg"
    },
    "65": {
       "country": "Singapore",
