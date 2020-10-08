@@ -13,7 +13,9 @@
       "code": "SG",
       "currency": "SGD",
       "minAmount": 0.7,
-      "len": 8
+      "len": 8,
+      "phone": "+65 8288 1445",
+      "email": "query@blooms.sg"
    },
    "86": {
       "country": "China",
