@@ -1014,6 +1014,28 @@
 					
 				}
 			},		
+			"Landed Std Clean min 3.5hrs": {
+				"handle": "landed_std_clean_under_35",
+				"label": "Landed Std Cleaning / 普通清洗",
+				"displayLabel": "Landed Std Clean / 普通洗",
+				"orderLabel": "Hours (Landed Standard Clean / 普通清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "17",
+					"MYR": "50",
+					"CNY": "165"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 210,
+					"max": 0,
+					"default": 0,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},		
 			"PKG 10X": {
 				"handle": "package_10",
 				"label": "Package 10X / 配套 10X",
@@ -1045,9 +1067,9 @@
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
+					"SGD": "15",
+					"MYR": "15",
+					"CNY": "15"
 				},
 				"quantity": {
 					"label": "PKG",
