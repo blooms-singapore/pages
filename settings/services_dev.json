@@ -1020,10 +1020,11 @@
 				"displayLabel": "Package 10X / 配套 10X",
 				"orderLabel": "PKG (PKG 10X / 配套 10X)",
 				"description": "Label standard",
+				"isPackage": "true",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
+					"SGD": "10",
+					"MYR": "10",
+					"CNY": "10"
 				},
 				"quantity": {
 					"label": "PKG",
@@ -1042,6 +1043,7 @@
 				"displayLabel": "Package 20X / 配套 20X",
 				"orderLabel": "PKG (PKG 20X / 配套 20X)",
 				"description": "Label standard",
+				"isPackage": "true",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
