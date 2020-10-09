@@ -1242,7 +1242,7 @@
 					"multiplier": 1
 				}
 			 },
-	
+			
 		"Project": {
 				"label": "Project / 项目",
 				"orderLabel": "Job (Project / 项目)",
@@ -1250,6 +1250,46 @@
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+			"Small Debri": {
+				"label": "Small Debri Disposal / 小垃圾处理 <= 3 bags",
+				"orderLabel": "Job (Small Debri Disposal / 小垃圾处理 <= 3 bags)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "35",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+			"Big Debri": {
+				"label": "Big Debri Disposal / 大垃圾处理 > 3 bags",
+				"orderLabel": "Job (Big Debri Disposal / 大垃圾处理 > 3 bags)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "50",
 					"CNY": "20"
 				},
 				"quantity": {
