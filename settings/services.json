@@ -2151,32 +2151,111 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 2,
-					"default": 2,
-					"increment": 2,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
 					"base": 1,
 					"multiplier": 1
 				}
 			 },
-			"econ-wax": {
-				"label": "Economic Wax / 标准打蜡",
-				"orderLabel": "Hour (Econ Wax / 标准打蜡)",
+			
+			"SUV Wax": {
+				"label": "SUV Wax / 打蜡",
+				"orderLabel": "Job (SUV Wax / 打蜡)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "0",
+					"MYR": "180",
 					"CNY": "50"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Job",
 					"min": 0,
-					"max": 0,
-					"increment": 30,
+					"max": 1,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
+				}
+			},
+			
+			"MPV Wax": {
+				"label": "MPV Wax / 打蜡",
+				"orderLabel": "Job (MPV Wax / 打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "220",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Coat": {
+				"label": "Sedan Coat / 保护膜层",
+				"orderLabel": "Job (Sedan Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "400",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Coat": {
+				"label": "SUV Coat / 保护膜层",
+				"orderLabel": "Job (SUV Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "500",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Coat": {
+				"label": "MPV Coat / 保护膜层",
+				"orderLabel": "Job (MPV Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "600",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
 				}
 			}
+			
 		},
+		
 		"types": {
 			"house": {
 				"label": "House Type",
