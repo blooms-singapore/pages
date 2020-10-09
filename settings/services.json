@@ -2328,6 +2328,101 @@
 					"default": 0,
 					"base": 1
 				}
+			},
+			
+			"Premium SUV Tint": {
+				"label": "SUV Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium SUV Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1200",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Premium MPV Tint": {
+				"label": "MPV Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium MPV Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1400",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Clean": {
+				"label": "Sedan Seat Clean / 车椅维护",
+				"orderLabel": "Job (Sedan Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "350",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Clean": {
+				"label": "SUV Seat Clean / 车椅维护",
+				"orderLabel": "Job (SUV Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "450",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Clean": {
+				"label": "MPV Seat Clean / 车椅维护",
+				"orderLabel": "Job (MPV Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "500",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
 			}
 			
 		},
