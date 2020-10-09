@@ -2094,26 +2094,26 @@
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "160",
+			"MYR": "147",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"premium-wax": {
-				"label": "Premium Wax / 优质打蜡",
-				"orderLabel": "Hour (Prem Wax / 优质打蜡)",
+			"Wax Sedan": {
+				"label": "Sedan Wax / 打蜡",
+				"orderLabel": "Job (Sedan Wax / 打蜡)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "160",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
-					"min": 120,
-					"max": 0,
+					"min": 0,
+					"max": 1,
 					"default": 60,
-					"increment": 30,
+					"increment": 120,
 					"base": 1,
 					"multiplier": 1
 				}
