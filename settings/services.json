@@ -2111,9 +2111,9 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
-					"default": 120,
-					"increment": 120,
+					"max": 2,
+					"default": 2,
+					"increment": 2,
 					"base": 1,
 					"multiplier": 1
 				}
