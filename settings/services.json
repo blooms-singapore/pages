@@ -2089,8 +2089,8 @@
 		}
 	},
 	
-	"car-waxing": {
-		"name": "Car Waxing / 汽车打蜡",
+	"car-care": {
+		"name": "Car Care / 汽车护理",
 		"lastSlot": "15:00",
 		"startPrice": {
 			"SGD": "20",
