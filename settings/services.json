@@ -2112,7 +2112,7 @@
 					"label": "Job",
 					"min": 0,
 					"max": 1,
-					"default": 60,
+					"default": 120,
 					"increment": 120,
 					"base": 1,
 					"multiplier": 1
