@@ -360,7 +360,7 @@
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "71",
@@ -480,7 +480,7 @@
 	"plumbing": {
 		"name": "Plumbing / 水喉工",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "71",
@@ -825,7 +825,7 @@
 	"computer": {
 		"name": "Computer / 电脑",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "35",
 			"MYR": "61.5",
@@ -1125,7 +1125,7 @@
 	"cleaning-deep": {
 		"name": "Deep Cleaning / 大扫除清洗",
 		"lastSlot": "13:30",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "204",
@@ -1231,7 +1231,7 @@
 	"landscape": {
 		"name": "Landscaping / 园艺修剪",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -1353,7 +1353,7 @@
 	"tiling": {
 		"name": "Tiling / 瓷砖工",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "90",
@@ -1835,7 +1835,7 @@
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
 		"lastSlot": "20:00",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "52",
@@ -2065,7 +2065,7 @@
 	"runner": {
 		"name": "Runner & Helper / 服务代劳",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "25",
