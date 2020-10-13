@@ -2171,7 +2171,7 @@
 	"car-waxing": {
 		"name": "Car Waxing / 汽车打蜡",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban","Singapore"],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "160",
