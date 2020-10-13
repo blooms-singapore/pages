@@ -2168,8 +2168,8 @@
 		}
 	},
 	
-	"car-waxing": {
-		"name": "Car Waxing / 汽车打蜡",
+	"car-care": {
+		"name": "Car care / 汽车打蜡",
 		"lastSlot": "15:00",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
