@@ -1,6 +1,6 @@
 {
-  "iosVersion": 1.26,
-  "androidVersion": 1.26,
+  "iosVersion": 1.22,
+  "androidVersion": 1.22,
   "iosDownload": "https://link.blooms.sg/ios",
   "androidDownload": "https://link.blooms.sg/android",
   "devicesUrl": "https://pages.blooms.sg/en/pages/news.html",
