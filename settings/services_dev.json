@@ -984,7 +984,7 @@
 	"cleaning-standard": {
 		"name": "Standard Cleaning / 普通清洗",
 		"lastSlot": "16:30",
-		"disableLocations": [Seremban],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "35",
 			"MYR": "98",
