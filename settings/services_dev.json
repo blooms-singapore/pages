@@ -1,4 +1,286 @@
 {
+	"aircon": {
+		"name": "Aircon Works / 冷气",
+		"lastSlot": "16:00",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "50",
+			"MYR": "109",
+			"CNY": "230"
+		},
+		"hasNote": 1,
+		"options": {
+			"Malaysia SW": {
+				"handle": "malaysia_sw",
+				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 台 (min 1hr booking)",
+				"orderLabel": "Hour (MY Std Wash -/ 普通洗 >= 3 units)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "100",
+					"MYR": "12",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Min Order": {
+				"handle": "min_order",
+				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (1-2 units Only)",
+				"orderLabel": "Job (MY Min Order / 最低服务收费 (1-2 units))",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Malaysia CW": {
+				"handle": "malaysia_cw",
+				"label": "Malaysia / 马来西亚 Chemical Wash / 深入化洗",
+				"orderLabel": "Hour (MY Chemical Wash / 化洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "120",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"MY Gas Checks": {
+				"handle": "my_gas_checks",
+				"label": "Malaysia Detail Gas Pressure CHeck / 系统气压检测",
+				"orderLabel": "Job (MY Gas Pressure Checks / 气压检测)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "50",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Malaysia Small Cassette CW 2-3HP": {
+				"handle": "malaysia_small_cassette_cw",
+				"label": "Malaysia / 马来西亚 Small Cassette Chemical Wash / 小天井式化洗 : 2 to 3HP（马力）",
+				"orderLabel": "Hour (MY Small Cassette Chemical Wash / 小天井式化洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "75",
+					"MYR": "200",
+					"CNY": "310"
+				},
+				"cost_max": {
+					"SGD": "75",
+					"MYR": "200",
+					"CNY": "310"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Malaysia Big Cassette CW 3.5 to 5HP": {
+				"handle": "malaysia_big_cassette_cw",
+				"label": "Malaysia / 马来西亚 Big Cassette Chemical Wash / 大天井式化洗 : 3.5 to 5HP（马力）",
+				"orderLabel": "Hour (Malaysia Big Cassette Chemical Wash / 大天井式化洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "98",
+					"MYR": "260",
+					"CNY": "365"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Quotation Enquiry": {				
+				"handle": "quotation_enquiry",
+				"label": "Quotation Enquiry / 咨询报价",
+				"orderLabel": "Job (Quotation Enquiry / 咨询报价)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"MY Trouble Shoot": {
+				"handle": "my_trouble_shoot",
+				"label": "Malaysia AC Trouble Shoot  / 查找系统问题",
+				"orderLabel": "Job (AC Trouble Shoot / 查找系统问题)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"AC Project": {
+				"handle": "ac_project",
+				"label": "Aircon Project / 冷气项目",
+				"orderLabel": "Job (Aircon Project / 冷气项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Singapore SW": {
+				"handle": "singapore_sw",
+				"label": "Singapore / Standard Wash",
+				"orderLabel": "Hour (SG Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "160",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 15,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Singapore CW": {
+				"handle": "singapore_cw",
+				"label": "Singapore / Chemical Wash",
+				"orderLabel": "Hour (SG Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "110",
+					"MYR": "220",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 15,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Find1000": {
+				"handle": "find_1000",
+				"label": "Find 1000 (Free)",
+				"orderLabel": "Clue (Find 1000)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "110",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Clue",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	"installation": {
 		"name": "Installation / 安装",
 		"lastSlot": "16:30",
@@ -1550,287 +1832,6 @@
 			}
 		}
 	},	
-	"aircon": {
-		"name": "Aircon Works / 冷气",
-		"lastSlot": "16:00",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "50",
-			"MYR": "109",
-			"CNY": "230"
-		},
-		"hasNote": 1,
-		"options": {
-			"Malaysia SW": {
-				"handle": "malaysia_sw",
-				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 台 (min 1hr booking)",
-				"orderLabel": "Hour (MY Std Wash -/ 普通洗 >= 3 units)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "100",
-					"MYR": "12",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Min Order": {
-				"handle": "min_order",
-				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (1-2 units Only)",
-				"orderLabel": "Job (MY Min Order / 最低服务收费 (1-2 units))",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "120",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Malaysia CW": {
-				"handle": "malaysia_cw",
-				"label": "Malaysia / 马来西亚 Chemical Wash / 深入化洗",
-				"orderLabel": "Hour (MY Chemical Wash / 化洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "120",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"MY Gas Checks": {
-				"handle": "my_gas_checks",
-				"label": "Malaysia Detail Gas Pressure CHeck / 系统气压检测",
-				"orderLabel": "Job (MY Gas Pressure Checks / 气压检测)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "50",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Malaysia Small Cassette CW 2-3HP": {
-				"handle": "malaysia_small_cassette_cw",
-				"label": "Malaysia / 马来西亚 Small Cassette Chemical Wash / 小天井式化洗 : 2 to 3HP（马力）",
-				"orderLabel": "Hour (MY Small Cassette Chemical Wash / 小天井式化洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "75",
-					"MYR": "200",
-					"CNY": "310"
-				},
-				"cost_max": {
-					"SGD": "75",
-					"MYR": "200",
-					"CNY": "310"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Malaysia Big Cassette CW 3.5 to 5HP": {
-				"handle": "malaysia_big_cassette_cw",
-				"label": "Malaysia / 马来西亚 Big Cassette Chemical Wash / 大天井式化洗 : 3.5 to 5HP（马力）",
-				"orderLabel": "Hour (Malaysia Big Cassette Chemical Wash / 大天井式化洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "98",
-					"MYR": "260",
-					"CNY": "365"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Quotation Enquiry": {				
-				"handle": "quotation_enquiry",
-				"label": "Quotation Enquiry / 咨询报价",
-				"orderLabel": "Job (Quotation Enquiry / 咨询报价)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"MY Trouble Shoot": {
-				"handle": "my_trouble_shoot",
-				"label": "Malaysia AC Trouble Shoot  / 查找系统问题",
-				"orderLabel": "Job (AC Trouble Shoot / 查找系统问题)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"AC Project": {
-				"handle": "ac_project",
-				"label": "Aircon Project / 冷气项目",
-				"orderLabel": "Job (Aircon Project / 冷气项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Singapore SW": {
-				"handle": "singapore_sw",
-				"label": "Singapore / Standard Wash",
-				"orderLabel": "Hour (SG Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "160",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 15,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Singapore CW": {
-				"handle": "singapore_cw",
-				"label": "Singapore / Chemical Wash",
-				"orderLabel": "Hour (SG Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "110",
-					"MYR": "220",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 15,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Find1000": {
-				"handle": "find_1000",
-				"label": "Find 1000 (Free)",
-				"orderLabel": "Clue (Find 1000)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "110",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Clue",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
 	
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
