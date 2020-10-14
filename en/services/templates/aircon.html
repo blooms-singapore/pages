@@ -20,10 +20,10 @@ layout: service
       </tr>
       <tr>
         <td>4 to 5 units（台）</td>
-        <td>${params.malaysia_sw}*1.5hrs
+        <td>
         <p id="sw"></p>
        <script>
-       var x = 10;
+       var x = ${params.malaysia_sw};
        x *= 1.5;
        document.getElementById("sw").innerHTML = x;
        </script>
@@ -61,7 +61,7 @@ layout: service
       <tr>
         <td>1 unit (台)</td>
         <td>${params.malaysia_cw}
-          <p> Book / 预订 1Hr</td>  /*Notes*/
+          <p> Book / 预订 1Hr</td>
       </tr>
       <tr>
         <td>2 units (台)</td>
