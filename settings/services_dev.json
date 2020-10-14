@@ -120,6 +120,12 @@
 					"MYR": "260",
 					"CNY": "365"
 				},
+				
+				"cost_max": {
+					"SGD": "75",
+					"MYR": "390",
+					"CNY": "310"
+				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
