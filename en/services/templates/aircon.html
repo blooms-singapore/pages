@@ -20,9 +20,16 @@ layout: service
       </tr>
       <tr>
         <td>4 to 5 units（台）</td>
-        <td>180
+        <td>
         <p>Book / 预订 1.5Hrs</td>
       </tr>
+      <p id="sw"></p>
+<script>
+var x = ${params.currency};
+x *= 1.5;
+var z = x * y;
+document.getElementById("sw").innerHTML = x;
+</script>
       <tr>
         <td>6 units（台）</td>
         <td>240
