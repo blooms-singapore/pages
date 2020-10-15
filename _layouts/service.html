@@ -62,7 +62,7 @@
           let newParams = {}
           for(var key of urlParams.keys())
           {
-            newParams[key] = urlParams.get(key)
+            newParams[key] = parseInt(urlParams.get(key))
           }
           return newParams
         }
