@@ -1282,9 +1282,9 @@
 		"options": {
 			"Std Clean min 3.5hrs": {
 				"handle": "std_clean_under_35",
-				"label": "Standard Cleaning / 普通清洗",
-				"displayLabel": "Std Clean / 普通洗",
-				"orderLabel": "Hours (Standard Clean / 普通清洗)",
+				"label": "Condo Cleaning / 公寓清洗",
+				"displayLabel": "Condo Cleaning / 公寓清洗",
+				"orderLabel": "Hours (Condo Cleaning / 公寓清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "8.5",
@@ -1304,9 +1304,9 @@
 			},		
 			"Landed Std Clean min 3.5hrs": {
 				"handle": "landed_std_clean_under_35",
-				"label": "Landed Std Cleaning / 普通清洗",
-				"displayLabel": "Landed Std Clean / 普通洗",
-				"orderLabel": "Hours (Landed Standard Clean / 普通清洗)",
+				"label": "Landed House Cleaning / 有地住宅清洗",
+				"displayLabel": "Landed House Cleaning / 有地住宅清洗",
+				"orderLabel": "Hours (Landed House Cleaning / 有地住宅清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "17",
