@@ -295,7 +295,7 @@
 			"MYR": "66.25",
 			"CNY": "150"
 		},
-		"disableLocations": ["China", "China 2", "Seremban"],
+		"disableLocations": ["China", "Singapore", "Seremban"],
 		"hasNote": 1,
 		"options": {
 			"Std 1st": {
@@ -448,7 +448,7 @@
 	"painting": {
 		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "United States", "Seremban"],
+		"disableLocations": ["Singapore", "KUALA LUMPUR", "Seremban"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
