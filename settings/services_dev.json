@@ -2,7 +2,7 @@
 	"aircon": {
 		"name": "Aircon Works / 冷气",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "109",
