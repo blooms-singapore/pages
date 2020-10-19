@@ -16,7 +16,7 @@
 				"orderLabel": "Hour (MY Std Wash -/ 普通洗 >= 3 units)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "100",
+					"SGD": "40",
 					"MYR": "120",
 					"CNY": "260"
 				},
@@ -35,7 +35,7 @@
 				"orderLabel": "Job (MY Min Order / 最低服务收费 (1-2 units))",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "40",
 					"MYR": "120",
 					"CNY": "260"
 				},
@@ -54,7 +54,7 @@
 				"orderLabel": "Hour (MY Chemical Wash / 化洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "40",
 					"MYR": "120",
 					"CNY": "300"
 				},
@@ -73,7 +73,7 @@
 				"orderLabel": "Job (MY Gas Pressure Checks / 气压检测)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "20",
 					"MYR": "50",
 					"CNY": "300"
 				},
@@ -92,12 +92,12 @@
 				"orderLabel": "Hour (MY Small Cassette Chemical Wash / 小天井式化洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "75",
+					"SGD": "65",
 					"MYR": "200",
 					"CNY": "310"
 				},
 				"cost_max": {
-					"SGD": "75",
+					"SGD": "100",
 					"MYR": "300",
 					"CNY": "310"
 				},
