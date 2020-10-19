@@ -198,8 +198,8 @@
 				"orderLabel": "Hour (SG Standard Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "160",
+					"SGD": "40",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -214,19 +214,19 @@
 			"Singapore CW": {
 				"handle": "singapore_cw",
 				"label": "Singapore / Chemical Wash",
-				"orderLabel": "Hour (SG Standard Wash)",
+				"orderLabel": "Hour (SG Chem Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "110",
-					"MYR": "220",
+					"SGD": "40",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 15,
-					"default": 0,
+					"increment": 30,
+					"default": 60,
 					"base": 60
 				}
 			},			
