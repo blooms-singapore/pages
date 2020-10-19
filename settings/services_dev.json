@@ -295,7 +295,7 @@
 			"MYR": "66.25",
 			"CNY": "150"
 		},
-		"disableLocations": ["China", "Singapore", "Seremban"],
+		"disableLocations": ["China"],
 		"hasNote": 1,
 		"options": {
 			"Std 1st": {
@@ -448,7 +448,7 @@
 	"painting": {
 		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "KUALA LUMPUR", "Seremban"],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
@@ -768,7 +768,7 @@
 	"plumbing": {
 		"name": "Plumbing / 水喉工",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "71",
@@ -1113,7 +1113,7 @@
 	"computer": {
 		"name": "Computer / 电脑",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Singapore", "Seremban"],
 		"startPrice": {
 			"SGD": "35",
 			"MYR": "61.5",
@@ -1272,7 +1272,7 @@
 	"cleaning-standard": {
 		"name": "Standard Cleaning / 普通清洗",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "35",
 			"MYR": "98",
@@ -1413,7 +1413,7 @@
 	"cleaning-deep": {
 		"name": "Deep Cleaning / 大扫除清洗",
 		"lastSlot": "13:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "204",
