@@ -2284,6 +2284,7 @@
 	"car-care": {
 		"name": "Car Care / 汽车护理",
 		"lastSlot": "15:00",
+		"disablelocations":["Singapore"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "147",
@@ -2292,6 +2293,7 @@
 		"hasNote": 1,
 		"options": {
 			"Wax Sedan": {
+				"Handle": "wax_sedan",
 				"label": "Sedan Wax / 打蜡",
 				"orderLabel": "Job (Sedan Wax / 打蜡)",
 				"description": "Label standard",
