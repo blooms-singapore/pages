@@ -1596,7 +1596,7 @@
 			},
 			
 			"MY Gas Checks": {
-				"label": "Malaysia Detail Gas Pressure CHeck / 系统气压检测",
+				"label": "Malaysia Detail Gas Pressure Check / 系统气压检测",
 				"orderLabel": "Job (MY Gas Pressure Checks / 气压检测)",
 				"description": "Label standard",
 				"cost": {
