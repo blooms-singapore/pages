@@ -2293,7 +2293,7 @@
 		"hasNote": 1,
 		"options": {
 			"Wax Sedan": {
-				"Handle": "wax_sedan",
+				"handle": "wax_sedan",
 				"label": "Sedan Wax / 打蜡",
 				"orderLabel": "Job (Sedan Wax / 打蜡)",
 				"description": "Label standard",
