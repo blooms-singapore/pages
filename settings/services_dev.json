@@ -295,7 +295,7 @@
 			"MYR": "66.25",
 			"CNY": "150"
 		},
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban","Singapore"],
 		"hasNote": 1,
 		"options": {
 			"Std 1st": {
@@ -448,7 +448,7 @@
 	"painting": {
 		"name": "Painting / 油漆",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
@@ -648,7 +648,7 @@
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "71",
@@ -768,7 +768,7 @@
 	"plumbing": {
 		"name": "Plumbing / 水喉工",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "71",
@@ -1007,7 +1007,7 @@
 	"electrical": {
 		"name": "Electrical / 电工",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "90",
@@ -1272,7 +1272,7 @@
 	"cleaning-standard": {
 		"name": "Standard Cleaning / 普通清洗",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "35",
 			"MYR": "98",
@@ -1519,7 +1519,7 @@
 	"landscape": {
 		"name": "Landscaping / 园艺修剪",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -1641,7 +1641,7 @@
 	"tiling": {
 		"name": "Tiling / 瓷砖工",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "90",
@@ -1842,7 +1842,7 @@
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
 		"lastSlot": "20:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "52",
@@ -2072,7 +2072,7 @@
 	"runner": {
 		"name": "Runner & Helper / 服务代劳",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "25",
@@ -2178,7 +2178,7 @@
 	"clean-water": {
 		"name": "Clean Water / 过滤水",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban","Singapore","Johor Bahru"],
+		"disableLocations": ["Seremban","Singapore"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "25",
