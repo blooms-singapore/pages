@@ -768,7 +768,7 @@
 	"plumbing": {
 		"name": "Plumbing / 水喉工",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "71",
@@ -1007,7 +1007,7 @@
 	"electrical": {
 		"name": "Electrical / 电工",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "90",
@@ -1355,9 +1355,9 @@
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "20"
+					"SGD": "15",
+					"MYR": "15",
+					"CNY": "15"
 				},
 				"quantity": {
 					"label": "PKG",
