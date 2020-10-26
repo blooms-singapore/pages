@@ -2286,7 +2286,7 @@
 	"car-care": {
 		"name": "Car Care / 汽车护理",
 		"lastSlot": "15:00",
-		"disableLocations":["Singapore"],
+		"disableLocations":["Singapore","Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "147",
@@ -2322,7 +2322,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "189",
+					"MYR": "189.47",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -2342,7 +2342,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "231",
+					"MYR": "231.57",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -2362,7 +2362,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "421",
+					"MYR": "421.05",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -2382,7 +2382,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "526",
+					"MYR": "526.31",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -2402,7 +2402,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "631.5",
+					"MYR": "631.57",
 					"CNY": "50"
 				},
 				"quantity": {
