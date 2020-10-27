@@ -2630,8 +2630,8 @@
 	},
 	
 	"workshop": {
-		"name": "DIY Installation Workshop / DIY 安装工作坊",
-		"lastSlot": "09:30",
+		"name": "Workshop / 工作坊",
+		"lastSlot": "10:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
