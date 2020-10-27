@@ -2640,8 +2640,8 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Inspection": {
-				"handle": "inspection",
+			"Installation": {
+				"handle": "installation",
 				"label": "DIY Installation Workshop / DIY 安装工作坊",
 				"orderLabel": "Pax (DIY Installation Workshop / DIY 安装工作坊)",
 				"description": "Label standard",
