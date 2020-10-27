@@ -2627,5 +2627,69 @@
 				}
 			}
 		}
+	},
+	
+	"workshop": {
+		"name": "DIY Installation Workshop / DIY 安装工作坊",
+		"lastSlot": "09:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "109",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Inspection": {
+				"handle": "inspection",
+				"label": "DIY Installation Workshop / DIY 安装工作坊",
+				"orderLabel": "Pax (DIY Installation Workshop / DIY 安装工作坊)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pax",
+					"min": 0,
+					"max": 5,
+					"increment": 60,
+					"default": 1,
+					"base": 60
+				}
+			 }		
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
 	}
 }
