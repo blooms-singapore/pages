@@ -1140,39 +1140,39 @@
 					"base": 60
 				}
 			},			
-			"Software": {
-				"handle": "software",
-				"label": "Software Upgrade & Format / 软件提升和设置",
-				"orderLabel": "Job (Software Upgrade & Format / 软件提升和设置)",
+			"Ware Install": {
+				"handle": "ware_install",
+				"label": "Soft or Hardware Install / 软和硬件设置或提升",
+				"orderLabel": "Hour (Soft or Hardware Install / 软和硬件设置或提升)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "35",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},			
-			"Hardware": {
-				"handle": "hardware",
-				"label": "Hardware Upgrade / 硬件提升和安装",
-				"orderLabel": "Hour (Hardware Upgrade / 硬件提升和安装)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "50",
+					"SGD": "25",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 240,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},			
+			"Network": {
+				"handle": "network",
+				"label": "Network / 网络设置或提升",
+				"orderLabel": "Hour (Network / 网络设置或提升)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 180,
 					"increment": 30,
 					"default": 60,
 					"base": 60
