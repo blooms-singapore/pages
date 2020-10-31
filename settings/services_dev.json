@@ -304,7 +304,7 @@
 				"orderLabel": "Hour (Std Install 1st Hr/普通安装第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "30",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -323,7 +323,7 @@
 				"orderLabel": "Hour (Std Install => 2Hr/普通安装)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "20",
 					"MYR": "50",
 					"CNY": "0"
 				},
@@ -342,8 +342,8 @@
 				"orderLabel": "Hour (Tech Install 1st Hr / 技术安装第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "90",
-					"MYR": "90",
+					"SGD": "40",
+					"MYR": "95",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -361,7 +361,7 @@
 				"orderLabel": "Hour (Tech Install >= 2Hr/ 技术安装第2小时或以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "0"
 				},
