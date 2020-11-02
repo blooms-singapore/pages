@@ -2143,8 +2143,29 @@
 					"default": 0,
 					"base": 60
 				}
-			}
+			},
+			
+			"Errand Project": {
+				"handle": "helper",
+				"label": "Errand Project / 差事项目",
+				"orderLabel": "Job (Errand Project / 差事项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			}					
 		},
+		
 	    "types": {
 			"house": {
 				"label": "House Type",
