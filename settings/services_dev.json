@@ -1276,8 +1276,8 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
-			"SGD": "35",
-			"MYR": "98",
+			"SGD": "40",
+			"MYR": "92",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -1289,7 +1289,7 @@
 				"orderLabel": "Hours (Small Condo Clean / 小公寓清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "8.5",
+					"SGD": "15",
 					"MYR": "25",
 					"CNY": "82.5"
 				},
@@ -1312,7 +1312,7 @@
 				"orderLabel": "Hours (Big Condo Clean / 大公寓清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "30",
 					"MYR": "50",
 					"CNY": "82.5"
 				},
@@ -1320,7 +1320,7 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 210,
+					"default": 180,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
@@ -1334,7 +1334,7 @@
 				"orderLabel": "Hours (Landed House Clean / 有地住宅清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "30",
 					"MYR": "50",
 					"CNY": "165"
 				},
