@@ -1398,7 +1398,7 @@
 		},			
 		"types": {
 			"house": {
-				"label": "Transport Surcharge",
+				"label": "House Type",
 				"description": "Label standard",
 				"values": {
 					"condo": {
