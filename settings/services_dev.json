@@ -1284,9 +1284,9 @@
 		"options": {
 			"Small Condo": {
 				"handle": "small_condo",
-				"label": "Small Condo Clean / 小公寓清洗",
-				"displayLabel": "Small Condo Clean / 小公寓清洗",
-				"orderLabel": "Hours (Small Condo Clean / 小公寓清洗)",
+				"label": "Small Condo / 小公寓",
+				"displayLabel": "Small Condo / 小公寓",
+				"orderLabel": "Hours (Small Condo / 小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1307,9 +1307,9 @@
 			
 			"Big Condo": {
 				"handle": "big_condo",
-				"label": "Big Condo Clean / 大公寓清洗",
-				"displayLabel": "Big Condo Clean / 大公寓清洗",
-				"orderLabel": "Hours (Big Condo Clean / 大公寓清洗)",
+				"label": "Big Condo / 大公寓",
+				"displayLabel": "Big Condo / 大公寓",
+				"orderLabel": "Hours (Big Condo / 大公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -1329,9 +1329,9 @@
 			},		
 			"Landed House": {
 				"handle": "landed_house",
-				"label": "Landed House Clean / 有地住宅清洗",
-				"displayLabel": "Landed House Clean / 有地住宅清洗",
-				"orderLabel": "Hours (Landed House Clean / 有地住宅清洗)",
+				"label": "Landed House / 有地住宅",
+				"displayLabel": "Landed House / 有地住宅",
+				"orderLabel": "Hours (Landed House / 有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
