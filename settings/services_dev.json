@@ -1379,7 +1379,6 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"handle": "condo_surcharge",
 						"label": "Condo (公寓) : 1 crew (人)",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
@@ -1387,6 +1386,7 @@
 							"MYR": "0",
 							"CNY": "0"
 						},
+						"handle": "condo_surcharge",
 						"oneOffCost": {
 							"SGD": "6.9",
 							"MYR": "20",
