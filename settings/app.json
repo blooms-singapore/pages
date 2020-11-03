@@ -9,7 +9,7 @@
   "promptLogin": "Please login to continue.",
   "noteLabel": "Input your Quotation info here: Price, Survey Order No, Requests, Comments, etc..",
   "defaultCountryCode": "60",
-  "defaultCurrency": "RM",
+  "defaultCurrency": "MYR",
   "customerSupport": "+6010 935 2700",
   "cancelBuffer": 72,
   "bookingDays": 21,
