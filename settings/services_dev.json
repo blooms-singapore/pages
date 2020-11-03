@@ -1395,7 +1395,7 @@
 					},
 											
 					"landed": {
-						"label": "Landed House (有地住宅): 2 crews (人)",
+						"label": "Landed House (有地住宅) / >3BR Condo (3房以上公寓) : 2 crews (人)",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
