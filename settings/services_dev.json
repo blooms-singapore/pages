@@ -1282,11 +1282,11 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Std Clean min 3.5hrs": {
-				"handle": "std_clean_under_35",
-				"label": "Condo Cleaning / 公寓清洗",
-				"displayLabel": "Condo Cleaning / 公寓清洗",
-				"orderLabel": "Hours (Condo Cleaning / 公寓清洗)",
+			"Small Condo": {
+				"handle": "small_condo",
+				"label": "Small Condo Clean / 小公寓清洗",
+				"displayLabel": "Small Condo Clean / 小公寓清洗",
+				"orderLabel": "Hours (Small Condo Clean / 小公寓清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "8.5",
@@ -1303,15 +1303,38 @@
 					"multiplier": 1
 					
 				}
-			},		
-			"Landed Std Clean min 3.5hrs": {
-				"handle": "landed_std_clean_under_35",
-				"label": "Landed House Cleaning / 有地住宅清洗",
-				"displayLabel": "Landed House Cleaning / 有地住宅清洗",
-				"orderLabel": "Hours (Landed House Cleaning / 有地住宅清洗)",
+			},
+			
+			"Large Condo": {
+				"handle": "large_condo",
+				"label": "Big Condo Clean / 大公寓清洗",
+				"displayLabel": "Big Condo Clean / 大公寓清洗",
+				"orderLabel": "Hours (Big ondo Clean / 大公寓清洗)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "17",
+					"SGD": "25",
+					"MYR": "50",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 210,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},		
+			"Landed House": {
+				"handle": "landed_house",
+				"label": "Landed House Clean / 有地住宅清洗",
+				"displayLabel": "Landed House Clean / 有地住宅清洗",
+				"orderLabel": "Hours (Landed House Clean / 有地住宅清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
 					"MYR": "50",
 					"CNY": "165"
 				},
@@ -1386,7 +1409,6 @@
 							"MYR": "0",
 							"CNY": "0"
 						},
-						"handle": "condo_surcharge",
 						"oneOffCost": {
 							"SGD": "6.9",
 							"MYR": "20",
