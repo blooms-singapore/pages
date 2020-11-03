@@ -1398,7 +1398,7 @@
 		},			
 		"types": {
 			"house": {
-				"label": "Transport Surcharge / 路程附加费",
+				"label": "Transport Surcharge",
 				"description": "Label standard",
 				"values": {
 					"condo": {
