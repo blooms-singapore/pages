@@ -1379,6 +1379,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
+						"handle": "condo_surcharge",
 						"label": "Condo (公寓) : 1 crew (人)",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
