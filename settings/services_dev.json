@@ -1305,11 +1305,11 @@
 				}
 			},
 			
-			"Large Condo": {
-				"handle": "large_condo",
+			"Big Condo": {
+				"handle": "big_condo",
 				"label": "Big Condo Clean / 大公寓清洗",
 				"displayLabel": "Big Condo Clean / 大公寓清洗",
-				"orderLabel": "Hours (Big ondo Clean / 大公寓清洗)",
+				"orderLabel": "Hours (Big Condo Clean / 大公寓清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -1398,12 +1398,12 @@
 		},			
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Transport Surcharge / 路程附加费",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo (公寓) : 1 crew (人)",
-						"orderLabel": "Condo Surcharge",
+						"label": "Small Condo / 小公寓",
+						"orderLabel": "Transport Surcharge / 路程附加费",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1417,7 +1417,7 @@
 					},
 											
 					"landed": {
-						"label": "Landed House (有地住宅) / >3BR Condo (3房以上公寓) : 2 crews (人)",
+						"label": "Landed House or Big Condo / 有地住宅或大公寓",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
