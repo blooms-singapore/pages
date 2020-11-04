@@ -2723,7 +2723,7 @@
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
-			"MYR": "109",
+			"MYR": "125",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -2735,7 +2735,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "120",
+					"MYR": "130",
 					"CNY": "0"
 				},
 				"quantity": {
