@@ -2374,7 +2374,7 @@
 	"car-care": {
 		"name": "Car Care / 汽车护理",
 		"lastSlot": "16:00",
-		"disableLocations":["Kuala Lumpur","Singapore","Johor Bahru"],
+		"disableLocations":["Kuala Lumpur","Singapore"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "147",
