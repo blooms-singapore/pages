@@ -2730,7 +2730,7 @@
 		"options": {
 			"Installation": {
 				"handle": "installation",
-				"label": "DIY Installation Workshop / DIY 安装工作坊",
+				"label": "DIY Installation Workshop /n DIY 安装工作坊",
 				"orderLabel": "Pax (DIY Installation Workshop / DIY 安装工作坊)",
 				"description": "Label standard",
 				"cost": {
