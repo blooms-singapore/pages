@@ -8,26 +8,31 @@ layout: service
     <thead>
       <tr>
         <th>Items</th>
-        <th>Pricing (${currency})</th>
+        <th>Pricing (${params.currency})</th>
       </tr>
     </thead>
     <tbody>
         <tr>
         <td>Vehicle Inspection
           <p>车检验代劳</td>
-        <td>80/Job</td>
+        <td>${params.inspection}/Job</td>
       </tr>
       
        <tr>
         <td>Helper
           <p>帮手</td>
-        <td>25/Trip</td>
+        <td>${params.helper}/Trip</td>
       </tr>
       
       <tr>
        <td>Emergency Booking
           <p>紧急预订</td>
-        <td>100 to 150/Trip （趟）</td>
+        <td>${params.emergency}/Trip （趟）</td>
+      </tr>
+      
+       <tr>
+        <td>Errand Project<br>差事项目</td>
+        <td>Quote after site survey<br>调查后报价</td>
       </tr>
   
       <tr>
@@ -98,15 +103,35 @@ layout: service
     <p>
     <li>房屋状况检阅。</li>
     </ul>
+
+ <br>
+  <p><b>(C) Errand Projects / 差事项目</b></br>
+  <p>Any customised errands, specific to customers' requirements such as:
+    <ul>
+    <li>Arranging for items removal.</li>
+    <p>
+    <li>Debri disposal.</li>
+    <p>
+    <li>Supervison of customer's contractors.</li>
+    <p>
+    <li>Purchase or receiving of big ticket items on behalf etc...</li>
+    <p>
+    <li>调协搬家。</li>
+    <p>
+    <li>丢弃垃圾。</li>
+    <p>
+    <li>监督承包商工作。</li>
+    <p>
+    <li>代客户买或接受大型物件，等等。</li>
+    </ul>
 </div>
 </div>
 
 <div class="divider"></div>
 <div class="gap">
   <div class="service-info">
-   <h4 class="service-title">Customer Care / 客户服务</h4>
-  <p><strong>Enquiry / 询问电话：</strong>
-  <p>+60 10 883 0800 / +60 10 935 2700
-  <p>www.blooms.my
-</div>
+    <h4 class="service-title">Customer Care / 客户服务</h4>
+    <p>${params.phone}</p>
+    <p>${params.email}</p>
+  </div>
 </div>
