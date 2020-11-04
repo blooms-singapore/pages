@@ -2719,7 +2719,7 @@
 	
 	"workshop": {
 		"name": "Workshop / 工作坊",
-		"lastSlot": "10:30",
+		"lastSlot": "13:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
