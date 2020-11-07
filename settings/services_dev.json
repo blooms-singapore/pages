@@ -1470,8 +1470,8 @@
 				"label": "Cleaning Survey / 清洗项目实地调查",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "20",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
