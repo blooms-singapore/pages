@@ -1491,8 +1491,8 @@
 				"orderLabel": "Job (Cleaning Project / 深度清洗项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "30",
+					"MYR": "70",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1520,7 +1520,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "20",
+							"MYR": "0",
 							"CNY": "0"
 						}
 					},
