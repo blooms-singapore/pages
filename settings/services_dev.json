@@ -770,8 +770,8 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
-			"SGD": "50",
-			"MYR": "71",
+			"SGD": "7",
+			"MYR": "14",
 			"CNY": "50"
 		},
 		"hasNote": 1,
@@ -820,8 +820,8 @@
 				"orderLabel": "Trip (Survey / 调查)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "30",
+					"SGD": "10",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
