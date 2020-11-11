@@ -1939,7 +1939,7 @@
 	},	
 	
 	"tiling": {
-		"name": "Tiling / 瓷砖工",
+		"name": "Tiling & Concrete / 瓷砖和水泥",
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
