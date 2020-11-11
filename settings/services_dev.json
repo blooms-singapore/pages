@@ -566,8 +566,8 @@
 			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
-				"label": "Car Key Copy / 车锁复制",
-				"orderLabel": "Car Key Copy / 车锁复制",
+				"label": "Foreign Car Key Copy / 海外车锁复制",
+				"orderLabel": "Unit (Foreign Car Key Copy / 海外车锁复制)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -586,8 +586,8 @@
 			
 			"National Car Key Copy": {
 				"handle": "national_car_key_copy",
-				"label": "Proton/Perodua Key Copy （车锁复制）",
-				"orderLabel": "Proton/Perodua Key Copy （车锁复制）",
+				"label": "Proton/Perodua Key Copy (车锁复制）",
+				"orderLabel": "Unit (Proton/Perodua Key Copy / 车锁复制)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -606,8 +606,8 @@
 			
 			"Digital Lock": {
 				"handle": "digital_lock",
-				"label": "Install EZope Smart Lock / 安装 EZope 智能锁",
-				"orderLabel": "Install EZope Smart Lock / 安装 EZope 智能锁",
+				"label": "EZope Smart Lock Install / EZope 智能锁安装",
+				"orderLabel": "Unit (EZope Smart Lock Install / EZope 智能锁安装)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "699",
