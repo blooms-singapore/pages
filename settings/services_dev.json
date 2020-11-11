@@ -1248,18 +1248,18 @@
 					"base": 60
 				}
 			},					
-			"Product Sale": {
-				"handle": "product_sale",
-				"label": "Product Sale / 产品销售",
-				"orderLabel": "Sale (Product Sale / 产品销售)",
+			"TV Box": {
+				"handle": "tv_box",
+				"label": "TV Box / 电视盒",
+				"orderLabel": "Set (TV Box / 电视盒)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "249",
+					"MYR": "599",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Sale",
+					"label": "Set",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
