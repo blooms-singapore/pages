@@ -544,10 +544,10 @@
 				}
 			},
 			
-			"Misc Repair": {
-				"handle": "misc_repair",
-				"label": "Misc lock repair / 非标准锁维修",
-				"orderLabel": "Job (Misc repair / 非标准锁维修)",
+			"Non Std Repair": {
+				"handle": "non_standard_repair",
+				"label": "Non-Standard lock repair / 非标准锁维修",
+				"orderLabel": "Job (Non-Std lock repair / 非标准锁维修)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
