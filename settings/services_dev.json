@@ -458,8 +458,8 @@
 		"options": {
 			"unlock-morning": {
 				"handle": "unlock_morning",
-				"label": "Room door unlock / 房门开锁 (10am to 9pm)",
-				"orderLabel": "Unit (Room door unlock - 10am to 9pm)",
+				"label": "Room Door Unlock / 房门开锁 (10am to 9pm)",
+				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -482,8 +482,8 @@
 			},
 			"unlock-evening": {
 				"handle": "unlock_evening",
-				"label": "Room door unlock / 房门开锁 (after 9pm / 晚上9点后)",
-				"orderLabel": "Unit (Room door unlock - after 9pm)",
+				"label": "Room Door Unlock / 房门开锁 (After 9pm / 晚上9点后)",
+				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -506,8 +506,8 @@
 			},
 			"unlock-metal": {
 				"handle": "unlock_metal",
-				"label": "Metal door unlock / 铁门开锁",
-				"orderLabel": "Unit (Metal door unlock)",
+				"label": "Metal Door Unlock / 铁门开锁",
+				"orderLabel": "Unit (Metal Door Unlock / 铁门开锁)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -526,8 +526,8 @@
 			
 			"Survey": {
 				"handle": "survey",
-				"label": "Other lock works survey / 其他装，拆，开锁工调查",
-				"orderLabel": "Trip (Other works survey / 其它调查)",
+				"label": "Other Lock Work Survey / 其他调查",
+				"orderLabel": "Trip (Other Lock Work Survey / 其它调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -546,8 +546,8 @@
 			
 			"Non Std Repair": {
 				"handle": "non_standard_repair",
-				"label": "Non-Standard lock repair / 非标准锁维修",
-				"orderLabel": "Job (Non-Std lock repair / 非标准锁维修)",
+				"label": "Non-Standard Lock Repair / 非标准锁维修",
+				"orderLabel": "Job (Non-Std Lock Repair / 非标准锁维修)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
