@@ -462,7 +462,7 @@
 				"orderLabel": "Unit (Room door unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "50",
 					"MYR": "60",
 					"CNY": "80"
 				},
@@ -486,7 +486,7 @@
 				"orderLabel": "Unit (Room door unlock - after 9pm)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "120",
+					"SGD": "80",
 					"MYR": "100",
 					"CNY": "120"
 				},
@@ -510,7 +510,7 @@
 				"orderLabel": "Unit (Metal door unlock)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "95",
+					"SGD": "35",
 					"MYR": "85",
 					"CNY": "95"
 				},
@@ -523,6 +523,27 @@
 					"base": 60
 				}
 			},
+			
+			"Survey": {
+				"handle": "survey",
+				"label": "Other lock works survey / 其他装，拆，开锁工调查",
+				"orderLabel": "Trip (Other works survey / 其它调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
 			"Misc Repair": {
 				"handle": "misc_repair",
 				"label": "Misc lock repair / 非标准锁维修",
@@ -541,7 +562,8 @@
 					"default": 0,
 					"base": 60
 				}
-			},			
+			},
+			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
 				"label": "Car Key Copy / 车锁复制",
@@ -561,6 +583,7 @@
 					"base": 60
 				}
 			},
+			
 			"National Car Key Copy": {
 				"handle": "national_car_key_copy",
 				"label": "Proton/Perodua Key Copy （车锁复制）",
@@ -580,32 +603,33 @@
 					"base": 60
 				}
 			},
+			
 			"Digital Lock": {
 				"handle": "digital_lock",
-				"label": "Install Digital lock / 安装数码锁",
-				"orderLabel": "Install Digital lock / 安装数码锁",
+				"label": "Install EZope Smart Lock / 安装 EZope 智能锁",
+				"orderLabel": "Install EZope Smart Lock / 安装 EZope 智能锁",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "600",
+					"SGD": "699",
+					"MYR": "1399",
 					"CNY": "80"
 				},
 				"quantity": {
 					"label": "Unit",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			},
-			"Misc Projects": {
+			"Projects": {
 				"handle": "misc_projects",
-				"label":"Misc Projects / 其它项目",
-				"orderLabel": "Job (Misc Projects / 其它项目)",
+				"label":"Projects / 项目",
+				"orderLabel": "Job (Projects / 项目)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "30"
 				},
@@ -614,30 +638,12 @@
 					"min": 0,
 					"max": 1,
 					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Survey": {
-				"handle": "survey",
-				"label": "Other lock works survey / 其他装，拆，开锁工调查",
-				"orderLabel": "Trip (Other works survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			}
 		},
+		
 		"types": {
 			"house": {
 				"label": "House Type",
