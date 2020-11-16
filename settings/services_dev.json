@@ -1147,7 +1147,7 @@
 	},
 	
 	"computer": {
-		"name": "Computer & Digital Entertainment / 电脑",
+		"name": "Computer & Digital Products / 电脑和数码产品",
 		"lastSlot": "16:00",
 		"disableLocations": ["Singapore", "Seremban"],
 		"startPrice": {
