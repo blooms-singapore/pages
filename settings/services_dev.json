@@ -1256,6 +1256,207 @@
 		}
 	},	
 	
+	"tiling": {
+		"name": "Tiling & Concrete / 瓷砖和水泥",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "45.5",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr": {
+				"handle": "first_hr",
+				"label": "1st Hour / 第1小时",
+				"orderLabel": "Hour (Std 1st Hr / 标准第1小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },
+			"2nd Hr": {
+				"handle": "second_or_more_hr",
+				"label": "2nd Hr or more / 第2小时以上",
+				"orderLabel": "Hour (>= 2Hr / 2小时以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "60",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"With tiles 1ft": {
+				"handle": "with_tiles_one",
+				"label": "1ft2 Waterproof With tiles / 防水包瓷砖",
+				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "35",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"With tiles 10ft2": {
+				"handle": "with_tiles_ten",
+				"label": "10ft2 Waterproof With tiles / 防水包瓷砖",
+				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "35",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"No tile 1ft2": {
+				"handle": "no_tile_one",
+				"label": "1ft2 Waterproof exclude tile/ 防水不包括瓷砖",
+				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "12",
+					"MYR": "25",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"No tile 10ft2": {
+				"handle": "no_tile_ten",
+				"label": "10ft2 Waterproof exclude tile/ 防水不包括瓷砖",
+				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "12",
+					"MYR": "25",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Survey": {
+				"handle": "survey",
+				"label": "Project Survey / 项目调查",
+				"orderLabel": "Trip (Project Survey / 项目调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+          "Project": {
+				"handle": "project",
+				"label": "Tiling Project / 瓷砖项目",
+				"orderLabel": "Job (Project / 项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},	
+	
 	"runner": {
 		"name": "Runner & Helper / 服务代劳",
 		"lastSlot": "15:30",
@@ -2240,208 +2441,7 @@
 			}
 		}
 	},
-	
-	"tiling": {
-		"name": "Tiling & Concrete / 瓷砖和水泥",
-		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
-		"startPrice": {
-			"SGD": "45.5",
-			"MYR": "90",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"1st Hr": {
-				"handle": "first_hr",
-				"label": "1st Hour / 第1小时",
-				"orderLabel": "Hour (Std 1st Hr / 标准第1小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			 },
-			"2nd Hr": {
-				"handle": "second_or_more_hr",
-				"label": "2nd Hr or more / 第2小时以上",
-				"orderLabel": "Hour (>= 2Hr / 2小时以上)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"With tiles 1ft": {
-				"handle": "with_tiles_one",
-				"label": "1ft2 Waterproof With tiles / 防水包瓷砖",
-				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "35",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"With tiles 10ft2": {
-				"handle": "with_tiles_ten",
-				"label": "10ft2 Waterproof With tiles / 防水包瓷砖",
-				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "35",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"No tile 1ft2": {
-				"handle": "no_tile_one",
-				"label": "1ft2 Waterproof exclude tile/ 防水不包括瓷砖",
-				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "12",
-					"MYR": "25",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"No tile 10ft2": {
-				"handle": "no_tile_ten",
-				"label": "10ft2 Waterproof exclude tile/ 防水不包括瓷砖",
-				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "12",
-					"MYR": "25",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Survey": {
-				"handle": "survey",
-				"label": "Project Survey / 项目调查",
-				"orderLabel": "Trip (Project Survey / 项目调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-          "Project": {
-				"handle": "project",
-				"label": "Tiling Project / 瓷砖项目",
-				"orderLabel": "Job (Project / 项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		},
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},	
-	
+		
 	"car-care": {
 		"name": "Car Care / 汽车护理",
 		"lastSlot": "16:00",
