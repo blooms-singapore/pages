@@ -565,245 +565,6 @@
 		}
 	},
 	
-	"plumbing": {
-		"name": "Plumbing / 水喉工",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore"],
-		"startPrice": {
-			"SGD": "7",
-			"MYR": "14",
-			"CNY": "50"
-		},
-		"hasNote": 1,
-		"options": {
-			"1st Hr": {
-				"handle": "first_hr",
-				"label": "(A) 1st Hr Rate / 第 1 小时收费",
-				"orderLabel": "Hour (1st Hr / 第 1 小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "80",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"=>2Hr": {
-				"handle": "second_or_more_hr",
-				"label": "(A) 2nd Hr & more Rate / 第 2 小时或以上收费",
-				"orderLabel": "Hour (2nd Hr & more / 第 2 小时或以上)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Survey": {
-				"handle": "survey",
-				"label": "(A) Non-Std Plumbing Survey / 非标准湿工调查",
-				"orderLabel": "Trip (Survey / 调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Plumbing Project": {
-				"handle": "project",
-				"label": "(A) Plumbing Project / 水喉工程项目",
-				"orderLabel": "Job (Plumbing Project / 水喉工程项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Water Tank 1st Hr": {
-				"handle": "water_tank_first_hr",
-				"label": "(B) Tank Wash 1st Hr / 水箱清洗第 1 小时",
-				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第 1 时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Water Tank >= 2nd Hr": {
-				"handle": "water_tank_second_or_more_hr",
-				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第 2 小时或以上",
-				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第 2 小时或以上)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "80",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Tank Issue Survey": {
-				"handle": "tank_issue_survey",
-				"label": "(B) Tank Issue Survey / 水箱调查",
-				"orderLabel": "Trip (Tank Issue Survey / 水箱调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "50",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Tank Repair 1st Hr": {
-				"handle": "tank_repair_first_hr",
-				"label": "(B) Tank Repair 1st Hr / 水箱维修第 1 小时",
-				"orderLabel": "Hour (Tank Repair 1st Hr / 水箱维修第 1 小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Tank Repair >= 2nd Hr": {
-				"handle": "tank_repair_second_or_more_hr",
-				"label": "(B) Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上",
-				"orderLabel": "Hour (Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Tank Project": {
-				"handle": "tank_project",
-				"label": "(B）Tank Project / 水箱项目",
-				"orderLabel": "Job (Tank Project / 水箱项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
 	"computer": {
 		"name": "Computer & Digital Products / 电脑和数码产品",
 		"lastSlot": "16:00",
@@ -1602,7 +1363,244 @@
 		}
 	},	
 	
-	
+	"plumbing": {
+		"name": "Plumbing / 水喉工",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "7",
+			"MYR": "14",
+			"CNY": "50"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr": {
+				"handle": "first_hr",
+				"label": "(A) 1st Hr Rate / 第 1 小时收费",
+				"orderLabel": "Hour (1st Hr / 第 1 小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"=>2Hr": {
+				"handle": "second_or_more_hr",
+				"label": "(A) 2nd Hr & more Rate / 第 2 小时或以上收费",
+				"orderLabel": "Hour (2nd Hr & more / 第 2 小时或以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Survey": {
+				"handle": "survey",
+				"label": "(A) Non-Std Plumbing Survey / 非标准湿工调查",
+				"orderLabel": "Trip (Survey / 调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Plumbing Project": {
+				"handle": "project",
+				"label": "(A) Plumbing Project / 水喉工程项目",
+				"orderLabel": "Job (Plumbing Project / 水喉工程项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Water Tank 1st Hr": {
+				"handle": "water_tank_first_hr",
+				"label": "(B) Tank Wash 1st Hr / 水箱清洗第 1 小时",
+				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第 1 时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Water Tank >= 2nd Hr": {
+				"handle": "water_tank_second_or_more_hr",
+				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第 2 小时或以上",
+				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第 2 小时或以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "80",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Tank Issue Survey": {
+				"handle": "tank_issue_survey",
+				"label": "(B) Tank Issue Survey / 水箱调查",
+				"orderLabel": "Trip (Tank Issue Survey / 水箱调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Tank Repair 1st Hr": {
+				"handle": "tank_repair_first_hr",
+				"label": "(B) Tank Repair 1st Hr / 水箱维修第 1 小时",
+				"orderLabel": "Hour (Tank Repair 1st Hr / 水箱维修第 1 小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Tank Repair >= 2nd Hr": {
+				"handle": "tank_repair_second_or_more_hr",
+				"label": "(B) Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上",
+				"orderLabel": "Hour (Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Tank Project": {
+				"handle": "tank_project",
+				"label": "(B）Tank Project / 水箱项目",
+				"orderLabel": "Job (Tank Project / 水箱项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
 	
 	"runner": {
 		"name": "Runner & Helper / 服务代劳",
