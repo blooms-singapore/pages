@@ -2753,7 +2753,6 @@
 					"base": 1
 				}
 			}
-			
 		},
 		
 		"types": {
@@ -2807,6 +2806,26 @@
 				"cost": {
 					"SGD": "0",
 					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pax",
+					"min": 1,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },		
+		
+		"Installation": {
+				"handle": "installation",
+				"label": "DIY Installation Workshop / DIY 安装工作坊",
+				"orderLabel": "Pax (DIY Installation Workshop / DIY 安装工作坊)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
 					"CNY": "0"
 				},
 				"quantity": {
