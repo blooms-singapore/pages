@@ -12,7 +12,7 @@
   "defaultCurrency": "MYR",
   "customerSupport": "+6010 935 2700",
   "cancelBuffer": 72,
-  "bookingDays": 24,
+  "bookingDays": 25,
   "referralLimit": 5,
   "referralDiscount": 5,
   "discounts": {
