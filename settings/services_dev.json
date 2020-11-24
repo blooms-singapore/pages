@@ -288,7 +288,7 @@
 	},
 	
 	"workshop": {
-		"name": "DIY Workshop / DIY 工作坊登记",
+		"name": "DIY Workshop / DIY 工作坊",
 		"lastSlot": "10:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
