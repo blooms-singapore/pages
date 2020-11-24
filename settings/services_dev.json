@@ -2788,7 +2788,7 @@
 	},
 	
 	"workshop": {
-		"name": "Workshop / 工作坊",
+		"name": "Workshop Registeration / 工作坊登记",
 		"lastSlot": "10:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
