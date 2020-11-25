@@ -2883,27 +2883,27 @@
 		"brands" : [
 			{
 				"name" : "EPSON",
-				"photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRunxh7ZSFz63WNuZTFbAeZQpf9_46UPinBCw&usqp=CAU"
+				"photo" : "https://pages.blooms.sg/assets/img/printer_ink/epson.jpg"
 			},
 			{
 				"name" : "HP",
-				"photo" : "https://store.hp.com/app/assets/images/product/N9K01AN%23140/center_facing.png?_=1592731167767&imwidth=430&imdensity=1"
+				"photo" : "https://pages.blooms.sg/assets/img/printer_ink/hp.png"
 			},
 			{
 				"name" : "BLOOMS",
-				"photo" : "https://www.craftdirect.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/6/6/664355.jpg"
+				"photo" : "https://pages.blooms.sg/assets/img/printer_ink/blooms.jpg"
 			},
 			{
 				"name" : "FUJI XEROX",
-				"photo" : "https://www.lamitag.com/wp-content/uploads/2019/08/CT202877.jpg"
+				"photo" : "https://pages.blooms.sg/assets/img/printer_ink/fuji_xerox.jpg"
 			},
 			{
 				"name" : "CANNON",
-				"photo" : "https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/PGI225-and-CLI226-4-pack_1_xl.jpg"
+				"photo" : "https://pages.blooms.sg/assets/img/printer_ink/cannon.jpg"
 			},
 			{
 				"name" : "BROTHER",
-				"photo" : "https://static.bhphoto.com/images/images2500x2500/1524217697_751181.jpg"
+				"photo" : "https://pages.blooms.sg/assets/img/printer_ink/brother.jpg"
 			}
 		],
 		"options": {
