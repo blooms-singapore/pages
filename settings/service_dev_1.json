@@ -1213,6 +1213,113 @@
 		}
 	},
 	
+	"cleaning-deep": {
+		"name": "Deep Cleaning / 大扫除清洗",
+		"lastSlot": "14:30",
+		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "60",
+			"MYR": "204",
+			"CNY": "0"
+		},
+		"hasNote": 1,
+		"options": {
+			"Deep Clean Booking": {
+				"handle": "deep_cleaning_booking",
+				"label": "Deep Cleaning Booking: 2 Crews / 大扫除清洗预约：2人",
+				"orderLabel": "Hour (Deep Cleaning / 深度清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 180,
+					"base": 60
+				}
+			},
+			"Survey": {
+				"handle": "clean_survey",
+				"label": "Cleaning Survey / 清洗项目实地调查",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Deep Clean Project": {
+				"handle": "deep_clean_project",
+				"label": "Cleaning Project / 深度清洗项目",
+				"orderLabel": "Job (Cleaning Project / 深度清洗项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium (公寓) : 2 crews (人)",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House (有地住宅) : 2 crews (人)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	"landscape": {
 		"name": "Landscaping / 园艺修剪",
 		"lastSlot": "15:30",
@@ -2313,113 +2420,6 @@
 		}
 	},
 	
-	"cleaning-deep": {
-		"name": "Deep Cleaning / 大扫除清洗",
-		"lastSlot": "14:30",
-		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "60",
-			"MYR": "204",
-			"CNY": "0"
-		},
-		"hasNote": 1,
-		"options": {
-			"Deep Clean Booking": {
-				"handle": "deep_cleaning_booking",
-				"label": "Deep Cleaning Booking: 2 Crews / 大扫除清洗预约：2人",
-				"orderLabel": "Hour (Deep Cleaning / 深度清洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 180,
-					"base": 60
-				}
-			},
-			"Survey": {
-				"handle": "clean_survey",
-				"label": "Cleaning Survey / 清洗项目实地调查",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Deep Clean Project": {
-				"handle": "deep_clean_project",
-				"label": "Cleaning Project / 深度清洗项目",
-				"orderLabel": "Job (Cleaning Project / 深度清洗项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium (公寓) : 2 crews (人)",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					},
-					"landed": {
-						"label": "Landed House (有地住宅) : 2 crews (人)",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
 	"clean-water": {
 		"name": "Clean Water / 过滤水",
 		"lastSlot": "15:30",
@@ -2871,7 +2871,7 @@
 		}
 	},
 	
-		"printer": {
+	"printer": {
 		"name": "Printer / 打印机",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
