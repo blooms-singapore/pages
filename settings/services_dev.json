@@ -2920,7 +2920,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -2939,7 +2939,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -2958,7 +2958,7 @@
 				"quantity": {
 					"label": "Set",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -2978,7 +2978,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -2997,7 +2997,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3016,7 +3016,7 @@
 				"quantity": {
 					"label": "Set",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3035,7 +3035,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3073,7 +3073,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max":10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3092,7 +3092,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3111,7 +3111,7 @@
 				"quantity": {
 					"label": "Set",
 					"min": 0,
-					"max": 1,
+					"max":10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3131,7 +3131,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max":10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3150,7 +3150,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3169,7 +3169,7 @@
 				"quantity": {
 					"label": "Set",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3188,7 +3188,7 @@
 				"quantity": {
 					"label": "Set",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3208,7 +3208,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3227,7 +3227,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -3246,7 +3246,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
