@@ -2870,8 +2870,9 @@
 			}
 		}
 	},
+	
 		"printer": {
-		"name": "Printer Ink / 打印机墨水",
+		"name": "Printer / 打印机",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"startPrice": {
