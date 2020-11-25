@@ -2869,5 +2869,424 @@
 				}
 			}
 		}
+	},
+	"printer": {
+		"name": "Printer INK / 打印机墨水",
+		"lastSlot": "15:00",
+		"hasbrand" : "true",
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "61.5",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"brands" : [
+			{
+				"name" : "EPSON",
+				"photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRunxh7ZSFz63WNuZTFbAeZQpf9_46UPinBCw&usqp=CAU"
+			},
+			{
+				"name" : "HP",
+				"photo" : "https://store.hp.com/app/assets/images/product/N9K01AN%23140/center_facing.png?_=1592731167767&imwidth=430&imdensity=1"
+			},
+			{
+				"name" : "BLOOMS",
+				"photo" : "https://www.craftdirect.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/6/6/664355.jpg"
+			},
+			{
+				"name" : "FUJI XEROX",
+				"photo" : "https://www.lamitag.com/wp-content/uploads/2019/08/CT202877.jpg"
+			},
+			{
+				"name" : "CANNON",
+				"photo" : "https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/PGI225-and-CLI226-4-pack_1_xl.jpg"
+			},
+			{
+				"name" : "BROTHER",
+				"photo" : "https://static.bhphoto.com/images/images2500x2500/1524217697_751181.jpg"
+			}
+		],
+		"options": {
+			"Epson003-BK": {
+				"label": "EPSON003-BK",
+				"orderLabel": "EPSON003-BK",
+				"type" : "EPSON",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "40",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Epson003-Y": {
+				"label": "EPSON003-Y",
+				"orderLabel": "EPSON003-Y",
+				"type" : "EPSON",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "20",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Epson003-BKG": {
+				"label": "EPSON003-BK",
+				"orderLabel": "EPSON003-BK",
+				"type" : "EPSON",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "15",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+			"hp-BK": {
+				"label": "HP-BK",
+				"orderLabel": "HP-BK",
+				"type" : "HP",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "40",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"hp-Y": {
+				"label": "HP-Y",
+				"orderLabel": "HP-Y",
+				"type" : "HP",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "20",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"hp-BKG": {
+				"label": "HP-BK",
+				"orderLabel": "HP-BK",
+				"type" : "HP",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "15",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Blooms-BK": {
+				"label": "BLOOMS-BK",
+				"orderLabel": "BLOOMS-BK",
+				"type" : "BLOOMS",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "40",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Blooms-Y": {
+				"label": "BLOOMS-Y",
+				"orderLabel": "BLOOMS-Y",
+				"type" : "BLOOMS",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "20",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Fuji Xerox-YY": {
+				"label": "FUJI XEROX-YY",
+				"orderLabel": "FUJI XEROX-YY",
+				"type" : "FUJI XEROX",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "40",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Fuji Xerox-N": {
+				"label": "FUJI XEROX-N",
+				"orderLabel": "FUJI XEROX-N",
+				"type" : "FUJI XEROX",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "20",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Fuji Xerox-300": {
+				"label": "FUJI XEROX-300",
+				"orderLabel": "FUJI XEROX-300",
+				"type" : "FUJI XEROX",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "10",
+					"CNY": "25"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+			"Cannon-240": {
+				"label": "CANNON-240",
+				"orderLabel": "CANNON-240",
+				"type" : "CANNON",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "40",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Cannon-245": {
+				"label": "CANNON-245",
+				"orderLabel": "CANNON-245",
+				"type" : "CANNON",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "35",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Cannon-245xl": {
+				"label": "CANNON-245XL",
+				"orderLabel": "CANNON-245XL",
+				"type" : "CANNON",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "40",
+					"CNY": "85"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Cannon-243": {
+				"label": "CANNON-243",
+				"orderLabel": "CANNON-243",
+				"type" : "CANNON",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "20",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+			"Brother-3011": {
+				"label": "BROTHER-3011",
+				"orderLabel": "BROTHER-3011",
+				"type" : "BROTHER",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "30",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Brother-lc201": {
+				"label": "BROTHER-LC201",
+				"orderLabel": "BROTHER-LC201",
+				"type" : "BROTHER",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "15",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Brother-lc101": {
+				"label": "BROTHER-LC101",
+				"orderLabel": "BROTHER-LC101",
+				"type" : "BROTHER",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "30",
+					"CNY": "40"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
 	}
 }
