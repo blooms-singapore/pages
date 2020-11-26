@@ -2884,105 +2884,105 @@
 		"brands" : [
 			{
 				"name" : "EPSON",
-				"photo" : "printer_ink/epson.jpg",
+				"photo" : "printer/brands/epson.jpg",
 				"models" : [
 					{
 						"name" : "EPSON-1",
-						"photo" : "printer_ink/epson-1.jpg"
+						"photo" : "printer/models/epson-1.jpg"
 					},
 					{
 						"name" : "EPSON-2",
-						"photo" : "printer_ink/epson-2.jpg"
+						"photo" : "printer/models/epson-2.jpg"
 					},
 					{
 						"name" : "EPSON-3",
-						"photo" : "printer_ink/epson-3.jpg"
+						"photo" : "printer/models/epson-3.jpg"
 					}
 				]
 			},
 			{
 				"name" : "HP",
-				"photo" : "printer_ink/hp.png",
+				"photo" : "printer/brands/hp.png",
 				"models" : [
 					{
 						"name" : "HP-1",
-						"photo" : "printer_ink/hp-1.png"
+						"photo" : "printer/models/hp-1.png"
 					},
 					{
 						"name" : "HP-2",
-						"photo" : "printer_ink/hp-2.png"
+						"photo" : "printer/models/hp-2.png"
 					},
 					{
 						"name" : "HP-3",
-						"photo" : "printer_ink/hp-3.png"
+						"photo" : "printer/models/hp-3.png"
 					}
 				]
 			},
 			{
 				"name" : "BLOOMS",
-				"photo" : "printer_ink/blooms.jpg",
+				"photo" : "printer/brands/blooms.jpg",
 				"models" : [
 					{
 						"name" : "BLOOMS-1",
-						"photo" : "printer_ink/blooms-1.jpg"
+						"photo" : "printer/models/blooms-1.jpg"
 					},
 					{
 						"name" : "BLOOMS-2",
-						"photo" : "printer_ink/blooms-2.jpg"
+						"photo" : "printer/models/blooms-2.jpg"
 					},
 					{
 						"name" : "BLOOMS-3",
-						"photo" : "printer_ink/blooms-3.jpg"
+						"photo" : "printer/models/blooms-3.jpg"
 					}
 				]
 			},
 			{
 				"name" : "FUJI XEROX",
-				"photo" : "printer_ink/fuji_xerox.jpg",
+				"photo" : "printer/brands/fuji_xerox.jpg",
 				"models" : [
 					{
 						"name" : "FUJI XEROX-1",
-						"photo" : "printer_ink/fuji_xerox-1.jpg"
+						"photo" : "printer/models/fuji_xerox-1.jpg"
 					},
 					{
 						"name" : "FUJI XEROX-2",
-						"photo" : "printer_ink/fuji_xerox-2.jpg"
+						"photo" : "printer/models/fuji_xerox-2.jpg"
 					},
 					{
 						"name" : "FUJI XEROX-3",
-						"photo" : "printer_ink/fuji_xerox-3.jpg"
+						"photo" : "printer/models/fuji_xerox-3.jpg"
 					}
 				]
 			},
 			{
 				"name" : "CANNON",
-				"photo" : "printer_ink/cannon.jpg",
+				"photo" : "printer/brands/cannon.jpg",
 				"models" : [
 					{
 						"name" : "CANNON-1",
-						"photo" : "printer_ink/cannon-1.jpg"
+						"photo" : "printer/models/cannon-1.jpg"
 					},
 					{
 						"name" : "CANNON-2",
-						"photo" : "printer_ink/cannon-2.jpg"
+						"photo" : "printer/models/cannon-2.jpg"
 					},
 					{
 						"name" : "CANNON-3",
-						"photo" : "printer_ink/cannon-3.jpg"
+						"photo" : "printer/models/cannon-3.jpg"
 					}
 				]
 			},
 			{
 				"name" : "BROTHER",
-				"photo" : "printer_ink/brother.jpg",
+				"photo" : "printer/brands/brother.jpg",
 				"models" : [
 					{
 						"name" : "BROTHER-1",
-						"photo" : "printer_ink/brother-1.jpg"
+						"photo" : "printer/models/brother-1.jpg"
 					},
 					{
 						"name" : "BROTHER-2",
-						"photo" : "printer_ink/brother-2.jpg"
+						"photo" : "printer/models/brother-2.jpg"
 					}
 				]
 			}
