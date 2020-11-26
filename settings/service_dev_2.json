@@ -2906,15 +2906,15 @@
 				"models" : [
 					{
 						"name" : "HP-1",
-						"photo" : "printer_ink/hp-1.jpg"
+						"photo" : "printer_ink/hp-1.png"
 					},
 					{
 						"name" : "HP-2",
-						"photo" : "printer_ink/hp-2.jpg"
+						"photo" : "printer_ink/hp-2.png"
 					},
 					{
 						"name" : "HP-3",
-						"photo" : "printer_ink/hp-3.jpg"
+						"photo" : "printer_ink/hp-3.png"
 					}
 				]
 			},
