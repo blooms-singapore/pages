@@ -2888,7 +2888,7 @@
 				"photo" : "printer/brands/epson.jpg",
 				"models" : [
 					{
-						"name" : "EPSON-1",
+						"name" : "ECOTANK-L1110",
 						"photo" : "printer/models/e1-ecotank-l1110.jpg"
 					},
 					{
@@ -2977,11 +2977,11 @@
 			"Epson003-BK": {
 				"label": "EPSON003-BK",
 				"orderLabel": "EPSON003-BK",
-				"type" : "EPSON-1",
+				"type" : "ECOTANK-L1110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
-					"MYR": "40",
+					"SGD": "22.5",
+					"MYR": "35",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -2996,11 +2996,11 @@
 			"Epson003-Y": {
 				"label": "EPSON003-Y",
 				"orderLabel": "EPSON003-Y",
-				"type" : "EPSON-1",
+				"type" : "ECOTANK-L1110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
-					"MYR": "20",
+					"SGD": "20",
+					"MYR": "30",
 					"CNY": "20"
 				},
 				"quantity": {
