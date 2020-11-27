@@ -2875,6 +2875,7 @@
 		"name": "Printer / 打印机",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
+		"disableLocations":["Seremban"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "30",
