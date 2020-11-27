@@ -2993,6 +2993,7 @@
 					"base": 60
 				}
 			},
+			
 			"Epson003-Y": {
 				"label": "EPSON003-Y",
 				"orderLabel": "EPSON003-Y",
@@ -3012,6 +3013,7 @@
 					"base": 60
 				}
 			},
+			
 			"Epson003-BKG": {
 				"label": "EPSON003-BK",
 				"orderLabel": "EPSON003-BK",
@@ -3020,6 +3022,26 @@
 				"cost": {
 					"SGD": "40",
 					"MYR": "60",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"M3170": {
+				"label": "EPSON008-BK",
+				"orderLabel": "EPSON008-BK",
+				"type" : "M3170",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "15",
 					"CNY": "20"
 				},
 				"quantity": {
