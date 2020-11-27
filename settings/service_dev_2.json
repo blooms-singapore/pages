@@ -2874,6 +2874,7 @@
 	"printer": {
 		"name": "Printer / 打印机",
 		"lastSlot": "15:00",
+		"disableLocations":["Kuala Lumpur","Singapore"],
 		"hasbrand" : "true",
 		"startPrice": {
 			"SGD": "30",
