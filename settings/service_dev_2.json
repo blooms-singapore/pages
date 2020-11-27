@@ -2977,7 +2977,7 @@
 			"Epson003-BK": {
 				"label": "EPSON003-BK",
 				"orderLabel": "EPSON003-BK",
-				"type" : "EPSON-1",
+				"type" : "e1-ecotank-l1110",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -2996,7 +2996,7 @@
 			"Epson003-Y": {
 				"label": "EPSON003-Y",
 				"orderLabel": "EPSON003-Y",
-				"type" : "EPSON-1",
+				"type" : "e1-ecotank-l1110",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
