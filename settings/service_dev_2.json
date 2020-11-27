@@ -2900,6 +2900,7 @@
 					}
 				]
 			},
+			
 			{
 				"name" : "HP",
 				"photo" : "printer/brands/hp.png",
@@ -2918,24 +2919,7 @@
 					}
 				]
 			},
-			{
-				"name" : "BLOOMS",
-				"photo" : "printer/brands/blooms.jpg",
-				"models" : [
-					{
-						"name" : "BLOOMS-1",
-						"photo" : "printer/models/blooms-1.jpg"
-					},
-					{
-						"name" : "BLOOMS-2",
-						"photo" : "printer/models/blooms-2.jpg"
-					},
-					{
-						"name" : "BLOOMS-3",
-						"photo" : "printer/models/blooms-3.jpg"
-					}
-				]
-			},
+			
 			{
 				"name" : "FUJI XEROX",
 				"photo" : "printer/brands/fuji_xerox.jpg",
@@ -2972,6 +2956,7 @@
 					}
 				]
 			},
+			
 			{
 				"name" : "BROTHER",
 				"photo" : "printer/brands/brother.jpg",
