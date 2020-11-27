@@ -2985,7 +2985,7 @@
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
 					"max": 10,
 					"increment": 60,
@@ -3004,7 +3004,7 @@
 					"CNY": "20"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
 					"max": 10,
 					"increment": 60,
