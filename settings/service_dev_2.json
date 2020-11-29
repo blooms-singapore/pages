@@ -977,6 +977,26 @@
 				}
 			},
 			
+			"Karaoke": {
+				"handle": "karaoke",
+				"label": "Karaoke System Install/Setting / 视听系统安装与设置",
+				"orderLabel": "Job (Karaoke System Install/Setting / 视听系统安装与设置)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
 			"Project": {
 				"handle": "project",
 				"label": "Project / 项目",
