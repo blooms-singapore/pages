@@ -917,7 +917,8 @@
 					"default": 60,
 					"base": 60
 				}
-			},			
+			},
+			
 			"Ware Install": {
 				"handle": "ware_install",
 				"label": "Soft or Hardware Install / 软和硬件设置或提升",
@@ -979,8 +980,8 @@
 			
 			"Karaoke": {
 				"handle": "karaoke",
-				"label": "Karaoke System Install/Setting / 视听系统安装与设置",
-				"orderLabel": "Job (Karaoke System Install/Setting / 视听系统安装与设置)",
+				"label": "Karaoke System Install or Setting / 视听系统安装与设置",
+				"orderLabel": "Job (Karaoke System Install or Setting / 视听系统安装与设置)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -1035,8 +1036,7 @@
 					"default": 60,
 					"base": 60
 				}
-			}
-		},
+			},
 		
 		"Karaoke + TV Box": {
 				"handle": "karaoke_tvbox",
