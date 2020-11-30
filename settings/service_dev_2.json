@@ -901,8 +901,8 @@
 		"options": {
 			"Assessment": {
 				"handle": "assessment",
-				"label": "Onsite Assessment",
-				"orderLabel": "Trip (Assessment / 测查)",
+				"label": "Onsite Assessment & Consultancy / 上门系统解说",
+				"orderLabel": "Trip (Assessment or Consultancy / 上门系统解说)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
