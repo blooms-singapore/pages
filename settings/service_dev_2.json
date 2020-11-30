@@ -1015,7 +1015,8 @@
 					"default": 60,
 					"base": 60
 				}
-			},					
+			},
+			
 			"TV Box": {
 				"handle": "tv_box",
 				"label": "TV Box / 电视盒",
@@ -1036,6 +1037,28 @@
 				}
 			}
 		},
+		
+		"Karaoke": {
+				"handle": "karaoke",
+				"label": "Karaoke & TV Box",
+				"orderLabel": "Set (Karaoke + TV Box)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "2000",
+					"MYR": "4500",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			}
+		},
+		
 	    "types": {
 			"house": {
 				"label": "House Type",
