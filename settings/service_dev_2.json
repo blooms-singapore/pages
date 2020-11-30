@@ -1038,8 +1038,8 @@
 			}
 		},
 		
-		"Karaoke": {
-				"handle": "karaoke",
+		"Karaoke + TV Box": {
+				"handle": "karaoke_tvbox",
 				"label": "Karaoke & TV Box",
 				"orderLabel": "Set (Karaoke + TV Box)",
 				"description": "Label standard",
