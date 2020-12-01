@@ -729,8 +729,29 @@
 					"default": 0,
 					"base": 60
 				}
+			},
+			
+			"Sink Poppy": {
+				"handle": "sink_poppy",
+				"label": "(C）Sink Poppy / 洗手盆 Poppy",
+				"orderLabel": "Pc (Sink Poppy / 洗手盆 Poppy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
 			}
-		},		
+		},
+		
 		"types": {
 			"house": {
 				"label": "House Type",
