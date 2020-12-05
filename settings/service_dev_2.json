@@ -531,7 +531,7 @@
 
 	"plumbing": {
 		"name": "Plumbing / 水喉工",
-		"lastSlot": "16:30",
+		"lastSlot": "14:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "7",
