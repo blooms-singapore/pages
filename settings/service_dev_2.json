@@ -1752,7 +1752,7 @@
 	
 	"tiling": {
 		"name": "Tiling & Concrete / 瓷砖和水泥",
-		"lastSlot": "14:30",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "45.5",
