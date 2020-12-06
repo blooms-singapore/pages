@@ -3002,6 +3002,25 @@
 						"photo" : "printer/models/b3-DCP-T510W.png"
 					}
 				]
+			},
+		
+			{
+				"name" : "FUJI XEROX",
+				"photo" : "printer/brands/brother.jpg",
+				"models" : [
+					{
+						"name" : "HL-1110",
+						"photo" : "printer/models/b1-HL1110.png"
+					},
+					{
+						"name" : "DCP-T310",
+						"photo" : "printer/models/b2-DCP-T310.png"
+					},
+					{
+						"name" : "DCP-T510W",
+						"photo" : "printer/models/b3-DCP-T510W.png"
+					}
+				]
 			}
 		],
 		
