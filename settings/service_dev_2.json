@@ -2966,44 +2966,7 @@
 				]
 			},
 			
-			{
-				"name" : "HP",
-				"photo" : "printer/brands/hp.png",
-				"models" : [
-					{
-						"name" : "HP-1",
-						"photo" : "printer/models/hp-1.png"
-					},
-					{
-						"name" : "HP-2",
-						"photo" : "printer/models/hp-2.png"
-					},
-					{
-						"name" : "HP-3",
-						"photo" : "printer/models/hp-3.png"
-					}
-				]
-			},
-			
-			{
-				"name" : "FUJI XEROX",
-				"photo" : "printer/brands/fuji_xerox.jpg",
-				"models" : [
-					{
-						"name" : "FUJI XEROX-1",
-						"photo" : "printer/models/fuji_xerox-1.jpg"
-					},
-					{
-						"name" : "FUJI XEROX-2",
-						"photo" : "printer/models/fuji_xerox-2.jpg"
-					},
-					{
-						"name" : "FUJI XEROX-3",
-						"photo" : "printer/models/fuji_xerox-3.jpg"
-					}
-				]
-			},
-			{
+			{	
 				"name" : "CANNON",
 				"photo" : "printer/brands/cannon.jpg",
 				"models" : [
@@ -3012,8 +2975,8 @@
 						"photo" : "printer/models/c1-MF3010.png"
 					},
 					{
-						"name" : "CANNON-2",
-						"photo" : "printer/models/cannon-2.jpg"
+						"name" : "LPB6030",
+						"photo" : "printer/models/c2-LPB6030.png"
 					},
 					{
 						"name" : "CANNON-3",
@@ -3329,9 +3292,29 @@
 			},
 						
 			"C-MF3010": {
-				"label": "Catridge 325",
-				"orderLabel": "Catridge 325",
+				"label": "3010 Catridge-325",
+				"orderLabel": "3010 Catridge-325",
 				"type" : "MF3010",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "65",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"C-LPB6030": {
+				"label": "6030 Catridge-325",
+				"orderLabel": "6030 Catridge-325",
+				"type" : "LPB6030",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
