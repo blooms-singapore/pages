@@ -3037,6 +3037,7 @@
 				]
 			}
 		],
+		
 		"options": {
 			
 			"B-TN1000": {
@@ -3062,7 +3063,7 @@
 			"B-BTD60-Black": {
 				"label": "BTD60-Black",
 				"orderLabel": "BTD60-Black",
-				"type" : "b2-DCP-T310",
+				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3082,7 +3083,7 @@
 			"B-BT5000-Cyan": {
 				"label": "BT5000-Cyan",
 				"orderLabel": "BT5000-Cyan",
-				"type" : "b2-DCP-T310",
+				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3103,7 +3104,7 @@
 			"B-BT5000-Magenta": {
 				"label": "BT5000-Magenta",
 				"orderLabel": "BT5000-Magenta",
-				"type" : "b2-DCP-T310",
+				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3124,7 +3125,7 @@
 			"B-BT5000-Yellow": {
 				"label": "BT5000-Yellow",
 				"orderLabel": "BT5000-Yellow",
-				"type" : "b2-DCP-T310",
+				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
