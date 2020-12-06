@@ -3065,8 +3065,8 @@
 			},
 			
 			"B310-BTD60-Black": {		
-				"label": "BTD60-Black",
-				"orderLabel": "BTD60-Black",
+				"label": "BTD60-310-Black",
+				"orderLabel": "BTD60-310-Black",
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
@@ -3085,8 +3085,8 @@
 			},
 			
 			"B310-BT5000-Cyan": {
-				"label": "BT5000-Cyan",
-				"orderLabel": "BT5000-Cyan",
+				"label": "BT5000-310-Cyan",
+				"orderLabel": "BT5000-310-Cyan",
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
@@ -3106,8 +3106,8 @@
 		
 			
 			"B310-BT5000-Magenta": {
-				"label": "BT5000-Magenta",
-				"orderLabel": "BT5000-Magenta",
+				"label": "BT5000-310-Magenta",
+				"orderLabel": "BT5000-310-Magenta",
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
@@ -3126,8 +3126,8 @@
 			},
 			
 			"B310-BT5000-Yellow": {
-				"label": "BT5000-Yellow",
-				"orderLabel": "BT5000-Yellow",
+				"label": "BT5000-310-Yellow",
+				"orderLabel": "BT5000-310-Yellow",
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
@@ -3146,8 +3146,8 @@
 			},
 			
 			"B510-BTD60-Black": {
-				"label": "BTD60-Black",
-				"orderLabel": "BTD60-Black",
+				"label": "BTD60-510-Black",
+				"orderLabel": "BTD60-510-Black",
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
@@ -3166,8 +3166,8 @@
 			},
 			
 			"B510-BT5000-Cyan": {
-				"label": "BT5000-Cyan",
-				"orderLabel": "BT5000-Cyan",
+				"label": "BT5000-510-Cyan",
+				"orderLabel": "BT5000-510-Cyan",
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
@@ -3187,8 +3187,8 @@
 		
 			
 			"B510-BT5000-Magenta": {
-				"label": "BT5000-Magenta",
-				"orderLabel": "BT5000-Magenta",
+				"label": "BT5000-510-Magenta",
+				"orderLabel": "BT5000-510-Magenta",
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
@@ -3208,8 +3208,8 @@
 			
 			
 			"B510-BT5000-Yellow": {
-				"label": "BT5000-Yellow",
-				"orderLabel": "BT5000-Yellow",
+				"label": "BT5000-510-Yellow",
+				"orderLabel": "BT5000-510-Yellow",
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
