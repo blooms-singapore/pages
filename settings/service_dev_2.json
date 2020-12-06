@@ -3227,7 +3227,7 @@
 				}
 			},
 			
-			"E-L3110": {
+			"E-L3110-Black": {
 				"label": "EPSON003-Black",
 				"orderLabel": "EPSON003-Black",
 				"type" : "L3110",
@@ -3247,7 +3247,7 @@
 				}
 			},
 			
-			"E-L3110": {
+			"E-L3110-Cyan": {
 				"label": "EPSON003-Cyan",
 				"orderLabel": "EPSON003-Cyan",
 				"type" : "L3110",
@@ -3268,7 +3268,7 @@
 			},
 			
 			
-			"E-L3110": {
+			"E-L3110-Magenta": {
 				"label": "EPSON003-Magenta",
 				"orderLabel": "EPSON003-Magenta",
 				"type" : "L3110",
@@ -3288,7 +3288,7 @@
 				}
 			},
 			
-			"E-L3110": {
+			"E-L3110-Yellow": {
 				"label": "EPSON003-Yellow",
 				"orderLabel": "EPSON003-Yellow",
 				"type" : "L3110",
