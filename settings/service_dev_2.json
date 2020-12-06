@@ -3064,7 +3064,7 @@
 				}
 			},
 			
-			"B-BTD60-Black": {
+			"B310-BTD60-Black": {		/*Printer model DCP-T310*/
 				"label": "BTD60-Black",
 				"orderLabel": "BTD60-Black",
 				"type" : "DCP-T310",
