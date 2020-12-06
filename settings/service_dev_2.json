@@ -3321,7 +3321,7 @@
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
 					"max":10,
 					"increment": 60,
@@ -3341,7 +3341,87 @@
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"F-CM115W-Black": {
+				"label": "FX Laser Toner Black",
+				"orderLabel": "FX Laser Toner Black",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"F-CM115W-Cyan": {
+				"label": "FX Laser Toner Cyan",
+				"orderLabel": "FX Laser Toner Cyan",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"F-CM115W-Magenta": {
+				"label": "FX Laser Toner Magenta",
+				"orderLabel": "FX Laser Toner Magenta",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"F-CM115W-Yellow": {
+				"label": "FX Laser Toner Yellow",
+				"orderLabel": "FX Laser Toner Yellow",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
 					"min": 0,
 					"max":10,
 					"increment": 60,
