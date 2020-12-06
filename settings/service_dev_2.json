@@ -3175,44 +3175,7 @@
 					"base": 60
 				}
 			},
-			"Blooms-BK": {
-				"label": "BLOOMS-BK",
-				"orderLabel": "BLOOMS-BK",
-				"type" : "BLOOMS-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Blooms-Y": {
-				"label": "BLOOMS-Y",
-				"orderLabel": "BLOOMS-Y",
-				"type" : "BLOOMS-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
+			
 			"Fuji Xerox-YY": {
 				"label": "FUJI XEROX-YY",
 				"orderLabel": "FUJI XEROX-YY",
