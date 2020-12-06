@@ -3033,6 +3033,10 @@
 					{
 						"name" : "DCP-T310",
 						"photo" : "printer/models/b2-DCP-T310.png"
+					},
+					{
+						"name" : "DCP-T510W",
+						"photo" : "printer/models/b3-DCP-T510W.png"
 					}
 				]
 			}
@@ -3121,11 +3125,92 @@
 				}
 			},
 			
-			
 			"B-BT5000-Yellow": {
 				"label": "BT5000-Yellow",
 				"orderLabel": "BT5000-Yellow",
 				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-BTD60-Black": {
+				"label": "BTD60-Black",
+				"orderLabel": "BTD60-Black",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-BT5000-Cyan": {
+				"label": "BT5000-Cyan",
+				"orderLabel": "BT5000-Cyan",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B-BT5000-Magenta": {
+				"label": "BT5000-Magenta",
+				"orderLabel": "BT5000-Magenta",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"B-BT5000-Yellow": {
+				"label": "BT5000-Yellow",
+				"orderLabel": "BT5000-Yellow",
+				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
