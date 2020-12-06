@@ -2952,7 +2952,7 @@
 				"photo" : "printer/brands/epson.jpg",
 				"models" : [
 					{
-						"name" : "E-L3110",
+						"name" : "L3110",
 						"photo" : "printer/models/e1-L3110.png"
 					},
 					{
@@ -3230,7 +3230,7 @@
 			"E-L3110": {
 				"label": "EPSON003-Black",
 				"orderLabel": "EPSON003-Black",
-				"type" : "E-L3110",
+				"type" : "L3110",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -3250,7 +3250,7 @@
 			"E-L3110": {
 				"label": "EPSON003-Cyan",
 				"orderLabel": "EPSON003-Cyan",
-				"type" : "E-L3110",
+				"type" : "L3110",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -3271,7 +3271,7 @@
 			"E-L3110": {
 				"label": "EPSON003-Magenta",
 				"orderLabel": "EPSON003-Magenta",
-				"type" : "E-L3110",
+				"type" : "L3110",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -3291,7 +3291,7 @@
 			"E-L3110": {
 				"label": "EPSON003-Yellow",
 				"orderLabel": "EPSON003-Yellow",
-				"type" : "E-L3110",
+				"type" : "L3110",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
