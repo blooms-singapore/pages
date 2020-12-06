@@ -3027,8 +3027,8 @@
 				"photo" : "printer/brands/brother.jpg",
 				"models" : [
 					{
-						"name" : "BROTHER-1",
-						"photo" : "printer/models/brother-1.jpg"
+						"name" : "HL-1110",
+						"photo" : "printer/models/b1-HL1110.png"
 					},
 					{
 						"name" : "BROTHER-2",
