@@ -3044,7 +3044,7 @@
 		
 		"options": {
 			
-			"B-TN1000": {
+			"B-TN1000": {			/*Printer model HL-1100*/
 				"label": "TN1000",
 				"orderLabel": "TN1000",
 				"type" : "HL-1110",
