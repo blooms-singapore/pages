@@ -2937,12 +2937,12 @@
 	
 	"printer": {
 		"name": "Printer / 打印机",
-		"lastSlot": "16:00",
+		"lastSlot": "16:30",
 		"hasbrand" : "true",
 		"disableLocations": ["Seremban", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "30",
+			"MYR": "40",
 			"CNY": "110"
 		},
 		"hasNote": 1,
