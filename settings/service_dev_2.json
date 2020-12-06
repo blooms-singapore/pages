@@ -3006,7 +3006,7 @@
 		
 			{
 				"name" : "FUJI XEROX",
-				"photo" : "printer/brands/fuji-xerox.jpg",
+				"photo" : "printer/brands/fuji_xerox.jpg",
 				"models" : [
 					{
 						"name" : "HL-1110",
