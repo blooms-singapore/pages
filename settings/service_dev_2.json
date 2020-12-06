@@ -3084,7 +3084,7 @@
 				}
 			},
 			
-			"B-BT5000-Cyan": {
+			"B310-BT5000-Cyan": {
 				"label": "BT5000-Cyan",
 				"orderLabel": "BT5000-Cyan",
 				"type" : "DCP-T310",
@@ -3105,7 +3105,7 @@
 			},
 		
 			
-			"B-BT5000-Magenta": {
+			"B310-BT5000-Magenta": {
 				"label": "BT5000-Magenta",
 				"orderLabel": "BT5000-Magenta",
 				"type" : "DCP-T310",
@@ -3125,7 +3125,7 @@
 				}
 			},
 			
-			"B-BT5000-Yellow": {
+			"B310-BT5000-Yellow": {
 				"label": "BT5000-Yellow",
 				"orderLabel": "BT5000-Yellow",
 				"type" : "DCP-T310",
@@ -3145,7 +3145,7 @@
 				}
 			},
 			
-			"B-BTD60-Black": {
+			"B510-BTD60-Black": {
 				"label": "BTD60-Black",
 				"orderLabel": "BTD60-Black",
 				"type" : "DCP-T510W",
@@ -3165,7 +3165,7 @@
 				}
 			},
 			
-			"B-BT5000-Cyan": {
+			"B510-BT5000-Cyan": {
 				"label": "BT5000-Cyan",
 				"orderLabel": "BT5000-Cyan",
 				"type" : "DCP-T510W",
@@ -3186,7 +3186,7 @@
 			},
 		
 			
-			"B-BT5000-Magenta": {
+			"B510-BT5000-Magenta": {
 				"label": "BT5000-Magenta",
 				"orderLabel": "BT5000-Magenta",
 				"type" : "DCP-T510W",
@@ -3207,7 +3207,7 @@
 			},
 			
 			
-			"B-BT5000-Yellow": {
+			"B510-BT5000-Yellow": {
 				"label": "BT5000-Yellow",
 				"orderLabel": "BT5000-Yellow",
 				"type" : "DCP-T510W",
