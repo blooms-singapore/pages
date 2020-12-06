@@ -2952,8 +2952,8 @@
 				"photo" : "printer/brands/epson.jpg",
 				"models" : [
 					{
-						"name" : "L1110",
-						"photo" : "printer/models/e1-ecotank-l1110.jpg"
+						"name" : "E-L3110",
+						"photo" : "printer/models/e1-L3110.png"
 					},
 					{
 						"name" : "L15150",
@@ -3050,7 +3050,7 @@
 				"type" : "HL-1110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "32",
 					"MYR": "65",
 					"CNY": "70"
 				},
@@ -3070,7 +3070,7 @@
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3090,7 +3090,7 @@
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3111,7 +3111,7 @@
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3131,7 +3131,7 @@
 				"type" : "DCP-T310",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3151,7 +3151,7 @@
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3171,7 +3171,7 @@
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3192,7 +3192,7 @@
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3213,7 +3213,7 @@
 				"type" : "DCP-T510W",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -3227,14 +3227,14 @@
 				}
 			},
 			
-			"Epson003-BK": {
-				"label": "EPSON003-BK",
-				"orderLabel": "EPSON003-BK",
-				"type" : "L1110",
+			"E-L3110": {
+				"label": "EPSON003-Black",
+				"orderLabel": "EPSON003-Black",
+				"type" : "E-L3110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22.5",
-					"MYR": "35.7",
+					"SGD": "15",
+					"MYR": "25",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -3247,66 +3247,67 @@
 				}
 			},
 			
-			"Epson003-Y": {
-				"label": "EPSON003-Y",
-				"orderLabel": "EPSON003-Y",
-				"type" : "L1110",
+			"E-L3110": {
+				"label": "EPSON003-Cyan",
+				"orderLabel": "EPSON003-Cyan",
+				"type" : "E-L3110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "20"
+					"SGD": "15",
+					"MYR": "25",
+					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
 			},
 			
-			"Epson003-BKG": {
-				"label": "EPSON003-BK",
-				"orderLabel": "EPSON003-BK",
-				"type" : "L15150",
+			
+			"E-L3110": {
+				"label": "EPSON003-Magenta",
+				"orderLabel": "EPSON003-Magenta",
+				"type" : "E-L3110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
-					"MYR": "60",
-					"CNY": "20"
+					"SGD": "15",
+					"MYR": "25",
+					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
 			},
 			
-			"M3170": {
-				"label": "EPSON008-BK",
-				"orderLabel": "EPSON008-BK",
-				"type" : "M3170",
+			"E-L3110": {
+				"label": "EPSON003-Yellow",
+				"orderLabel": "EPSON003-Yellow",
+				"type" : "E-L3110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "15.50",
-					"CNY": "20"
+					"SGD": "15",
+					"MYR": "25",
+					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
 			},
-
+			
 			"hp-BK": {
 				"label": "HP-BK",
 				"orderLabel": "HP-BK",
