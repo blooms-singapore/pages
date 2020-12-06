@@ -2956,8 +2956,8 @@
 						"photo" : "printer/models/e1-L3110.png"
 					},
 					{
-						"name" : "L15150",
-						"photo" : "printer/models/e2-ecotank-l15150.jpg"
+						"name" : "LQ310",
+						"photo" : "printer/models/e2-LQ310.png"
 					},
 					{
 						"name" : "M3170",
@@ -3296,6 +3296,26 @@
 				"cost": {
 					"SGD": "15",
 					"MYR": "25",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-LQ310": {
+				"label": "EPSON LQ310",
+				"orderLabel": "EPSON LQ310",
+				"type" : "LQ310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "9",
+					"MYR": "18",
 					"CNY": "60"
 				},
 				"quantity": {
