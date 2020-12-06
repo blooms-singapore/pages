@@ -3038,6 +3038,109 @@
 			}
 		],
 		"options": {
+			
+			"B-TN1000": {
+				"label": "TN1000",
+				"orderLabel": "TN1000",
+				"type" : "HL-1110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-BTD60-Black": {
+				"label": "BTD60-Black",
+				"orderLabel": "BTD60-Black",
+				"type" : "b2-DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-BT5000-Cyan": {
+				"label": "BT5000-Cyan",
+				"orderLabel": "BT5000-Cyan",
+				"type" : "b2-DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B-BT5000-Magenta": {
+				"label": "BT5000-Magenta",
+				"orderLabel": "BT5000-Magenta",
+				"type" : "b2-DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"B-BT5000-Yellow": {
+				"label": "BT5000-Yellow",
+				"orderLabel": "BT5000-Yellow",
+				"type" : "b2-DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
 			"Epson003-BK": {
 				"label": "EPSON003-BK",
 				"orderLabel": "EPSON003-BK",
@@ -3309,66 +3412,9 @@
 					"default": 0,
 					"base": 60
 				}
-			},
-
-			"B-TN1000": {
-				"label": "TN1000",
-				"orderLabel": "TN1000",
-				"type" : "HL-1110",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "65",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Pcs",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			"Brother-lc201": {
-				"label": "BROTHER-LC201",
-				"orderLabel": "BROTHER-LC201",
-				"type" : "BROTHER-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "15",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Brother-lc101": {
-				"label": "BROTHER-LC101",
-				"orderLabel": "BROTHER-LC101",
-				"type" : "BROTHER-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "30",
-					"CNY": "40"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
 			}
 		},
+			
 		"types": {
 			"house": {
 				"label": "House Type",
