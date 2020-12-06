@@ -3044,7 +3044,7 @@
 		
 		"options": {
 			
-			"B-TN1000": {			/*Printer model HL-1100*/
+			"B-TN1000": {			
 				"label": "TN1000",
 				"orderLabel": "TN1000",
 				"type" : "HL-1110",
@@ -3064,7 +3064,7 @@
 				}
 			},
 			
-			"B310-BTD60-Black": {		/*Printer model DCP-T310*/
+			"B310-BTD60-Black": {		
 				"label": "BTD60-Black",
 				"orderLabel": "BTD60-Black",
 				"type" : "DCP-T310",
