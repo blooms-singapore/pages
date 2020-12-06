@@ -3008,8 +3008,8 @@
 				"photo" : "printer/brands/cannon.jpg",
 				"models" : [
 					{
-						"name" : "CANNON-1",
-						"photo" : "printer/models/cannon-1.jpg"
+						"name" : "MF3010",
+						"photo" : "printer/models/c1-MF3010"
 					},
 					{
 						"name" : "CANNON-2",
@@ -3327,69 +3327,11 @@
 					"base": 1
 				}
 			},
-			
-			"hp-BK": {
-				"label": "HP-BK",
-				"orderLabel": "HP-BK",
-				"type" : "HP-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"hp-Y": {
-				"label": "HP-Y",
-				"orderLabel": "HP-Y",
-				"type" : "HP-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"hp-BKG": {
-				"label": "HP-BK",
-				"orderLabel": "HP-BK",
-				"type" : "HP-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "15",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Fuji Xerox-YY": {
-				"label": "FUJI XEROX-YY",
-				"orderLabel": "FUJI XEROX-YY",
-				"type" : "FUJI XEROX-1",
+						
+			"C-MF3010": {
+				"label": "Catridge 325",
+				"orderLabel": "Catridge 325",
+				"type" : "MF3010",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -3400,121 +3342,6 @@
 					"label": "Job",
 					"min": 0,
 					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Fuji Xerox-N": {
-				"label": "FUJI XEROX-N",
-				"orderLabel": "FUJI XEROX-N",
-				"type" : "FUJI XEROX-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Fuji Xerox-300": {
-				"label": "FUJI XEROX-300",
-				"orderLabel": "FUJI XEROX-300",
-				"type" : "FUJI XEROX-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "10",
-					"CNY": "25"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-			"Cannon-240": {
-				"label": "CANNON-240",
-				"orderLabel": "CANNON-240",
-				"type" : "CANNON-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-245": {
-				"label": "CANNON-245",
-				"orderLabel": "CANNON-245",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "35",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-245xl": {
-				"label": "CANNON-245XL",
-				"orderLabel": "CANNON-245XL",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "40",
-					"CNY": "85"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-243": {
-				"label": "CANNON-243",
-				"orderLabel": "CANNON-243",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
