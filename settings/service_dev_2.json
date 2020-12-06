@@ -3314,7 +3314,7 @@
 			"B-TN1000": {
 				"label": "TN1000",
 				"orderLabel": "TN1000",
-				"type" : "",
+				"type" : "HL-1110",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
