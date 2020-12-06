@@ -3350,6 +3350,86 @@
 				}
 			},
 			
+			"C-G3600-Black": {
+				"label": "3600 Black",
+				"orderLabel": "3600 Black",
+				"type" : "G3600",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "70",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"C-G3600-Cyan": {
+				"label": "3600 Cyan",
+				"orderLabel": "3600 Cyan",
+				"type" : "G3600",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "65",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"C-G3600-Magenta": {
+				"label": "3600 Magenta",
+				"orderLabel": "3600 Magenta",
+				"type" : "G3600",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "65",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"C-G3600-Yellow": {
+				"label": "3600 Yellow",
+				"orderLabel": "3600 Yellow",
+				"type" : "G3600",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "65",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
 			"F-CM115W-Black": {
 				"label": "FX Laser Toner Black",
 				"orderLabel": "FX Laser Toner Black",
