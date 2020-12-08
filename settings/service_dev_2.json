@@ -1826,16 +1826,16 @@
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "35",
+					"SGD": "7",
+					"MYR": "15",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "ft2",
 					"min": 0,
-					"max": 0,
+					"max": 9,
 					"increment": 1,
-					"default": 0,
+					"default": 1,
 					"base": 1
 				}
 			},
@@ -1846,8 +1846,8 @@
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "35",
+					"SGD": "7",
+					"MYR": "15",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -1866,14 +1866,14 @@
 				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "12",
-					"MYR": "25",
+					"SGD": "5",
+					"MYR": "10",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "ft2",
 					"min": 0,
-					"max": 0,
+					"max": 9,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -1886,8 +1886,8 @@
 				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "12",
-					"MYR": "25",
+					"SGD": "5",
+					"MYR": "10",
 					"CNY": "50"
 				},
 				"quantity": {
