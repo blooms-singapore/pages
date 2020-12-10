@@ -2958,7 +2958,7 @@
 	
 	"printer": {
 		"name": "Printer / 打印机",
-		"lastSlot": "16:30",
+		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"disableLocations": ["Seremban", "Kuala Lumpur"],
 		"startPrice": {
