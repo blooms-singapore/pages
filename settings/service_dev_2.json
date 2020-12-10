@@ -1051,7 +1051,7 @@
 	},
 
 	
-	"festive-deep": {
+	"cleaning-festive": {
 		"name": "Festive Cleaning / 大扫除清洗",
 		"lastSlot": "14:00",
 		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
