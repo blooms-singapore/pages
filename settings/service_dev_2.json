@@ -2886,26 +2886,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Xmas": {
-				"handle": "xmas",
-				"label": "Christmas Ornament DIY Workshop / 圣诞装饰 DIY 工作坊",
-				"orderLabel": "Pax (Christmas Ornament DIY Workshop / 圣诞装饰 DIY 工作坊)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Pax",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },		
-		
+					
 		"Installation": {
 				"handle": "installation",
 				"label": "DIY Installation Workshop / DIY 安装工作坊",
