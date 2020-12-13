@@ -2881,7 +2881,7 @@
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "120",
+			"MYR": "130",
 			"CNY": "20"
 		},
 		"hasNote": 1,
