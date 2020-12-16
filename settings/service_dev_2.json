@@ -3554,7 +3554,7 @@
 	},
 	
 	"waterproof": {
-		"name": "Waterproof / 防水",
+		"name": "Waterproofing / 防水",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
