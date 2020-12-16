@@ -3575,7 +3575,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Pax",
+					"label": "Set",
 					"min": 1,
 					"max": 0,
 					"increment": 1,
