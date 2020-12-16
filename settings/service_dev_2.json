@@ -3564,10 +3564,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"CCTV": {
+			"Sink Re-waterproof": {
 				"handle": "cctv",
-				"label": "CCTV",
-				"orderLabel": "Pax (CCTV)",
+				"label": "Sinks Re-waterproof",
+				"orderLabel": "Set (Sinks Re-waterproof)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
