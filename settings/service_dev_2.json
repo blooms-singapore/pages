@@ -2946,8 +2946,8 @@
 		"hasbrand" : "true",
 		"disableLocations": ["Seremban", "Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "30",
-			"MYR": "40",
+			"SGD": "50",
+			"MYR": "100",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -2984,8 +2984,8 @@
 						"photo" : "printer/models/c2-LPB6030.png"
 					},
 					{
-						"name" : "G3600",
-						"photo" : "printer/models/c3-G3600.png"
+						"name" : "E410",
+						"photo" : "printer/models/c3-e410.png"
 					}
 				]
 			},
@@ -3355,83 +3355,83 @@
 				}
 			},
 			
-			"C-G3600-Black": {
-				"label": "3600 Black",
-				"orderLabel": "3600 Black",
-				"type" : "G3600",
+			"C-E410-Black": {
+				"label": "Canon 47-Black",
+				"orderLabel": "Canon 47-Black",
+				"type" : "E410",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
-					"MYR": "70",
+					"SGD": "18",
+					"MYR": "37",
 					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
 					"max":10,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
-			"C-G3600-Cyan": {
-				"label": "3600 Cyan",
-				"orderLabel": "3600 Cyan",
-				"type" : "G3600",
+			"C-E410-Cyan": {
+				"label": "Canon 57-Cyan",
+				"orderLabel": "Canon 57-Cyan",
+				"type" : "E410",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "65",
+					"MYR": "74",
 					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
 					"max":10,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
-			"C-G3600-Magenta": {
-				"label": "3600 Magenta",
-				"orderLabel": "3600 Magenta",
-				"type" : "G3600",
+			"C-E410-Magenta": {
+				"label": "Canon 57-Magenta",
+				"orderLabel": "Canon 57-Magenta",
+				"type" : "E410",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "65",
+					"MYR": "74",
 					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
 					"max":10,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
-			"C-G3600-Yellow": {
-				"label": "3600 Yellow",
-				"orderLabel": "3600 Yellow",
-				"type" : "G3600",
+			"C-E410-Yellow": {
+				"label": "Canon 57-Yellow",
+				"orderLabel": "Canon 57-Yellow",
+				"type" : "E410",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "65",
+					"MYR": "74",
 					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
 					"max":10,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
