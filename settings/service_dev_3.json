@@ -2944,7 +2944,7 @@
 		"name": "Printer Ink/ 打印机墨水",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
-		"title": "Select A Brand (Min Order MYR 100)",
+		"title": "SELECT A BRAND (MOQ = RM100)",
 		"disableLocations": ["Seremban", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "50",
