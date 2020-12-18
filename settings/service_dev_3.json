@@ -287,93 +287,9 @@
 		}
 	},
 	
-	"workshop": {
-		"name": "DIY Workshop / DIY 工作坊",
-		"lastSlot": "10:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "120",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Xmas": {
-				"handle": "xmas",
-				"label": "Christmas Ornament DIY Workshop / 圣诞装饰 DIY 工作坊",
-				"orderLabel": "Pax (Christmas Ornament DIY Workshop / 圣诞装饰 DIY 工作坊)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Pax",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },		
-		
-		"Installation": {
-				"handle": "installation",
-				"label": "DIY Installation Workshop / DIY 安装工作坊",
-				"orderLabel": "Pax (DIY Installation Workshop / DIY 安装工作坊)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "130",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Pax",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 }		
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
 	"installation": {
 		"name": "Installation / 安装",
-		"lastSlot": "16:30",
+		"lastSlot": "15:30",
 		"startPrice": {
 			"SGD": "35.5",
 			"MYR": "66.25",
@@ -531,7 +447,7 @@
 
 	"plumbing": {
 		"name": "Plumbing / 水喉工",
-		"lastSlot": "16:30",
+		"lastSlot": "14:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "7",
@@ -729,8 +645,50 @@
 					"default": 0,
 					"base": 60
 				}
+			},
+			
+			"Sink Poppy": {
+				"handle": "sink_poppy",
+				"label": "(C）Sink Poppy / 洗手盆 Poppy",
+				"orderLabel": "Pc (Sink Poppy / 洗手盆 Poppy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"Trouble Shoot": {
+				"handle": "trouble_shoot",
+				"label": "(D）Trouble Shoot / 查找问题",
+				"orderLabel": "Job ((D）Trouble Shoot / 查找问题)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
 			}
-		},		
+		},
+		
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -770,7 +728,7 @@
 	
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
-		"lastSlot": "16:00",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "45",
@@ -901,8 +859,8 @@
 		"options": {
 			"Assessment": {
 				"handle": "assessment",
-				"label": "Onsite Assessment",
-				"orderLabel": "Trip (Assessment / 测查)",
+				"label": "Onsite Assessment & Consultancy / 上门系统解说",
+				"orderLabel": "Trip (Assessment or Consultancy / 上门系统解说)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -917,7 +875,8 @@
 					"default": 60,
 					"base": 60
 				}
-			},			
+			},
+			
 			"Ware Install": {
 				"handle": "ware_install",
 				"label": "Soft or Hardware Install / 软和硬件设置或提升",
@@ -977,6 +936,26 @@
 				}
 			},
 			
+			"Karaoke": {
+				"handle": "karaoke",
+				"label": "Karaoke System Install or Setting / 视听系统安装与设置",
+				"orderLabel": "Job (Karaoke System Install or Setting / 视听系统安装与设置)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
 			"Project": {
 				"handle": "project",
 				"label": "Project / 项目",
@@ -995,7 +974,8 @@
 					"default": 60,
 					"base": 60
 				}
-			},					
+			},
+			
 			"TV Box": {
 				"handle": "tv_box",
 				"label": "TV Box / 电视盒",
@@ -1014,8 +994,29 @@
 					"default": 60,
 					"base": 60
 				}
+			},
+		
+		"Karaoke + TV Box": {
+				"handle": "karaoke_tvbox",
+				"label": "Karaoke & TV Box",
+				"orderLabel": "Set (Karaoke + TV Box)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "2000",
+					"MYR": "4500",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
 			}
 		},
+		
 	    "types": {
 			"house": {
 				"label": "House Type",
@@ -1048,14 +1049,123 @@
 			}
 		}
 	},
-		
+
+	
+	"cleaning-festive": {
+		"name": "Festive Cleaning / 大扫除清洗",
+		"lastSlot": "14:00",
+		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "60",
+			"MYR": "204",
+			"CNY": "0"
+		},
+		"hasNote": 1,
+		"options": {
+			"Deep Clean Booking": {
+				"handle": "deep_cleaning_booking",
+				"label": "Festive Cleaning Booking: 2 Crews / 大扫除清洗预约：2人",
+				"orderLabel": "Hour (Deep Cleaning / 深度清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 180,
+					"base": 60
+				}
+			},
+			"Survey": {
+				"handle": "clean_survey",
+				"label": "Cleaning Survey / 清洗项目实地调查",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Deep Clean Project": {
+				"handle": "deep_clean_project",
+				"label": "Cleaning Project / 深度清洗项目",
+				"orderLabel": "Job (Cleaning Project / 深度清洗项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium (公寓) : 2 crews (人)",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House (有地住宅) : 2 crews (人)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	"cleaning-standard": {
 		"name": "Standard Cleaning / 普通清洗",
-		"lastSlot": "16:30",
+		"lastSlot": "14:30",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "92",
+			"MYR": "98",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -1075,7 +1185,7 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 210,
+					"default": 0,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
@@ -1213,116 +1323,10 @@
 		}
 	},
 	
-	"cleaning-deep": {
-		"name": "Deep Cleaning / 大扫除清洗",
-		"lastSlot": "14:30",
-		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "60",
-			"MYR": "204",
-			"CNY": "0"
-		},
-		"hasNote": 1,
-		"options": {
-			"Deep Clean Booking": {
-				"handle": "deep_cleaning_booking",
-				"label": "Deep Cleaning Booking: 2 Crews / 大扫除清洗预约：2人",
-				"orderLabel": "Hour (Deep Cleaning / 深度清洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 180,
-					"base": 60
-				}
-			},
-			"Survey": {
-				"handle": "clean_survey",
-				"label": "Cleaning Survey / 清洗项目实地调查",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Deep Clean Project": {
-				"handle": "deep_clean_project",
-				"label": "Cleaning Project / 深度清洗项目",
-				"orderLabel": "Job (Cleaning Project / 深度清洗项目)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium (公寓) : 2 crews (人)",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					},
-					"landed": {
-						"label": "Landed House (有地住宅) : 2 crews (人)",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
 	
 	"landscape": {
 		"name": "Landscaping / 园艺修剪",
-		"lastSlot": "15:30",
+		"lastSlot": "14:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "20",
@@ -1741,16 +1745,16 @@
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "35",
+					"SGD": "7",
+					"MYR": "15",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "ft2",
 					"min": 0,
-					"max": 0,
+					"max": 9,
 					"increment": 1,
-					"default": 0,
+					"default": 1,
 					"base": 1
 				}
 			},
@@ -1761,8 +1765,8 @@
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "35",
+					"SGD": "7",
+					"MYR": "15",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -1781,14 +1785,14 @@
 				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "12",
-					"MYR": "25",
+					"SGD": "5",
+					"MYR": "10",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "ft2",
 					"min": 0,
-					"max": 0,
+					"max": 9,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -1801,8 +1805,8 @@
 				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "12",
-					"MYR": "25",
+					"SGD": "5",
+					"MYR": "10",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -1889,7 +1893,7 @@
 	
 	"runner": {
 		"name": "Runner & Helper / 服务代劳",
-		"lastSlot": "15:30",
+		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
@@ -2016,7 +2020,7 @@
 	
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
-		"lastSlot": "20:00",
+		"lastSlot": "16:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "80",
@@ -2358,7 +2362,7 @@
 	
 	"home-security": {
 		"name": "Home Security / 居家保安",
-		"lastSlot": "16:30",
+		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
@@ -2528,7 +2532,7 @@
 		
 	"car-care": {
 		"name": "Car Care / 汽车护理",
-		"lastSlot": "16:00",
+		"lastSlot": "14:00",
 		"disableLocations":["Kuala Lumpur","Singapore"],
 		"startPrice": {
 			"SGD": "20",
@@ -2871,15 +2875,80 @@
 		}
 	},
 	
+	"workshop": {
+		"name": "DIY Workshop / DIY 工作坊",
+		"lastSlot": "10:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "130",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+					
+		"Installation": {
+				"handle": "installation",
+				"label": "DIY Installation Workshop / DIY 安装工作坊",
+				"orderLabel": "Pax (DIY Installation Workshop / DIY 安装工作坊)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pax",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 }		
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	"printer": {
-		"name": "Printer / 打印机",
+		"name": "Printer Ink/ 打印机墨水",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
-		"title" : "Select A Brands",
+		"title": "Select A Brand",
 		"disableLocations": ["Seremban", "Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "30",
-			"MYR": "30",
+			"SGD": "50",
+			"MYR": "100",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -2889,12 +2958,12 @@
 				"photo" : "printer/brands/epson.jpg",
 				"models" : [
 					{
-						"name" : "L1110",
-						"photo" : "printer/models/e1-ecotank-l1110.jpg"
+						"name" : "L3110",
+						"photo" : "printer/models/e1-L3110.png"
 					},
 					{
-						"name" : "L15150",
-						"photo" : "printer/models/e2-ecotank-l15150.jpg"
+						"name" : "LQ310",
+						"photo" : "printer/models/e2-LQ310.png"
 					},
 					{
 						"name" : "M3170",
@@ -2903,58 +2972,21 @@
 				]
 			},
 			
-			{
-				"name" : "HP",
-				"photo" : "printer/brands/hp.png",
-				"models" : [
-					{
-						"name" : "HP-1",
-						"photo" : "printer/models/hp-1.png"
-					},
-					{
-						"name" : "HP-2",
-						"photo" : "printer/models/hp-2.png"
-					},
-					{
-						"name" : "HP-3",
-						"photo" : "printer/models/hp-3.png"
-					}
-				]
-			},
-			
-			{
-				"name" : "FUJI XEROX",
-				"photo" : "printer/brands/fuji_xerox.jpg",
-				"models" : [
-					{
-						"name" : "FUJI XEROX-1",
-						"photo" : "printer/models/fuji_xerox-1.jpg"
-					},
-					{
-						"name" : "FUJI XEROX-2",
-						"photo" : "printer/models/fuji_xerox-2.jpg"
-					},
-					{
-						"name" : "FUJI XEROX-3",
-						"photo" : "printer/models/fuji_xerox-3.jpg"
-					}
-				]
-			},
-			{
+			{	
 				"name" : "CANNON",
 				"photo" : "printer/brands/cannon.jpg",
 				"models" : [
 					{
-						"name" : "CANNON-1",
-						"photo" : "printer/models/cannon-1.jpg"
+						"name" : "MF3010",
+						"photo" : "printer/models/c1-MF3010.png"
 					},
 					{
-						"name" : "CANNON-2",
-						"photo" : "printer/models/cannon-2.jpg"
+						"name" : "LPB6030",
+						"photo" : "printer/models/c2-LPB6030.png"
 					},
 					{
-						"name" : "CANNON-3",
-						"photo" : "printer/models/cannon-3.jpg"
+						"name" : "E410",
+						"photo" : "printer/models/c3-e410.png"
 					}
 				]
 			},
@@ -2964,25 +2996,233 @@
 				"photo" : "printer/brands/brother.jpg",
 				"models" : [
 					{
-						"name" : "BROTHER-1",
-						"photo" : "printer/models/brother-1.jpg"
+						"name" : "HL-1110",
+						"photo" : "printer/models/b1-HL1110.png"
 					},
 					{
-						"name" : "BROTHER-2",
-						"photo" : "printer/models/brother-2.jpg"
+						"name" : "DCP-T310",
+						"photo" : "printer/models/b2-DCP-T310.png"
+					},
+					{
+						"name" : "DCP-T510W",
+						"photo" : "printer/models/b3-DCP-T510W.png"
+					}
+				]
+			},
+		
+			{
+				"name" : "FUJI XEROX",
+				"photo" : "printer/brands/fuji_xerox.jpg",
+				"models" : [
+					{
+						"name" : "CM115W",
+						"photo" : "printer/models/f1-CM115W.png"
+					},
+					{
+						"name" : "P375DW",
+						"photo" : "printer/models/f2-P375DW.png"
+					},
+					{
+						"name" : "P355d",
+						"photo" : "printer/models/f3-P355d.png"
 					}
 				]
 			}
 		],
+		
 		"options": {
-			"Epson003-BK": {
-				"label": "EPSON003-BK",
-				"orderLabel": "EPSON003-BK",
-				"type" : "L1110",
+			
+			"B-TN1000": {			
+				"label": "TN1000",
+				"orderLabel": "TN1000",
+				"type" : "HL-1110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22.5",
-					"MYR": "35.7",
+					"SGD": "32",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-BTD60-Black": {		
+				"label": "BTD60-310-Black",
+				"orderLabel": "BTD60-310-Black",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-BT5000-Cyan": {
+				"label": "BT5000-310-Cyan",
+				"orderLabel": "BT5000-310-Cyan",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B310-BT5000-Magenta": {
+				"label": "BT5000-310-Magenta",
+				"orderLabel": "BT5000-310-Magenta",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-BT5000-Yellow": {
+				"label": "BT5000-310-Yellow",
+				"orderLabel": "BT5000-310-Yellow",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B510-BTD60-Black": {
+				"label": "BTD60-510-Black",
+				"orderLabel": "BTD60-510-Black",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B510-BT5000-Cyan": {
+				"label": "BT5000-510-Cyan",
+				"orderLabel": "BT5000-510-Cyan",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B510-BT5000-Magenta": {
+				"label": "BT5000-510-Magenta",
+				"orderLabel": "BT5000-510-Magenta",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"B510-BT5000-Yellow": {
+				"label": "BT5000-510-Yellow",
+				"orderLabel": "BT5000-510-Yellow",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3110-Black": {
+				"label": "EPSON003-Black",
+				"orderLabel": "EPSON003-Black",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "25",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -2995,173 +3235,99 @@
 				}
 			},
 			
-			"Epson003-Y": {
-				"label": "EPSON003-Y",
-				"orderLabel": "EPSON003-Y",
-				"type" : "L1110",
+			"E-L3110-Cyan": {
+				"label": "EPSON003-Cyan",
+				"orderLabel": "EPSON003-Cyan",
+				"type" : "L3110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "20"
+					"SGD": "15",
+					"MYR": "25",
+					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
 			},
 			
-			"Epson003-BKG": {
-				"label": "EPSON003-BK",
-				"orderLabel": "EPSON003-BK",
-				"type" : "L15150",
+			
+			"E-L3110-Magenta": {
+				"label": "EPSON003-Magenta",
+				"orderLabel": "EPSON003-Magenta",
+				"type" : "L3110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
-					"MYR": "60",
-					"CNY": "20"
+					"SGD": "15",
+					"MYR": "25",
+					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
 			},
 			
-			"M3170": {
-				"label": "EPSON008-BK",
-				"orderLabel": "EPSON008-BK",
-				"type" : "M3170",
+			"E-L3110-Yellow": {
+				"label": "EPSON003-Yellow",
+				"orderLabel": "EPSON003-Yellow",
+				"type" : "L3110",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "15.50",
-					"CNY": "20"
+					"SGD": "15",
+					"MYR": "25",
+					"CNY": "60"
 				},
 				"quantity": {
 					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
 			},
-
-			"hp-BK": {
-				"label": "HP-BK",
-				"orderLabel": "HP-BK",
-				"type" : "HP-2",
+			
+			"E-LQ310": {
+				"label": "EPSON LQ310",
+				"orderLabel": "EPSON LQ310",
+				"type" : "LQ310",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
-					"MYR": "40",
+					"SGD": "9",
+					"MYR": "18",
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
 				}
 			},
-			"hp-Y": {
-				"label": "HP-Y",
-				"orderLabel": "HP-Y",
-				"type" : "HP-2",
+						
+			"C-MF3010": {
+				"label": "3010 Catridge-325",
+				"orderLabel": "3010 Catridge-325",
+				"type" : "MF3010",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"hp-BKG": {
-				"label": "HP-BK",
-				"orderLabel": "HP-BK",
-				"type" : "HP-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "15",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Blooms-BK": {
-				"label": "BLOOMS-BK",
-				"orderLabel": "BLOOMS-BK",
-				"type" : "BLOOMS-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
+					"SGD": "35",
+					"MYR": "65",
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Blooms-Y": {
-				"label": "BLOOMS-Y",
-				"orderLabel": "BLOOMS-Y",
-				"type" : "BLOOMS-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Fuji Xerox-YY": {
-				"label": "FUJI XEROX-YY",
-				"orderLabel": "FUJI XEROX-YY",
-				"type" : "FUJI XEROX-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
 					"max":10,
 					"increment": 60,
@@ -3169,37 +3335,19 @@
 					"base": 60
 				}
 			},
-			"Fuji Xerox-N": {
-				"label": "FUJI XEROX-N",
-				"orderLabel": "FUJI XEROX-N",
-				"type" : "FUJI XEROX-2",
+			
+			"C-LPB6030": {
+				"label": "6030 Catridge-325",
+				"orderLabel": "6030 Catridge-325",
+				"type" : "LPB6030",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
+					"SGD": "35",
+					"MYR": "65",
+					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Fuji Xerox-300": {
-				"label": "FUJI XEROX-300",
-				"orderLabel": "FUJI XEROX-300",
-				"type" : "FUJI XEROX-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "10",
-					"CNY": "25"
-				},
-				"quantity": {
-					"label": "Set",
+					"label": "Pc",
 					"min": 0,
 					"max":10,
 					"increment": 60,
@@ -3207,19 +3355,99 @@
 					"base": 60
 				}
 			},
-
-			"Cannon-240": {
-				"label": "CANNON-240",
-				"orderLabel": "CANNON-240",
-				"type" : "CANNON-2",
+			
+			"C-E410-Black": {
+				"label": "Canon 47-Black",
+				"orderLabel": "Canon 47-Black",
+				"type" : "E410",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
-					"MYR": "40",
+					"SGD": "18",
+					"MYR": "37",
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Cyan": {
+				"label": "Canon 57-Cyan",
+				"orderLabel": "Canon 57-Cyan",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Magenta": {
+				"label": "Canon 57-Magenta",
+				"orderLabel": "Canon 57-Magenta",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Yellow": {
+				"label": "Canon 57-Yellow",
+				"orderLabel": "Canon 57-Yellow",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"F-CM115W-Black": {
+				"label": "FX Laser Toner Black",
+				"orderLabel": "FX Laser Toner Black",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
 					"min": 0,
 					"max":10,
 					"increment": 60,
@@ -3227,122 +3455,68 @@
 					"base": 60
 				}
 			},
-			"Cannon-245": {
-				"label": "CANNON-245",
-				"orderLabel": "CANNON-245",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "35",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-245xl": {
-				"label": "CANNON-245XL",
-				"orderLabel": "CANNON-245XL",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "40",
-					"CNY": "85"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-243": {
-				"label": "CANNON-243",
-				"orderLabel": "CANNON-243",
-				"type" : "CANNON-3",
+			
+			"F-CM115W-Cyan": {
+				"label": "FX Laser Toner Cyan",
+				"orderLabel": "FX Laser Toner Cyan",
+				"type" : "CM115W",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "20",
+					"MYR": "80",
 					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Set",
+					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max":10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
 			},
-
-			"Brother-3011": {
-				"label": "BROTHER-3011",
-				"orderLabel": "BROTHER-3011",
-				"type" : "BROTHER-1",
+			
+			"F-CM115W-Magenta": {
+				"label": "FX Laser Toner Magenta",
+				"orderLabel": "FX Laser Toner Magenta",
+				"type" : "CM115W",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
-					"MYR": "30",
-					"CNY": "70"
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
-					"max": 10,
+					"max":10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
 			},
-			"Brother-lc201": {
-				"label": "BROTHER-LC201",
-				"orderLabel": "BROTHER-LC201",
-				"type" : "BROTHER-1",
+			
+			"F-CM115W-Yellow": {
+				"label": "FX Laser Toner Yellow",
+				"orderLabel": "FX Laser Toner Yellow",
+				"type" : "CM115W",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "15",
-					"CNY": "30"
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Pc",
 					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Brother-lc101": {
-				"label": "BROTHER-LC101",
-				"orderLabel": "BROTHER-LC101",
-				"type" : "BROTHER-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "30",
-					"CNY": "40"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
+					"max":10,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
 			}
 		},
+			
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -3379,479 +3553,40 @@
 			}
 		}
 	},
-	"printer_pc
-		"name": "PC Printer / 打印机",
-		"lastSlot": "15:00",
-		"hasbrand" : "true",
-		"title" : "Select A Computer",
-		"disableLocations": ["Seremban", "Kuala Lumpur"],
+	
+	"waterproof": {
+		"name": "Waterproofing / 防水",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "30",
-			"MYR": "30",
-			"CNY": "110"
+			"SGD": "0",
+			"MYR": "0",
+			"CNY": "20"
 		},
 		"hasNote": 1,
-		"brands" : [
-			{
-				"name" : "EPSON",
-				"photo" : "printer/brands/epson.jpg",
-				"models" : [
-					{
-						"name" : "L1110",
-						"photo" : "printer/models/e1-ecotank-l1110.jpg"
-					},
-					{
-						"name" : "L15150",
-						"photo" : "printer/models/e2-ecotank-l15150.jpg"
-					},
-					{
-						"name" : "M3170",
-						"photo" : "printer/models/e3-m3170.jpg"
-					}
-				]
-			},
-			
-			{
-				"name" : "HP",
-				"photo" : "printer/brands/hp.png",
-				"models" : [
-					{
-						"name" : "HP-1",
-						"photo" : "printer/models/hp-1.png"
-					},
-					{
-						"name" : "HP-2",
-						"photo" : "printer/models/hp-2.png"
-					},
-					{
-						"name" : "HP-3",
-						"photo" : "printer/models/hp-3.png"
-					}
-				]
-			},
-			
-			{
-				"name" : "FUJI XEROX",
-				"photo" : "printer/brands/fuji_xerox.jpg",
-				"models" : [
-					{
-						"name" : "FUJI XEROX-1",
-						"photo" : "printer/models/fuji_xerox-1.jpg"
-					},
-					{
-						"name" : "FUJI XEROX-2",
-						"photo" : "printer/models/fuji_xerox-2.jpg"
-					},
-					{
-						"name" : "FUJI XEROX-3",
-						"photo" : "printer/models/fuji_xerox-3.jpg"
-					}
-				]
-			},
-			{
-				"name" : "CANNON",
-				"photo" : "printer/brands/cannon.jpg",
-				"models" : [
-					{
-						"name" : "CANNON-1",
-						"photo" : "printer/models/cannon-1.jpg"
-					},
-					{
-						"name" : "CANNON-2",
-						"photo" : "printer/models/cannon-2.jpg"
-					},
-					{
-						"name" : "CANNON-3",
-						"photo" : "printer/models/cannon-3.jpg"
-					}
-				]
-			},
-			
-			{
-				"name" : "BROTHER",
-				"photo" : "printer/brands/brother.jpg",
-				"models" : [
-					{
-						"name" : "BROTHER-1",
-						"photo" : "printer/models/brother-1.jpg"
-					},
-					{
-						"name" : "BROTHER-2",
-						"photo" : "printer/models/brother-2.jpg"
-					}
-				]
-			}
-		],
 		"options": {
-			"Epson003-BK": {
-				"label": "EPSON003-BK",
-				"orderLabel": "EPSON003-BK",
-				"type" : "L1110",
+			"Sink Re-waterproof": {
+				"handle": "cctv",
+				"label": "Sinks Re-waterproof",
+				"orderLabel": "Set (Sinks Re-waterproof)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22.5",
-					"MYR": "35.7",
-					"CNY": "60"
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Pc",
-					"min": 0,
+					"label": "Set",
+					"min": 1,
 					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
-			},
-			
-			"Epson003-Y": {
-				"label": "EPSON003-Y",
-				"orderLabel": "EPSON003-Y",
-				"type" : "L1110",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max": 10,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"Epson003-BKG": {
-				"label": "EPSON003-BK",
-				"orderLabel": "EPSON003-BK",
-				"type" : "L15150",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "60",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max": 10,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"M3170": {
-				"label": "EPSON008-BK",
-				"orderLabel": "EPSON008-BK",
-				"type" : "M3170",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "15.50",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max": 10,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-			"hp-BK": {
-				"label": "HP-BK",
-				"orderLabel": "HP-BK",
-				"type" : "HP-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"hp-Y": {
-				"label": "HP-Y",
-				"orderLabel": "HP-Y",
-				"type" : "HP-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"hp-BKG": {
-				"label": "HP-BK",
-				"orderLabel": "HP-BK",
-				"type" : "HP-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "15",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Blooms-BK": {
-				"label": "BLOOMS-BK",
-				"orderLabel": "BLOOMS-BK",
-				"type" : "BLOOMS-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Blooms-Y": {
-				"label": "BLOOMS-Y",
-				"orderLabel": "BLOOMS-Y",
-				"type" : "BLOOMS-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Fuji Xerox-YY": {
-				"label": "FUJI XEROX-YY",
-				"orderLabel": "FUJI XEROX-YY",
-				"type" : "FUJI XEROX-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Fuji Xerox-N": {
-				"label": "FUJI XEROX-N",
-				"orderLabel": "FUJI XEROX-N",
-				"type" : "FUJI XEROX-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Fuji Xerox-300": {
-				"label": "FUJI XEROX-300",
-				"orderLabel": "FUJI XEROX-300",
-				"type" : "FUJI XEROX-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "10",
-					"CNY": "25"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-			"Cannon-240": {
-				"label": "CANNON-240",
-				"orderLabel": "CANNON-240",
-				"type" : "CANNON-2",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "40",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-245": {
-				"label": "CANNON-245",
-				"orderLabel": "CANNON-245",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "35",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-245xl": {
-				"label": "CANNON-245XL",
-				"orderLabel": "CANNON-245XL",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "40",
-					"CNY": "85"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Cannon-243": {
-				"label": "CANNON-243",
-				"orderLabel": "CANNON-243",
-				"type" : "CANNON-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "20",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-			"Brother-3011": {
-				"label": "BROTHER-3011",
-				"orderLabel": "BROTHER-3011",
-				"type" : "BROTHER-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "30",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Brother-lc201": {
-				"label": "BROTHER-LC201",
-				"orderLabel": "BROTHER-LC201",
-				"type" : "BROTHER-1",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "15",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Brother-lc101": {
-				"label": "BROTHER-LC101",
-				"orderLabel": "BROTHER-LC101",
-				"type" : "BROTHER-3",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "30",
-					"CNY": "40"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
+			 }		
 		},
-		"types": {
+		
+	    "types": {
 			"house": {
 				"label": "House Type",
 				"description": "Label standard",
@@ -3866,19 +3601,14 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "0"
+							"MYR": "0",
+							"CNY": "10"
 						}
 					},
 					"landed": {
 						"label": "Landed House / 有地住宅",
 						"cost": {
 							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "10",
 							"MYR": "0",
 							"CNY": "0"
 						}
