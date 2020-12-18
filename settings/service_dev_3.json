@@ -3379,7 +3379,7 @@
 			}
 		}
 	},
-	"printer": {
+	"printer_pc
 		"name": "PC Printer / 打印机",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
@@ -3886,5 +3886,5 @@
 				}
 			}
 		}
-	},
+	}
 }
