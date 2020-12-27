@@ -743,8 +743,8 @@
 				"orderLabel": "Hour (1st Hr / 第1小时)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
-					"MYR": "80",
+					"SGD": "25",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -762,8 +762,8 @@
 				"orderLabel": "Hour (2nd Hr onwards / 第2小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "50",
+					"SGD": "15",
+					"MYR": "30",
 					"CNY": "50"
 				},
 				"quantity": {
