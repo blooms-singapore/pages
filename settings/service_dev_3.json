@@ -1,11 +1,212 @@
 {
+	"painting": {
+		"name": "Painting / 油漆",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "61.5",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr Labour Booking": {
+				"handle": "first_hr_labour",
+				"label": "Malaysia / 马来西亚: 1st Hour Booking / 第1小时预订",
+				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "70",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"2nd Hr Labour Booking": {
+				"handle": "second_hr_more_labour",
+				"label": "Malaysia / 马来西亚: 2nd or more Hour Booking / 2小时以上预订",
+				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"MY Survey": {
+				"handle" : "my_survey",
+				"label": "Malaysia / 马来西亚    House Survey / 调查",
+				"description": "Malaysia / 马来西亚 Survey / 调查",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},			
+		  	"Paint Project": {
+		  		"handle": "paint_project",
+				"label": "Project / 项目 (SG & MY)",
+				"description": "Project / 项目",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+		   	"SIN <2000ft2 Survey": {
+		   		"handle": "sg_survey_under_2000",
+				"label": "SG Survey < 2000ft2",
+				"description": "SG Survey < 2000ft2",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			"SIN >2000ft2 Survey": {
+				"handle": "sg_survey_over_2000",
+				"label": "SG Survey >= 2000ft2",
+				"description": "SG Survey >= 2000ft2",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			"SIN 1st Hr Labour Booking": {
+				"handle": "sg_first_hr_labour",
+				"label": "SG 1st Hr Booking",
+				"orderLabel": "Hour (SG 1st Hr Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"SIN 2nd Hr Labour Booking": {
+				"handle": "sg_second_or_more_hr_labour",
+				"label": "SG 2nd or more Hour Booking",
+				"orderLabel": "Hour (SG 2nd or more Hr Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},	
+	
 	"aircon": {
 		"name": "Aircon Works / 冷气",
 		"lastSlot": "16:00",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "76",
+			"MYR": "80.5",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -851,8 +1052,8 @@
 		"lastSlot": "16:00",
 		"disableLocations": ["Singapore", "Seremban"],
 		"startPrice": {
-			"SGD": "35",
-			"MYR": "61.5",
+			"SGD": "12",
+			"MYR": "23.50",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -883,8 +1084,8 @@
 				"orderLabel": "Hour (Soft or Hardware Install / 软和硬件设置或提升)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
-					"MYR": "60",
+					"SGD": "15",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -902,8 +1103,8 @@
 				"orderLabel": "Hour (Network / 网络设置或提升)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
-					"MYR": "60",
+					"SGD": "15",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1489,206 +1690,7 @@
 		}
 	},
 	
-	"painting": {
-		"name": "Painting / 油漆",
-		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
-		"startPrice": {
-			"SGD": "30",
-			"MYR": "61.5",
-			"CNY": "110"
-		},
-		"hasNote": 1,
-		"options": {
-			"1st Hr Labour Booking": {
-				"handle": "first_hr_labour",
-				"label": "Malaysia / 马来西亚: 1st Hour Booking / 第1小时预订",
-				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "70",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"2nd Hr Labour Booking": {
-				"handle": "second_hr_more_labour",
-				"label": "Malaysia / 马来西亚: 2nd or more Hour Booking / 2小时以上预订",
-				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"MY Survey": {
-				"handle" : "my_survey",
-				"label": "Malaysia / 马来西亚    House Survey / 调查",
-				"description": "Malaysia / 马来西亚 Survey / 调查",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},			
-		  	"Paint Project": {
-		  		"handle": "paint_project",
-				"label": "Project / 项目 (SG & MY)",
-				"description": "Project / 项目",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-		   	"SIN <2000ft2 Survey": {
-		   		"handle": "sg_survey_under_2000",
-				"label": "SG Survey < 2000ft2",
-				"description": "SG Survey < 2000ft2",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			"SIN >2000ft2 Survey": {
-				"handle": "sg_survey_over_2000",
-				"label": "SG Survey >= 2000ft2",
-				"description": "SG Survey >= 2000ft2",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			"SIN 1st Hr Labour Booking": {
-				"handle": "sg_first_hr_labour",
-				"label": "SG 1st Hr Booking",
-				"orderLabel": "Hour (SG 1st Hr Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "90",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"SIN 2nd Hr Labour Booking": {
-				"handle": "sg_second_or_more_hr_labour",
-				"label": "SG 2nd or more Hour Booking",
-				"orderLabel": "Hour (SG 2nd or more Hr Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "0"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},	
+	
 	
 	"tiling": {
 		"name": "Tiling & Concrete / 瓷砖和水泥",
