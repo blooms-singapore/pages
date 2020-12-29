@@ -3030,8 +3030,8 @@
 						"photo" : "printer/models/h2-5020.png"
 					},
 					{
-						"name" : "L3150",
-						"photo" : "printer/models/e3-L3150.png"
+						"name" : "3545",
+						"photo" : "printer/models/h2-3545.png"
 					}
 				]
 			},
@@ -3789,6 +3789,66 @@
 				"label": "HP Envy 65-Tri Colour",
 				"orderLabel": "HP Envy 65-Tri Colour",
 				"type" : "5020",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Black": {
+				"label": "HP Deskjet 678-Black",
+				"orderLabel": "HP Deskjet 678-Black",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Cyan": {
+				"label": "HP Deskjet 678-Cyan",
+				"orderLabel": "HP Deskjet 678-Cyan",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Magenta": {
+				"label": "HP Deskjet 678-Magenta",
+				"orderLabel": "HP Deskjet 678-Magenta",
+				"type" : "3545",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
