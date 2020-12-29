@@ -2993,6 +2993,10 @@
 					{
 						"name" : "iP2870S",
 						"photo" : "printer/models/c4-ip2870s.png"
+					},
+					{
+						"name" : "E500/510",
+						"photo" : "printer/models/c5-e500-510.png"
 					}
 				]
 			},
