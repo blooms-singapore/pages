@@ -3711,6 +3711,166 @@
 				}
 			},
 			
+			"C-MX328-Black": {
+				"label": "Canon 810-Black",
+				"orderLabel": "Canon 810-Black",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Cyan": {
+				"label": "Canon 811-Cyan",
+				"orderLabel": "Canon 811-Cyan",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Magenta": {
+				"label": "Canon 811-Magenta",
+				"orderLabel": "Canon 811-Magenta",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Yellow": {
+				"label": "Canon 811-Yellow",
+				"orderLabel": "Canon 811-Yellow",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Black": {
+				"label": "Canon 810-Black",
+				"orderLabel": "Canon 810-Black",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Cyan": {
+				"label": "Canon 811-Cyan",
+				"orderLabel": "Canon 811-Cyan",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Magenta": {
+				"label": "Canon 811-Magenta",
+				"orderLabel": "Canon 811-Magenta",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Yellow": {
+				"label": "Canon 811-Yellow",
+				"orderLabel": "Canon 811-Yellow",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 			"E-L3110-Black": {
 				"label": "EPSON003-Black",
 				"orderLabel": "EPSON003-Black",
