@@ -2968,8 +2968,8 @@
 						"photo" : "printer/models/e2-LQ310.png"
 					},
 					{
-						"name" : "M3170",
-						"photo" : "printer/models/e3-m3170.jpg"
+						"name" : "L3150",
+						"photo" : "printer/models/e3-L3150.png"
 					}
 				]
 			},
@@ -3306,6 +3306,87 @@
 				"cost": {
 					"SGD": "9",
 					"MYR": "23.5",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Black": {
+				"label": "EPSON003-Black",
+				"orderLabel": "EPSON003-Black",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Cyan": {
+				"label": "EPSON003-Cyan",
+				"orderLabel": "EPSON003-Cyan",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"E-L3150-Magenta": {
+				"label": "EPSON003-Magenta",
+				"orderLabel": "EPSON003-Magenta",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Yellow": {
+				"label": "EPSON003-Yellow",
+				"orderLabel": "EPSON003-Yellow",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
 					"CNY": "60"
 				},
 				"quantity": {
