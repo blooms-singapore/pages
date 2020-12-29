@@ -3622,8 +3622,8 @@
 				"type" : "LQ310",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "9",
-					"MYR": "23.5",
+					"SGD": "15",
+					"MYR": "24",
 					"CNY": "60"
 				},
 				"quantity": {
