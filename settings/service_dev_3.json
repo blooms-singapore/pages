@@ -3009,6 +3009,10 @@
 					{
 						"name" : "MX328",
 						"photo" : "printer/models/c6-mx328.png"
+					},
+					{
+						"name" : "MP237",
+						"photo" : "printer/models/c7-mp237.png"
 					}
 				]
 			},
