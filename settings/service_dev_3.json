@@ -3618,6 +3618,86 @@
 					"default": 0,
 					"base": 60
 				}
+			},
+			
+			"HP-2336-Black": {
+				"label": "HP Deskjet 682-Black",
+				"orderLabel": "HP Deskjet 682-Black",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Cyan": {
+				"label": "HP Deskjet 682-Cyan",
+				"orderLabel": "HP Deskjet 682-Cyan",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Magenta": {
+				"label": "HP Deskjet 682-Magenta",
+				"orderLabel": "HP Deskjet 682-Magenta",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Yellow": {
+				"label": "HP Deskjet 682-Yellow",
+				"orderLabel": "HP Deskjet 682-Yellow",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
 			}
 		},
 			
