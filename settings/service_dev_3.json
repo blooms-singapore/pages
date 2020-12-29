@@ -3450,6 +3450,47 @@
 				}
 			},
 			
+			"C-E500/510-Black": {
+				"label": "Canon 88-Black",
+				"orderLabel": "Canon 88-Black",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			"C-E500/510-Cyan": {
+				"label": "Canon 98-Cyan",
+				"orderLabel": "Canon 98-Cyan",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 			"E-L3110-Black": {
 				"label": "EPSON003-Black",
 				"orderLabel": "EPSON003-Black",
