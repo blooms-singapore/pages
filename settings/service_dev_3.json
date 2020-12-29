@@ -3026,8 +3026,8 @@
 						"photo" : "printer/models/h1-2336.png"
 					},
 					{
-						"name" : "LQ310",
-						"photo" : "printer/models/e2-LQ310.png"
+						"name" : "5020",
+						"photo" : "printer/models/h2-5020.png"
 					},
 					{
 						"name" : "L3150",
@@ -3773,6 +3773,26 @@
 				"cost": {
 					"SGD": "20",
 					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5020-Tri Colour": {
+				"label": "HP Envy 65-Tri Colour",
+				"orderLabel": "HP Envy 65-Tri Colour",
+				"type" : "5020",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
 					"CNY": "60"
 				},
 				"quantity": {
