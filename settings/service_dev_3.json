@@ -3008,6 +3008,10 @@
 					{
 						"name" : "L3150",
 						"photo" : "printer/models/e3-L3150.png"
+					},
+					{
+						"name" : "L110",
+						"photo" : "printer/models/e4-L110.png"
 					}
 				]
 			},
