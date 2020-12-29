@@ -3863,6 +3863,26 @@
 					"default": 0,
 					"base": 1
 				}
+			},
+			
+			"HP-3545-Yellow": {
+				"label": "HP Deskjet 678-Yellow",
+				"orderLabel": "HP Deskjet 678-Yellow",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
 			}
 		},
 			
