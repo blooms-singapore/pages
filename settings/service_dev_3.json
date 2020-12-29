@@ -2970,6 +2970,10 @@
 					{
 						"name" : "DCP-T510W",
 						"photo" : "printer/models/b3-DCP-T510W.png"
+					},
+					{
+						"name" : "MFC-J200",
+						"photo" : "printer/models/b4-mfc-j200.jpg"
 					}
 				]
 			},
