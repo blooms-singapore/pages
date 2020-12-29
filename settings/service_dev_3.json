@@ -2974,6 +2974,10 @@
 					{
 						"name" : "MFC-J200",
 						"photo" : "printer/models/b4-mfc-j200.png"
+					},
+					{
+						"name" : "MFC-J2330DW",
+						"photo" : "printer/models/b5-mfc-j2330dw.png"
 					}
 				]
 			},
