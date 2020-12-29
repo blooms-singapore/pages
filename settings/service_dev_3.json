@@ -3258,6 +3258,86 @@
 				}
 			},
 			
+			"B-MFC-J200-Black": {
+				"label": "Brother LC539XL-Black",
+				"orderLabel": "Brother LC539XL-Black",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Cyan": {
+				"label": "Brother LC539XL-Cyan",
+				"orderLabel": "Brother LC539XL-Cyan",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Magenta": {
+				"label": "Brother LC539XL-Magenta",
+				"orderLabel": "Brother LC539XL-Magenta",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Yellow": {
+				"label": "Brother LC539XL-Yellow",
+				"orderLabel": "Brother LC539XL-Yellow",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
 			"C-MF3010": {
 				"label": "3010 Catridge-325",
 				"orderLabel": "3010 Catridge-325",
