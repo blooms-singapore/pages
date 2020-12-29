@@ -3366,6 +3366,86 @@
 				}
 			},
 			
+			"C-IP2870S-Black": {
+				"label": "Canon 745-Black",
+				"orderLabel": "Canon 745-Black",
+				"type" : "iP2970S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Cyan": {
+				"label": "Canon 746-Cyan",
+				"orderLabel": "Canon 746-Cyan",
+				"type" : "iP2970S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Magenta": {
+				"label": "Canon 746-Magenta",
+				"orderLabel": "Canon 746-Magenta",
+				"type" : "iP2970S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Yellow": {
+				"label": "Canon 746-Yellow",
+				"orderLabel": "Canon 746-Yellow",
+				"type" : "iP2970S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 			"E-L3110-Black": {
 				"label": "EPSON003-Black",
 				"orderLabel": "EPSON003-Black",
