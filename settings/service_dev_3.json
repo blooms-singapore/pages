@@ -3342,6 +3342,86 @@
 				}
 			},
 			
+			"B-MFC-J2330DW-Black": {
+				"label": "Brother LC3619XL-Black",
+				"orderLabel": "Brother LC3619XL-Black",
+				"type" : "MFC-J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Cyan": {
+				"label": "Brother LC3619XL-Cyan",
+				"orderLabel": "Brother LC3619XL-Cyan",
+				"type" : "MFC-J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Magenta": {
+				"label": "Brother LC3619XL-Magenta",
+				"orderLabel": "Brother LC3619XL-Magenta",
+				"type" : "MFC-J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Yellow": {
+				"label": "Brother LC3619XL-Yellow",
+				"orderLabel": "Brother LC3619XL-Yellow",
+				"type" : "MFC-J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
 			"C-MF3010": {
 				"label": "3010 Catridge-325",
 				"orderLabel": "3010 Catridge-325",
