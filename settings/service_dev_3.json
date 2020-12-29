@@ -3043,7 +3043,7 @@
 					},
 					{
 						"name" : "6475",
-						"photo" : "printer/models/h4-6475 source.jpg"
+						"photo" : "printer/models/h4-6475.jpg"
 					}
 				]
 			},
@@ -4042,6 +4042,86 @@
 				"label": "HP Deskjet 678-Yellow",
 				"orderLabel": "HP Deskjet 678-Yellow",
 				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Black": {
+				"label": "HP Deskjet 682-Black",
+				"orderLabel": "HP Deskjet 682-Black",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Cyan": {
+				"label": "HP Deskjet 682-Cyan",
+				"orderLabel": "HP Deskjet 682-Cyan",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Magenta": {
+				"label": "HP Deskjet 682-Magenta",
+				"orderLabel": "HP Deskjet 682-Magenta",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Yellow": {
+				"label": "HP Deskjet 682-Yellow",
+				"orderLabel": "HP Deskjet 682-Yellow",
+				"type" : "6475",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
