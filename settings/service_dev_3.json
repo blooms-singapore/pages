@@ -3543,6 +3543,87 @@
 					"base": 1
 				}
 			},
+			
+			
+			"E-L110-Black": {
+				"label": "EPSON664-Black",
+				"orderLabel": "EPSON664-Black",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Cyan": {
+				"label": "EPSON664-Cyan",
+				"orderLabel": "EPSON664-Cyan",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Magenta": {
+				"label": "EPSON664-Magenta",
+				"orderLabel": "EPSON664-Magenta",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Yellow": {
+				"label": "EPSON664-Yellow",
+				"orderLabel": "EPSON664-Yellow",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "0",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
 				
 			"F-CM115W-Black": {
 				"label": "FX Laser Toner Black",
