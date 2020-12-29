@@ -3005,6 +3005,10 @@
 					{
 						"name" : "E500/510",
 						"photo" : "printer/models/c5-e500-510.png"
+					},
+					{
+						"name" : "MX328",
+						"photo" : "printer/models/c6-mx328.png"
 					}
 				]
 			},
