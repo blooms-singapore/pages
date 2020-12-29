@@ -2956,20 +2956,20 @@
 		"hasNote": 1,
 		"brands" : [
 			{
-				"name" : "EPSON",
-				"photo" : "printer/brands/epson.jpg",
+				"name" : "BROTHER",
+				"photo" : "printer/brands/brother.jpg",
 				"models" : [
 					{
-						"name" : "L3110",
-						"photo" : "printer/models/e1-L3110.png"
+						"name" : "HL-1110",
+						"photo" : "printer/models/b1-HL1110.png"
 					},
 					{
-						"name" : "LQ310",
-						"photo" : "printer/models/e2-LQ310.png"
+						"name" : "DCP-T310",
+						"photo" : "printer/models/b2-DCP-T310.png"
 					},
 					{
-						"name" : "L3150",
-						"photo" : "printer/models/e3-L3150.png"
+						"name" : "DCP-T510W",
+						"photo" : "printer/models/b3-DCP-T510W.png"
 					}
 				]
 			},
@@ -2994,24 +2994,45 @@
 			},
 			
 			{
-				"name" : "BROTHER",
-				"photo" : "printer/brands/brother.jpg",
+				"name" : "EPSON",
+				"photo" : "printer/brands/epson.jpg",
 				"models" : [
 					{
-						"name" : "HL-1110",
-						"photo" : "printer/models/b1-HL1110.png"
+						"name" : "L3110",
+						"photo" : "printer/models/e1-L3110.png"
 					},
 					{
-						"name" : "DCP-T310",
-						"photo" : "printer/models/b2-DCP-T310.png"
+						"name" : "LQ310",
+						"photo" : "printer/models/e2-LQ310.png"
 					},
 					{
-						"name" : "DCP-T510W",
-						"photo" : "printer/models/b3-DCP-T510W.png"
+						"name" : "L3150",
+						"photo" : "printer/models/e3-L3150.png"
 					}
 				]
 			},
-		
+			
+			
+			{
+				"name" : "HP",
+				"photo" : "printer/brands/hp.jpg",
+				"models" : [
+					{
+						"name" : "L3110",
+						"photo" : "printer/models/e1-L3110.png"
+					},
+					{
+						"name" : "LQ310",
+						"photo" : "printer/models/e2-LQ310.png"
+					},
+					{
+						"name" : "L3150",
+						"photo" : "printer/models/e3-L3150.png"
+					}
+				]
+			},
+			
+			
 			{
 				"name" : "FUJI XEROX",
 				"photo" : "printer/brands/fuji_xerox.jpg",
