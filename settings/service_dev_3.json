@@ -3217,6 +3217,126 @@
 				}
 			},
 			
+			"C-MF3010": {
+				"label": "3010 Catridge-325",
+				"orderLabel": "3010 Catridge-325",
+				"type" : "MF3010",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"C-LPB6030": {
+				"label": "6030 Catridge-325",
+				"orderLabel": "6030 Catridge-325",
+				"type" : "LPB6030",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"C-E410-Black": {
+				"label": "Canon 47-Black",
+				"orderLabel": "Canon 47-Black",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "18",
+					"MYR": "37",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Cyan": {
+				"label": "Canon 57-Cyan",
+				"orderLabel": "Canon 57-Cyan",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Magenta": {
+				"label": "Canon 57-Magenta",
+				"orderLabel": "Canon 57-Magenta",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Yellow": {
+				"label": "Canon 57-Yellow",
+				"orderLabel": "Canon 57-Yellow",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 			"E-L3110-Black": {
 				"label": "EPSON003-Black",
 				"orderLabel": "EPSON003-Black",
@@ -3398,127 +3518,7 @@
 					"base": 1
 				}
 			},
-						
-			"C-MF3010": {
-				"label": "3010 Catridge-325",
-				"orderLabel": "3010 Catridge-325",
-				"type" : "MF3010",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "65",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"C-LPB6030": {
-				"label": "6030 Catridge-325",
-				"orderLabel": "6030 Catridge-325",
-				"type" : "LPB6030",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "65",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max":10,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"C-E410-Black": {
-				"label": "Canon 47-Black",
-				"orderLabel": "Canon 47-Black",
-				"type" : "E410",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "18",
-					"MYR": "37",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max":10,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"C-E410-Cyan": {
-				"label": "Canon 57-Cyan",
-				"orderLabel": "Canon 57-Cyan",
-				"type" : "E410",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "74",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max":10,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"C-E410-Magenta": {
-				"label": "Canon 57-Magenta",
-				"orderLabel": "Canon 57-Magenta",
-				"type" : "E410",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "74",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max":10,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"C-E410-Yellow": {
-				"label": "Canon 57-Yellow",
-				"orderLabel": "Canon 57-Yellow",
-				"type" : "E410",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "74",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max":10,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
+				
 			"F-CM115W-Black": {
 				"label": "FX Laser Toner Black",
 				"orderLabel": "FX Laser Toner Black",
