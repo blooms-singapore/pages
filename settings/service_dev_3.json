@@ -582,6 +582,10 @@
 					{
 						"name" : "L110",
 						"photo" : "printer/models/e4-L110.png"
+					},
+					{
+						"name" : "?",
+						"photo" : "printer/models/?.png"
 					}
 				]
 			},
