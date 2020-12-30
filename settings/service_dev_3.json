@@ -653,6 +653,26 @@
 		
 		"options": {
 			
+			"Others": {			
+				"label": "Others",
+				"orderLabel": "Others",
+				"type" : "Others",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
 			"B-TN1000": {			
 				"label": "TN1000",
 				"orderLabel": "TN1000",
