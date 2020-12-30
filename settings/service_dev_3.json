@@ -646,6 +646,10 @@
 					{
 						"name" : "P355d",
 						"photo" : "printer/models/f3-P355d.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
 					}
 				]
 			}
