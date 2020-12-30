@@ -826,8 +826,8 @@
 				"type" : "MFC-J200",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "25",
+					"MYR": "49",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -846,8 +846,8 @@
 				"type" : "MFC-J200",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "25",
+					"MYR": "49",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -866,8 +866,8 @@
 				"type" : "MFC-J200",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "25",
+					"MYR": "49",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -886,8 +886,8 @@
 				"type" : "MFC-J200",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "25",
+					"MYR": "49",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -906,8 +906,8 @@
 				"type" : "J2330DW",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "50",
+					"MYR": "106",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -926,8 +926,8 @@
 				"type" : "J2330DW",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "43",
+					"MYR": "86",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -946,8 +946,8 @@
 				"type" : "J2330DW",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "43",
+					"MYR": "86",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -966,8 +966,8 @@
 				"type" : "J2330DW",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "43",
+					"MYR": "86",
 					"CNY": "30"
 				},
 				"quantity": {
