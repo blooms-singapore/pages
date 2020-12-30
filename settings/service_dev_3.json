@@ -608,7 +608,7 @@
 						"photo" : "printer/models/h4-6475.jpg"
 					},
 					{
-						"name" : "MFP M28W",
+						"name" : "MFP-M28W",
 						"photo" : "printer/models/h5-mfp-m28w.png"
 					}
 				]
@@ -1611,7 +1611,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "0",
+					"MYR": "31",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1631,7 +1631,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "0",
+					"MYR": "31",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1651,7 +1651,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "0",
+					"MYR": "31",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1671,7 +1671,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "0",
+					"MYR": "31",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1844,14 +1844,34 @@
 				}
 			},
 			
+			"HP-5020-Black": {
+				"label": "HP Envy 65-Black",
+				"orderLabel": "HP Envy 65-Black",
+				"type" : "5020",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "33",
+					"MYR": "70",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 			"HP-5020-Tri Colour": {
 				"label": "HP Envy 65-Tri Colour",
 				"orderLabel": "HP Envy 65-Tri Colour",
 				"type" : "5020",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "33",
+					"MYR": "70",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1871,7 +1891,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "46",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1891,7 +1911,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "46",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1911,7 +1931,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "46",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1931,7 +1951,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "46",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1950,8 +1970,8 @@
 				"type" : "6475",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "22",
+					"MYR": "46",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1970,8 +1990,8 @@
 				"type" : "6475",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "22",
+					"MYR": "46",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -1990,8 +2010,8 @@
 				"type" : "6475",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "22",
+					"MYR": "46",
 					"CNY": "60"
 				},
 				"quantity": {
@@ -2010,8 +2030,28 @@
 				"type" : "6475",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "0",
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-M28W-Black": {
+				"label": "Laserjet HP 48A-Black",
+				"orderLabel": "Laserjet HP 48A-Black",
+				"type" : "MFP-M28W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "91",
 					"CNY": "60"
 				},
 				"quantity": {
