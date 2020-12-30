@@ -524,6 +524,10 @@
 					{
 						"name" : "J2330DW",
 						"photo" : "printer/models/b5-mfc-j2330dw.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
 					}
 				]
 			},
@@ -559,6 +563,10 @@
 					{
 						"name" : "MP237",
 						"photo" : "printer/models/c7-mp237.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
 					}
 				]
 			},
@@ -584,8 +592,8 @@
 						"photo" : "printer/models/e4-L110.png"
 					},
 					{
-						"name" : "?",
-						"photo" : "printer/models/?.png"
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
 					}
 				]
 			},
@@ -614,6 +622,10 @@
 					{
 						"name" : "MFP-M28W",
 						"photo" : "printer/models/h5-mfp-m28w.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
 					}
 				]
 			},
