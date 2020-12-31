@@ -658,8 +658,8 @@
 		"options": {
 			
 			"Others": {			
-				"label": "Others",
-				"orderLabel": "Others",
+				"label": "Free Quote",
+				"orderLabel": "Free Quote",
 				"type" : "Others",
 				"description": "Label standard",
 				"cost": {
