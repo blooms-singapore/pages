@@ -492,7 +492,7 @@
 		"name": "Printer Ink / 打印机墨水",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
-		"title": "Select Brand, MOQ = MYR100",
+		"title": "Select Brand. MOQ = MYR100",
 		"disableLocations": ["Seremban", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "50",
@@ -4600,7 +4600,7 @@
 		"name": "Nursery / 花卉",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
-		"title": "Select Type, MOQ = MYR100",
+		"title": "Select Type. MOQ = MYR100",
 		"disableLocations": ["Seremban", "Kuala Lumpur", "Singapore"],
 		"startPrice": {
 			"SGD": "50",
