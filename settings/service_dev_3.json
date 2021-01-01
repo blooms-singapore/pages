@@ -430,25 +430,6 @@
 					"default": 60,
 					"base": 60
 				}
-			},			
-			"Find1000": {
-				"handle": "find_1000",
-				"label": "Find 1000 (Free)",
-				"orderLabel": "Clue (Find 1000)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "110",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Clue",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
 			}
 		},		
 		"types": {
