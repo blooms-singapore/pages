@@ -2702,7 +2702,7 @@
 	},
 	
 	"computer": {
-		"name": "Computer & Digital Products / 电脑和数码产品",
+		"name": "Computer & Digital Entertainment / 电脑和娱乐",
 		"lastSlot": "16:00",
 		"disableLocations": ["Singapore", "Seremban"],
 		"startPrice": {
