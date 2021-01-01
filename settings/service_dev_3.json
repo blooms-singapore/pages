@@ -1738,9 +1738,9 @@
 					"label": "Pc",
 					"min": 0,
 					"max":10,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
@@ -1778,9 +1778,9 @@
 					"label": "Pc",
 					"min": 0,
 					"max":10,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
@@ -1798,9 +1798,9 @@
 					"label": "Pc",
 					"min": 0,
 					"max":10,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
