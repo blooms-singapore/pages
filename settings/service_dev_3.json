@@ -4610,39 +4610,27 @@
 		"hasNote": 1,
 		"brands" : [
 			{
-				"name" : "Festive Flowers",
-				"photo" : "printer/brands/FF.jpg",
+				"name" : "CNY",
+				"photo" : "printer/brands/n-cny.jpg",
 				"models" : [
 					{
-						"name" : "Flower A",
-						"photo" : "printer/models/f.png"
+						"name" : "A",
+						"photo" : "printer/models/a.jpg"
 					},
 					{
-						"name" : "Flower B",
-						"photo" : "printer/models/f.png"
+						"name" : "B",
+						"photo" : "printer/models/b.jpg"
 					},
 					{
-						"name" : "Flower C",
-						"photo" : "printer/models/f.png"
-					},
-					{
-						"name" : "Flower D",
-						"photo" : "printer/models/f.png"
-					},
-					{
-						"name" : "Flower E",
-						"photo" : "printer/models/f.png"
-					},
-					{
-						"name" : "Flower F",
-						"photo" : "printer/models/f.png"
+						"name" : "C",
+						"photo" : "printer/models/c.jpg"
 					}
 				]
 			},
 			
 			{	
-				"name" : "盆栽",
-				"photo" : "printer/brands/PZ.jpg",
+				"name" : "INDOOR",
+				"photo" : "printer/brands/n-indoor.jpg",
 				"models" : [
 					{
 						"name" : "Plant A",
@@ -4668,8 +4656,8 @@
 			},
 			
 			{
-				"name" : "Indoor Plants / 室内植物",
-				"photo" : "printer/brands/IP.jpg",
+				"name" : "OUTDOOR",
+				"photo" : "printer/brands/n-outdoor.jpg",
 				"models" : [
 					{
 						"name" : "Indoor A",
@@ -4688,23 +4676,23 @@
 			
 			
 			{
-				"name" : "Outdoor Plants / 户外植物",
-				"photo" : "printer/brands/OP.jpg",
+				"name" : "FLOWERS",
+				"photo" : "printer/brands/n-flowers.jpg",
 				"models" : [
 					{
-						"name" : "Outdoor A",
+						"name" : "Flower A",
 						"photo" : "printer/models/o.png"
 					},
 					{
-						"name" : "Outdoor B",
+						"name" : "Flower B",
 						"photo" : "printer/models/o.png"
 					},
 					{
-						"name" : "Outdoor C",
+						"name" : "Flower C",
 						"photo" : "printer/models/o.png"
 					},
 					{
-						"name" : "Outdoor D",
+						"name" : "Flower D",
 						"photo" : "printer/models/o.png"
 					}
 				]
