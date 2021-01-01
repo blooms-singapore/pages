@@ -4615,27 +4615,27 @@
 				"models" : [
 					{
 						"name" : "Flower A",
-						"photo" : "printer/models/b1-HL1110.png"
+						"photo" : "printer/models/f.png"
 					},
 					{
 						"name" : "Flower B",
-						"photo" : "printer/models/b2-DCP-T310.png"
+						"photo" : "printer/models/f.png"
 					},
 					{
 						"name" : "Flower C",
-						"photo" : "printer/models/b3-DCP-T510W.png"
+						"photo" : "printer/models/f.png"
 					},
 					{
 						"name" : "Flower D",
-						"photo" : "printer/models/b4-mfc-j200.png"
+						"photo" : "printer/models/f.png"
 					},
 					{
 						"name" : "Flower E",
-						"photo" : "printer/models/b5-mfc-j2330dw.png"
+						"photo" : "printer/models/f.png"
 					},
 					{
 						"name" : "Flower F",
-						"photo" : "printer/models/others.png"
+						"photo" : "printer/models/f.png"
 					}
 				]
 			},
