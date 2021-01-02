@@ -2890,7 +2890,7 @@
 	"cleaning-festive": {
 		"name": "Festive Cleaning / 大扫除清洗",
 		"lastSlot": "14:00",
-		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
+		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur", "Johor Bahru" ],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "204",
@@ -2998,7 +2998,7 @@
 	"cleaning-standard": {
 		"name": "Standard Cleaning / 普通清洗",
 		"lastSlot": "14:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": ["Singapore", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "98",
