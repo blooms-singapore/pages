@@ -613,6 +613,10 @@
 						"photo" : "printer/models/h7-5000-5100.png"
 					},
 					{
+						"name" : "4000/4050",
+						"photo" : "printer/models/h8-4000-4050.png"
+					},
+					{
 						"name" : "Others",
 						"photo" : "printer/models/others.png"
 					}
@@ -2121,6 +2125,26 @@
 				"cost": {
 					"SGD": "60",
 					"MYR": "154",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-4000-4050": {
+				"label": "EP52 (C4127X) Toner",
+				"orderLabel": "EP52 (C4127X) Toner",
+				"type" : "4000/4050",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "46",
+					"MYR": "121",
 					"CNY": "60"
 				},
 				"quantity": {
