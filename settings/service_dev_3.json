@@ -605,6 +605,10 @@
 						"photo" : "printer/models/h5-mfp-m28w.png"
 					},
 					{
+						"name" : "2410/2420",
+						"photo" : "printer/models/h6-2410-2420.png"
+					},
+					{
 						"name" : "Others",
 						"photo" : "printer/models/others.png"
 					}
@@ -2073,6 +2077,26 @@
 				"cost": {
 					"SGD": "50",
 					"MYR": "91",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2410-2420": {
+				"label": "Q6511X Toner",
+				"orderLabel": "Q6511X Toner",
+				"type" : "2410/2420",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "132",
 					"CNY": "60"
 				},
 				"quantity": {
