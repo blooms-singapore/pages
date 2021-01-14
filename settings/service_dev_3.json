@@ -609,6 +609,10 @@
 						"photo" : "printer/models/h6-2410-2420.png"
 					},
 					{
+						"name" : "5000/5000LE",
+						"photo" : "printer/models/h7-5000-5000LE.png"
+					},
+					{
 						"name" : "Others",
 						"photo" : "printer/models/others.png"
 					}
@@ -2097,6 +2101,26 @@
 				"cost": {
 					"SGD": "50",
 					"MYR": "132",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5000-5000LE": {
+				"label": "EP62 (C4129X) Toner",
+				"orderLabel": "EP62 (C4129X) Toner",
+				"type" : "5000/5000LE",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "154",
 					"CNY": "60"
 				},
 				"quantity": {
