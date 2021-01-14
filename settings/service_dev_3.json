@@ -2113,10 +2113,10 @@
 				}
 			},
 			
-			"HP-5000-5000LE": {
+			"HP-5000-5100": {
 				"label": "EP62 (C4129X) Toner",
 				"orderLabel": "EP62 (C4129X) Toner",
-				"type" : "5000/LE",
+				"type" : "5000/5100",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
