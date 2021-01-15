@@ -2343,8 +2343,9 @@
 					"default": 0,
 					"base": 60
 				}
-             }
+            		 }	
 		},
+		
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -3050,41 +3051,6 @@
 					"increment": 60,
 					"default": 0,
 					"base": 60
-				}
-			}
-		},
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium (公寓) : 2 crews (人)",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					},
-					"landed": {
-						"label": "Landed House (有地住宅) : 2 crews (人)",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
 				}
 			}
 		}
