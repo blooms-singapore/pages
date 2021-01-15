@@ -3093,7 +3093,7 @@
 				"handle": "small_condo",
 				"label": "Small Condo: 1crew / 小型公寓: 1人",
 				"displayLabel": "Small Condo: 1crew / 小型公寓: 1人",
-				"orderLabel": "Hours (Small Condo / 小型公寓)",
+				"orderLabel": "Job (Small Condo / 小型公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
