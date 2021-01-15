@@ -2996,7 +2996,7 @@
 		"hasNote": 1,
 		"options": {
 			"Deep Clean Condo": {
-				"handle": "deep-clean-condo",
+				"handle": "deep_clean_condo",
 				"label": "Deep Clean Condo: 2 Crews / 大扫除清洗公寓：2人",
 				"orderLabel": "Hour (Deep Clean Condo / 深度清洗公寓)",
 				"description": "Label standard",
