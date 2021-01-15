@@ -2995,8 +2995,8 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Condo Deep Clean": {
-				"handle": "condo-deep-clean",
+			"Deep Clean Condo": {
+				"handle": "deep-clean-condo",
 				"label": "Deep Clean Condo: 2 Crews / 大扫除清洗公寓：2人",
 				"orderLabel": "Hour (Deep Clean Condo / 深度清洗公寓)",
 				"description": "Label standard",
@@ -3015,8 +3015,8 @@
 				}
 			},
 			
-			"Landed Deep Clean": {
-				"handle": "landed-deep-clean",
+			"Deep Clean Landed": {
+				"handle": "deep-clean-landed",
 				"label": "Deep Clean Landed: 2 Crews / 大扫除清洗有地住宅：2人",
 				"orderLabel": "Hour (Deep Clean Landed / 深度清洗有地住宅)",
 				"description": "Label standard",
