@@ -1055,7 +1055,7 @@
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "92",
+			"MYR": "100",
 			"CNY": "195"
 		},
 		"hasNote": 1,
