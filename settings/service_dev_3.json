@@ -2995,10 +2995,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Deep Clean Booking": {
-				"handle": "deep_cleaning_booking",
-				"label": "Festive Cleaning Booking: 2 Crews / 大扫除清洗预约：2人",
-				"orderLabel": "Hour (Deep Cleaning / 深度清洗)",
+			"Condo Deep Clean": {
+				"handle": "condo-deep-clean",
+				"label": "Deep Clean Condo: 2 Crews / 大扫除清洗公寓：2人",
+				"orderLabel": "Hour (Deep Clean Condo / 深度清洗公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -3014,6 +3014,27 @@
 					"base": 60
 				}
 			},
+			
+			"Landed Deep Clean": {
+				"handle": "landed-deep-clean",
+				"label": "Deep Clean Landed: 2 Crews / 大扫除清洗有地住宅：2人",
+				"orderLabel": "Hour (Deep Clean Landed / 深度清洗有地住宅)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 300,
+					"base": 60
+				}
+			},
+			
 			"Survey": {
 				"handle": "clean_survey",
 				"label": "Cleaning Survey / 清洗项目实地调查",
