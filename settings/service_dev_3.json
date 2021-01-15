@@ -3202,44 +3202,7 @@
 					
 				}
 			}
-		},			
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Small Condo / 小公寓",
-						"orderLabel": "Transport Surcharge / 路程附加费",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "6.9",
-							"MYR": "20",
-							"CNY": "0"
-						}
-					},
-											
-					"landed": {
-						"label": "Landed House or Big Condo / 有地住宅或大公寓",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
+		}		
 	},
 	
 	
