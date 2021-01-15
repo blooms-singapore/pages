@@ -3016,7 +3016,7 @@
 			},
 			
 			"Deep Clean Landed": {
-				"handle": "deep-clean-landed",
+				"handle": "deep_clean_landed",
 				"label": "Deep Clean Landed: 2 Crews / 大扫除清洗有地住宅：2人",
 				"orderLabel": "Hour (Deep Clean Landed / 深度清洗有地住宅)",
 				"description": "Label standard",
