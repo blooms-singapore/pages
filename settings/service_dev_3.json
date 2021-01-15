@@ -1,6 +1,6 @@
 {
 	"painting": {
-		"name": "Paint & Parition / 油漆和隔板",
+		"name": "Paint & Partition / 油漆和隔板",
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
