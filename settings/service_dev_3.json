@@ -3114,8 +3114,8 @@
 			
 			"Big Condo": {
 				"handle": "big_condo",
-				"label": "Big Condo / 大型公寓",
-				"displayLabel": "Big Condo / 大型公寓",
+				"label": "Big Condo >2BR / 大型公寓",
+				"displayLabel": "Big Condo >2BR / 大型公寓",
 				"orderLabel": "Hours (Big Condo / 大型公寓)",
 				"description": "Label standard",
 				"cost": {
