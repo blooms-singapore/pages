@@ -589,6 +589,10 @@
 						"photo" : "printer/models/h5-mfp-m28w.png"
 					},
 					{
+						"name" : "2100/2200",
+						"photo" : "printer/models/h9-2100-2200.png"
+					},
+					{
 						"name" : "2336",
 						"photo" : "printer/models/h1-2336.png"
 					},
@@ -1797,6 +1801,46 @@
 				}
 			},
 			
+			"HP-M28W-Black": {
+				"label": "Laserjet HP 48A-Black",
+				"orderLabel": "Laserjet HP 48A-Black",
+				"type" : "MFP-M28W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "91",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"2100-2200": {
+				"label": "HP EP32 (C4096A) Toner",
+				"orderLabel": "HP EP32 (C4096A) Toner",
+				"type" : "2100/2200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 			"HP-2336-Black": {
 				"label": "HP Deskjet 682-Black",
 				"orderLabel": "HP Deskjet 682-Black",
@@ -2076,27 +2120,7 @@
 					"base": 1
 				}
 			},
-			
-			"HP-M28W-Black": {
-				"label": "Laserjet HP 48A-Black",
-				"orderLabel": "Laserjet HP 48A-Black",
-				"type" : "MFP-M28W",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "91",
-					"CNY": "60"
-				},
-				"quantity": {
-					"label": "Pc",
-					"min": 0,
-					"max":10,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
+					
 			"HP-2410-2420": {
 				"label": "Q6511X Toner",
 				"orderLabel": "Q6511X Toner",
