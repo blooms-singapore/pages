@@ -2997,8 +2997,8 @@
 		"options": {
 			"Deep Clean Condo": {
 				"handle": "deep_clean_condo",
-				"label": "Deep Clean Condo: 2 Crews / 大扫除清洗公寓：2人",
-				"orderLabel": "Hour (Deep Clean Condo / 深度清洗公寓)",
+				"label": "Condo Deep Clean: 2 Crews / 公寓深度清洗：2人",
+				"orderLabel": "Hour (Condo Deep Clean / 公寓深度清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -3017,8 +3017,8 @@
 			
 			"Deep Clean Landed": {
 				"handle": "deep_clean_landed",
-				"label": "Deep Clean Landed: 2 Crews / 大扫除清洗有地住宅：2人",
-				"orderLabel": "Hour (Deep Clean Landed / 深度清洗有地住宅)",
+				"label": "Landed Deep Clean: 2 Crews / 有地住宅深度清洗:2人",
+				"orderLabel": "Hour (Landed Deep Clean / 有地住宅深度清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
