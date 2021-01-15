@@ -3091,22 +3091,22 @@
 		"options": {
 			"Small Condo": {
 				"handle": "small_condo",
-				"label": "Small Condo / 小型公寓",
-				"displayLabel": "Small Condo / 小型公寓",
+				"label": "Small Condo 1 or 2BR / 小型公寓",
+				"displayLabel": "Small Condo 1 or 2BR / 小型公寓",
 				"orderLabel": "Hours (Small Condo / 小型公寓)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "25",
+					"SGD": "45",
+					"MYR": "110",
 					"CNY": "82.5"
 				},
 				"quantity": {
-					"label": "Hours",
+					"label": "Job",
 					"min": 0,
-					"max": 0,
-					"default": 210,
-					"increment": 30,
-					"base": 60,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
 					"multiplier": 1
 					
 				}
