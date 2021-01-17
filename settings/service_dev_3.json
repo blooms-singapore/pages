@@ -3080,7 +3080,7 @@
 	
 	"cleaning-standard": {
 		"name": "Standard Cleaning / 普通清洗",
-		"lastSlot": "14:30",
+		"lastSlot": "14:00",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
