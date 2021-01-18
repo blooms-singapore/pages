@@ -2990,7 +2990,7 @@
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "98",
+			"MYR": "99.5",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -3003,7 +3003,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "99.5",
+					"MYR": "135",
 					"CNY": "82.5"
 				},
 				"quantity": {
