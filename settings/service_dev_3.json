@@ -3003,7 +3003,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "135",
+					"MYR": "99.5",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -3071,8 +3071,8 @@
 				"orderLabel": "Unit (Move Clean Small Condo / 搬家清洗小公寓)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "150",
+					"SGD": "80",
+					"MYR": "135",
 					"CNY": "82.5"
 				},
 				"quantity": {
