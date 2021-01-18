@@ -3093,7 +3093,7 @@
 				"handle": "festive_small_condo",
 				"label": "Festive Small Condo / 小公寓大扫除",
 				"displayLabel": "Festive Small Condo / 小公寓大扫除",
-				"orderLabel": "Job (Festive Small Condo / 小公寓大扫除)",
+				"orderLabel": "Unit (Festive Small Condo / 小公寓大扫除)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -3101,7 +3101,7 @@
 					"CNY": "82.5"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Unit",
 					"min": 0,
 					"max": 1,
 					"default": 1,
