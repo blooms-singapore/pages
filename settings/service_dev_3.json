@@ -3204,6 +3204,52 @@
 				}
 			},
 			
+			"Std Small Condo": {
+				"handle": "standard_small_condo",
+				"label": "Small Condo Standard Clean / 小公寓普通清洗",
+				"displayLabel": "Small Condo Standard Clean / 小公寓普通清洗",
+				"orderLabel": "Unit (Small Condo Standard Clean / 小公寓普通清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "110",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Std Big": {
+				"handle": "standard_big",
+				"label": "Big Condo or Landed House Std Clean / 公寓或有地住宅普通清洗",
+				"displayLabel": "Big Condo or Landed House Std Clean / 公寓或有地住宅普通清洗",
+				"orderLabel": "Hours (Big Condo or Landed House Std Clean / 公寓或有地住宅普通清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
 			
 			
 			"PKG 10X": {
