@@ -3160,9 +3160,9 @@
 			
 			"Move Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Small Condo Move Clean / 小公寓搬家清洗",
-				"displayLabel": "Small Condo Move Clean / 小公寓搬家清洗",
-				"orderLabel": "Unit (Small Condo Move Clean / 小公寓搬家清洗)",
+				"label": "Move Clean Small Condo / 搬家清洗小公寓",
+				"displayLabel": "Move Clean Small Condo / 搬家清洗小公寓",
+				"orderLabel": "Unit (Move Clean Small Condo / 搬家清洗小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -3183,9 +3183,9 @@
 			
 			"Move Big": {
 				"handle": "move_big",
-				"label": "Big Condo or House Move Clean / 搬家清洗",
-				"displayLabel": "Big Condo or House Move Clean / 搬家清洗",
-				"orderLabel": "Hours (Big Condo or House Move Clean / 搬家清洗)",
+				"label": "Move Clean Big Condo or Landed House / 搬家清洗公寓或有地住宅",
+				"displayLabel": "Move Clean Big Condo or Landed House / 搬家清洗公寓或有地住宅",
+				"orderLabel": "Hours (Move Clean Big Condo or Landed House / 搬家清洗公寓或有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -3206,9 +3206,9 @@
 			
 			"Std Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Small Condo Standard Clean / 小公寓普通清洗",
-				"displayLabel": "Small Condo Standard Clean / 小公寓普通清洗",
-				"orderLabel": "Unit (Small Condo Standard Clean / 小公寓普通清洗)",
+				"label": "Standard Clean Small Condo / 普通清洗小公寓",
+				"displayLabel": "Standard Clean Small Condo / 普通清洗小公寓",
+				"orderLabel": "Unit (Standard Clean Small Condo / 普通清洗小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -3229,9 +3229,9 @@
 			
 			"Std Big": {
 				"handle": "standard_big",
-				"label": "Big Condo or Landed House Std Clean / 公寓或有地住宅普通清洗",
-				"displayLabel": "Big Condo or Landed House Std Clean / 公寓或有地住宅普通清洗",
-				"orderLabel": "Hours (Big Condo or Landed House Std Clean / 公寓或有地住宅普通清洗)",
+				"label": "Std Clean Big Condo or Landed House / 普通清洗公寓或有地住宅",
+				"displayLabel": "Std Clean Big Condo or Landed House / 普通清洗公寓或有地住宅",
+				"orderLabel": "Hours (Std Clean Big Condo or Landed House / 普通清洗公寓或有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -3249,8 +3249,7 @@
 					
 				}
 			},
-			
-			
+	
 			
 			"PKG 10X": {
 				"handle": "package_10",
