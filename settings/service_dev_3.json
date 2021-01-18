@@ -3136,7 +3136,7 @@
 			},
 			
 			"Reno": {
-				"handle": "reno_big",
+				"handle": "reno_clean",
 				"label": "Renovation Clean / 装修清洗",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
@@ -3189,7 +3189,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "150",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
