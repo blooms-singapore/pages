@@ -2990,19 +2990,19 @@
 		"disableLocations": ["Singapore", "Seremban", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "60",
-			"MYR": "204",
+			"MYR": "100",
 			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
-			"Deep Clean Condo": {
-				"handle": "deep_clean_condo",
-				"label": "Condo Deep Clean: 2 Crews / 公寓深度清洗：2人",
-				"orderLabel": "Hour (Condo Deep Clean / 公寓深度清洗)",
+			"Festive Clean": {
+				"handle": "festive_clean",
+				"label": "Festive Clean: 2 Crews / 大扫除：2人",
+				"orderLabel": "Hour (Festive Clean / 大扫除)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "70",
+					"MYR": "55",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3010,7 +3010,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 180,
+					"default": 210,
 					"base": 60
 				}
 			},
