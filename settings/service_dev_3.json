@@ -3158,17 +3158,39 @@
 				}
 			},
 			
-			
-			"Landed House": {
-				"handle": "landed_house",
-				"label": "Landed House：2crews / 有地住宅: 2人",
-				"displayLabel": "Landed House / 有地住宅",
-				"orderLabel": "Hours (Landed House / 有地住宅)",
+			"Move Small Condo": {
+				"handle": "move_small_condo",
+				"label": "Small Condo Move Clean / 小公寓搬家清洗",
+				"displayLabel": "Small Condo Move Clean / 小公寓搬家清洗",
+				"orderLabel": "Unit (Small Condo Move Clean / 小公寓搬家清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "50",
-					"CNY": "165"
+					"MYR": "150",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Move Big": {
+				"handle": "move_big",
+				"label": "Big Condo or House Move Clean / 搬家清洗",
+				"displayLabel": "Big Condo or House Move Clean / 搬家清洗",
+				"orderLabel": "Hours (Big Condo or House Move Clean / 搬家清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "150",
+					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
@@ -3180,7 +3202,10 @@
 					"multiplier": 1
 					
 				}
-			},		
+			},
+			
+			
+			
 			"PKG 10X": {
 				"handle": "package_10",
 				"label": "Package 10X / 配套 10X",
