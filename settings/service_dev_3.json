@@ -3089,45 +3089,45 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Festive Clean": {
-				"handle": "festive_clean",
-				"label": "Festive Clean / 大扫除",
-				"displayLabel": "Festive Clean / 大扫除",
-				"orderLabel": "Hour (Festive Clean / 大扫除)",
+			"Festive Small Condo": {
+				"handle": "festive_small_condo",
+				"label": "Festive Small Condo / 小公寓大扫除",
+				"displayLabel": "Festive Small Condo / 小公寓大扫除",
+				"orderLabel": "Job (Festive Small Condo / 小公寓大扫除)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
-					"MYR": "70",
+					"SGD": "60",
+					"MYR": "135",
 					"CNY": "82.5"
 				},
 				"quantity": {
-					"label": "Hours",
+					"label": "Job",
 					"min": 0,
-					"max": 0,
-					"default": 210,
-					"increment": 30,
-					"base": 60,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
 					"multiplier": 1
 					
 				}
 			},
 			
-			"Big Condo": {
-				"handle": "big_condo",
-				"label": "Big Condo >2BR: 2crews / 大型公寓: 2人",
-				"displayLabel": "Big Condo >2BR / 大型公寓",
-				"orderLabel": "Hours (Big Condo / 大型公寓)",
+			"Festive Big": {
+				"handle": "festive_big",
+				"label": "Festive Big Condo or Landed / 大型公寓或有地住宅",
+				"displayLabel": "Festive Big Condo or Landed / 大型公寓或有地住宅",
+				"orderLabel": "Hours (Festive Big Condo or Landed / 大型公寓或有地住宅)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "50",
+					"SGD": "40",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 180,
+					"default": 240,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
