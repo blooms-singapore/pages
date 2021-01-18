@@ -3133,7 +3133,32 @@
 					"multiplier": 1
 					
 				}
-			},		
+			},
+			
+			"Reno": {
+				"handle": "reno_big",
+				"label": "Renovation Clean / 装修清洗",
+				"displayLabel": "Renovation Clean / 装修清洗",
+				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "65",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 180,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
 			"Landed House": {
 				"handle": "landed_house",
 				"label": "Landed House：2crews / 有地住宅: 2人",
