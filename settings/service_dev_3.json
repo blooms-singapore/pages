@@ -3079,7 +3079,7 @@
 	
 	
 	"cleaning": {
-		"name": "Standard Cleaning / 普通清洗",
+		"name": "Cleaning / 清洗",
 		"lastSlot": "13:30",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
