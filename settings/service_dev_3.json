@@ -3089,24 +3089,24 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Small Condo": {
-				"handle": "small_condo",
-				"label": "Small Condo: 1crew / 小型公寓: 1人",
-				"displayLabel": "Small Condo: 1crew / 小型公寓: 1人",
-				"orderLabel": "Job (Small Condo / 小型公寓)",
+			"Festive Clean": {
+				"handle": "festive_clean",
+				"label": "Festive Clean / 大扫除",
+				"displayLabel": "Festive Clean / 大扫除",
+				"orderLabel": "Hour (Festive Clean / 大扫除)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "110",
+					"SGD": "25",
+					"MYR": "70",
 					"CNY": "82.5"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Hours",
 					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
+					"max": 0,
+					"default": 210,
+					"increment": 30,
+					"base": 60,
 					"multiplier": 1
 					
 				}
