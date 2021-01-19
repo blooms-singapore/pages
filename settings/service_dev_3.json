@@ -3020,7 +3020,7 @@
 			
 			"Festive Big": {
 				"handle": "festive_big",
-				"label": "Festive Big Condo or Landed / 大型公寓或有地住宅                    MYR55/Hr",
+				"label": "Festive Big Condo or Landed / 大型公寓或有地住宅                           MYR55/Hr",
 				"displayLabel": "Festive Big Condo or Landed / 大型公寓或有地住宅",
 				"orderLabel": "Hours (Festive Big Condo or Landed / 大型公寓或有地住宅)",
 				"description": "Label standard",
@@ -3043,7 +3043,7 @@
 			
 			"Reno": {
 				"handle": "reno_clean",
-				"label": "Renovation Clean / 装修清洗                       MYR65/Hr",
+				"label": "Renovation Clean / 装修清洗                            MYR65/Hr",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
 				"description": "Label standard",
