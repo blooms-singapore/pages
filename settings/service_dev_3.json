@@ -4632,26 +4632,7 @@
 				}
 			},
 			
-		"Basic kitten": {
-				"handle": "basic_kitten",
-				"label": "Basic Kitten                  MYR120/Pet",
-				"orderLabel": "Pet (Basic Kitten)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Pet",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
+		
 		"Basic cat": {
 				"handle": "basic_cat",
 				"label": "Basic CAT                 MYR60/Hr",
