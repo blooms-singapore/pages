@@ -4571,22 +4571,63 @@
 		"hasNote": 1,
 		"options": {
 					
-		"Grooming": {
-				"handle": "grooming",
-				"label": "Grooming",
-				"orderLabel": "Job (Grooming)",
+		"Shower Dog": {
+				"handle": "shower_dog",
+				"label": "Shower DOG",
+				"orderLabel": "Hours (Shower DOG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "70",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"increment": 1,
-					"default": 1,
+					"increment": 30,
+					"default": 60,
+					"base": 1
+				}
+			},
+			
+		"DOG Medium Shower": {
+				"handle": "mb_shower",
+				"label": "Shower DOG - Medium",
+				"orderLabel": "Hour (Shower DOG - Medium)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 120,
+					"base": 1
+				}
+			},
+			
+				
+		"DOG  Shower": {
+				"handle": "mb_shower",
+				"label": "Shower DOG - Medium",
+				"orderLabel": "Hour (Shower DOG - Medium)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 120,
 					"base": 1
 				}
 			},
