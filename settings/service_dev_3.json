@@ -4656,7 +4656,7 @@
 		"Lioncut kitten": {
 				"handle": "lioncut_kitten",
 				"label": "Lion Cut KITTEN                MYR120/Pet",
-				"orderLabel": "Pet (Lion Cut KITTEN/CAT)",
+				"orderLabel": "Pet (Lion Cut KITTEN)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -4666,7 +4666,7 @@
 				"quantity": {
 					"label": "Pet",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
