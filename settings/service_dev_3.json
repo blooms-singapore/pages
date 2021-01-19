@@ -4573,7 +4573,7 @@
 					
 		"Shower Dog": {
 				"handle": "shower_dog",
-				"label": "Shower DOG      MYR60/Hr",
+				"label": "Shower DOG              MYR60/Hr",
 				"orderLabel": "Hour (Shower DOG)",
 				"description": "Label standard",
 				"cost": {
@@ -4593,7 +4593,7 @@
 			
 		"Basic Dog": {
 				"handle": "basic_dog",
-				"label": "Basic DOG       MYR45/Hr",
+				"label": "Basic DOG                 MYR45/Hr",
 				"orderLabel": "Hour (Shower DOG - Medium)",
 				"description": "Label standard",
 				"cost": {
@@ -4614,7 +4614,7 @@
 				
 		"Full dog": {
 				"handle": "full_dog",
-				"label": "Full DOG         MYR80/Hr",
+				"label": "Full DOG                   MYR80/Hr",
 				"orderLabel": "Hour (Full DOG)",
 				"description": "Label standard",
 				"cost": {
@@ -4634,7 +4634,7 @@
 			
 		"Basic kitten": {
 				"handle": "basic_kitten",
-				"label": "Basic Kitten       MYR120",
+				"label": "Basic Kitten                  MYR120/Pet",
 				"orderLabel": "Job (Basic Kitten)",
 				"description": "Label standard",
 				"cost": {
@@ -4654,7 +4654,7 @@
 			
 		"Basic cat": {
 				"handle": "basic_cat",
-				"label": "Basic CAT       MYR60/Hr",
+				"label": "Basic CAT                 MYR60/Hr",
 				"orderLabel": "Hour (Basic CAT)",
 				"description": "Label standard",
 				"cost": {
@@ -4674,7 +4674,7 @@
 			
 		"Lioncut kitten": {
 				"handle": "lioncut_kitten",
-				"label": "Lion Cut KITTEN      MYR120",
+				"label": "Lion Cut KITTEN              MYR120/Pet",
 				"orderLabel": "Kitten (Lion Cut KITTEN/CAT)",
 				"description": "Label standard",
 				"cost": {
@@ -4694,7 +4694,7 @@
 			
 		"Lioncut cat": {
 				"handle": "lioncut_cat",
-				"label": "Lion Cut CAT      MYR75/Hr",
+				"label": "Lion Cut CAT                  MYR75/Hr",
 				"orderLabel": "Hour (Lion Cut CAT)",
 				"description": "Label standard",
 				"cost": {
@@ -4715,7 +4715,7 @@
 			
 		"Deflea cat": {
 				"handle": "deflea_cat",
-				"label": "De-flea + Basic CAT      MYR80/Hr",
+				"label": "De-flea + Basic CAT                 MYR80/Hr",
 				"orderLabel": "Hour (De-flea + Basic CAT)",
 				"description": "Label standard",
 				"cost": {
