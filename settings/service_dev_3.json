@@ -4577,7 +4577,7 @@
 				"orderLabel": "Hours (Shower DOG)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -4585,16 +4585,16 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 15,
 					"default": 60,
-					"base": 1
+					"base": 60
 				}
 			},
 			
-		"DOG Medium Shower": {
-				"handle": "mb_shower",
-				"label": "Shower DOG - Medium",
-				"orderLabel": "Hour (Shower DOG - Medium)",
+		"Basic DOG": {
+				"handle": "basic_dog",
+				"label": "Basic DOG",
+				"orderLabel": "Hours (Shower DOG - Medium)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -4602,7 +4602,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Hours",
 					"min": 0,
 					"max": 0,
 					"increment": 30,
