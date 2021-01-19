@@ -4696,12 +4696,12 @@
 			
 		"Deflea cat": {
 				"handle": "deflea_cat",
-				"label": "De-flea + Basic CAT                 MYR80/Hr",
+				"label": "De-flea + Basic CAT                 MYR120/Hr",
 				"orderLabel": "Hour (De-flea + Basic CAT)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "80",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
