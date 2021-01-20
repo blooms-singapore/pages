@@ -4653,26 +4653,6 @@
 				}
 			},
 			
-		"Lioncut kitten": {
-				"handle": "lioncut_kitten",
-				"label": "Lion Cut KITTEN                MYR120/Pet",
-				"orderLabel": "Pet (Lion Cut KITTEN)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Pets",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
 		"Lioncut cat": {
 				"handle": "lioncut_cat",
 				"label": "Lion Cut CAT                  MYR75/Hr",
@@ -4692,7 +4672,6 @@
 					"base": 60
 				}
 			},
-			
 			
 		"Deflea cat": {
 				"handle": "deflea_cat",
