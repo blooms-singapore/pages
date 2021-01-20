@@ -4561,7 +4561,7 @@
 	
 	"pet": {
 		"name": "Pet / 宠物",
-		"lastSlot": "10:30",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
