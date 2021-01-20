@@ -173,15 +173,72 @@ layout: service
 <div class="gap">  
 <div class="service-info">
 <h4 class="service-title">Pet Size Info / 宠物类别信息</h4>
-  <p>
-  <p><b>DOG - Small Breed</b><br>Examples: Chihuahua, Pomeranian etc.
-  <p>
-  <p><b>DOG - Medium Breed</b><br>Examples: Australian Sheppard, Basset Hound, Poodle etc.
-  <p>
-  <p><b>DOG - Large Breed</b><br>Examples: Boxer, Bloodhound, Japanese Chin, Chow-Chow etc.
-  <p>
-  <p><b>DOG - Giant Breed</b><br>Examples: Doberman Pinscher, Golden Retreiver, Tibetan Mastiff etc.
+<p>
+<p><b>DOG - Small Breed</b><br>Examples: Japanese Chin, Pomeranian, Chihuahua etc.
+<style> 
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
    
+<body>
+<div class="row">
+  <div class="column">
+   <img style="width:50%" src='/assets/img/news/sb_japanese_chin.jpg'/>
+  </div>
+  <div class="column">
+   <img src='/assets/img/news/sb_pomeranian.jpg/' style="width:50%">
+  </div>
+</div>
+</body>
+<p>
+
+<p><b>DOG - Medium Breed</b><br>Examples: Australian Sheppard, Poodle, Basset Hound etc.
+<style> 
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+   
+<body>
+<div class="row">
+  <div class="column">
+   <img style="width:50%" src='/assets/img/news/mb_australain_sheppard.jpg'/>
+  </div>
+  <div class="column">
+   <img src='/assets/img/news/mb_poddle.jpg/' style="width:50% ">
+  </div>
+</div>
+</body>
+<p>
+
+ <p><b>DOG - Large Breed</b><br>Examples: Boxer, Bloodhound, Japanese Chin, Chow-Chow etc.
 <style> 
 * {
   box-sizing: border-box;
@@ -212,7 +269,8 @@ layout: service
 </div>
 </body>
 <p>
- 
+
+ /*Giant Bread*/
 <p><b>DOG - Giant Breed (GB)</b><br>Examples: Tibetan Mastiff, Golden Retriever, Doberman Pinscher etc.
  <style> 
 * {
@@ -239,7 +297,7 @@ layout: service
    <img style="width:50%" src='/assets/img/news/gb_tibetan_mastiff.jpg'/>
   </div>
   <div class="column">
-   <img src='/assets/img/news/gb_golden_retriever.jpg/' style="width:50% ">
+   <img src='/assets/img/news/gb_golden_retriever.jpg/' style="width:50%">
   </div>
 </div>
 </body>
