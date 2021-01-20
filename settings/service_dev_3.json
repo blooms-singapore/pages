@@ -4679,8 +4679,8 @@
 				"orderLabel": "Hour (De-flea + Basic CAT)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
-					"MYR": "120",
+					"SGD": "35",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -4688,7 +4688,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 60,
-					"default": 120,
+					"default": 60,
 					"base": 60
 				}
 			}	
