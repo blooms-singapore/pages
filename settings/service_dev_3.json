@@ -4594,7 +4594,7 @@
 		"Basic Dog": {
 				"handle": "basic_dog",
 				"label": "Basic DOG                 MYR90/Hr",
-				"orderLabel": "Hour (Shower DOG - Medium)",
+				"orderLabel": "Hour (Basic DOG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
