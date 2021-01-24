@@ -213,7 +213,7 @@
 		"options": {
 			"AC Package": {
 				"handle": "ac_package",
-				"label": "Malaysia AC PKG / 马来西亚冷气配套",
+				"label": "Malaysia AC PKG.                        马来西亚冷气配套",
 				"orderLabel": "PKG (MY AC PKG / 冷气配套)",
 				"description": "Label standard",
 				"cost": {
