@@ -211,6 +211,26 @@
 		},
 		"hasNote": 1,
 		"options": {
+			"AC Package": {
+				"handle": "ac_package",
+				"label": "Malaysia AC PKG / 马来西亚冷气配套",
+				"orderLabel": "PKG (MY AC PKG / 冷气配套)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "PKG",
+					"min": 0,
+					"max": 9,
+					"increment": 3,
+					"default": 3,
+					"base": 1
+				}
+			},			
+			
 			"Malaysia SW": {
 				"handle": "malaysia_sw",
 				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 台 (min 1hr booking)",
