@@ -26,8 +26,24 @@ layout: service
 <div class="divider"></div>
 <p>
 <div class="pricing">
-  <table>  
-   
+  <table>
+     <thead>
+      <tr>
+        <th><b>Standard Clean Packages<br>普通洗优惠配套</b></th>
+        <th><b>Discount</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <td><b>10X</b><br>6-month validity</td>
+         <td>${params.package_10}% for <b>10</b> Bookings</td> 
+      </tr>
+      <tr>
+        <td><b>20X</b><br>12-month validity</td>
+        <td>${params.package_20}% for <strong>20</strong> Bookings</td> <!--service_dev.json - "isPackage" = "true" value, does not multiply lpf.-->
+      </tr>
+      <tbody>
+       
     <thead>
       <tr>
       <th><b>FESTIVE Clean<br>大扫除</b></th>
@@ -99,23 +115,6 @@ layout: service
         <td>${params.standard_big}/Hr (小时)</td>
       </tr>
       </tbody>
-    
-   <thead>
-      <tr>
-        <th><b>Standard Clean Packages<br>普通洗优惠配套</b></th>
-        <th><b>Discount</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td><b>10X</b><br>6-month validity</td>
-         <td>${params.package_10}% for <b>10</b> Bookings</td> 
-      </tr>
-      <tr>
-        <td><b>20X</b><br>12-month validity</td>
-        <td>${params.package_20}% for <strong>20</strong> Bookings</td> <!--service_dev.json - "isPackage" = "true" value, does not multiply lpf.-->
-      </tr>
-      <tbody>
        
       <thead>
       <tr>
