@@ -3085,7 +3085,7 @@
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore", "Johor Bahru", "Kuala Lumpur" ],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "71",
