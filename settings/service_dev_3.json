@@ -3085,13 +3085,13 @@
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore", "Johor Bahru", "Kuala Lumpur" ],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "71",
 			"CNY": "20"
 		},
-		"hasNote": 1,
+		"hasNote": 1, 
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
