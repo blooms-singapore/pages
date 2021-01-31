@@ -4117,10 +4117,10 @@
 				}
 			},
 			
-			"Alarm": {
-				"handle": "alarm",
-				"label": "Alarm",
-				"orderLabel": "Job (Alarm)",
+			"House Alarm": {
+				"handle": "house_alarm",
+				"label": "House Alarm",
+				"orderLabel": "Job (House Alarm)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
