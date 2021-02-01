@@ -3087,8 +3087,8 @@
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
-			"SGD": "45",
-			"MYR": "71",
+			"SGD": "30",
+			"MYR": "61.5",
 			"CNY": "20"
 		},
 		"hasNote": 1, 
@@ -3100,7 +3100,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
-					"MYR": "50",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3119,7 +3119,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "30",
+					"MYR": "50",
 					"CNY": "50"
 				},
 				"quantity": {
