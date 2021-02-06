@@ -4792,7 +4792,7 @@
 	
 	"waterproof": {
 		"name": "Waterproofing / 防水",
-		"lastSlot": "15:30",
+		"lastSlot": "11:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
@@ -4801,20 +4801,20 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Sink Re-waterproof": {
-				"handle": "cctv",
-				"label": "Sinks Re-waterproof",
-				"orderLabel": "Set (Sinks Re-waterproof)",
+			"Survey": {
+				"handle": "survey",
+				"label": "Survey",
+				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Set",
-					"min": 1,
-					"max": 0,
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 1,
 					"base": 1
