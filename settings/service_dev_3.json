@@ -4819,6 +4819,26 @@
 					"default": 1,
 					"base": 1
 				}
+			 }，
+			
+			"Project": {
+				"handle": "Project",
+				"label": "Project / 项目",
+				"orderLabel": "Job (Project / 项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
 			 }		
 		},
 		
