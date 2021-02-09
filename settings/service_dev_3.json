@@ -3403,9 +3403,9 @@
 			
 			"Std Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Studio or 1BR Condo / 普通清洗特小公寓                           MYR110/Unit",
-				"displayLabel": "Standard Clean Studio or 1BR Condo / 普通清洗特小公寓",
-				"orderLabel": "Unit (Standard Clean Studio or 1BR Condo / 普通清洗特小公寓)",
+				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR110/Unit",
+				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
+				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -3426,9 +3426,9 @@
 			
 			"Std Big": {
 				"handle": "standard_big",
-				"label": "Std Clean Big Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr",
-				"displayLabel": "Std Clean Big Condo or Landed House / 普通清洗公寓或有地住宅",
-				"orderLabel": "Hours (Std Clean Big Condo or Landed House / 普通清洗公寓或有地住宅)",
+				"label": "Std Clean Standard Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr",
+				"displayLabel": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅",
+				"orderLabel": "Hours (Std Clean Condo or Landed House / 普通清洗公寓或有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -3449,9 +3449,9 @@
 			
 			"Festive Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Small Condo / 小公寓大扫除              MYR135/Unit",
-				"displayLabel": "Festive Small Condo / 小公寓大扫除",
-				"orderLabel": "Unit (Festive Small Condo / 小公寓大扫除)",
+				"label": "Festive Very Small Condo / 特小公寓大扫除                   MYR135/Unit",
+				"displayLabel": "Festive Very Small Condo / 特小公寓大扫除",
+				"orderLabel": "Unit (Festive Very Small Condo / 特小公寓大扫除)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -3472,9 +3472,9 @@
 			
 			"Festive Big": {
 				"handle": "festive_big",
-				"label": "Festive Big Condo or Landed / 大型公寓或有地住宅                           MYR55/Hr",
-				"displayLabel": "Festive Big Condo or Landed / 大型公寓或有地住宅",
-				"orderLabel": "Hours (Festive Big Condo or Landed / 大型公寓或有地住宅)",
+				"label": "Festive Condo or Landed / 公寓或有地住宅                              MYR55/Hr",
+				"displayLabel": "Festive Condo or Landed / 公寓或有地住宅",
+				"orderLabel": "Hours (Festive Condo or Landed / 公寓或有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -3518,9 +3518,9 @@
 			
 			"Move Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Small Condo / 搬家清洗小公寓                           MYR135/Unit",
-				"displayLabel": "Move Clean Small Condo / 搬家清洗小公寓",
-				"orderLabel": "Unit (Move Clean Small Condo / 搬家清洗小公寓)",
+				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                             MYR135/Unit",
+				"displayLabel": "Move Clean Very Small Condo / 搬家清洗特小公寓",
+				"orderLabel": "Unit (Move Clean Very Small Condo / 搬家清洗特小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -3541,9 +3541,9 @@
 			
 			"Move Big": {
 				"handle": "move_big",
-				"label": "Move Clean Big Condo or Landed House / 搬家清洗公寓或有地住宅                        MYR60/Hr",
-				"displayLabel": "Move Clean Big Condo or Landed House / 搬家清洗公寓或有地住宅",
-				"orderLabel": "Hours (Move Clean Big Condo or Landed House / 搬家清洗公寓或有地住宅)",
+				"label": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅                        MYR60/Hr",
+				"displayLabel": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅",
+				"orderLabel": "Hours (Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
