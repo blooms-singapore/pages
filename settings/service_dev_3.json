@@ -3403,9 +3403,9 @@
 			
 			"Std Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Small Condo / 普通清洗小公寓                           MYR110/Unit",
-				"displayLabel": "Standard Clean Small Condo / 普通清洗小公寓",
-				"orderLabel": "Unit (Standard Clean Small Condo / 普通清洗小公寓)",
+				"label": "Standard Clean Studio or 1BR Condo / 普通清洗特小公寓                           MYR110/Unit",
+				"displayLabel": "Standard Clean Studio or 1BR Condo / 普通清洗特小公寓",
+				"orderLabel": "Unit (Standard Clean Studio or 1BR Condo / 普通清洗特小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
