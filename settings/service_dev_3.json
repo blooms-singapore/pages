@@ -3077,7 +3077,7 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "1st Hr Rate / 第1小时收费",
+				"label": "1st Hr Rate / 第1小时收费                                     MYR60/Hr",
 				"orderLabel": "Hour (1st Hr / 第1小时)",
 				"description": "Label standard",
 				"cost": {
@@ -3096,7 +3096,7 @@
 			},			
 			"2Hr Rate": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hr & more Rate / 第2小时以上收费",
+				"label": "2nd Hr & more Rate / 第2小时以上收费                                             MYR50/Hr",
 				"orderLabel": "Hour (2nd Hr onwards / 第2小时以上)",
 				"description": "Label standard",
 				"cost": {
@@ -3115,7 +3115,7 @@
 			},			
 			"Survey": {
 				"handle": "survey",
-				"label": "Site Survey / 现场调查",
+				"label": "Site Survey / 现场调查                                            Free",
 				"orderLabel": "Trip (Site Survey / 现场调查)",
 				"description": "Label standard",
 				"cost": {
@@ -3134,7 +3134,7 @@
 			},			
 			"Project": {
 				"handle": "projects",
-				"label": "Project / 项目",
+				"label": "Project / 项目                                            Quotation",
 				"orderLabel": "Job (Project / 项目)",
 				"description": "Label standard",
 				"cost": {
