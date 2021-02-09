@@ -50,7 +50,7 @@
 			},	
 			"survey": {
 				"handle": "survey",
-				"label": "Site Survey / 实地调查                        Free",
+				"label": "Site Survey / 实地调查                            Free",
 				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
