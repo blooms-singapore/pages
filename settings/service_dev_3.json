@@ -12,7 +12,7 @@
 		"options": {
 			"1st Hr cutting": {
 				"handle": "first_hr_cutting",
-				"label": "1st Hr Cut / 第1小时修剪                      MYR50/Hr",
+				"label": "1st Hr Cut / 第1小时修剪                               MYR50/Hr",
 				"orderLabel": "Hour (1st Hr Cut & Trim / 第1小时修剪)",
 				"description": "Label standard",
 				"cost": {
