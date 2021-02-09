@@ -655,7 +655,7 @@
 			},			
 			"Min Order": {
 				"handle": "min_order",
-				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (Studio, 1BR Apt)                 MYR80/Job",
+				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (Studio, 1BR Apt)                      MYR80/Job",
 				"orderLabel": "Job (MY Min Order / 最低服务收费 (1-2 units))",
 				"description": "Label standard",
 				"cost": {
