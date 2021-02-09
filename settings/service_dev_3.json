@@ -3626,7 +3626,7 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "1st Hour / 第1小时",
+				"label": "1st Hour / 第1小时                                                 MYR100/Hr",
 				"orderLabel": "Hour (Std 1st Hr / 标准第1小时)",
 				"description": "Label standard",
 				"cost": {
@@ -3645,7 +3645,7 @@
 			 },
 			"2nd Hr": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hr or more / 第2小时以上",
+				"label": "2nd Hr or more / 第2小时以上                                               MYR60/Hr",
 				"orderLabel": "Hour (>= 2Hr / 2小时以上)",
 				"description": "Label standard",
 				"cost": {
@@ -3664,7 +3664,7 @@
 			},
 			"With tiles 1ft": {
 				"handle": "with_tiles_one",
-				"label": "1ft2 Waterproof With tiles / 防水包瓷砖",
+				"label": "1ft2 Waterproof With tiles / 防水包瓷砖                                                MYR15/ft2",
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
@@ -3684,7 +3684,7 @@
 			
 			"With tiles 10ft2": {
 				"handle": "with_tiles_ten",
-				"label": "10ft2 Waterproof With tiles / 防水包瓷砖",
+				"label": "10ft2 Waterproof With tiles / 防水包瓷砖                                                    MYR15/ft2",
 				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
 				"description": "Label standard",
 				"cost": {
@@ -3704,7 +3704,7 @@
 			
 			"No tile 1ft2": {
 				"handle": "no_tile_one",
-				"label": "1ft2 Waterproof exclude tile/ 防水不包括瓷砖",
+				"label": "1ft2 Waterproof exclude tile/ 防水不包括瓷砖                                                MYR10/ft2",
 				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
 				"description": "Label standard",
 				"cost": {
@@ -3724,7 +3724,7 @@
 			
 			"No tile 10ft2": {
 				"handle": "no_tile_ten",
-				"label": "10ft2 Waterproof exclude tile/ 防水不包括瓷砖",
+				"label": "10ft2 Waterproof exclude tile/ 防水不包括瓷砖                                            MYR10/ft2",
 				"orderLabel": "ft2 (Exclude tile / 不包括瓷砖)",
 				"description": "Label standard",
 				"cost": {
@@ -3744,7 +3744,7 @@
 			
 			"Survey": {
 				"handle": "survey",
-				"label": "Project Survey / 项目调查",
+				"label": "Project Survey / 项目调查                                                      Free",
 				"orderLabel": "Trip (Project Survey / 项目调查)",
 				"description": "Label standard",
 				"cost": {
@@ -3764,7 +3764,7 @@
 
           "Project": {
 				"handle": "project",
-				"label": "Tiling Project / 瓷砖项目",
+				"label": "Tiling Project / 瓷砖项目                                                       Quotation",
 				"orderLabel": "Job (Project / 项目)",
 				"description": "Label standard",
 				"cost": {
