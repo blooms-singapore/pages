@@ -691,25 +691,7 @@
 					"base": 60
 				}
 			},			
-			"MY Gas Checks": {
-				"handle": "my_gas_checks",
-				"label": "Malaysia Detail Gas Pressure Check / 系统气压检测",
-				"orderLabel": "Job (MY Gas Pressure Checks / 气压检测)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "50",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
+			
 			"Malaysia Small Cassette CW 2-3HP": {
 				"handle": "malaysia_small_cassette_cw",
 				"label": "Malaysia / 马来西亚 Small Cassette Chemical Wash / 小天井式化洗 : 2 to 3HP（马力）",
@@ -780,7 +762,7 @@
 			},			
 			"MY Trouble Shoot": {
 				"handle": "my_trouble_shoot",
-				"label": "Malaysia AC Trouble Shoot  / 查找系统问题",
+				"label": "Malaysia AC Trouble Shoot  / 查找系统问题.               MYR80/Job",
 				"orderLabel": "Job (AC Trouble Shoot / 查找系统问题)",
 				"description": "Label standard",
 				"cost": {
