@@ -646,7 +646,7 @@
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 60,
+					"min": 0,
 					"max": 0,
 					"increment": 30,
 					"default": 0,
@@ -655,7 +655,7 @@
 			},			
 			"Min Order": {
 				"handle": "min_order",
-				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (1-2 units Only)",
+				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (Studio or 1BR Condo Only)          MYR80/Job",
 				"orderLabel": "Job (MY Min Order / 最低服务收费 (1-2 units))",
 				"description": "Label standard",
 				"cost": {
