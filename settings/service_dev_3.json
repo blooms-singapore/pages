@@ -2637,7 +2637,7 @@
 		"options": {
 			"Std 1st": {
 				"handle": "std_first",
-				"label": "Standard 1st Hr / 标准第1小时",
+				"label": "Standard 1st Hr / 标准第1小时                                   MYR75/Hr",
 				"orderLabel": "Hour (Std Install 1st Hr/普通安装第1小时)",
 				"description": "Label standard",
 				"cost": {
@@ -2656,7 +2656,7 @@
 			},
 			"Std 2nd": {
 				"handle": "std_second",
-				"label": "Standard 2nd Hr or more / 普通安装第2小时或以上",
+				"label": "Standard 2nd Hr or more / 普通安装第2小时或以上                                         MYR50/Hr",
 				"orderLabel": "Hour (Std Install => 2Hr/普通安装)",
 				"description": "Label standard",
 				"cost": {
@@ -2675,7 +2675,7 @@
 			},
             "Tech 1st": {
 				"handle": "tech_first",
-				"label": "Technical 1st Hr / 技术安装第1小时",
+				"label": "Technical 1st Hr / 技术安装第1小时                                            MYR95/Hr",
 				"orderLabel": "Hour (Tech Install 1st Hr / 技术安装第1小时)",
 				"description": "Label standard",
 				"cost": {
@@ -2694,7 +2694,7 @@
 			},
 			"Tech 2nd": {
 				"handle": "tech_second",
-				"label": "Technical 2Hr or more / 技术安装第2小时或以上",
+				"label": "Technical 2Hr or more / 技术安装第2小时或以上                                              MYR60/Hr",
 				"orderLabel": "Hour (Tech Install >= 2Hr/ 技术安装第2小时或以上)",
 				"description": "Label standard",
 				"cost": {
@@ -2713,7 +2713,7 @@
 			},
 			"Site Survey": {
 				"handle": "site_survey",
-				"label": "Site Survey / 实地调查",
+				"label": "Site Survey / 实地调查                                         Free",
 				"orderLabel": "Trip (Site Survey / 实地调查)",
 				"description": "Label standard",
 				"cost": {
@@ -2732,7 +2732,7 @@
 			},
 			"Project": {
 				"handle": "project",
-				"label": "Project / 项目",
+				"label": "Project / 项目                                       Quotation",
 				"orderLabel": "Job (project)",
 				"description": "Label standard",
 				"cost": {
