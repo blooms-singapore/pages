@@ -674,7 +674,7 @@
 			},
 			"Malaysia CW": {
 				"handle": "malaysia_cw",
-				"label": "Malaysia / 马来西亚 Chemical Wash / 深入化洗.                      MYR120/Hr/Unit",
+				"label": "Malaysia / 马来西亚 Chemical Wash / 深入化洗.                           MYR120/Hr/Unit",
 				"orderLabel": "Hour (MY Chemical Wash / 化洗)",
 				"description": "Label standard",
 				"cost": {
