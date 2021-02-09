@@ -2796,7 +2796,7 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "(A) 1st Hr Rate / 第 1 小时收费",
+				"label": "(A) 1st Hr Rate / 第 1 小时收费                              MYR80/Hr",
 				"orderLabel": "Hour (1st Hr / 第 1 小时)",
 				"description": "Label standard",
 				"cost": {
@@ -2815,7 +2815,7 @@
 			},
 			"=>2Hr": {
 				"handle": "second_or_more_hr",
-				"label": "(A) 2nd Hr & more Rate / 第 2 小时或以上收费",
+				"label": "(A) 2nd Hr & more Rate / 第 2 小时或以上收费                                    MYR60/Hr",
 				"orderLabel": "Hour (2nd Hr & more / 第 2 小时或以上)",
 				"description": "Label standard",
 				"cost": {
@@ -2834,7 +2834,7 @@
 			},
 			"Survey": {
 				"handle": "survey",
-				"label": "(A) Non-Std Plumbing Survey / 非标准湿工调查",
+				"label": "(A) Non-Std Plumbing Survey / 非标准湿工调查                                      MYR20/Trip",
 				"orderLabel": "Trip (Survey / 调查)",
 				"description": "Label standard",
 				"cost": {
@@ -2872,7 +2872,7 @@
 			},
 			"Water Tank 1st Hr": {
 				"handle": "water_tank_first_hr",
-				"label": "(B) Tank Wash 1st Hr / 水箱清洗第 1 小时",
+				"label": "(B) Tank Wash 1st Hr / 水箱清洗第 1 小时                                      MYR120/Hr",
 				"orderLabel": "Hour (Tank Wash 1st Hr / 水箱清洗第 1 时)",
 				"description": "Label standard",
 				"cost": {
@@ -2891,7 +2891,7 @@
 			},			
 			"Water Tank >= 2nd Hr": {
 				"handle": "water_tank_second_or_more_hr",
-				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第 2 小时或以上",
+				"label": "(B) Tank Wash 2nd Hr & more / 水箱清洗第 2 小时或以上                                       MYR80/Hr",
 				"orderLabel": "Hour (Tank Wash >= 2Hr / 水箱清洗第 2 小时或以上)",
 				"description": "Label standard",
 				"cost": {
@@ -2910,7 +2910,7 @@
 			},			
 			"Tank Issue Survey": {
 				"handle": "tank_issue_survey",
-				"label": "(B) Tank Issue Survey / 水箱调查",
+				"label": "(B) Tank Issue Survey / 水箱调查                                                    MYR50/Trip",
 				"orderLabel": "Trip (Tank Issue Survey / 水箱调查)",
 				"description": "Label standard",
 				"cost": {
@@ -2929,7 +2929,7 @@
 			},			
 			"Tank Repair 1st Hr": {
 				"handle": "tank_repair_first_hr",
-				"label": "(B) Tank Repair 1st Hr / 水箱维修第 1 小时",
+				"label": "(B) Tank Repair 1st Hr / 水箱维修第 1 小时                                          MYR120/Hr",
 				"orderLabel": "Hour (Tank Repair 1st Hr / 水箱维修第 1 小时)",
 				"description": "Label standard",
 				"cost": {
@@ -2948,12 +2948,12 @@
 			},			
 			"Tank Repair >= 2nd Hr": {
 				"handle": "tank_repair_second_or_more_hr",
-				"label": "(B) Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上",
+				"label": "(B) Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上                                       MYR80/Hr",
 				"orderLabel": "Hour (Tank Repair 2nd Hr & more / 水箱维修第 2 小时以上)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "120",
+					"SGD": "35",
+					"MYR": "80",
 					"CNY": "80"
 				},
 				"quantity": {
@@ -2987,7 +2987,7 @@
 			
 			"Sink Poppy": {
 				"handle": "sink_poppy",
-				"label": "(C）Sink Poppy / 洗手盆 Poppy",
+				"label": "(C）Sink Poppy / 洗手盆 Poppy                                       MYR30/Pc",
 				"orderLabel": "Pc (Sink Poppy / 洗手盆 Poppy)",
 				"description": "Label standard",
 				"cost": {
@@ -3008,7 +3008,7 @@
 			
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "(D）Trouble Shoot / 查找问题",
+				"label": "(D）Trouble Shoot / 查找问题                                              MYR60/Job",
 				"orderLabel": "Job ((D）Trouble Shoot / 查找问题)",
 				"description": "Label standard",
 				"cost": {
