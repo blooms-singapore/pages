@@ -609,7 +609,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "80.5",
+			"MYR": "71",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -636,7 +636,7 @@
 			
 			"Malaysia SW": {
 				"handle": "malaysia_sw",
-				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 台 (min 1hr booking)",
+				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 台 (min 1Hr booking).                   MYR120/Hr",
 				"orderLabel": "Hour (MY Std Wash / 普通洗 >= 3 units)",
 				"description": "Label standard",
 				"cost": {
@@ -646,7 +646,7 @@
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 0,
+					"min": 1,
 					"max": 0,
 					"increment": 30,
 					"default": 0,
