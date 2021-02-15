@@ -4243,6 +4243,27 @@
 					"default": 0,
 					"base": 1
 				}
+			},
+			
+			"Water Dispenser": {
+				"handle": "water_dispenser",
+				"label": "Install Water-filter Dispenser / 安装过滤器                                                  Coming Soon",
+				"orderLabel": "Set (Install Water-filter Dispenser / 安装过滤器)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				
+			"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
 			}
 		},
 		
