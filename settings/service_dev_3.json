@@ -3825,6 +3825,26 @@
 		},
 		"hasNote": 1,
 		"options": {
+			"Survey": {
+				"handle": "survey",
+				"label": "Survey / 现场调查",
+				"orderLabel": "Trip (Survey / 现场调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },			
+			
 			"Inspection": {
 				"handle": "inspection",
 				"label": "Vehicle Inspection / 车检查代劳",
