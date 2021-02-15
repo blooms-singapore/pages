@@ -3827,7 +3827,7 @@
 		"options": {
 			"Survey": {
 				"handle": "survey",
-				"label": "Survey / 现场调查",
+				"label": "Survey / 现场调查                                          MYR30/Trip",
 				"orderLabel": "Trip (Survey / 现场调查)",
 				"description": "Label standard",
 				"cost": {
@@ -3847,7 +3847,7 @@
 			
 			"Inspection": {
 				"handle": "inspection",
-				"label": "Vehicle Inspection / 车检查代劳",
+				"label": "Vehicle Inspection / 车检查代劳                                                        MYR120/Job",
 				"orderLabel": "Job (Vehicle Inspection / 车检查代劳)",
 				"description": "Label standard",
 				"cost": {
@@ -3866,7 +3866,7 @@
 			 },			
 			"Helper": {
 				"handle": "helper",
-				"label": "Helper / 帮手",
+				"label": "Helper / 帮手                                                        MYR30/Trip",
 				"orderLabel": "Trip (Helper / 帮手)",
 				"description": "Label standard",
 				"cost": {
@@ -3885,7 +3885,7 @@
 			},					
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking / 紧急预订",
+				"label": "Emergency Booking / 紧急预订                                                     MYR100-150/Trip",
 				"orderLabel": "Trip (Emergency / 紧急)",
 				"description": "Label standard",
 				"cost": {
@@ -3910,7 +3910,7 @@
 			
 			"Errand Project": {
 				"handle": "helper",
-				"label": "Errand Project / 差事项目",
+				"label": "Errand Project / 差事项目                                                            Quotation",
 				"orderLabel": "Job (Errand Project / 差事项目)",
 				"description": "Label standard",
 				"cost": {
