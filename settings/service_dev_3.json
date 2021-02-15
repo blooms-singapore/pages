@@ -4155,7 +4155,7 @@
 	"clean-water": {
 		"name": "Clean Water / 过滤水",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban","Singapore"],
+		"disableLocations": ["Seremban","Singapore", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "25",
