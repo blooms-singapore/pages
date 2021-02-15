@@ -4177,8 +4177,8 @@
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban","Singapore"],
 		"startPrice": {
-			"SGD": "45",
-			"MYR": "25",
+			"SGD": "85",
+			"MYR": "185",
 			"CNY": "20"
 		},
 		"hasNote": 1,
