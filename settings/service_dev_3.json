@@ -4909,42 +4909,42 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Survey": {
-				"handle": "survey",
-				"label": "Survey",
-				"orderLabel": "Trip (Survey)",
+			"Multi Services Survey": {
+				"handle": "multi_services",
+				"label": "Multiple Services Survey / 多种服务调查                                                         MYR20/Trip",
+				"orderLabel": "Trip (Multiple Services Survey / 多种服务调查 )",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
 			 },
 			
-			"Project": {
-				"handle": "Project",
-				"label": "Project / 项目",
-				"orderLabel": "Job (Project / 项目)",
+			"Pre Purchase": {
+				"handle": "pre_purchase",
+				"label": "Asset Pre-Purchase Diagnosis / 买房前专业诊断                                                          MYR2000/Unit",
+				"orderLabel": "Unit (Asset Pre-Purchase Diagnosis / 买房前专业诊断)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "2000",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Unit",
 					"min": 0,
-					"max": 1,
+					"max": 3,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			 }		
