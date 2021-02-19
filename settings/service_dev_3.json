@@ -743,7 +743,7 @@
 			},
 			"Quotation Enquiry": {				
 				"handle": "quotation_enquiry",
-				"label": "Quotation Enquiry / 咨询报价",
+				"label": "Quotation Enquiry / 咨询报价                                                Quote within 3 Working Days",
 				"orderLabel": "Job (Quotation Enquiry / 咨询报价)",
 				"description": "Label standard",
 				"cost": {
