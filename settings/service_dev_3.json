@@ -4659,7 +4659,7 @@
 					
 		"Shower Dog": {
 				"handle": "shower_dog",
-				"label": "Shower DOG              MYR60/Hr",
+				"label": "Shower DOG                                           MYR60/Hr",
 				"orderLabel": "Hour (Shower DOG)",
 				"description": "Label standard",
 				"cost": {
@@ -4679,7 +4679,7 @@
 			
 		"Basic Dog": {
 				"handle": "basic_dog",
-				"label": "Basic DOG                 MYR90/Hr",
+				"label": "Basic DOG                                       MYR90/Hr",
 				"orderLabel": "Hour (Basic DOG)",
 				"description": "Label standard",
 				"cost": {
@@ -4700,7 +4700,7 @@
 				
 		"Full dog": {
 				"handle": "full_dog",
-				"label": "Full DOG                   MYR80/Hr",
+				"label": "Full DOG                              MYR80/Hr",
 				"orderLabel": "Hour (Full DOG)",
 				"description": "Label standard",
 				"cost": {
@@ -4721,7 +4721,7 @@
 		
 		"Basic cat": {
 				"handle": "basic_cat",
-				"label": "Basic KITTEN/CAT                 MYR60/Hr",
+				"label": "Basic KITTEN/CAT                              MYR60/Hr",
 				"orderLabel": "Hour (Basic KITTEN/CAT)",
 				"description": "Label standard",
 				"cost": {
@@ -4741,7 +4741,7 @@
 			
 		"Lioncut cat": {
 				"handle": "lioncut_cat",
-				"label": "Lion Cut CAT                  MYR75/Hr",
+				"label": "Lion Cut CAT                                             MYR75/Hr",
 				"orderLabel": "Hour (Lion Cut CAT)",
 				"description": "Label standard",
 				"cost": {
@@ -4761,7 +4761,7 @@
 			
 		"Deflea cat": {
 				"handle": "deflea_cat",
-				"label": "De-flea + Basic KITTEN/CAT                 MYR80/Hr",
+				"label": "De-flea + Basic KITTEN/CAT                                          MYR80/Hr",
 				"orderLabel": "Hour (De-flea + Basic KITTEN/CAT)",
 				"description": "Label standard",
 				"cost": {
