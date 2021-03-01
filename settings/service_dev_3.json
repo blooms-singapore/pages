@@ -206,8 +206,8 @@
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "100",
+					"SGD": "40",
+					"MYR": "90",
 					"CNY": "120"
 				},
 				"cost_max": {
