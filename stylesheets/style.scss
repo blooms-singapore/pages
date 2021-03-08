@@ -99,3 +99,21 @@ table{
   border-radius: 8px;
   width: 135px;
 }
+.title-body {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-container {
+  display: flex;
+  min-width: 75px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+.share-container span {
+  font-size: 12px;
+  font-weight: 700;
+}
