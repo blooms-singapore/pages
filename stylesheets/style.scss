@@ -110,7 +110,8 @@ table{
   justify-content: center;
   align-items: center;
   background: #efefef;
-  padding: 6px 7px;
+  padding: 6px 10px;
+  flex-direction: column;
 }
 
 .share-container i {
