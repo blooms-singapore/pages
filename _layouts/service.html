@@ -22,7 +22,7 @@
           <div class="subtitle">
             {{page.subtitle}}
           </div>
-          
+
           <div class="share-container">
             <div class="share-body">
               <i class="fa fa-share-square"></i>
@@ -48,6 +48,7 @@
 
     const urlParams = new URLSearchParams(window.location.search)
     const currency = urlParams.get('currency') || 'MYR'
+    const share_count = urlParams.get('share_count')
     const uri = urlParams.get('uri')
     // const host = uri ? 'http://'+uri : 'https://pages.blooms.sg'
     const host = '..'
@@ -61,6 +62,7 @@
           uri: null,
           currency: currency,
           serviceKey: serviceKey,
+          share_count : share_count,
           service: null,
           options: null,
           types: null,
