@@ -27,7 +27,7 @@
             <div class="share-body">
               <i class="fa fa-share-square"></i>
             </div>
-            <span>${params.share_count} Shares</span>
+            <span>${share_count} Shares</span>
           </div>
         </div>
 
@@ -48,7 +48,7 @@
 
     const urlParams = new URLSearchParams(window.location.search)
     const currency = urlParams.get('currency') || 'MYR'
-    const share_count = urlParams.get('share_count')
+    const share_count = urlParams.get('share_count') || 0
     console.log('share = ' , share_count)
     const uri = urlParams.get('uri')
     // const host = uri ? 'http://'+uri : 'https://pages.blooms.sg'
