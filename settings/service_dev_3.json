@@ -2,7 +2,7 @@
 	"id": {
 		"name": "Interior Design / 室内设计",
 		"lastSlot": "14:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -167,7 +167,7 @@
 	"sewing": {
 		"name": "Sewing / 缝纫",
 		"lastSlot": "14:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
