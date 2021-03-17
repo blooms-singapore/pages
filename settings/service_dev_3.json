@@ -4979,7 +4979,7 @@
 	"pet": {
 		"name": "Pet / 宠物",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "52",
