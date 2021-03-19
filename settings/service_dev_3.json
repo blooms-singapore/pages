@@ -2157,10 +2157,10 @@
 				},
 				"quantity": {
 					"label": "Hours",
-					"min": 480,
+					"min": 0,
 					"max": 0,
 					"default": 480,
-					"increment": 60,
+					"increment": 30,
 					"base": 60,
 					"multiplier": 1
 					
