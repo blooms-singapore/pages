@@ -3,7 +3,7 @@
 	"landscape": {
 		"name": "Landscaping / 园艺修剪",
 		"lastSlot": "14:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -169,7 +169,7 @@
 	"locksmith": {
 		"name": "Locksmith / 锁匠",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "52",
