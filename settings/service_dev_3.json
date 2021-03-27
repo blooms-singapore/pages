@@ -1892,8 +1892,8 @@
 				"description": "Label standard",
 				"values": {
 					"With tools": {
-						"label": "With Tools / 带工具",
-						"orderLabel": "With Tools / 带工具",
+						"label": "Blooms bring tools / 家盟带工具",
+						"orderLabel": "Blooms bring tools / 家盟带工具",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1906,7 +1906,7 @@
 						}
 					},
 					"No tools": {
-						"label": "No tools / 没工具",
+						"label": "I provide tools / 我提供工具",
 						"cost": {
 							"SGD": "0",
 							"MYR": "-20",
