@@ -1891,9 +1891,19 @@
 				"label": "Tools?",
 				"description": "Label standard",
 				"values": {
-					"With tools": {
-						"label": "Blooms bring tools / 家盟带工具",
-						"orderLabel": "Blooms bring tools / 家盟带工具",
+					
+				"With tools": {
+						"label": "Blooms provides tools / 公司带工具",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					
+				"No tools": {
+						"label": "I provide tools / 我提供工具",
+						"orderLabel": "I provide tools / 我提供工具",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1903,14 +1913,6 @@
 							"SGD": "0",
 							"MYR": "-20",
 							"CNY": "10"
-						}
-					},
-					"No tools": {
-						"label": "I provide tools / 我提供工具",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
 						}
 					}
 				}
