@@ -1644,7 +1644,7 @@
 	"cleaning": {
 		"name": "Cleaning / 清洗",
 		"lastSlot": "14:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": ["Seremban","Singapore"],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "99.5",
