@@ -1903,7 +1903,7 @@
 					
 				"No tools": {
 						"label": "Customer provides tools / 客户提供工具",
-						"orderLabel": "Customer provides tools / 客户提供工具 (-MYR20)",
+						"orderLabel": "Customer provides tools / 客户提供工具 (-MYR15)",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1911,7 +1911,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "-20",
+							"MYR": "-15",
 							"CNY": "10"
 						}
 					}
