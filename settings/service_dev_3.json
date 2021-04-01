@@ -1524,30 +1524,7 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Std Big": {
-				"handle": "standard_big",
-				"label": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr",
-				"displayLabel": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅",
-				"orderLabel": "Hours (Std Clean Condo or Landed House / 普通清洗公寓或有地住宅)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 180,
-					"max": 0,
-					"default": 0,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Std Small Condo": {
+             "Std Small Condo": {
 				"handle": "standard_small_condo",
 				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR110/Unit",
 				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
@@ -1569,6 +1546,31 @@
 					
 				}
 			},
+
+			"Std Big": {
+				"handle": "standard_big",
+				"label": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr",
+				"displayLabel": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅",
+				"orderLabel": "Hours (Std Clean Condo or Landed House / 普通清洗公寓或有地住宅)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 180,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+	
 			
 			"Festive Small Condo": {
 				"handle": "festive_small_condo",
