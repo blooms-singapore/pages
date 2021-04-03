@@ -2489,27 +2489,27 @@
 	"clean-water": {
 		"name": "Clean Water / 过滤水",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban","Singapore"],
+		"disableLocations": ["Seremban","Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "85",
-			"MYR": "185",
+			"MYR": "23.5",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
 			
-			"Inspection": {
-				"handle": "indoor_filter",
-				"label": "Indoor Filter Change / 室内过滤套更换                                       MYR200/Set",
-				"orderLabel": "Set (Indoor Filter Change / 室内过滤套更换)",
+			"Survey JB": {
+				"handle": "survey",
+				"label": "Site Survey (JB Area) / 现场调查 (柔佛地区)                                             Free",
+				"orderLabel": "Trip (Site Survey (JB Area) / 现场调查 (柔佛地区))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "200",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
@@ -2518,14 +2518,34 @@
 				}
 			 },
 			
-			"Small Outdoor": {
-				"handle": "small_outdoor",
-				"label": "Small Outdoor Sand Filter Change / 小户外沙碳过滤塔更新                                       MYR300/Set",
-				"orderLabel": "Set (Small Outdoor Sand Filter / 小户外沙碳过滤塔更新)",
+		"Survey Outside JB": {
+				"handle": "outside_jb",
+				"label": "Site Survey (Outside JB) / 现场调查 (柔佛外地区)                                          RM30/Trip",
+				"orderLabel": "Trip (Site Survey (Outside JB Area) / 现场调查 (柔佛外地区))",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "300",
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+	
+			"Outdoor": {
+				"handle": "outdoor",
+				"label": "Outdoor Filter Installation / 户外过滤器安装                                       MYR1350/Set",
+				"orderLabel": "Set (Outdoor Filter Installation / 户外过滤器安装)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1350",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2536,41 +2556,19 @@
 					"default": 0,
 					"base": 1
 				}
-			},
+			 },
 			
-			"Big Outdoor": {
-				"handle": "big_outdoor",
-				"label": "Big Outdoor Sand Filter Change / 大户外沙碳过滤塔更新                                                  MYR320/Set",
-				"orderLabel": "Set (Big Outdoor Sand Filter Change / 大户外沙碳过滤塔更新)",
+			"Auto Timer": {
+				"handle": "auto_timer",
+				"label": "Automatic Bleed Timer / 自动废水排放时器                                       MYR100/Set",
+				"orderLabel": "Set (Automatic Bleed Timer / 自动废水排放时器)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "320",
+					"SGD": "15",
+					"MYR": "100",
 					"CNY": "0"
 				},
-				
-			"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Water Dispenser": {
-				"handle": "water_dispenser",
-				"label": "Install Water-filter Dispenser / 安装过滤器                                                  Coming Soon",
-				"orderLabel": "Set (Install Water-filter Dispenser / 安装过滤器)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				
-			"quantity": {
+				"quantity": {
 					"label": "Set",
 					"min": 0,
 					"max": 0,
