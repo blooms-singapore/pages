@@ -169,7 +169,7 @@
 	"electrical": {
 		"name": "Electrical / 电工",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "90",
@@ -277,7 +277,7 @@
 	"painting": {
 		"name": "Paint & Partition / 油漆和隔板",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
@@ -478,7 +478,7 @@
 	"aircon": {
 		"name": "Aircon Works / 冷气",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "71",
@@ -755,7 +755,7 @@
 			"MYR": "66.25",
 			"CNY": "150"
 		},
-		"disableLocations": ["Seremban","Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"hasNote": 1,
 		"options": {
 			"Std 1st": {
@@ -909,7 +909,7 @@
 	"plumbing": {
 		"name": "Plumbing / 水喉工",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "7",
 			"MYR": "14",
@@ -1190,7 +1190,7 @@
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
@@ -1310,7 +1310,7 @@
 	"computer": {
 		"name": "Computer & Digital Entertainment / 电脑和娱乐",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Seremban"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "12",
 			"MYR": "23.50",
@@ -1515,7 +1515,7 @@
 	"cleaning": {
 		"name": "Cleaning / 清洗",
 		"lastSlot": "14:30",
-		"disableLocations": ["Seremban","Singapore"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "80.5",
@@ -1797,7 +1797,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete / 瓷砖和水泥",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "90",
@@ -2618,7 +2618,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand. MOQ = MYR100",
-		"disableLocations": ["Seremban", "Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "100",
