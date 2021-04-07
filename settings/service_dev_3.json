@@ -11,9 +11,9 @@
 		"hasNote": 1,
 		"options": {
 			
-             "Std Small Condo": {
+             "JB Std Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR110/Unit",
+				"label": "JB Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR110/Unit",
 				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
 				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
 				"description": "Label standard",
@@ -34,9 +34,9 @@
 				}
 			},
 
-			"Std Big": {
+			"JB Std Big": {
 				"handle": "standard_big",
-				"label": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr",
+				"label": "JB Std Clean Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr",
 				"displayLabel": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅",
 				"orderLabel": "Hours (Std Clean Condo or Landed House / 普通清洗公寓或有地住宅)",
 				"description": "Label standard",
@@ -59,7 +59,7 @@
 			
 	
 			
-			"Festive Small Condo": {
+			"JB Festive Small Condo": {
 				"handle": "festive_small_condo",
 				"label": "Festive Very Small Condo / 特小公寓大扫除                                          MYR135/Unit",
 				"displayLabel": "Festive Very Small Condo / 特小公寓大扫除",
@@ -82,9 +82,9 @@
 				}
 			},
 			
-			"Festive Big": {
+			"JB Festive Big": {
 				"handle": "festive_big",
-				"label": "Festive Condo or Landed / 公寓或有地住宅                              MYR55/Hr",
+				"label": "JB Festive Condo or Landed / 公寓或有地住宅                              MYR55/Hr",
 				"displayLabel": "Festive Condo or Landed / 公寓或有地住宅",
 				"orderLabel": "Hours (Festive Condo or Landed / 公寓或有地住宅)",
 				"description": "Label standard",
@@ -105,9 +105,9 @@
 				}
 			},
 			
-			"Reno": {
+			"JB Reno": {
 				"handle": "reno_clean",
-				"label": "Renovation Clean / 装修清洗                            MYR65/Hr",
+				"label": "JB Renovation Clean / 装修清洗                            MYR65/Hr",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
 				"description": "Label standard",
@@ -128,9 +128,9 @@
 				}
 			},
 			
-			"Move Small Condo": {
+			"JB Move Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                             MYR135/Unit",
+				"label": "JB Move Clean Very Small Condo / 搬家清洗特小公寓                             MYR135/Unit",
 				"displayLabel": "Move Clean Very Small Condo / 搬家清洗特小公寓",
 				"orderLabel": "Unit (Move Clean Very Small Condo / 搬家清洗特小公寓)",
 				"description": "Label standard",
@@ -151,9 +151,9 @@
 				}
 			},
 			
-			"Move Big": {
+			"JB Move Big": {
 				"handle": "move_big",
-				"label": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅                        MYR60/Hr",
+				"label": "JB Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅                        MYR60/Hr",
 				"displayLabel": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅",
 				"orderLabel": "Hours (Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅)",
 				"description": "Label standard",
