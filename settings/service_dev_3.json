@@ -1,7 +1,7 @@
 {
 	"cleaning": {
 		"name": "Cleaning / 清洗",
-		"lastSlot": "14:30",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "40",
