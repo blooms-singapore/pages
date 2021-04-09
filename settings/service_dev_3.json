@@ -33,6 +33,29 @@
 					
 				}
 			},
+			
+			  "KL Std Small Condo": {
+				"handle": "standard_small_kl",
+				"label": "KL Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR126/Unit",
+				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
+				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "110",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
 
 			"JB Std Big": {
 				"handle": "standard_big",
@@ -246,31 +269,7 @@
 				}
 			},
 			
-		   "KL Std Small Condo": {
-				"handle": "standard_small_kl",
-				"label": "KL Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR126/Unit",
-				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
-				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "110",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"KL Std Big": {
+		 	"KL Std Big": {
 				"handle": "standard_big_kl",
 				"label": "KL Std Clean Condo or Landed House / 普通清洗公寓或有地住宅                                MYR52/Hr",
 				"displayLabel": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅",
