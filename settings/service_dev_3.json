@@ -13,7 +13,7 @@
 			
              "JB Std Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                              MYR110 (JB) / MYR126.5 (KL)",
+				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                              MYR110 (JB) / MYR137 (KL)",
 				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
 				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
 				"description": "Label standard",
@@ -36,7 +36,7 @@
 			
 			"JB Std Big": {
 				"handle": "standard_big",
-				"label": "Standard Clean Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr (JB) / MYR52/Hr (KL)",
+				"label": "Standard Clean Condo or Landed House / 普通清洗公寓或有地住宅                           MYR45/Hr (JB) / MYR56/Hr (KL)",
 				"displayLabel": "Standard Clean Condo or Landed House / 普通清洗公寓或有地住宅",
 				"orderLabel": "Hours (Standard Clean Condo or Landed House / 普通清洗公寓或有地住宅)",
 				"description": "Label standard",
@@ -61,7 +61,7 @@
 			
 			"JB Festive Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Very Small Condo / 特小公寓大扫除                                          MYR135 (JB) / MYR155 (KL)",
+				"label": "Festive Very Small Condo / 特小公寓大扫除                                          MYR135 (JB) / MYR168 (KL)",
 				"displayLabel": "Festive Very Small Condo / 特小公寓大扫除",
 				"orderLabel": "Unit (Festive Very Small Condo / 特小公寓大扫除)",
 				"description": "Label standard",
@@ -84,7 +84,7 @@
 			
 			"JB Festive Big": {
 				"handle": "festive_big",
-				"label": "Festive Condo or Landed / 公寓或有地住宅                              MYR55/Hr (JB) / MYR63/Hr (KL)",
+				"label": "Festive Condo or Landed / 公寓或有地住宅                              MYR55/Hr (JB) / MYR68/Hr (KL)",
 				"displayLabel": "Festive Condo or Landed / 公寓或有地住宅",
 				"orderLabel": "Hours (Festive Condo or Landed / 公寓或有地住宅)",
 				"description": "Label standard",
