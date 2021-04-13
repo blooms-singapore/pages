@@ -11,53 +11,7 @@
 		"hasNote": 1,
 		"options": {
 			
-		"JB Landed": {
-				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House / 普通清洗有地住宅                                 MYR45/Hr (JB) / MYR56/Hr (KL)",
-				"displayLabel": "Standard Clean Landed / 普通清洗有地住宅",
-				"orderLabel": "Hours (Standard Clean Landed House / 普通清洗有地住宅)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-          	"JB Std Condo": {
-				"handle": "standard_condo",
-				"label": "Standard Clean Condo / 普通清洗公寓                                 MYR45/Hr (JB) / MYR56/Hr (KL)",
-				"displayLabel": "Standard Clean Condo / 普通清洗公寓",
-				"orderLabel": "Hours (Standard Clean Condo / 普通清洗公寓)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 150,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-	   "JB Std Small Condo": {
+			   "JB Std Small Condo": {
 				"handle": "standard_small_condo",
 				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                              MYR110 (JB) / MYR137 (KL)",
 				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
@@ -80,6 +34,54 @@
 				}
 			},
 			
+			"JB Std Condo": {
+				"handle": "standard_condo",
+				"label": "Standard Clean Condo / 普通清洗公寓                                 MYR45/Hr (JB) / MYR56/Hr (KL)",
+				"displayLabel": "Standard Clean Condo / 普通清洗公寓",
+				"orderLabel": "Hours (Standard Clean Condo / 普通清洗公寓)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 150,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"JB Landed": {
+				"handle": "standard_landed_house",
+				"label": "Standard Clean Landed House / 普通清洗有地住宅                                 MYR45/Hr (JB) / MYR56/Hr (KL)",
+				"displayLabel": "Standard Clean Landed / 普通清洗有地住宅",
+				"orderLabel": "Hours (Standard Clean Landed House / 普通清洗有地住宅)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 0,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+          
 			"JB Festive Small Condo": {
 				"handle": "festive_small_condo",
 				"label": "Festive Very Small Condo / 特小公寓大扫除                                          MYR135 (JB) / MYR168 (KL)",
