@@ -60,7 +60,7 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Std Clean Landed House / 普通清洗有地住宅                                 MYR45/Hr (JB) / MYR50/Hr (KL)",
+				"label": "Standard Clean Landed House / 普通清洗有地住宅                                 MYR45/Hr (JB) / MYR50/Hr (KL)",
 				"displayLabel": "Std Clean Landed / 普通清洗有地住宅",
 				"orderLabel": "Hours (Std Clean Landed House / 普通清洗有地住宅)",
 				"description": "Label standard",
