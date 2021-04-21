@@ -13,7 +13,7 @@
 			
 			   "JB Std Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                              MYR110 (JB) / MYR137 (KL)",
+				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                              MYR110 (JB) / MYR122 (KL)",
 				"displayLabel": "Standard Clean Very Small Condo / 普通清洗特小公寓",
 				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
 				"description": "Label standard",
@@ -36,7 +36,7 @@
 			
 			"JB Std Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo / 普通清洗公寓                                 MYR45/Hr (JB) / MYR56/Hr (KL)",
+				"label": "Standard Clean Condo / 普通清洗公寓                                 MYR45/Hr (JB) / MYR50/Hr (KL)",
 				"displayLabel": "Standard Clean Condo / 普通清洗公寓",
 				"orderLabel": "Hours (Standard Clean Condo / 普通清洗公寓)",
 				"description": "Label standard",
@@ -60,7 +60,7 @@
 			
 			"JB Landed": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House / 普通清洗有地住宅                                 MYR45/Hr (JB) / MYR56/Hr (KL)",
+				"label": "Standard Clean Landed House / 普通清洗有地住宅                                 MYR45/Hr (JB) / MYR50/Hr (KL)",
 				"displayLabel": "Standard Clean Landed / 普通清洗有地住宅",
 				"orderLabel": "Hours (Standard Clean Landed House / 普通清洗有地住宅)",
 				"description": "Label standard",
@@ -82,9 +82,9 @@
 			},
 			
           
-			"JB Festive Small Condo": {
+			"JB Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Very Small Condo / 特小公寓大扫除                                          MYR135 (JB) / MYR168 (KL)",
+				"label": "Festive Very Small Condo / 特小公寓大扫除                                          MYR135 (JB) / MYR150 (KL)",
 				"displayLabel": "Festive Very Small Condo / 特小公寓大扫除",
 				"orderLabel": "Unit (Festive Very Small Condo / 特小公寓大扫除)",
 				"description": "Label standard",
@@ -107,7 +107,7 @@
 			
 			"JB Festive Big": {
 				"handle": "festive_big",
-				"label": "Festive Condo or Landed / 公寓或有地住宅                              MYR55/Hr (JB) / MYR68/Hr (KL)",
+				"label": "Festive Condo or Landed / 公寓或有地住宅                                MYR55/Hr (JB) / MYR61/Hr (KL)",
 				"displayLabel": "Festive Condo or Landed / 公寓或有地住宅",
 				"orderLabel": "Hours (Festive Condo or Landed / 公寓或有地住宅)",
 				"description": "Label standard",
@@ -130,7 +130,7 @@
 			
 			"JB Reno": {
 				"handle": "reno_clean",
-				"label": "Renovation Clean / 装修清洗                            MYR65/Hr",
+				"label": "Renovation Clean / 装修清洗                                         MYR65/Hr (JB) / MYR72/Hr (KL)",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
 				"description": "Label standard",
@@ -151,9 +151,9 @@
 				}
 			},
 			
-			"JB Move Small Condo": {
+			"JB Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                             MYR135/Unit",
+				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                                     MYR135 (JB) / MYR 150 (KL)",
 				"displayLabel": "Move Clean Very Small Condo / 搬家清洗特小公寓",
 				"orderLabel": "Unit (Move Clean Very Small Condo / 搬家清洗特小公寓)",
 				"description": "Label standard",
@@ -176,7 +176,7 @@
 			
 			"JB Move Big": {
 				"handle": "move_big",
-				"label": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅                        MYR60/Hr",
+				"label": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅                           MYR60/Hr (JB) / MYR67/Hr (KL)",
 				"displayLabel": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅",
 				"orderLabel": "Hours (Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅)",
 				"description": "Label standard",
@@ -199,7 +199,7 @@
 			
 			"Outside JB": {
 				"handle": "outside_jb",
-				"label": "Outside JB Clean / 柔佛外清洗                            MYR60/Hr",
+				"label": "Outside JB Clean / 柔佛外清洗                               MYR60/Hr",
 				"displayLabel": "Outside JB Clean / 柔佛外清洗",
 				"orderLabel": "Hours (Outside JB Clean / 柔佛外清洗)",
 				"description": "Label standard",
@@ -223,7 +223,7 @@
 				
 			"PKG 10X": {
 				"handle": "package_10",
-				"label": "Package 10X / 配套 10X                      Discount 10%",
+				"label": "Package 10X / 配套 10X                           Discount 10%",
 				"displayLabel": "Package 10X / 配套 10X",
 				"orderLabel": "PKG (PKG 10X / 配套 10X)",
 				"description": "Label standard",
@@ -247,7 +247,7 @@
 			
 			"PKG 20X": {
 				"handle": "package_20",				
-				"label": "Package 20X / 配套 20X                          Discount 15%",
+				"label": "Package 20X / 配套 20X                               Discount 15%",
 				"displayLabel": "Package 20X / 配套 20X",
 				"orderLabel": "PKG (PKG 20X / 配套 20X)",
 				"description": "Label standard",
@@ -265,53 +265,7 @@
 					"increment": 60,
 					"base": 60,
 					"multiplier": 20
-					
-				}
-			},
-			
-			  "KL Std Small Condo": {
-				"handle": "standard_small_condo_kl",
-				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                                MYR126/Unit",
-				"displayLabel": "KL Standard Clean Very Small Condo / 普通清洗特小公寓",
-				"orderLabel": "Unit (KL Standard Clean Very Small Condo / 普通清洗特小公寓)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "110",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-		 	"KL Std Big": {
-				"handle": "standard_big_kl",
-				"label": "Standard Clean Condo or Landed House / 普通清洗公寓或有地住宅                                MYR52/Hr",
-				"displayLabel": "Std Clean Condo or Landed House / 普通清洗公寓或有地住宅",
-				"orderLabel": "Hours (Std Clean Condo or Landed House / 普通清洗公寓或有地住宅)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 180,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
+											
 				}
 			}
 		},
