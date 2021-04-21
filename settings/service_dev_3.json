@@ -36,7 +36,7 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo / 普通清洗公寓                                 MYR45/Hr (JB) / MYR50/Hr (KL)",
+				"label": "Standard Clean Condo / 普通清洗公寓                                 MYR45/Hr (JB)                              MYR50/Hr (KL)",
 				"displayLabel": "Std Clean Condo / 普通清洗公寓",
 				"orderLabel": "Hours (Std Clean Condo / 普通清洗公寓)",
 				"description": "Label standard",
