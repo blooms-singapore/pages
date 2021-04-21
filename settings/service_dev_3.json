@@ -84,9 +84,9 @@
           
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Very Small Condo / 特小公寓大扫除                                          MYR135 (JB) / MYR150 (KL)",
-				"displayLabel": "Festive Very Small Condo / 特小公寓大扫除",
-				"orderLabel": "Unit (Festive Very Small Condo / 特小公寓大扫除)",
+				"label": "Festive Clean Very Small Condo / 特小公寓大扫除                                          MYR135 (JB) / MYR150 (KL)",
+				"displayLabel": "Festive Clean Very Small Condo / 特小公寓大扫除",
+				"orderLabel": "Unit (Festive Clean Very Small Condo / 特小公寓大扫除)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -105,7 +105,7 @@
 				}
 			},
 			
-			"JB Festive Std Condo": {
+			"Festive Std Condo": {
 				"handle": "festive_big",
 				"label": "Festive Clean Standard Condo / 标准公寓 大扫除                                  MYR55/Hr (JB) / MYR61/Hr (KL)",
 				"displayLabel": "Festive Clean Std Condo / 标准公寓大扫除",
