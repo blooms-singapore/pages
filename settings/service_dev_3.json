@@ -299,9 +299,8 @@
 				"label": "Tools?",
 				"description": "Label standard",
 				"values": {
-					
-									
-					"No tools": {
+														
+					"Customer tools": {
 						"label": "Customer provides tools / 客户提供工具",
 						"orderLabel": "Customer provides tools / 客户提供工具",
 						"cost": {
@@ -317,7 +316,7 @@
 						}
 					},
 					
-					"With tools": {
+					"Blooms tools": {
 						"label": "Blooms provides tools / 公司带工具 (+ MYR20)",
 						"cost": {
 							"SGD": "0",
