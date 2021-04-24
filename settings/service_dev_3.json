@@ -309,6 +309,7 @@
 							"MYR": "0",
 							"CNY": "0"
 						},
+						
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -320,8 +321,14 @@
 						"label": "Blooms provides tools / 公司带工具 (+ MYR20)",
 						"cost": {
 							"SGD": "0",
-							"MYR": "20",
+							"MYR": "0",
 							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
 						}
 					}
 				}
