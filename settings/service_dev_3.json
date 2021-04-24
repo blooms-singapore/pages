@@ -13,13 +13,13 @@
 			
 			   "Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                        MYR110 (JB)                            MYR122 (KL)",
+				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR90 (JB)                                MYR 99 (KL)",
 				"displayLabel": "Std Clean Very Small Condo / 普通清洗特小公寓",
 				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "110",
+					"MYR": "90",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -36,13 +36,13 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo / 普通清洗公寓                                 MYR45/Hr (JB)                              MYR50/Hr (KL)",
+				"label": "Standard Clean Condo / 普通清洗公寓                                  MYR40/Hr (JB)                              MYR44/Hr (KL)",
 				"displayLabel": "Std Clean Condo / 普通清洗公寓",
 				"orderLabel": "Hours (Std Clean Condo / 普通清洗公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -60,13 +60,13 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House / 普通清洗有地住宅                        MYR45/Hr (JB)                            MYR50/Hr (KL)",
+				"label": "Standard Clean Landed House / 普通清洗有地住宅                        MYR40/Hr (JB)                            MYR44/Hr (KL)",
 				"displayLabel": "Std Clean Landed / 普通清洗有地住宅",
 				"orderLabel": "Hours (Std Clean Landed House / 普通清洗有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -84,13 +84,13 @@
           
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo / 特小公寓大扫除                            MYR135 (JB)                             MYR150 (KL)",
+				"label": "Festive Clean Very Small Condo / 特小公寓大扫除                            MYR110 (JB)                                MYR121 (KL)",
 				"displayLabel": "Festive Clean Very Small Condo / 特小公寓大扫除",
 				"orderLabel": "Unit (Festive Clean Very Small Condo / 特小公寓大扫除)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "135",
+					"MYR": "110",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -107,13 +107,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Standard Condo / 标准公寓 大扫除                               MYR55/Hr (JB)                        MYR61/Hr (KL)",
+				"label": "Festive Clean Standard Condo / 标准公寓 大扫除                               MYR50/Hr (JB)                        MYR55/Hr (KL)",
 				"displayLabel": "Festive Clean Std Condo / 标准公寓大扫除",
 				"orderLabel": "Hours (Festive Clean Std Condo / 标准公寓大扫除 )",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "55",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -130,13 +130,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House / 有地住宅大扫除                            MYR55/Hr (JB)                                MYR61/Hr (KL)",
+				"label": "Festive Clean Landed House / 有地住宅大扫除                            MYR50/Hr (JB)                                MYR55/Hr (KL)",
 				"displayLabel": "Festive Clean Landed House / 有地住宅大扫除",
 				"orderLabel": "Hours (Festive Clean Landed House / 有地住宅大扫除)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "55",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -153,13 +153,13 @@
 			
 			"Reno": {
 				"handle": "reno_clean",
-				"label": "Renovation Clean / 装修清洗                          MYR65/Hr (JB)                               MYR72/Hr (KL)",
+				"label": "Renovation Clean / 装修清洗                          MYR55/Hr (JB)                               MYR60.5/Hr (KL)",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "65",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -176,13 +176,13 @@
 			
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                               MYR135 (JB)                               MYR 150 (KL)",
+				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                               MYR115 (JB)                               MYR126.5 (KL)",
 				"displayLabel": "Move Clean Very Small Condo / 搬家清洗特小公寓",
 				"orderLabel": "Unit (Move Clean Very Small Condo / 搬家清洗特小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "135",
+					"MYR": "115",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -199,13 +199,13 @@
 			
 			"Move Big": {
 				"handle": "move_big",
-				"label": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅                            MYR60/Hr (JB)                             MYR67/Hr (KL)",
+				"label": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅                            MYR55/Hr (JB)                             MYR60.5/Hr (KL)",
 				"displayLabel": "Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅",
 				"orderLabel": "Hours (Move Clean Condo or Landed House / 搬家清洗公寓或有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -222,13 +222,13 @@
 			
 			"Outside JB": {
 				"handle": "outside_jb",
-				"label": "Outside JB Clean / 柔佛外清洗                                                        MYR60/Hr",
+				"label": "Outside JB Clean / 柔佛外清洗                                                        MYR55/Hr",
 				"displayLabel": "Outside JB Clean / 柔佛外清洗",
 				"orderLabel": "Hours (Outside JB Clean / 柔佛外清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "60",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -300,17 +300,9 @@
 				"description": "Label standard",
 				"values": {
 					
-				"With tools": {
-						"label": "Blooms provides tools / 公司带工具",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					},
-					
-				"No tools": {
-						"label": "Customer provides tools / 客户提供工具 (-MYR20)",
+									
+					"No tools": {
+						"label": "Customer provides tools / 客户提供工具 (+ MYR20)",
 						"orderLabel": "Customer provides tools / 客户提供工具",
 						"cost": {
 							"SGD": "0",
@@ -319,8 +311,17 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "-20",
+							"MYR": "20",
 							"CNY": "10"
+						}
+					},
+					
+					"With tools": {
+						"label": "Blooms provides tools / 公司带工具",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
 						}
 					}
 				}
