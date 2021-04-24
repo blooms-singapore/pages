@@ -19,7 +19,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "90",
+					"MYR": "110",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -36,13 +36,13 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo / 普通清洗公寓                                  MYR40/Hr (JB)                              MYR44/Hr (KL)",
+				"label": "Standard Clean Condo / 普通清洗公寓                                  MYR45/Hr (JB)                              MYR50/Hr (KL)",
 				"displayLabel": "Std Clean Condo / 普通清洗公寓",
 				"orderLabel": "Hours (Std Clean Condo / 普通清洗公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "40",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -60,13 +60,13 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House / 普通清洗有地住宅                        MYR40/Hr (JB)                            MYR44/Hr (KL)",
+				"label": "Standard Clean Landed House / 普通清洗有地住宅                        MYR45/Hr (JB)                            MYR50/Hr (KL)",
 				"displayLabel": "Std Clean Landed / 普通清洗有地住宅",
 				"orderLabel": "Hours (Std Clean Landed House / 普通清洗有地住宅)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "40",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -302,7 +302,7 @@
 					
 									
 					"No tools": {
-						"label": "Customer provides tools / 客户提供工具 (+ MYR20)",
+						"label": "Customer provides tools / 客户提供工具 (-MYR20)",
 						"orderLabel": "Customer provides tools / 客户提供工具",
 						"cost": {
 							"SGD": "0",
@@ -311,7 +311,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "20",
+							"MYR": "-20",
 							"CNY": "10"
 						}
 					},
