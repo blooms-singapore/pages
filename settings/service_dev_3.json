@@ -301,8 +301,8 @@
 				"values": {
 														
 					"Customer tools": {
-						"label": "Customer provides tools / 客户提供工具",
-						"orderLabel": "Customer provides tools / 客户提供工具",
+						"label": "Customer provides / 客户提供",
+						"orderLabel": "Customer provides / 客户提供",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -317,7 +317,7 @@
 					},
 					
 					"Blooms tools": {
-						"label": "Blooms provides tools / 公司带工具 (+ MYR20)",
+						"label": "Blooms provides / 公司带工具 (+ MYR20)",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
