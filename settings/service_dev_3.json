@@ -5,7 +5,7 @@
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "80.5",
+			"MYR": "71",
 			"CNY": "195"
 		},
 		"hasNote": 1,
