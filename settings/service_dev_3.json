@@ -13,13 +13,13 @@
 			
 			   "Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR90 (JB)                                MYR 99 (KL)",
+				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR80 (JB)                                MYR 88 (KL)",
 				"displayLabel": "Std Clean Very Small Condo / 普通清洗特小公寓",
 				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "90",
+					"MYR": "80",
 					"CNY": "82.5"
 				},
 				"quantity": {
