@@ -220,30 +220,6 @@
 				}
 			},
 			
-			"Outside JB": {
-				"handle": "outside_jb",
-				"label": "Outside JB Clean / 柔佛外清洗                                                        MYR55/Hr",
-				"displayLabel": "Outside JB Clean / 柔佛外清洗",
-				"orderLabel": "Hours (Outside JB Clean / 柔佛外清洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "55",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 480,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-	
-				
 			"PKG 10X": {
 				"handle": "package_10",
 				"label": "Package 10X / 配套 10X                                                          Discount 10%",
