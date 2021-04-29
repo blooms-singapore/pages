@@ -1550,8 +1550,8 @@
 			},			
 			"Survey": {
 				"handle": "survey",
-				"label": "Site Survey / 现场调查                                            Free",
-				"orderLabel": "Trip (Site Survey / 现场调查)",
+				"label": "Renovation or Retrofit Survey / 现场调查                                            Free",
+				"orderLabel": "Trip (Renovation or Retrofit Survey / 现场调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1574,7 +1574,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
