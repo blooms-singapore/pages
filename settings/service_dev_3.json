@@ -1551,7 +1551,7 @@
 			"Survey": {
 				"handle": "survey",
 				"label": "Renovation or Retrofit Survey / 现场调查                                            Free",
-				"orderLabel": "Trip (Renovation or Retrofit Survey / 现场调查)",
+				"orderLabel": "Job (Renovation or Retrofit Survey / 现场调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1559,7 +1559,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
