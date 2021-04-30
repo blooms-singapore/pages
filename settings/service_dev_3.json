@@ -1499,6 +1499,70 @@
 		}
 	},
 	
+	"others": {
+		"name": "Others / 其它",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban","Singapore"],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"others_survey": {
+				"handle": "others_survey",
+				"label": "Retrofit or Renovation Survey / 房屋维修或装修调查                                         MYR20/Job (JB)                               MYR22/Job (KL)",
+				"orderLabel": "Job (Retrofit or Renovation Survey / 房屋维修或装修调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}			
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	"carpentry": {
 		"name": "Carpentry / 家私维修",
 		"lastSlot": "15:00",
@@ -4976,70 +5040,6 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	"others": {
-		"name": "Others / 其它",
-		"lastSlot": "15:30",
-		"disableLocations": ["Seremban","Singapore"],
-		"startPrice": {
-			"SGD": "45",
-			"MYR": "90",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"others_survey": {
-				"handle": "others_survey",
-				"label": "Retrofit or Renovation Survey / 房屋维修或装修调查                                         MYR20/Job (JB)                               MYR22/Job (KL)",
-				"orderLabel": "Job (Retrofit or Renovation Survey / 房屋维修或装修调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}			
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
 							"CNY": "10"
 						}
 					},
