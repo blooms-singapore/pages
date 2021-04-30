@@ -5005,8 +5005,8 @@
 		"options": {
 			"others_survey": {
 				"handle": "others_survey",
-				"label": "House Repair Survey / 房屋维修调查",
-				"orderLabel": "Job (House Repair Survey / 房屋维修调查)",
+				"label": "Retrofit or Renovation Survey / 房屋维修或装修调查",
+				"orderLabel": "Job (Retrofit or Renovation Survey / 房屋维修或装修调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
