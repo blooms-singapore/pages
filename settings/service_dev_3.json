@@ -5006,7 +5006,7 @@
 			"others_survey": {
 				"handle": "others_survey",
 				"label": "House Repair Survey / 房屋维修调查",
-				"orderLabel": "Survey (House Repair Survey / 房屋维修调查)",
+				"orderLabel": "Job (House Repair Survey / 房屋维修调查)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -5014,7 +5014,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Survey",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
