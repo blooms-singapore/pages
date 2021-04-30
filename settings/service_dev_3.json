@@ -4992,6 +4992,70 @@
 		}
 	},
 	
+	"others": {
+		"name": "Others / 其它",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban","Singapore"],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"others_survey": {
+				"handle": "others_survey",
+				"label": "House Repair Survey / 房屋维修调查",
+				"orderLabel": "Survey (House Repair Survey / 房屋维修调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Survey",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}			
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	
 	"house_diagnosis": {
 		"name": "House Diagnosis / 房屋诊断",
