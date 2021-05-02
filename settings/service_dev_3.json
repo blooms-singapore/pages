@@ -226,7 +226,7 @@
 				"displayLabel": "Package 10X / 配套 10X",
 				"orderLabel": "Times (PKG 10X / 配套 10X)",
 				"description": "Label standard",
-				"isPackage": "true",
+				"isPackage": “false",
 				"cost": {
 					"SGD": "10",
 					"MYR": "10",
@@ -235,11 +235,11 @@
 				"quantity": {
 					"label": "Times",
 					"min": 0,
-					"max": 20,
+					"max": 1,
 					"default": 0,
-					"increment": 60,
-					"base": 60,
-					"multiplier": 10
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
 					
 				}
 			},
