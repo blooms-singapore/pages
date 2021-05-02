@@ -224,7 +224,7 @@
 				"handle": "package_10",
 				"label": "Package 10X / 配套 10X                                                          Discount 10%",
 				"displayLabel": "Package 10X / 配套 10X",
-				"orderLabel": "PKG (PKG 10X / 配套 10X)",
+				"orderLabel": "Times (PKG 10X / 配套 10X)",
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
@@ -233,7 +233,7 @@
 					"CNY": "10"
 				},
 				"quantity": {
-					"label": "PKG",
+					"label": "Times",
 					"min": 0,
 					"max": 1,
 					"default": 0,
@@ -248,7 +248,7 @@
 				"handle": "package_20",				
 				"label": "Package 20X / 配套 20X                                            Discount 15%",
 				"displayLabel": "Package 20X / 配套 20X",
-				"orderLabel": "PKG (PKG 20X / 配套 20X)",
+				"orderLabel": "Times (PKG 20X / 配套 20X)",
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
@@ -257,7 +257,7 @@
 					"CNY": "15"
 				},
 				"quantity": {
-					"label": "PKG",
+					"label": "Times",
 					"min": 0,
 					"max": 1,
 					"default": 0,
