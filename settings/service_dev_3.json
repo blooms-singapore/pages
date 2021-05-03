@@ -247,7 +247,7 @@
 				"handle": "package_20",				
 				"label": "Package 20X / 配套 20X                                            Discount 15%",
 				"displayLabel": "Package 20X / 配套 20X",
-				"orderLabel": "Times (PKG 20X / 配套 20X)",
+				"orderLabel": "Package (PKG 20X / 配套 20X)",
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
@@ -256,13 +256,13 @@
 					"CNY": "15"
 				},
 				"quantity": {
-					"label": "Times",
+					"label": "Package",
 					"min": 0,
 					"max": 1,
 					"default": 0,
 					"increment": 1,
 					"base": 1,
-					"multiplier": 10
+					"multiplier": 20
 											
 				}
 			}
