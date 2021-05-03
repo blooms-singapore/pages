@@ -262,7 +262,7 @@
 					"default": 0,
 					"increment": 1,
 					"base": 1,
-					"multiplier": 1
+					"multiplier": 10
 											
 				}
 			}
