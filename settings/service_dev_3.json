@@ -249,7 +249,7 @@
 				"displayLabel": "Package 20X / 配套 20X",
 				"orderLabel": "Times (PKG 20X / 配套 20X)",
 				"description": "Label standard",
-				"isPackage": "true",
+				"isPackage": "false",
 				"cost": {
 					"SGD": "15",
 					"MYR": "15",
