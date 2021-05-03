@@ -107,7 +107,7 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Standard Condo / 标准公寓 大扫除                               MYR50/Hr (JB)                        MYR55/Hr (KL)",
+				"label": "Festive Clean Standard Condo / 标准公寓大扫除                               MYR50/Hr (JB)                        MYR55/Hr (KL)",
 				"displayLabel": "Festive Clean Std Condo / 标准公寓大扫除",
 				"orderLabel": "Hours (Festive Clean Std Condo / 标准公寓大扫除 )",
 				"description": "Label standard",
@@ -153,9 +153,9 @@
 			
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo / 装修清洗特小公寓                          MYR130/Hr (JB)                               MYR143/Hr (KL)",
-				"displayLabel": "Renovation Clean Very Small Condo / 装修清洗特小公寓",
-				"orderLabel": "Unit (Renovation Clean Very Small Condo / 装修清洗特小公寓)",
+				"label": "Renovation Clean Very Small Condo / 特小公寓装修清洗                          MYR130/Hr (JB)                               MYR143/Hr (KL)",
+				"displayLabel": "Renovation Clean Very Small Condo / 特小公寓装修清洗",
+				"orderLabel": "Unit (Renovation Clean Very Small Condo / 特小公寓装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -174,11 +174,11 @@
 				}
 			},
 			
-			"Reno": {
-				"handle": "reno_clean",
-				"label": "Renovation Clean / 装修清洗                          MYR55/Hr (JB)                               MYR60.5/Hr (KL)",
-				"displayLabel": "Renovation Clean / 装修清洗",
-				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
+			"Reno Condo": {
+				"handle": "reno_condo",
+				"label": "Renovation Clean Standard Condo / 标准公寓装修清洗                          MYR55/Hr (JB)                               MYR60.5/Hr (KL)",
+				"displayLabel": "Renovation Clean Standard Condo / 标准公寓装修清洗",
+				"orderLabel": "Hours (Renovation Clean Standard Condo / 标准公寓装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -189,7 +189,30 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 180,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno landed": {
+				"handle": "reno_landed",
+				"label": "Renovation Clean Landed House / 有地住宅装修清洗                          MYR55/Hr (JB)                               MYR60.5/Hr (KL)",
+				"displayLabel": "Renovation Clean Landed House/ 有地住宅装修清洗",
+				"orderLabel": "Hours (Renovation Clean Landed House / 有地住宅装修清洗)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "55",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 360,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
