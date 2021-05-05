@@ -153,13 +153,13 @@
 			
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo / 特小公寓装修清洗                          MYR130/Hr (JB)                               MYR143/Hr (KL)",
+				"label": "Renovation Clean Very Small Condo / 特小公寓装修清洗                          MYR300/Hr (JB)                               MYR330/Hr (KL)",
 				"displayLabel": "Renovation Clean Very Small Condo / 特小公寓装修清洗",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo / 特小公寓装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "130",
+					"MYR": "300",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -174,52 +174,30 @@
 				}
 			},
 			
-			"Reno Condo": {
-				"handle": "reno_condo",
-				"label": "Renovation Clean Standard Condo / 标准公寓装修清洗                          MYR55/Hr (JB)                               MYR60.5/Hr (KL)",
-				"displayLabel": "Renovation Clean Standard Condo / 标准公寓装修清洗",
-				"orderLabel": "Hours (Renovation Clean Standard Condo / 标准公寓装修清洗)",
+			"Reno": {
+				"handle": "reno",
+				"label": "Renovation Clean / 装修清洗                          MYR62.5/Hr (JB)                               MYR69/Hr (KL)",
+				"displayLabel": "Renovation Clean / 装修清洗",
+				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "62.5",
 					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
-					"max": 0,
+					"max": 8,
 					"default": 240,
-					"increment": 30,
+					"increment": 60,
 					"base": 60,
 					"multiplier": 1
 					
 				}
 			},
 			
-			"Reno landed": {
-				"handle": "reno_landed",
-				"label": "Renovation Clean Landed House / 有地住宅装修清洗                          MYR55/Hr (JB)                               MYR60.5/Hr (KL)",
-				"displayLabel": "Renovation Clean Landed House/ 有地住宅装修清洗",
-				"orderLabel": "Hours (Renovation Clean Landed House / 有地住宅装修清洗)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "55",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 360,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
+						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
 				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                               MYR115 (JB)                               MYR126.5 (KL)",
