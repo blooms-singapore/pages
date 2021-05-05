@@ -213,8 +213,8 @@
 					"min": 0,
 					"max": 0,
 					"default": 1,
-					"increment": 30,
-					"base": 60,
+					"increment": 0.5,
+					"base": 1,
 					"multiplier": 1
 					
 				}
