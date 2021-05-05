@@ -190,9 +190,9 @@
 					"min": 0,
 					"max": 8,
 					"default": 240,
-					"increment": 60,
+					"increment": 120,
 					"base": 60,
-					"multiplier": 2
+					"multiplier": 1
 					
 				}
 			},
