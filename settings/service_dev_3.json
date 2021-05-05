@@ -188,7 +188,7 @@
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
-					"max": 8,
+					"max": 0,
 					"default": 240,
 					"increment": 120,
 					"base": 60,
