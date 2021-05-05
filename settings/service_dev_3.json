@@ -246,13 +246,13 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Standard Condo / 标准公寓搬家清洗                         MYR55/Hr (JB)                             MYR60.5/Hr (KL)",
+				"label": "Move Clean Standard Condo / 标准公寓搬家清洗                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
 				"displayLabel": "Move Clean Standard Condo / 标准公寓搬家清洗",
 				"orderLabel": "Hours (Move Clean Standard Condo / 标准公寓搬家清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -269,20 +269,20 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House / 有地住宅搬家清洗                         MYR55/Hr (JB)                             MYR60.5/Hr (KL)",
+				"label": "Move Clean Landed House / 有地住宅搬家清洗                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
 				"displayLabel": "Move Clean Landed / 有地住宅搬家清洗",
 				"orderLabel": "Hours (Move Clean Landed House / 有地住宅搬家清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 360,
+					"default": 300,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
