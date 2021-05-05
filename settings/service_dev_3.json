@@ -174,8 +174,8 @@
 				}
 			},
 			
-			"Reno": {
-				"handle": "reno",
+			"Reno Big": {
+				"handle": "reno_big",
 				"label": "Renovation Clean / 装修清洗                             MYR62.5/Hr (JB)                               MYR69/Hr (KL)",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
