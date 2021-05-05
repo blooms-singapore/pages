@@ -97,12 +97,18 @@ layout: service
       </tr>
       
       <tr>
-        <td><b>Others<br>其它</b></b></td>
-        <td>${params.reno_others}/Hr (小时)<br><br>
+        <td><b>Standard House<br>or Condo<br><br>标准有地住宅或公寓</b></b></td>
+        <td>${params.reno_standard_house}/Hr (小时)<br><br>   <!--Standard House or Condo-->
           <p><b>2BR Condo</b><br>Book 6Hrs<br>
           <p><b>3BR++ Condo</b><br>Book 8Hrs<br>
           <p><b>Landed House<br>or Commercial</b><br>Book 8Hrs</td> <!--${(params.malaysia_sw * 2.5).toFixed(0)}-->
       </tr>
+
+      <tr>
+        <td><b>Big House<br>大型有地住宅</b></td>       <!--Reno Big House-->
+        <td>${params.reno_big_house}/Unit (间)<br>1 to 2 days (天)</td>
+      </tr>
+
      </tbody>
     
      <thead>
