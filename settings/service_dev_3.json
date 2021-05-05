@@ -165,8 +165,8 @@
 				"quantity": {
 					"label": "Unit",
 					"min": 0,
-					"max": 1,
-					"default": 0,
+					"max": 0,
+					"default": 1,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
@@ -176,7 +176,7 @@
 			
 			"Reno": {
 				"handle": "reno",
-				"label": "Renovation Clean / 装修清洗                          MYR62.5/Hr (JB)                               MYR69/Hr (KL)",
+				"label": "Renovation Clean / 装修清洗                             MYR62.5/Hr (JB)                               MYR69/Hr (KL)",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
 				"description": "Label standard",
@@ -192,7 +192,7 @@
 					"default": 240,
 					"increment": 60,
 					"base": 60,
-					"multiplier": 1
+					"multiplier": 2
 					
 				}
 			},
