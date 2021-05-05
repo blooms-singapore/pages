@@ -188,9 +188,9 @@
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
-					"max": 0,
+					"max": 8,
 					"default": 360,
-					"increment": 120,
+					"increment": 60,
 					"base": 60,
 					"multiplier": 1
 					
@@ -211,7 +211,7 @@
 				"quantity": {
 					"label": "Day",
 					"min": 0,
-					"max": 0,
+					"max": 2,
 					"default": 1,
 					"increment": 0.5,
 					"base": 1,
