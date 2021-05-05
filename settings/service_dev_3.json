@@ -176,9 +176,9 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean Standard House or Condo / 标准屋或公寓装修清洗                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
-				"displayLabel": "Renovation Clean Standard House or Condo / 标准屋或公寓装修清洗装修清洗",
-				"orderLabel": "Hours (Renovation Clean Standard House or Condo / 标准屋或公寓装修清洗装修清洗)",
+				"label": "Renovation Clean 1-Storey House or Condo / 单层屋或公寓装修清洗                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
+				"displayLabel": "Renovation Clean 1-Storey House or Condo / 单层屋或公寓装修清洗装修清洗",
+				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo / 单层屋或公寓装修清洗装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
