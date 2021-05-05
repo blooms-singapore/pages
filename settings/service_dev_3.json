@@ -174,11 +174,11 @@
 				}
 			},
 			
-			"Reno Big": {
-				"handle": "reno_big",
-				"label": "Renovation Clean / 装修清洗                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
-				"displayLabel": "Renovation Clean / 装修清洗",
-				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
+			"Reno Others": {
+				"handle": "reno_others",
+				"label": "Renovation Clean Others / 装修清洗其它                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
+				"displayLabel": "Renovation Clean Others / 装修清洗其它",
+				"orderLabel": "Hours (Renovation Clean Others/ 装修清洗其它)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
