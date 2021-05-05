@@ -153,13 +153,13 @@
 			
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo / 特小公寓装修清洗                          MYR300/Hr (JB)                               MYR330/Hr (KL)",
+				"label": "Renovation Clean Very Small Condo / 特小公寓装修清洗                          MYR260/Hr (JB)                               MYR286/Hr (KL)",
 				"displayLabel": "Renovation Clean Very Small Condo / 特小公寓装修清洗",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo / 特小公寓装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "300",
+					"MYR": "260",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -176,13 +176,13 @@
 			
 			"Reno Big": {
 				"handle": "reno_big",
-				"label": "Renovation Clean / 装修清洗                             MYR62.5/Hr (JB)                               MYR69/Hr (KL)",
+				"label": "Renovation Clean / 装修清洗                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
 				"displayLabel": "Renovation Clean / 装修清洗",
 				"orderLabel": "Hours (Renovation Clean / 装修清洗)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "62.5",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
