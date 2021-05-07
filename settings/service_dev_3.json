@@ -1601,8 +1601,8 @@
 			
 			"Project": {
 				"handle": "others_project",
-				"label": "Retrofit/Renovation Projects / 维修或装修项目                                         Per Quotation",
-				"orderLabel": "Job (Retrofit/Renovation Projects / 维修或装修项目)",
+				"label": "Project Order / 项目预订                                         Per Quotation",
+				"orderLabel＂： ＂(Project Order / 项目预订)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
