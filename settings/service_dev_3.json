@@ -1602,7 +1602,7 @@
 			"Project": {
 				"handle": "others_project",
 				"label": "Project Order / 项目预订                                         Per Quotation",
-				"orderLabel＂： ＂(Project Order / 项目预订)",
+				"orderLabel" : "Job (Project Order / 项目预订)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
