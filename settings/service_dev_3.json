@@ -1597,6 +1597,26 @@
 					"default": 0,
 					"base": 60
 				}
+			},
+			
+			"Project": {
+				"handle": "others_project",
+				"label": "Retrofit/Renovation Projects / 维修或装修项目                                         Per Quotation",
+				"orderLabel": "Job (Retrofit/Renovation Projects / 维修或装修项目)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
 			}			
 		},
 		
