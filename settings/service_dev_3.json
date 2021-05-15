@@ -2714,10 +2714,10 @@
 				},
 				"quantity": {
 					"label": "Pax",
-					"min": 1,
+					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			 },
@@ -2734,7 +2734,7 @@
 				},
 				"quantity": {
 					"label": "Job",
-					"min": 1,
+					"min": 0,
 					"max": 0,
 					"increment": 1,
 					"default": 1,
@@ -2754,7 +2754,7 @@
 				},
 				"quantity": {
 					"label": "Job",
-					"min": 1,
+					"min": 0,
 					"max": 0,
 					"increment": 1,
 					"default": 1,
