@@ -1,164 +1,4 @@
 {
-	"installation": {
-		"name": "Installation / 安装",
-		"lastSlot": "15:30",
-		"startPrice": {
-			"SGD": "35.5",
-			"MYR": "66.25",
-			"CNY": "150"
-		},
-		"disableLocations": ["Seremban", "Singapore"],
-		"hasNote": 1,
-		"options": {
-			"Std 1st": {
-				"handle": "std_first",
-				"label": "Standard 1st Hr / 标准第1小时                                   MYR75/Hr",
-				"orderLabel": "Hour (Std Install 1st Hr/普通安装第1小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "75",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Std 2nd": {
-				"handle": "std_second",
-				"label": "Standard 2nd Hr or more / 普通安装第2小时或以上                                         MYR50/Hr",
-				"orderLabel": "Hour (Std Install => 2Hr/普通安装)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "50",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-            "Tech 1st": {
-				"handle": "tech_first",
-				"label": "Technical 1st Hr / 技术安装第1小时                                            MYR95/Hr",
-				"orderLabel": "Hour (Tech Install 1st Hr / 技术安装第1小时)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Tech 2nd": {
-				"handle": "tech_second",
-				"label": "Technical 2Hr or more / 技术安装第2小时或以上                                              MYR60/Hr",
-				"orderLabel": "Hour (Tech Install >= 2Hr/ 技术安装第2小时或以上)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Site Survey": {
-				"handle": "site_survey",
-				"label": "Site Survey / 实地调查                                         Free",
-				"orderLabel": "Trip (Site Survey / 实地调查)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Project": {
-				"handle": "project",
-				"label": "Project / 项目                                       Quotation",
-				"orderLabel": "Job (project)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-            		 }	
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
 	"cleaning": {
 		"name": "Cleaning / 清洗",
 		"lastSlot": "15:30",
@@ -539,7 +379,167 @@
 			}
 		}
 	},
+		
 	
+	"installation": {
+		"name": "Installation / 安装",
+		"lastSlot": "15:30",
+		"startPrice": {
+			"SGD": "35.5",
+			"MYR": "66.25",
+			"CNY": "150"
+		},
+		"disableLocations": ["Seremban", "Singapore"],
+		"hasNote": 1,
+		"options": {
+			"Std 1st": {
+				"handle": "std_first",
+				"label": "Standard 1st Hr / 标准第1小时                                   MYR75/Hr",
+				"orderLabel": "Hour (Std Install 1st Hr/普通安装第1小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Std 2nd": {
+				"handle": "std_second",
+				"label": "Standard 2nd Hr or more / 普通安装第2小时或以上                                         MYR50/Hr",
+				"orderLabel": "Hour (Std Install => 2Hr/普通安装)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+            "Tech 1st": {
+				"handle": "tech_first",
+				"label": "Technical 1st Hr / 技术安装第1小时                                            MYR95/Hr",
+				"orderLabel": "Hour (Tech Install 1st Hr / 技术安装第1小时)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Tech 2nd": {
+				"handle": "tech_second",
+				"label": "Technical 2Hr or more / 技术安装第2小时或以上                                              MYR60/Hr",
+				"orderLabel": "Hour (Tech Install >= 2Hr/ 技术安装第2小时或以上)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Site Survey": {
+				"handle": "site_survey",
+				"label": "Site Survey / 实地调查                                         Free",
+				"orderLabel": "Trip (Site Survey / 实地调查)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Project": {
+				"handle": "project",
+				"label": "Project / 项目                                       Quotation",
+				"orderLabel": "Job (project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+            		 }	
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+		
 	
 	"landscape": {
 		"name": "Landscaping / 园艺修剪",
