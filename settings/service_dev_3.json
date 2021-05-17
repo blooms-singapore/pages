@@ -945,8 +945,8 @@
 		"options": {
 			"AC Package": {
 				"handle": "ac_package",
-				"label": "Malaysia AC PKG.                        马来西亚冷气配套",
-				"orderLabel": "PKG (MY AC PKG / 冷气配套)",
+				"label": "Malaysia AC PKG.",
+				"orderLabel": "PKG (MY AC PKG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -965,8 +965,8 @@
 			
 			"Malaysia SW": {
 				"handle": "malaysia_sw",
-				"label": "Malaysia Standard Wash / 马来西亚普通洗 : 3 or more units / 台 (min 1Hr booking).                   MYR120/Hr",
-				"orderLabel": "Hour (MY Std Wash / 普通洗 >= 3 units)",
+				"label": "Malaysia Standard Wash: 3 or more units / 台 (min 1Hr booking).                        MYR120/Hr",
+				"orderLabel": "Hour (MY Std Wash >= 3 units)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -984,8 +984,8 @@
 			},			
 			"Min Order": {
 				"handle": "min_order",
-				"label": "Malaysia Standard Wash - Min Order / 马来西亚 - 最低服务收费 (Studio, 1BR Apt)                           MYR80/Job",
-				"orderLabel": "Job (MY Min Order / 最低服务收费 (1-2 units))",
+				"label": "Malaysia Standard Wash - Min Order (Studio, 1BR Apt)                           MYR80/Job",
+				"orderLabel": "Job (MY Min Order (1-2 units))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -1003,8 +1003,8 @@
 			},
 			"Malaysia CW": {
 				"handle": "malaysia_cw",
-				"label": "Malaysia / 马来西亚 Chemical Wash / 深入化洗.                           MYR120/Hr/Unit",
-				"orderLabel": "Hour (MY Chemical Wash / 化洗)",
+				"label": "Malaysia Chemical Wash                                      MYR120/Hr/Unit",
+				"orderLabel": "Hour (MY Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -1023,8 +1023,8 @@
 			
 			"Malaysia Small Cassette CW 2-3HP": {
 				"handle": "malaysia_small_cassette_cw",
-				"label": "Malaysia / 马来西亚 Small Cassette Chemical Wash / 小天井式化洗 : 2 to 3HP（马力）",
-				"orderLabel": "Hour (MY Small Cassette Chemical Wash / 小天井式化洗)",
+				"label": "Malaysia Small Cassette Chemical Wash : 2 to 3HP（马力）",
+				"orderLabel": "Hour (MY Small Cassette Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "65",
@@ -1047,8 +1047,8 @@
 			},
 			"Malaysia Big Cassette CW 3.5 to 5HP": {
 				"handle": "malaysia_big_cassette_cw",
-				"label": "Malaysia / 马来西亚 Big Cassette Chemical Wash / 大天井式化洗 : 3.5 to 5HP（马力）",
-				"orderLabel": "Hour (Malaysia Big Cassette Chemical Wash / 大天井式化洗)",
+				"label": "Malaysia Big Cassette Chemical Wash : 3.5 to 5HP",
+				"orderLabel": "Hour (Malaysia Big Cassette Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "98",
@@ -1072,8 +1072,8 @@
 			},
 			"Quotation Enquiry": {				
 				"handle": "quotation_enquiry",
-				"label": "Quotation Enquiry / 咨询报价                                                Quote within 3 Working Days",
-				"orderLabel": "Job (Quotation Enquiry / 咨询报价)",
+				"label": "Quotation Enquiry                                                Quote within 3 Working Days",
+				"orderLabel": "Job (Quotation Enquiry)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1091,8 +1091,8 @@
 			},			
 			"MY Trouble Shoot": {
 				"handle": "my_trouble_shoot",
-				"label": "Malaysia AC Trouble Shoot  / 查找系统问题.                           MYR80/Job",
-				"orderLabel": "Job (AC Trouble Shoot / 查找系统问题)",
+				"label": "Malaysia AC Trouble Shoot.                                MYR80/Job",
+				"orderLabel": "Job (AC Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -1110,8 +1110,8 @@
 			},			
 			"AC Project": {
 				"handle": "ac_project",
-				"label": "Aircon Project / 冷气项目",
-				"orderLabel": "Job (Aircon Project / 冷气项目)",
+				"label": "Aircon Project                                     Per Quotation",
+				"orderLabel": "Job (Aircon Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
