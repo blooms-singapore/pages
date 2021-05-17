@@ -965,7 +965,7 @@
 			
 			"Malaysia SW": {
 				"handle": "malaysia_sw",
-				"label": "Malaysia Standard Wash: 3 or more units / 台 (min 1Hr booking).                        MYR120/Hr",
+				"label": "Malaysia Standard Wash: 3 or more units (min 1Hr booking).                        MYR120/Hr",
 				"orderLabel": "Hour (MY Std Wash >= 3 units)",
 				"description": "Label standard",
 				"cost": {
@@ -1023,7 +1023,7 @@
 			
 			"Malaysia Small Cassette CW 2-3HP": {
 				"handle": "malaysia_small_cassette_cw",
-				"label": "Malaysia Small Cassette Chemical Wash : 2 to 3HP（马力）",
+				"label": "Malaysia Small Cassette Chemical Wash : 2 to 3HP",
 				"orderLabel": "Hour (MY Small Cassette Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
