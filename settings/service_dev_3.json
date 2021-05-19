@@ -555,8 +555,8 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "(A) 1st Hour Rate                              MYR80/Hr",
-				"orderLabel": "Hour (1st Hourr)",
+				"label": "(A) Standard Plumbing 1st Hour	                              MYR80/Hr",
+				"orderLabel": "Hour (Std Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -574,8 +574,8 @@
 			},
 			"=>2Hr": {
 				"handle": "second_or_more_hr",
-				"label": "(A) 2nd Hour & more Rate                                    MYR60/Hr",
-				"orderLabel": "Hour (2nd Hour & more)",
+				"label": "(A) Standard Plumbing 2nd Hour or more                                    MYR60/Hr",
+				"orderLabel": "Hour (Std Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -594,7 +594,7 @@
 			"Survey": {
 				"handle": "survey",
 				"label": "(A) Non-Std Plumbing Survey                                      MYR20/Trip",
-				"orderLabel": "Trip (Survey)",
+				"orderLabel": "Trip (Non-Std Plumbing Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -651,7 +651,7 @@
 			"Water Tank >= 2nd Hr": {
 				"handle": "water_tank_second_or_more_hr",
 				"label": "(B) Tank Wash 2nd Hour or more                                       MYR80/Hr",
-				"orderLabel": "Hour (Tank Wash 2 Hour or more)",
+				"orderLabel": "Hour (Tank Wash 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -707,8 +707,8 @@
 			},			
 			"Tank Repair >= 2nd Hr": {
 				"handle": "tank_repair_second_or_more_hr",
-				"label": "(B) Tank Repair 2nd Hour & more                                       MYR80/Hr",
-				"orderLabel": "Hour (Tank Repair 2nd Hour & more)",
+				"label": "(B) Tank Repair 2nd Hour or more                                       MYR80/Hr",
+				"orderLabel": "Hour (Tank Repair 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -747,7 +747,7 @@
 			"Sink Poppy": {
 				"handle": "sink_poppy",
 				"label": "(C）Sink Poppy                                       MYR30/Pc",
-				"orderLabel": "Pc (Sink Poppy",
+				"orderLabel": "Pc (Sink Poppy)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
