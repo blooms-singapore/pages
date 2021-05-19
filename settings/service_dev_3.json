@@ -879,7 +879,7 @@
 					"default": 0,
 					"base": 60
 				}
-			}
+			},
 			
 			"Project": {
 				"handle": "project",
