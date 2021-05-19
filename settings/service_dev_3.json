@@ -1284,17 +1284,17 @@
 			},
 						
 			"Tank Project": {
-				"handle": "survey",
-				"label": "Tank Issue Survey                                             MYR20/Trip",
-				"orderLabel": "Trip (Tank Issue Survey)",
+				"handle": "tank_project",
+				"label": "Tank Project                                             Per Quotation",
+				"orderLabel": "Job (Tank Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
