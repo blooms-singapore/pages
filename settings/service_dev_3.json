@@ -1125,7 +1125,7 @@
 			
 			"Std Plumbing 2nd Hr": {
 				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more                                    MYR60/Hr",
+				"label": "Standard Plumbing 2nd Hour or more                                    MYR60/Hr (JB)",
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -1178,6 +1178,46 @@
 					"min": 0,
 					"max": 1,
 					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 1st Hr": {
+				"handle": "tank_wash_first_hour",
+				"label": "Tank Wash 1st Hour                                    MYR120/Hr (JB)",
+				"orderLabel": "Hour (Tank Wash 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 2nd Hr": {
+				"handle": "tank_wash_second_hour",
+				"label": "Tank Wash 2nd Hour or more                                    MYR80/Hr (JB)",
+				"orderLabel": "Hour (Tank Wash 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
 					"default": 0,
 					"base": 60
 				}
