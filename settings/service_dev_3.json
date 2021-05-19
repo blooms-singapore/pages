@@ -1326,8 +1326,8 @@
 			
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "(D）Trouble Shoot                                              MYR60/Job",
-				"orderLabel": "Job ((D）Trouble Shoot)",
+				"label": "Trouble Shoot                                              MYR60/Job",
+				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
