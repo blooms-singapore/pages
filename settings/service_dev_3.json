@@ -1723,8 +1723,8 @@
 		"options": {
 			"others_survey": {
 				"handle": "others_survey",
-				"label": "Retrofit or Renovation Survey / 房屋维修或装修调查                                         MYR20/Job (JB)                               MYR22/Job (KL)",
-				"orderLabel": "Trip (Retrofit or Renovation Survey / 房屋维修或装修调查)",
+				"label": "Retrofit or Renovation Survey                                         MYR20/Job (JB)                               MYR22/Job (KL)",
+				"orderLabel": "Trip (Retrofit or Renovation Survey",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1743,8 +1743,8 @@
 			
 			"Project": {
 				"handle": "others_project",
-				"label": "Project Order / 项目预订                                         Per Quotation",
-				"orderLabel" : "Job (Project Order / 项目预订)",
+				"label": "Project Order                                         Per Quotation",
+				"orderLabel" : "Job (Project Order)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1768,7 +1768,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -1782,7 +1782,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
