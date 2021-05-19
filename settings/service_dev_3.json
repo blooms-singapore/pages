@@ -1,6 +1,6 @@
 {
 	"cleaning": {
-		"name": "Cleaning / 清洗",
+		"name": "Cleaning",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
@@ -382,7 +382,7 @@
 		
 	
 	"installation": {
-		"name": "Installation / 安装",
+		"name": "Installation",
 		"lastSlot": "15:30",
 		"startPrice": {
 			"SGD": "35.5",
@@ -543,7 +543,7 @@
 	
 	
 	"plumbing": {
-		"name": "Plumbing / 水喉工",
+		"name": "Plumbing",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
@@ -825,7 +825,7 @@
 	
 	
 	"electrical": {
-		"name": "Electrical / 电工",
+		"name": "Electrical",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -933,7 +933,7 @@
 	
 		
 	"aircon": {
-		"name": "Aircon Works / 冷气",
+		"name": "Aircon Works",
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
@@ -1205,7 +1205,7 @@
 
 	
 	"landscape": {
-		"name": "Landscaping / 园艺修剪",
+		"name": "Landscape",
 		"lastSlot": "14:30",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -1371,7 +1371,7 @@
 	
 		
 	"clean-water": {
-		"name": "Clean Water / 过滤水",
+		"name": "Clean Water",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban","Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -1497,7 +1497,7 @@
 	
 	
 	"painting": {
-		"name": "Paint & Partition / 油漆和隔板",
+		"name": "Paint & Partition",
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -1698,7 +1698,7 @@
 	},	
 	
 	"others": {
-		"name": "Others / 其它",
+		"name": "Others",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban","Singapore"],
 		"startPrice": {
@@ -1782,7 +1782,7 @@
 	},
 	
 	"carpentry": {
-		"name": "Carpentry / 家私维修",
+		"name": "Carpentry",
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -1902,7 +1902,7 @@
 	},
 	
 	"computer": {
-		"name": "Computer & Digital Entertainment / 电脑和娱乐",
+		"name": "Computer & Digital Entertainment",
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -2107,7 +2107,7 @@
 	
 	
 	"tiling": {
-		"name": "Tiling & Concrete / 瓷砖和水泥",
+		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -2308,7 +2308,7 @@
 	},
 	
 	"locksmith": {
-		"name": "Locksmith / 锁匠",
+		"name": "Locksmith",
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
@@ -2545,7 +2545,7 @@
 		
 	
 	"runner": {
-		"name": "Runner & Helper / 服务代劳",
+		"name": "Runner & Helper",
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
@@ -2695,7 +2695,7 @@
 	
 	
 	"home-security": {
-		"name": "Home Security / 居家保安",
+		"name": "Home Security",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
@@ -2800,7 +2800,7 @@
 	
 	
 	"printer": {
-		"name": "Printer Ink / 打印机墨水",
+		"name": "Printer Ink",
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand. MOQ = MYR100",
@@ -4551,7 +4551,7 @@
 	
 	
 	"car-care": {
-		"name": "Car Care / 汽车护理",
+		"name": "Car Care",
 		"lastSlot": "14:00",
 		"disableLocations":["Kuala Lumpur","Singapore","Johor Bahru"],
 		"startPrice": {
@@ -4897,7 +4897,7 @@
 
 	
 	"pet": {
-		"name": "Pet / 宠物",
+		"name": "Pet",
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
@@ -5065,7 +5065,7 @@
 	
 	
 	"waterproof": {
-		"name": "Waterproofing / 防水",
+		"name": "Waterproofing",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
@@ -5150,7 +5150,7 @@
 	
 	
 	"house_diagnosis": {
-		"name": "House Diagnosis / 房屋诊断",
+		"name": "House Diagnosis",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
