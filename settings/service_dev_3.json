@@ -1509,8 +1509,8 @@
 		"options": {
 			"1st Hr Labour Booking": {
 				"handle": "first_hr_labour",
-				"label": "Malaysia: 1st Hour Booking                                   MYR70/Hr",
-				"orderLabel": "Hour (1st Hr Booking)",
+				"label": "Malaysia: Labour Rate 1st Hour                                        MYR70/Hr",
+				"orderLabel": "Hour (Labour Rate 1st Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -1528,8 +1528,8 @@
 			},
 			"2nd Hr Labour Booking": {
 				"handle": "second_hr_more_labour",
-				"label": "Malaysia: 2nd or more Hour Booking                                        MYR40/Hr",
-				"orderLabel": "Hour (Malaysia 2nd or more Hour Booking)",
+				"label": "Malaysia: Labour Rate 2nd or more Hour                                         MYR40/Hr",
+				"orderLabel": "Hour (Labour Rate 2nd or more Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1566,7 +1566,7 @@
 			},			
 		  	"Paint Project": {
 		  		"handle": "paint_project",
-				"label": "Project (SG & MY)                                              Per Quotation",
+				"label": "Paint Project (MY or SG)                                              Per Quotation",
 				"description": "Paint Project",
 				"cost": {
 					"SGD": "0",
@@ -1623,8 +1623,8 @@
 			},
 			"SIN 1st Hr Labour Booking": {
 				"handle": "sg_first_hr_labour",
-				"label": "SG 1st Hr Booking",
-				"orderLabel": "Hour (SG 1st Hr Booking)",
+				"label": "SG 1st Hour",
+				"orderLabel": "Hour (SG 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -1642,8 +1642,8 @@
 			},
 			"SIN 2nd Hr Labour Booking": {
 				"handle": "sg_second_or_more_hr_labour",
-				"label": "SG 2nd or more Hour Booking",
-				"orderLabel": "Hour (SG 2nd or more Hr Booking)",
+				"label": "SG 2nd or more Hour",
+				"orderLabel": "Hour (SG 2nd or more Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -1666,7 +1666,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -1680,7 +1680,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
