@@ -1105,7 +1105,7 @@
 			
 			"Tank Project": {
 				"handle": "tank_project",
-				"label": "(B）Tank Project",
+				"label": "(B)Tank Project",
 				"orderLabel": "Job (Tank Project)",
 				"description": "Label standard",
 				"cost": {
@@ -1125,7 +1125,7 @@
 			
 			"Sink Poppy": {
 				"handle": "sink_poppy",
-				"label": "(C）Sink Poppy                                       MYR30/Pc",
+				"label": "(C)Sink Poppy                                       MYR30/Pc",
 				"orderLabel": "Pc (Sink Poppy)",
 				"description": "Label standard",
 				"cost": {
