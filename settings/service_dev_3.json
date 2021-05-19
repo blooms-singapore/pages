@@ -13,9 +13,9 @@
 			
 			   "Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo / 普通清洗特小公寓                             MYR80 (JB)                                MYR 88 (KL)",
-				"displayLabel": "Std Clean Very Small Condo / 普通清洗特小公寓",
-				"orderLabel": "Unit (Standard Clean Very Small Condo / 普通清洗特小公寓)",
+				"label": "Standard Clean Very Small Condo                             MYR80 (JB)                                MYR 88 (KL)",
+				"displayLabel": "Std Clean Very Small Condo",
+				"orderLabel": "Unit (Standard Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -36,9 +36,9 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo / 普通清洗公寓                                  MYR40/Hr (JB)                              MYR44/Hr (KL)",
-				"displayLabel": "Std Clean Condo / 普通清洗公寓",
-				"orderLabel": "Hours (Std Clean Condo / 普通清洗公寓)",
+				"label": "Standard Clean Condo                                  MYR40/Hr (JB)                              MYR44/Hr (KL)",
+				"displayLabel": "Standard Clean Condo",
+				"orderLabel": "Hours (Standard Clean Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -60,9 +60,9 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House / 普通清洗有地住宅                        MYR40/Hr (JB)                            MYR44/Hr (KL)",
-				"displayLabel": "Std Clean Landed / 普通清洗有地住宅",
-				"orderLabel": "Hours (Std Clean Landed House / 普通清洗有地住宅)",
+				"label": "Standard Clean Landed House                        MYR40/Hr (JB)                            MYR44/Hr (KL)",
+				"displayLabel": "Standard Clean Landed House",
+				"orderLabel": "Hours (Standar Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -84,9 +84,9 @@
           
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo / 特小公寓大扫除                            MYR110 (JB)                                MYR121 (KL)",
-				"displayLabel": "Festive Clean Very Small Condo / 特小公寓大扫除",
-				"orderLabel": "Unit (Festive Clean Very Small Condo / 特小公寓大扫除)",
+				"label": "Festive Clean Very Small Condo                            MYR110 (JB)                                MYR121 (KL)",
+				"displayLabel": "Festive Clean Very Small Condo",
+				"orderLabel": "Unit (Festive Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -107,9 +107,9 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Standard Condo / 标准公寓大扫除                               MYR50/Hr (JB)                        MYR55/Hr (KL)",
-				"displayLabel": "Festive Clean Std Condo / 标准公寓大扫除",
-				"orderLabel": "Hours (Festive Clean Std Condo / 标准公寓大扫除 )",
+				"label": "Festive Clean Standard Condo                               MYR50/Hr (JB)                        MYR55/Hr (KL)",
+				"displayLabel": "Festive Clean Std Condo",
+				"orderLabel": "Hours (Festive Clean Std Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -130,9 +130,9 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House / 有地住宅大扫除                            MYR50/Hr (JB)                                MYR55/Hr (KL)",
-				"displayLabel": "Festive Clean Landed House / 有地住宅大扫除",
-				"orderLabel": "Hours (Festive Clean Landed House / 有地住宅大扫除)",
+				"label": "Festive Clean Landed House                            MYR50/Hr (JB)                                MYR55/Hr (KL)",
+				"displayLabel": "Festive Clean Landed House",
+				"orderLabel": "Hours (Festive Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -153,9 +153,9 @@
 			
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo / 特小公寓装修清洗                          MYR260/Hr (JB)                               MYR286/Hr (KL)",
-				"displayLabel": "Renovation Clean Very Small Condo / 特小公寓装修清洗",
-				"orderLabel": "Unit (Renovation Clean Very Small Condo / 特小公寓装修清洗)",
+				"label": "Renovation Clean Very Small Condo                          MYR260/Hr (JB)                               MYR286/Hr (KL)",
+				"displayLabel": "Renovation Clean Very Small Condo",
+				"orderLabel": "Unit (Renovation Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -176,9 +176,9 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo / 单层屋或公寓装修清洗                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
-				"displayLabel": "Renovation Clean 1-Storey House or Condo / 单层屋或公寓装修清洗",
-				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo / 单层屋或公寓装修清洗)",
+				"label": "Renovation Clean 1-Storey House or Condo                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
+				"displayLabel": "Renovation Clean 1-Storey House or Condo",
+				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -199,9 +199,9 @@
 			
 			"Reno Big House": {
 				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House / 大屋装修清洗                             MYR600/Day (JB)                               MYR660/Day (KL)",
-				"displayLabel": "Renovation Clean Big House / 大屋装修清洗",
-				"orderLabel": "Day (Renovation Clean Big House / 大屋装修清洗)",
+				"label": "Renovation Clean Big House                             MYR600/Day (JB)                               MYR660/Day (KL)",
+				"displayLabel": "Renovation Clean Big House",
+				"orderLabel": "Day (Renovation Clean Big House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -223,9 +223,9 @@
 						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo / 搬家清洗特小公寓                               MYR115 (JB)                               MYR126.5 (KL)",
-				"displayLabel": "Move Clean Very Small Condo / 搬家清洗特小公寓",
-				"orderLabel": "Unit (Move Clean Very Small Condo / 搬家清洗特小公寓)",
+				"label": "Move Clean Very Small Condo                               MYR115 (JB)                               MYR126.5 (KL)",
+				"displayLabel": "Move Clean Very Small Condo",
+				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -246,9 +246,9 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Standard Condo / 标准公寓搬家清洗                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
-				"displayLabel": "Move Clean Standard Condo / 标准公寓搬家清洗",
-				"orderLabel": "Hours (Move Clean Standard Condo / 标准公寓搬家清洗)",
+				"label": "Move Clean Standard Condo                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
+				"displayLabel": "Move Clean Standard Condo",
+				"orderLabel": "Hours (Move Clean Standard Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -269,9 +269,9 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House / 有地物业搬家清洗                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
-				"displayLabel": "Move Clean Landed / 有地物业搬家清洗",
-				"orderLabel": "Hours (Move Clean Landed House / 有地物业搬家清洗)",
+				"label": "Move Clean Landed House                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
+				"displayLabel": "Move Clean Landed House",
+				"orderLabel": "Hours (Move Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -292,9 +292,9 @@
 			
 			"PKG 10X": {
 				"handle": "package_10",
-				"label": "Package 10X / 配套 10X                                                          Discount 10%",
-				"displayLabel": "Package 10X / 配套 10X",
-				"orderLabel": "Package (PKG 10X / 配套 10X)",
+				"label": "Package 10X                                                          Discount 10%",
+				"displayLabel": "Package 10X",
+				"orderLabel": "Package (PKG 10X)",
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
@@ -315,9 +315,9 @@
 			
 			"PKG 20X": {
 				"handle": "package_20",				
-				"label": "Package 20X / 配套 20X                                            Discount 15%",
-				"displayLabel": "Package 20X / 配套 20X",
-				"orderLabel": "Package (PKG 20X / 配套 20X)",
+				"label": "Package 20X                                            Discount 15%",
+				"displayLabel": "Package 20X",
+				"orderLabel": "Package (PKG 20X)",
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
@@ -341,13 +341,13 @@
 		
 	"types": {
 			"tools": {
-				"label": "Tools/工具?",
+				"label": "Tools?",
 				"description": "Label standard",
 				"values": {
 														
 					"Customer tools": {
-						"label": "Customer provides / 客户提供",
-						"orderLabel": "Customer provides / 客户提供",
+						"label": "Customer provides",
+						"orderLabel": "Customer provides",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -362,7 +362,7 @@
 					},
 					
 					"Blooms tools": {
-						"label": "Blooms provides / 公司带工具 (+ MYR20)",
+						"label": "Blooms provides (+ MYR20)",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
