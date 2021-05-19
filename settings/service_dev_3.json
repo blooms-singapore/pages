@@ -1397,8 +1397,8 @@
 			
 			"Survey JB": {
 				"handle": "survey",
-				"label": "Site Survey (JB Area) / 现场调查 (柔佛地区)                                             Free",
-				"orderLabel": "Trip (Site Survey (JB Area) / 现场调查 (柔佛地区))",
+				"label": "Site Survey (JB Area)                                             Free",
+				"orderLabel": "Trip (Site Survey (JB Area))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1417,8 +1417,8 @@
 			
 		"Survey Outside JB": {
 				"handle": "outside_jb",
-				"label": "Site Survey (Outside JB) / 现场调查 (柔佛外地区)                                          RM30/Trip",
-				"orderLabel": "Trip (Site Survey (Outside JB Area) / 现场调查 (柔佛外地区))",
+				"label": "Site Survey (Outside JB)                                          RM30/Trip",
+				"orderLabel": "Trip (Site Survey (Outside JB Area))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1437,8 +1437,8 @@
 	
 			"Outdoor": {
 				"handle": "outdoor",
-				"label": "Outdoor Filter Installation / 户外过滤器安装                                       MYR1350/Set",
-				"orderLabel": "Set (Outdoor Filter Installation / 户外过滤器安装)",
+				"label": "Outdoor Filter Installation                                       MYR1350/Set",
+				"orderLabel": "Set (Outdoor Filter Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1457,8 +1457,8 @@
 			
 			"Auto Timer": {
 				"handle": "auto_timer",
-				"label": "Automatic Bleed Timer / 自动废水排放时器                                       MYR100/Set",
-				"orderLabel": "Set (Automatic Bleed Timer / 自动废水排放时器)",
+				"label": "Automatic Bleed Timer                                       MYR100/Set",
+				"orderLabel": "Set (Automatic Bleed Timer)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1482,7 +1482,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -1496,7 +1496,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1541,12 +1541,12 @@
 			},
 			"2nd Hr Labour Booking": {
 				"handle": "second_hr_more_labour",
-				"label": "Malaysia: Labour Rate 2nd or more Hour                                         MYR40/Hr",
+				"label": "Malaysia: Labour Rate 2nd or more Hour                                         MYR45/Hr",
 				"orderLabel": "Hour (Labour Rate 2nd or more Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "40",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
