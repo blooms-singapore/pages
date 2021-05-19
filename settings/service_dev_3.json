@@ -1237,7 +1237,7 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
