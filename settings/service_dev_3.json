@@ -394,8 +394,8 @@
 		"options": {
 			"Std 1st": {
 				"handle": "std_first",
-				"label": "Standard 1st Hr / 标准第1小时                                   MYR75/Hr",
-				"orderLabel": "Hour (Std Install 1st Hr/普通安装第1小时)",
+				"label": "Standard Install 1st Hour                                   MYR75/Hr",
+				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -413,8 +413,8 @@
 			},
 			"Std 2nd": {
 				"handle": "std_second",
-				"label": "Standard 2nd Hr or more / 普通安装第2小时或以上                                         MYR50/Hr",
-				"orderLabel": "Hour (Std Install => 2Hr/普通安装)",
+				"label": "Standard Install 2nd Hour or more                                         MYR50/Hr",
+				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -432,8 +432,8 @@
 			},
             "Tech 1st": {
 				"handle": "tech_first",
-				"label": "Technical 1st Hr / 技术安装第1小时                                            MYR95/Hr",
-				"orderLabel": "Hour (Tech Install 1st Hr / 技术安装第1小时)",
+				"label": "Technical Install 1st Hour                                            MYR95/Hr",
+				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -451,8 +451,8 @@
 			},
 			"Tech 2nd": {
 				"handle": "tech_second",
-				"label": "Technical 2Hr or more / 技术安装第2小时或以上                                              MYR60/Hr",
-				"orderLabel": "Hour (Tech Install >= 2Hr/ 技术安装第2小时或以上)",
+				"label": "Technical Install 2nd Hour or more                                              MYR60/Hr",
+				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -470,8 +470,8 @@
 			},
 			"Site Survey": {
 				"handle": "site_survey",
-				"label": "Site Survey / 实地调查                                         Free",
-				"orderLabel": "Trip (Site Survey / 实地调查)",
+				"label": "Site Survey                                         Free",
+				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -489,8 +489,8 @@
 			},
 			"Project": {
 				"handle": "project",
-				"label": "Project / 项目                                       Quotation",
-				"orderLabel": "Job (project)",
+				"label": "Installation Project                                       Per Quotation",
+				"orderLabel": "Job (Installation Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -514,7 +514,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -528,7 +528,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
