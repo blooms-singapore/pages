@@ -1509,8 +1509,8 @@
 		"options": {
 			"1st Hr Labour Booking": {
 				"handle": "first_hr_labour",
-				"label": "Malaysia / 马来西亚: 1st Hour Booking / 第1小时预订                             MYR70/Hr",
-				"orderLabel": "Hour (1st Hr Booking / 第1小时预订)",
+				"label": "Malaysia: 1st Hour Booking                                   MYR70/Hr",
+				"orderLabel": "Hour (1st Hr Booking)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -1528,12 +1528,12 @@
 			},
 			"2nd Hr Labour Booking": {
 				"handle": "second_hr_more_labour",
-				"label": "Malaysia / 马来西亚: 2nd or more Hour Booking / 2小时以上预订                                    MYR45/Hr",
-				"orderLabel": "Hour (Malaysia / 马来西亚   2nd or more Hour Booking / 2小时以上预订)",
+				"label": "Malaysia: 2nd or more Hour Booking                                        MYR40/Hr",
+				"orderLabel": "Hour (Malaysia 2nd or more Hour Booking)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1547,8 +1547,8 @@
 			},			
 			"MY Survey": {
 				"handle" : "my_survey",
-				"label": "Malaysia / 马来西亚    House Survey / 调查                                      Free",
-				"description": "Malaysia / 马来西亚 Survey / 调查",
+				"label": "Malaysia House Survey                                          Free",
+				"description": "Malaysia Survey",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
@@ -1566,8 +1566,8 @@
 			},			
 		  	"Paint Project": {
 		  		"handle": "paint_project",
-				"label": "Project / 项目 (SG & MY)                                            Quotation",
-				"description": "Project / 项目",
+				"label": "Project (SG & MY)                                              Per Quotation",
+				"description": "Paint Project",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
