@@ -977,7 +977,7 @@
 			"Survey": {
 				"handle": "survey",
 				"label": "(A) Non-Std Plumbing Survey                                      MYR20/Trip",
-				"orderLabel": "Trip (Non-Std Plumbing Survey)",
+				"orderLabel": "Trip (Non Standard Plumbing Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
