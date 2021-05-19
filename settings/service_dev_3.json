@@ -835,25 +835,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Project": {
-				"handle": "project",
-				"label": "Electrical Project",
-				"orderLabel": "Job (Electrical Project)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
+			
 			"Survey": {
 				"handle": "survey",
 				"label": "Site Survey",
@@ -872,7 +854,8 @@
 					"default": 0,
 					"base": 60
 				}
-			},					
+			},
+			
 			"Emergency": {
 				"handle": "emergency",
 				"label": "Emergency Booking",
@@ -897,7 +880,28 @@
 					"base": 60
 				}
 			}
+			
+			"Project": {
+				"handle": "project",
+				"label": "Electrical Project",
+				"orderLabel": "Job (Electrical Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}		
 		},
+
 	    "types": {
 			"house": {
 				"label": "House Type",
