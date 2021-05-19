@@ -1103,6 +1103,26 @@
 		"hasNote": 1,
 		"options": {
 			
+			"Std Plumbing": {
+				"handle": "first_hour",
+				"label": "(A)Standard Plumbing 1st Hour",
+				"orderLabel": "Hour ((A) Standard Plumbing 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
 			"Tank Project": {
 				"handle": "tank_project",
 				"label": "(B)Tank Project",
