@@ -1305,8 +1305,8 @@
 			
 			"Sink Poppy": {
 				"handle": "sink_poppy",
-				"label": "(C)Sink Poppy                                       MYR30/Pc",
-				"orderLabel": "Pc (Sink Poppy)",
+				"label": "Sink Poppy                                       MYR30/Set",
+				"orderLabel": "Set (Sink Poppy)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -1314,7 +1314,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Pc",
+					"label": "Set",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
