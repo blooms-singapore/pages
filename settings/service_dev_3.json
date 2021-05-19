@@ -1124,9 +1124,9 @@
 			},
 			
 			"Std Plumbing 2nd Hr": {
-				"handle": "second_or_more_hour",
-				"label": "Standard Plumbing 2nd or more Hour                                 MYR60/Hr",
-				"orderLabel": "Hour (Standard Plumbing 2nd or more Hour)",
+				"handle": "second_hour",
+				"label": "Standard Plumbing 2nd Hour or more                                    MYR60/Hr",
+				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
