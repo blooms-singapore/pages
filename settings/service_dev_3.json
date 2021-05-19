@@ -837,8 +837,8 @@
 		"options": {
 			"Project": {
 				"handle": "project",
-				"label": "Electrical Project / 电工项目",
-				"orderLabel": "Job (EL Project / 电工项目)",
+				"label": "Electrical Project",
+				"orderLabel": "Job (Electrical Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -856,8 +856,8 @@
 			},			
 			"Survey": {
 				"handle": "survey",
-				"label": "Site Survey / 实地调查",
-				"orderLabel": "Trip (Survey / 第2小时以上)",
+				"label": "Site Survey",
+				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -875,8 +875,8 @@
 			},					
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking / 紧急预订",
-				"orderLabel": "Trip (Emergency / 紧急)",
+				"label": "Emergency Booking",
+				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -904,7 +904,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -918,7 +918,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1217,8 +1217,8 @@
 		"options": {
 			"1st Hr cutting": {
 				"handle": "first_hr_cutting",
-				"label": "1st Hr Cut / 第1小时修剪                               MYR50/Hr",
-				"orderLabel": "Hour (1st Hr Cut & Trim / 第1小时修剪)",
+				"label": "1st Hour Cut                               MYR50/Hr",
+				"orderLabel": "Hour (1st Hour Cut & Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1236,8 +1236,8 @@
 			},			
 			">=2nd Hr cutting": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hr & more Cut / 第2小时以上修剪                           MYR40/Hr",
-				"orderLabel": "Hour (2nd Hr & more Cut / 第2小时以上修剪)",
+				"label": "2nd Hour & more Cut                           MYR40/Hr",
+				"orderLabel": "Hour (2nd Hour & more Cut)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1255,8 +1255,8 @@
 			},	
 			"survey": {
 				"handle": "survey",
-				"label": "Site Survey / 实地调查                            Free",
-				"orderLabel": "Trip (Site Survey / 实地调查)",
+				"label": "Site Survey                            Free",
+				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1275,8 +1275,8 @@
 			},
 			"Project": {
 				"handle": "project",
-				"label": "Project / 项目",
-				"orderLabel": "Job (Project / 项目)",
+				"label": "Landscape Project",
+				"orderLabel": "Job (Landscape Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1296,8 +1296,8 @@
 			
 			"Small Debri": {
 				"handle": "small_debri",
-				"label": "Small Debri Disposal / 小垃圾处理 <=3 Bags                         MYR35",
-				"orderLabel": "Job (Small Debri Disposal / 小垃圾处理)",
+				"label": "Small Debri Disposal <=3 Bags                         MYR35",
+				"orderLabel": "Job (Small Debri Disposal)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1317,8 +1317,8 @@
 			
 			"Big Debri": {
 				"handle": "big_debri",
-				"label": "Big Debri Disposal / 大垃圾处理 >3 Bags                                MYR50",
-				"orderLabel": "Job (Big Debri Disposal / 大垃圾处理)",
+				"label": "Big Debri Disposal >3 Bags                                MYR50",
+				"orderLabel": "Job (Big Debri Disposal)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1343,7 +1343,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -1357,7 +1357,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
