@@ -2180,8 +2180,8 @@
 						
 			"Project Survey": {
 				"handle": "survey",
-				"label": "Project Survey                                                   Free",
-				"orderLabel": "Trip (Project Survey)",
+				"label": "Survey                                                   Free",
+				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
