@@ -782,7 +782,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -796,7 +796,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1732,8 +1732,8 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "1st Hr Rate / 第1小时收费                                     MYR60/Hr",
-				"orderLabel": "Hour (1st Hr / 第1小时)",
+				"label": "1st Hour                                       MYR60/Hr",
+				"orderLabel": "Hour (1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -1751,8 +1751,8 @@
 			},			
 			"2Hr Rate": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hr & more Rate / 第2小时以上收费                                             MYR50/Hr",
-				"orderLabel": "Hour (2nd Hr onwards / 第2小时以上)",
+				"label": "2nd Hour & more                                             MYR50/Hr",
+				"orderLabel": "Hour (2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1770,8 +1770,8 @@
 			},			
 			"Survey": {
 				"handle": "survey",
-				"label": "Renovation or Retrofit Survey / 现场调查                                            Free",
-				"orderLabel": "Job (Renovation or Retrofit Survey / 现场调查)",
+				"label": "Renovation / Retrofit Survey                                            Free",
+				"orderLabel": "Job (Renovation / Retrofit Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1789,8 +1789,8 @@
 			},			
 			"Project": {
 				"handle": "projects",
-				"label": "Project / 项目                                            Quotation",
-				"orderLabel": "Job (Project / 项目)",
+				"label": "Renovation Projects                                            Per Quotation",
+				"orderLabel": "Job (Renovation Projects)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1813,7 +1813,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -1827,7 +1827,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
