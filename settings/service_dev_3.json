@@ -1579,7 +1579,7 @@
 			},			
 		  	"Paint Project": {
 		  		"handle": "paint_project",
-				"label": "Paint Project (MY or SG)                                              Per Quotation",
+				"label": "Paint Project                                              Per Quotation",
 				"description": "Paint Project",
 				"cost": {
 					"SGD": "0",
@@ -1595,84 +1595,9 @@
 					"base": 1,
 					"multiplier": 1
 				}
-			},
-		   	"SIN <2000ft2 Survey": {
-		   		"handle": "sg_survey_under_2000",
-				"label": "SG Survey < 2000ft2",
-				"description": "SG Survey < 2000ft2",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			"SIN >2000ft2 Survey": {
-				"handle": "sg_survey_over_2000",
-				"label": "SG Survey >= 2000ft2",
-				"description": "SG Survey >= 2000ft2",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			"SIN 1st Hr Labour Booking": {
-				"handle": "sg_first_hr_labour",
-				"label": "SG 1st Hour",
-				"orderLabel": "Hour (SG 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "90",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"SIN 2nd Hr Labour Booking": {
-				"handle": "sg_second_or_more_hr_labour",
-				"label": "SG 2nd or more Hour",
-				"orderLabel": "Hour (SG 2nd or more Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
 			}
-		},
+		 },
+	
 		"types": {
 			"house": {
 				"label": "House Type",
