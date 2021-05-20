@@ -2097,8 +2097,8 @@
 		
 			"With tiles 10ft2": {
 				"handle": "with_tiles_ten",
-				"label": "Waterproof Blooms' tiles - 10ft2 Denomination                                           MYR15/ft2 (JB)",
-				"orderLabel": "ft2 (Waterproof Blooms' tiles)",
+				"label": "Waterproof Blooms tiles - 10ft2 Denomination                                           MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Blooms tiles)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "7",
