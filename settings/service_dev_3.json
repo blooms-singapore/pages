@@ -2111,8 +2111,7 @@
 					"max": 0,
 					"increment": 1,
 					"default": 20,
-					"base": 1,
-					"multiplier": 10
+					"base": 1
 				}
 			},
 			
