@@ -1891,8 +1891,8 @@
 			},			
 			"Network": {
 				"handle": "network",
-				"label": "Network",
-				"orderLabel": "Hour (Network)                                            MYR30/Hr (JB)",
+				"label": "Network                                                 MYR30/Hr (JB)",
+				"orderLabel": "Hour (Network)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1931,7 +1931,7 @@
 			
 			"Karaoke": {
 				"handle": "karaoke",
-				"label": "Karaoke System Install or Setting                                              MYR80/Job",
+				"label": "Karaoke System Install or Setting                                              MYR80/Job (JB)",
 				"orderLabel": "Job (Karaoke System Install or Setting)",
 				"description": "Label standard",
 				"cost": {
@@ -1991,7 +1991,7 @@
 		
 		"Karaoke + TV Box": {
 				"handle": "karaoke_tvbox",
-				"label": "Karaoke & TV Box                                            MYR4500/Set",
+				"label": "Karaoke & TV Box                                            MYR4500/Set (JB)",
 				"orderLabel": "Set (Karaoke + TV Box)",
 				"description": "Label standard",
 				"cost": {
