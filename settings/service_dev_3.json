@@ -1522,8 +1522,8 @@
 		"options": {
 			"1st Hr Labour Booking": {
 				"handle": "first_hr_labour",
-				"label": "Malaysia: Labour Rate 1st Hour                                        MYR70/Hr",
-				"orderLabel": "Hour (Labour Rate 1st Hr)",
+				"label": "Service Rate 1st Hour                                        MYR70/Hr",
+				"orderLabel": "Hour (Service Rate 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -1541,8 +1541,8 @@
 			},
 			"2nd Hr Labour Booking": {
 				"handle": "second_hr_more_labour",
-				"label": "Malaysia: Labour Rate 2nd or more Hour                                         MYR45/Hr",
-				"orderLabel": "Hour (Labour Rate 2nd or more Hour)",
+				"label": "Service Rate 2nd Hour or more                                         MYR45/Hr",
+				"orderLabel": "Hour (Service Rate 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1560,7 +1560,7 @@
 			},			
 			"MY Survey": {
 				"handle" : "my_survey",
-				"label": "Malaysia House Survey                                          Free",
+				"label": "House Survey                                          Free",
 				"description": "Malaysia Survey",
 				"cost": {
 					"SGD": "0",
