@@ -1690,7 +1690,7 @@
 			"Silicon Re-proofing 1st Hr": {
 				"handle": "reproofing_first_hour",
 				"label": "Silicon Re-proofing 1st Hour                                      MYR75/Hr (JB)",
-				"orderLabel": "Hour (Survey)",
+				"orderLabel": "Hour (Silicon Re-proofing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
