@@ -1852,8 +1852,8 @@
 		"options": {
 			"Assessment": {
 				"handle": "assessment",
-				"label": "Onsite Assessment & Consultancy / 上门系统解说",
-				"orderLabel": "Trip (Assessment or Consultancy / 上门系统解说)",
+				"label": "Onsite Assessment & Consultancy",
+				"orderLabel": "Trip (Assessment or Consultancy)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -1872,8 +1872,8 @@
 			
 			"Ware Install": {
 				"handle": "ware_install",
-				"label": "Soft or Hardware Install / 软和硬件设置或提升",
-				"orderLabel": "Hour (Soft or Hardware Install / 软和硬件设置或提升)",
+				"label": "Soft or Hardware Install",
+				"orderLabel": "Hour (Soft or Hardware Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1891,8 +1891,8 @@
 			},			
 			"Network": {
 				"handle": "network",
-				"label": "Network / 网络设置或提升",
-				"orderLabel": "Hour (Network / 网络设置或提升)",
+				"label": "Network",
+				"orderLabel": "Hour (Network)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1911,8 +1911,8 @@
 			
 			"Workshop Repair": {
 				"handle": "workshop_repair",
-				"label": "Workshop Repair / 回厂维修",
-				"orderLabel": "Job (Workshop Repair / 回厂维修)",
+				"label": "Workshop Repair",
+				"orderLabel": "Job (Workshop Repair)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -1931,8 +1931,8 @@
 			
 			"Karaoke": {
 				"handle": "karaoke",
-				"label": "Karaoke System Install or Setting / 视听系统安装与设置",
-				"orderLabel": "Job (Karaoke System Install or Setting / 视听系统安装与设置)",
+				"label": "Karaoke System Install or Setting",
+				"orderLabel": "Job (Karaoke System Install or Setting)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -1951,8 +1951,8 @@
 			
 			"Project": {
 				"handle": "project",
-				"label": "Project / 项目",
-				"orderLabel": "Job (Project / 项目)",
+				"label": "Project",
+				"orderLabel": "Job (Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1971,8 +1971,8 @@
 			
 			"TV Box": {
 				"handle": "tv_box",
-				"label": "TV Box / 电视盒",
-				"orderLabel": "Set (TV Box / 电视盒)",
+				"label": "TV Box",
+				"orderLabel": "Set (TV Box)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "249",
@@ -2016,7 +2016,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -2031,7 +2031,7 @@
 					},
 					
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
