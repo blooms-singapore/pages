@@ -2056,9 +2056,9 @@
 		"hasNote": 1,
 		"options": {
 			"1st Hr": {
-				"handle": "first_hr",
-				"label": "Non-Waterproof Standard 1st Hour                                                 MYR100/Hr (JB)",
-				"orderLabel": "Hour (Non-Waterproof Standard 1st Hour)",
+				"handle": "standard_work_first_hour",
+				"label": "Non-Waterproof Standard Work 1st Hour                                                 MYR100/Hr (JB)",
+				"orderLabel": "Hour (Non-Waterproof Std Work 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -2075,10 +2075,10 @@
 				}
 			 },
 			
-			"2nd Hr": {
-				"handle": "second_or_more_hr",
-				"label": "Non-Waterproof Standard 2nd Hour or more                                               MYR60/Hr (JB)",
-				"orderLabel": "Hour (Non-Waterproof Standard 2nd Hour or more)",
+			"Std Work 2nd Hr": {
+				"handle": "standard_work_second_hour",
+				"label": "Non-Waterproof Standard Work 2nd Hour or more                                               MYR60/Hr (JB)",
+				"orderLabel": "Hour (Non-Waterproof Std Work 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
