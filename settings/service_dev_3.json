@@ -1852,8 +1852,8 @@
 		"options": {
 			"Assessment": {
 				"handle": "assessment",
-				"label": "Onsite Assessment & Consultancy",
-				"orderLabel": "Trip (Assessment or Consultancy)",
+				"label": "On-Site Assessment                                 MYR20/Trip (JB)",
+				"orderLabel": "Trip (On-Site Assessment)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -1872,8 +1872,8 @@
 			
 			"Ware Install": {
 				"handle": "ware_install",
-				"label": "Soft or Hardware Install",
-				"orderLabel": "Hour (Soft or Hardware Install)",
+				"label": "Soft or Hardware Installation                                 MYR30/Hr (JB)",
+				"orderLabel": "Hour (Soft or Hardware Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1892,7 +1892,7 @@
 			"Network": {
 				"handle": "network",
 				"label": "Network",
-				"orderLabel": "Hour (Network)",
+				"orderLabel": "Hour (Network)                                            MYR30/Hr (JB)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -1911,7 +1911,7 @@
 			
 			"Workshop Repair": {
 				"handle": "workshop_repair",
-				"label": "Workshop Repair",
+				"label": "Workshop Repair                                              MYR85/Job (JB)",
 				"orderLabel": "Job (Workshop Repair)",
 				"description": "Label standard",
 				"cost": {
@@ -1931,7 +1931,7 @@
 			
 			"Karaoke": {
 				"handle": "karaoke",
-				"label": "Karaoke System Install or Setting",
+				"label": "Karaoke System Install or Setting                                              MYR80/Job",
 				"orderLabel": "Job (Karaoke System Install or Setting)",
 				"description": "Label standard",
 				"cost": {
@@ -1951,7 +1951,7 @@
 			
 			"Project": {
 				"handle": "project",
-				"label": "Project",
+				"label": "Project                                            Per Quotation",
 				"orderLabel": "Job (Project)",
 				"description": "Label standard",
 				"cost": {
@@ -1971,8 +1971,8 @@
 			
 			"TV Box": {
 				"handle": "tv_box",
-				"label": "TV Box",
-				"orderLabel": "Set (TV Box)",
+				"label": "Digital TV Box                                            MYR599/Set (JB) ",
+				"orderLabel": "Set (Digital TV Box)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "249",
@@ -1991,7 +1991,7 @@
 		
 		"Karaoke + TV Box": {
 				"handle": "karaoke_tvbox",
-				"label": "Karaoke & TV Box",
+				"label": "Karaoke & TV Box                                            MYR4500/Set",
 				"orderLabel": "Set (Karaoke + TV Box)",
 				"description": "Label standard",
 				"cost": {
