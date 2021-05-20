@@ -2057,8 +2057,8 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "1st Hour / 第1小时                                                 MYR100/Hr",
-				"orderLabel": "Hour (Std 1st Hr / 标准第1小时)",
+				"label": "1st Hour                                                 MYR100/Hr",
+				"orderLabel": "Hour (Std 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
