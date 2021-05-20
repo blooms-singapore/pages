@@ -1708,7 +1708,7 @@
 			 },
 			
 			"Silicon Re-proofing 2nd Hr": {
-				"handle": "reproofing_seconf_hour",
+				"handle": "reproofing_second_hour",
 				"label": "Silicon Re-proofing 2nd Hour or more                                     MYR50/Hr (JB)",
 				"orderLabel": "Hour (Silicon Re-proofing 2nd Hour or more)",
 				"description": "Label standard",
