@@ -2095,10 +2095,10 @@
 				}
 			},
 			
-			"Waterproof With Tiles - 10ft2": {
+			"Waterproof Blooms Tiles - 10ft2": {
 				"handle": "waterproof_with_tiles_10ft2",
-				"label": "Waterproof Work - Blooms' Supplies Tiles - 10 ft2                                         MYR15/ft2 (JB)",
-				"orderLabel": "ft2 (Waterproof Work - Blooms' Tiles - 10 ft2)",
+				"label": "Waterproof Work - Blooms Supply Tiles - 10 ft2                                         MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Blooms Tiles - 10 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -2115,10 +2115,10 @@
 				}
 			},
 			
-			"Waterproof With Tiles - 1ft2": {
+			"Waterproof Blooms Tiles - 1ft2": {
 				"handle": "waterproof_with_tiles_1ft2",
-				"label": "Waterproof Work - Blooms' Supplies Tiles - 1 ft2                                        MYR15/ft2 (JB)",
-				"orderLabel": "ft2 (Waterproof Work - Blooms' Tiles - 1 ft2)",
+				"label": "Waterproof Work - Blooms Supply Tiles - 1 ft2                                        MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Blooms Tiles - 1 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
