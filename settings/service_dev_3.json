@@ -2057,8 +2057,8 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "1st Hour                                                 MYR100/Hr",
-				"orderLabel": "Hour (Std 1st Hour)",
+				"label": "Non-Waterproof Standard 1st Hour                                                 MYR100/Hr",
+				"orderLabel": "Hour (Non-Waterproof Standard 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -2076,8 +2076,8 @@
 			 },
 			"2nd Hr": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hr or more / 第2小时以上                                               MYR60/Hr",
-				"orderLabel": "Hour (>= 2Hr / 2小时以上)",
+				"label": "Non-Waterproof Standard 2nd Hour or more                                               MYR60/Hr",
+				"orderLabel": "Hour (Non-Waterproof Standard 2nd Hour or more),
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -2093,30 +2093,12 @@
 					"base": 60
 				}
 			},
-			"With tiles 1ft": {
-				"handle": "with_tiles_one",
-				"label": "1ft2 Waterproof With tiles / 防水包瓷砖                                                MYR15/ft2",
-				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "7",
-					"MYR": "15",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 9,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
 			
+		
 			"With tiles 10ft2": {
 				"handle": "with_tiles_ten",
-				"label": "10ft2 Waterproof With tiles / 防水包瓷砖                                                    MYR15/ft2",
-				"orderLabel": "ft2 (Waterproof With tiles / 防水包瓷砖)",
+				"label": "Waterproof Blooms' tiles - 10ft2 Denomination                                           MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Blooms' tiles)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "7",
@@ -2127,9 +2109,10 @@
 					"label": "ft2",
 					"min": 0,
 					"max": 0,
-					"increment": 10,
-					"default": 0,
-					"base": 1
+					"increment": 1,
+					"default": 20,
+					"base": 1,
+					"multiplier": 10
 				}
 			},
 			
