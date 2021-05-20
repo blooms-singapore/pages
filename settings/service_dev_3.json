@@ -2095,6 +2095,26 @@
 				}
 			},
 			
+			"With Tiles - 10ft2": {
+				"handle": "waterproof_with_tiles_10ft2",
+				"label": "Waterproof Work - 10ft2 denominations                                        MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - 10ft2 Denominations)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "10",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 20,
+					"base": 1,
+					"Multiplier": 10
+				}
+			},
 		
 			"No tile 1ft2": {
 				"handle": "no_tile_one",
