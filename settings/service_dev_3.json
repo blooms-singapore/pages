@@ -2390,7 +2390,7 @@
 		"options": {
 			"unlock-morning": {
 				"handle": "unlock_morning",
-				"label": "Room Door Unlock / 房门开锁 (10am to 9pm)",
+				"label": "Room Door Unlock (10am to 9pm)",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2414,7 +2414,7 @@
 			},
 			"unlock-evening": {
 				"handle": "unlock_evening",
-				"label": "Room Door Unlock / 房门开锁 (After 9pm / 晚上9点后)",
+				"label": "Room Door Unlock (After 9pm)",
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2438,8 +2438,8 @@
 			},
 			"unlock-metal": {
 				"handle": "unlock_metal",
-				"label": "Metal Door Unlock / 铁门开锁",
-				"orderLabel": "Unit (Metal Door Unlock / 铁门开锁)",
+				"label": "Metal Door Unlock",
+				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
@@ -2458,8 +2458,8 @@
 			
 			"Survey": {
 				"handle": "survey",
-				"label": "Other Lock Work Survey / 其他调查",
-				"orderLabel": "Trip (Other Lock Work Survey / 其它调查)",
+				"label": "Other Lock Work Survey",
+				"orderLabel": "Trip (Other Lock Work Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2478,8 +2478,8 @@
 			
 			"Non Std Repair": {
 				"handle": "non_standard_repair",
-				"label": "Non-Standard Lock Repair / 非标准锁维修",
-				"orderLabel": "Job (Non-Std Lock Repair / 非标准锁维修)",
+				"label": "Non-Standard Lock Repair",
+				"orderLabel": "Job (Non-Std Lock Repair)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2498,8 +2498,8 @@
 			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
-				"label": "Foreign Car Key Copy / 海外车锁复制",
-				"orderLabel": "Unit (Foreign Car Key Copy / 海外车锁复制)",
+				"label": "Foreign Car Key Copy",
+				"orderLabel": "Unit (Foreign Car Key Copy)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -2518,8 +2518,8 @@
 			
 			"National Car Key Copy": {
 				"handle": "national_car_key_copy",
-				"label": "Proton/Perodua Key Copy (车锁复制）",
-				"orderLabel": "Unit (Proton/Perodua Key Copy / 车锁复制)",
+				"label": "Proton/Perodua Key Copy",
+				"orderLabel": "Unit (Proton/Perodua Key Copy)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -2538,8 +2538,8 @@
 			
 			"Digital Lock": {
 				"handle": "digital_lock",
-				"label": "EZope Smart Lock Install / EZope 智能锁安装",
-				"orderLabel": "Unit (EZope Smart Lock Install / EZope 智能锁安装)",
+				"label": "EZope Smart Lock Install",
+				"orderLabel": "Unit (EZope Smart Lock Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "699",
@@ -2557,8 +2557,8 @@
 			},
 			"Projects": {
 				"handle": "misc_projects",
-				"label":"Projects / 项目",
-				"orderLabel": "Job (Projects / 项目)",
+				"label":"Projects",
+				"orderLabel": "Job (Projects)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2582,7 +2582,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -2596,7 +2596,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2627,8 +2627,8 @@
 		"options": {
 			"Survey": {
 				"handle": "survey",
-				"label": "Survey / 现场调查                                          MYR30/Trip",
-				"orderLabel": "Trip (Survey / 现场调查)",
+				"label": "Survey                                          MYR30/Trip",
+				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2647,8 +2647,8 @@
 			
 			"Inspection": {
 				"handle": "inspection",
-				"label": "Vehicle Inspection / 车检查代劳                                                        MYR120/Job",
-				"orderLabel": "Job (Vehicle Inspection / 车检查代劳)",
+				"label": "Vehicle Inspection                                                        MYR120/Job",
+				"orderLabel": "Job (Vehicle Inspection)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2666,8 +2666,8 @@
 			 },			
 			"Helper": {
 				"handle": "helper",
-				"label": "Helper / 帮手                                                        MYR30/Trip",
-				"orderLabel": "Trip (Helper / 帮手)",
+				"label": "Helper                                                        MYR30/Trip",
+				"orderLabel": "Trip (Helper)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -2685,8 +2685,8 @@
 			},					
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking / 紧急预订                                                     MYR100-150/Trip",
-				"orderLabel": "Trip (Emergency / 紧急)",
+				"label": "Emergency Booking                                                     MYR100-150/Trip",
+				"orderLabel": "Trip (Emergency)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -2710,8 +2710,8 @@
 			
 			"Errand Project": {
 				"handle": "helper",
-				"label": "Errand Project / 差事项目                                                            Quotation",
-				"orderLabel": "Job (Errand Project / 差事项目)",
+				"label": "Errand Project                                                            Quotation",
+				"orderLabel": "Job (Errand Project)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2735,7 +2735,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -2749,7 +2749,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
