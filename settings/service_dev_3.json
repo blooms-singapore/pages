@@ -938,8 +938,8 @@
 		"options": {
 			"1st Hr cutting": {
 				"handle": "first_hr_cutting",
-				"label": "1st Hour Cut                               MYR50/Hr",
-				"orderLabel": "Hour (1st Hour Cut & Trim)",
+				"label": "1st Hour                                 MYR50/Hr",
+				"orderLabel": "Hour (1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -957,8 +957,8 @@
 			},			
 			">=2nd Hr cutting": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hour & more Cut                           MYR40/Hr",
-				"orderLabel": "Hour (2nd Hour & more Cut)",
+				"label": "2nd Hour & more                              MYR40/Hr",
+				"orderLabel": "Hour (2nd Hour & more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
