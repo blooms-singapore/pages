@@ -2390,7 +2390,7 @@
 		"options": {
 			"unlock-morning": {
 				"handle": "unlock_morning",
-				"label": "Room Door Unlock (10am to 9pm)",
+				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100 (JB)",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2414,7 +2414,7 @@
 			},
 			"unlock-evening": {
 				"handle": "unlock_evening",
-				"label": "Room Door Unlock (After 9pm)",
+				"label": "Room Door Unlock (After 6pm)                                            MYR90 - 130 (JB) ",
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2438,7 +2438,7 @@
 			},
 			"unlock-metal": {
 				"handle": "unlock_metal",
-				"label": "Metal Door Unlock",
+				"label": "Metal Door Unlock                                          From MYR85 (JB)",
 				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
 				"cost": {
@@ -2458,7 +2458,7 @@
 			
 			"Survey": {
 				"handle": "survey",
-				"label": "Other Lock Work Survey",
+				"label": "Other Lock Work Survey                                       Free",
 				"orderLabel": "Trip (Other Lock Work Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2478,7 +2478,7 @@
 			
 			"Non Std Repair": {
 				"handle": "non_standard_repair",
-				"label": "Non-Standard Lock Repair",
+				"label": "Non-Standard Lock Repair                                         Per Quotation",
 				"orderLabel": "Job (Non-Std Lock Repair)",
 				"description": "Label standard",
 				"cost": {
@@ -2498,7 +2498,7 @@
 			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
-				"label": "Foreign Car Key Copy",
+				"label": "Foreign Car Key Copy                                                 From MYR260 (JB)",
 				"orderLabel": "Unit (Foreign Car Key Copy)",
 				"description": "Label standard",
 				"cost": {
@@ -2518,7 +2518,7 @@
 			
 			"National Car Key Copy": {
 				"handle": "national_car_key_copy",
-				"label": "Proton/Perodua Key Copy",
+				"label": "Proton/Perodua Key Copy                                       From MYR120 (JB)",
 				"orderLabel": "Unit (Proton/Perodua Key Copy)",
 				"description": "Label standard",
 				"cost": {
@@ -2538,7 +2538,7 @@
 			
 			"Digital Lock": {
 				"handle": "digital_lock",
-				"label": "EZope Smart Lock Install",
+				"label": "EZope Smart Lock Install                                       MYR1399/Unit (JB)",
 				"orderLabel": "Unit (EZope Smart Lock Install)",
 				"description": "Label standard",
 				"cost": {
@@ -2557,8 +2557,8 @@
 			},
 			"Projects": {
 				"handle": "misc_projects",
-				"label":"Projects",
-				"orderLabel": "Job (Projects)",
+				"label":"Lock Projects                                              Per Quotation",
+				"orderLabel": "Job (Lock Projects)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
