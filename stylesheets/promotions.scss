@@ -1,4 +1,13 @@
 ---
 ---
 
-.h2<h1 style="background-color:#fd8f82; border-radius:5px; text-align:center; width:20%; font-family: Arial; border:1px solid #000000">Tomato</h1>
+@import '_settings';
+
+.Customer{
+  background-color:#fd8f82; 
+  border-radius:5px; 
+  text-align:center; 
+  width:20%; 
+  font-family: Arial; 
+  border:1px solid #000000
+}
