@@ -814,6 +814,127 @@
 	},
 
 	
+	"carpentry": {
+		"name": "Carpentry",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "61.5",
+			"CNY": "20"
+		},
+		"hasNote": 1, 
+		"options": {
+			"1st Hr": {
+				"handle": "first_hr",
+				"label": "1st Hour                                       MYR60/Hr",
+				"orderLabel": "Hour (1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"2Hr Rate": {
+				"handle": "second_or_more_hr",
+				"label": "2nd Hour & more                                             MYR50/Hr",
+				"orderLabel": "Hour (2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Survey": {
+				"handle": "survey",
+				"label": "Renovation / Retrofit Survey                                            Free",
+				"orderLabel": "Job (Renovation / Retrofit Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Project": {
+				"handle": "projects",
+				"label": "Renovation Projects                                            Per Quotation",
+				"orderLabel": "Job (Renovation Projects)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "15:30",
@@ -1845,126 +1966,7 @@
 		}
 	},
 	
-	"carpentry": {
-		"name": "Carpentry",
-		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "30",
-			"MYR": "61.5",
-			"CNY": "20"
-		},
-		"hasNote": 1, 
-		"options": {
-			"1st Hr": {
-				"handle": "first_hr",
-				"label": "1st Hour                                       MYR60/Hr",
-				"orderLabel": "Hour (1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"2Hr Rate": {
-				"handle": "second_or_more_hr",
-				"label": "2nd Hour & more                                             MYR50/Hr",
-				"orderLabel": "Hour (2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Survey": {
-				"handle": "survey",
-				"label": "Renovation / Retrofit Survey                                            Free",
-				"orderLabel": "Job (Renovation / Retrofit Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Project": {
-				"handle": "projects",
-				"label": "Renovation Projects                                            Per Quotation",
-				"orderLabel": "Job (Renovation Projects)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
+		
 	"computer": {
 		"name": "Computer & Digital Entertainment",
 		"lastSlot": "16:00",
