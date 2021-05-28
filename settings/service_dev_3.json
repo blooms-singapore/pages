@@ -948,7 +948,7 @@
 		"options": {
 			
 			"Survey": {
-				"handle": "survey",
+				"handle": "survey                           MYR30/Trip (JB)",
 				"label": "Site Survey",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
@@ -969,7 +969,7 @@
 			
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking",
+				"label": "Emergency Booking                         MYR100-150 (JB) ",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -994,7 +994,7 @@
 			
 			"Project": {
 				"handle": "project",
-				"label": "Electrical Project",
+				"label": "Electrical Project                              Per Quotation",
 				"orderLabel": "Job (Electrical Project)",
 				"description": "Label standard",
 				"cost": {
