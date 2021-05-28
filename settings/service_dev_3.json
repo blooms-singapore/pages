@@ -948,7 +948,7 @@
 		"options": {
 			
 			"Survey": {
-				"handle": "survey                           MYR30/Trip (JB)",
+				"handle": "survey                       MYR30/Trip (JB)",
 				"label": "Site Survey",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
