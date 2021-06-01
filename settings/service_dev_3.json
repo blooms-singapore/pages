@@ -5136,6 +5136,91 @@
 	}, 
 		
 	
+	"sewing": {
+		"name": "Sewing",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "0",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Multi Services Survey": {
+				"handle": "multi_services",
+				"label": "Multiple Services Survey / 多种服务调查                                                         MYR20/Trip",
+				"orderLabel": "Trip (Multiple Services Survey / 多种服务调查 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Pre Purchase": {
+				"handle": "pre_purchase",
+				"label": "Asset Pre-Purchase Diagnosis / 买房前专业诊断                                                          MYR2000/Unit",
+				"orderLabel": "Unit (Asset Pre-Purchase Diagnosis / 买房前专业诊断)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "2000",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 3,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 }		
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	"house_diagnosis": {
 		"name": "House Diagnosis",
 		"lastSlot": "15:30",
