@@ -5137,7 +5137,7 @@
 		
 	
 	"sewing": {
-		"name": "Sewing",
+		"name": "Sewing (Coming Soon)",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
