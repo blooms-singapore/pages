@@ -2992,7 +2992,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hr",
+					"label": "Hour",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
@@ -3012,7 +3012,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hr",
+					"label": "Hour",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
