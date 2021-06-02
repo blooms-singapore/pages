@@ -2880,10 +2880,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Vertical Trimming Min Order": {
-				"handle": "vertical_trimming_min_order",
-				"label": "Vertical Trimming - Min Order                                                         MYR0/Job (JB)",
-				"orderLabel": "Job (Vertical Trimming - Min Order )",
+			"Vertical Trim Min Order": {
+				"handle": "vertical_trim_min_order",
+				"label": "Vertical Trim - Min Order                                          MYR0/Job (JB)",
+				"orderLabel": "Job (Vertical Trim - Min Order )",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2900,10 +2900,51 @@
 				}
 			 },
 			
-			"Vertical Trimming": {
-				"handle": "vertical_trimming",
-				"label": "Vertical Trimming                                                         MYR0/meter",
-				"orderLabel": "Meter (Vertical Trimming)",
+			"Vertical Trim": {
+				"handle": "vertical_trim",
+				"label": "Vertical Trim                                                         MYR0/Pc (JB)",
+				"orderLabel": "Piece (Vertical Trim)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Piece",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			 },
+			
+			
+			"Horizontal Trim Min Order": {
+				"handle": "horizontal_trim_min_order",
+				"label": "Horizontal Trim - Min Order                                                         MYR0/Job (JB)",
+				"orderLabel": "Job (Horizontal Trim - Min Order)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Horizontal Trim": {
+				"handle": "horizontal_trim",
+				"label": "Horizontal Trim                                                         MYR0/Meter (JB)",
+				"orderLabel": "Meter (Horizontal Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2916,6 +2957,26 @@
 					"max": 0,
 					"increment": 0.5,
 					"default": 3,
+					"base": 1
+				}
+			 },
+			
+			"Sewing Transport": {
+				"handle": "sewing_transport",
+				"label": "Transport Charge                                                         MYR0/Task (JB)",
+				"orderLabel": "Task (Transport Charge)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Task",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
 					"base": 1
 				}
 			 }		
