@@ -2882,7 +2882,7 @@
 		"options": {
 			"Vertical Trim Min Order": {
 				"handle": "vertical_trim_min_order",
-				"label": "Vertical Trim - Min Order                                          MYR0/Job (JB)",
+				"label": "Vertical Trim - Min Order                                          MYR0/Job",
 				"orderLabel": "Job (Vertical Trim - Min Order )",
 				"description": "Label standard",
 				"cost": {
@@ -2902,7 +2902,7 @@
 			
 			"Vertical Trim": {
 				"handle": "vertical_trim",
-				"label": "Vertical Trim                                                         MYR0/Pc (JB)",
+				"label": "Vertical Trim                                                         MYR0/Pc",
 				"orderLabel": "Piece (Vertical Trim)",
 				"description": "Label standard",
 				"cost": {
@@ -2923,7 +2923,7 @@
 			
 			"Horizontal Trim Min Order": {
 				"handle": "horizontal_trim_min_order",
-				"label": "Horizontal Trim - Min Order                                                         MYR0/Job (JB)",
+				"label": "Horizontal Trim - Min Order                                                  MYR0/Job",
 				"orderLabel": "Job (Horizontal Trim - Min Order)",
 				"description": "Label standard",
 				"cost": {
@@ -2943,7 +2943,7 @@
 			
 			"Horizontal Trim": {
 				"handle": "horizontal_trim",
-				"label": "Horizontal Trim                                                         MYR0/Meter (JB)",
+				"label": "Horizontal Trim                                                         MYR0/Meter",
 				"orderLabel": "Meter (Horizontal Trim)",
 				"description": "Label standard",
 				"cost": {
@@ -2963,7 +2963,7 @@
 			
 			"Sewing Transport": {
 				"handle": "sewing_transport",
-				"label": "Transport Charge                                                         MYR0/Task (JB)",
+				"label": "Transport Charge                                                     MYR0/Task",
 				"orderLabel": "Task (Transport Charge)",
 				"description": "Label standard",
 				"cost": {
@@ -2973,6 +2973,46 @@
 				},
 				"quantity": {
 					"label": "Task",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Curtain Dismantle": {
+				"handle": "curtain_dismantle",
+				"label": "Curtain Dismantle                                                  MYR0/Hr",
+				"orderLabel": "Hour (Curtain Dismantle)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hr",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Curtain Install": {
+				"handle": "curtain_install",
+				"label": "Curtain Install                                                  MYR0/Hr",
+				"orderLabel": "Hour (Curtain Install)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hr",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
