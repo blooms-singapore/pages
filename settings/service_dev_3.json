@@ -2880,18 +2880,18 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Multi Services Survey": {
-				"handle": "multi_services",
-				"label": "Multiple Services Survey / 多种服务调查                                                         MYR20/Trip",
-				"orderLabel": "Trip (Multiple Services Survey / 多种服务调查 )",
+			"Vertical Trimming Min Order": {
+				"handle": "vertical_trimming_min_order",
+				"label": "Vertical Trimming - Min Order                                                         MYR0/Job (JB)",
+				"orderLabel": "Job (Vertical Trimming - Min Order )",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
@@ -2900,22 +2900,22 @@
 				}
 			 },
 			
-			"Pre Purchase": {
-				"handle": "pre_purchase",
-				"label": "Asset Pre-Purchase Diagnosis / 买房前专业诊断                                                          MYR2000/Unit",
-				"orderLabel": "Unit (Asset Pre-Purchase Diagnosis / 买房前专业诊断)",
+			"Vertical Trimming": {
+				"handle": "vertical_trimming",
+				"label": "Vertical Trimming                                                         MYR0/meter",
+				"orderLabel": "Meter (Vertical Trimming)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "2000",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Unit",
+					"label": "Meter",
 					"min": 0,
-					"max": 3,
-					"increment": 1,
-					"default": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 3,
 					"base": 1
 				}
 			 }		
