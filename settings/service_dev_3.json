@@ -2926,8 +2926,8 @@
 			
 			"Sewing Transport": {
 				"handle": "sewing_transport",
-				"label": "To-&-Fro Transport Charge                                                     MYR20/Task",
-				"orderLabel": "Task (To-&-Fro Transport Charge)",
+				"label": "To-&-Fro Transport Charge                                                     MYR20/order",
+				"orderLabel": "Order (To-&-Fro Transport Charge)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2935,7 +2935,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Task",
+					"label": "Order",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
