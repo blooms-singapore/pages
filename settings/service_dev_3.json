@@ -2867,7 +2867,7 @@
 			"Vertical Trim": {
 				"handle": "vertical_trim",
 				"label": "Vertical Trim                                                         MYR10/Pc",
-				"orderLabel": "Piece (Vertical Trim)",
+				"orderLabel": "Nos (Vertical Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2875,7 +2875,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Piece",
+					"label": "Nos",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
@@ -2908,7 +2908,7 @@
 			"Horizontal Trim": {
 				"handle": "horizontal_trim",
 				"label": "Horizontal Trim                                                         MYR10/Meter",
-				"orderLabel": "Meter  (Horizontal Trim)",
+				"orderLabel": "Meter (Horizontal Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
