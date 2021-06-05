@@ -2866,8 +2866,8 @@
 			
 			"Vertical Trim": {
 				"handle": "vertical_trim",
-				"label": "Vertical Trim                                                         MYR10/Pc",
-				"orderLabel": "Nos (Vertical Trim)",
+				"label": "Vertical Trim                                                         MYR10/Piece",
+				"orderLabel": "Pcs (Vertical Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2875,7 +2875,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Nos",
+					"label": "Pcs",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
