@@ -2947,7 +2947,7 @@
 			
 			"Curtain Dismantling": {
 				"handle": "curtain_dismantling",
-				"label": "Curtain Dismantle                                                  MYR25/Hr",
+				"label": "Curtain Dismantling                                                  MYR25/Hr",
 				"orderLabel": "Hour (Curtain Dismantling)",
 				"description": "Label standard",
 				"cost": {
@@ -2967,7 +2967,7 @@
 			
 			"Curtain Installation": {
 				"handle": "curtain_installation",
-				"label": "Curtain Install                                                  MYR35/Hr",
+				"label": "Curtain Installation                                                  MYR35/Hr",
 				"orderLabel": "Hour (Curtain Installation)",
 				"description": "Label standard",
 				"cost": {
