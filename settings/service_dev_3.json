@@ -2846,12 +2846,12 @@
 			
 			"Vertical Trim Min Order": {
 				"handle": "vertical_trim_min_order",
-				"label": "Vertical Trim Min Order                                                       MYR15/Job",
+				"label": "Vertical Trim Min Order                                                       MYR20/Job",
 				"orderLabel": "Job (Vertical Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "15",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
