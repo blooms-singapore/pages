@@ -2865,7 +2865,7 @@
 			 },
 			
 			"Vertical Trim Quantity": {
-				"handle": "vertical_trim_qty",
+				"handle": "curtain_quantity",
 				"label": "Vertical Trim Curtain Quantity                                                     MYR10/Piece",
 				"orderLabel": "Pcs (Vertical Trim Curtain Quantity)",
 				"description": "Label standard",
@@ -2906,7 +2906,7 @@
 			 },
 			
 			"Horizontal Trim Length": {
-				"handle": "horizontal_trim_length",
+				"handle": "curtain_length",
 				"label": "Horizontal Trim Curtain Length                                                         MYR10/Meter",
 				"orderLabel": "Meters (Horizontal Trim Curtain Length)",
 				"description": "Label standard",
