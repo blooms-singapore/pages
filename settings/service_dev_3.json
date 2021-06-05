@@ -2845,12 +2845,12 @@
 		"options": {
 			"Vertical Trim Min Order": {
 				"handle": "vertical_trim_min_order",
-				"label": "Vertical Trim - Min Order                                          MYR0/Job",
+				"label": "Vertical Trim - Min Order                                          MYR20/Job",
 				"orderLabel": "Job (Vertical Trim - Min Order )",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2865,12 +2865,12 @@
 			
 			"Vertical Trim": {
 				"handle": "vertical_trim",
-				"label": "Vertical Trim                                                         MYR0/Pc",
+				"label": "Vertical Trim                                                         MYR12/Pc",
 				"orderLabel": "Piece (Vertical Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "12",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2886,12 +2886,12 @@
 			
 			"Horizontal Trim Min Order": {
 				"handle": "horizontal_trim_min_order",
-				"label": "Horizontal Trim - Min Order                                                  MYR0/Job",
+				"label": "Horizontal Trim - Min Order                                                  MYR20/Job",
 				"orderLabel": "Job (Horizontal Trim - Min Order)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2906,16 +2906,16 @@
 			
 			"Horizontal Trim": {
 				"handle": "horizontal_trim",
-				"label": "Horizontal Trim                                                         MYR0/Meter",
-				"orderLabel": "Meter (Horizontal Trim)",
+				"label": "Horizontal Trim                                                         MYR10/Meter",
+				"orderLabel": "Meter  (Horizontal Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "10",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Meter",
+					"label": "Meters",
 					"min": 0,
 					"max": 0,
 					"increment": 0.5,
@@ -2926,12 +2926,12 @@
 			
 			"Sewing Transport": {
 				"handle": "sewing_transport",
-				"label": "Transport Charge                                                     MYR0/Task",
-				"orderLabel": "Task (Transport Charge)",
+				"label": "To-&-Fro Transport Charge                                                     MYR20/Task",
+				"orderLabel": "Task (To-&-Fro Transport Charge)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2946,12 +2946,12 @@
 			
 			"Curtain Dismantle": {
 				"handle": "curtain_dismantle",
-				"label": "Curtain Dismantle                                                  MYR0/Hr",
+				"label": "Curtain Dismantle                                                  MYR25/Hr",
 				"orderLabel": "Hour (Curtain Dismantle)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "25",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2966,12 +2966,12 @@
 			
 			"Curtain Install": {
 				"handle": "curtain_install",
-				"label": "Curtain Install                                                  MYR0/Hr",
+				"label": "Curtain Install                                                  MYR35/Hr",
 				"orderLabel": "Hour (Curtain Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2991,11 +2991,11 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium / 公寓",
+						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "10",
 							"CNY": "0"
 						},
 						"oneOffCost": {
@@ -3004,8 +3004,9 @@
 							"CNY": "10"
 						}
 					},
+					
 					"landed": {
-						"label": "Landed House / 有地住宅",
+						"label": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
