@@ -574,8 +574,8 @@
 			
 			"Malaysia SW": {
 				"handle": "malaysia_sw",
-				"label": "Malaysia Standard Wash: 3 or more units (min 1Hr booking).                        MYR120/Hr",
-				"orderLabel": "Hour (MY Std Wash >= 3 units)",
+				"label": "Standard Wash: 3 or more units (min 1Hr booking).                        MYR120/Hr",
+				"orderLabel": "Hour (Std Wash >= 3 units)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -593,8 +593,8 @@
 			},			
 			"Min Order": {
 				"handle": "min_order",
-				"label": "Malaysia Standard Wash - Min Order (Studio, 1BR Apt)                           MYR80/Job",
-				"orderLabel": "Job (MY Min Order (1-2 units))",
+				"label": "Standard Wash - Min Order (Studio, 1BR Apt)                           MYR80/Job",
+				"orderLabel": "Job (Min Order (1-2 units))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -612,8 +612,8 @@
 			},
 			"Malaysia CW": {
 				"handle": "malaysia_cw",
-				"label": "Malaysia Chemical Wash                                      MYR120/Hr/Unit",
-				"orderLabel": "Hour (MY Chemical Wash)",
+				"label": "Chemical Wash                                      MYR120/Hr/Unit",
+				"orderLabel": "Hour (Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -632,8 +632,8 @@
 			
 			"Malaysia Small Cassette CW 2-3HP": {
 				"handle": "malaysia_small_cassette_cw",
-				"label": "Malaysia Small Cassette Chemical Wash : 2 to 3HP",
-				"orderLabel": "Hour (MY Small Cassette Chemical Wash)",
+				"label": "Small Cassette Chemical Wash : 2 to 3HP",
+				"orderLabel": "Hour (Small Cassette Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "65",
@@ -656,8 +656,8 @@
 			},
 			"Malaysia Big Cassette CW 3.5 to 5HP": {
 				"handle": "malaysia_big_cassette_cw",
-				"label": "Malaysia Big Cassette Chemical Wash : 3.5 to 5HP",
-				"orderLabel": "Hour (Malaysia Big Cassette Chemical Wash)",
+				"label": "Big Cassette Chemical Wash : 3.5 to 5HP",
+				"orderLabel": "Hour (Big Cassette Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "98",
@@ -700,7 +700,7 @@
 			},			
 			"MY Trouble Shoot": {
 				"handle": "my_trouble_shoot",
-				"label": "Malaysia AC Trouble Shoot.                                MYR80/Job",
+				"label": "AC Trouble Shoot.                                MYR80/Job",
 				"orderLabel": "Job (AC Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -716,7 +716,8 @@
 					"default": 0,
 					"base": 60
 				}
-			},			
+			},
+			
 			"AC Project": {
 				"handle": "ac_project",
 				"label": "Aircon Project                                     Per Quotation",
@@ -733,44 +734,6 @@
 					"max": 1,
 					"increment": 60,
 					"default": 0,
-					"base": 60
-				}
-			},
-			"Singapore SW": {
-				"handle": "singapore_sw",
-				"label": "Singapore / Standard Wash",
-				"orderLabel": "Hour (SG Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 15,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Singapore CW": {
-				"handle": "singapore_cw",
-				"label": "Singapore / Chemical Wash",
-				"orderLabel": "Hour (SG Chem Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
 					"base": 60
 				}
 			}
