@@ -2919,7 +2919,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 0.5,
-					"default": 3,
+					"default": 2.5,
 					"base": 1
 				}
 			 },
