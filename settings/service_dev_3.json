@@ -2926,7 +2926,7 @@
 			
 			"Sewing Transport": {
 				"handle": "sewing_transport",
-				"label": "To-&-Fro Transport Charge                                                     MYR20/order",
+				"label": "To-&-Fro Transport Charge                                                     MYR20/Order",
 				"orderLabel": "Order (To-&-Fro Transport Charge)",
 				"description": "Label standard",
 				"cost": {
