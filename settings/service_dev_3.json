@@ -3030,45 +3030,25 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Multi Services Survey": {
-				"handle": "multi_services",
-				"label": "Multiple Services Survey                                                         MYR20/Trip",
-				"orderLabel": "Trip (Multiple Services Survey)",
+			"Comprehensive Checks": {
+				"handle": "comprehensive_checks",
+				"label": "Comprehensive Checks                                                         MYR0/Job",
+				"orderLabel": "Job (Comprehensive Checks)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
-			 },
-			
-			"Pre Purchase": {
-				"handle": "pre_purchase",
-				"label": "Asset Pre-Purchase Diagnosis                                                          MYR2000/Unit",
-				"orderLabel": "Unit (Asset Pre-Purchase Diagnosis)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "2000",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 3,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 }		
+			 }
 		},
 		
 	    "types": {
