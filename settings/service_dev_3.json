@@ -2856,7 +2856,7 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -2944,10 +2944,10 @@
 				}
 			 },
 			
-			"Curtain Dismantle": {
-				"handle": "curtain_dismantle",
+			"Curtain Dismantling": {
+				"handle": "curtain_dismantling",
 				"label": "Curtain Dismantle                                                  MYR25/Hr",
-				"orderLabel": "Hour (Curtain Dismantle)",
+				"orderLabel": "Hour (Curtain Dismantling)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2964,10 +2964,10 @@
 				}
 			 },
 			
-			"Curtain Install": {
-				"handle": "curtain_install",
+			"Curtain Installation": {
+				"handle": "curtain_installation",
 				"label": "Curtain Install                                                  MYR35/Hr",
-				"orderLabel": "Hour (Curtain Install)",
+				"orderLabel": "Hour (Curtain Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
