@@ -2847,7 +2847,7 @@
 			"Vertical Trim Min Order": {
 				"handle": "vertical_trim_min_order",
 				"label": "Vertical Trim Min Order                                                       MYR20/Job",
-				"orderLabel": "Job (Vertical Trim)",
+				"orderLabel": "Job (Vertical Trim Min Order)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2887,8 +2887,8 @@
 			
 			"Horizontal Trim Min Order": {
 				"handle": "horizontal_trim_min_order",
-				"label": "Horizontal Trim - Min Order                                                  MYR20/Job",
-				"orderLabel": "Job (Horizontal Trim - Min Order)",
+				"label": "Horizontal Trim Min Order                                                  MYR20/Job",
+				"orderLabel": "Job (Horizontal Trim Min Order)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
