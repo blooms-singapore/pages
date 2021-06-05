@@ -2864,10 +2864,10 @@
 				}
 			 },
 			
-			"Vertical Trim": {
-				"handle": "vertical_trim",
-				"label": "Vertical Trim                                                         MYR10/Piece",
-				"orderLabel": "Pcs (Vertical Trim)",
+			"Vertical Trim Quantity": {
+				"handle": "vertical_trim_qty",
+				"label": "Vertical Trim Curtain Quantity                                                     MYR10/Piece",
+				"orderLabel": "Pcs (Vertical Trim Curtain Quantity)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2905,10 +2905,10 @@
 				}
 			 },
 			
-			"Horizontal Trim": {
-				"handle": "horizontal_trim",
-				"label": "Horizontal Trim                                                         MYR10/Meter",
-				"orderLabel": "Meter (Horizontal Trim)",
+			"Horizontal Trim Length": {
+				"handle": "horizontal_trim_length",
+				"label": "Horizontal Trim Curtain Length                                                         MYR10/Meter",
+				"orderLabel": "Meters (Horizontal Trim Curtain Length)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
