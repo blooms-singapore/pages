@@ -20,13 +20,18 @@ layout: service
    
    <thead>
       <tr>
-       <th><b>Vertical Trimming<br>By Curtain Pieces</b></th>
+       <th><b>Vertical Trimming<br>By Curtain Quantity</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
-    <tbody>      
+    <tbody>
+       <tr>
+        <td>Min Order</td>
+        <td>${params.vertical_trim_min_order}/Job</td>
+      </tr>
+     
       <tr>
-        <td>Curtain Piece</td>
+        <td>No of Curtains<br>2nos or more</td>
         <td>${params.vertical_trim}/Pc</td>
       </tr>
       </tbody> 
@@ -43,7 +48,7 @@ layout: service
         <td>${params.horizontal_trim_min_order}/Job</td>
       </tr>
       <tr>
-       <td>Curtain Length<br>Meters</td>
+       <td>Curtain Length<br>2.5m or more</td>
        <td>${params.horizontal_trim}/Meter</td>
       </tr>      
    </tbody>
