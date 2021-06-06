@@ -2844,6 +2844,27 @@
 		"hasNote": 1,
 		"options": {
 			
+				
+			"Sewing Transport": {
+				"handle": "to_&_fro",
+				"label": "To-&-Fro Transport Charge                                                     MYR20/Order",
+				"orderLabel": "Order (To-&-Fro Transport Charge)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
 			"Vertical Trim Min Order": {
 				"handle": "vertical_trim_min_order",
 				"label": "Vertical Trim Min Order                                                       MYR20/Job",
@@ -2924,26 +2945,7 @@
 					"base": 1
 				}
 			 },
-			
-			"Sewing Transport": {
-				"handle": "sewing_transport",
-				"label": "To-&-Fro Transport Charge                                                     MYR20/Order",
-				"orderLabel": "Order (To-&-Fro Transport Charge)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
+		
 			
 			"Curtain Dismantling": {
 				"handle": "curtain_dismantling",
