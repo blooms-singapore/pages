@@ -2855,8 +2855,8 @@
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
-					"increment": 1,
+					"max": 0,
+					"increment": 0.5,
 					"default": 1,
 					"base": 1
 				}
@@ -2875,8 +2875,8 @@
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
-					"increment": 1,
+					"max": 0,
+					"increment": 0.5,
 					"default": 1,
 					"base": 1
 				}
