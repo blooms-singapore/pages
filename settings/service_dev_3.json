@@ -2916,177 +2916,7 @@
 		}
 	},
 		
-	
-	"home-security": {
-		"name": "Home Security (Coming)",
-		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "0",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"CCTV": {
-				"handle": "cctv",
-				"label": "CCTV",
-				"orderLabel": "Pax (CCTV)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Pax",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
-			"Autogate": {
-				"handle": "autogate",
-				"label": "Auto Gate",
-				"orderLabel": "Job (Auto Gate)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"House Alarm": {
-				"handle": "house_alarm",
-				"label": "House Alarm",
-				"orderLabel": "Job (House Alarm)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 }		
-		},
 		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-		
-	"house_diagnosis": {
-		"name": "House Diagnosis (Coming)",
-		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "0",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Comprehensive Checks": {
-				"handle": "comprehensive_checks",
-				"label": "Comprehensive Checks                                                         MYR0/Job",
-				"orderLabel": "Job (Comprehensive Checks)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 }
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium / 公寓",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House / 有地住宅",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
 	"printer": {
 		"name": "Printer Ink",
 		"lastSlot": "15:00",
@@ -5336,6 +5166,175 @@
 							"SGD": "0",
 							"MYR": "10",
 							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	"home-security": {
+		"name": "Home Security (Coming)",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "0",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"CCTV": {
+				"handle": "cctv",
+				"label": "CCTV",
+				"orderLabel": "Pax (CCTV)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pax",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Autogate": {
+				"handle": "autogate",
+				"label": "Auto Gate",
+				"orderLabel": "Job (Auto Gate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"House Alarm": {
+				"handle": "house_alarm",
+				"label": "House Alarm",
+				"orderLabel": "Job (House Alarm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 }		
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+		
+	"house_diagnosis": {
+		"name": "House Diagnosis (Coming)",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "0",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Comprehensive Checks": {
+				"handle": "comprehensive_checks",
+				"label": "Comprehensive Checks                                                         MYR0/Job",
+				"orderLabel": "Job (Comprehensive Checks)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 }
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
 						}
 					},
 					"landed": {
