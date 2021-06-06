@@ -2833,7 +2833,7 @@
 	
 	
 	"sewing": {
-		"name": "Curtain Alteration (Coming)",
+		"name": "Curtain Alteration",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
@@ -2846,7 +2846,7 @@
 			
 				
 			"Sewing Transport": {
-				"handle": "to_&_fro",
+				"handle": "to_and_fro",
 				"label": "To-&-Fro Transport Charge                                                     MYR20/Order",
 				"orderLabel": "Order (To-&-Fro Transport Charge)",
 				"description": "Label standard",
