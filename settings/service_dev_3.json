@@ -1771,14 +1771,14 @@
 				}
 			 },
 			
-			"Silicon Re-proofing 1st Hr": {
-				"handle": "reproofing_first_hour",
-				"label": "Silicon Re-proofing 1st Hour                                      MYR75/Hr (JB)",
-				"orderLabel": "Hour (Silicon Re-proofing 1st Hour)",
+			"Std Silicon 1st Hr": {
+				"handle": "standard_silicon_first_hour",
+				"label": "Standard Silicon 1st Hr                                       MYR70/Hr",
+				"orderLabel": "Hour (Std Silicon 1st Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "75",
+					"MYR": "70",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1791,10 +1791,10 @@
 				}
 			 },
 			
-			"Silicon Re-proofing 2nd Hr": {
-				"handle": "reproofing_second_hour",
-				"label": "Silicon Re-proofing 2nd Hour or more                                     MYR50/Hr (JB)",
-				"orderLabel": "Hour (Silicon Re-proofing 2nd Hour or more)",
+			"Std Silicon": {
+				"handle": "standard_silicon",
+				"label": "Standard Silicon 1.5Hrs or more                                       MYR50/Hr",
+				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1805,9 +1805,49 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			 },
+			
+			"Antifungal Silicon 1st Hr": {
+				"handle": "antifungal_silicon_first_hour",
+				"label": "Anti-Fungal Silicon 1st Hr                                       MYR90/Hr",
+				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
+				}
+			 },
+			
+			"Antifungal Silicon": {
+				"handle": "antifungal_silicon",
+				"label": "Anti-fingal Silicon 1.5Hrs or more                                       MYR70/Hr",
+				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
 				}
 			 }
 		},
