@@ -1813,7 +1813,7 @@
 			
 			"Antifungal Silicon 1st Hr": {
 				"handle": "antifungal_silicon_first_hour",
-				"label": "Anti-Fungal Silicon 1st Hr                                       MYR90/Hr",
+				"label": "Anti-fungal Silicon 1st Hr                                       MYR90/Hr",
 				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -1833,7 +1833,7 @@
 			
 			"Antifungal Silicon": {
 				"handle": "antifungal_silicon",
-				"label": "Anti-fingal Silicon 1.5Hrs or more                                       MYR70/Hr",
+				"label": "Anti-fungal Silicon 1.5Hrs or more                                       MYR70/Hr",
 				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
 				"description": "Label standard",
 				"cost": {
