@@ -1,1 +1,5393 @@
-1
+{
+	"cleaning": {
+		"name": "Cleaning",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "40",
+			"MYR": "71",
+			"CNY": "195"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			   "Std Clean Very Small Condo": {
+				"handle": "standard_small_condo",
+				"label": "Standard Clean Very Small Condo                             MYR80 (JB)                                MYR 88 (KL)",
+				"displayLabel": "Std Clean Very Small Condo",
+				"orderLabel": "Unit (Standard Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "80",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Std Clean Condo": {
+				"handle": "standard_condo",
+				"label": "Standard Clean Condo                                  MYR40/Hr (JB)                              MYR44/Hr (KL)",
+				"displayLabel": "Standard Clean Condo",
+				"orderLabel": "Hours (Standard Clean Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 150,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Std Clean Landed House": {
+				"handle": "standard_landed_house",
+				"label": "Standard Clean Landed House                        MYR40/Hr (JB)                            MYR44/Hr (KL)",
+				"displayLabel": "Standard Clean Landed House",
+				"orderLabel": "Hours (Standar Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+          
+			"Festive Very Small Condo": {
+				"handle": "festive_small_condo",
+				"label": "Festive Clean Very Small Condo                            MYR110 (JB)                                MYR121 (KL)",
+				"displayLabel": "Festive Clean Very Small Condo",
+				"orderLabel": "Unit (Festive Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "110",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Festive Std Condo": {
+				"handle": "festive_big",
+				"label": "Festive Clean Standard Condo                               MYR50/Hr (JB)                        MYR55/Hr (KL)",
+				"displayLabel": "Festive Clean Std Condo",
+				"orderLabel": "Hours (Festive Clean Std Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "50",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 210,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Festive Landed House": {
+				"handle": "festive_big",
+				"label": "Festive Clean Landed House                            MYR50/Hr (JB)                                MYR55/Hr (KL)",
+				"displayLabel": "Festive Clean Landed House",
+				"orderLabel": "Hours (Festive Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "50",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 300,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Very Small Condo": {
+				"handle": "reno_small_condo",
+				"label": "Renovation Clean Very Small Condo                          MYR260/Hr (JB)                               MYR286/Hr (KL)",
+				"displayLabel": "Renovation Clean Very Small Condo",
+				"orderLabel": "Unit (Renovation Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "260",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Standard House": {
+				"handle": "reno_standard_house",
+				"label": "Renovation Clean 1-Storey House or Condo                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
+				"displayLabel": "Renovation Clean 1-Storey House or Condo",
+				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 360,
+					"increment": 60,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Big House": {
+				"handle": "reno_big_house",
+				"label": "Renovation Clean Big House                             MYR600/Day (JB)                               MYR660/Day (KL)",
+				"displayLabel": "Renovation Clean Big House",
+				"orderLabel": "Day (Renovation Clean Big House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "600",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Day",
+					"min": 0,
+					"max": 2,
+					"default": 1,
+					"increment": 0.5,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+						
+			"Move Very Small Condo": {
+				"handle": "move_small_condo",
+				"label": "Move Clean Very Small Condo                               MYR115 (JB)                               MYR126.5 (KL)",
+				"displayLabel": "Move Clean Very Small Condo",
+				"orderLabel": "Unit (Move Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "115",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Move Condo": {
+				"handle": "move_condo",
+				"label": "Move Clean Standard Condo                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
+				"displayLabel": "Move Clean Standard Condo",
+				"orderLabel": "Hours (Move Clean Standard Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Move Landed": {
+				"handle": "move_landed",
+				"label": "Move Clean Landed House                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
+				"displayLabel": "Move Clean Landed House",
+				"orderLabel": "Hours (Move Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 300,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"PKG 10X": {
+				"handle": "package_10",
+				"label": "Package 10X                                                          Discount 10%",
+				"displayLabel": "Package 10X",
+				"orderLabel": "Package (PKG 10X)",
+				"description": "Label standard",
+				"isPackage": "true",
+				"cost": {
+					"SGD": "10",
+					"MYR": "10",
+					"CNY": "10"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 60,
+					"base": 60,
+					"multiplier": 10
+				}
+			},
+			
+			"PKG 20X": {
+				"handle": "package_20",				
+				"label": "Package 20X                                            Discount 15%",
+				"displayLabel": "Package 20X",
+				"orderLabel": "Package (PKG 20X)",
+				"description": "Label standard",
+				"isPackage": "true",
+				"cost": {
+					"SGD": "15",
+					"MYR": "15",
+					"CNY": "15"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 20
+											
+				}
+			}
+		},
+		
+		
+	"types": {
+			"tools": {
+				"label": "Tools?",
+				"description": "Label standard",
+				"values": {
+														
+					"Customer tools": {
+						"label": "Customer provides",
+						"orderLabel": "Customer provides",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					
+					"Blooms tools": {
+						"label": "Blooms provides (+ MYR20)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+		
+		
+	"installation": {
+		"name": "Installation",
+		"lastSlot": "15:30",
+		"startPrice": {
+			"SGD": "35.5",
+			"MYR": "66.25",
+			"CNY": "150"
+		},
+		"disableLocations": ["Seremban", "Singapore"],
+		"hasNote": 1,
+		"options": {
+			"Std 1st": {
+				"handle": "std_first",
+				"label": "Standard Install 1st Hour                                   MYR75/Hr",
+				"orderLabel": "Hour (Standard Install 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Std 2nd": {
+				"handle": "std_second",
+				"label": "Standard Install 2nd Hour or more                                         MYR50/Hr",
+				"orderLabel": "Hour (Std Install 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+            "Tech 1st": {
+				"handle": "tech_first",
+				"label": "Technical Install 1st Hour                                            MYR95/Hr",
+				"orderLabel": "Hour (Tech Install 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Tech 2nd": {
+				"handle": "tech_second",
+				"label": "Technical Install 2nd Hour or more                                              MYR60/Hr",
+				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Site Survey": {
+				"handle": "site_survey",
+				"label": "Site Survey                                         Free",
+				"orderLabel": "Trip (Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Project": {
+				"handle": "project",
+				"label": "Installation Project                                       Per Quotation",
+				"orderLabel": "Job (Installation Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+            		 }	
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+			
+			
+	"aircon": {
+		"name": "Aircon Works",
+		"lastSlot": "16:00",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "40",
+			"MYR": "71",
+			"CNY": "230"
+		},
+		"hasNote": 1,
+		"options": {
+			"AC Package": {
+				"handle": "ac_package",
+				"label": "Malaysia AC PKG.",
+				"orderLabel": "PKG (MY AC PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "PKG",
+					"min": 0,
+					"max": 9,
+					"increment": 3,
+					"default": 0,
+					"base": 1
+				}
+			},			
+			
+			"Malaysia SW": {
+				"handle": "malaysia_sw",
+				"label": "Standard Wash: 3 or more units (min 1Hr booking).                        MYR120/Hr",
+				"orderLabel": "Hour (Std Wash >= 3 units)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Min Order": {
+				"handle": "min_order",
+				"label": "Standard Wash - Min Order (Studio, 1BR Apt)                           MYR80/Job",
+				"orderLabel": "Job (Min Order (1-2 units))",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			"Malaysia CW": {
+				"handle": "malaysia_cw",
+				"label": "Chemical Wash                                      MYR120/Hr/Unit",
+				"orderLabel": "Hour (Chemical Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "120",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},			
+			
+			"Malaysia Small Cassette CW 2-3HP": {
+				"handle": "malaysia_small_cassette_cw",
+				"label": "Small Cassette Chemical Wash : 2 to 3HP",
+				"orderLabel": "Hour (Small Cassette Chemical Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "65",
+					"MYR": "200",
+					"CNY": "310"
+				},
+				"cost_max": {
+					"SGD": "100",
+					"MYR": "300",
+					"CNY": "310"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 90,
+					"base": 60
+				}
+			},
+			"Malaysia Big Cassette CW 3.5 to 5HP": {
+				"handle": "malaysia_big_cassette_cw",
+				"label": "Big Cassette Chemical Wash : 3.5 to 5HP",
+				"orderLabel": "Hour (Big Cassette Chemical Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "98",
+					"MYR": "260",
+					"CNY": "365"
+				},
+				
+				"cost_max": {
+					"SGD": "75",
+					"MYR": "390",
+					"CNY": "310"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 90,
+					"base": 60
+				}
+			},
+			"Quotation Enquiry": {				
+				"handle": "quotation_enquiry",
+				"label": "Quotation Enquiry                                                Quote within 3 Working Days",
+				"orderLabel": "Job (Quotation Enquiry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"MY Trouble Shoot": {
+				"handle": "my_trouble_shoot",
+				"label": "AC Trouble Shoot.                                MYR80/Job",
+				"orderLabel": "Job (AC Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"AC Project": {
+				"handle": "ac_project",
+				"label": "Aircon Project                                     Per Quotation",
+				"orderLabel": "Job (Aircon Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	
+	"carpentry": {
+		"name": "Carpentry",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "61.5",
+			"CNY": "20"
+		},
+		"hasNote": 1, 
+		"options": {
+			"1st Hr": {
+				"handle": "first_hr",
+				"label": "1st Hour                                       MYR60/Hr",
+				"orderLabel": "Hour (1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"2Hr Rate": {
+				"handle": "second_or_more_hr",
+				"label": "2nd Hour & more                                             MYR50/Hr",
+				"orderLabel": "Hour (2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Survey": {
+				"handle": "survey",
+				"label": "Renovation / Retrofit Survey                                            Free",
+				"orderLabel": "Job (Renovation / Retrofit Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Project": {
+				"handle": "projects",
+				"label": "Renovation Projects                                            Per Quotation",
+				"orderLabel": "Job (Renovation Projects)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"electrical": {
+		"name": "Electrical",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Survey": {
+				"handle": "survey",
+				"label": "Site Survey                            MYR30/Trip (JB)",
+				"orderLabel": "Trip (Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Emergency": {
+				"handle": "emergency",
+				"label": "Emergency Booking                         MYR100-150 (JB) ",
+				"orderLabel": "Trip (Emergency Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"cost_max": {
+					"SGD": "80",
+					"MYR": "150",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project": {
+				"handle": "project",
+				"label": "Electrical Project                              Per Quotation",
+				"orderLabel": "Job (Electrical Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}		
+		},
+
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+		
+	"landscape": {
+		"name": "Landscape",
+		"lastSlot": "14:30",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "42.5",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr cutting": {
+				"handle": "first_hr_cutting",
+				"label": "1st Hour                                 MYR50/Hr",
+				"orderLabel": "Hour (1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			">=2nd Hr cutting": {
+				"handle": "second_or_more_hr",
+				"label": "2nd Hour & more                              MYR40/Hr",
+				"orderLabel": "Hour (2nd Hour & more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},	
+			"survey": {
+				"handle": "survey",
+				"label": "Site Survey                            Free",
+				"orderLabel": "Trip (Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			"Project": {
+				"handle": "project",
+				"label": "Landscape Project",
+				"orderLabel": "Job (Landscape Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+			"Small Debri": {
+				"handle": "small_debri",
+				"label": "Small Debri Disposal <=3 Bags                         MYR35",
+				"orderLabel": "Job (Small Debri Disposal)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "35",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Big Debri": {
+				"handle": "big_debri",
+				"label": "Big Debri Disposal >3 Bags                                MYR50",
+				"orderLabel": "Job (Big Debri Disposal)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"plumbing": {
+		"name": "Plumbing",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "7",
+			"MYR": "14",
+			"CNY": "50"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Std Plumbing 1st Hr": {
+				"handle": "first_hour",
+				"label": "Standard Plumbing 1st Hour                                    MYR80/Hr (JB)",
+				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Std Plumbing 2nd Hr": {
+				"handle": "second_hour",
+				"label": "Standard Plumbing 2nd Hour or more                                    MYR60/Hr (JB)",
+				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Non-Standard Plumbing Project Survey": {
+				"handle": "survey",
+				"label": "Non-Standard Plumbing SURVEY                                       MYR20/Trip (JB)",
+				"orderLabel": "Trip (Non-Standard Plumbing SURVEY)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Non-Standard Plumbing Project": {
+				"handle": "plumbing_project",
+				"label": "Non-Standard Plumbing PROJECT                                       Per Quotation",
+				"orderLabel": "Job (Non-Standard Plumbing PROJECT)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Issue Survey": {
+				"handle": "survey",
+				"label": "Tank Issue SURVEY                                       MYR20/Trip (JB)",
+				"orderLabel": "Trip (Tank Issue SURVEY)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 1st Hr": {
+				"handle": "tank_wash_first_hour",
+				"label": "Tank WASH 1st Hour                                    MYR120/Hr (JB)",
+				"orderLabel": "Hour (Tank WASH 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 2nd Hr": {
+				"handle": "tank_wash_second_hour",
+				"label": "Tank WASH 2nd Hour or more                                    MYR80/Hr (JB)",
+				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 1st Hr": {
+				"handle": "tank_repair_first_hour",
+				"label": "Tank REPAIR 1st Hour                                    MYR100/Hr (JB)",
+				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 2nd Hr": {
+				"handle": "tank_repair_second_hour",
+				"label": "Tank REPAIR 2nd Hour or more                                  MYR80/Hr (JB)",
+				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+						
+			"Tank Project": {
+				"handle": "tank_project",
+				"label": "Tank Project                                             Per Quotation",
+				"orderLabel": "Job (Tank Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Sink Poppy": {
+				"handle": "sink_poppy",
+				"label": "Sink Poppy                                       MYR30/Set",
+				"orderLabel": "Set (Sink Poppy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+			
+			"Trouble Shoot": {
+				"handle": "trouble_shoot",
+				"label": "Trouble Shoot                                              MYR60/Job",
+				"orderLabel": "Job (Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+		
+	"clean-water": {
+		"name": "Clean Water",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban","Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "85",
+			"MYR": "23.5",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Survey JB": {
+				"handle": "survey",
+				"label": "Site Survey (JB Area)                                             Free",
+				"orderLabel": "Trip (Site Survey (JB Area))",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+		"Survey Outside JB": {
+				"handle": "outside_jb",
+				"label": "Site Survey (Outside JB)                                          RM30/Trip",
+				"orderLabel": "Trip (Site Survey (Outside JB Area))",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+	
+			"Outdoor": {
+				"handle": "outdoor",
+				"label": "Outdoor Filter Installation                                       MYR1350/Set",
+				"orderLabel": "Set (Outdoor Filter Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1350",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Auto Timer": {
+				"handle": "auto_timer",
+				"label": "Automatic Bleed Timer                                       MYR100/Set",
+				"orderLabel": "Set (Automatic Bleed Timer)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"painting": {
+		"name": "Paint & Partition",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "61.5",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr Labour Booking": {
+				"handle": "first_hr_labour",
+				"label": "Service Rate 1st Hour                                        MYR70/Hr",
+				"orderLabel": "Hour (Service Rate 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "70",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"2nd Hr Labour Booking": {
+				"handle": "second_hr_more_labour",
+				"label": "Service Rate 2nd Hour or more                                         MYR45/Hr",
+				"orderLabel": "Hour (Service Rate 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"MY Survey": {
+				"handle" : "my_survey",
+				"label": "House Survey                                          Free",
+				"description": "Malaysia Survey",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},			
+		  	"Paint Project": {
+		  		"handle": "paint_project",
+				"label": "Paint Project                                              Per Quotation",
+				"description": "Paint Project",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			}
+		 },
+	
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},	
+	
+	
+	"waterproof": {
+		"name": "Waterproofing",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "66",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Survey": {
+				"handle": "survey",
+				"label": "Survey                                         MYR30/Trip (JB)",
+				"orderLabel": "Trip (Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Waterproof Project": {
+				"handle": "waterproof_project",
+				"label": "Waterproof Project                                 Per Quotation",
+				"orderLabel": "Job (Waterproof Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Std Silicon 1st Hr": {
+				"handle": "standard_silicon_first_hour",
+				"label": "Standard Silicon 1st Hr                                       MYR70/Hr",
+				"orderLabel": "Hour (Std Silicon 1st Hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Std Silicon": {
+				"handle": "standard_silicon",
+				"label": "Standard Silicon 1.5Hrs or more                                       MYR50/Hr",
+				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			 },
+			
+			"Antifungal Silicon 1st Hr": {
+				"handle": "antifungal_silicon_first_hour",
+				"label": "Anti-fungal Silicon 1st Hr                                       MYR90/Hr",
+				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Antifungal Silicon": {
+				"handle": "antifungal_silicon",
+				"label": "Anti-fungal Silicon 1.5Hrs or more                                       MYR70/Hr",
+				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			 }
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"others": {
+		"name": "Others",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban","Singapore"],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"others_survey": {
+				"handle": "others_survey",
+				"label": "Retrofit or Renovation Survey                                         MYR20/Job (JB)                               MYR22/Job (KL)",
+				"orderLabel": "Trip (Retrofit or Renovation Survey",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project": {
+				"handle": "others_project",
+				"label": "Project Order                                         Per Quotation",
+				"orderLabel" : "Job (Project Order)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}			
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+		
+	"computer": {
+		"name": "Computer & Digital Entertainment",
+		"lastSlot": "16:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "12",
+			"MYR": "23.50",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Assessment": {
+				"handle": "assessment",
+				"label": "On-Site Assessment                                 MYR20/Trip (JB)",
+				"orderLabel": "Trip (On-Site Assessment)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Ware Install": {
+				"handle": "ware_install",
+				"label": "Soft or Hardware Installation                                 MYR30/Hr (JB)",
+				"orderLabel": "Hour (Soft or Hardware Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},			
+			"Network": {
+				"handle": "network",
+				"label": "Network                                                 MYR30/Hr (JB)",
+				"orderLabel": "Hour (Network)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 180,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Workshop Repair": {
+				"handle": "workshop_repair",
+				"label": "Workshop Repair                                              MYR85/Job (JB)",
+				"orderLabel": "Job (Workshop Repair)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "85",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Karaoke": {
+				"handle": "karaoke",
+				"label": "Karaoke System Install or Setting                                              MYR80/Job (JB)",
+				"orderLabel": "Job (Karaoke System Install or Setting)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Project": {
+				"handle": "project",
+				"label": "Project                                            Per Quotation",
+				"orderLabel": "Job (Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"TV Box": {
+				"handle": "tv_box",
+				"label": "Digital TV Box                                            MYR599/Set (JB) ",
+				"orderLabel": "Set (Digital TV Box)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "249",
+					"MYR": "599",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+		
+		"Karaoke + TV Box": {
+				"handle": "karaoke_tvbox",
+				"label": "Karaoke & TV Box                                            MYR4500/Set (JB)",
+				"orderLabel": "Set (Karaoke + TV Box)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "2000",
+					"MYR": "4500",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			}
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"tiling": {
+		"name": "Tiling & Concrete",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "45.5",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr": {
+				"handle": "standard_work_first_hour",
+				"label": "Non-Waterproof Standard Work 1st Hour                                                 MYR100/Hr (JB)",
+				"orderLabel": "Hour (Non-Waterproof Std Work 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },
+			
+			"Std Work 2nd Hr": {
+				"handle": "standard_work_second_hour",
+				"label": "Non-Waterproof Standard Work 2nd Hour or more                                               MYR60/Hr (JB)",
+				"orderLabel": "Hour (Non-Waterproof Std Work 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "60",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Waterproof Blooms Tiles - 10ft2": {
+				"handle": "waterproof_blooms_tiles_10ft2",
+				"label": "Waterproof Work - Blooms Supply Tiles - 10 ft2                                         MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Blooms Tiles - 10 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "15",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 200,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Blooms Tiles - 1ft2": {
+				"handle": "waterproof_blooms_tiles_1ft2",
+				"label": "Waterproof Work - Blooms Supply Tiles - 1 ft2                                        MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Blooms' Tiles - 1 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "15",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+			
+			"Waterproof Customer Tiles - 10ft2": {
+				"handle": "waterproof_customers_tiles_10ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - 10 ft2                                         MYR10/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 10 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "10",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 200,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Customers Tiles - 1ft2": {
+				"handle": "waterproof_blooms_tiles_1ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - 1 ft2                                        MYR10/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 1 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "10",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+		
+						
+			"Project Survey": {
+				"handle": "survey",
+				"label": "Survey                                                   Free",
+				"orderLabel": "Trip (Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+          		"Tile Project": {
+				"handle": "tile_project",
+				"label": "Tile Project                                                  Per Quotation",
+				"orderLabel": "Job (Tile Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	"locksmith": {
+		"name": "Locksmith",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "80",
+			"MYR": "52",
+			"CNY": "80"
+		},
+		"hasNote": 1,
+		"options": {
+			"unlock-morning": {
+				"handle": "unlock_morning",
+				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100 (JB)",
+				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "60",
+					"CNY": "80"
+				},
+				"cost_max": {
+					"SGD": "80",
+					"MYR": "100",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-evening": {
+				"handle": "unlock_evening",
+				"label": "Room Door Unlock (After 6pm)                                            MYR90 - 130 (JB) ",
+				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "90",
+					"CNY": "120"
+				},
+				"cost_max": {
+					"SGD": "120",
+					"MYR": "130",
+					"CNY": "120"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-metal": {
+				"handle": "unlock_metal",
+				"label": "Metal Door Unlock                                          From MYR85 (JB)",
+				"orderLabel": "Unit (Metal Door Unlock)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "85",
+					"CNY": "95"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Survey": {
+				"handle": "survey",
+				"label": "Other Lock Work Survey                                       Free",
+				"orderLabel": "Trip (Other Lock Work Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Non Std Repair": {
+				"handle": "non_standard_repair",
+				"label": "Non-Standard Lock Repair                                         Per Quotation",
+				"orderLabel": "Job (Non-Std Lock Repair)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Premium Car Key Copy": {
+				"handle": "premium_car_key_copy",
+				"label": "Foreign Car Key Copy                                                 From MYR260 (JB)",
+				"orderLabel": "Unit (Foreign Car Key Copy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "260",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"National Car Key Copy": {
+				"handle": "national_car_key_copy",
+				"label": "Proton/Perodua Key Copy                                       From MYR120 (JB)",
+				"orderLabel": "Unit (Proton/Perodua Key Copy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "120",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Digital Lock": {
+				"handle": "digital_lock",
+				"label": "EZope Smart Lock Install                                       MYR1399/Unit (JB)",
+				"orderLabel": "Unit (EZope Smart Lock Install)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "699",
+					"MYR": "1399",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			"Projects": {
+				"handle": "misc_projects",
+				"label":"Lock Projects                                              Per Quotation",
+				"orderLabel": "Job (Lock Projects)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+		
+	
+	"runner": {
+		"name": "Runner & Helper",
+		"lastSlot": "16:00",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "25",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Survey": {
+				"handle": "survey",
+				"label": "Survey                                          MYR30/Trip",
+				"orderLabel": "Trip (Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },			
+			
+			"Inspection": {
+				"handle": "inspection",
+				"label": "Vehicle Inspection                                                        MYR120/Job",
+				"orderLabel": "Job (Vehicle Inspection)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },			
+			"Helper": {
+				"handle": "helper",
+				"label": "Helper                                                        MYR30/Trip",
+				"orderLabel": "Trip (Helper)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},					
+			"Emergency": {
+				"handle": "emergency",
+				"label": "Emergency Booking                                                     MYR100-150/Trip",
+				"orderLabel": "Trip (Emergency)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"cost_max": {
+					"SGD": "80",
+					"MYR": "150",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Errand Project": {
+				"handle": "helper",
+				"label": "Errand Project                                                            Quotation",
+				"orderLabel": "Job (Errand Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			}					
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"sewing": {
+		"name": "Curtain Alteration",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "0",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+				
+			"Sewing Transport": {
+				"handle": "to_and_fro",
+				"label": "To-&-Fro Transport Charge                                                     MYR20/Order",
+				"orderLabel": "Order (To-&-Fro Transport Charge)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Vertical Trim Min Order": {
+				"handle": "vertical_trim_min_order",
+				"label": "Vertical Trim Min Order                                                       MYR20/Job",
+				"orderLabel": "Job (Vertical Trim Min Order)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Vertical Trim Quantity": {
+				"handle": "curtain_quantity",
+				"label": "Vertical Trim Curtain Quantity                                                     MYR10/Piece",
+				"orderLabel": "Pcs (Vertical Trim Curtain Quantity)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "10",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			 },
+			
+			
+			"Horizontal Trim Min Order": {
+				"handle": "horizontal_trim_min_order",
+				"label": "Horizontal Trim Min Order                                                  MYR20/Job",
+				"orderLabel": "Job (Horizontal Trim Min Order)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Horizontal Trim Length": {
+				"handle": "curtain_length",
+				"label": "Horizontal Trim Curtain Length                                                         MYR10/Meter",
+				"orderLabel": "Meters (Horizontal Trim Curtain Length)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "10",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Meters",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 2.5,
+					"base": 1
+				}
+			 },
+		
+			
+			"Curtain Dismantling": {
+				"handle": "curtain_dismantling",
+				"label": "Curtain Dismantling                                                  MYR25/Hr",
+				"orderLabel": "Hour (Curtain Dismantling)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "25",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Curtain Installation": {
+				"handle": "curtain_installation",
+				"label": "Curtain Installation                                                  MYR35/Hr",
+				"orderLabel": "Hour (Curtain Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "35",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			 }		
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+		
+		
+	"printer": {
+		"name": "Printer Ink",
+		"lastSlot": "15:00",
+		"hasbrand" : "true",
+		"title": "Select Brand. MOQ = MYR100",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "50",
+			"MYR": "100",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"brands" : [
+			{
+				"name" : "BROTHER",
+				"photo" : "printer/brands/brother.jpg",
+				"models" : [
+					{
+						"name" : "HL-1110",
+						"photo" : "printer/models/b1-HL1110.png"
+					},
+					{
+						"name" : "DCP-T310",
+						"photo" : "printer/models/b2-DCP-T310.png"
+					},
+					{
+						"name" : "DCP-T510W",
+						"photo" : "printer/models/b3-DCP-T510W.png"
+					},
+					{
+						"name" : "MFC-J200",
+						"photo" : "printer/models/b4-mfc-j200.png"
+					},
+					{
+						"name" : "J2330DW",
+						"photo" : "printer/models/b5-mfc-j2330dw.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			{	
+				"name" : "CANON",
+				"photo" : "printer/brands/cannon.jpg",
+				"models" : [
+					{
+						"name" : "MF3010",
+						"photo" : "printer/models/c1-MF3010.png"
+					},
+					{
+						"name" : "LPB6030",
+						"photo" : "printer/models/c2-LPB6030.png"
+					},
+					{
+						"name" : "E410",
+						"photo" : "printer/models/c3-e410.png"
+					},
+					{
+						"name" : "iP2870S",
+						"photo" : "printer/models/c4-ip2870s.png"
+					},
+					{
+						"name" : "E500/510",
+						"photo" : "printer/models/c5-e500-510.png"
+					},
+					{
+						"name" : "MX328",
+						"photo" : "printer/models/c6-mx328.png"
+					},
+					{
+						"name" : "MP237",
+						"photo" : "printer/models/c7-mp237.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			{
+				"name" : "EPSON",
+				"photo" : "printer/brands/epson.jpg",
+				"models" : [
+					{
+						"name" : "L3110",
+						"photo" : "printer/models/e1-L3110.png"
+					},
+					{
+						"name" : "LQ310",
+						"photo" : "printer/models/e2-LQ310.png"
+					},
+					{
+						"name" : "L3150",
+						"photo" : "printer/models/e3-L3150.png"
+					},
+					{
+						"name" : "L110",
+						"photo" : "printer/models/e4-L110.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			
+			{
+				"name" : "HP",
+				"photo" : "printer/brands/hp.png",
+				"models" : [
+					{
+						"name" : "MFP-M28W",
+						"photo" : "printer/models/h5-mfp-m28w.png"
+					},
+					{
+						"name" : "2100/2200",
+						"photo" : "printer/models/h9-2100-2200.png"
+					},
+					{
+						"name" : "2336",
+						"photo" : "printer/models/h1-2336.png"
+					},
+					{
+						"name" : "2410/2420",
+						"photo" : "printer/models/h6-2410-2420.png"
+					},
+					{
+						"name" : "3545",
+						"photo" : "printer/models/h3-3545.png"
+					},
+					{
+						"name" : "4000/4050",
+						"photo" : "printer/models/h8-4000-4050.png"
+					},
+					{
+						"name" : "5000/5100",
+						"photo" : "printer/models/h7-5000-5100.png"
+					},
+					{
+						"name" : "5020",
+						"photo" : "printer/models/h2-5020.png"
+					},
+					{
+						"name" : "6475",
+						"photo" : "printer/models/h4-6475.jpg"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			
+			{
+				"name" : "FUJI XEROX",
+				"photo" : "printer/brands/fuji_xerox.jpg",
+				"models" : [
+					{
+						"name" : "CM115W",
+						"photo" : "printer/models/f1-CM115W.png"
+					},
+					{
+						"name" : "P375DW",
+						"photo" : "printer/models/f2-P375DW.png"
+					},
+					{
+						"name" : "P355d",
+						"photo" : "printer/models/f3-P355d.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			}
+		],
+		
+		"options": {
+			
+			"Others": {			
+				"label": "Free Quote",
+				"orderLabel": "Free Quote",
+				"type" : "Others",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-TN1000": {			
+				"label": "TN1000",
+				"orderLabel": "TN1000",
+				"type" : "HL-1110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "32",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-Black": {		
+				"label": "BTD60-Black",
+				"orderLabel": "BTD60-Black",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-Cyan": {
+				"label": "BT5000-Cyan",
+				"orderLabel": "BT5000-Cyan",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B310-Magenta": {
+				"label": "BT5000-Magenta",
+				"orderLabel": "BT5000-Magenta",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-Yellow": {
+				"label": "BT5000-Yellow",
+				"orderLabel": "BT5000-Yellow",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B510-Black": {
+				"label": "BTD60-Black",
+				"orderLabel": "BTD60-Black",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B510-Cyan": {
+				"label": "BT5000-Cyan",
+				"orderLabel": "BT5000-Cyan",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B510-Magenta": {
+				"label": "BT5000-Magenta",
+				"orderLabel": "BT5000-Magenta",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"B510-Yellow": {
+				"label": "BT5000-Yellow",
+				"orderLabel": "BT5000-Yellow",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Black": {
+				"label": "Brother LC539XL-Black",
+				"orderLabel": "Brother LC539XL-Black",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Cyan": {
+				"label": "Brother LC539XL-Cyan",
+				"orderLabel": "Brother LC539XL-Cyan",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Magenta": {
+				"label": "Brother LC539XL-Magenta",
+				"orderLabel": "Brother LC539XL-Magenta",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Yellow": {
+				"label": "Brother LC539XL-Yellow",
+				"orderLabel": "Brother LC539XL-Yellow",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Black": {
+				"label": "Brother LC3619XL-Black",
+				"orderLabel": "Brother LC3619XL-Black",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "106",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Cyan": {
+				"label": "Brother LC3619XL-Cyan",
+				"orderLabel": "Brother LC3619XL-Cyan",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "43",
+					"MYR": "86",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Magenta": {
+				"label": "Brother LC3619XL-Magenta",
+				"orderLabel": "Brother LC3619XL-Magenta",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "43",
+					"MYR": "86",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Yellow": {
+				"label": "Brother LC3619XL-Yellow",
+				"orderLabel": "Brother LC3619XL-Yellow",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "43",
+					"MYR": "86",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"C-MF3010": {
+				"label": "3010 Catridge-325",
+				"orderLabel": "3010 Catridge-325",
+				"type" : "MF3010",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-LPB6030": {
+				"label": "6030 Catridge-325",
+				"orderLabel": "6030 Catridge-325",
+				"type" : "LPB6030",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Black": {
+				"label": "Canon 47-Black",
+				"orderLabel": "Canon 47-Black",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "18",
+					"MYR": "37",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Cyan": {
+				"label": "Canon 57-Cyan",
+				"orderLabel": "Canon 57-Cyan",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Magenta": {
+				"label": "Canon 57-Magenta",
+				"orderLabel": "Canon 57-Magenta",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Yellow": {
+				"label": "Canon 57-Yellow",
+				"orderLabel": "Canon 57-Yellow",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Black": {
+				"label": "Canon 745-Black",
+				"orderLabel": "Canon 745-Black",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Cyan": {
+				"label": "Canon 746-Cyan",
+				"orderLabel": "Canon 746-Cyan",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "52",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Magenta": {
+				"label": "Canon 746-Magenta",
+				"orderLabel": "Canon 746-Magenta",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "52",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Yellow": {
+				"label": "Canon 746-Yellow",
+				"orderLabel": "Canon 746-Yellow",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "52",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E500/510-Black": {
+				"label": "Canon 88-Black",
+				"orderLabel": "Canon 88-Black",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "63",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			"C-E500/510-Cyan": {
+				"label": "Canon 98-Cyan",
+				"orderLabel": "Canon 98-Cyan",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E500/510-Magenta": {
+				"label": "Canon 98-Magenta",
+				"orderLabel": "Canon 98-Magenta",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E500/510-Yellow": {
+				"label": "Canon 98-Yellow",
+				"orderLabel": "Canon 98-Yellow",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Black": {
+				"label": "Canon 810-Black",
+				"orderLabel": "Canon 810-Black",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "38",
+					"MYR": "77",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Cyan": {
+				"label": "Canon 811-Cyan",
+				"orderLabel": "Canon 811-Cyan",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Magenta": {
+				"label": "Canon 811-Magenta",
+				"orderLabel": "Canon 811-Magenta",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Yellow": {
+				"label": "Canon 811-Yellow",
+				"orderLabel": "Canon 811-Yellow",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Black": {
+				"label": "Canon 810-Black",
+				"orderLabel": "Canon 810-Black",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "38",
+					"MYR": "77",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Cyan": {
+				"label": "Canon 811-Cyan",
+				"orderLabel": "Canon 811-Cyan",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Magenta": {
+				"label": "Canon 811-Magenta",
+				"orderLabel": "Canon 811-Magenta",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Yellow": {
+				"label": "Canon 811-Yellow",
+				"orderLabel": "Canon 811-Yellow",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"E-L3110-Black": {
+				"label": "EPSON003-Black",
+				"orderLabel": "EPSON003-Black",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3110-Cyan": {
+				"label": "EPSON003-Cyan",
+				"orderLabel": "EPSON003-Cyan",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"E-L3110-Magenta": {
+				"label": "EPSON003-Magenta",
+				"orderLabel": "EPSON003-Magenta",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3110-Yellow": {
+				"label": "EPSON003-Yellow",
+				"orderLabel": "EPSON003-Yellow",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-LQ310": {
+				"label": "EPSON LQ310",
+				"orderLabel": "EPSON LQ310",
+				"type" : "LQ310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "24",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Black": {
+				"label": "EPSON003-Black",
+				"orderLabel": "EPSON003-Black",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Cyan": {
+				"label": "EPSON003-Cyan",
+				"orderLabel": "EPSON003-Cyan",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"E-L3150-Magenta": {
+				"label": "EPSON003-Magenta",
+				"orderLabel": "EPSON003-Magenta",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Yellow": {
+				"label": "EPSON003-Yellow",
+				"orderLabel": "EPSON003-Yellow",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"E-L110-Black": {
+				"label": "EPSON664-Black",
+				"orderLabel": "EPSON664-Black",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Cyan": {
+				"label": "EPSON664-Cyan",
+				"orderLabel": "EPSON664-Cyan",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Magenta": {
+				"label": "EPSON664-Magenta",
+				"orderLabel": "EPSON664-Magenta",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Yellow": {
+				"label": "EPSON664-Yellow",
+				"orderLabel": "EPSON664-Yellow",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+				
+			"F-CM115W-Black": {
+				"label": "FX Laser Toner Black",
+				"orderLabel": "FX Laser Toner Black",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"F-CM115W-Cyan": {
+				"label": "FX Laser Toner Cyan",
+				"orderLabel": "FX Laser Toner Cyan",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"F-CM115W-Magenta": {
+				"label": "FX Laser Toner Magenta",
+				"orderLabel": "FX Laser Toner Magenta",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"F-CM115W-Yellow": {
+				"label": "FX Laser Toner Yellow",
+				"orderLabel": "FX Laser Toner Yellow",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-M28W-Black": {
+				"label": "Laserjet HP 48A-Black",
+				"orderLabel": "Laserjet HP 48A-Black",
+				"type" : "MFP-M28W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "91",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"2100-2200": {
+				"label": "HP EP32 (C4096A) Toner",
+				"orderLabel": "HP EP32 (C4096A) Toner",
+				"type" : "2100/2200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Black": {
+				"label": "HP Deskjet 682-Black",
+				"orderLabel": "HP Deskjet 682-Black",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Cyan": {
+				"label": "HP Deskjet 682-Cyan",
+				"orderLabel": "HP Deskjet 682-Cyan",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Magenta": {
+				"label": "HP Deskjet 682-Magenta",
+				"orderLabel": "HP Deskjet 682-Magenta",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Yellow": {
+				"label": "HP Deskjet 682-Yellow",
+				"orderLabel": "HP Deskjet 682-Yellow",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5020-Black": {
+				"label": "HP Envy 65-Black",
+				"orderLabel": "HP Envy 65-Black",
+				"type" : "5020",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "33",
+					"MYR": "70",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5020-Tri Colour": {
+				"label": "HP Envy 65-Tri Colour",
+				"orderLabel": "HP Envy 65-Tri Colour",
+				"type" : "5020",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "33",
+					"MYR": "70",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Black": {
+				"label": "HP Deskjet 678-Black",
+				"orderLabel": "HP Deskjet 678-Black",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Cyan": {
+				"label": "HP Deskjet 678-Cyan",
+				"orderLabel": "HP Deskjet 678-Cyan",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Magenta": {
+				"label": "HP Deskjet 678-Magenta",
+				"orderLabel": "HP Deskjet 678-Magenta",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Yellow": {
+				"label": "HP Deskjet 678-Yellow",
+				"orderLabel": "HP Deskjet 678-Yellow",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Black": {
+				"label": "HP Deskjet 682-Black",
+				"orderLabel": "HP Deskjet 682-Black",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Cyan": {
+				"label": "HP Deskjet 682-Cyan",
+				"orderLabel": "HP Deskjet 682-Cyan",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Magenta": {
+				"label": "HP Deskjet 682-Magenta",
+				"orderLabel": "HP Deskjet 682-Magenta",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Yellow": {
+				"label": "HP Deskjet 682-Yellow",
+				"orderLabel": "HP Deskjet 682-Yellow",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+					
+			"HP-2410-2420": {
+				"label": "Q6511X Toner",
+				"orderLabel": "Q6511X Toner",
+				"type" : "2410/2420",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "132",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5000-5100": {
+				"label": "EP62 (C4129X) Toner",
+				"orderLabel": "EP62 (C4129X) Toner",
+				"type" : "5000/5100",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "154",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-4000-4050": {
+				"label": "EP52 (C4127X) Toner",
+				"orderLabel": "EP52 (C4127X) Toner",
+				"type" : "4000/4050",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "46",
+					"MYR": "121",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+			
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"car-care": {
+		"name": "Car Care",
+		"lastSlot": "14:00",
+		"disableLocations":["Kuala Lumpur","Singapore","Johor Bahru"],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "147",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Wax Sedan": {
+				"handle": "wax_sedan",
+				"label": "Sedan Wax / 打蜡",
+				"orderLabel": "Job (Sedan Wax / 打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "168.42",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+			"SUV Wax": {
+				"handle": "wax_suv",
+				"label": "SUV Wax / 打蜡",
+				"orderLabel": "Job (SUV Wax / 打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "189.47",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Wax": {
+				"handle": "wax_mpv",
+				"label": "MPV Wax / 打蜡",
+				"orderLabel": "Job (MPV Wax / 打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "231.58",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Coat": {
+				"handle": "coat_sedan",
+				"label": "Sedan Coat / 保护膜层",
+				"orderLabel": "Job (Sedan Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "300",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Coat": {
+				"handle": "coat_suv",
+				"label": "SUV Coat / 保护膜层",
+				"orderLabel": "Job (SUV Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "400",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Coat": {
+				"handle": "coat_mpv",
+				"label": "MPV Coat / 保护膜层",
+				"orderLabel": "Job (MPV Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "500",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Tint": {
+				"handle": "tint_sedan",
+				"label": "Sedan Window Tint / 车窗隔热膜",
+				"orderLabel": "Job (Sedan Window Tint / 车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "370",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Tint": {
+				"handle": "tint_suv",
+				"label": "SUV Window Tint / 车窗隔热膜",
+				"orderLabel": "Job (SUV Window Tint / 车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "450",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Tint": {
+				"handle": "tint_mpv",
+				"label": "MPV Window Tint / 车窗隔热膜",
+				"orderLabel": "Job (MPV Window Tint / 车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "500",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Premium Sedan Tint": {
+				"handle": "premium_tint_sedan",
+				"label": "Sedan Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium Sedan Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "800",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Premium SUV Tint": {
+				"handle": "premium_tint_suv",
+				"label": "SUV Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium SUV Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1000",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Premium MPV Tint": {
+				"handle": "premium_tint_mpv",
+				"label": "MPV Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium MPV Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1350",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Clean": {
+				"handle": "clean_sedan",
+				"label": "Sedan Seat Clean / 车椅维护",
+				"orderLabel": "Job (Sedan Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Clean": {
+				"handle": "clean_suv",
+				"label": "SUV Seat Clean / 车椅维护",
+				"orderLabel": "Job (SUV Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "180",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Clean": {
+				"handle": "clean_mpv",
+				"label": "MPV Seat Clean / 车椅维护",
+				"orderLabel": "Job (MPV Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "250",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	
+	"pet": {
+		"name": "Pet",
+		"lastSlot": "16:00",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "52",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+					
+		"Shower Dog": {
+				"handle": "shower_dog",
+				"label": "Shower DOG                                           MYR60/Hr",
+				"orderLabel": "Hour (Shower DOG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 15,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+		"Basic Dog": {
+				"handle": "basic_dog",
+				"label": "Basic DOG                                       MYR90/Hr",
+				"orderLabel": "Hour (Basic DOG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 15,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+				
+		"Full dog": {
+				"handle": "full_dog",
+				"label": "Full DOG                              MYR80/Hr",
+				"orderLabel": "Hour (Full DOG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 15,
+					"default": 120,
+					"base": 60
+				}
+			},
+			
+		
+		"Basic cat": {
+				"handle": "basic_cat",
+				"label": "Basic KITTEN/CAT                              MYR60/Hr",
+				"orderLabel": "Hour (Basic KITTEN/CAT)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+		"Lioncut cat": {
+				"handle": "lioncut_cat",
+				"label": "Lion Cut CAT                                             MYR75/Hr",
+				"orderLabel": "Hour (Lion Cut CAT)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "75",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 120,
+					"base": 60
+				}
+			},
+			
+		"Deflea cat": {
+				"handle": "deflea_cat",
+				"label": "De-flea + Basic KITTEN/CAT                                          MYR80/Hr",
+				"orderLabel": "Hour (De-flea + Basic KITTEN/CAT)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 15,
+					"default": 60,
+					"base": 60
+				}
+			}	
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	"home-security": {
+		"name": "Home Security (Coming)",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "0",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"CCTV": {
+				"handle": "cctv",
+				"label": "CCTV",
+				"orderLabel": "Pax (CCTV)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pax",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Autogate": {
+				"handle": "autogate",
+				"label": "Auto Gate",
+				"orderLabel": "Job (Auto Gate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"House Alarm": {
+				"handle": "house_alarm",
+				"label": "House Alarm",
+				"orderLabel": "Job (House Alarm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 }		
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+		
+	"house_diagnosis": {
+		"name": "House Diagnosis (Coming)",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "0",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Comprehensive Checks": {
+				"handle": "comprehensive_checks",
+				"label": "Comprehensive Checks                                                         MYR0/Job",
+				"orderLabel": "Job (Comprehensive Checks)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 }
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
