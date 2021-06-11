@@ -572,10 +572,10 @@
 				}
 			},			
 			
-			"Malaysia SW": {
+			"Standard Wash": {
 				"handle": "malaysia_sw",
-				"label": "Standard Wash: 3 or more units (min 1Hr booking).                        MYR120/Hr",
-				"orderLabel": "Hour (Std Wash >= 3 units)",
+				"label": "Standard Wash (min 1Hr booking).                        MYR120/Hr",
+				"orderLabel": "Hour (Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -591,10 +591,10 @@
 					"base": 60
 				}
 			},			
-			"Min Order": {
+			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
-				"label": "Standard Wash - Min Order (Studio, 1BR Apt)                           MYR80/Job",
-				"orderLabel": "Job (Min Order (1-2 units))",
+				"label": "Standard Wash (Studio, 1BR Apt)                            MYR80/Job",
+				"orderLabel": "Job (Standard Wash (Studio, 1BR Apt))",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -632,8 +632,8 @@
 			
 			"Malaysia Small Cassette CW 2-3HP": {
 				"handle": "malaysia_small_cassette_cw",
-				"label": "Small Cassette Chemical Wash : 2 to 3HP",
-				"orderLabel": "Hour (Small Cassette Chemical Wash)",
+				"label": "Small Cassette Chemical Overhaul : 2 to 3HP",
+				"orderLabel": "Hour (Small Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "65",
@@ -656,8 +656,8 @@
 			},
 			"Malaysia Big Cassette CW 3.5 to 5HP": {
 				"handle": "malaysia_big_cassette_cw",
-				"label": "Big Cassette Chemical Wash : 3.5 to 5HP",
-				"orderLabel": "Hour (Big Cassette Chemical Wash)",
+				"label": "Big Cassette Chemical Overhaul : 3.5 to 5HP",
+				"orderLabel": "Hour (Big Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "98",
