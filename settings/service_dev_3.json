@@ -554,8 +554,8 @@
 		"options": {
 			"AC Package": {
 				"handle": "ac_package",
-				"label": "Malaysia AC PKG.",
-				"orderLabel": "PKG (MY AC PKG)",
+				"label": "AC Standard Wash PKG                                  3, 6, or 9Hrs",
+				"orderLabel": "PKG (AC Standard Wash PKG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -574,7 +574,7 @@
 			
 			"Standard Wash": {
 				"handle": "malaysia_sw",
-				"label": "Standard Wash (min 1Hr booking).                        MYR120/Hr",
+				"label": "Standard Wash (min 1Hr booking)                        MYR120/Hr",
 				"orderLabel": "Hour (Standard Wash)",
 				"description": "Label standard",
 				"cost": {
