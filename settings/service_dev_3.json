@@ -554,7 +554,7 @@
 		"options": {
 			"AC Package": {
 				"handle": "ac_package",
-				"label": "AC Standard Wash PKG                                  3, 6, or 9Hrs",
+				"label": "AC Standard Wash Packages                               3, 6, or 9Hrs",
 				"orderLabel": "PKG (AC Standard Wash PKG)",
 				"description": "Label standard",
 				"cost": {
