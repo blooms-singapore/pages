@@ -2843,7 +2843,7 @@
 			
 			"Horizontal Trim Min Order": {
 				"handle": "horizontal_trim_first_2meter",
-				"label": "Horizontal Trim First 2-Meter                                                  MYR20/Job",
+				"label": "Horizontal Trim First 2-Meter Length                                          MYR20/Job",
 				"orderLabel": "Job (Horizontal Trim First 2m)",
 				"description": "Label standard",
 				"cost": {
