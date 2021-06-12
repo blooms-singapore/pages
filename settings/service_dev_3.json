@@ -2863,12 +2863,12 @@
 			
 			"Horizontal Trim Length": {
 				"handle": "curtain_length",
-				"label": "Horizontal Trim Curtain Length                                                         MYR10/Meter",
+				"label": "Horizontal Trim Curtain Length                                                         MYR8/Meter",
 				"orderLabel": "Meters (Horizontal Trim Curtain Length)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "10",
+					"MYR": "8",
 					"CNY": "0"
 				},
 				"quantity": {
