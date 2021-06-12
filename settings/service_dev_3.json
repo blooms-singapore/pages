@@ -5337,22 +5337,42 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Comprehensive Checks": {
-				"handle": "comprehensive_checks",
-				"label": "Comprehensive Checks                                                         MYR0/Job",
-				"orderLabel": "Job (Comprehensive Checks)",
+			"Check Landed House": {
+				"handle": "house_diagnosis_landed_house",
+				"label": "Comprehensive Check Landed House                                    MYR800/Project",
+				"orderLabel": "Project (Comprehensive Check Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "800",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Project",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Check Condo": {
+				"handle": "house_diagnosis_condo",
+				"label": "Comprehensive Check Condominium                                         MYR500/Project",
+				"orderLabel": "Project (Comprehensive Check Condominium)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "500",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Project",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
 					"base": 1
 				}
 			 }
