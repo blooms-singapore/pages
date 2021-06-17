@@ -2251,7 +2251,7 @@
 			
 			"Horizontal Trim Min Order": {
 				"handle": "horizontal_trim_first_2meter",
-				"label": "Horizontal Trim First 2-Meter Length                              MYR20/Job                             within 2 meters",
+				"label": "Horizontal Trim First 2-Meter Length                             MYR20/Job                             Up to 2 meters",
 				"orderLabel": "Job (Horizontal Trim First 2m)",
 				"description": "Label standard",
 				"cost": {
@@ -2363,214 +2363,7 @@
 			}
 		}
 	},
-	
-	
-	"tiling": {
-		"name": "Tiling & Concrete",
-		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "45.5",
-			"MYR": "90",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"1st Hr": {
-				"handle": "standard_work_first_hour",
-				"label": "Non-Waterproof Standard Work 1st Hour                                MYR100/Hr (JB)",
-				"orderLabel": "Hour (Non-Waterproof Std Work 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			 },
-			
-			"Std Work 2nd Hr": {
-				"handle": "standard_work_second_hour",
-				"label": "Non-Waterproof Standard Work 2nd Hour or more                                  MYR60/Hr (JB)",
-				"orderLabel": "Hour (Non-Waterproof Std Work 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Waterproof Blooms Tiles - 10ft2": {
-				"handle": "waterproof_blooms_tiles_10ft2",
-				"label": "Waterproof Work - Blooms Supply Tiles - 10 ft2                              MYR15/ft2 (JB)",
-				"orderLabel": "ft2 (Waterproof Work - Blooms Tiles - 10 ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "15",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 200,
-					"base": 1
-				}
-			},
-			
-			"Waterproof Blooms Tiles - 1ft2": {
-				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Blooms Supply Tiles - 1 ft2                                        MYR15/ft2 (JB)",
-				"orderLabel": "ft2 (Waterproof Work - Blooms' Tiles - 1 ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "15",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			},
-			
-			"Waterproof Customer Tiles - 10ft2": {
-				"handle": "waterproof_customers_tiles_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - 10 ft2                                         MYR10/ft2 (JB)",
-				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 10 ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "10",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 200,
-					"base": 1
-				}
-			},
-			
-			"Waterproof Customers Tiles - 1ft2": {
-				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - 1 ft2                                        MYR10/ft2 (JB)",
-				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 1 ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "10",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			},
 		
-						
-			"Project Survey": {
-				"handle": "survey",
-				"label": "Survey                                                   Free",
-				"orderLabel": "Trip (Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-          		"Tile Project": {
-				"handle": "tile_project",
-				"label": "Tile Project                                                  Per Quotation",
-				"orderLabel": "Job (Tile Project)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
 	
 	"locksmith": {
 		"name": "Locksmith",
@@ -3045,6 +2838,214 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"tiling": {
+		"name": "Tiling & Concrete",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "45.5",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr": {
+				"handle": "standard_work_first_hour",
+				"label": "Non-Waterproof Standard Work 1st Hour                                MYR100/Hr (JB)",
+				"orderLabel": "Hour (Non-Waterproof Std Work 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			 },
+			
+			"Std Work 2nd Hr": {
+				"handle": "standard_work_second_hour",
+				"label": "Non-Waterproof Standard Work 2nd Hour or more                                  MYR60/Hr (JB)",
+				"orderLabel": "Hour (Non-Waterproof Std Work 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "60",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Waterproof Blooms Tiles - 10ft2": {
+				"handle": "waterproof_blooms_tiles_10ft2",
+				"label": "Waterproof Work - Blooms Supply Tiles - 10 ft2                              MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Blooms Tiles - 10 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "15",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 200,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Blooms Tiles - 1ft2": {
+				"handle": "waterproof_blooms_tiles_1ft2",
+				"label": "Waterproof Work - Blooms Supply Tiles - 1 ft2                                        MYR15/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Blooms' Tiles - 1 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "15",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+			
+			"Waterproof Customer Tiles - 10ft2": {
+				"handle": "waterproof_customers_tiles_10ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - 10 ft2                                         MYR10/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 10 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "10",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 200,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Customers Tiles - 1ft2": {
+				"handle": "waterproof_blooms_tiles_1ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - 1 ft2                                        MYR10/ft2 (JB)",
+				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 1 ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "10",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+		
+						
+			"Project Survey": {
+				"handle": "survey",
+				"label": "Survey                                                   Free",
+				"orderLabel": "Trip (Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+          		"Tile Project": {
+				"handle": "tile_project",
+				"label": "Tile Project                                                  Per Quotation",
+				"orderLabel": "Job (Tile Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
 							"CNY": "10"
 						}
 					},
