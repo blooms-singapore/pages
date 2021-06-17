@@ -2970,12 +2970,12 @@
 		"options": {
 			"Check Landed House": {
 				"handle": "house_diagnosis_landed_house",
-				"label": "Comprehensive Check Landed House                                    MYR800/Project",
+				"label": "Comprehensive Check Landed House                                    MYR1388/Project",
 				"orderLabel": "Project (Comprehensive Check Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "800",
+					"MYR": "1388",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2990,12 +2990,12 @@
 			
 			"Check Condo": {
 				"handle": "house_diagnosis_condo",
-				"label": "Comprehensive Check Condominium                                         MYR500/Project",
+				"label": "Comprehensive Check Condominium                                         MYR588/Project",
 				"orderLabel": "Project (Comprehensive Check Condominium)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "500",
+					"MYR": "588",
 					"CNY": "0"
 				},
 				"quantity": {
