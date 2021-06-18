@@ -1189,12 +1189,12 @@
 			
 			"Std Plumbing 1st Hr": {
 				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour                                    MYR80/Hr (JB)",
+				"label": "Standard Plumbing 1st Hour                                    MYR75/Hr (JB)",
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "80",
+					"MYR": "75",
 					"CNY": "0"
 				},
 				"quantity": {
