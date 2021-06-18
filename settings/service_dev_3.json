@@ -2756,12 +2756,12 @@
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "0",
+			"MYR": "535",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"Check Landed House": {
+			"House DiagnosisLanded House": {
 				"handle": "house_diagnosis_standard_house",
 				"label": "Standard Landed House                                    MYR1388/Project",
 				"orderLabel": "Project (Standard Landed House)",
@@ -2801,14 +2801,14 @@
 				}
 			 },
 			
-			"Check Condo": {
+			"House Diagnosis Condo": {
 				"handle": "house_diagnosis_condo",
-				"label": "Condominium                                              MYR588/Project",
+				"label": "Condominium                                              MYR558/Project",
 				"orderLabel": "Project (Condominium)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "588",
+					"MYR": "558",
 					"CNY": "0"
 				},
 				"quantity": {
