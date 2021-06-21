@@ -40,9 +40,29 @@ layout: service
 <div class="pricing">
   <table>
     
+    <!--Cleaning Packages-->
+      <thead>
+      <tr>
+        <th><b>Standard Clean<br>Packages</b><br><br>Refer Below FAQs<br>for more info</th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <td>Ladder Package</td>
+         <td>${params.cleaning_ladder_package}/Package</td> 
+      </tr>
+      
+      <tr>
+        <td>Vacuum Package</td>
+        <td>${params.cleaning_vacuum_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+      </tr>
+      <tbody>
+     
+     <!--STANDARD CLEANING-->
      <thead>
       <tr>
-       <th><b>STANDARD CLEAN</b></th>   <!--STANDARD CLEANING-->
+       <th><b>STANDARD CLEAN</b></th>   
       <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -141,24 +161,6 @@ layout: service
       </tbody>
 
     <thead>
-      <tr>
-        <th><b>Standard Clean<br>Packages<br><br>Refer Below FAQs<br>for more info</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td>Ladder Package</td>
-         <td>${params.cleaning_ladder_package}/Package</td> 
-      </tr>
-      
-      <tr>
-        <td>Vacuum Package</td>
-        <td>${params.cleaning_vacuum_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
-      </tr>
-      <tbody>
-       
-      <thead>
       <tr>
         <th><b>Other Charges</b></th>
         <th><b>Pricing (${params.currency})</b></th>
