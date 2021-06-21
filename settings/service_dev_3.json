@@ -290,49 +290,49 @@
 				}
 			},
 			
-			"PKG 10X": {
-				"handle": "package_10",
-				"label": "Package 10X                                                          Discount 10%",
-				"displayLabel": "Package 10X",
-				"orderLabel": "Package (PKG 10X)",
+			"Ladder Package": {
+				"handle": "ladder_package",
+				"label": "Ladder Package                                            Coming Soon",
+				"displayLabel": "Ladder Package",
+				"orderLabel": "Package (Ladder PKG)",
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
 					"SGD": "10",
-					"MYR": "10",
+					"MYR": "0",
 					"CNY": "10"
 				},
 				"quantity": {
 					"label": "Package",
 					"min": 0,
-					"max": 1,
-					"default": 0,
+					"max": 0,
+					"default": 1,
 					"increment": 60,
 					"base": 60,
-					"multiplier": 10
+					"multiplier": 1
 				}
 			},
 			
 			"PKG 20X": {
-				"handle": "package_20",				
-				"label": "Package 20X                                            Discount 15%",
-				"displayLabel": "Package 20X",
-				"orderLabel": "Package (PKG 20X)",
+				"handle": "vacuum_package",				
+				"label": "Vacuum Package                                            Coming Soon",
+				"displayLabel": "Vacuum Package",
+				"orderLabel": "Package (Vacuum PKG)",
 				"description": "Label standard",
 				"isPackage": "true",
 				"cost": {
 					"SGD": "15",
-					"MYR": "15",
+					"MYR": "0",
 					"CNY": "15"
 				},
 				"quantity": {
 					"label": "Package",
 					"min": 0,
-					"max": 1,
-					"default": 0,
+					"max": 0,
+					"default": 1,
 					"increment": 1,
 					"base": 1,
-					"multiplier": 20
+					"multiplier": 1
 											
 				}
 			}
