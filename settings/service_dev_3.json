@@ -2614,13 +2614,13 @@
 		"hasNote": 1,
 		"options": {
 			"Survey": {
-				"handle": "survey",
-				"label": "Survey                                          MYR30/Trip",
+				"handle": "runner_site_survey",
+				"label": "Survey                                          MYR20/Trip",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
