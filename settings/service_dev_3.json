@@ -2177,7 +2177,7 @@
 	
 	"sewing": {
 		"name": "Curtain Alteration",
-		"lastSlot": "15:30",
+		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
@@ -2752,7 +2752,7 @@
 	
 	"house_diagnosis": {
 		"name": "House Diagnosis",
-		"lastSlot": "15:30",
+		"lastSlot": "14:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
