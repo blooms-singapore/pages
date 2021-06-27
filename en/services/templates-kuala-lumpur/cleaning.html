@@ -5,11 +5,8 @@ layout: service
 
 <!--image published direct archived in assets/news-->
 <div class="gap">
-<h4 class="service-title">SERVICE LOCATIONS (Kuala Lumpur)</h4>
+<h4 class="service-title">SERVICE LOCATIONS</h4>
 <br>
-  <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/jb_v2.png"> <!--border radius 15px, colour fuchsia pink-->
-  <br>
-  <br>
   <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/kl_v2.png">
 </div>
 </div>
@@ -18,15 +15,19 @@ layout: service
 
 <div class="divider"></div>
 <div class="gap">
-<h4 class="service-title">CLEANING PACKAGES<br>Your choice to have fixed or flexible schedule.</h4>
+<h4 class="service-title">CLEANING PACKAGES<br>Free Ladder & Vacuum choices for you coming soon.</h4>
 <br>
-<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning_package_v4.jpg">
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning_ladder_package.png">
+<br>
+<br>
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning_vacuum_package.png">
 <p>
 
 <div class="pricing">
 <table style="width:100%">
 <tr>
-  <th><a class="btn"  href="/assets/pdf/cleaning_package_v4.jpg"><b>Cleaning Package 10X & 20X</b><br>Brochure for download</a></th>
+  <th><a class="btn"  href="/assets/img/news/cleaning_ladder_package.png"><b>Ladder Package</b><br>Download Brochure</a></th>
+   <th><a class="btn"  href="/assets/img/news/cleaning_vacuum_package.png"><b>Vacuum Package</b><br>Download Brochure</a></th>
 </tr>
  </table>
 </div>
@@ -36,9 +37,29 @@ layout: service
 <div class="pricing">
   <table>
     
+    <!--Cleaning Packages-->
+      <thead>
+      <tr>
+        <th><b>CLEANING PACKAGES</b><br><br>Refer Below FAQs<br>for more info</th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <td>Ladder Package</td>
+         <td>${params.cleaning_ladder_package}/Package</td> 
+      </tr>
+      
+      <tr>
+        <td>Vacuum Package</td>
+        <td>${params.cleaning_vacuum_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+      </tr>
+      <tbody>
+     
+     <!--STANDARD CLEANING-->
      <thead>
       <tr>
-       <th><b>STANDARD CLEAN</b></th>   <!--STANDARD CLEANING-->
+       <th><b>STANDARD CLEAN</b></th>   
       <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -138,24 +159,6 @@ layout: service
 
     <thead>
       <tr>
-        <th><b>Standard Clean Packages</b></th>
-        <th><b>Discount</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td><b>10X</b><br>6-month validity</td>
-         <td>${params.package_10}% for <b>10</b> Bookings</td> 
-      </tr>
-      
-      <tr>
-        <td><b>20X</b><br>12-month validity</td>
-        <td>${params.package_20}% for <strong>20</strong> Bookings</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
-      </tr>
-      <tbody>
-       
-      <thead>
-      <tr>
         <th><b>Other Charges</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
@@ -175,68 +178,6 @@ layout: service
   Prices subject to change without prior notice
 </div>
 </div>
-      
-<div class="divider"></div>
-
-<div class="gap">
-<h4 class="service-title">INFO ON BOOKING STANDARD CLEANING PACKAGES</h4>
-  <div class="pricing">
-  <table>
-    <thead>
-      <tr>
-        <th><h3>Packages 10X & 20X<br>10% & 15% Discounts Respectively</h3></th>
-       </tr>
-    </thead>
-    <tbody>
-      <tr>
-      <td>Package Service duration must co-relate to the house size.
-        <p>
-        <p><strong>Package is transferable</strong>, but non-refundable, valid for 6 (10X) and 12 months (20X) respectively.
-        <p>
-        <p>Customers can opt to manage their booking themselves, or arrange with Blooms to Service their house on repeated schedules.
-        <p>
-        <p>Any Service extensions are possible, but will be charged standard price in blocks of 30-mins.</p>
-        </td>
-      </tr>
-      </tbody>
-    
-    <thead>
-      <tr>
-        <th><h3>Package Purchase Process</h3></th>
-       </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td><strong>Package purchase must be accompanied by one Service booking</strong>, to determine Package quantum/price.
-        <p>
-        <p>When purchasing Package, there is <strong>no need to input any code for the 1st booking</strong>. Discount will be calculated into the Package price.
-        <p>
-        <p>A confidential unique Package Code will be provided, for 2nd booking onwards. Customers are reminded to closely safeguard the code to avoid mis-use by others.
-        <p>
-           <p><strong>Only credit card or bank transfer payment is accepted</strong>.</p>
-       </td>
-       </tr>
-     <t/body>
-    
-       <thead>
-      <tr>
-        <th><h3>Booking Steps</h3></th>
-       </tr>
-    </thead>
-    <tbody>
-     <tr>
-     <td>Customer to book as normal, selecting desired Service duration. <strong>Remember to input unique Package Code everytime</strong> when booking, to enjoy discounted price.
-       <p>
-       <p>Blooms' crews on recognising a Package Order will not seek payment on site.</p>
-     </td>
-     </tr>
-     <t/body>
-  </table>
-  <div class="fineprint">
-  Package is transferable, subject to change with notice
-</div> <!--Gap-->
-</div> <!--Pricing-->
-</div> <!--Fine Print-->
       
 <div class="divider"></div>
 
@@ -298,6 +239,33 @@ layout: service
   </div>
     
  <div class="divider"></div>
+   
+ <div class="gap">
+ <div class="service-info">
+ <h5 class="service-title">FAQs</h5>
+   
+ <h4 class="service-title">Why does Blooms encourage customers to use their own tools?</h4>
+   Our crews serve many customers. It is more hygenic for customers to use their own tools.
+   <br><br>Furthermore, many customers have their own preferences and they can opt to purchase tools or cleaning solution which suit them.
+   <p>
+     
+ <h4 class="service-title">I'm a tenant and I do not have tools?</h4>
+   You can purchase any of our 2 packages, and Blooms will provide essential tools for free.
+   <br><br>Alternatively, you can go to TOOL option to indicate you need Blooms to bring tools. There will be an additional charge of MYR20.
+   <p>
+     
+ <h4 class="service-title">For Cleaning Package prices, how many times do your crew(s) service my house?</h4>
+   Up to 15 times if you have a studio unit. It depends on the purchased Package type and the size of your house. The Package balance will be shown in the receipt.
+ <p>
+   
+ <h4 class="service-title">Can I still use other discount coupon(s) for my Package deals?</h4>
+   Customers already receive free tools when purchasing the Packages. As such, only standard rate applies to customers with Package deals.
+ <p>
+   
+  </div>
+  </div>
+  
+   <div class="divider"></div>
    
  <div class="gap">
  <div class="service-info">
