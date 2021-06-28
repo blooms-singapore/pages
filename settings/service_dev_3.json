@@ -17,7 +17,6 @@
 				"displayLabel": "Ladder Package",
 				"orderLabel": "Package (Ladder PKG)",
 				"description": "Label standard",
-				"isPackage": "false",
 				"cost": {
 					"SGD": "10",
 					"MYR": "800",
