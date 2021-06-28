@@ -11,6 +11,53 @@
 		"hasNote": 1,
 		"options": {
 			
+			"Ladder Package": {
+				"handle": "cleaning_ladder_package",
+				"label": "Ladder Package                                          MY800/PKG (JB)",
+				"displayLabel": "Ladder Package",
+				"orderLabel": "Package (Ladder PKG)",
+				"description": "Label standard",
+				"isPackage": "true",
+				"cost": {
+					"SGD": "10",
+					"MYR": "800",
+					"CNY": "10"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 60,
+					"base": 60,
+					"multiplier": 1
+				}
+			},
+			
+			"Vacuum Package": {
+				"handle": "cleaning_vacuum_package",				
+				"label": "Vacuum Package                                          MYR960/PKG (JB)",
+				"displayLabel": "Vacuum Package",
+				"orderLabel": "Package (Vacuum PKG)",
+				"description": "Label standard",
+				"isPackage": "true",
+				"cost": {
+					"SGD": "15",
+					"MYR": "960",
+					"CNY": "15"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+											
+				}
+			},
+			
 			   "Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
 				"label": "Standard Clean Very Small Condo                             MYR80 (JB)                                MYR 88 (KL)",
@@ -287,53 +334,6 @@
 					"base": 60,
 					"multiplier": 1
 					
-				}
-			},
-			
-			"Ladder Package": {
-				"handle": "ladder_package",
-				"label": "Ladder Package                                            Coming Soon",
-				"displayLabel": "Ladder Package",
-				"orderLabel": "Package (Ladder PKG)",
-				"description": "Label standard",
-				"isPackage": "true",
-				"cost": {
-					"SGD": "10",
-					"MYR": "0",
-					"CNY": "10"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 0,
-					"default": 1,
-					"increment": 60,
-					"base": 60,
-					"multiplier": 1
-				}
-			},
-			
-			"PKG 20X": {
-				"handle": "vacuum_package",				
-				"label": "Vacuum Package                                            Coming Soon",
-				"displayLabel": "Vacuum Package",
-				"orderLabel": "Package (Vacuum PKG)",
-				"description": "Label standard",
-				"isPackage": "true",
-				"cost": {
-					"SGD": "15",
-					"MYR": "0",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 0,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
 				}
 			}
 		},
