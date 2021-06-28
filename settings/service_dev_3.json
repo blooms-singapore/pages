@@ -39,7 +39,6 @@
 				"displayLabel": "Vacuum Package",
 				"orderLabel": "Package (Vacuum PKG)",
 				"description": "Label standard",
-				"isPackage": "true",
 				"cost": {
 					"SGD": "15",
 					"MYR": "960",
