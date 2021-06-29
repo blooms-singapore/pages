@@ -57,8 +57,8 @@
 			},
 			
 			"Top Up Package": {
-				"handle": "",				
-				"label": "Top Up Package                                          Coming Soon",
+				"handle": "cleaning_top_up_package",				
+				"label": "Top Up Package                                          MYR900/PKG (JB)",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
