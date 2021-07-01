@@ -1198,7 +1198,7 @@
 	
 	"plumbing": {
 		"name": "Plumbing",
-		"lastSlot": "15:30",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "7",
@@ -1743,7 +1743,7 @@
 	
 	"waterproof": {
 		"name": "Waterproofing",
-		"lastSlot": "15:30",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
