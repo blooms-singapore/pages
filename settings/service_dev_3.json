@@ -993,7 +993,7 @@
 			
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                         MYR85-150 (JB) ",
+				"label": "Emergency Booking                         MYR95-135 (JB) ",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -1003,7 +1003,7 @@
 				},
 				"cost_max": {
 					"SGD": "80",
-					"MYR": "150",
+					"MYR": "135",
 					"CNY": "0"
 				},
 				"quantity": {
