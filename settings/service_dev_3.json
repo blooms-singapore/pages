@@ -951,6 +951,46 @@
 				}
 			},
 			
+			"Minor Electrical": {
+				"handle": "minor_electrical",
+				"label": "Minor Electrical                                      MYR85/Hr (JB)",
+				"orderLabel": "Hour (Minor Electrical)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "85",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 2,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Major Electrical": {
+				"handle": "major_electrical",
+				"label": "Major Electrical                                      Per Quotation (JB)",
+				"orderLabel": "Project (Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Project",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
 			"Emergency": {
 				"handle": "emergency",
 				"label": "Emergency Booking                         MYR100-150 (JB) ",
@@ -958,7 +998,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "100",
+					"MYR": "95",
 					"CNY": "0"
 				},
 				"cost_max": {
