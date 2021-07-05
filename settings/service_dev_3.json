@@ -944,7 +944,7 @@
 				"quantity": {
 					"label": "Trip",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
@@ -991,6 +991,46 @@
 				}
 			},
 			
+			"Commercial Survey": {
+				"handle": "commercial_survey",
+				"label": "commercial Survey                                MYR80/Trip (JB)",
+				"orderLabel": "Trip (Commercial Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Electrical Project": {
+				"handle": "electrical_project",
+				"label": "Electrical Project                                  Per Quotation",
+				"orderLabel": "Job (Electrical Project)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
 			"Emergency": {
 				"handle": "emergency",
 				"label": "Emergency Booking                         MYR95-135 (JB) ",
@@ -1014,27 +1054,7 @@
 					"default": 0,
 					"base": 60
 				}
-			},
-			
-			"Project": {
-				"handle": "project",
-				"label": "Electrical Project                              Per Quotation",
-				"orderLabel": "Job (Electrical Project)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}		
+			}	
 		},
 
 	    "types": {
