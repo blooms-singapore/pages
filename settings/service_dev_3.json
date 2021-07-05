@@ -931,10 +931,10 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Survey": {
-				"handle": "survey",
-				"label": "Site Survey                            MYR30/Trip (JB)",
-				"orderLabel": "Trip (Site Survey)",
+			"Electrical Survey": {
+				"handle": "electrical_survey",
+				"label": "Electrical Survey                                MYR30/Trip (JB)",
+				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
