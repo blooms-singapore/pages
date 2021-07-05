@@ -993,7 +993,7 @@
 			
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                         MYR100-150 (JB) ",
+				"label": "Emergency Booking                         MYR85-150 (JB) ",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
