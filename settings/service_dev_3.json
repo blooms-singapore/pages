@@ -993,7 +993,7 @@
 			
 			"Commercial Survey": {
 				"handle": "commercial_survey",
-				"label": "commercial Survey                                MYR80/Trip (JB)",
+				"label": "Commercial Survey                                MYR80/Trip (JB)",
 				"orderLabel": "Trip (Commercial Survey)",
 				"description": "Label standard",
 				"cost": {
