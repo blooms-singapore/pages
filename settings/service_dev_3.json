@@ -766,7 +766,7 @@
 			
 			"AC Trouble Shoot": {
 				"handle": "ac_trouble_shoot",
-				"label": "AC Trouble Shoot.                                   MYR80/Job",
+				"label": "AC Trouble Shoot                                   MYR80/Job",
 				"orderLabel": "Job (AC Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
