@@ -726,7 +726,7 @@
 			
 			"AC Other Faults": {				
 				"handle": "ac_other_faults",
-				"label": "AC Other Faults                                           Quote at Site",
+				"label": "AC Other Faults                                        Per Quotation",
 				"orderLabel": "Job (AC Other Faults)",
 				"description": "Label standard",
 				"cost": {
