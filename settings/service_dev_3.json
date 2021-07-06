@@ -611,7 +611,8 @@
 					"default": 60,
 					"base": 60
 				}
-			},			
+			},
+			
 			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
 				"label": "Standard Wash (Studio, 1BR Apt)                            MYR80/Job",
@@ -631,6 +632,7 @@
 					"base": 60
 				}
 			},
+			
 			"Malaysia CW": {
 				"handle": "malaysia_cw",
 				"label": "Chemical Wash                                      MYR120/Hr/Unit",
@@ -675,6 +677,7 @@
 					"base": 60
 				}
 			},
+			
 			"Malaysia Big Cassette CW 3.5 to 5HP": {
 				"handle": "malaysia_big_cassette_cw",
 				"label": "Big Cassette Chemical Overhaul : 3.5 to 5HP",
@@ -700,10 +703,31 @@
 					"base": 60
 				}
 			},
-			"Quotation Enquiry": {				
-				"handle": "quotation_enquiry",
-				"label": "Quotation Enquiry                                                Quote within 3 Working Days",
-				"orderLabel": "Job (Quotation Enquiry)",
+			
+			"AC Water Leak": {
+				"handle": "ac_water_leak",
+				"label": "AC Water Leak (min 1Hr booking)                        MYR120/Hr",
+				"orderLabel": "Hour (AC Water Leak)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},			
+			
+			"AC Other Faults": {				
+				"handle": "ac_other_faults",
+				"label": "AC Other Faults                                           Quote at Site",
+				"orderLabel": "Job (AC Other Faults)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -718,10 +742,31 @@
 					"default": 0,
 					"base": 60
 				}
-			},			
-			"MY Trouble Shoot": {
-				"handle": "my_trouble_shoot",
-				"label": "AC Trouble Shoot.                                MYR80/Job",
+			},
+			
+			"Project Quotation Enquiry": {				
+				"handle": "project_quotation_enquiry",
+				"label": "Project Quotation Enquiry                                     Free",
+				"orderLabel": "Job (Project Quotation Enquiry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Project",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"AC Trouble Shoot": {
+				"handle": "ac_trouble_shoot",
+				"label": "AC Trouble Shoot.                                   MYR80/Job",
 				"orderLabel": "Job (AC Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
