@@ -1246,14 +1246,35 @@
 				}
 			},
 			
-			"Big Debri": {
-				"handle": "big_debri",
-				"label": "Big Debri Disposal >3 Bags                                MYR50",
-				"orderLabel": "Job (Big Debri Disposal)",
+			"Medium Debri": {
+				"handle": "medium_debri",
+				"label": "Medium Debri Disposal >3 Bags                                MYR50",
+				"orderLabel": "Job (Medium Debri Disposal)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
 					"MYR": "50",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Big Debri": {
+				"handle": "big_debri",
+				"label": "Big Debri Disposal - Lorry                                MYR150",
+				"orderLabel": "Job (Big Debri Disposal - Lorry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "150",
 					"CNY": "20"
 				},
 				"quantity": {
