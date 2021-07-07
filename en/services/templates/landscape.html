@@ -23,7 +23,7 @@ layout: service
   <table>
     <thead>
       <tr>
-       <th><b>Items</b></th>
+       <th><b>Cutting & Trimming</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -47,6 +47,14 @@ layout: service
         <td>Project</td>
         <td>Quote after survey</td>
       </tr>
+     
+    <thead>
+      <tr>
+       <th><b>Garbage Disposal</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>      
       
       <tr>
        <td>Small Disposal Fee<br> Up to 3 bags</td>
@@ -54,7 +62,12 @@ layout: service
       </tr>
         
       <tr>
-       <td>Big Disposal Fee<br>more than 3 bags</td>
+       <td>Medium Disposal Fee<br>more than 3 bags</td>
+        <td>${params.medium_debri}/Job</td>
+      </tr>
+     
+      <tr>
+       <td>Big Disposal Fee<br>Need lorry</td>
         <td>${params.big_debri}/Job</td>
       </tr>
       </tbody>
