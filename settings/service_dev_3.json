@@ -5500,8 +5500,9 @@
 					"min": 0,
 					"max": 32,
 					"increment": 4,
-					"default": 4,
-					"base": 1
+					"default": 1,
+					"base": 1,
+					"multiplier": 2
 				}
 			 },
 			
