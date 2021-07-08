@@ -5480,27 +5480,27 @@
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "0",
+			"MYR": "42.5",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"CCTV": {
-				"handle": "cctv",
-				"label": "CCTV",
-				"orderLabel": "Pax (CCTV)",
+			"CCTV Servicing": {
+				"handle": "cctv_servicing",
+				"label": "CCTV Servicing",
+				"orderLabel": "Channels (CCTV Servicing)                                          MYR20/Channel",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Pax",
+					"label": "Channels",
 					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
+					"max": 16,
+					"increment": 4,
+					"default": 4,
 					"base": 1
 				}
 			 },
