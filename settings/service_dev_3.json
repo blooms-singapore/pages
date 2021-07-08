@@ -5499,8 +5499,8 @@
 					"label": "Channels",
 					"min": 0,
 					"max": 32,
-					"increment": 4,
-					"default": 1,
+					"increment": 2,
+					"default": 2,
 					"base": 1,
 					"multiplier": 2
 				}
