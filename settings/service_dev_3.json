@@ -2324,7 +2324,7 @@
 	
 	"sewing": {
 		"name": "Curtain Alteration",
-		"lastSlot": "16:00",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
