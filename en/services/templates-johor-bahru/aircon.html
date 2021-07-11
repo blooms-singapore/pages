@@ -95,7 +95,7 @@ layout: service
       <tr>
       <tr>
         <td>Coolant Gas Top-Up
-        <td>80 to 100 / unit</td>
+        <td>80.0 to 100.0/unit</td>
       </tr>
     </tbody>
     <thead>
@@ -108,7 +108,7 @@ layout: service
       <tr>
       <td>Small Unit<br>Chemical Overhaul
        <p>2 to 3 HP</td>
-      <td>From 233 / unit
+      <td>From 233.0/unit
        <p>
        <p>1 unit: Book 1.5Hrs
        <p>2 units: 2.5Hrs
@@ -117,7 +117,7 @@ layout: service
       <tr>
       <td>Big Unit<br>Chemical Overhaul
        <p>3.5 to 5 HP</td>
-      <td>From 346 / unit
+      <td>From 346.0/unit
        <p>
        <p>1 unit: Book 1.5Hrs
        <p>2 units: 3Hrs
@@ -125,12 +125,28 @@ layout: service
       </tr>
       <tr>
         <td>Coolant Gas Top-Up
-        <td>80 to 100 / unit</td>
+        <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
       
-      <thead>
+     <thead>
       <tr>
-        <th><b>(D) Project</b></th>
+        <th><b>(D) Aircon Faults</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>AC Water Leak<br>No part<br>replacement</td>
+      <td>${params.ac_water_leak}/Hr</td>
+      </tr>
+      <tr>
+      <td>AC Other Faults<br>Need part(s)<br>replacement</td>
+      <td>Per Quotation</td>
+      </tr>
+      
+    <thead>
+      <tr>
+        <th><b>(E) Project</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -141,7 +157,7 @@ layout: service
       </tr>
       <tr>
       <td>AC Trouble-Shooting</td>
-      <td>${params.my_trouble_shoot} / Job<br>Waived Upon Award of Job</td>
+      <td>${params.ac_trouble_shoot}/Job<br>Waive upon award of Job</td>
       </tr>
       
       <tr>
@@ -151,14 +167,14 @@ layout: service
       
       <thead>
       <tr>
-        <th><b>(E) Other Charges</b></th>
+        <th><b>(F) Misc Charges</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
       <td>Service Extension
-      <td>60<br>per 30-min block
+      <td>60.0<br>per 30-min block
       </tr>
       <tr>
        <td>Condo Surcharge</td>
@@ -198,7 +214,7 @@ layout: service
 <div class="divider"></div>
 <div class="gap">
   <div class="service-info">
-    <h4 class="service-title">Other Charges and Booking Info</h4>
+    <h5 class="service-title">Other Charges and Booking Info</h5>
     <p>
     <p><strong>(A) Charge Scenario</strong>
     <ul>
@@ -223,11 +239,11 @@ layout: service
 
 <div class="divider"></div>
 <div class="gap">
-  <h4>After Service Committment</h4>
+  <h5>After Service Committment</h5>
   <p>
   <p><strong>Water Leak</strong>
     <ul>
-      <li>Customer must check and please inform Blooms office of leaks within <strong>14 working days of Service date, if original booking is NOT on leak issue.</strong> 
+      <li>Customer must check and please inform Blooms office of leaks within <strong>14 working days of Service date, if original booking is NOT for leak issue.</strong> 
         After that, it will be treated as a new job request.</li>
       <p>
       <li>If the original Service Order <strong>is for leak related repairs</strong>, Blooms gives a warranty for 3 months.</li>
@@ -242,6 +258,24 @@ layout: service
       <li>Washes may not eliminate odour. 
    </ul>
  </div>
+</div>
+
+<div class="divider"></div>
+ <div class="gap">
+ <h5 class="service-title">FAQs</h5>
+   
+ <h4 class="service-title">My Aircon is not working properly or leaking water. Which service do I book?</h4>
+   Please select any 2 options under (D) Aircon Faults.
+   <br><br>When there is a need for part replacement, our crew will provide the price. If you wish not to continue with the repair, <b>we will charge MYR${params.ac_trouble_shoot}</b> for the trouble-shooting efforts.
+  <p>
+
+ <h4 class="service-title">Why does Blooms charge Aircon washes by time?</h4>
+   It is cheaper and more transparent, because you see the efforts of our crews. Also there is flexibility for Customers, if they want to add or reduce their workscope on the spot.
+  <p>
+    
+ <h4 class="service-title">What if Blooms' crews deliberately delay time?</h4>
+  If Customers can provide video evidence, Blooms will not charge you for the Service.
+  <p>
 </div>
 
 <div class="divider"></div>
