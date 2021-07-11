@@ -2322,7 +2322,7 @@
 	},
 	
 	
-	"sewing": {
+	"curtain": {
 		"name": "Curtain Alteration",
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
