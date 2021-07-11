@@ -133,7 +133,7 @@ layout: service
     <tbody>
       <tr>
       <td>AC Water Leak<br>No part<br>replacement</td>
-      <td>${params.ac_water_leak}/Hr</td>
+      <td>${(params.ac_water_leak * 1).toFixed(0)}/Hr</td>
       </tr>
       <tr>
       <td>AC Other Faults<br>Need part(s)<br>replacement</td>
@@ -153,7 +153,7 @@ layout: service
       </tr>
       <tr>
       <td>AC Trouble-Shooting</td>
-      <td>${params.ac_trouble_shoot}/Job<br>Waive upon award of Job</td>
+      <td>${(params.ac_trouble_shoot * 1).toFixed(0)}/Job<br>Waive upon award of Job</td>
       </tr>
       
       <tr>
