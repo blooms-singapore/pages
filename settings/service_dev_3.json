@@ -81,13 +81,13 @@
 			
 			   "Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo                             MYR80 (JB)                                MYR 88 (KL)",
+				"label": "Standard Clean Very Small Condo                             MYR60 (JB)                                MYR60 (KL)",
 				"displayLabel": "Std Clean Very Small Condo",
 				"orderLabel": "Unit (Standard Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "80",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -152,13 +152,13 @@
           
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo                            MYR110 (JB)                                MYR121 (KL)",
+				"label": "Festive Clean Very Small Condo                            MYR100 (JB)                                MYR121 (KL)",
 				"displayLabel": "Festive Clean Very Small Condo",
 				"orderLabel": "Unit (Festive Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "110",
+					"MYR": "100",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -175,13 +175,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Standard Condo                               MYR50/Hr (JB)                        MYR55/Hr (KL)",
+				"label": "Festive Clean Standard Condo                               MYR45/Hr (JB)                        MYR55/Hr (KL)",
 				"displayLabel": "Festive Clean Std Condo",
 				"orderLabel": "Hours (Festive Clean Std Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "50",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -198,13 +198,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House                            MYR50/Hr (JB)                                MYR55/Hr (KL)",
+				"label": "Festive Clean Landed House                            MYR45/Hr (JB)                                MYR55/Hr (KL)",
 				"displayLabel": "Festive Clean Landed House",
 				"orderLabel": "Hours (Festive Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "50",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -221,13 +221,13 @@
 			
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo                          MYR260/Hr (JB)                               MYR286/Hr (KL)",
+				"label": "Renovation Clean Very Small Condo                          MYR220/Hr (JB)                               MYR286/Hr (KL)",
 				"displayLabel": "Renovation Clean Very Small Condo",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "260",
+					"MYR": "220",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -244,13 +244,13 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                             MYR60/Hr (JB)                               MYR66/Hr (KL)",
+				"label": "Renovation Clean 1-Storey House or Condo                             MYR55/Hr (JB)                               MYR66/Hr (KL)",
 				"displayLabel": "Renovation Clean 1-Storey House or Condo",
 				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -267,13 +267,13 @@
 			
 			"Reno Big House": {
 				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House                             MYR600/Day (JB)                               MYR660/Day (KL)",
+				"label": "Renovation Clean Big House                             MYR500/Day (JB)                               MYR660/Day (KL)",
 				"displayLabel": "Renovation Clean Big House",
 				"orderLabel": "Day (Renovation Clean Big House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "600",
+					"MYR": "500",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -291,13 +291,13 @@
 						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo                               MYR115 (JB)                               MYR126.5 (KL)",
+				"label": "Move Clean Very Small Condo                               MYR100 (JB)                               MYR126.5 (KL)",
 				"displayLabel": "Move Clean Very Small Condo",
 				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "115",
+					"MYR": "100",
 					"CNY": "82.5"
 				},
 				"quantity": {
