@@ -35,32 +35,31 @@ layout: service
       </tr>
     </thead>
     <tbody>
-        <tr>
+      <tr>
         <td>Up to 3 units</td>
         <td>${params.malaysia_sw}
         <p>Book 1.0Hr</td>
       </tr>
       <tr>
         <td>4 to 5 units</td>
-        <td>${params.malaysia_sw * 1.5}
+        <td>${(params.malaysia_sw * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal-->
        <p>Book 1.5Hrs</td>
       </tr>
       
       <tr>
         <td>6 units</td>
-        <td>${params.malaysia_sw * 2}
+        <td>${(params.malaysia_sw * 2).toFixed(1)}
         <p>Book 2.0Hrs</td>
       </tr>
        <tr>
         <td>7 to 8 units</td>
-        <td>${params.malaysia_sw * 2.5}
+        <td>${(params.malaysia_sw * 2.5).toFixed(1)}
         <p>Book 2.5Hrs</td>
       </tr>
       <tr>
         <td><b>For Studio, 1BR<br>Apartment Only</b></p>
         <p>1 or 2 units +<br>Clear Drain Pipe</td>
-        <td>${params.min_order}
-        <p>Book 1 Job</td>
+        <td>${params.min_order}<br>Book 1 Job</td>
       </tr>
     </tbody>
     
@@ -78,23 +77,23 @@ layout: service
       </tr>
       <tr>
         <td>2 units</td>
-        <td>${(params.malaysia_cw * 2).toFixed(0)}
+        <td>${(params.malaysia_cw * 2).toFixed(1)}
         <p>Book 2Hrs</td>
       </tr>
       <tr>
         <td>3 units</td>
-        <td>${(params.malaysia_cw * 3).toFixed(0)}
+        <td>${(params.malaysia_cw * 3).toFixed(1)}
         <p>Book 3Hrs</td>
       </tr>
       <tr>
         <td>4 units</td>
-        <td>${(params.malaysia_cw * 4).toFixed(0)}
+        <td>${(params.malaysia_cw * 4).toFixed(1)} <!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
         <p>Book 4Hrs</td>
       </tr>
       <tr>
       <tr>
         <td>Coolant Gas Top-Up
-        <td>80 to 100/unit</td>
+        <td>80.0 to 100.0  /unit</td>
       </tr>
     </tbody>
     <thead>
@@ -107,7 +106,7 @@ layout: service
       <tr>
       <td>Small Unit<br>Chemical Overhaul
        <p>2 to 3 HP</td>
-      <td>From 233/unit
+      <td>From 233.0/unit
        <p>
        <p>1 unit: Book 1.5Hrs
        <p>2 units: 2.5Hrs
@@ -116,7 +115,7 @@ layout: service
       <tr>
       <td>Big Unit<br>Chemical Overhaul
        <p>3.5 to 5 HP</td>
-      <td>From 346/unit
+      <td>From 346.0/unit
        <p>
        <p>1 unit: Book 1.5Hrs
        <p>2 units: 3Hrs
@@ -124,7 +123,7 @@ layout: service
       </tr>
       <tr>
         <td>Coolant Gas Top-Up
-        <td>80 to 100/unit<br>Scroll below<br>for more info</td>
+        <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
       
      <thead>
@@ -173,11 +172,11 @@ layout: service
     <tbody>
       <tr>
       <td>Service Extension
-      <td>60<br>per 30-min block
+      <td>60.0<br>per 30-min block
       </tr>
       <tr>
        <td>Condo Surcharge</td>
-       <td>10<br>Waived for SG</td>
+       <td>10.0<br>Waived for SG</td>
       </tr>
     </tbody>
     </table>
