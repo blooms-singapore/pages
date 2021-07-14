@@ -787,7 +787,7 @@
 			
 			"AC Package": {
 				"handle": "ac_package",
-				"label": "Standard Wash Package                               3, 6, or 9Hrs                                 Only in JB",
+				"label": "Standard Wash Package                               3, 6, or 9Hrs                                 Available in JB",
 				"orderLabel": "PKG (Standard Wash PKG)",
 				"description": "Label standard",
 				"cost": {
