@@ -573,26 +573,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"AC Package": {
-				"handle": "ac_package",
-				"label": "AC Standard Wash Packages                               3, 6, or 9Hrs",
-				"orderLabel": "PKG (AC Standard Wash PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "120",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "PKG",
-					"min": 0,
-					"max": 9,
-					"increment": 3,
-					"default": 0,
-					"base": 1
-				}
-			},			
-			
+						
 			"Standard Wash": {
 				"handle": "malaysia_sw",
 				"label": "Standard Wash (min 1Hr booking)                        MYR120/Hr",
@@ -802,7 +783,27 @@
 					"default": 0,
 					"base": 60
 				}
-			}
+			},
+			
+			"AC Package": {
+				"handle": "ac_package",
+				"label": "Standard Wash Package                               3, 6, or 9Hrs                                 Only in JB",
+				"orderLabel": "PKG (Standard Wash PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "PKG",
+					"min": 0,
+					"max": 9,
+					"increment": 3,
+					"default": 0,
+					"base": 1
+				}
+			}		
 		},
 		
 		"types": {
