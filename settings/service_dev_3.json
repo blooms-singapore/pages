@@ -573,27 +573,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-						
-			"Standard Wash": {
-				"handle": "malaysia_sw",
-				"label": "Standard Wash (min 1Hr booking)                        MYR120/Hr",
-				"orderLabel": "Hour (Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "120",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 60,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
+							
 			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
 				"label": "Standard Wash (Studio, 1BR Apt)                            MYR80/Job",
@@ -614,7 +594,27 @@
 				}
 			},
 			
-			"Malaysia CW": {
+			"Standard Wash": {
+				"handle": "malaysia_sw",
+				"label": "Standard Wash (min 1Hr booking)                        MYR120/Hr",
+				"orderLabel": "Hour (Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Chemical Wash": {
 				"handle": "malaysia_cw",
 				"label": "Chemical Wash                                      MYR120/Hr/Unit",
 				"orderLabel": "Hour (Chemical Wash)",
