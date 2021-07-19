@@ -769,7 +769,7 @@
 				}
 			},
 			
-			"3-Hour Package": {
+			"3Hour Package": {
 				"handle": "min_order",
 				"label": "3Hr Package                                     MYR360/Job",
 				"orderLabel": "PKG (3Hr Package)",
