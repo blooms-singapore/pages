@@ -771,7 +771,7 @@
 			
 			"3Hour Package": {
 				"handle": "min_order",
-				"label": "3Hr Package                                     MYR360/Job",
+				"label": "3Hr Package                                     MYR360/PKG",
 				"orderLabel": "PKG (3Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -791,7 +791,7 @@
 			
 			"6Hr Package": {
 				"handle": "6hr_package",
-				"label": "6Hr Package                                       MYR700",
+				"label": "6Hr Package                                       MYR700/PKG",
 				"orderLabel": "PKG (6Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -811,7 +811,7 @@
 			
 			"9Hr Package": {
 				"handle": "9hr_package",
-				"label": "9Hr Package                                      MYR1000",
+				"label": "9Hr Package                                      MYR1000/PKG",
 				"orderLabel": "PKG (9Hr Package)",
 				"description": "Label standard",
 				"cost": {
