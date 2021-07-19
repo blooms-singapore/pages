@@ -770,7 +770,7 @@
 			},
 			
 			"3Hr Package": {
-				"handle": "3hr_package",
+				"handle": "abc",
 				"label": "Standard Wash 3Hr Package                                      MYR360",
 				"orderLabel": "PKG (Standard Wash 3Hr Package)",
 				"description": "Label standard",
