@@ -768,10 +768,10 @@
 				}
 			},
 			
-			"3Hr Package": {
-				"handle": "ac_project",
-				"label": "3-Hour Package                                     MYR360/PKG",
-				"orderLabel": "PKG (3-Hour Package)",
+			"Test": {
+				"handle": "test",
+				"label": "Test                                     MYR360/PKG",
+				"orderLabel": "PKG (Test)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -786,7 +786,7 @@
 					"default": 0,
 					"base": 60
 				}
-			}
+			},
 		},
 		
 		"types": {
