@@ -576,9 +576,9 @@
 			
 			
 			"Non Leak Issues": {				
-				"handle": "ac_other_faults",
-				"label": "Non-Leak Issues                                        Free",
-				"orderLabel": "Job (Non-Leak Issues)",
+				"handle": "non_leak_issues",
+				"label": "Non-Leak Issues Trouble-Shooting                                       Free",
+				"orderLabel": "Job (Non-Leak Issues Trouble-Shooting)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
