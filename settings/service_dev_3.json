@@ -729,7 +729,7 @@
 			
 						
 			"Project Quotation Enquiry": {				
-				"handle": "project_enquiry",
+				"handle": "project_quotation_enquiry",
 				"label": "Project Quotation Enquiry                                     MYR30/Job",
 				"orderLabel": "Job (Project Quotation Enquiry)",
 				"description": "Label standard",
