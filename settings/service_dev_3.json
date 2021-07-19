@@ -657,7 +657,7 @@
 			
 			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
-				"label": "Standard Wash - Studio, 1BR Apt                                 MYR80/Job",
+				"label": "Standard Wash - Studio, 1BR Apt                                 MYR70/Job",
 				"orderLabel": "Job (Standard Wash - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
