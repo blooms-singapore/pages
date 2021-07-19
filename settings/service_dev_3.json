@@ -575,10 +575,10 @@
 		"options": {
 			
 			
-			"AC Other Faults": {				
+			"Non Leak Issues": {				
 				"handle": "ac_other_faults",
-				"label": "Non-Leak Aircon Issues                                        Free",
-				"orderLabel": "Job (Non-Leak Aircon Issues)",
+				"label": "Non-Leak Issues                                        Free",
+				"orderLabel": "Job (Non-Leak Issues)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -597,8 +597,8 @@
 			
 			"AC Water Leak": {
 				"handle": "ac_water_leak",
-				"label": "AC Water Leak (min 1Hr booking)                        MYR120/Hr",
-				"orderLabel": "Hour (AC Water Leak)",
+				"label": "Water Leak (min 1Hr booking)                        MYR120/Hr",
+				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
