@@ -771,8 +771,8 @@
 			
 			"3-Hour Package": {
 				"handle": "min_order",
-				"label": "Standard Wash 3Hr Package                                     MYR360/Job",
-				"orderLabel": "PKG (Standard Wash 3Hr Package)",
+				"label": "3Hr Package                                     MYR360/Job",
+				"orderLabel": "PKG (3Hr Package)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -791,8 +791,8 @@
 			
 			"6Hr Package": {
 				"handle": "6hr_package",
-				"label": "Standard Wash 6Hr Package                                       MYR700",
-				"orderLabel": "PKG (Standard Wash 6Hr Package)",
+				"label": "6Hr Package                                       MYR700",
+				"orderLabel": "PKG (6Hr Package)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -811,8 +811,8 @@
 			
 			"9Hr Package": {
 				"handle": "9hr_package",
-				"label": "Standard Wash 9Hr Package                                      MYR1000",
-				"orderLabel": "PKG (Standard Wash 9Hr Package)",
+				"label": "9Hr Package                                      MYR1000",
+				"orderLabel": "PKG (9Hr Package)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
