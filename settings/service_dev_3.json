@@ -786,46 +786,6 @@
 					"default": 1,
 					"base": 1
 				}
-			},
-			
-			"6Hr Package": {
-				"handle": "6hr_package",
-				"label": "6Hr Package                                       MYR700/PKG",
-				"orderLabel": "PKG (6Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "700",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "PKG",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"9Hr Package": {
-				"handle": "9hr_package",
-				"label": "9Hr Package                                      MYR1000/PKG",
-				"orderLabel": "PKG (9Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "1000",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "PKG",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
 			}
 		},
 		
