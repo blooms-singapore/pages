@@ -574,8 +574,7 @@
 		"hasNote": 1,
 		"options": {
 			
-			
-			"Non Leak Issues": {				
+			"AC Survey": {				
 				"handle": "ac_survey",
 				"label": "Aircon Issue Survey                                       Free",
 				"orderLabel": "Job (Aircon Survey)",
@@ -596,7 +595,7 @@
 			},
 			
 			"AC Water Leak": {
-				"handle": "ac_water_leak",
+				"handle": "aircon_water_leak",
 				"label": "Water Leak (min 1Hr booking)                        MYR120/Hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
@@ -607,6 +606,26 @@
 				},
 				"quantity": {
 					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"AC Trouble Shoot": {
+				"handle": "aircon_trouble_shoot",
+				"label": "Aircon Trouble-Shoot                             MYR60/Job",
+				"orderLabel": "Job (Aircon Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 30,
