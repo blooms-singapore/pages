@@ -781,7 +781,7 @@
 				"quantity": {
 					"label": "PKG",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 60,
 					"default": 0,
 					"base": 60
