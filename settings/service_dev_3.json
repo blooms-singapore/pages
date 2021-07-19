@@ -769,13 +769,13 @@
 				}
 			},
 			
-			"3Hr Package": {
-				"handle": "abc",
-				"label": "Standard Wash 3Hr Package                                      MYR360",
+			"3-Hour Package": {
+				"handle": "min_order",
+				"label": "Standard Wash 3Hr Package                                     MYR360/Job",
 				"orderLabel": "PKG (Standard Wash 3Hr Package)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "40",
 					"MYR": "360",
 					"CNY": "260"
 				},
@@ -791,7 +791,7 @@
 			
 			"6Hr Package": {
 				"handle": "6hr_package",
-				"label": "Standard Wash 6Hr Package                                      MYR700",
+				"label": "Standard Wash 6Hr Package                                       MYR700",
 				"orderLabel": "PKG (Standard Wash 6Hr Package)",
 				"description": "Label standard",
 				"cost": {
