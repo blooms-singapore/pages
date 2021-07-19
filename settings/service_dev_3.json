@@ -575,8 +575,8 @@
 		"options": {
 			
 			"AC Survey": {				
-				"handle": "ac_survey",
-				"label": "Aircon Issue Survey                                       Free",
+				"handle": "aircon_survey",
+				"label": "Aircon Survey                                       Free",
 				"orderLabel": "Job (Aircon Survey)",
 				"description": "Label standard",
 				"cost": {
