@@ -768,10 +768,10 @@
 				}
 			},
 			
-			"Test": {
-				"handle": "test",
-				"label": "Test                                     MYR360/PKG",
-				"orderLabel": "PACKAGE (Test)",
+			"3Hr Package": {
+				"handle": "3hr_package",
+				"label": "3-Hour Package                                     MYR360/PKG",
+				"orderLabel": "PACKAGE (3Hr Package)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
