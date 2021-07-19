@@ -596,7 +596,7 @@
 			
 			"AC Water Leak": {
 				"handle": "aircon_water_leak",
-				"label": "Water Leak (min 1Hr booking)                        MYR120/Hr",
+				"label": "Water Leak - min 1Hr booking                                 MYR120/Hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
 				"cost": {
@@ -637,7 +637,7 @@
 									
 			"Standard Wash": {
 				"handle": "malaysia_sw",
-				"label": "Standard Wash (min 1Hr booking)                        MYR120/Hr",
+				"label": "Standard Wash - min 1Hr booking                                      MYR120/Hr",
 				"orderLabel": "Hour (Standard Wash)",
 				"description": "Label standard",
 				"cost": {
