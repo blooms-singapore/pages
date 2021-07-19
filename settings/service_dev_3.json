@@ -769,7 +769,7 @@
 			},
 			
 			"3Hr Package": {
-				"handle": "3hr_package",
+				"handle": "3hr",
 				"label": "3-Hour Package                                     MYR360/PKG",
 				"orderLabel": "PKG (3-Hour Package)",
 				"description": "Label standard",
