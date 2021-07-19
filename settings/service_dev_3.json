@@ -576,9 +576,9 @@
 			
 			
 			"Non Leak Issues": {				
-				"handle": "non_leak_issues",
-				"label": "Non-Leak Issues Trouble-Shooting                                       Free",
-				"orderLabel": "Job (Non-Leak Issues Trouble-Shooting)",
+				"handle": "ac_survey",
+				"label": "Aircon Issue Survey                                       Free",
+				"orderLabel": "Job (Aircon Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
