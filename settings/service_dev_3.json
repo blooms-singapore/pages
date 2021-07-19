@@ -676,7 +676,7 @@
 				}
 			},			
 			
-			"Malaysia Small Cassette CW 2-3HP": {
+			"Small Cassette CW 2-3HP": {
 				"handle": "malaysia_small_cassette_cw",
 				"label": "Small Cassette Chemical Overhaul : 2 to 3HP",
 				"orderLabel": "Hour (Small Cassette Chemical Overhaul)",
@@ -701,7 +701,7 @@
 				}
 			},
 			
-			"Malaysia Big Cassette CW 3.5 to 5HP": {
+			"Big Cassette CW 3.5 to 5HP": {
 				"handle": "malaysia_big_cassette_cw",
 				"label": "Big Cassette Chemical Overhaul : 3.5 to 5HP",
 				"orderLabel": "Hour (Big Cassette Chemical Overhaul)",
@@ -730,8 +730,8 @@
 						
 			"Project Quotation Enquiry": {				
 				"handle": "project_enquiry",
-				"label": "Project Enquiry                                     MYR30/Job",
-				"orderLabel": "Job (Project Enquiry)",
+				"label": "Project Quotation Enquiry                                     MYR30/Job",
+				"orderLabel": "Job (Project Quotation Enquiry)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
