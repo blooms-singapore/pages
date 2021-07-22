@@ -28,77 +28,104 @@ layout: service
 <p>
 <div class="pricing">
   <table>
-    <thead>
+      <thead>
       <tr>
-        <th><b>(A) 1-2HP Wall-Mounted<br>Standard Wash</b></th>
+        <th><b>(A) Enquiry & Aircon Fault</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
+      
       <tr>
-        <td>Up to 3 units</td>
+      <td>Aircon Survey</td>
+      <td>Free</td>
+      </tr>
+      
+      <tr>
+      <td>Water Leak<br>No Part<br>Replacement</td>
+      <td>${params.aircon_water_leak}/Hr</td>
+      </tr>
+      
+       <tr>
+        <td>Aircon<br>Trouble-Shoot</td>
+        <td>${params.aircon_trouble_shoot}/Job<br>Waive upon<br>award of Job</td>
+      </tr>      
+
+    <thead>
+      <tr>
+        <th><b>(B) 1-2HP Wall-Mounted<br>Standard Wash</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><b>For Standard Condo<br>& Landed House</b>
+        <br><br>Wash up to 3 units</td>
         <td>${params.malaysia_sw}
         <p>Book 1.0Hr</td>
       </tr>
+      
       <tr>
-        <td>4 to 5 units</td>
+        <td>Wash 4 to 5 units</td>
         <td>${(params.malaysia_sw * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal-->
        <p>Book 1.5Hrs</td>
       </tr>
       
       <tr>
-        <td>6 units</td>
+        <td>Wash 6 units</td>
         <td>${(params.malaysia_sw * 2).toFixed(1)}
         <p>Book 2.0Hrs</td>
       </tr>
        <tr>
-        <td>7 to 8 units</td>
+        <td>Wash 7 to 8 units</td>
         <td>${(params.malaysia_sw * 2.5).toFixed(1)}
         <p>Book 2.5Hrs</td>
       </tr>
-      <tr>
-        <td><b>For Studio, 1BR<br>Apartment Only</b></p>
-        <p>1 or 2 units +<br>Clear Drain Pipe</td>
+      
+       <tr>
+        <td><b>For Studio, 1BR<br>Apartment Only</b>
+        <br><br>1 or 2 units +<br>Clear Drain Pipe</td>
         <td>${params.min_order}<br>Book 1 Job</td>
       </tr>
-    </tbody>
+     </tbody>
     
     <thead>
       <tr>
-        <th><b>(B) 1-2HP Wall-Mounted Chemical Wash</b></th>
+        <th><b>(C) 1-2HP Wall-Mounted<br>Chemical Wash</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1 unit</td>
+        <td>Wash 1 unit</td>
         <td>${params.malaysia_cw}
           <p> Book 1Hr</td>
       </tr>
       <tr>
-        <td>2 units</td>
+        <td>Wash 2 units</td>
         <td>${(params.malaysia_cw * 2).toFixed(1)}
         <p>Book 2Hrs</td>
       </tr>
       <tr>
-        <td>3 units</td>
+        <td>Wash 3 units</td>
         <td>${(params.malaysia_cw * 3).toFixed(1)}
         <p>Book 3Hrs</td>
       </tr>
       <tr>
-        <td>4 units</td>
+        <td>Wash 4 units</td>
         <td>${(params.malaysia_cw * 4).toFixed(1)} <!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
         <p>Book 4Hrs</td>
       </tr>
       <tr>
       <tr>
         <td>Coolant Gas Top-Up
-        <td>80.0 to 100.0  /unit</td>
+        <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
     </tbody>
     <thead>
       <tr>
-        <th><b>(C) Cassette Type</b></th>
+        <th><b>(D) Cassette Type</b></th>
         <th><b>Pricing (${params.currency})<b></th>
       </tr>
     </thead>
@@ -125,23 +152,7 @@ layout: service
         <td>Coolant Gas Top-Up
         <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
-      
-     <thead>
-      <tr>
-        <th><b>(D) Aircon Faults</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-      <td>AC Water Leak<br>No part<br>replacement</td>
-      <td>${params.ac_water_leak}/Hr</td>
-      </tr>
-      <tr>
-      <td>AC Other Faults<br>Need part(s)<br>replacement</td>
-      <td>Per Quotation</td>
-      </tr>
-      
+            
     <thead>
       <tr>
         <th><b>(E) Project</b></th>
@@ -150,34 +161,55 @@ layout: service
     </thead>
     <tbody>
       <tr>
-      <td>Quotation Enquiry<br>Quote within 3 working days
+      <td>Quotation Enquiry</td>
       <td>Free</td>
       </tr>
-      <tr>
-      <td>AC Trouble-Shooting</td>
-      <td>${params.ac_trouble_shoot}/Job<br>Waive upon award of Job</td>
-      </tr>
-      
+
       <tr>
       <td>Aircon Project</td>
-      <td>Per Quotation</td>
+      <td>${params.ac_project}</td>
       </tr>
-      
+     
+      <!--AC Packages-->
       <thead>
       <tr>
-        <th><b>(F) Misc Charges</b></th>
+        <th><b>(F) Standard Wash Packages</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-      <td>Service Extension
-      <td>60.0<br>per 30-min block
+      <td>3-Hour</td>
+      <td>${params.three_hour}/Package</td>
+      </tr>
+
+      <tr>
+      <td>6-Hour</td>
+      <td>${params.six_hour}/Package</td>
+      </tr>
+      
+      <tr>
+      <td>9-Hour</td>
+      <td>${params.nine_hour}/Package</td>
+      </tr>
+    
+     <!-- Miscellaneous Charges-->
+     <thead>
+      <tr>
+        <th><b>(G) Misc Charges</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Service Extension</td>
+        <td>Charge in<br>30-min blocks</td>
       </tr>
       <tr>
        <td>Condo Surcharge</td>
-       <td>10.0<br>Waived for SG</td>
+       <td>10.0</td>
       </tr>
+      
     </tbody>
     </table>
   <div class="fineprint">
@@ -189,22 +221,22 @@ layout: service
 <div class="gap">
   <div class="service-info">
     <h5 class="service-title">Service Info</h5>
-    <p><strong>Minimum booking is 1hr. </strong>Standard cleaning prices are for 1 to 2HP wall mounted aircon units only.
-    <p>Aircon repair/relocation/installation prices to be quoted after site survey. Upon confirmation of job, survey fee will be waived.
+    <p><b>Minimum booking is 1hr.</b> Same hourly rated price regardless of Aircon unit sizes.
+    <p>Aircon repair/relocation/installation prices to be quoted after site survey. Upon confirmation of job, survey fee (if applicable) will be waived.
     <p>
     </p>
     <p>
       <strong>Standard Wash Scope:</strong>
       <ul>
-        <li>Check conditions of aircon units. Takes about 15 - 20 minutes. Report conditions to customers.</li>
+        <li>Check conditions of aircon units. Takes about 10 to 15 minutes. Report conditions to customers.</li>
         <p>
-        <li>While solving more complicated leak/chokage issues, additional times are chargeable.</li>
+        <li>Solving more complicated leak/chokage issues, time extention is chargeable in 30-min blocks.</li>
         <p>
         <li>Brush & clean blower blades.</li>
         <p>
         <li>Clean fancoil front cover, air filters & water tray (Procedures will differ for different AC models).</li>
         <p>
-        <li>Check coolant gas pressure, electrical cable condition and running current are optional. Additional charges (0.5 to 1Hr) applies.</li>
+        <li>Check coolant gas pressure, electrical cable condition and running current are optional.</li>
        </ul>
     </div>
 </div>
@@ -216,9 +248,9 @@ layout: service
     <p>
     <p><strong>(A) Charge Scenario</strong>
     <ul>
-      <li>Blooms charges by actual service time, at 30-min blocks. For example, if our crews takes 1hr 10mins to complete the job, Blooms will charge 1.5hrs.</li>
+      <li>Blooms charges by actual service time, at 30-min blocks. For example, if our crews takes 1hr 10 mins to complete the job, Blooms will charge 1.5hrs.</li>
       <p>
-      <li>Blooms technicians execute their tasks, focusing on quality and efficiency. For example, to standard wash 3 aircon fancoils in 1 hour requires our crew to only spend 15 to 20 mins to visual survey the aircons.</li>
+      <li>Blooms' crews execute their tasks, focusing on quality and efficiency. Depending on site situation, or customers' demands, crews may take more time to complete the tasks.</li>
     </ul>
     
    <p><strong>(B) Gas Top Up</strong>
@@ -230,16 +262,17 @@ layout: service
  <p>
    <p><b>(C) Outskirt Transport Charges</b>
    <ul>
-     <li>For location(s) in excess of 45 mins of travelling, there will be a <strong>distant location surcharge of RM30.</strong>.</li>
+     <li>For location(s) in excess of 45 mins of travelling, there will be a <b>distant location surcharge of RM30</b>.</li>
    </ul>
-   </div>
+</div>
 </div>
 
 <div class="divider"></div>
 <div class="gap">
+  <div class="service-info">
   <h5>After Service Committment</h5>
   <p>
-  <p><strong>Water Leak</strong>
+  <strong>Water Leak</strong>
     <ul>
       <li>Customer must check and please inform Blooms office of leaks within <strong>14 working days of Service date, if original booking is NOT for leak issue.</strong> 
         After that, it will be treated as a new job request.</li>
@@ -249,31 +282,64 @@ layout: service
       <li>Should leak arise due to infrastructual defects from house, Blooms may not proceed with Service.</li>
      </ul>
   
-  <p><strong>Smell & Noise</strong>
+    <strong>Smell & Noise</strong>
     <ul>
       <li>Blooms crews will check for potential noise and odour issues before starting servicing. Customers will be informed of the existing problem(s).</li>
       <p>
-      <li>Washes may not eliminate odour. 
+      <li>Washes may not eliminate odour.
    </ul>
  </div>
-</div>
+ </div>
+  
+<div class="divider"></div>
+ <div class="gap">
+ <div class="service-info">
+ <h5 class="service-title">Aircon Package FAQs</h5>
+   
+ <h4 class="service-title">What does the 3, 6, 9-Hour mean?</h4>
+   It means customers buy different "time" to standard wash their Aircons. The Package time can be split into minimum 1-hour bookings.
+   <br><br>A 6 or 9-Hour Package can be split into a maximum of 5 bookings, in any order and quantum. For example a 9-Hour Package can be as follows:
+   <ul>
+     <li>1st booking - 1.5 hours,</li>
+     <li>2nd booking - 1 hour,</li>
+     <li>3rd booking - 2.5 hours,</li>
+     <li>4th booking - 2 hours &</li>
+     <li>5th booking - 2 hours.</li>
+     <li>Total = 9 hours.</li>
+   </ul>
+<p>
+    
+<h4 class="service-title">Can I book other Services with the Package?</h4>
+  The 3, 6, 9-Hour Packages are only for standard washing of wall-mounted Aircon units. For other services, please book separately and they may be chargeable.
+  </div>
+  </div>
 
 <div class="divider"></div>
  <div class="gap">
- <h5 class="service-title">FAQs</h5>
+ <div class="service-info">
+ <h5 class="service-title">General FAQs</h5>
    
- <h4 class="service-title">My Aircon is not working properly or leaking water. Which service do I book?</h4>
-   Please select any 2 options under (D) Aircon Faults.
-   <br><br>When there is a need for part replacement, our crew will provide the price. If you wish not to continue with the repair, <b>we will charge MYR${params.ac_trouble_shoot}</b> for the trouble-shooting efforts.
+  <h4 class="service-title">Why does Blooms charge Aircon washes by time?</h4>
+   It is cheaper, transparent and consistent. Customers can standard or chemical wash units regardless of Aircon sizes.
+   <br><br>There is more flexibility for Customers, if they want to add or reduce workscope on the spot, and only pay for time use.
   <p>
-
- <h4 class="service-title">Why does Blooms charge Aircon washes by time?</h4>
-   It is cheaper and more transparent, because you see the efforts of our crews. Also there is flexibility for Customers, if they want to add or reduce their workscope on the spot.
+   
+  <h4 class="service-title">My Aircon is not working properly or leaking water. Which service do I book?</h4>
+   Please select options under (A) Enquiry & Aircon Fault section.
+  <br><br>When there is a need for part replacement, our crew will quote the price.
+  <p>
+    
+ <h4 class="service-title">What is the difference between Aircon Survey and Trouble-Shooting?</h4>
+   Aircon Survey is free of charge. Our crews are there to understand the requirements of customers, such as where to install/relocate the AC, or which AC to be dismantled etc. 
+   <br><br>Trouble-Shooting is chargeable at <b>RM${params.aircon_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
+   <br><br>This fee will be waived if customers choose to proceed with the repair.
+  
   <p>
     
  <h4 class="service-title">What if Blooms' crews deliberately delay time?</h4>
-  If Customers can provide video evidence, Blooms will not charge you for the Service.
-  <p>
+  Please provide a video evidence, and you'll enjoy a free Service.
+ <p>
+</div>
 </div>
 
 <div class="divider"></div>
