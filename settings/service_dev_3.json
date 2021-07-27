@@ -1010,7 +1010,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "14:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "73",
