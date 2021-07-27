@@ -1268,7 +1268,7 @@
 					"base": 1,
 					"multiplier": 1
 				}
-			}
+			},
 			
 			"survey": {
 				"handle": "survey",
@@ -1293,7 +1293,7 @@
 	
 			"Project": {
 				"handle": "project",
-				"label": "Project                                         Per Quotation",
+				"label": "Project                                     Per Quotation",
 				"orderLabel": "Job (Project)",
 				"description": "Label standard",
 				"cost": {
