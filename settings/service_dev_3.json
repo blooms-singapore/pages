@@ -1207,7 +1207,8 @@
 					"default": 0,
 					"base": 60
 				}
-			},			
+			},
+			
 			">=2nd Hr cutting": {
 				"handle": "second_or_more_hr",
 				"label": "2nd Hour & more                              MYR40/Hr",
