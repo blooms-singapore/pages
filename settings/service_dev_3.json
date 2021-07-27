@@ -1012,7 +1012,7 @@
 		"lastSlot": "14:00",
 		"disableLocations": ["Seremban","Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "45",
+			"SGD": "15",
 			"MYR": "73",
 			"CNY": "20"
 		},
@@ -1021,7 +1021,7 @@
 			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
-				"label": "Electrical Survey                                MYR30/Trip (JB)",
+				"label": "Electrical Survey",
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1041,7 +1041,7 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Minor Electrical                                      MYR85/Hr (JB)",
+				"label": "Minor Electrical",
 				"orderLabel": "Hour (Minor Electrical)",
 				"description": "Label standard",
 				"cost": {
@@ -1065,7 +1065,7 @@
 				"orderLabel": "Project (Site Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -1081,7 +1081,7 @@
 			
 			"Commercial Survey": {
 				"handle": "commercial_survey",
-				"label": "Commercial Survey                                MYR80/Trip (JB)",
+				"label": "Commercial Survey",
 				"orderLabel": "Trip (Commercial Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1121,11 +1121,11 @@
 			
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                         MYR95-135 (JB) ",
+				"label": "Emergency Booking",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "20",
 					"MYR": "95",
 					"CNY": "0"
 				},
