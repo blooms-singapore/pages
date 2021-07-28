@@ -406,20 +406,20 @@
 		"name": "Installation",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "35.5",
+			"SGD": "20",
 			"MYR": "66.25",
 			"CNY": "150"
 		},
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban"],
 		"hasNote": 1,
 		"options": {
 			"Std 1st": {
 				"handle": "std_first",
-				"label": "Standard Install 1st Hour                                   MYR75/Hr",
+				"label": "Standard Install 1st Hour",
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "20",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -434,11 +434,11 @@
 			},
 			"Std 2nd": {
 				"handle": "std_second",
-				"label": "Standard Install 2nd Hour or more                                         MYR50/Hr",
+				"label": "Standard Install 2nd Hour or more",
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "15",
 					"MYR": "50",
 					"CNY": "0"
 				},
@@ -453,11 +453,11 @@
 			},
             "Tech 1st": {
 				"handle": "tech_first",
-				"label": "Technical Install 1st Hour                                            MYR95/Hr",
+				"label": "Technical Install 1st Hour",
 				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "30",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -472,11 +472,11 @@
 			},
 			"Tech 2nd": {
 				"handle": "tech_second",
-				"label": "Technical Install 2nd Hour or more                                              MYR60/Hr",
+				"label": "Technical Install 2nd Hour or more",
 				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "20",
 					"MYR": "60",
 					"CNY": "0"
 				},
