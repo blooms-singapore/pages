@@ -1350,9 +1350,9 @@
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "7",
+			"SGD": "5",
 			"MYR": "14",
 			"CNY": "50"
 		},
@@ -1361,11 +1361,11 @@
 			
 			"Std Plumbing 1st Hr": {
 				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour                                    MYR75/Hr (JB)",
+				"label": "Standard Plumbing 1st Hour",
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -1381,11 +1381,11 @@
 			
 			"Std Plumbing 2nd Hr": {
 				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more                                    MYR60/Hr (JB)",
+				"label": "Standard Plumbing 2nd Hour or more",
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "5",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -1401,11 +1401,11 @@
 			
 			"Non-Standard Plumbing Project Survey": {
 				"handle": "survey",
-				"label": "Non-Standard Plumbing SURVEY                                       MYR20/Trip (JB)",
+				"label": "Non-Standard Plumbing SURVEY",
 				"orderLabel": "Trip (Non-Standard Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "5",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -1441,11 +1441,11 @@
 			
 			"Tank Issue Survey": {
 				"handle": "survey",
-				"label": "Tank Issue SURVEY                                       MYR20/Trip (JB)",
+				"label": "Tank Issue SURVEY",
 				"orderLabel": "Trip (Tank Issue SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -1461,11 +1461,11 @@
 			
 			"Tank Wash 1st Hr": {
 				"handle": "tank_wash_first_hour",
-				"label": "Tank WASH 1st Hour                                    MYR120/Hr (JB)",
+				"label": "Tank WASH 1st Hour",
 				"orderLabel": "Hour (Tank WASH 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "30",
 					"MYR": "120",
 					"CNY": "0"
 				},
@@ -1481,11 +1481,11 @@
 			
 			"Tank Wash 2nd Hr": {
 				"handle": "tank_wash_second_hour",
-				"label": "Tank WASH 2nd Hour or more                                    MYR80/Hr (JB)",
+				"label": "Tank WASH 2nd Hour or more",
 				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -1501,11 +1501,11 @@
 			
 			"Tank Repair 1st Hr": {
 				"handle": "tank_repair_first_hour",
-				"label": "Tank REPAIR 1st Hour                                    MYR100/Hr (JB)",
+				"label": "Tank REPAIR 1st Hour",
 				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "30",
 					"MYR": "100",
 					"CNY": "0"
 				},
@@ -1521,11 +1521,11 @@
 			
 			"Tank Repair 2nd Hr": {
 				"handle": "tank_repair_second_hour",
-				"label": "Tank REPAIR 2nd Hour or more                                  MYR80/Hr (JB)",
+				"label": "Tank REPAIR 2nd Hour or more",
 				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -1561,7 +1561,7 @@
 			
 			"Sink Poppy": {
 				"handle": "sink_poppy",
-				"label": "Sink Poppy                                       MYR30/Set",
+				"label": "Sink Poppy",
 				"orderLabel": "Set (Sink Poppy)",
 				"description": "Label standard",
 				"cost": {
@@ -1582,11 +1582,11 @@
 			
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                              MYR60/Job",
+				"label": "Trouble Shoot",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "10",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -1615,7 +1615,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
