@@ -1649,20 +1649,40 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Door 1st Hr": {
-				"handle": "door_first_hour",
-				"label": "Door 1st Hour",
-				"orderLabel": "Hour (Door 1st Hour)",
+			"Transport": {
+				"handle": "door_transport",
+				"label": "Transport",
+				"orderLabel": "Trip (Transport)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "15",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			 },			
+			
+			"Door Work": {
+				"handle": "door_work",
+				"label": "Door Work",
+				"orderLabel": "Hour (Door Work)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
 					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 30,
 					"default": 0,
 					"base": 60
