@@ -1643,65 +1643,66 @@
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "45",
+			"SGD": "10",
 			"MYR": "25",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"Survey": {
-				"handle": "runner_site_survey",
-				"label": "Survey                                          MYR20/Trip",
-				"orderLabel": "Trip (Survey)",
+			"Door 1st Hr": {
+				"handle": "door_first_hour",
+				"label": "Door 1st Hour",
+				"orderLabel": "Hour (Door 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Hour",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
+					"increment": 30,
 					"default": 0,
 					"base": 60
 				}
 			 },			
 			
-			"Inspection": {
-				"handle": "inspection",
-				"label": "Vehicle Inspection                                                        MYR120/Job",
-				"orderLabel": "Job (Vehicle Inspection)",
+			"Door 2nd Hr": {
+				"handle": "door_second_hour",
+				"label": "Door 2nd Hour or more",
+				"orderLabel": "Hour (Door 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Hour",
 					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
 					"base": 60
 				}
-			 },			
-			"Helper": {
-				"handle": "helper",
-				"label": "Helper                                                        MYR30/Trip",
-				"orderLabel": "Trip (Helper)",
+			 },
+			
+			"Window 1st Hr": {
+				"handle": "window_first_hour",
+				"label": "Window 1st Hour",
+				"orderLabel": "Hour (Window 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "50",
 					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Hour",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
