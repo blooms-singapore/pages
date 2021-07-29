@@ -1655,7 +1655,7 @@
 				"orderLabel": "Trip (Transport)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "10",
 					"MYR": "40",
 					"CNY": "0"
 				},
