@@ -406,7 +406,7 @@
 		"name": "Installation",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "20",
+			"SGD": "36",
 			"MYR": "66.25",
 			"CNY": "150"
 		},
@@ -419,7 +419,7 @@
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "40",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -438,7 +438,7 @@
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "30",
 					"MYR": "50",
 					"CNY": "0"
 				},
@@ -457,7 +457,7 @@
 				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "60",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -476,7 +476,7 @@
 				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "40",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -1045,7 +1045,7 @@
 				"orderLabel": "Hour (Minor Electrical)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "50",
 					"MYR": "85",
 					"CNY": "0"
 				},
@@ -1061,7 +1061,7 @@
 			
 			"Major Electrical": {
 				"handle": "major_electrical",
-				"label": "Major Electrical                                      Per Quotation (JB)",
+				"label": "Major Electrical                                      Per Quotation",
 				"orderLabel": "Project (Site Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1085,7 +1085,7 @@
 				"orderLabel": "Trip (Commercial Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "20",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -1125,12 +1125,12 @@
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "50",
 					"MYR": "95",
 					"CNY": "0"
 				},
 				"cost_max": {
-					"SGD": "80",
+					"SGD": "75",
 					"MYR": "135",
 					"CNY": "0"
 				},
@@ -1365,7 +1365,7 @@
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "40",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -1385,7 +1385,7 @@
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
+					"SGD": "40",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -1405,7 +1405,7 @@
 				"orderLabel": "Trip (Non-Standard Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
+					"SGD": "0",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -1465,7 +1465,7 @@
 				"orderLabel": "Hour (Tank WASH 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "80",
 					"MYR": "120",
 					"CNY": "0"
 				},
@@ -1485,7 +1485,7 @@
 				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "60",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -1505,7 +1505,7 @@
 				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "80",
 					"MYR": "100",
 					"CNY": "0"
 				},
@@ -1525,7 +1525,7 @@
 				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "60",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -1565,7 +1565,7 @@
 				"orderLabel": "Set (Sink Poppy)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "20",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -1586,7 +1586,7 @@
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "20",
 					"MYR": "60",
 					"CNY": "0"
 				},
