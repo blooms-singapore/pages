@@ -1706,7 +1706,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			 },			
@@ -1726,7 +1726,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 30,
+					"default": 60,
 					"base": 60
 				}
 			 },
