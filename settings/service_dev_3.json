@@ -1643,12 +1643,13 @@
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "10",
+			"SGD": "15",
 			"MYR": "25",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
+						
 			"Transport": {
 				"handle": "door_transport",
 				"label": "Transport",
@@ -1667,7 +1668,28 @@
 					"default": 60,
 					"base": 60
 				}
-			 },			
+			 },
+			
+			"Survey": {
+				"handle": "door_window_survey",
+				"label": "Door or Window Survey",
+				"orderLabel": "Trip (Door / Window Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			 },
+			
 			
 			"Door Work": {
 				"handle": "door_work",
