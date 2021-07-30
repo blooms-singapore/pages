@@ -1399,10 +1399,10 @@
 				}
 			},
 			
-			"Plumbing Project Survey": {
+			"Non-Standard Plumbing Project Survey": {
 				"handle": "plumbing_project_survey",
-				"label": "Plumbing Project SURVEY",
-				"orderLabel": "Trip (Plumbing  Project SURVEY)",
+				"label": "Non-Standard Plumbing Project SURVEY",
+				"orderLabel": "Trip (Non-Standard Plumbing  Project SURVEY)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
