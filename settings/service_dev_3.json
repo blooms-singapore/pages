@@ -1352,7 +1352,7 @@
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "5",
+			"SGD": "10",
 			"MYR": "14",
 			"CNY": "50"
 		},
@@ -1405,7 +1405,7 @@
 				"orderLabel": "Trip (Non-Standard Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "0"
 				},
