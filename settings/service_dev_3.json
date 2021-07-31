@@ -13,7 +13,7 @@
 			
 			"Ladder Package": {
 				"handle": "cleaning_ladder_package",
-				"label": "Ladder Package                                          MY800/PKG (JB)",
+				"label": "Ladder Package                                                          Only in JB",
 				"displayLabel": "Ladder Package",
 				"orderLabel": "Package (Ladder PKG)",
 				"description": "Label standard",
@@ -35,7 +35,7 @@
 			
 			"Vacuum Package": {
 				"handle": "cleaning_vacuum_package",				
-				"label": "Vacuum Package                                          MYR960/PKG (JB)",
+				"label": "Vacuum Package                                                         Only in JB",
 				"displayLabel": "Vacuum Package",
 				"orderLabel": "Package (Vacuum PKG)",
 				"description": "Label standard",
@@ -58,7 +58,7 @@
 			
 			"Top Up Package": {
 				"handle": "cleaning_top_up_package",				
-				"label": "Top Up Package                                          MYR900/PKG (JB)",
+				"label": "Top Up Package                                                Only in JB",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
@@ -81,7 +81,7 @@
 			
 			   "Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo                             MYR60 (JB)                                MYR60 (KL)",
+				"label": "Standard Clean Very Small Condo",
 				"displayLabel": "Std Clean Very Small Condo",
 				"orderLabel": "Unit (Standard Clean Very Small Condo)",
 				"description": "Label standard",
@@ -104,7 +104,7 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo                                  MYR40/Hr (JB)                              MYR44/Hr (KL)",
+				"label": "Standard Clean Condo",
 				"displayLabel": "Standard Clean Condo",
 				"orderLabel": "Hours (Standard Clean Condo)",
 				"description": "Label standard",
@@ -128,7 +128,7 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House                        MYR40/Hr (JB)                            MYR44/Hr (KL)",
+				"label": "Standard Clean Landed House",
 				"displayLabel": "Standard Clean Landed House",
 				"orderLabel": "Hours (Standar Clean Landed House)",
 				"description": "Label standard",
@@ -152,7 +152,7 @@
           
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo                            MYR100 (JB)                                MYR121 (KL)",
+				"label": "Festive Clean Very Small Condo",
 				"displayLabel": "Festive Clean Very Small Condo",
 				"orderLabel": "Unit (Festive Clean Very Small Condo)",
 				"description": "Label standard",
@@ -175,7 +175,7 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Standard Condo                               MYR45/Hr (JB)                        MYR55/Hr (KL)",
+				"label": "Festive Clean Standard Condo",
 				"displayLabel": "Festive Clean Std Condo",
 				"orderLabel": "Hours (Festive Clean Std Condo)",
 				"description": "Label standard",
@@ -198,7 +198,7 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House                            MYR45/Hr (JB)                                MYR55/Hr (KL)",
+				"label": "Festive Clean Landed House",
 				"displayLabel": "Festive Clean Landed House",
 				"orderLabel": "Hours (Festive Clean Landed House)",
 				"description": "Label standard",
@@ -244,7 +244,7 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                             MYR55/Hr (JB)                               MYR66/Hr (KL)",
+				"label": "Renovation Clean 1-Storey House or Condo",
 				"displayLabel": "Renovation Clean 1-Storey House or Condo",
 				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
 				"description": "Label standard",
@@ -267,7 +267,7 @@
 			
 			"Reno Big House": {
 				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House                             MYR500/Day (JB)                               MYR660/Day (KL)",
+				"label": "Renovation Clean Big House",
 				"displayLabel": "Renovation Clean Big House",
 				"orderLabel": "Day (Renovation Clean Big House)",
 				"description": "Label standard",
@@ -291,7 +291,7 @@
 						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo                               MYR100 (JB)                               MYR126.5 (KL)",
+				"label": "Move Clean Very Small Condo",
 				"displayLabel": "Move Clean Very Small Condo",
 				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
@@ -314,7 +314,7 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Standard Condo                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
+				"label": "Move Clean Standard Condo",
 				"displayLabel": "Move Clean Standard Condo",
 				"orderLabel": "Hours (Move Clean Standard Condo)",
 				"description": "Label standard",
@@ -337,7 +337,7 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House                         MYR45/Hr (JB)                             MYR49.5/Hr (KL)",
+				"label": "Move Clean Landed House",
 				"displayLabel": "Move Clean Landed House",
 				"orderLabel": "Hours (Move Clean Landed House)",
 				"description": "Label standard",
