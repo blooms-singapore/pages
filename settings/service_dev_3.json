@@ -3086,7 +3086,7 @@
 		"options": {
 			"House DiagnosisLanded House": {
 				"handle": "house_diagnosis_standard_house",
-				"label": "Standard Landed House                                    MYR1388/Project",
+				"label": "Standard Landed House",
 				"orderLabel": "Project (Standard Landed House)",
 				"description": "Label standard",
 				"cost": {
@@ -3106,8 +3106,8 @@
 			
 			"Large House Survey": {
 				"handle": "house_diagnosis_survey",
-				"label": "Survey - Large House                                         MYR30/Survey",
-				"orderLabel": "Survey (Survey - Large House)",
+				"label": "Survey - Large House",
+				"orderLabel": "Job (Survey - Large House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3115,7 +3115,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Survey",
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
@@ -3126,7 +3126,7 @@
 			
 			"House Diagnosis Condo": {
 				"handle": "house_diagnosis_condo",
-				"label": "Condominium                                              MYR558/Project",
+				"label": "Condominium",
 				"orderLabel": "Project (Condominium)",
 				"description": "Label standard",
 				"cost": {
