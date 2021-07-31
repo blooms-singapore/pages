@@ -221,20 +221,20 @@
 			
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo                          MYR220/Hr (JB)                               MYR286/Hr (KL)",
+				"label": "Renovation Clean Very Small Condo",
 				"displayLabel": "Renovation Clean Very Small Condo",
-				"orderLabel": "Unit (Renovation Clean Very Small Condo)",
+				"orderLabel": "Hour (Renovation Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "220",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
-					"label": "Unit",
+					"label": "Hour",
 					"min": 0,
-					"max": 0,
-					"default": 1,
+					"max": 5,
+					"default": 5,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
