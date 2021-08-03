@@ -1929,11 +1929,11 @@
 		"options": {
 			"1st Hr Labour Booking": {
 				"handle": "first_hr_labour",
-				"label": "Service Rate 1st Hour                                        MYR70/Hr",
+				"label": "Service Rate 1st Hour",
 				"orderLabel": "Hour (Service Rate 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "35",
 					"MYR": "70",
 					"CNY": "80"
 				},
@@ -1948,11 +1948,11 @@
 			},
 			"2nd Hr Labour Booking": {
 				"handle": "second_hr_more_labour",
-				"label": "Service Rate 2nd Hour or more                                         MYR45/Hr",
+				"label": "Service Rate 2nd Hour or more",
 				"orderLabel": "Hour (Service Rate 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "30",
 					"MYR": "45",
 					"CNY": "0"
 				},
@@ -1965,10 +1965,10 @@
 					"base": 60
 				}
 			},			
-			"MY Survey": {
+			"Survey": {
 				"handle" : "my_survey",
 				"label": "House Survey                                          Free",
-				"description": "Malaysia Survey",
+				"description": "House Survey",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
