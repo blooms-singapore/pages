@@ -1949,158 +1949,6 @@
 		}
 	},
 
-	"door-window": {
-		"name": "Door & Window",
-		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Kuala Lumpur", "Johor Bahru"],
-		"startPrice": {
-			"SGD": "15",
-			"MYR": "25",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-						
-			"Transport": {
-				"handle": "door_transport",
-				"label": "Transport",
-				"orderLabel": "Trip (Transport)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			 },
-			
-			"Survey": {
-				"handle": "door_window_survey",
-				"label": "Door or Window Survey",
-				"orderLabel": "Trip (Door / Window Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			 },
-			
-			
-			"Door Work": {
-				"handle": "door_work",
-				"label": "Door Work",
-				"orderLabel": "Hour (Door Work)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			 },			
-			
-			"Window Work": {
-				"handle": "window_work",
-				"label": "Window Work",
-				"orderLabel": "Hour (Window Work)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			 },
-			
-			
-			"Emergency": {
-				"handle": "emergency",
-				"label": "Emergency Booking",
-				"orderLabel": "Trip (Emergency Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "70",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "100",
-					"MYR": "150",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
 	
 	"locksmith": {
 		"name": "Locksmith",
@@ -3178,8 +3026,161 @@
 			}
 		}
 	},
-			
 		
+	
+	"door-window": {
+		"name": "Door & Window",
+		"lastSlot": "16:00",
+		"disableLocations": ["Seremban", "Kuala Lumpur", "Johor Bahru"],
+		"startPrice": {
+			"SGD": "15",
+			"MYR": "25",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+						
+			"Transport": {
+				"handle": "door_transport",
+				"label": "Transport",
+				"orderLabel": "Trip (Transport)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			 },
+			
+			"Survey": {
+				"handle": "door_window_survey",
+				"label": "Door or Window Survey",
+				"orderLabel": "Trip (Door / Window Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			 },
+			
+			
+			"Door Work": {
+				"handle": "door_work",
+				"label": "Door Work",
+				"orderLabel": "Hour (Door Work)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			 },			
+			
+			"Window Work": {
+				"handle": "window_work",
+				"label": "Window Work",
+				"orderLabel": "Hour (Window Work)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			 },
+			
+			
+			"Emergency": {
+				"handle": "emergency",
+				"label": "Emergency Booking",
+				"orderLabel": "Trip (Emergency Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "70",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"cost_max": {
+					"SGD": "100",
+					"MYR": "150",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
