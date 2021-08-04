@@ -2101,6 +2101,244 @@
 		}
 	},
 	
+	
+	"locksmith": {
+		"name": "Locksmith",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "80",
+			"MYR": "52",
+			"CNY": "80"
+		},
+		"hasNote": 1,
+		"options": {
+			"unlock-morning": {
+				"handle": "unlock_morning",
+				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100 (JB)",
+				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "60",
+					"CNY": "80"
+				},
+				"cost_max": {
+					"SGD": "80",
+					"MYR": "100",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-evening": {
+				"handle": "unlock_evening",
+				"label": "Room Door Unlock (After 6pm)                                            MYR90 - 130 (JB) ",
+				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "90",
+					"CNY": "120"
+				},
+				"cost_max": {
+					"SGD": "120",
+					"MYR": "130",
+					"CNY": "120"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"unlock-metal": {
+				"handle": "unlock_metal",
+				"label": "Metal Door Unlock                                          From MYR85 (JB)",
+				"orderLabel": "Unit (Metal Door Unlock)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "85",
+					"CNY": "95"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Survey": {
+				"handle": "survey",
+				"label": "Other Lock Work Survey                                       Free",
+				"orderLabel": "Trip (Other Lock Work Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Non Std Repair": {
+				"handle": "non_standard_repair",
+				"label": "Non-Standard Lock Repair                                         Per Quotation",
+				"orderLabel": "Job (Non-Std Lock Repair)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Premium Car Key Copy": {
+				"handle": "premium_car_key_copy",
+				"label": "Foreign Car Key Copy                                                 From MYR260 (JB)",
+				"orderLabel": "Unit (Foreign Car Key Copy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "260",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"National Car Key Copy": {
+				"handle": "national_car_key_copy",
+				"label": "Proton/Perodua Key Copy                                       From MYR120 (JB)",
+				"orderLabel": "Unit (Proton/Perodua Key Copy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "120",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Digital Lock": {
+				"handle": "digital_lock",
+				"label": "EZope Smart Lock Install                                       MYR1399/Unit (JB)",
+				"orderLabel": "Unit (EZope Smart Lock Install)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "699",
+					"MYR": "1399",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			"Projects": {
+				"handle": "misc_projects",
+				"label":"Lock Projects                                              Per Quotation",
+				"orderLabel": "Job (Lock Projects)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
@@ -2793,244 +3031,7 @@
 		}
 	},
 		
-	
-	"locksmith": {
-		"name": "Locksmith",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "80",
-			"MYR": "52",
-			"CNY": "80"
-		},
-		"hasNote": 1,
-		"options": {
-			"unlock-morning": {
-				"handle": "unlock_morning",
-				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100 (JB)",
-				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "60",
-					"CNY": "80"
-				},
-				"cost_max": {
-					"SGD": "80",
-					"MYR": "100",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"unlock-evening": {
-				"handle": "unlock_evening",
-				"label": "Room Door Unlock (After 6pm)                                            MYR90 - 130 (JB) ",
-				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "90",
-					"CNY": "120"
-				},
-				"cost_max": {
-					"SGD": "120",
-					"MYR": "130",
-					"CNY": "120"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"unlock-metal": {
-				"handle": "unlock_metal",
-				"label": "Metal Door Unlock                                          From MYR85 (JB)",
-				"orderLabel": "Unit (Metal Door Unlock)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "85",
-					"CNY": "95"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Survey": {
-				"handle": "survey",
-				"label": "Other Lock Work Survey                                       Free",
-				"orderLabel": "Trip (Other Lock Work Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Non Std Repair": {
-				"handle": "non_standard_repair",
-				"label": "Non-Standard Lock Repair                                         Per Quotation",
-				"orderLabel": "Job (Non-Std Lock Repair)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Premium Car Key Copy": {
-				"handle": "premium_car_key_copy",
-				"label": "Foreign Car Key Copy                                                 From MYR260 (JB)",
-				"orderLabel": "Unit (Foreign Car Key Copy)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "260",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"National Car Key Copy": {
-				"handle": "national_car_key_copy",
-				"label": "Proton/Perodua Key Copy                                       From MYR120 (JB)",
-				"orderLabel": "Unit (Proton/Perodua Key Copy)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "120",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Digital Lock": {
-				"handle": "digital_lock",
-				"label": "EZope Smart Lock Install                                       MYR1399/Unit (JB)",
-				"orderLabel": "Unit (EZope Smart Lock Install)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "699",
-					"MYR": "1399",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			"Projects": {
-				"handle": "misc_projects",
-				"label":"Lock Projects                                              Per Quotation",
-				"orderLabel": "Job (Lock Projects)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			}
-		},
 		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-		
-	
 	"runner": {
 		"name": "Runner & Helper",
 		"lastSlot": "16:00",
