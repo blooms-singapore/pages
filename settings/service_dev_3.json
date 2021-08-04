@@ -206,7 +206,7 @@
 	
 	
 	"cleaning": {
-		"name": "Sanitize Cleaning",
+		"name": "Sanitize & Cleaning",
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
