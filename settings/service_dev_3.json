@@ -863,8 +863,8 @@
 			
 			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
-				"label": "Standard Wash - Studio, 1BR Apt",
-				"orderLabel": "Job (Standard Wash - Studio, 1BR Apt)",
+				"label": "Standard Wash - Very Small Studio, 1BR Apt",
+				"orderLabel": "Job (Standard Wash - Very SmaLL Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
