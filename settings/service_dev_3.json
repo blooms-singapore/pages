@@ -863,7 +863,7 @@
 			
 			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
-				"label": "Standard Wash - Studio, 1BR Apt                                 MYR70/Job",
+				"label": "Standard Wash - Studio, 1BR Apt",
 				"orderLabel": "Job (Standard Wash - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
@@ -883,7 +883,7 @@
 			
 			"Chemical Wash": {
 				"handle": "malaysia_cw",
-				"label": "Chemical Wash                                      MYR120/Hr/Unit",
+				"label": "Chemical Wash",
 				"orderLabel": "Hour (Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -955,7 +955,7 @@
 						
 			"Project Quotation Enquiry": {				
 				"handle": "project_quotation_enquiry",
-				"label": "Project Quotation Enquiry                                     MYR30/Job",
+				"label": "Project Quotation Enquiry",
 				"orderLabel": "Job (Project Quotation Enquiry)",
 				"description": "Label standard",
 				"cost": {
@@ -995,7 +995,7 @@
 			
 			"3Hr Package": {
 				"handle": "three_hour",
-				"label": "3-Hour Package                                     MYR360/PKG",
+				"label": "3-Hour Package",
 				"orderLabel": "PACKAGE (3Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -1015,7 +1015,7 @@
 			
 			"6Hr Package": {
 				"handle": "six_hour",
-				"label": "6-Hour Package                                     MYR700/PKG",
+				"label": "6-Hour Package",
 				"orderLabel": "PACKAGE (6Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -1035,7 +1035,7 @@
 			
 			"9Hr Package": {
 				"handle": "nine_hour",
-				"label": "9-Hour Package                                     MYR1000/PKG",
+				"label": "9-Hour Package",
 				"orderLabel": "PACKAGE (9Hr Package)",
 				"description": "Label standard",
 				"cost": {
