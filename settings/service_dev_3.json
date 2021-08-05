@@ -770,7 +770,7 @@
 			
 	"aircon": {
 		"name": "Aircon Works",
-		"lastSlot": "14:30",
+		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "40",
