@@ -313,8 +313,8 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Standard Condo",
-				"displayLabel": "Festive Clean Std Condo",
+				"label": "Festive Clean Condo",
+				"displayLabel": "Festive Clean Condo",
 				"orderLabel": "Hours (Festive Clean Std Condo)",
 				"description": "Label standard",
 				"cost": {
@@ -452,9 +452,9 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Standard Condo",
-				"displayLabel": "Move Clean Standard Condo",
-				"orderLabel": "Hours (Move Clean Standard Condo)",
+				"label": "Move Clean Condo",
+				"displayLabel": "Move Clean Condo",
+				"orderLabel": "Hours (Move Clean Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
