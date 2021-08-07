@@ -3046,7 +3046,7 @@
 				"orderLabel": "Trip (Transport)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "20",
 					"MYR": "40",
 					"CNY": "0"
 				},
@@ -3066,8 +3066,8 @@
 				"orderLabel": "Trip (Door / Window Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
-					"MYR": "40",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3087,7 +3087,7 @@
 				"orderLabel": "Hour (Door Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "60",
 					"MYR": "40",
 					"CNY": "0"
 				},
@@ -3107,7 +3107,7 @@
 				"orderLabel": "Hour (Window Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "60",
 					"MYR": "120",
 					"CNY": "0"
 				},
@@ -3128,7 +3128,7 @@
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "70",
+					"SGD": "80",
 					"MYR": "100",
 					"CNY": "0"
 				},
