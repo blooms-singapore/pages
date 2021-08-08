@@ -309,7 +309,6 @@
 				}
 			},
 			
-			
 			"Sanitize Clean 5000 ft2": {
 				"handle": "cleaning_sanitize_5000ft2",
 				"label": "Sanitize Clean 4,001 to 5,000 ft2",
@@ -357,7 +356,7 @@
 			},
 			
 			 "Sanitize Clean Projects Survey": {
-				"handle": "cleaning_sanitize_projects",
+				"handle": "cleaning_sanitize_projects_survey",
 				"label": "Sanitize Clean Factories & Projects Survey                                                Free",
 				"displayLabel": "Sanitize Clean Factories & Projects Survey",
 				"orderLabel": "Job (Sanitize Clean Factories & Projects Survey)",
