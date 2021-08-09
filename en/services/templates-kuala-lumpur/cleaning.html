@@ -7,62 +7,72 @@ layout: service
 <div class="gap">
 <h4 class="service-title">SERVICE LOCATIONS</h4>
 <br>
-  <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/kl_v2.png">
-</div>
+  <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/jb.png"> <!--border radius 15px, colour fuchsia pink-->
 </div>
 <br>
-<br>
+
+<div class="pricing">
+<table style="width:100%">
+<tr>
+  <th><a class="btn"  href="/assets/img/news/cleaning_ladder_package.png"><b>Sanitize Specifications</b><br>Download Brochure</a></th>
+</tr>
+ </table>
+</div>
+</div>
+<p>
   
 <div class="pricing">
-  <table>    
-    <!--Cleaning Packages Prices temporarily closed
-      <thead>
-      <tr>
-        <th><b>CLEANING PACKAGES</b><br>Scroll below<br>for FAQs</th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td>Ladder Package</td>
-         <td>${params.cleaning_ladder_package}/Package</td> 
-      </tr>
-      
-      <tr>
-        <td>Vacuum Package</td>
-        <td>${params.cleaning_vacuum_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.
-      </tr>
-      
-      <tr>
-        <td>Top Up Package</td>
-        <td>${params.cleaning_top_up_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.
-      </tr>
-      <tbody> -->
+  <table>
     
     <!--Sanitize Cleaning-->
     <thead>
       <tr>
-        <th><b>SANITIZE CLEAN</b><br>Coming Soon</th>
-        <th><b>Pricing (${params.currency})</b></th>
+        <th><b>SANITIZE CLEAN<br>2 to 3 Crews</th>
+        <th><b>Pricing (${params.currency})<br>Include tools &<br>Antimicrobial Shield</b></th>
       </tr>
     </thead>
     <tbody>
        <tr>
-         <td>Residential Houses</td>
-         <td>Coming Soon</td> 
+         <td><b>Residential, Office &<br>Commercial Properties<br><br>< 1,000 ft<sup>2</sup></b><br>Within 1 hour</td>
+         <td>${params.cleaning_sanitize_1000ft2}/Unit</td> 
       </tr>
       
-      <tr>
-        <td>Commercial Shops<br> & Offices</td>
-        <td>Coming Soon</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+       <tr>
+         <td><b>1,001 to 2,000 ft<sup>2</sup></b><br>Within 1.5 Hours</td>
+         <td>${params.cleaning_sanitize_2000ft2}/Unit</td> 
       </tr>
-      
+
       <tr>
-        <td>Factories</td>
-        <td>Coming Soon</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+        <td><b>2,001 to 3,000 ft<sup>2</sup></b><br>Within 2 Hours</td>
+         <td>${params.cleaning_sanitize_3000ft2}/Unit</td> 
+      </tr>
+
+      <tr>
+        <td><b>3,001 to 4,000 ft<sup>2</sup></b><br>Within 2.5 Hours</td>
+         <td>${params.cleaning_sanitize_4000ft2}/Unit</td> 
+      </tr>
+
+      <tr>
+        <td><b>4,001 to 5,000 ft<sup>2</sup></b><br>Within 2.5 Hours</td>
+         <td>${params.cleaning_sanitize_5000ft2}/Unit</td> 
+      </tr>
+
+      <tr>
+        <td><b>5,001 to 10,000 ft<sup>2</sup></b><br>Within 4 Hours</td>
+         <td>${params.cleaning_sanitize_bungalow}/Unit</td> 
+      </tr>
+
+     <tr>
+       <td><b>Factories & Projects</b><br>Survey</td>
+         <td>${params.cleaning_sanitize_projects_survey}/Job</td> 
+      </tr>
+
+    <tr>
+       <td><b>Factories & Projects</b><br>Confirmation</td>
+       <td>Per Quotation</td> 
       </tr>
       </tbody>
-     
+         
      <!--STANDARD CLEANING-->
      <thead>
       <tr>
@@ -82,7 +92,7 @@ layout: service
         <td>${params.standard_condo}/Hr<br>Min Book 2.5Hrs</td>
       </tr> 
       <tr>
-        <td><b>Landed House/Property</b><br>2 Crews</td>
+        <td><b>Landed Property</b><br>2 Crews</td>
         <td>${params.standard_landed_house}/Hr<br>Min Book 4Hrs</td>
       </tr>
     </tbody>
@@ -105,7 +115,7 @@ layout: service
       </tr>
       <tr>
         <td>
-        <p><b>Landed House/Shop</b><br>2 Crews</p>
+        <p><b>Landed Property</b><br>2 Crews</p>
         <td>${params.festive_big}/Hr<br>Min Book 5Hrs</td>
       </tr>
       </tbody>
@@ -119,7 +129,7 @@ layout: service
     <tbody>
       <tr>
         <td><b>Very Small Condo</b><br>(Studio, 1BR)</td> <!--Reno Very Small Condo-->
-        <td>242.0/Unit<br>4 to 5Hrs</td>
+        <td>220.0/Unit<br>4 to 5Hrs</td>
       </tr>
       
       <tr>
@@ -158,10 +168,33 @@ layout: service
       </tr>
       
       <tr>
-        <td><b>Landed House/Shop</b><br>2 Crews</tp>    <!--Landed House-->
+        <td><b>Landed Property</b><br>2 Crews</tp>    <!--Landed House-->
         <td>${params.move_landed}/Hr<br>Min Book 5Hrs</td>
       </tr>
       
+      </tbody>
+
+ <thead>
+      <tr>
+        <th><b>CLEANING PACKAGES</b><br>Scroll below<br>for FAQs</th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <td>Ladder Package</td>
+         <td>${params.cleaning_ladder_package}/Package</td> 
+      </tr>
+      
+      <tr>
+        <td>Vacuum Package</td>
+        <td>${params.cleaning_vacuum_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+      </tr>
+      
+      <tr>
+        <td>Top Up Package</td>
+        <td>${params.cleaning_top_up_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+      </tr>
       </tbody>
 
     <thead>
@@ -193,7 +226,21 @@ layout: service
 </div>
       
 <div class="divider"></div>
+<div class="gap">
+<div class="service-info">
+<h4 class="service-title">GENERAL CLEANING PACKAGES<br>Ladder, Vacuum & MYR300 Top-Up.</h4>
+<br>
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning-ladder-package.png">
+<br>
+<br>
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning-vacuum-package.png">
+  <br>
+  <br>
+  <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning-top-up-package.png">
+</div>
+</div>
 
+<div class="divider"></div>
 <div class="gap">
 <div class="service-info">
   <h5 class="service-title">Service Info</h5>
@@ -242,7 +289,7 @@ layout: service
     
  <div class="gap">
  <div class="service-info">
- <h4 class="service-title">For away Customers, with Homes in Johor Bahru:</h4>
+ <h5 class="service-title">For Away Customers,<br>with Homes in Johor Bahru</h5>
    <ul>
    <li>Even when you are away, you can enjoy home services in Johor Bahru, and pay by credit card. Add and select the correct Malaysian home address when booking.</li>
      <p>
@@ -272,15 +319,45 @@ layout: service
    <br><br>Alternatively, at TOOL option, indicate you need Blooms to provide. There will be an additional charge of MYR20.
    <p>
      
+ <h4 class="service-title">How many times does Blooms serve if I purchase a Vaccuum Package?</h4>
+  It depends on your house size. If you stay in a Studio apartment (Very Small Condo), Blooms will serve you 16 times (MYR960/MYR60).
+ <p>
+   
+ <h4 class="service-title">Can I still use other discount coupon(s) for my Package deals?</h4>
+   Customers already receive free tools or cash from the Packages. All cleaning bookings will be charged standard prices.
+ <p>
+   
+ <h4 class="service-title">Can I repeatedly purchase the Ladder & Vacuum Packages?</h4>
+   For each type of Package, new or existing customers can only purchase once.
+ <p>
+ <h4 class="service-title">Can I use Packages for non-standard cleaning, like Festive or Renovation clean?</h4>
+   Yes, you can. Your Package is like an "electronic wallet". Whatever type of cleaning service you engage, the respective fee will be deducted from your package worth (MYR 800/960/1200).
+ <p>
+ <h4 class="service-title">I already have my own tools and equipment. Is there another Discount Package?</h4>
+   Yes. Please consider our Top Up Package, where we top up MYR300 for you, to enjoy extra cleaning services.
+ <p>
+   
+ <h4 class="service-title">How do I book a Cleaning Package?</h4>
+  Just 6 simple steps:
+<ul>
+  (1) Tap on "<b>Book Now</b>".<br>
+  (2) Select any of the 3 Packages.<br>
+  (3) Input the cleaning hours for your house type.<br>
+  (4) Schedule Date and Time.<br>
+  (5) Select Credit Card as payment mode.<br>
+  (6) Place Order.
+</ul>
+<p>
+   
 <h4 class="service-title">What does it mean by No-Show event?</h4>
   If customer booked and confirmed the appointment, but is not home on the Service day, without informing Blooms about the cancellation. This will be a No-Show case.
    <br><br>
-   We urge customers to inform about their cancellation as early as possible, so that we can release their reserved timeslot to others who might need it.
+   We urge customers to inform about their cancellation as early as possible, so that we can release their reserved timeslot to others who need it.
  <p>
    
-<h4 class="service-title">How do I cancel a Service?</h4>
-   For Service dates which are <b>more than 3 days</b> into the future, you can cancel via the App, look under the Order Confirmation page.
-   <br><br>If it's <b>urgent cancellation</b>, where your Service date is <b>within the next 3 days</b>, option to cancel in App is removed. Please call our Customer Care to inform. There is no cancellation charge.  
+ <h4 class="service-title">How do I cancel a Service?</h4>
+   For Service dates which are <b>more than 3 days</b> into the future, you can cancel via the App. Use the <b>Cancel</b> button at the bottom of Order Confirmation page.
+   <br><br>If it's <b>urgent cancellation</b>, where your Service date is <b>within the next 3 days</b>, option to cancel in App is removed. Please call our Customer Care to inform. There is no cancellation charge.
   </div>
   </div>
   
