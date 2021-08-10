@@ -1557,8 +1557,8 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Minor Electrical",
-				"orderLabel": "Hour (Minor Electrical)",
+				"label": "Minor Electrical Work",
+				"orderLabel": "Hour (Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -1577,8 +1577,8 @@
 			
 			"Major Electrical": {
 				"handle": "major_electrical",
-				"label": "Major Electrical                                      Per Quotation",
-				"orderLabel": "Project (Site Survey)",
+				"label": "Major Electrical Work                                      Per Quotation",
+				"orderLabel": "Project (Major Electrical Work)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1617,8 +1617,8 @@
 			
 			"Electrical Project": {
 				"handle": "electrical_project",
-				"label": "Electrical Project                                  Per Quotation",
-				"orderLabel": "Job (Electrical Project)",
+				"label": "Electrical Project Confirmation                               Per Quotation",
+				"orderLabel": "Job (Electrical Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
