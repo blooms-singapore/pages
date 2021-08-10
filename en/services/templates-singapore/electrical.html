@@ -28,12 +28,12 @@ layout: service
       </tr>
      
       <tr>
-        <td>Minor Electrical</td>
+        <td>Minor Electrical Work</td>
         <td>${params.minor_electrical}/Hr</td>
       </tr>
               
       <tr>
-        <td>Major Electrical</td>
+        <td>Major Electrical Work</td>
         <td>Per Quotation</td>
       </tr>
  
@@ -68,7 +68,33 @@ layout: service
     <tbody>
       <tr>
        <td>Emergency Booking<br><br><b>Scroll below for<br>booking process</b></td>
-       <td>${params.emergency}<br>Per Trip</td>
+       <td>20.0/Trip</td>
+      </tr>
+     
+   <thead>
+      <tr>
+        <th><b>Other Charges</b></th>
+       <th><b>${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>Transport Charge<br>Fix Fee</td>
+       <td>${params.transport_charge}/Trip</td>
+      </tr>
+    
+     <tr>
+       <td>Service Extension<br>Minor Electrical Works</td>
+       <td>Charge in<br>30-min Blocks</td>
+      </tr>
+      <tr>
+       <td>Picking Fee<br>Optional</td>
+       <td>20.0</td>
+      </tr>
+     
+      <tr>
+       <td>Public Holiday<br>Surcharge</td>
+       <td>30.0</td>
       </tr>     
      </tbody>
   </table>
@@ -114,6 +140,11 @@ layout: service
  <div class="gap">
  <div class="service-info">
  <h5 class="service-title">FAQs</h5>
+  
+<h4 class="service-title">Why is Transport Charge a pre-selected option?</h4>
+ Transport Charge is a fix fee incurred when you Order any Electrical Services.
+<p>
+ 
 <h4 class="service-title">How do I cancel a Service?</h4>
    For Service dates which are <b>more than 3 days</b> into the future, you can cancel via the App. Use the <b>Cancel</b> button at the bottom of Order Confirmation page.
   <br><br>If it's <b>urgent cancellation</b>, where your Service date is <b>within the next 3 days</b>, option to cancel in App is removed. Please call our Customer Care to inform. There is no cancellation charge.
