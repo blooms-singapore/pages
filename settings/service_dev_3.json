@@ -1515,6 +1515,26 @@
 		"hasNote": 1,
 		"options": {
 			
+			"Transport": {
+				"handle": "electrical_transport_charge",
+				"label": "Transport",
+				"orderLabel": "Trip (Transport)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			 },
+			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
 				"label": "Electrical Survey",
