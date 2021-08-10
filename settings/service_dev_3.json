@@ -803,6 +803,7 @@
 		"disableLocations": ["Seremban"],
 		"hasNote": 1,
 		"options": {
+			
 			"Std 1st": {
 				"handle": "std_first",
 				"label": "Standard Install 1st Hour",
@@ -2500,7 +2501,7 @@
 	"painting": {
 		"name": "Paint & Partition",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Kuala Lumpur", "Singapore"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
