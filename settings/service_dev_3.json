@@ -3358,7 +3358,7 @@
 				"orderLabel": "Hour (Door Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "90",
 					"MYR": "40",
 					"CNY": "0"
 				},
@@ -3372,13 +3372,14 @@
 				}
 			 },			
 			
+						
 			"Window Work": {
 				"handle": "window_work",
 				"label": "Window Work",
 				"orderLabel": "Hour (Window Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "90",
 					"MYR": "120",
 					"CNY": "0"
 				},
