@@ -1881,7 +1881,7 @@
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "50",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -1901,7 +1901,7 @@
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -1937,8 +1937,8 @@
 			
 			"Non-Standard Plumbing Project": {
 				"handle": "plumbing_project",
-				"label": "Non-Standard Plumbing PROJECT                                       Per Quotation",
-				"orderLabel": "Job (Non-Standard Plumbing PROJECT)",
+				"label": "Non-Standard Plumbing Project Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Non-Standard Plumbing Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1957,11 +1957,11 @@
 			
 			"Tank Issue Survey": {
 				"handle": "plumbing_tank_issue_survey",
-				"label": "Tank Issue SURVEY",
+				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
 				"orderLabel": "Trip (Tank Issue SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -1977,11 +1977,11 @@
 			
 			"Tank Wash 1st Hr": {
 				"handle": "tank_wash_first_hour",
-				"label": "Tank WASH 1st Hour",
+				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
 				"orderLabel": "Hour (Tank WASH 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "0",
 					"MYR": "120",
 					"CNY": "0"
 				},
@@ -1997,11 +1997,11 @@
 			
 			"Tank Wash 2nd Hr": {
 				"handle": "tank_wash_second_hour",
-				"label": "Tank WASH 2nd Hour or more",
+				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
 				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "0",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -2017,11 +2017,11 @@
 			
 			"Tank Repair 1st Hr": {
 				"handle": "tank_repair_first_hour",
-				"label": "Tank REPAIR 1st Hour",
+				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
 				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "0",
 					"MYR": "100",
 					"CNY": "0"
 				},
@@ -2037,11 +2037,11 @@
 			
 			"Tank Repair 2nd Hr": {
 				"handle": "tank_repair_second_hour",
-				"label": "Tank REPAIR 2nd Hour or more",
+				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
 				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "0",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -2057,7 +2057,7 @@
 						
 			"Tank Project": {
 				"handle": "tank_project",
-				"label": "Tank Project                                             Per Quotation",
+				"label": "Tank Project                                             Unavailable in SG",
 				"orderLabel": "Job (Tank Project)",
 				"description": "Label standard",
 				"cost": {
@@ -2102,7 +2102,7 @@
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "35",
 					"MYR": "60",
 					"CNY": "0"
 				},
