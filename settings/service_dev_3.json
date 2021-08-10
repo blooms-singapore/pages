@@ -1865,7 +1865,7 @@
 	
 	"plumbing": {
 		"name": "Plumbing",
-		"lastSlot": "15:00",
+		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "10",
