@@ -949,8 +949,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condominium/Apt",
+						"orderLabel": "Condo/Apt Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1268,8 +1268,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condominium/Apt",
+						"orderLabel": "Condo/Apt Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
