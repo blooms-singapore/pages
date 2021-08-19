@@ -1850,6 +1850,28 @@
 					"base": 1,
 					"multiplier": 1
 				}
+			 },
+			
+			
+			"Disposal by Lorry": {
+				"handle": "landscape-disposal-by-lorry",
+				"label": "Disposal by Lorry                                          MYR130/Job",
+				"orderLabel": "Job (Disposal by Lorry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 2,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
 			 }
 		},
 		
