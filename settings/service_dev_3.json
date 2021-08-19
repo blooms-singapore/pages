@@ -232,7 +232,7 @@
 					"label": "Unit",
 					"min": 0,
 					"max": 1,
-					"default": 0,
+					"default": 1,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
@@ -248,7 +248,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "398",
+					"MYR": "368",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -271,7 +271,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "598",
+					"MYR": "568",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -294,7 +294,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "798",
+					"MYR": "768",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -317,7 +317,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "998",
+					"MYR": "968",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -340,7 +340,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "1198",
+					"MYR": "1168",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -363,7 +363,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "1398",
+					"MYR": "1368",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -386,7 +386,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "0",
+					"MYR": "-30",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -409,7 +409,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "0",
+					"MYR": "-30",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -711,7 +711,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "800",
+					"MYR": "770",
 					"CNY": "10"
 				},
 				"quantity": {
@@ -733,7 +733,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "960",
+					"MYR": "930",
 					"CNY": "15"
 				},
 				"quantity": {
@@ -756,7 +756,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "900",
+					"MYR": "870",
 					"CNY": "15"
 				},
 				"quantity": {
