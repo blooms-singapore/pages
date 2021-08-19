@@ -809,6 +809,44 @@
 							"CNY": "10"
 						}
 					}
+				},
+				
+				
+				"A333": {
+				"label": "A333",
+				"description": "Label standard",
+				"values": {
+														
+					"Customer tools": {
+						"label": "A333 Anti-Microbial Shield",
+						"orderLabel": "Customer provides",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					
+					"Blooms tools": {
+						"label": "Blooms provides (+ MYR20)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
 				}
 			}
 		}
