@@ -230,7 +230,7 @@
 				},
 				"quantity": {
 					"label": "Unit",
-					"min": 0,
+					"min": 1,
 					"max": 1,
 					"default": 1,
 					"increment": 1,
