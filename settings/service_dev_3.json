@@ -1049,27 +1049,7 @@
 				}
 			},
 			
-			"AC Survey": {				
-				"handle": "aircon_survey",
-				"label": "Aircon Survey                                       Free",
-				"orderLabel": "Job (Aircon Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-						
+									
 			"Small Cassette CW 2-3HP": {
 				"handle": "malaysia_small_cassette_cw",
 				"label": "Small Cassette Chemical Overhaul : 2 to 3HP",
@@ -1121,6 +1101,25 @@
 				}
 			},
 			
+			"AC Survey": {				
+				"handle": "aircon_survey",
+				"label": "Aircon Survey                                       Free",
+				"orderLabel": "Job (Aircon Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
 			
 			"AC Water Leak": {
 				"handle": "aircon_water_leak",
