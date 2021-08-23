@@ -28,32 +28,11 @@ layout: service
 <p>
 <div class="pricing">
   <table>
-      <thead>
-      <tr>
-        <th><b>(A) Enquiry & Aircon Fault</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-      <td>Aircon Survey</td>
-      <td>Free</td>
-      </tr>
-      
-      <tr>
-        <td>Water Leak<br><br>More info @<br><b>After Service Commitment</b></td>
-      <td>${params.aircon_water_leak}/Hr</td>
-      </tr>
-      
-       <tr>
-        <td>Aircon<br>Trouble-Shoot</td>
-        <td>${params.aircon_trouble_shoot}/Job<br>Waive upon<br>award of Job</td>
-      </tr>      
-
+    
+    <!--Standard Wash-->
     <thead>
       <tr>
-        <th><b>(B) 1-2HP Wall-Mounted<br>Standard Wash</b></th>
+        <th><b>(A) Wall-Mounted<br>Standard Wash</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -90,30 +69,31 @@ layout: service
       </tr>
      </tbody>
     
+    <!--Chemical Overhaul-->
     <thead>
       <tr>
-        <th><b>(C) 1-2HP Wall-Mounted<br>Chemical Overhaul</b></th>
+        <th><b>(B) Wall-Mounted<br>Chemical Overhaul</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Wash 1 unit</td>
+        <td>Overhaul 1 unit</td>
         <td>${params.malaysia_cw}
           <p>Book 1Hr</td>
       </tr>
       <tr>
-        <td>Wash 2 units</td>
+        <td>Overhaul 2 units</td>
         <td>${(params.malaysia_cw * 2).toFixed(1)}
         <p>Book 2Hrs</td>
       </tr>
       <tr>
-        <td>Wash 3 units</td>
+        <td>Overhaul 3 units</td>
         <td>${(params.malaysia_cw * 3).toFixed(1)}
         <p>Book 3Hrs</td>
       </tr>
       <tr>
-        <td>Wash 4 units</td>
+        <td>Overhaul 4 units</td>
         <td>${(params.malaysia_cw * 4).toFixed(1)} <!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
         <p>Book 4Hrs</td>
       </tr>
@@ -123,9 +103,11 @@ layout: service
         <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
     </tbody>
+    
+    <!--Cassette-->
     <thead>
       <tr>
-        <th><b>(D) Cassette Type</b></th>
+        <th><b>(C) Cassette Type</b></th>
         <th><b>Pricing (${params.currency})<b></th>
       </tr>
     </thead>
@@ -152,7 +134,32 @@ layout: service
         <td>Coolant Gas Top-Up
         <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
+     
+     <!--Aircon Fault-->
+     <thead>
+      <tr>
+        <th><b>(D) Enquiry & Aircon Fault</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+      <td>Aircon Survey</td>
+      <td>Free</td>
+      </tr>
+      
+      <tr>
+        <td>Water Leak<br><br>More info @<br><b>After Service Commitment</b></td>
+      <td>${params.aircon_water_leak}/Hr</td>
+      </tr>
+      
+       <tr>
+        <td>Aircon<br>Trouble-Shoot</td>
+        <td>${params.aircon_trouble_shoot}/Job<br>Waive upon<br>award of Job</td>
+      </tr>      
             
+    <!--AC Project-->
     <thead>
       <tr>
         <th><b>(E) Project</b></th>
