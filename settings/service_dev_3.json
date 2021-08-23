@@ -3472,8 +3472,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
