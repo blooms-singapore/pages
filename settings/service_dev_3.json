@@ -949,7 +949,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/Apt",
+						"label": "Condominium/HDB",
 						"orderLabel": "Condo/HDB Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -1011,7 +1011,7 @@
 			
 			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
-				"label": "Wall Mount Standard Wash - Studio, 1BR Apt                                           MYR70/Job",
+				"label": "Wall Mount Standard Wash - Studio, 1BR Apt",
 				"orderLabel": "Job (Wall Mount Standard Wash - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
@@ -1123,7 +1123,7 @@
 			
 			"AC Water Leak": {
 				"handle": "aircon_water_leak",
-				"label": "Water Leak - min 1Hr booking                                 MYR120/Hr",
+				"label": "Water Leak - min 1Hr booking",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
 				"cost": {
@@ -1143,7 +1143,7 @@
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_trouble_shoot",
-				"label": "Aircon Trouble-Shoot                                         MYR60/Job",
+				"label": "Aircon Trouble-Shoot",
 				"orderLabel": "Job (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -1269,8 +1269,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/Apt",
-						"orderLabel": "Condo/Apt Surcharge",
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1691,8 +1691,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2169,8 +2169,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
