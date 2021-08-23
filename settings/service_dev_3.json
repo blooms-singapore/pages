@@ -950,7 +950,7 @@
 				"values": {
 					"condo": {
 						"label": "Condominium/Apt",
-						"orderLabel": "Condo/Apt Surcharge",
+						"orderLabel": "Condo/HDB Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -991,7 +991,7 @@
 										
 			"Standard Wash": {
 				"handle": "malaysia_sw",
-				"label": "Wall Mount Standard Wash                                       MYR120/Hr",
+				"label": "Wall Mount Standard Wash                                       Minimum Booking 1Hr",
 				"orderLabel": "Hour (Standard Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -1001,7 +1001,7 @@
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 60,
+					"min": 0,
 					"max": 0,
 					"increment": 30,
 					"default": 0,
