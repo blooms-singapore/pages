@@ -991,7 +991,7 @@
 										
 			"Standard Wash": {
 				"handle": "malaysia_sw",
-				"label": "Standard Wash - min 1Hr booking                                      MYR120/Hr",
+				"label": "Wall Mount Standard Wash                                       MYR120/Hr",
 				"orderLabel": "Hour (Standard Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -1011,8 +1011,8 @@
 			
 			"Standard Wash Studio & 1BR": {
 				"handle": "min_order",
-				"label": "Standard Wash - Very Small Studio, 1BR Apt                                           MYR70/Job",
-				"orderLabel": "Job (Standard Wash - Very SmaLL Studio, 1BR Apt)",
+				"label": "Wall Mount Standard Wash - Studio, 1BR Apt                                           MYR70/Job",
+				"orderLabel": "Job (Wall Mount Standard Wash - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -1031,8 +1031,8 @@
 			
 			"Chemical Overhaul": {
 				"handle": "malaysia_cw",
-				"label": "Chemical Overhaul",
-				"orderLabel": "Hour (Chemical Overhaul)",
+				"label": "Wall Mount Chemical Overhaul",
+				"orderLabel": "Hour (Wall Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
