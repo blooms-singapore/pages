@@ -19,32 +19,11 @@ layout: service
 <p>
 <div class="pricing">
   <table>
-      <thead>
-      <tr>
-        <th><b>(A) Enquiry & Aircon Fault</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-      <td>Aircon Survey</td>
-      <td>Free</td>
-      </tr>
-      
-      <tr>
-        <td>Water Leak<br><br>More info @<br><b>After Service Commitment</b></td>
-      <td>${params.aircon_water_leak}/Hr</td>
-      </tr>
-      
-       <tr>
-        <td>Aircon<br>Trouble-Shoot</td>
-        <td>${params.aircon_trouble_shoot}/Job<br>Waive upon<br>award of Job</td>
-      </tr>      
-
+    
+    <!--Standard Wash-->
     <thead>
       <tr>
-        <th><b>(B) 1-2HP Wall-Mounted<br>Standard Wash</b></th>
+        <th><b>(A) Wall-Mounted<br>Standard Wash</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -52,7 +31,7 @@ layout: service
       
       <tr>
         <td><b>For Standard Condo<br>& Landed House</b>
-        <br><br>Wash up to 3 units</td>
+        <br><br>Wash 2 to 3 units</td>
         <td>${params.malaysia_sw}
         <p>Book 1.0Hr</td>
       </tr>
@@ -75,36 +54,37 @@ layout: service
       </tr>
       
        <tr>
-        <td><b>For Studio, 1BR<br>Apartment Only</b>
-        <br><br>1 or 2 units +<br>Clear Drain Pipe</td>
+        <td><b>Very Small Apartment<br> Studio or 1BR Only</b>
+        <br><br>1 unit + <br>Clear Drain Pipe</td>
         <td>${params.min_order}<br>Book 1 Job</td>
       </tr>
      </tbody>
     
+    <!--Chemical Overhaul-->
     <thead>
       <tr>
-        <th><b>(C) 1-2HP Wall-Mounted<br>Chemical Overhaul</b></th>
+        <th><b>(B) Wall-Mounted<br>Chemical Overhaul</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Wash 1 unit</td>
+        <td>Overhaul 1 unit</td>
         <td>${params.malaysia_cw}
-          <p> Book 1Hr</td>
+          <p>Book 1Hr</td>
       </tr>
       <tr>
-        <td>Wash 2 units</td>
+        <td>Overhaul 2 units</td>
         <td>${(params.malaysia_cw * 2).toFixed(1)}
         <p>Book 2Hrs</td>
       </tr>
       <tr>
-        <td>Wash 3 units</td>
+        <td>Overhaul 3 units</td>
         <td>${(params.malaysia_cw * 3).toFixed(1)}
         <p>Book 3Hrs</td>
       </tr>
       <tr>
-        <td>Wash 4 units</td>
+        <td>Overhaul 4 units</td>
         <td>${(params.malaysia_cw * 4).toFixed(1)} <!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
         <p>Book 4Hrs</td>
       </tr>
@@ -114,9 +94,11 @@ layout: service
         <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
     </tbody>
+    
+    <!--Cassette-->
     <thead>
       <tr>
-        <th><b>(D) Cassette Type</b></th>
+        <th><b>(C) Cassette Type</b></th>
         <th><b>Pricing (${params.currency})<b></th>
       </tr>
     </thead>
@@ -143,7 +125,32 @@ layout: service
         <td>Coolant Gas Top-Up
         <td>80.0 to 100.0/unit<br>Scroll below<br>for more info</td>
       </tr>
+     
+     <!--Aircon Fault-->
+     <thead>
+      <tr>
+        <th><b>(D) Enquiry & Aircon Fault</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+      <td>Aircon Survey</td>
+      <td>Free</td>
+      </tr>
+      
+      <tr>
+        <td>Water Leak<br><br>More info @<br><b>After Service Commitment</b></td>
+      <td>${params.aircon_water_leak}/Hr</td>
+      </tr>
+      
+       <tr>
+        <td>Aircon<br>Trouble-Shoot</td>
+        <td>${params.aircon_trouble_shoot}/Job<br>Waive upon<br>award of Job</td>
+      </tr>      
             
+    <!--AC Project-->
     <thead>
       <tr>
         <th><b>(E) Project</b></th>
@@ -161,10 +168,33 @@ layout: service
       <td>${params.ac_project}</td>
       </tr>
      
-    <!-- Miscellaneous Charges-->
+      <!--AC Packages-->
+      <thead>
+      <tr>
+        <th><b>(F) Standard Wash Packages</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>3-Hour</td>
+      <td>${params.three_hour}/Package</td>
+      </tr>
+
+      <tr>
+      <td>6-Hour</td>
+      <td>${params.six_hour}/Package</td>
+      </tr>
+      
+      <tr>
+      <td>9-Hour</td>
+      <td>${params.nine_hour}/Package</td>
+      </tr>
+    
+     <!-- Miscellaneous Charges-->
      <thead>
       <tr>
-        <th><b>(F) Misc Charges</b></th>
+        <th><b>(G) Misc Charges</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -184,6 +214,7 @@ layout: service
     Prices subject to change without prior notice
   </div>
 </div>
+
 
 <div class="divider"></div>
 <div class="gap">
