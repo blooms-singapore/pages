@@ -979,9 +979,9 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "40",
+			"SGD": "57",
 			"MYR": "52",
 			"CNY": "230"
 		},
@@ -995,7 +995,7 @@
 				"orderLabel": "Hour (Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "60",
 					"MYR": "120",
 					"CNY": "260"
 				},
@@ -1015,7 +1015,7 @@
 				"orderLabel": "Job (Wall-Mount Standard Wash - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "40",
 					"MYR": "60",
 					"CNY": "260"
 				},
@@ -1035,7 +1035,7 @@
 				"orderLabel": "Hour (Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "0",
 					"MYR": "120",
 					"CNY": "300"
 				},
@@ -1056,12 +1056,12 @@
 				"orderLabel": "Hour (Small Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "65",
+					"SGD": "0",
 					"MYR": "200",
 					"CNY": "310"
 				},
 				"cost_max": {
-					"SGD": "100",
+					"SGD": "0",
 					"MYR": "300",
 					"CNY": "310"
 				},
@@ -1081,13 +1081,13 @@
 				"orderLabel": "Hour (Big Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "98",
+					"SGD": "0",
 					"MYR": "260",
 					"CNY": "365"
 				},
 				
 				"cost_max": {
-					"SGD": "75",
+					"SGD": "0",
 					"MYR": "390",
 					"CNY": "310"
 				},
@@ -1127,7 +1127,7 @@
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "0",
 					"MYR": "120",
 					"CNY": "260"
 				},
@@ -1147,7 +1147,7 @@
 				"orderLabel": "Job (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "0",
 					"MYR": "60",
 					"CNY": "260"
 				},
