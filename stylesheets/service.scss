@@ -68,7 +68,10 @@
       Padding: 10px;
     }
     
-    input[type='checkbox'] { display: none; }
+    
+    
+    
+input[type='checkbox'] { display: none; }
     
 .wrap-collabsible { margin: 1.2rem 0; } 
     
@@ -77,14 +80,14 @@
   font-weight: bold; 
   font-family: Helvetica, sans-serif; 
   font-size: 1.2rem; 
-  text-transform: none; 
+  text-transform: uppercase; 
   text-align: left; 
   padding: 1rem; 
-  color: #000000; 
-  background: none; 
+  color: #DDD; 
+  background: #0069ff; 
   cursor: pointer; 
   border-radius: 7px; 
-  transition: all 0.35s ease-out; } 
+  transition: all 0.25s ease-out; } 
     
   .lbl-toggle:hover { color: #FFF; } 
     
