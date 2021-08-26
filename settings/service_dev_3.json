@@ -112,8 +112,8 @@
 			
 			"Project": {
 				"handle": "project",
-				"label": "Project                                            Per Quotation",
-				"orderLabel": "Job (Project)",
+				"label": "Project Confirmation                                       Per Quotation",
+				"orderLabel": "Job (Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -924,8 +924,8 @@
 			},
 			"Project": {
 				"handle": "project",
-				"label": "Installation Project                                       Per Quotation",
-				"orderLabel": "Job (Installation Project)",
+				"label": "Installation Project Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Installation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1184,8 +1184,8 @@
 			
 			"AC Project": {
 				"handle": "ac_project",
-				"label": "Aircon Project                                     Per Quotation",
-				"orderLabel": "Job (Aircon Project)",
+				"label": "Aircon Project Confirmation                                   Per Quotation",
+				"orderLabel": "Job (Aircon Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1312,7 +1312,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"House DiagnosisLanded House": {
+			"House Diagnosis Landed House": {
 				"handle": "house_diagnosis_standard_house",
 				"label": "Standard Landed House",
 				"orderLabel": "Project (Standard Landed House)",
@@ -1476,8 +1476,8 @@
 			},			
 			"Project": {
 				"handle": "projects",
-				"label": "Renovation Projects                                            Per Quotation",
-				"orderLabel": "Job (Renovation Projects)",
+				"label": "Renovation Project Confirmation                                         Per Quotation",
+				"orderLabel": "Job (Renovation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1834,8 +1834,8 @@
 	
 			"Project": {
 				"handle": "project",
-				"label": "Project                                     Per Quotation",
-				"orderLabel": "Job (Project)",
+				"label": "Landscape Project Confirmation                                    Per Quotation",
+				"orderLabel": "Job (Landscape Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2103,8 +2103,8 @@
 						
 			"Tank Project": {
 				"handle": "tank_project",
-				"label": "Tank Project                                             Unavailable in SG",
-				"orderLabel": "Job (Tank Project)",
+				"label": "Tank Project Confirmation                                           Unavailable in SG",
+				"orderLabel": "Job (Tank Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2634,8 +2634,8 @@
 			},			
 		  	"Paint Project": {
 		  		"handle": "paint_project",
-				"label": "Paint Project                                              Per Quotation",
-				"description": "Paint Project",
+				"label": "Paint Project Confirmation                                            Per Quotation",
+				"description": "Paint Project Confirmation",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
@@ -2724,8 +2724,8 @@
 			
 			"Waterproof Project": {
 				"handle": "waterproof_project",
-				"label": "Waterproof Project                                 Per Quotation",
-				"orderLabel": "Job (Waterproof Project)",
+				"label": "Waterproof Project Confirmation                                Per Quotation",
+				"orderLabel": "Job (Waterproof Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2889,8 +2889,8 @@
 			
 			"Project": {
 				"handle": "others_project",
-				"label": "Project Order                                         Per Quotation",
-				"orderLabel" : "Job (Project Order)",
+				"label": "Project Order Confirmation                                       Per Quotation",
+				"orderLabel" : "Job (Project Order Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
