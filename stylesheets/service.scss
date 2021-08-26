@@ -74,12 +74,13 @@
 input[type='checkbox'] { display: none; }
     
 .wrap-collapsible { margin: 0.8rem 0; } 
-    
+ 
+ /*Question Header*/
 .lbl-toggle { 
   display: block; 
   font-weight: bold; 
   font-family: Helvetica, sans-serif; 
-  font-size: 0.9rem; 
+  font-size: 1.0rem; 
   text-transform: none; 
   text-align: left; 
   padding: 1rem; 
