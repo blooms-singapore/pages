@@ -62,18 +62,18 @@
       background-color:#999;
       border-radius:20px;
       text-align:center;
-      width:auto;
+      width:50%;
       font-family: Helvetica, sans-serif;
       border:2px solid #999;
       Padding: 10px;
     }
- 
-   .gap:last-child {
-   .service-info {
-       padding-bottom:15px
-     }
-     
-   .service-info{
+        
+      .gap:last-child{
+      .service-info{
+        padding-bottom: 15px;
+      }
+    }
+    .service-info{
       margin-bottom: 30px;
       // padding-bottom: 15px;
       // border: 1px solid #eee;
@@ -83,4 +83,4 @@
       }
     }
   }
- }
+}
