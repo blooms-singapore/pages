@@ -75,16 +75,16 @@
 .lbl-toggle { 
   display: block; 
   font-weight: bold; 
-  font-family: monospace; 
+  font-family: Helvetica, sans-serif; 
   font-size: 1.2rem; 
   text-transform: none; 
-  text-align: center; 
+  text-align: left; 
   padding: 1rem; 
   color: #DDD; 
-  background: #fd8f82; 
+  background: #ffffff; 
   cursor: pointer; 
   border-radius: 7px; 
-  transition: all 0.25s ease-out; } 
+  transition: all 0.35s ease-out; } 
     
   .lbl-toggle:hover { color: #FFF; } 
     
