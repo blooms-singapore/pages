@@ -126,7 +126,11 @@ input[type='checkbox'] { display: none; }
     .collapsible-content p { margin-bottom: 0; }
     
 
-    
+   .gap:last-child {
+   .service-info {
+       padding-bottom:15px
+     }
+     
    .service-info{
       margin-bottom: 30px;
       // padding-bottom: 15px;
