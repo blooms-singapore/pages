@@ -109,7 +109,7 @@ input[type='checkbox'] { display: none; }
     .collapsible-content { 
      max-height: 0px;
      overflow: hidden;
-     transition: max-height .25s ease-in-out; } 
+     transition: max-height .35s ease-in-out; } 
     
    .toggle:checked + 
    .lbl-toggle + 
@@ -128,7 +128,7 @@ input[type='checkbox'] { display: none; }
       border-radius:7px;
       /*border-bottom-left-radius: 7px; 
       border-bottom-right-radius: 7px;*/
-      padding: .5rem 1rem; }
+      padding: 1rem 1rem; }
     
     .collapsible-content p { margin-bottom: 0; }
 
