@@ -120,7 +120,8 @@ input[type='checkbox'] { display: none; }
     
     .collapsible-content 
     .content-inner { 
-      background: rgba(0, 105, 255, .2);
+      /*background: rgba(0, 105, 255, .2);*/
+      background:#fd8f82;
       border-bottom: 1px solid rgba(0, 105, 255, .45);
       border-radius:2px;
       width:90%;
