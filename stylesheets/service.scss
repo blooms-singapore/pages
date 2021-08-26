@@ -83,13 +83,13 @@ input[type='checkbox'] { display: none; }
   text-transform: none; 
   text-align: left; 
   padding: 1rem; 
-  color: #000000; 
-  background: #999; 
+  color: #fd8f82; 
+  background: none; 
   cursor: pointer; 
   border-radius: 7px; 
   transition: all 0.35s ease-out; } 
     
-  .lbl-toggle:hover { color: #fd8f82; } 
+  .lbl-toggle:hover { color: #000000; } 
     
   .lbl-toggle::before {
     content: ' '; 
