@@ -80,11 +80,11 @@ input[type='checkbox'] { display: none; }
   font-weight: bold; 
   font-family: Helvetica, sans-serif; 
   font-size: 1.2rem; 
-  text-transform: uppercase; 
+  text-transform: none; 
   text-align: left; 
   padding: 1rem; 
   color: #DDD; 
-  background: #0069ff; 
+  background: #999; 
   cursor: pointer; 
   border-radius: 7px; 
   transition: all 0.25s ease-out; } 
