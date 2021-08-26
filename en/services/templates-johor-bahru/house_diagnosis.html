@@ -84,23 +84,51 @@ layout: service
 </div>
 </div>
 
-<!--Accodia Collapse Test -->
-<div class="tabs">
-   <div class="tab">
-      <input type="checkbox" id="chck1">
-      <label class="tab-label" for="chck1">This is a test statement.</label>
-      <div class="tab-content">
-         We are going to improve the home service industry significantly.
-      </div>
-   </div>
-   <div class="tab">
-      <input type="checkbox" id="chck2">
-      <label class="tab-label" for="chck2">Why use Blooms to book Home Services?</label>
-      <div class="tab-content">
-         Value for money, Save time and have instant confirmation of appointment.
-      </div>
-   </div>
+<!--Content Collapse Test -->
+<body>
+
+<h2>Collapsibles</h2>
+
+<p>A Collapsible:</p>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Statement 1.</p>
 </div>
+
+<p>Collapsible Set:</p>
+<button type="button" class="collapsible">Open Section 1</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+
 
 <div class="divider"></div>
 <div class="gap">
