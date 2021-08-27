@@ -1620,7 +1620,7 @@
 			},
 			
 			"Commercial Survey": {
-				"handle": "commercial_survey",
+				"handle": "electrical_commercial_survey",
 				"label": "Commercial Survey",
 				"orderLabel": "Trip (Commercial Survey)",
 				"description": "Label standard",
