@@ -995,7 +995,7 @@
 				"orderLabel": "Hour (Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "80",
 					"MYR": "120",
 					"CNY": "260"
 				},
@@ -1015,7 +1015,7 @@
 				"orderLabel": "Job (Wall-Mount Standard Wash - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "45",
 					"MYR": "60",
 					"CNY": "260"
 				},
@@ -1035,7 +1035,7 @@
 				"orderLabel": "Hour (Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "120",
 					"MYR": "120",
 					"CNY": "300"
 				},
