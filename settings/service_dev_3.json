@@ -219,7 +219,7 @@
 			
 			 "A333": {
 				"handle": "basic_antimicrobial_shield",
-				"label": "A333 Basic Antimicrobial Shield                                           MYR30/Unit                                           Only in JB",
+				"label": "A333 Basic Antimicrobial Shield                                           MYR30/Unit",
 				"displayLabel": "A333 Basic Antimicrobial Shield",
 				"orderLabel": "Unit (A333 Basic Antimicrobial Shield)",
 				"description": "Label standard",
@@ -242,7 +242,7 @@
 			
 			 "Sanitxe ClEAN 1000 ft2": {
 				"handle": "cleaning_sanitize_1000ft2",
-				"label": "Sanitize Clean < 1000 ft2                                                    MYR398/Unit",
+				"label": "Sanitize Clean < 1000 ft2                                                    MYR398/Unit                                                  ",
 				"displayLabel": "Sanitize Clean < 1000 ft2",
 				"orderLabel": "Unit (Sanitize Clean < 1000 ft2)",
 				"description": "Label standard",
