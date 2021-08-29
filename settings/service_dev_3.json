@@ -5982,6 +5982,27 @@
 				}
 			},
 			
+			
+		"Home Security Project Confirmation": {
+				"handle": "home_security_project_confirmation",
+				"label": "Home Security Project Confirmation                                        Per Quotation",
+				"orderLabel": "Job (Home Security Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 						
 			"Arm Gate": {
 				"handle": "arm_gate",
