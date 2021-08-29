@@ -3531,12 +3531,12 @@
 			
 			"Waterproof Blooms Tiles - 10ft2": {
 				"handle": "waterproof_blooms_tiles_10ft2",
-				"label": "Waterproof Work - Blooms Supply Tiles - 10 ft2                              MYR15/ft2 (JB)",
+				"label": "Waterproof Work - Blooms Supply Tiles - 10 ft2",
 				"orderLabel": "ft2 (Waterproof Work - Blooms Tiles - 10 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "15",
+					"MYR": "35",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -3551,12 +3551,12 @@
 			
 			"Waterproof Blooms Tiles - 1ft2": {
 				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Blooms Supply Tiles - 1 ft2                                        MYR15/ft2 (JB)",
+				"label": "Waterproof Work - Blooms Supply Tiles - 1 ft2",
 				"orderLabel": "ft2 (Waterproof Work - Blooms' Tiles - 1 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "15",
+					"MYR": "35",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -3572,12 +3572,12 @@
 			
 			"Waterproof Customer Tiles - 10ft2": {
 				"handle": "waterproof_customers_tiles_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - 10 ft2                                         MYR10/ft2 (JB)",
+				"label": "Waterproof Work - Customers Supply Tiles - 10 ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 10 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "10",
+					"MYR": "25",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -3592,12 +3592,12 @@
 			
 			"Waterproof Customers Tiles - 1ft2": {
 				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - 1 ft2                                        MYR10/ft2 (JB)",
+				"label": "Waterproof Work - Customers Supply Tiles - 1 ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 1 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "10",
+					"MYR": "25",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -3614,12 +3614,12 @@
 						
 			"Project Survey": {
 				"handle": "survey",
-				"label": "Survey                                                   Free",
+				"label": "Survey",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "50",
 					"CNY": "50"
 				},
 				"quantity": {
