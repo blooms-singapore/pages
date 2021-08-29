@@ -5963,7 +5963,7 @@
 		"options": {
 			
 			"Home Security Survey": {
-				"handle": "house-security-survey",
+				"handle": "house_security_survey",
 				"label": "House Security Survey",
 				"orderLabel": "Trip (House Security Survey)",
 				"description": "Label standard",
