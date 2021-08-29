@@ -5961,6 +5961,27 @@
 		},
 		"hasNote": 1,
 		"options": {
+			
+			"Home Security Survey": {
+				"handle": "house-security-survey",
+				"label": "House Security Survey",
+				"orderLabel": "Trip (House Security Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 						
 			"Arm Gate": {
 				"handle": "arm_gate",
@@ -5969,7 +5990,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "80",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -5989,7 +6010,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "120",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -6009,7 +6030,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "150",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
