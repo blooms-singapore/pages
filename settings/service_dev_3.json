@@ -5963,9 +5963,9 @@
 		"options": {
 			
 			"Home Security Survey": {
-				"handle": "house-security-survey",
-				"label": "House Security Survey",
-				"orderLabel": "Trip (House Security Survey)",
+				"handle": "home_security_survey",
+				"label": "Home Security Survey",
+				"orderLabel": "Trip (Home Security Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
