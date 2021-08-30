@@ -3478,6 +3478,216 @@
 	},
 	
 	
+	"home-security": {
+		"name": "Home Security",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "42.5",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Home Security Survey": {
+				"handle": "home_security_survey",
+				"label": "Home Security Survey",
+				"orderLabel": "Trip (Home Security Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+		"Home Security Project Confirmation": {
+				"handle": "home_security_project_confirmation",
+				"label": "Home Security Project Confirmation                                        Per Quotation",
+				"orderLabel": "Job (Home Security Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+						
+			"Arm Gate": {
+				"handle": "arm_gate",
+				"label": "Arm Gate",
+				"orderLabel": "Job (Arm Gate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Underground Gate": {
+				"handle": "underground_gate",
+				"label": "Underground Gate",
+				"orderLabel": "Job (Underground Gate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"Sliding Gate": {
+				"handle": "sliding_gate",
+				"label": "Sliding Gate",
+				"orderLabel": "Job (Sliding Gate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"CCTV": {
+				"handle": "cctv_servicing",
+				"label": "CCTV Servicing",
+				"orderLabel": "Channels (CCTV Servicing)                                          MYR20/Channel",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Channels",
+					"min": 0,
+					"max": 32,
+					"increment": 2,
+					"default": 2,
+					"base": 1,
+					"multiplier": 2
+				}
+			 },
+			
+			"Alarm Single Storey": {
+				"handle": "alarm_single_storey",
+				"label": "Single Storey House",
+				"orderLabel": "Job (Single Storey House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Alarm Double Storey": {
+				"handle": "alarm_double_storey",
+				"label": "Double Storey House",
+				"orderLabel": "Job (Double Storey House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 }		
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"landed": {
+						"label": "Landed",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"condo": {
+						"label": "Condominium",
+						"cost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	
+	
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
@@ -3529,10 +3739,10 @@
 				}
 			},
 			
-			"Waterproof Supply Tiles - 10ft2": {
-				"handle":"waterproof_with_tiles_10ft2",
-				"label": "Waterproof c/w Tiles - increment in 10ft2",
-				"orderLabel": "ft2 (Waterproof c/w Tiles - increment in 10ft2)",
+			"Waterproof Blooms Tiles - 10ft2": {
+				"handle":"waterproof_blooms supplies_tiles_10ft2",
+				"label": "Waterproof Work - Blooms Supplies Tiles - increment in 10ft2",
+				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - increment in 10ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -3549,10 +3759,10 @@
 				}
 			},
 			
-			"Waterproof Supply Tiles - 1ft2": {
-				"handle": "waterproof_no_tiles_1ft2",
-				"label": "Waterproof c/w Tiles - Increment in 1ft2",
-				"orderLabel": "ft2 (Waterproof c/w Tiles - Increment in 1ft2)",
+			"Waterproof Blooms Tiles - 1ft2": {
+				"handle": "waterproof_blooms_supplies_tiles_1ft2",
+				"label": "Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2",
+				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -3571,8 +3781,8 @@
 			},
 			
 			"Waterproof Customer Tiles - 10ft2": {
-				"handle": "waterproof_customers_tiles_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - 10 ft2",
+				"handle": "waterproof_customer_supplies_tiles_10ft2",
+				"label": "Waterproof Work - Customer Supplies Tiles - 10 ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 10 ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3590,10 +3800,10 @@
 				}
 			},
 			
-			"Waterproof Customers Tiles - 1ft2": {
+			"Waterproof Customer Tiles - 1ft2": {
 				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - 1 ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers' Tiles - 1 ft2)",
+				"label": "Waterproof Work - Customer Supplies Tiles - 1 ft2",
+				"orderLabel": "ft2 (Waterproof Work - Customer supplies tiles - 1 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -5942,214 +6152,6 @@
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	"home-security": {
-		"name": "Home Security",
-		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "42.5",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Home Security Survey": {
-				"handle": "home_security_survey",
-				"label": "Home Security Survey",
-				"orderLabel": "Trip (Home Security Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-		"Home Security Project Confirmation": {
-				"handle": "home_security_project_confirmation",
-				"label": "Home Security Project Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Home Security Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-						
-			"Arm Gate": {
-				"handle": "arm_gate",
-				"label": "Arm Gate",
-				"orderLabel": "Job (Arm Gate)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "50",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Underground Gate": {
-				"handle": "underground_gate",
-				"label": "Underground Gate",
-				"orderLabel": "Job (Underground Gate)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"Sliding Gate": {
-				"handle": "sliding_gate",
-				"label": "Sliding Gate",
-				"orderLabel": "Job (Sliding Gate)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"CCTV": {
-				"handle": "cctv_servicing",
-				"label": "CCTV Servicing",
-				"orderLabel": "Channels (CCTV Servicing)                                          MYR20/Channel",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Channels",
-					"min": 0,
-					"max": 32,
-					"increment": 2,
-					"default": 2,
-					"base": 1,
-					"multiplier": 2
-				}
-			 },
-			
-			"Alarm Single Storey": {
-				"handle": "alarm_single_storey",
-				"label": "Single Storey House",
-				"orderLabel": "Job (Single Storey House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "50",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			"Alarm Double Storey": {
-				"handle": "alarm_double_storey",
-				"label": "Double Storey House",
-				"orderLabel": "Job (Double Storey House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "90",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 }		
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"landed": {
-						"label": "Landed",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"condo": {
-						"label": "Condominium",
-						"cost": {
-							"SGD": "0",
-							"MYR": "10",
 							"CNY": "0"
 						}
 					}
