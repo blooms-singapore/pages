@@ -3699,23 +3699,44 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"1st Hr": {
-				"handle": "standard_work_first_hour",
-				"label": "Non-Waterproof Standard Work 1st Hour                                MYR100/Hr (JB)",
-				"orderLabel": "Hour (Non-Waterproof Std Work 1st Hour)",
+			
+		"Non Waterproof 1.5Hrs Standard Locations": {
+				"handle": "tiling_nonwaterproof_min_order_standard_locations",
+				"label": "Non-Waterproof Tile Work - Min Order 1.5Hrs - Standard Locations",
+				"orderLabel": "Hour (Non-Waterproof Min Order 1.5Hrs - Standard Locations)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "100",
+					"MYR": "150",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
-					"increment": 60,
+					"max": 1.5,
+					"increment": 1.5,
 					"default": 0,
-					"base": 60
+					"base": 1
+				}
+			 },
+			
+			"Non Waterproof 1.5Hrs Distant Locations": {
+				"handle": "tiling_nonwaterproof_min_order_distant_locations",
+				"label": "Non-Waterproof Tile Work - Min Order 1.5Hrs - Distant Locations",
+				"orderLabel": "Hour (Non-Waterproof Min Order 1.5Hrs - Distant Locations)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "180",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1.5,
+					"increment": 1.5,
+					"default": 0,
+					"base": 1
 				}
 			 },
 			
