@@ -3757,9 +3757,9 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 4,
+					"default": 40,
 					"base": 1,
-					"Multiplier": 10
+					"multiplier": 10
 				}
 			},
 			
@@ -3776,7 +3776,7 @@
 				"quantity": {
 					"label": "ft2",
 					"min": 0,
-					"max": 0,
+					"max": 9,
 					"increment": 1,
 					"default": 1,
 					"base": 1,
@@ -3801,7 +3801,7 @@
 					"increment": 1,
 					"default": 4,
 					"base": 1,
-					"Multiplier": 10
+					"multiplier": 10
 				}
 			},
 			
@@ -3818,7 +3818,7 @@
 				"quantity": {
 					"label": "ft2",
 					"min": 0,
-					"max": 0,
+					"max": 9,
 					"increment": 1,
 					"default": 1,
 					"base": 1,
