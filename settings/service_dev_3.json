@@ -3701,7 +3701,7 @@
 		"options": {
 			
 			"Non Waterproof Standard Locations 1.5Hrs": {
-				"handle": "tiling_nonwaterproof_min_order_standard_locations",
+				"handle": "tiling_nonwaterproof_standard_locations_1.5hrs",
 				"label": "Non-Waterproof Tile Work - Standard Locations - Min Order 1.5Hrs",
 				"orderLabel": "Hour (Non-Waterproof Tile Work - Standard Locations - Min Order 1.5Hrs)",
 				"description": "Label standard",
