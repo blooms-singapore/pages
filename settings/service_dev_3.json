@@ -3880,19 +3880,19 @@
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
+						  },
+						
 					"Distant Location": {
 						"label": "Distant Location",
 						"cost": {
 							"SGD": "0",
 							"MYR": "30",
 							"CNY": "0"
+						  },
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "30",
+							"CNY": "10"
 						}
 					}
 				}
