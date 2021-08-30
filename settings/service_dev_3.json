@@ -3701,7 +3701,7 @@
 		"options": {
 			
 			"Non-Waterproof Standard Locations 1.5hrs": {
-				"handle":"nonwaterproof_standard_locations_1.5hrs,
+				"handle":"nonwaterproof_standard_locations_minhr,
 				"label": "Standard Locations Non-Waterproof Tile Works - 1.5Hrs",
 				"orderLabel": "Hour (Standard Locations Non-Waterproof Tile Works - 1.5Hrs )",
 				"description": "Label standard",
@@ -3722,7 +3722,7 @@
 		
 		
 		"Non-Waterproof Distant Locations 1.5hrs": {
-				"handle":"nonwaterproof_distant_locations_1.5hrs,
+				"handle":"nonwaterproof_distant_locations_minhr,
 				"label": "Non-Waterproof Tile Work - Distant Locations - 1.5Hrs",
 				"orderLabel": "Hour (Waterproof Tile Work - Distant Locations - 1.5Hrs)",
 				"description": "Label standard",
