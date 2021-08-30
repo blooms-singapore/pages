@@ -3848,9 +3848,9 @@
 			},
 
           		"Tile Project": {
-				"handle": "tile_project",
-				"label": "Tile Project                                                  Per Quotation",
-				"orderLabel": "Job (Tile Project)",
+				"handle": "tiling_project",
+				"label": "Tiling Project Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tiling Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
