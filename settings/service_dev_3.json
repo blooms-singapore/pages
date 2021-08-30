@@ -3865,37 +3865,17 @@
 					"default": 0,
 					"base": 1
 				}
-			},
-			
-			"Transport Charge Distant Locations": {
-				"handle": "tiling_transport_charge_distant",
-				"label": "Transport Charge for Distant Locations",
-				"orderLabel": "Trip (Transport Charge for Distant Locations)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
 			}
-		},
+		}
 		
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Location?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+					"Standard Location": {
+						"label": "Standard Location",
+						"orderLabel": "Standard Location",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3903,15 +3883,15 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "0",
 							"CNY": "10"
 						}
 					},
-					"landed": {
-						"label": "Landed House",
+					"Distant Location": {
+						"label": "Distant Location",
 						"cost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "30",
 							"CNY": "0"
 						}
 					}
