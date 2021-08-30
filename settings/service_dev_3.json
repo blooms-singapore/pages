@@ -3744,7 +3744,7 @@
 									
 			"Waterproof Blooms Tiles - 10ft2": {
 				"handle": "waterproof_blooms_tiles_10ft2",
-				"label": "Waterproof Work - Blooms Supplies Tiles - Increment in 10ft2",
+				"label": "Waterproof Work - Blooms Supplies Tiles - Increment in 10ft2                                          40, 50, 60 ... ft2",
 				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - Increment in 10ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3765,7 +3765,7 @@
 			
 			"Waterproof Blooms Tiles - 1ft2": {
 				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2",
+				"label": "Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2                                         1, 2 ... 9ft2",
 				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3786,7 +3786,7 @@
 			
 			"Waterproof Customer Tiles - 10ft2": {
 				"handle": "waterproof_customer_tiles_10ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Increment in 10 ft2",
+				"label": "Waterproof Work - Customer Supplies Tiles - Increment in 10 ft2                                       40, 50, 60 ... ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Increment in 10 ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3807,7 +3807,7 @@
 			
 			"Waterproof Customer Tiles - 1ft2": {
 				"handle": "waterproof_customer_tiles_1ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Increment in 1ft2",
+				"label": "Waterproof Work - Customer Supplies Tiles - Increment in 1ft2                                         1, 2 ... 9ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Increment in 1ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3828,9 +3828,9 @@
 		
 						
 			"Project Survey": {
-				"handle": "survey",
-				"label": "Survey",
-				"orderLabel": "Trip (Survey)",
+				"handle": "tiling_project_survey",
+				"label": "Tiling Project Survey",
+				"orderLabel": "Trip (Tiling Project Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3859,6 +3859,26 @@
 				},
 				"quantity": {
 					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Transport Charge Distant Locations": {
+				"handle": "tiling_transport_charge_distant",
+				"label": "Transport Charge for Distant Locations",
+				"orderLabel": "Trip (Transport Charge for Distant Locations)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
