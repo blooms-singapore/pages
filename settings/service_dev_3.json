@@ -3700,29 +3700,7 @@
 		"hasNote": 1,
 		"options": {
 			
-			
-			
-			
-			"Non Waterproof 2nd Hr or more": {
-				"handle": "tiling_nonwaterproof_2nd_hour_or_more",
-				"label": "Non-Waterproof Tile Work - 2nd Hour or more",
-				"orderLabel": "Hour (Non-Waterproof Tile Work - 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
+				
 			"Waterproof Blooms Tiles - 10ft2": {
 				"handle":"waterproof_blooms supplies_tiles_10ft2",
 				"label": "Waterproof Work - Blooms Supplies Tiles - increment in 10ft2",
