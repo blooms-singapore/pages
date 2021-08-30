@@ -3700,47 +3700,7 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Non-Waterproof Standard Locations 1.5hrs": {
-				"handle": "nonwaterproof_standard_locations_1.5hrs",
-				"label": "Standard Locations Non-Waterproof Tile Works - 1.5Hrs",
-				"orderLabel": "Hour (Standard Locations Non-Waterproof Tile Works - 1.5Hrs )",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "100",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1.5,
-					"increment": 60,
-					"default": 90,
-					"base": 60
-				}
-			},
-		
-		
-		"Non-Waterproof Distant Locations 1.5hrs": {
-				"handle":"nonwaterproof_distant_locations_1.5hrs",
-				"label": "Non-Waterproof Tile Work - Distant Locations - 1.5Hrs",
-				"orderLabel": "Hour (Waterproof Tile Work - Distant Locations - 1.5Hrs)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "180",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1.5,
-					"increment": 60,
-					"default": 90,
-					"base": 60
-				}
-			},
-				
+							
 			"Waterproof Blooms Tiles - 10ft2": {
 				"handle": "waterproof_blooms_supplies_tiles_10ft2",
 				"label": "Waterproof Work - Blooms Supplies Tiles - increment in 10ft2",
