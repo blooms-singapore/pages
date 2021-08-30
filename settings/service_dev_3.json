@@ -3797,10 +3797,9 @@
 					"label": "ft2",
 					"min": 0,
 					"max": 0,
-					"increment": 1,
-					"default": 4,
-					"base": 1,
-					"multiplier": 10
+					"increment": 10,
+					"default": 40,
+					"base": 1
 				}
 			},
 			
