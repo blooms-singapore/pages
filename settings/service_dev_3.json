@@ -3744,7 +3744,7 @@
 									
 			"Waterproof Blooms Tiles - 10ft2": {
 				"handle": "waterproof_blooms_tiles_10ft2",
-				"label": "Waterproof Work - Blooms Supplies Tiles - Increment in 10ft2                                          40, 50, 60 ... ft2",
+				"label": "Waterproof Work - Blooms Supplies Tiles - 10ft2 Increment                                           40, 50, 60 ... ft2",
 				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - Increment in 10ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3764,7 +3764,7 @@
 			
 			"Waterproof Blooms Tiles - 1ft2": {
 				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2                                         1, 2 ... 9ft2",
+				"label": "Waterproof Work - Blooms Supplies Tiles - 1ft2 Increment                                           1, 2 ... 9ft2",
 				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3785,7 +3785,7 @@
 			
 			"Waterproof Customer Tiles - 10ft2": {
 				"handle": "waterproof_customer_tiles_10ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Increment in 10 ft2                                       40, 50, 60 ... ft2",
+				"label": "Waterproof Work - Customer Supplies Tiles - 10ft2 Increment                                        40, 50, 60 ... ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Increment in 10 ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -3805,7 +3805,7 @@
 			
 			"Waterproof Customer Tiles - 1ft2": {
 				"handle": "waterproof_customer_tiles_1ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Increment in 1ft2                                         1, 2 ... 9ft2",
+				"label": "Waterproof Work - Customer Supplies Tiles - 1ft2 Increment                                          1, 2 ... 9ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Increment in 1ft2)",
 				"description": "Label standard",
 				"cost": {
