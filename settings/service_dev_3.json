@@ -3702,8 +3702,8 @@
 			
 			"Non-Waterproof Standard Locations 1.5hrs": {
 				"handle":"nonwaterproof_standard_locations_1.5hrs,
-				"label": "Non-aterproof Tile Work - Standard Locations - 1.5Hrs",
-				"orderLabel": "Hour (Non-Waterproof Tile Work - Standard Locations - 1.5Hrs)",
+				"label": "Standard Locations Non-Waterproof Tile Works - 1.5Hrs",
+				"orderLabel": "Hour (Standard Locations Non-Waterproof Tile Works - 1.5Hrs )",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
