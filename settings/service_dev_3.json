@@ -3874,6 +3874,15 @@
 				"description": "Label standard",
 				"values": {
 					
+					"Standard Location": {
+						"label": "Standard Location",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					
 					"Distant Location": {
 						"label": "Distant Location",
 						"orderLabel": "Distant Location",
@@ -3886,15 +3895,6 @@
 							"SGD": "0",
 							"MYR": "30",
 							"CNY": "10"
-						}
-					},
-					
-					"Standard Location": {
-						"label": "Standard Location",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
 						}
 					}
 				}
