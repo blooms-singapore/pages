@@ -3714,9 +3714,9 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 1.5,
-					"increment": 60,
-					"default": 90,
-					"base": 60
+					"increment": 1.5,
+					"default": 0,
+					"base": 1
 				}
 			},
 			
@@ -3847,7 +3847,7 @@
 				}
 			},
 
-          		"Tile Project": {
+          		"Tiling Project": {
 				"handle": "tiling_project",
 				"label": "Tiling Project Confirmation                                           Per Quotation",
 				"orderLabel": "Job (Tiling Project Confirmation)",
