@@ -2856,7 +2856,110 @@
 	},
 	
 	
+	"others": {
+		"name": "Others",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban","Singapore"],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "90",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Multi Service Survey": {
+				"handle": "others_multiservice_survey",
+				"label": "Multiple Services Survey",
+				"orderLabel": "Trip (Multiple Services Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Renovation Survey": {
+				"handle": "others_renovation_survey",
+				"label": "Retrofit or Renovation Survey",
+				"orderLabel": "Job (Retrofit or Renovation Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project": {
+				"handle": "others_project",
+				"label": "Project Order Confirmation                                       Per Quotation",
+				"orderLabel" : "Job (Project Order Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}			
+		},
 		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
 	
 		
 		
