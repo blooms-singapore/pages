@@ -2867,10 +2867,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"others_survey": {
-				"handle": "others_survey",
-				"label": "Retrofit or Renovation Survey                                         MYR20/Job (JB)                               MYR22/Job (KL)",
-				"orderLabel": "Trip (Retrofit or Renovation Survey",
+			"Multi Service Survey": {
+				"handle": "others_multiservice_survey",
+				"label": "Multi-Service Survey",
+				"orderLabel": "Trip (Multi-Service Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2879,6 +2879,26 @@
 				},
 				"quantity": {
 					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Renovation Survey": {
+				"handle": "others_renovation_survey",
+				"label": "Retrofit or Renovation Survey",
+				"orderLabel": "Job (Retrofit or Renovation Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
