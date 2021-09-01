@@ -2956,7 +2956,7 @@
 				
 			"Sewing Transport": {
 				"handle": "to_and_fro",
-				"label": "To-&-Fro Transport Charge                                                     MYR20/Order",
+				"label": "To-&-Fro Transport Charge",
 				"orderLabel": "Order (To-&-Fro Transport Charge)",
 				"description": "Label standard",
 				"cost": {
@@ -2976,7 +2976,7 @@
 			
 			"Vertical Trim 1 Piece": {
 				"handle": "vertical_trim_one_piece",
-				"label": "Vertical Trim 1 Piece Only                                MYR20/Job                              1 Piece",
+				"label": "Vertical Trim 1 Piece Only",
 				"orderLabel": "Job (Vertical Trim 1 Piece Only)",
 				"description": "Label standard",
 				"cost": {
@@ -2996,7 +2996,7 @@
 			
 			"Vertical Trim Quantity": {
 				"handle": "curtain_quantity",
-				"label": "Vertical Trim Curtain Quantity                          MYR10/Piece                            Min 2 Pieces",
+				"label": "Vertical Trim Curtain Quantity                                          Min 2 Pieces",
 				"orderLabel": "Pcs (Vertical Trim Curtain Quantity)",
 				"description": "Label standard",
 				"cost": {
@@ -3017,7 +3017,7 @@
 			
 			"Horizontal Trim Min Order": {
 				"handle": "horizontal_trim_first_2meter",
-				"label": "Horizontal Trim First 2-Meter Length                             MYR20/Job                             Up to 2 meters",
+				"label": "Horizontal Trim First 2-Meter Length                                     Up to 2 meters",
 				"orderLabel": "Job (Horizontal Trim First 2m)",
 				"description": "Label standard",
 				"cost": {
@@ -3037,7 +3037,7 @@
 			
 			"Horizontal Trim Length": {
 				"handle": "curtain_length",
-				"label": "Horizontal Trim Curtain Length                               MYR8/Meter                         Min 2.5 meters    ",
+				"label": "Horizontal Trim Curtain Length                                     Min 2.5 meters",
 				"orderLabel": "Meters (Horizontal Trim Curtain Length)",
 				"description": "Label standard",
 				"cost": {
@@ -3056,9 +3056,30 @@
 			 },
 		
 			
+			
+			"Curtain Survey" {
+				"handle": "curtain_survey",
+				"label": "Curtain Survey & Measurement",
+				"orderLabel": "Trip (Curtain Survey & Measurement)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
 			"Curtain Dismantling": {
 				"handle": "curtain_dismantling",
-				"label": "Curtain Dismantling                                       MYR25/Hr",
+				"label": "Curtain Dismantling",
 				"orderLabel": "Hour (Curtain Dismantling)",
 				"description": "Label standard",
 				"cost": {
@@ -3078,7 +3099,7 @@
 			
 			"Curtain Installation": {
 				"handle": "curtain_installation",
-				"label": "Curtain Installation                                                  MYR35/Hr",
+				"label": "Curtain Installation,
 				"orderLabel": "Hour (Curtain Installation)",
 				"description": "Label standard",
 				"cost": {
@@ -3094,7 +3115,27 @@
 					"default": 1,
 					"base": 1
 				}
-			 }		
+			 },
+	
+		"Laundry Picking Fee" {
+				"handle": "curtain_laundry_picking_fee",
+				"label": "Curtain Laundry Picking Fee",
+				"orderLabel": "Trip (Curtain Laundry Picking Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 }
 		},
 		
 	    "types": {
