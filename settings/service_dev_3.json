@@ -2856,6 +2856,237 @@
 	},
 	
 	
+	
+	"curtain": {
+		"name": "Curtain Alteration",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "42.5",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+				
+			"Sewing Transport": {
+				"handle": "to_and_fro",
+				"label": "To-&-Fro Transport Charge",
+				"orderLabel": "Order (To-&-Fro Transport Charge)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Vertical Trim 1 Piece": {
+				"handle": "vertical_trim_one_piece",
+				"label": "Vertical Trim 1 Piece Only",
+				"orderLabel": "Job (Vertical Trim 1 Piece Only)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Vertical Trim Quantity": {
+				"handle": "curtain_quantity",
+				"label": "Vertical Trim Curtain Quantity                                          Min 2 Pieces",
+				"orderLabel": "Pcs (Vertical Trim Curtain Quantity)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "10",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			 },
+			
+			
+			"Horizontal Trim Min Order": {
+				"handle": "horizontal_trim_first_2meter",
+				"label": "Horizontal Trim First 2-Meter Length                                     Up to 2 meters",
+				"orderLabel": "Job (Horizontal Trim First 2m)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Horizontal Trim Length": {
+				"handle": "curtain_length",
+				"label": "Horizontal Trim Curtain Length                                     Min 2.5 meters",
+				"orderLabel": "Meters (Horizontal Trim Curtain Length)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "8",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Meters",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 2.5,
+					"base": 1
+				}
+			 },
+					
+			"Curtain Survey": {
+				"handle": "curtain_survey",
+				"label": "Curtain Survey & Measurement",
+				"orderLabel": "Trip (Curtain Survey & Measurement)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Curtain Dismantling": {
+				"handle": "curtain_dismantling",
+				"label": "Curtain Dismantling",
+				"orderLabel": "Hour (Curtain Dismantling)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "25",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Curtain Installation": {
+				"handle": "curtain_installation",
+				"label": "Curtain Installation,
+				"orderLabel": "Hour (Curtain Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "35",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			 },
+	
+		"Laundry Picking Fee": {
+				"handle": "curtain_laundry_picking_fee",
+				"label": "Curtain Laundry Picking Fee",
+				"orderLabel": "Trip (Curtain Laundry Picking Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 }
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+		
+	
 	"others": {
 		"name": "Others",
 		"lastSlot": "15:30",
