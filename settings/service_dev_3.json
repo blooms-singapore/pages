@@ -2973,8 +2973,8 @@
 					
 			"Curtain Survey": {
 				"handle": "curtain_survey",
-				"label": "Curtain Survey & Measurement",
-				"orderLabel": "Trip (Curtain Survey & Measurement)",
+				"label": "Curtain Survey and Measurement",
+				"orderLabel": "Trip (Curtain Survey and Measurement)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
