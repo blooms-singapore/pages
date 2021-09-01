@@ -2970,26 +2970,7 @@
 				}
 			 },
 					
-			"Curtain Survey": {
-				"handle": "curtain_survey",
-				"label": "Curtain Survey and Measurement",
-				"orderLabel": "Trip (Curtain Survey and Measurement)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
+						
 			"Curtain Dismantling": {
 				"handle": "curtain_dismantling",
 				"label": "Curtain Dismantling",
