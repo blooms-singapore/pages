@@ -2869,7 +2869,6 @@
 		"hasNote": 1,
 		"options": {
 			
-				
 			"Sewing Transport": {
 				"handle": "to_and_fro",
 				"label": "To-&-Fro Transport Charge",
@@ -3029,28 +3028,8 @@
 					"default": 1,
 					"base": 1
 				}
-			 },
-	
-		"Laundry Picking Fee": {
-				"handle": "curtain_laundry_picking_fee",
-				"label": "Curtain Laundry Picking Fee",
-				"orderLabel": "Trip (Curtain Laundry Picking Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
 			 }
-		},
+	         },
 		
 	    "types": {
 			"house": {
