@@ -359,7 +359,7 @@
 				"handle": "cleaning_sanitize_bungalow",
 				"label": "Sanitize Clean 5,001 to 10,000 ft2                                                 MYR1398/Unit",
 				"displayLabel": "Sanitize Clean 5,001 to 10,000 ft2",
-				"orderLabel": "Unit (Sanitize CLean 5,001 to 10,000 ft2)",
+				"orderLabel": "Unit (Sanitize Clean 5,001 to 10,000 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -403,7 +403,7 @@
 			
 			 "Sanitize Clean Projects Confirmation": {
 				"handle": "cleaning_sanitize_projects_confirmation",
-				"label": "Sanitize CLean Factories & Projects Confirmation                                                 Per Quotation",
+				"label": "Sanitize Clean Factories & Projects Confirmation                                                 Per Quotation",
 				"displayLabel": "Sanitize Clean Factories & Projects Confirmation",
 				"orderLabel": "Job (Sanitize Clean Factories & Projects Confirmation)",
 				"description": "Label standard",
