@@ -2869,8 +2869,8 @@
 		"options": {
 			"Multi Service Survey": {
 				"handle": "others_multiservice_survey",
-				"label": "Multi-Service Survey",
-				"orderLabel": "Trip (Multi-Service Survey)",
+				"label": "Multiple Services Survey",
+				"orderLabel": "Trip (Multiple Services Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
