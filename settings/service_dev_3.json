@@ -2868,38 +2868,18 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Survey": {
-				"handle": "survey",
-				"label": "Survey                                         MYR30/Trip (JB)",
-				"orderLabel": "Trip (Survey)",
+			"Curtain Transport": {
+				"handle": "curtain_transport",
+				"label": "Curtain To and Fro Transport",
+				"orderLabel": "Order (Curtain To and Fro Transport)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
-			"Waterproof Project": {
-				"handle": "waterproof_project",
-				"label": "Waterproof Project Confirmation                                Per Quotation",
-				"orderLabel": "Job (Waterproof Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
+					"label": "Order",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
@@ -2908,22 +2888,23 @@
 				}
 			 },
 			
-			"Std Silicon 1st Hr": {
-				"handle": "standard_silicon_first_hour",
-				"label": "Standard Silicon 1st Hr                                       MYR70/Hr",
-				"orderLabel": "Hour (Std Silicon 1st Hr)",
+						
+			"Vertical Trim Qty": {
+				"handle": "curtain_vertical_trim",
+				"label": "Curtain Vertical Trim by Quantity                                                      Min Order MYR20",
+				"orderLabel": "Hour (Curtain Vertical Trim by Quantity)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "70",
+					"MYR": "10",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			 },
