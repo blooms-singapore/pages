@@ -2858,7 +2858,7 @@
 	
 	
 	"curtain": {
-		"name": "Waterproofing",
+		"name": "Curtain Alteration",
 		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
