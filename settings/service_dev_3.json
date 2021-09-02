@@ -2863,7 +2863,7 @@
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "66",
+			"MYR": "33",
 			"CNY": "20"
 		},
 		"hasNote": 1,
