@@ -2868,10 +2868,30 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Curtain Transport": {
-				"handle": "curtain_transport",
-				"label": "Curtain To and Fro Transport",
-				"orderLabel": "Order (Curtain To and Fro Transport)",
+			"Curtain Transport 2 Way": {
+				"handle": "curtain_transport_2way",
+				"label": "Transport 2-Way: Curtain Collection & Delivery",
+				"orderLabel": "Order (Transport 2-Way: Curtain Collection & Delivery)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Curtain Transport 1 Way": {
+				"handle": "curtain_transport_1way",
+				"label": "Transport 1-Way: Survey & Others",
+				"orderLabel": "Trip (Transport 1-Way: Survey & Others)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2879,7 +2899,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Order",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
