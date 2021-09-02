@@ -38,45 +38,28 @@ layout: service
     <tbody>      
       <tr>
         <td>To & Fro<br>Collect & Deliver</td>
-        <td>${params.to_and_fro}/Order</td>
+        <td>${params.curtain_transport}/Order</td>
       </tr>
     </tbody>
    
    <!--Vertical Trim-->
      <thead> 
       <tr>
-       <th><b>Vertical Trim<br>By Curtain Quantiy</b></th>
+       <th><b>Curtain Trim</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>      
       <tr>
-        <td>1 Piece Only</td>
-        <td>${params.vertical_trim_one_piece}/Job</td>
-      </tr>
-      <tr>
-       <td>Curtain Quantity<br>2pcs or more</td>
-       <td>${params.curtain_quantity}/Piece</td>
+        <td>Vertical Trim<br>By Quantity<br>Min Order MYR20.0</td>
+       <td>${params.curtain_vertical_trim}/Piece</td>
       </tr>      
-   </tbody>
-   
-   <!--Horizontal Trim-->
-      <thead>
+  
       <tr>
-       <th><b>Horizontal Trim<br>By Curtain Length</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
+        <td>Horizontal Trim<br>By Length<br>Min Order MYR20.0</td>
+        <td>${params.curtain_horizontal_trim}/Meter</td>
       </tr>
-    </thead>
-    <tbody>      
-      <tr>
-        <td>Up to 2 meters</td>
-        <td>${params.horizontal_trim_first_2meter}/Job</td>
-      </tr>
-      <tr>
-       <td>Curtain Length<br>2.5m or more</td>
-       <td>${params.curtain_length}/Meter</td>
-      </tr>      
-   </tbody>
+     </tbody>
    
     <thead>
       <tr>
@@ -92,21 +75,21 @@ layout: service
      
       <tr>
         <td>Curtain<br>Dismantling</td>
-        <td>30.0/Hr</td>
+        <td>${params.curtain_dismantle}/Hr</td>
       </tr>
      
      <tr>
         <td>Curtain<br>Installation</td>
-        <td>50.0/Hr</td>
+        <td>${params.curtain_install}/Hr</td>
       </tr>
      
       <tr>
-        <td>Curtain Clean</td>
-        <td>Outsourced<br>Info in FAQs</td>
+        <td>Curtain<br>Clean</td>
+        <td>Outsource<br>Info in FAQs</td>
       </tr>
      
        <tr>
-        <td>Laundry Picking Fee</td>
+        <td>Curtain Clean<br>Picking Fee</td>
         <td>25.0/Trip</td>
       </tr>
      
