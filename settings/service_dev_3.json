@@ -2860,7 +2860,7 @@
 	"curtain": {
 		"name": "Curtain Alteration",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "33",
