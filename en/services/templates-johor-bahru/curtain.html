@@ -37,8 +37,13 @@ layout: service
     </thead>
     <tbody>      
       <tr>
-        <td>To & Fro<br>Collect & Deliver</td>
-        <td>${params.curtain_transport}/Order</td>
+        <td>2-Way<br>Collect & Deliver<br>by Default</td>
+        <td>${params.curtain_transport_2way}/Order</td>
+      </tr>
+      
+       <tr>
+        <td>1-Way<br>Survey & Others</td>
+        <td>${params.curtain_transport_1way}/Trip</td>
       </tr>
     </tbody>
    
@@ -51,13 +56,13 @@ layout: service
     </thead>
     <tbody>      
        <tr>
-        <td>Horizontal Trim<br>By Length<br>Min Order MYR20.0</td>
-        <td>${params.curtain_horizontal_trim}/Meter</td>
+        <td>Horizontal Trim<br>by Length</td>
+        <td>${params.curtain_horizontal_trim}/Meter<br>Min Order 20.0</td>
       </tr>
       
       <tr>
-        <td>Vertical Trim<br>By Quantity<br>Min Order MYR20.0</td>
-       <td>${params.curtain_vertical_trim}/Piece</td>
+        <td>Vertical Trim<br>by Quantity</td>
+       <td>${params.curtain_vertical_trim}/Piece<br>Min Order 20.0</td>
       </tr>      
      </tbody>
    
