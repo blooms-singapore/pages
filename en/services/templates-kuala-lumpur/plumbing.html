@@ -12,21 +12,18 @@ layout: service
 </div>
 </div>
 
-  
-<div class="divider"></div>
-<div class="gap">
-<div class="service-info">
+ <!--image published direct archived in assets/news-->
+<div class="gap">  
 <h4 class="service-title">STAINLESS STEEL SINK POPPY<br>About an hour to install up to 3 sets.</h4>
 <br>
 <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/sink-poppy.png">
-</div>
-</div>
+<p>
 
 <!--button section--> 
 <div class="pricing">
 <table style="width:100%">
-<tr>
-   <th><a class="btn" href="https://youtu.be/el0V18ryrLQ">Story of 4 Wives</a></th>
+ <tr>
+  <th><a class="btn" href="https://youtu.be/el0V18ryrLQ">Story of 4 Wives</a></th>
   </tr>
  </table>
 </div>
@@ -73,7 +70,7 @@ layout: service
     <tbody>
        <tr>
          <td>Tank Issue Survey<br><b>Waive upon<br>project confirmation</b></td>
-        <td>${params.plumbing_tank_issue_survey}/Trip</td>
+        <td>${params.plumbing_Tank_issue_survey}/Trip</td>
       </tr>
       
       <tr>
@@ -227,61 +224,121 @@ layout: service
 </div>
 </div>
 
-<div class="divider"></div>
-<div class="gap">
-<div class="service-info">
-  <h5 class="service-title">Our Practice</h5>
-  <ul>
-    <li>Blooms' crews place utmost importance in work quality. Our technicians will execute tasks diligently, but will not rush through to complete tasks.</li>
-    <p>
-    <li>Upon arriving at customers' house, our crews will study the issues/problems and inform if they fall under standard work. If not, crews will report the remedy scope back to Blooms Office. A Quotation will be provided to the customer within 3 working days.</li>
-    <p>
-    <li>If the non-standard issues/problems can be settled on the same day, and when the crew's daily appointment schedule permit, 
-      he will try his best to complete the repairs on the same day.</li>
-   </ul>
-  </div>
-  </div>
-  
-<div class="divider"></div>
-<div class="gap">
-<div class="service-info">
-<h5 class="service-title">FAQs</h5>
- <h4 class="service-title">Why hourly service rate?</h4>
+ <!--FAQs-->
+ <div class="divider"></div>
+ <div class="gap">
+ <h5 class="service-title">FAQs</h5>
+   
+  <div class="wrap-collapsible">
+  <input id="collapsible1" class="toggle" type="checkbox">
+  <label for="collapsible1" class="lbl-toggle">Q1 Why hourly service rate?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>
    <ul>
      <li>More value for money for our customers. You can bundle different items together to install and we charge a fix hourly price for them.</li><br>
      <li>Crew pays more attention to tasks and do not rush through jobs.</li><br>
      <li>If customers decide to add items during service, with available time, there is no extra charge. Or you can extend the service and know exactly how much more to pay.</li>
-   </ul>
-     
- <h4 class="service-title">If crew deliberately work slowly?</h4>
-   Feedback to Blooms Office with video proof, and get a free service.
-   <p>
-     
- <h4 class="service-title">If I don't know the time duration needed for my tasks?</h4>
-   Just book minimum 1 hour. Blooms charges by actual time use.
-   <p>
-  
- <h4 class="service-title">How to book 1.5 Hours Service?</h4>
-   Service Fee is split into 2 parts as follows:
-<ul>
-  <li>1st Hour fee at a higher price, taking into account transport cost,</li><br>
-  <li>2nd Hour or more Standard Fee, at a lower price.</li>
-</ul>
-    To book 1.5 hours, please select 2 options together. <b>1st Hour X 1 Hour</b> and <b>2nd Hour or more X 0.5 Hour</b>. Total = 1.5 Hours.
-   <p>
-     
-<h4 class="service-title">How do I cancel a Service?</h4>
-   For Service dates which are <b>more than 3 days</b> into the future, you can cancel via the App. Use the <b>Cancel</b> button at the bottom of Order Confirmation page.
-  <br><br>If it's <b>urgent cancellation</b>, where your Service date is <b>within the next 3 days</b>, option to cancel in App is removed. Please call our Customer Care to inform. There is no cancellation charge.  
-  </div>
-  </div>
-  
+   </ul></p>
+   </div>
+   </div>
 
+  <input id="collapsible2" class="toggle" type="checkbox">
+  <label for="collapsible2" class="lbl-toggle">Q2 If crew deliberately work slowly?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Feedback to Blooms Office with video proof, and get a free service.</p>
+   </div>
+   </div>
+
+  <input id="collapsible3" class="toggle" type="checkbox">
+  <label for="collapsible3" class="lbl-toggle">Q3 Unsure of duration needed for my tasks?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Just book minimum 1 hour. Blooms charges by actual time use.</p>
+   </div>
+   </div>
+ 
+  <input id="collapsible4" class="toggle" type="checkbox">
+  <label for="collapsible4" class="lbl-toggle">Q4 How to book 1.5 Hours Service?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+  <p>Service fee is split into 2 parts as follows:
+  <ul>
+  <li>1st Hour fee price, taking into account transport cost,</li><br>
+  <li>2nd Hour onwards, Standard Fee, at a reduced price.</li>
+  </ul>
+    To book 1.5 hours, please select 2 options together:
+   <ul>
+   <li>1st Hour X 1 Hour and</li>
+   <li>2nd Hour or more X 0.5 Hour.</li>
+   <li>Total = 1.5 Hours.</li>
+   </ul>
+   </p>
+   </div>
+   </div>
+
+  <input id="collapsible5" class="toggle" type="checkbox">
+  <label for="collapsible5" class="lbl-toggle">Q5 I don't know which Service item to book?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Select Survey when in doubt.
+   <br><br>Upload relevant photos and provide more information at our Comment Box. Our Crew will call and visit you to understand your issues.</p>
+   </div>
+   </div>
+ 
+  <input id="collapsible6" class="toggle" type="checkbox">
+  <label for="collapsible6" class="lbl-toggle">Q6 What is the RM45 Picking Fee?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>When our crews purchase items on customers' behalf.<br><br>Any items like faucets, replacement components etc.
+   <br><br>Original supplier receipt will be provided for claim, and Blooms does not mark up on these items, but charge RM45 for the Picking Service.</p>
+   </div>
+   </div>
+ 
+  <input id="collapsible7" class="toggle" type="checkbox">
+  <label for="collapsible7" class="lbl-toggle">Q7 Is Credit Card payment safe?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Yes, very safe.<br><br>Blooms cannot assess card details and every transcastion is tracked digitally.</p>
+   </div>
+   </div>
+
+    
+  <input id="collapsible8" class="toggle" type="checkbox">
+  <label for="collapsible8" class="lbl-toggle">Q8 When am I charged when using Credit Card as payment?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Service first, Pay later.<br><br>Blooms charges upon completion of work, after issuance of receipt. Not at the point of placing Order.</p>
+   </div>
+   </div>
+
+  <input id="collapsible9" class="toggle" type="checkbox">
+  <label for="collapsible9" class="lbl-toggle">Q9 Can I book for someone else?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Yes. Add their address, in your account and book choosing their address.<br><br>You have to pay for them as the Service is booked under your account.</p>
+   </div>
+   </div>
+      
+  <input id="collapsible10" class="toggle" type="checkbox">
+  <label for="collapsible10" class="lbl-toggle">Q10 How do I cancel a Service?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Service date which is <b>more than 3 days</b> into the future, use the <b>Cancel</b> button at the bottom of Order Confirmation page.
+   <br><br>For <b>urgent cancellation</b>, where your Service date is <b>within the next 3 days</b>, please call our Customer Care to inform. There is no cancellation charge.</p>
+   </div>
+   </div>
+  </div>
+  </div>
+     
 <div class="divider"></div>
 <div class="gap">
   <div class="service-info">
     <h5 class="service-title">Customer Care</h5>
+    <p>60 11 3934 7848
     <p>${params.phone}</p>
     <p>${params.email}</p>
+    <p>www.blooms.my</p>
   </div>
 </div>
