@@ -1881,6 +1881,14 @@
 				"label": "House Type",
 				"description": "Label standard",
 				"values": {
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
 					"condo": {
 						"label": "Condominium",
 						"orderLabel": "Condo Surcharge",
@@ -1893,14 +1901,6 @@
 							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
 						}
 					}
 				}
