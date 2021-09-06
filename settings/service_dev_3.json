@@ -1731,7 +1731,7 @@
 		"options": {
 			"1st Hr cutting": {
 				"handle": "first_hr_cutting",
-				"label": "1st Hour                                 MYR50/Hr",
+				"label": "1st Hour",
 				"orderLabel": "Hour (1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -1751,12 +1751,12 @@
 			
 			">=2nd Hr cutting": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hour & more                              MYR40/Hr",
+				"label": "2nd Hour & more",
 				"orderLabel": "Hour (2nd Hour & more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "40",
+					"MYR": "30",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -1771,12 +1771,12 @@
 			
 			"Small Debri": {
 				"handle": "small_debri",
-				"label": "Small Debri Disposal <=3 Bags                         MYR35",
+				"label": "Small Debri Disposal <=3 Bags",
 				"orderLabel": "Job (Small Debri Disposal)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "35",
+					"MYR": "30",
 					"CNY": "20"
 				},
 				"quantity": {
@@ -1792,12 +1792,12 @@
 			
 			"Big Debri": {
 				"handle": "big_debri",
-				"label": "Big Disposal Fee                                      MYR50",
+				"label": "Big Disposal Fee",
 				"orderLabel": "Job (Big Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "50",
+					"MYR": "40",
 					"CNY": "20"
 				},
 				"quantity": {
@@ -1813,7 +1813,7 @@
 			
 			"survey": {
 				"handle": "survey",
-				"label": "Site Survey                            Free",
+				"label": "Site Survey                                             Free",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1856,7 +1856,7 @@
 			
 			"Disposal by Lorry": {
 				"handle": "landscape-disposal-by-lorry",
-				"label": "Disposal by Lorry                                          MYR130/Job",
+				"label": "Disposal by Lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
 				"cost": {
