@@ -1545,8 +1545,8 @@
 				"orderLabel": "Trip (Transport)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "30",
+					"SGD": "10",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1625,8 +1625,8 @@
 				"orderLabel": "Trip (Commercial Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "30",
+					"SGD": "20",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1641,7 +1641,7 @@
 			
 			"Electrical Project Confirmation": {
 				"handle": "electrical_project",
-				"label": "Electrical Project Confirmation                               Per Quotation",
+				"label": "Electrical Project Confirmation                                   Per Quotation",
 				"orderLabel": "Job (Electrical Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
