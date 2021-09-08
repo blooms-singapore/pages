@@ -2617,7 +2617,7 @@
 			},
 			
 			"Paint Day": {
-				"handle": "paint_day",
+				"handle": "painting_day",
 				"label": "Service Rate Day",
 				"orderLabel": "Hour (Service Rate Day)",
 				"description": "Label standard",
