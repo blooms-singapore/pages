@@ -3805,11 +3805,11 @@
 				}
 			},
 		
-									
-			"Waterproof Blooms Tiles - 10ft2": {
-				"handle": "waterproof_blooms_tiles_10ft2",
-				"label": "Waterproof Work - Blooms Supplies Tiles - 10ft2 Increment                                           30, 40, 50 ... ft2",
-				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - Increment in 10ft2)",
+					
+			"Waterproof Empty House - 10ft2": {
+				"handle": "waterproof_empty_house_10ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 10ft2 Increment                                        30, 40, 50 ... ft2",
+				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Empty House - In 10 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -3826,10 +3826,10 @@
 				}
 			},
 			
-			"Waterproof Blooms Tiles - 1ft2": {
-				"handle": "waterproof_blooms_tiles_1ft2",
-				"label": "Waterproof Work - Blooms Supplies Tiles - 1ft2 Increment                                           1, 2 ... 9ft2",
-				"orderLabel": "ft2 (Waterproof Work - Blooms Supplies Tiles - Increment in 1ft2)",
+			"Waterproof Empty House - 1ft2": {
+				"handle": "waterproof_empty_house_1ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 1ft2 Increment                                          1, 2 ... 9ft2",
+				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Empty House - In 1ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -3847,14 +3847,15 @@
 				}
 			},
 			
-			"Waterproof Customer Tiles - 10ft2": {
-				"handle": "waterproof_customer_tiles_10ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - 10ft2 Increment                                        30, 40, 50 ... ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Increment in 10 ft2)",
+					
+			"Waterproof Occupied House - 10ft2": {
+				"handle": "waterproof_empty_house_10ft2",
+				"label": "Waterproof Work - Occupied House - 10ft2 Increment                                        30, 40, 50 ... ft2",
+				"orderLabel": "ft2 (Waterproof Work - Occupied House - Increment in 10 ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "28",
+					"MYR": "40",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -3867,14 +3868,14 @@
 				}
 			},
 			
-			"Waterproof Customer Tiles - 1ft2": {
+			"Waterproof Occupied House - 1ft2": {
 				"handle": "waterproof_customer_tiles_1ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - 1ft2 Increment                                          1, 2 ... 9ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Increment in 1ft2)",
+				"label": "Waterproof Work - Customer Supplies Tiles - Occupied House - 1ft2 Increment                                          1, 2 ... 9ft2",
+				"orderLabel": "ft2 (Waterproof Work - Occupied House - Increment in 1ft2)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "28",
+					"MYR": "40",
 					"CNY": "50"
 				},
 				"quantity": {
