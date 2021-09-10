@@ -1,4 +1,511 @@
 {
+	"plumbing": {
+		"name": "Plumbing",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban"],
+		"startPrice": {
+			"SGD": "10",
+			"MYR": "14",
+			"CNY": "50"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Std Plumbing 1st Hr": {
+				"handle": "first_hour",
+				"label": "Standard Plumbing 1st Hour",
+				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "75",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Std Plumbing 2nd Hr": {
+				"handle": "second_hour",
+				"label": "Standard Plumbing 2nd Hour or more",
+				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Non-Standard Plumbing Project Survey": {
+				"handle": "plumbing_project_survey",
+				"label": "Non-Standard Plumbing Project SURVEY",
+				"orderLabel": "Trip (Non-Standard Plumbing  Project SURVEY)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Non-Standard Plumbing Project": {
+				"handle": "plumbing_project",
+				"label": "Non-Standard Plumbing Project Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Non-Standard Plumbing Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Issue Survey": {
+				"handle": "plumbing_tank_issue_survey",
+				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
+				"orderLabel": "Trip (Tank Issue SURVEY)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 1st Hr": {
+				"handle": "tank_wash_first_hour",
+				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
+				"orderLabel": "Hour (Tank WASH 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 2nd Hr": {
+				"handle": "tank_wash_second_hour",
+				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
+				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 1st Hr": {
+				"handle": "tank_repair_first_hour",
+				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
+				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 2nd Hr": {
+				"handle": "tank_repair_second_hour",
+				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
+				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+						
+			"Tank Project": {
+				"handle": "tank_project",
+				"label": "Tank Project Confirmation                                           Unavailable in SG",
+				"orderLabel": "Job (Tank Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Sink Poppy": {
+				"handle": "sink_poppy",
+				"label": "Sink Poppy",
+				"orderLabel": "Set (Sink Poppy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+			
+			"Trouble Shoot": {
+				"handle": "trouble_shoot",
+				"label": "Trouble Shoot",
+				"orderLabel": "Job (Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+		
+	
+	
+	"tiling": {
+		"name": "Tiling & Concrete",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "45.5",
+			"MYR": "137.5",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Non-Waterproof Min 1.5hrs": {
+				"handle": "nonwaterproof_min_order",
+				"label": "Non-Waterproof Tile Works - Min 1.5Hrs",
+				"orderLabel": "Hour (Non-Waterproof Tile Works - Min 1.5Hrs)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "100",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1.5,
+					"increment": 1.5,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			"Non-Waterproof 2nd Hour": {
+				"handle": "nonwaterproof_second_hour",
+				"label": "Non-Waterproof Tile Works - 2nd Hour or more",
+				"orderLabel": "Hour (Non-Waterproof Tile Works - 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "60",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
+					"base": 60
+				}
+			},
+		
+					
+			"Waterproof Empty House - 10ft2": {
+				"handle": "waterproof_empty_house_10ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 10ft2 Increment                                                  30, 40, 50 ... ft2",
+				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Empty House - In 10ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "35",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 30,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Empty House - 1ft2": {
+				"handle": "waterproof_empty_house_1ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 1ft2 Increment                                          1, 2 ... 9ft2",
+				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Empty House - In 1ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "35",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 9,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+			
+					
+			"Waterproof Occupied House - 10ft2": {
+				"handle": "waterproof_occupied_house_10ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Occupied House - 10ft2 Increment                                        30, 40, 50 ... ft2",
+				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 10ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 30,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Occupied House - 1ft2": {
+				"handle": "waterproof_occupied_house_1ft2",
+				"label": "Waterproof Work - Customer Supplies Tiles - Occupied House - 1ft2 Increment                                          1, 2 ... 9ft2",
+				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 1ft2)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 9,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+		
+						
+			"Project Survey": {
+				"handle": "tiling_project_survey",
+				"label": "Tiling Project Survey",
+				"orderLabel": "Trip (Tiling Project Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+          		"Tiling Project": {
+				"handle": "tiling_project",
+				"label": "Tiling Project Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tiling Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "Location?",
+				"description": "Label standard",
+				"values": {
+					
+					"Standard Location": {
+						"label": "Standard Location",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					
+					"Distant Location": {
+						"label": "Distant Location",
+						"orderLabel": "Distant Location",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "30",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	
 	"computer": {
 		"name": "Computer & Digital Entertainment",
@@ -1910,298 +2417,7 @@
 	},
 	
 	
-	"plumbing": {
-		"name": "Plumbing",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
-		"startPrice": {
-			"SGD": "10",
-			"MYR": "14",
-			"CNY": "50"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Std Plumbing 1st Hr": {
-				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour",
-				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "75",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more",
-				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Non-Standard Plumbing Project Survey": {
-				"handle": "plumbing_project_survey",
-				"label": "Non-Standard Plumbing Project SURVEY",
-				"orderLabel": "Trip (Non-Standard Plumbing  Project SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Non-Standard Plumbing Project": {
-				"handle": "plumbing_project",
-				"label": "Non-Standard Plumbing Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Non-Standard Plumbing Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Issue Survey": {
-				"handle": "plumbing_tank_issue_survey",
-				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
-				"orderLabel": "Trip (Tank Issue SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Wash 1st Hr": {
-				"handle": "tank_wash_first_hour",
-				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
-				"orderLabel": "Hour (Tank WASH 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Wash 2nd Hr": {
-				"handle": "tank_wash_second_hour",
-				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
-				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-			
-			"Tank Repair 1st Hr": {
-				"handle": "tank_repair_first_hour",
-				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
-				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Repair 2nd Hr": {
-				"handle": "tank_repair_second_hour",
-				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
-				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-						
-			"Tank Project": {
-				"handle": "tank_project",
-				"label": "Tank Project Confirmation                                           Unavailable in SG",
-				"orderLabel": "Job (Tank Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Sink Poppy": {
-				"handle": "sink_poppy",
-				"label": "Sink Poppy",
-				"orderLabel": "Set (Sink Poppy)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-			
-			"Trouble Shoot": {
-				"handle": "trouble_shoot",
-				"label": "Trouble Shoot",
-				"orderLabel": "Job (Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			}
-		},
 		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-	
 	"locksmith": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
@@ -3750,222 +3966,7 @@
 		}
 	},
 
-	
-	
-	"tiling": {
-		"name": "Tiling & Concrete",
-		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "45.5",
-			"MYR": "137.5",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Non-Waterproof Min 1.5hrs": {
-				"handle": "nonwaterproof_min_order",
-				"label": "Non-Waterproof Tile Works - Min 1.5Hrs",
-				"orderLabel": "Hour (Non-Waterproof Tile Works - Min 1.5Hrs)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "100",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1.5,
-					"increment": 1.5,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			"Non-Waterproof 2nd Hour": {
-				"handle": "nonwaterproof_second_hour",
-				"label": "Non-Waterproof Tile Works - 2nd Hour or more",
-				"orderLabel": "Hour (Non-Waterproof Tile Works - 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "60",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
 		
-					
-			"Waterproof Empty House - 10ft2": {
-				"handle": "waterproof_empty_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 10ft2 Increment                                                  30, 40, 50 ... ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Empty House - In 10ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "35",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 30,
-					"base": 1
-				}
-			},
-			
-			"Waterproof Empty House - 1ft2": {
-				"handle": "waterproof_empty_house_1ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 1ft2 Increment                                          1, 2 ... 9ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Empty House - In 1ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "35",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 9,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			},
-			
-					
-			"Waterproof Occupied House - 10ft2": {
-				"handle": "waterproof_occupied_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Occupied House - 10ft2 Increment                                        30, 40, 50 ... ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 10ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "40",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 30,
-					"base": 1
-				}
-			},
-			
-			"Waterproof Occupied House - 1ft2": {
-				"handle": "waterproof_occupied_house_1ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Occupied House - 1ft2 Increment                                          1, 2 ... 9ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 1ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "40",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 9,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			},
-		
-						
-			"Project Survey": {
-				"handle": "tiling_project_survey",
-				"label": "Tiling Project Survey",
-				"orderLabel": "Trip (Tiling Project Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-          		"Tiling Project": {
-				"handle": "tiling_project",
-				"label": "Tiling Project Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tiling Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		},
-		
-		"types": {
-			"house": {
-				"label": "Location?",
-				"description": "Label standard",
-				"values": {
-					
-					"Standard Location": {
-						"label": "Standard Location",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					},
-					
-					"Distant Location": {
-						"label": "Distant Location",
-						"orderLabel": "Distant Location",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "30",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
-
-	
 		
 	"printer": {
 		"name": "Printer Ink",
