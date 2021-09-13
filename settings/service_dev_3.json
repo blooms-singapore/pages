@@ -3814,7 +3814,7 @@
 						
 			"Auto Gate Trouble Shoot": {
 				"handle": "autogate_trouble_shoot",
-				"label": "Auto-Gate Trouble Shoot ",
+				"label": "Auto-Gate Trouble Shoot",
 				"orderLabel": "Job (Auto-Gate Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -3875,7 +3875,7 @@
 			"Door Assess Trouble Shoot": {
 				"handle": "door_assess_trouble_shoot",
 				"label": "Door Assess Trouble Shoot",
-				"orderLabel": "Job (Door Assess Trouble Shoot) ,
+				"orderLabel": "Job (Door Assess Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
