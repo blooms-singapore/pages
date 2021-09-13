@@ -3891,6 +3891,27 @@
 					"base": 1,
 					"multiplier": 1
 				}
+			},
+			
+			"Door Assess Clone Card": {
+				"handle": "door_assess_clone_card",
+				"label": "Door Assess Clone Card",
+				"orderLabel": "Pc (Door Assess Clone Card)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Piece",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1,
+					"multiplier": 1
+				}
 			}
 		 },
 				
