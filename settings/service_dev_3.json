@@ -3812,95 +3812,95 @@
 			},
 			
 						
-			"Arm Gate": {
-				"handle": "arm_gate",
-				"label": "Arm Gate",
-				"orderLabel": "Job (Arm Gate)",
+			"Auto Gate Trouble Shoot": {
+				"handle": "autogate_trouble_shoot",
+				"label": "Auto-Gate Trouble Shoot ",
+				"orderLabel": "Job (Auto-Gate Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
 			},
 			
-			"Underground Gate": {
-				"handle": "underground_gate",
-				"label": "Underground Gate",
-				"orderLabel": "Job (Underground Gate)",
+			"CCTV Trouble Shoot": {
+				"handle": "cctv_trouble_shoot",
+				"label": "CCTV Trouble Shoot",
+				"orderLabel": "Job (CCTV Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "100",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
 			
-			"Sliding Gate": {
-				"handle": "sliding_gate",
-				"label": "Sliding Gate",
-				"orderLabel": "Job (Sliding Gate)",
+			"Alarm Trouble Shoot": {
+				"handle": "alarm_trouble_shoot",
+				"label": "Alarm Trouble Shoot",
+				"orderLabel": "Job (Alarm Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "120",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
 			
-			"CCTV": {
-				"handle": "cctv_servicing",
-				"label": "CCTV Servicing",
-				"orderLabel": "Channels (CCTV Servicing)                                          MYR20/Channel",
+			"Door Assess Trouble Shoot": {
+				"handle": "door_assess_trouble_shoot",
+				"label": "Door Assess Trouble Shoot",
+				"orderLabel": "Job (Door Assess Trouble Shoot) ,
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Channels",
+					"label": "Job",
 					"min": 0,
-					"max": 32,
-					"increment": 2,
-					"default": 2,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
 					"base": 1,
-					"multiplier": 2
+					"multiplier": 1
 				}
 			 },
 			
-			"Alarm Single Storey": {
-				"handle": "alarm_single_storey",
-				"label": "Single Storey House",
-				"orderLabel": "Job (Single Storey House)",
+			"Clone Card": {
+				"handle": "door_assess_clone_card",
+				"label": "Door Assess Clone Card",
+				"orderLabel": "Job (Door Assess Clone Card)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "25",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3911,27 +3911,7 @@
 					"default": 1,
 					"base": 1
 				}
-			 },
-			
-			"Alarm Double Storey": {
-				"handle": "alarm_double_storey",
-				"label": "Double Storey House",
-				"orderLabel": "Job (Double Storey House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "90",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 }		
+			 }
 		},
 		
 	    "types": {
