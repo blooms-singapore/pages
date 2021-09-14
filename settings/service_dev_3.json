@@ -1811,7 +1811,7 @@
 	"house_diagnosis": {
 		"name": "House Diagnosis",
 		"lastSlot": "14:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "535",
