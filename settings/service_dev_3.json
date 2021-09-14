@@ -295,7 +295,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "137.5",
@@ -510,7 +510,7 @@
 	"computer": {
 		"name": "Computer & Digital Entertainment",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "12",
 			"MYR": "23.50",
@@ -1811,7 +1811,7 @@
 	"house_diagnosis": {
 		"name": "House Diagnosis",
 		"lastSlot": "14:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "535",
@@ -2784,7 +2784,7 @@
 	"painting": {
 		"name": "Paint & Partition",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Kuala Lumpur", "Singapore"],
+		"disableLocations": ["Seremban", "Kuala Lumpur", "Singapore", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "61.5",
