@@ -3288,7 +3288,7 @@
 	"others": {
 		"name": "Others",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "90",
