@@ -49,21 +49,29 @@ layout: service
         <td>2nd Hour or more<br>(standard rate)</td>
         <td>${params.second_hour}/Hr</td>
       </tr>
-      
+     
+      <thead>
+      <tr>
+        <th><b>(B) Non-Standard<br>Plumbing</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
        <tr>
-         <td>Non-Standard<br>Plumbing Survey</td>
+         <td>Project Survey</td>
         <td>${params.plumbing_project_survey}/Trip<br>Waive upon<br>award of Job</td>
       </tr>
 
       <tr>
-       <td>Non-Standard<br>Plumbing Project</td>
+       <td>Project Confirmation</td>
         <td>Per Quotation</td>
         </tr>
     </tbody>
-
+      
+      
     <thead>
       <tr>
-        <th><b>(B) Water Tank</b></th>
+        <th><b>(C) Water Tank</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -100,7 +108,7 @@ layout: service
 
    <thead>
       <tr>
-        <th><b>(C) Other Products</b></th>
+        <th><b>(D) Other Products</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -113,7 +121,7 @@ layout: service
 
     <thead>
       <tr>
-        <th><b>(D) Other Charges</b></th>
+        <th><b>(E) Other Charges</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -132,12 +140,7 @@ layout: service
        <td>Material Picking Fee<br>(optional)</td>
         <td>45.0/Trip</td>
       </tr>
-      
-      <tr>
-       <td>Holiday Surcharge</td>
-        <td>50.0/Trip</td>
-      </tr>
-      
+           
       <tr>
         <td>Condo Surcharge</td>
         <td>10.0</td>
