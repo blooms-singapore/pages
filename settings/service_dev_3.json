@@ -2049,8 +2049,8 @@
 			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
-				"label": "Electrical Survey                                             Free",
-				"orderLabel": "Trip (Electrical Survey)",
+				"label": "Residential Electrical Survey                                             Free",
+				"orderLabel": "Trip (Residential Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2069,8 +2069,8 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Minor Electrical Work",
-				"orderLabel": "Hour (Minor Electrical Work)",
+				"label": "Residential Minor Electrical Work",
+				"orderLabel": "Hour (Residential Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -2089,8 +2089,8 @@
 			
 			"Major Electrical": {
 				"handle": "major_electrical",
-				"label": "Major Electrical Work Confirmation                                      Per Quotation",
-				"orderLabel": "Project (Major Electrical Work Confirmation)",
+				"label": "Residential Major Electrical Work Confirmation                                      Per Quotation",
+				"orderLabel": "Project (Residential Major Electrical Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2129,8 +2129,8 @@
 			
 			"Electrical Project Confirmation": {
 				"handle": "electrical_project",
-				"label": "Electrical Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Electrical Project Confirmation)",
+				"label": " Commercial Electrical Project Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Commercial Electrical Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
