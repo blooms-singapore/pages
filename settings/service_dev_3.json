@@ -4,7 +4,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "10",
+			"SGD": "55",
 			"MYR": "14",
 			"CNY": "50"
 		},
@@ -17,7 +17,7 @@
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "60",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -1326,7 +1326,7 @@
 		"name": "Installation",
 		"lastSlot": "15:00",
 		"startPrice": {
-			"SGD": "36",
+			"SGD": "45.5",
 			"MYR": "66.25",
 			"CNY": "150"
 		},
@@ -1340,7 +1340,7 @@
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "50",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -2001,6 +2001,7 @@
 				}
 			}
 		},
+		
 	    "types": {
 			"house": {
 				"label": "House Type",
@@ -2039,32 +2040,12 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "15",
+			"SGD": "45.5",
 			"MYR": "73",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			
-			"Transport": {
-				"handle": "electrical_transport",
-				"label": "Transport",
-				"orderLabel": "Trip (Transport)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			 },
 			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
@@ -2092,7 +2073,7 @@
 				"orderLabel": "Hour (Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "50",
 					"MYR": "85",
 					"CNY": "0"
 				},
@@ -2148,7 +2129,7 @@
 			
 			"Electrical Project Confirmation": {
 				"handle": "electrical_project",
-				"label": "Electrical Project Confirmation                                   Per Quotation",
+				"label": "Electrical Project Confirmation                                     Per Quotation",
 				"orderLabel": "Job (Electrical Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
@@ -2168,7 +2149,7 @@
 			
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking",
+				"label": "Emergency Booking                                                Unavailable in SG",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -2177,7 +2158,7 @@
 					"CNY": "0"
 				},
 				"cost_max": {
-					"SGD": "75",
+					"SGD": "0",
 					"MYR": "135",
 					"CNY": "0"
 				},
@@ -3906,9 +3887,9 @@
 				"quantity": {
 					"label": "Piece",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 1,
 					"base": 1,
 					"multiplier": 1
 				}
