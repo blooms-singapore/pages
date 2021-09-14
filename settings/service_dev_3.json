@@ -3954,7 +3954,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand. MOQ = MYR100",
-		"disableLocations": ["Serembaan" ,"Kuala Lumpur","Johor Bahru"],
+		"disableLocations": ["Serembaan" ,"Kuala Lumpur","Johor Bahru", "Singapore"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "100",
