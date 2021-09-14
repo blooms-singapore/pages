@@ -1916,7 +1916,7 @@
 	"carpentry": {
 		"name": "Carpentry",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "52",
@@ -2037,7 +2037,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "15",
 			"MYR": "73",
@@ -2228,7 +2228,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "14:30",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -2421,7 +2421,7 @@
 	"locksmith": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "52",
@@ -2658,7 +2658,7 @@
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban","Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban","Singapore","Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "85",
 			"MYR": "23.5",
@@ -2933,7 +2933,7 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -3099,7 +3099,7 @@
 	"curtain": {
 		"name": "Curtain Alteration",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "33",
@@ -3307,7 +3307,7 @@
 	"others": {
 		"name": "Others",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban","Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Seremban","Singapore", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "90",
