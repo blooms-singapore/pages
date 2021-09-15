@@ -3659,13 +3659,33 @@
 			 },
 			
 			
-			"Service Work": {
-				"handle": "door_service_work",
-				"label": "Service Work",
-				"orderLabel": "Hour (Service Work)",
+			"Service Work 1st Hr": {
+				"handle": "door_service_work_1st_hour",
+				"label": "Service Work 1st Hour",
+				"orderLabel": "Hour (Service Work 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			 },
+			
+			"Service Work 2nd Hr": {
+				"handle": "door_service_work_2nd_hour",
+				"label": "Service Work 2nd Hour or more",
+				"orderLabel": "Hour (Service Work 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
 					"MYR": "40",
 					"CNY": "0"
 				},
