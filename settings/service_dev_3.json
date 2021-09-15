@@ -3290,19 +3290,19 @@
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "45",
-			"MYR": "90",
+			"SGD": "20",
+			"MYR": "20",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			"Multi Service Survey": {
-				"handle": "others_multiservice_survey",
-				"label": "Multiple Services Survey",
-				"orderLabel": "Trip (Multiple Services Survey)",
+			"Survey": {
+				"handle": "others_service_survey",
+				"label": "Other Service Survey",
+				"orderLabel": "Trip (Other Service Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -3318,12 +3318,12 @@
 			
 			"Renovation Survey": {
 				"handle": "others_renovation_survey",
-				"label": "Retrofit or Renovation Survey",
-				"orderLabel": "Job (Retrofit or Renovation Survey)",
+				"label": "Renovation Survey                                                Unavailable in SG",
+				"orderLabel": "Job (Renovation Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "100",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
