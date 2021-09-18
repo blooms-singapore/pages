@@ -3296,10 +3296,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Survey": {
+			"Service Survey": {
 				"handle": "others_service_survey",
-				"label": "Other Service Survey",
-				"orderLabel": "Trip (Other Service Survey)",
+				"label": "Other or Multiple Service Survey",
+				"orderLabel": "Trip (Other or Muiltiple Service Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -3316,10 +3316,10 @@
 				}
 			},
 			
-			"Renovation Survey": {
-				"handle": "others_renovation_survey",
-				"label": "Renovation Survey                                                Unavailable in SG",
-				"orderLabel": "Job (Renovation Survey)",
+			"Renovation Project Survey": {
+				"handle": "others_project_survey",
+				"label": "Retrofit or Renovation Project Survey                                                Unavailable in SG",
+				"orderLabel": "Job (Retrofit or Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3336,10 +3336,10 @@
 				}
 			},
 			
-			"Project": {
+			"Project Confirmation": {
 				"handle": "others_project",
-				"label": "Project Order Confirmation                                       Per Quotation",
-				"orderLabel" : "Job (Project Order Confirmation)",
+				"label": "Retrofit or Renovation Project Confirmation                                           Per Quotation",
+				"orderLabel" : "Job (Retrofit or Renovation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
