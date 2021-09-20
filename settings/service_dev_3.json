@@ -430,10 +430,10 @@
 			},
 		
 						
-			"Project Survey": {
-				"handle": "tiling_project_survey",
-				"label": "Tiling Project Survey",
-				"orderLabel": "Trip (Tiling Project Survey)",
+			"Tiling Survey": {
+				"handle": "tiling_survey",
+				"label": "Survey",
+				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -452,8 +452,8 @@
 
           		"Tiling Project": {
 				"handle": "tiling_project",
-				"label": "Tiling Project Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tiling Project Confirmation)",
+				"label": "Project Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
