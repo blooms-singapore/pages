@@ -405,7 +405,7 @@
 			
 			"Sink Poppy": {
 				"handle": "sink_poppy",
-				"label": "Sink Poppy",
+				"label": "Sink Poppy                                             Available only in JB",
 				"orderLabel": "Set (Sink Poppy)",
 				"description": "Label standard",
 				"cost": {
