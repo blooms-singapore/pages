@@ -1708,10 +1708,10 @@
 				}
 			},
 			
-			"Standard Wash Studio & 1BR": {
+			"Studio & 1BR": {
 				"handle": "aircon_studio_hour",
-				"label": "Wall-Mount Standard Wash - Studio, 1BR Apt",
-				"orderLabel": "Job (Wall-Mount Standard Wash - Studio, 1BR Apt)",
+				"label": "Wall-Mount - Studio, 1BR Apt",
+				"orderLabel": "Unit (Wall-Mount - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -1719,7 +1719,7 @@
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Unit",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
