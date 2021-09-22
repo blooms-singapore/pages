@@ -1687,26 +1687,6 @@
 		},
 		"hasNote": 1,
 		"options": {
-													
-			"Standard Wash": {
-				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash                                       Minimum Booking 1Hr",
-				"orderLabel": "Hour (Wall-Mount Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
 			
 			"Studio & 1BR": {
 				"handle": "aircon_studio_hour",
@@ -1727,7 +1707,28 @@
 					"base": 60
 				}
 			},
+													
+			"Standard Wash": {
+				"handle": "aircon_standard_hour",
+				"label": "Wall-Mount Standard Wash                                       Minimum Booking 1Hr",
+				"orderLabel": "Hour (Wall-Mount Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
 			
+					
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
 				"label": "Wall-Mount Chemical Overhaul",
