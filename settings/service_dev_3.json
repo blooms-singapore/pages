@@ -1690,7 +1690,7 @@
 			
 										
 			"Standard Wash": {
-				"handle": "malaysia_sw",
+				"handle": "aircon_standard_hour",
 				"label": "Wall-Mount Standard Wash                                       Minimum Booking 1Hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash)",
 				"description": "Label standard",
@@ -1710,13 +1710,13 @@
 			},
 			
 			"Standard Wash Studio & 1BR": {
-				"handle": "min_order",
+				"handle": "aircon_studio_hour",
 				"label": "Wall-Mount Standard Wash - Studio, 1BR Apt",
 				"orderLabel": "Job (Wall-Mount Standard Wash - Studio, 1BR Apt)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "60",
+					"SGD": "80",
+					"MYR": "120",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1730,7 +1730,7 @@
 			},
 			
 			"Chemical Overhaul": {
-				"handle": "malaysia_cw",
+				"handle": "aircon_chemical_wash",
 				"label": "Wall-Mount Chemical Overhaul",
 				"orderLabel": "Hour (Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
