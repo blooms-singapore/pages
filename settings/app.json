@@ -16,8 +16,8 @@
   "referralLimit": 5,
   "referralDiscount": 5,
   "discounts": {
-    "SGD": 2,
-    "MYR": 5,
+    "SGD": 0,
+    "MYR": 0,
     "CNY": 12
   },
   "timeBuffer":900,
