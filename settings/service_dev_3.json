@@ -1804,7 +1804,7 @@
 			
 			"AC Water Leak": {
 				"handle": "aircon_water_leak",
-				"label": "Water Leak - min 1Hr booking",
+				"label": "Water Leak - Minimum Booking 1Hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
 				"cost": {
