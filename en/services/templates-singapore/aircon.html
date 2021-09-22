@@ -30,8 +30,10 @@ layout: service
   <label for="collapsible2" class="lbl-toggle">Q2 Why does Blooms charge Aircon washes by time?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>It is cheaper, transparent and consistent. Customers pay one price, regardless of Aircon sizes (horsepower).
-   <br><br>There is more flexibility for Customers, if they want to add or reduce workscope on the spot, and only pay for time use.</p>
+   <p>It is cheaper, transparent and consistent. Customers pay one price, regardless of Aircon sizes (horsepower) and Service type.
+   <br><br>There is more flexibility for Customers, if they want to add, reduce or combine different tasks on the spot, and only pay for time use.
+  <br><br>For example:
+   <br><br>Customer can order Standard Wash for 2 units, Chemical Overhaul 1 unit, Check and address water leak in 2 units etc. Blooms will charge for the total time used to execute all these tasks, at the fix rate SGD80/Hr</p>
    </div>
    </div>
 
@@ -58,6 +60,14 @@ layout: service
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select Aircon Survey when in doubt. Upload photos and write your issues in our comment box.<br><br>Our Customer Care will follow up with you.</p>
+   </div>
+   </div>
+   
+  <input id="collapsible6" class="toggle" type="checkbox">
+  <label for="collapsible6" class="lbl-toggle">Q6 What is the Start Price of SGD76?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>It is the minimum fee for Aicron Service. Our Service work minimum duration is 1 hour, which is SGD80.<br><br>If Customer have a 5% discount coupon code, it works out to be SGD76.</p>
    </div>
    </div>
  
@@ -125,31 +135,31 @@ layout: service
       <tr>
         <td><b>For Standard Condo<br>& Landed House</b>
         <br><br>Wash 2 to 3 units</td>
-        <td>${params.malaysia_sw}
+        <td>${params.aircon_standard_hour}
         <p>Book 1.0Hr</td>
       </tr>
       
       <tr>
         <td>Wash 4 to 5 units</td>
-        <td>${(params.malaysia_sw * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal-->
+        <td>${(params.aircon_standard_hour * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal-->
        <p>Book 1.5Hrs</td>
       </tr>
       
       <tr>
         <td>Wash 6 units</td>
-        <td>${(params.malaysia_sw * 2).toFixed(1)}
+        <td>${(params.aircon_standard_hour * 2).toFixed(1)}
         <p>Book 2.0Hrs</td>
       </tr>
        <tr>
         <td>Wash 7 units</td>
-        <td>${(params.malaysia_sw * 2.5).toFixed(1)}
+        <td>${(params.aircon_standard_hour * 2.5).toFixed(1)}
         <p>Book 2.5Hrs</td>
       </tr>
       
        <tr>
-        <td><b>Very Small Apartment<br> Studio or 1BR Only</b>
-        <br><br>1 unit + <br>Clear Drain Pipe</td>
-        <td>${params.min_order}<br>Book 1 Job</td>
+        <td><b>Very Small Apartment<br>Studio or 1BR Only</b>
+        <br><br>1 unit<br>Standard Wash unavailable</td>
+        <td>Book Chemical Ovehaul</td>
       </tr>
      </tbody>
     
