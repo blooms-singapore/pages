@@ -25,7 +25,7 @@ layout: service
 <div class="service-info">
 <div class="pricing">
 <table style="width:100%">
-<h5 class="service-title">AC BOOKING VIDEO CLIP</h5>
+<h5 class="service-title">AC BOOKING VIDEO</h5>
 <table> 
  <tr>
   <th><a class="btn" href="https://youtu.be/F8hZxG-1E4w">English</a></th>
@@ -36,11 +36,10 @@ layout: service
 </div>
 </div>
 
-  
-<!--General FAQs-->
+  <!--FAQs-->
 <div class="divider"></div>
 <div class="gap">
-  <h5 class="service-title">FAQs</h5>
+<h5 class="service-title">FAQs</h5>
     
   <div class="wrap-collapsible">
   <input id="collapsible1" class="toggle" type="checkbox">
@@ -52,11 +51,19 @@ layout: service
    </div>
 
   <input id="collapsible2" class="toggle" type="checkbox">
-  <label for="collapsible2" class="lbl-toggle">Q2 Why does Blooms charge Aircon washes by time?</label>
+  <label for="collapsible2" class="lbl-toggle">Q2 Why does Blooms charge by time?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>It is cheaper, transparent and consistent. Customers pay one price, regardless of Aircon sizes (horsepower).
-   <br><br>There is more flexibility for Customers, if they want to add or reduce workscope on the spot, and only pay for time use.</p>
+   <p>It is cheaper, flexible & price transparent.
+    <br><br>Customers pay one fix hourly price - SGD${params.aircon_standard_hour}/Hr, regardless of Aircon sizes (horsepower) and Service types.
+   <br><br>You can add or combine different tasks, and only pay for the total time use.
+   <br><br>Example:
+     <ul>
+     <li>Standard Wash 2 units - 1 hour.</li>
+     <li>Chemical Wash 1 unit - 1 hour.</li>
+     <li>Check and address water leak - additional time.</li>
+     <li>Total duration is 2 hours 15 mins. Blooms charges 2.5 hours, ie. SGD200.
+   </ul></p>
    </div>
    </div>
 
@@ -73,7 +80,7 @@ layout: service
   <div class="collapsible-content">
   <div class="content-inner">
   <p>Aircon Survey is free of charge. Our crews are there to understand the requirements of customers, such as where to install/relocate the AC, or which AC to be dismantled etc. 
-   <br><br>Trouble-Shooting is chargeable at <b>RM${params.aircon_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
+   <br><br>Trouble-Shooting is chargeable at <b>SGD${params.aircon_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
    <br><br>This fee will be waived if customers choose to proceed with the repair.</p>
    </div>
    </div>
@@ -85,9 +92,17 @@ layout: service
    <p>Select Aircon Survey when in doubt. Upload photos and write your issues in our comment box.<br><br>Our Customer Care will follow up with you.</p>
    </div>
    </div>
- 
+   
   <input id="collapsible6" class="toggle" type="checkbox">
-  <label for="collapsible6" class="lbl-toggle">Q6 How does Blooms charge for time extensions?</label>
+  <label for="collapsible6" class="lbl-toggle">Q6 What is the Start Price of SGD76?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>It is the minimum fee for Aicron Service. Our Service work minimum duration is 1 hour, which is SGD${params.aircon_standard_hour}.<br><br>If Customer have a 5% discount coupon code, it works out to be SGD76.</p>
+   </div>
+   </div>
+ 
+  <input id="collapsible7" class="toggle" type="checkbox">
+  <label for="collapsible7" class="lbl-toggle">Q7 How does Blooms charge for time extensions?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Blooms charges by actual service time, at 30-min blocks. For example, if our crews takes 1hr 10 mins to complete the job, Blooms will charge 1.5hrs.
@@ -95,8 +110,8 @@ layout: service
    </div>
    </div>
  
-  <input id="collapsible7" class="toggle" type="checkbox">
-  <label for="collapsible7" class="lbl-toggle">Q7 Is Credit Card payment safe?</label>
+  <input id="collapsible8" class="toggle" type="checkbox">
+  <label for="collapsible8" class="lbl-toggle">Q8 Is Credit Card payment safe?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes, very safe.<br><br>Blooms cannot assess card details and every transcastion is tracked digitally.</p>
@@ -104,24 +119,24 @@ layout: service
    </div>
 
     
-  <input id="collapsible8" class="toggle" type="checkbox">
-  <label for="collapsible8" class="lbl-toggle">Q8 When am I charged when using Credit Card as payment?</label>
+  <input id="collapsible9" class="toggle" type="checkbox">
+  <label for="collapsible9" class="lbl-toggle">Q9 When am I charged when using Credit Card as payment?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service first, Pay later.<br><br>Blooms charges upon completion of work, after issuance of receipt. Not at the point of placing Order.</p>
    </div>
    </div>
 
-  <input id="collapsible9" class="toggle" type="checkbox">
-  <label for="collapsible9" class="lbl-toggle">Q9 Can I book for someone else?</label>
+  <input id="collapsible10" class="toggle" type="checkbox">
+  <label for="collapsible10" class="lbl-toggle">Q10 Can I book for someone else?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes. Add their address, in your account and book choosing their address.<br><br>You have to pay for them as the Service is booked under your account.</p>
    </div>
    </div>
       
-  <input id="collapsible10" class="toggle" type="checkbox">
-  <label for="collapsible10" class="lbl-toggle">Q10 How do I cancel a Service?</label>
+  <input id="collapsible11" class="toggle" type="checkbox">
+  <label for="collapsible11" class="lbl-toggle">Q11 How do I cancel a Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service date which is <b>more than 3 days</b> into the future, use the <b>Cancel</b> button at the bottom of Order Confirmation page.
