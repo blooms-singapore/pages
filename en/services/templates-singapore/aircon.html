@@ -30,17 +30,16 @@ layout: service
   <label for="collapsible2" class="lbl-toggle">Q2 Why does Blooms charge Aircon washes by time?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>It is cheaper, transparent and consistent. Customers pay one price, regardless of Aircon sizes (horsepower) and Service types.
-   <br><br>There is more flexibility for Customers, if they want to add, reduce or combine different tasks on the spot, and only pay for total time use.
+   <p>It is cheaper & more transparent. Customers pay one hourly price - SGD${params.aircon_standard_hour}/Hr, regardless of Aircon sizes (horsepower) and Service types.
+   <br><br>There is flexibility for Customers, if they want to add or combine different tasks, and only pay for the total time use.
   <br><br>For example:
-   <br><br>Customer can order Standard Wash for 2 units, Chemical Overhaul 1 unit, Check and address water leak in the same or other 2 units etc.
-    <br><br>Blooms only charge for the total time used to execute all these tasks, at the fix rate SGD${params.aircon_standard_hour}/Hr. There are some guidelines for the time required to execute standard tasks, so customers can gauge their expenses.
-    <ul>
+   <br><br>Customer can order:
+     <ul>
      <li>Standard Wash 2 units - 1 hour,</li>
      <li>Chemical Wash 1 unit - 1 hour,</li>
      <li>Check and address water leak - additional time. Non standard task and it depends on the complexity of the issue.</li>
      <li>Total duration is probably 2 hours, 20mins. Blooms charges 2.5 hours, ie SGD200.
-   </p>
+   </ul></p>
    </div>
    </div>
 
@@ -179,27 +178,27 @@ layout: service
     <tbody>
       <tr>
         <td>Overhaul 1 unit</td>
-        <td>${params.malaysia_cw}<br>Book 1Hr</td>
+        <td>${params.aircon_standard_hour}<br>Book 1Hr</td>
       </tr>
       <tr>
         <td>Overhaul 2 units</td>
-        <td>${(params.malaysia_cw * 2).toFixed(1)}<br>Book 2Hrs</td>
+        <td>${(params.aircon_standard_hour * 2).toFixed(1)}<br>Book 2Hrs</td>
       </tr>
       <tr>
         <td>Overhaul 3 units</td>
-        <td>${(params.malaysia_cw * 3).toFixed(1)}<br>Book 2.5Hrs</td>
+        <td>${(params.aircon_standard_hour * 3).toFixed(1)}<br>Book 2.5Hrs</td>
       </tr>
       <tr>
         <td>Overhaul 4 units</td>
-        <td>${(params.malaysia_cw * 4).toFixed(1)}<br>Book 3.5Hrs</td><!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
+        <td>${(params.aircon_standard_hour * 4).toFixed(1)}<br>Book 3.5Hrs</td><!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
       </tr>
       <tr>
         <td>Overhaul 5 units</td>
-        <td>${(params.malaysia_cw * 4.5).toFixed(1)}<br>Book 4.5Hrs</td><!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
+        <td>${(params.aircon_standard_hour * 4.5).toFixed(1)}<br>Book 4.5Hrs</td><!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
       </tr>
       <tr>
         <td>Overhaul 6 units</td>
-        <td>${(params.malaysia_cw * 5.5).toFixed(1)}<br>Book 5Hrs</td><!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
+        <td>${(params.aircon_standard_hour * 5.5).toFixed(1)}<br>Book 5Hrs</td><!--<td>${(params.malaysia_cw * 4).toFixed(0)}-->
       </tr>
       <tr>
         <td>Coolant Gas Top-Up
