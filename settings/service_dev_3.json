@@ -3682,9 +3682,9 @@
 			
 			
 			"Inspection": {
-				"handle": "inspection",
-				"label": "Vehicle Inspection",
-				"orderLabel": "Job (Vehicle Inspection)",
+				"handle": "runner_inspection",
+				"label": "Vehicle Inspection Crew",
+				"orderLabel": "Job (Vehicle Inspection Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
