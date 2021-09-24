@@ -3681,7 +3681,7 @@
 			 },
 			
 			
-			"Inspection": {
+		"Vehicle Inspection": {
 				"handle": "runner_inspection",
 				"label": "Vehicle Inspection Crew",
 				"orderLabel": "Job (Vehicle Inspection Crew)",
