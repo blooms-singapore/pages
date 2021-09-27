@@ -2990,7 +2990,7 @@
 			"Paint Day": {
 				"handle": "painting_day",
 				"label": "Service Rate Day",
-				"orderLabel": "Hour (Service Rate Day)",
+				"orderLabel": "Day (Service Rate Day)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -2998,7 +2998,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Day",
 					"min": 0,
 					"max": 0,
 					"increment": 0.5,
