@@ -2443,7 +2443,7 @@
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 3,
+					"min": 0,
 					"max": 6,
 					"increment": 0.5,
 					"default": 3,
