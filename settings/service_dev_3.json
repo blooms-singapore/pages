@@ -2411,7 +2411,7 @@
 				}
 			},
 			
-			">=2nd Hr cutting": {
+			"2nd Hr cutting": {
 				"handle": "second_or_more_hr",
 				"label": "2nd Hour & more",
 				"orderLabel": "Hour (2nd Hour & more)",
@@ -2431,10 +2431,30 @@
 				}
 			},
 			
+			"Garden Maintenance": {
+				"handle": "landscape_garden_maintenance_hour",
+				"label": "Gardern Maintenance Hourly Rate                                                Min 3 Hours",
+				"orderLabel": "Hour (Gardern Maintenance Hourly Rate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "80",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 3,
+					"max": 6,
+					"increment": 0.5,
+					"default": 3,
+					"base": 1
+				}
+			},
+			
 			"Small Debri": {
 				"handle": "small_debri",
-				"label": "Small Debri Disposal <=3 Bags",
-				"orderLabel": "Job (Small Debri Disposal)",
+				"label": "Small Disposal Fee                                        <= 3 Bags",
+				"orderLabel": "Job (Small Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -2454,7 +2474,7 @@
 			
 			"Big Debri": {
 				"handle": "big_debri",
-				"label": "Big Disposal Fee",
+				"label": "Big Disposal Fee                                  4 Bags or more",
 				"orderLabel": "Job (Big Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -2472,6 +2492,27 @@
 					"multiplier": 1
 				}
 			},
+			
+			"Disposal by Lorry": {
+				"handle": "landscape_disposal_by_lorry",
+				"label": "Disposal by Lorry",
+				"orderLabel": "Job (Disposal by Lorry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 2,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
 			
 			"survey": {
 				"handle": "survey",
@@ -2513,28 +2554,6 @@
 					"base": 1,
 					"multiplier": 1
 				}
-			 },
-			
-			
-			"Disposal by Lorry": {
-				"handle": "landscape-disposal-by-lorry",
-				"label": "Disposal by Lorry",
-				"orderLabel": "Job (Disposal by Lorry)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "130",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 2,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
 			 }
 		},
 		
@@ -2544,7 +2563,8 @@
 				"description": "Label standard",
 				"values": {
 					"landed": {
-						"label": "Landed House",
+						"label": "Standard Locations",
+						"orderLabel": "Standard Locations",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2553,8 +2573,8 @@
 						},
 						
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Distant Locations",
+						"orderLabel": "Distant Locations",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2562,7 +2582,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "20",
 							"CNY": "10"
 						}
 					}
