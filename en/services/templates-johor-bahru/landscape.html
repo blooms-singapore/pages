@@ -168,7 +168,7 @@ layout: service
   <table>
     <thead>
       <tr>
-       <th><b>Cutting &<br>Trimming</b></th>
+       <th><b>1 Crew<br>Cutting & Trimming</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -182,20 +182,46 @@ layout: service
         <td>2nd Hour or more<br>Standard Rate</td>
         <td>${params.second_or_more_hr}/Hr</td>
       </tr>
-     
+    </tbody>
+  
+    <thead>
+      <tr>
+       <th><b>2 Crews<br>Gardern Maintenance</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>      
+      <tr>
+        <td>Hourly Rate<br>Min 3 Hours</td>
+        <td>${params.landscape_2crew_hour}/Hr</td>
+      </tr>
+    </tbody>
+    
+     <thead>
+      <tr>
+       <th><b>Debri Disposal</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>      
      <tr>
        <td>Small Disposal Fee<br> Up to 3 bags</td>
         <td>${params.small_debri}/Job</td>
       </tr>
         
       <tr>
-       <td>Big Disposal Fee<br>more than 3 bags</td>
+       <td>Big Disposal Fee<br>More than 3 Bags</td>
         <td>${params.big_debri}/Job</td>
+      </tr>
+      
+       <tr>
+       <td>Disposal by Lorry<br></td>
+        <td>130.0/Lorry</td>
       </tr>
      
     <thead>
       <tr>
-       <th><b>Clearance Project</b></th>
+       <th><b>Overgrown Clearance<br>Project</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -204,18 +230,13 @@ layout: service
         <td>Site Survey</td>
         <td>Free</td>
       </tr>
-      
       <tr>
         <td>Project Confirmation</td>
         <td>Per Quotation</td>
       </tr>
-      
-      <tr>
-       <td>Disposal by Lorry Fee<br></td>
-        <td>130.0/Lorry</td>
-      </tr>
       </tbody>
-      <thead>
+      
+    <thead>
       <tr>
        <th><b>Other Charges</b></th>
        <th><b>Pricing (${params.currency})</b></th>
@@ -223,11 +244,15 @@ layout: service
     </thead>
     <tbody>      
       <tr>
-        <td>Cut & Trim<br>Service Extension<br>(Optional)</td>
-        <td>20.0<br>per 30-min block</td>
+        <td>1 Crew Cut & Trim<br>Service Extension<br>(Optional)</td>
+        <td>15.0<br>per 30-min block</td>
+      </tr>
+       <tr>
+        <td>2 Crews Garden Maintenance<br>Service Extension<br>(Optional)</td>
+        <td>40<br>per 30-min block</td>
       </tr>
       <tr>
-       <td>Outside JB<br>Transport Charges<br><br>Scroll Below<br>for Locations</td>
+       <td>Distant Locations<br>Transport Charges<br><br>Scroll Below<br>for Locations</td>
        <td>20.0/Trip</td>
       </tr>      
       <tr>
@@ -254,7 +279,7 @@ layout: service
 <div class="gap">
   <div class="service-info">
    <h5 class="service-title">OTHER CHARGES INFO</h5>
-   <h6 class="service-title">Distant Location Charge @ MYR20</h6>
+   <h6 class="service-title">Distant Locations Transport Charge @ MYR20</h6>
    <p><ul>
      <li>Permas Jaya.</li>
      <li>Masai.</li>
