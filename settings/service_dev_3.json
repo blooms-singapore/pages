@@ -2474,19 +2474,19 @@
 			
 			"Big Debri": {
 				"handle": "big_debri",
-				"label": "Big Disposal Fee                                  4 Bags or more",
-				"orderLabel": "Job (Big Disposal Fee)",
+				"label": "Big Disposal Fee                                 4 Bags or more",
+				"orderLabel": "Bags (Big Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "40",
+					"MYR": "10",
 					"CNY": "20"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Bags",
 					"min": 0,
-					"max": 1,
-					"default": 0,
+					"max": 0,
+					"default": 4,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
