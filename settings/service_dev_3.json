@@ -2392,7 +2392,7 @@
 		"hasNote": 1,
 		"options": {
 			"1st Hr cutting": {
-				"handle": "first_hr_cutting",
+				"handle": "landscape_first_hour",
 				"label": "1st Hour",
 				"orderLabel": "Hour (1st Hour)",
 				"description": "Label standard",
@@ -2412,7 +2412,7 @@
 			},
 			
 			"2nd Hr cutting": {
-				"handle": "second_or_more_hr",
+				"handle": "landscape_second_hour_or_more",
 				"label": "2nd Hour & more",
 				"orderLabel": "Hour (2nd Hour & more)",
 				"description": "Label standard",
