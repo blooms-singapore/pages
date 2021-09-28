@@ -2433,8 +2433,8 @@
 			
 			"Garden Maintenance": {
 				"handle": "landscape_garden_maintenance_hour",
-				"label": "Garden Maintenance Hourly Rate                                                Min 3 Hours",
-				"orderLabel": "Hour (Garden Maintenance Hourly Rate)",
+				"label": "2 Crews - Garden Maintenance Hourly Rate                                        Min 3 Hours",
+				"orderLabel": "Hour (2 Crews - Garden Maintenance Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
