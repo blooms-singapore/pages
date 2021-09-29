@@ -2382,7 +2382,7 @@
 		
 	"landscape": {
 		"name": "Landscape",
-		"lastSlot": "14:30",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
