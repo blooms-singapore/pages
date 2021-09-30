@@ -2844,8 +2844,8 @@
 			
 			"Survey JB": {
 				"handle": "survey",
-				"label": "Site Survey (JB Area)                                             Free",
-				"orderLabel": "Trip (Site Survey (JB Area))",
+				"label": "Site Survey (Standard Locations)                                          Free",
+				"orderLabel": "Trip (Standard Locations)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2864,8 +2864,8 @@
 			
 		"Survey Outside JB": {
 				"handle": "outside_jb",
-				"label": "Site Survey (Outside JB)                                          RM30/Trip",
-				"orderLabel": "Trip (Site Survey (Outside JB Area))",
+				"label": "Site Survey (Distant Locations)                                          RM30/Trip",
+				"orderLabel": "Trip (Site Survey (Distant Locations)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
