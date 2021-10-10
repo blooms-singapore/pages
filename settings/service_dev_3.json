@@ -263,10 +263,10 @@
 				}
 			},
 			
-			"Non-Standard Plumbing Project": {
-				"handle": "plumbing_project",
-				"label": "Non-Standard Plumbing Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Non-Standard Plumbing Confirmation)",
+			"Other Plumbing Confirmation": {
+				"handle": "plumbing_other_plumbing_confirmation",
+				"label": "Other Plumbing Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Other Plumbing Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
