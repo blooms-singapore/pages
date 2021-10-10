@@ -1,8 +1,8 @@
 {
   "iosVersion": 1.35,
   "androidVersion": 7.0,
-  "iosDownload": "https://link.blooms.sg/ios",
-  "androidDownload": "https://link.blooms.sg/android",
+  "iosDownload": "https://www.blooms.my",
+  "androidDownload": "https://www.blooms.my",
   "devicesUrl": "https://pages.blooms.sg/en/pages/news.html",
   "homeTitle": "Choose a home service",
   "promptAddress": "To proceed with booking, please register your address, contact name and phone number.",
