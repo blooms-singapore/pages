@@ -3025,7 +3025,7 @@
 	
 	"painting": {
 		"name": "Paint & Partition",
-		"lastSlot": "15:00",
+		"lastSlot": "14:00",
 		"disableLocations": ["Seremban", "Kuala Lumpur", "Singapore"],
 		"startPrice": {
 			"SGD": "30",
