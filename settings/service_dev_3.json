@@ -3034,47 +3034,6 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Hourly Service": {
-				"handle": "painting_hourly_service",
-				"label": "Hourly Painting                                         Min 3 Hrs",
-				"orderLabel": "Hour (Hourly Painting)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 180,
-					"base": 60
-				}
-			},
-			
-						
-			"Paint Day": {
-				"handle": "painting_day",
-				"label": "Daily Painting",
-				"orderLabel": "Day (Daily Painting)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "350",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
 			"Survey": {
 				"handle" : "my_survey",
 				"label": "Survey                                             Free",
@@ -3095,6 +3054,47 @@
 				}
 			},
 			
+			"Hourly Service": {
+				"handle": "painting_hourly_service",
+				"label": "Hourly Painting                                         Min 3 Hrs",
+				"orderLabel": "Hour (Hourly Painting)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "60",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 180,
+					"base": 60
+				}
+			},
+									
+			"Paint Day": {
+				"handle": "painting_day",
+				"label": "Daily Painting",
+				"orderLabel": "Day (Daily Painting)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "350",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Day",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+						
 		  	"Paint Project": {
 		  		"handle": "paint_project",
 				"label": "Paint Project Confirmation                                            Per Quotation",
