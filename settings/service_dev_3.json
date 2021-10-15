@@ -701,7 +701,7 @@
 	
 	"computer": {
 		"name": "Computer & Digital Entertainment",
-		"lastSlot": "18:30",
+		"lastSlot": "16:30",
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "12",
