@@ -2716,10 +2716,10 @@
 				}
 			},
 	
-			"Project": {
+			"Maintenance Project": {
 				"handle": "project",
-				"label": "Landscape Project Confirmation                                    Per Quotation",
-				"orderLabel": "Job (Landscape Project Confirmation)",
+				"label": "Maintenance Project Confirmation                                    Per Quotation",
+				"orderLabel": "Job (Maintenance Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
