@@ -2379,14 +2379,34 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Electrical Survey": {
-				"handle": "electrical_survey",
-				"label": "Residential Electrical Survey                                             Free",
-				"orderLabel": "Trip (Residential Electrical Survey)",
+			"Electrical Survey JB": {
+				"handle": "electrical_survey_jb",
+				"label": "JB Residential Electrical Survey",
+				"orderLabel": "Trip (JB Residential Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Electrical Survey KL": {
+				"handle": "electrical_survey_kl",
+				"label": "KL Residential Electrical Survey",
+				"orderLabel": "Trip (KL Residential Electrical Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "33",
 					"CNY": "0"
 				},
 				"quantity": {
