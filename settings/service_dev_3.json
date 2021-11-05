@@ -2399,25 +2399,7 @@
 				}
 			},
 			
-			"Electrical Survey KL": {
-				"handle": "electrical_survey_kl",
-				"label": "KL Residential Electrical Survey",
-				"orderLabel": "Trip (KL Residential Electrical Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "33",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
+			
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
