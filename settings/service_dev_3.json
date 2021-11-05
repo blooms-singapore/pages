@@ -2381,8 +2381,8 @@
 			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
-				"label": "Residential Electrical Survey",
-				"orderLabel": "Trip (Residential Electrical Survey)",
+				"label": "Electrical Survey",
+				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2421,10 +2421,10 @@
 				}
 			},
 			
-			"Major Electrical": {
+			"Major Electrical project Confirmation": {
 				"handle": "major_electrical",
-				"label": "Residential Major Electrical Work Confirmation                                      Per Quotation",
-				"orderLabel": "Project (Residential Major Electrical Work Confirmation)",
+				"label": "Major Electrical project Confirmation                                      Per Quotation",
+				"orderLabel": "Project (Major Electrical Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2441,46 +2441,7 @@
 				}
 			},
 			
-			"Commercial Survey": {
-				"handle": "electrical_commercial_survey",
-				"label": "Commercial Survey",
-				"orderLabel": "Trip (Commercial Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "25",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Electrical Project Confirmation": {
-				"handle": "electrical_project",
-				"label": "Commercial Electrical Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Commercial Electrical Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
+				
 			"Emergency": {
 				"handle": "emergency",
 				"label": "Emergency Booking                                                Unavailable in SG",
