@@ -2379,14 +2379,14 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Electrical Survey JB": {
-				"handle": "electrical_survey_jb",
-				"label": "JB Residential Electrical Survey",
-				"orderLabel": "Trip (JB Residential Electrical Survey)",
+			"Electrical Survey": {
+				"handle": "electrical_survey",
+				"label": "Residential Electrical Survey",
+				"orderLabel": "Trip (Residential Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "33",
 					"CNY": "0"
 				},
 				"quantity": {
