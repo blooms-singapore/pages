@@ -1741,13 +1741,13 @@
 				}
 			},
 			"Site Survey": {
-				"handle": "site_survey",
-				"label": "Site Survey                                         Free",
+				"handle": "installation_site_survey",
+				"label": "Site Survey",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
