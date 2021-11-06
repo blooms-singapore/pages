@@ -1,5 +1,786 @@
 {
 	
+	"cleaning": {
+		"name": "Sanitize & Cleaning",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "40",
+			"MYR": "95",
+			"CNY": "195"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			 "A333": {
+				"handle": "basic_antimicrobial_shield",
+				"label": "A333 Basic Antimicrobial Shield                                           MYR30/Unit",
+				"displayLabel": "A333 Basic Antimicrobial Shield",
+				"orderLabel": "Unit (A333 Basic Antimicrobial Shield)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+															
+			
+			"Std Clean Condo": {
+				"handle": "standard_condo",
+				"label": "Standard Clean Condo                                               MYR40/Hr",
+				"displayLabel": "Standard Clean Condo",
+				"orderLabel": "Hours (Standard Clean Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 150,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Std Clean Landed House": {
+				"handle": "standard_landed_house",
+				"label": "Standard Clean Landed House                                               MYR40/Hr",
+				"displayLabel": "Standard Clean Landed House",
+				"orderLabel": "Hours (Standar Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+          
+			"Festive Very Small Condo": {
+				"handle": "festive_small_condo",
+				"label": "Festive Clean Very Small Condo                                           MYR100/Unit",
+				"displayLabel": "Festive Clean Very Small Condo",
+				"orderLabel": "Unit (Festive Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "100",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Festive Std Condo": {
+				"handle": "festive_big",
+				"label": "Festive Clean Condo                                                 MYR45/Hr",
+				"displayLabel": "Festive Clean Condo",
+				"orderLabel": "Hours (Festive Clean Std Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 210,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Festive Landed House": {
+				"handle": "festive_big",
+				"label": "Festive Clean Landed House                                                        MYR45/Hr",
+				"displayLabel": "Festive Clean Landed House",
+				"orderLabel": "Hours (Festive Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 300,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Very Small Condo": {
+				"handle": "reno_small_condo",
+				"label": "Renovation Clean Very Small Condo                                        4 to 5 Hours",
+				"displayLabel": "Renovation Clean Very Small Condo",
+				"orderLabel": "Hour (Renovation Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "44",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 5,
+					"default": 5,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Standard House": {
+				"handle": "reno_standard_house",
+				"label": "Renovation Clean 1-Storey House or Condo                                                MYR55/Hr",
+				"displayLabel": "Renovation Clean 1-Storey House or Condo",
+				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "55",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 360,
+					"increment": 60,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Big House": {
+				"handle": "reno_big_house",
+				"label": "Renovation Clean Big House                                                   MYR500/Day",
+				"displayLabel": "Renovation Clean Big House",
+				"orderLabel": "Day (Renovation Clean Big House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "500",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Day",
+					"min": 0,
+					"max": 2,
+					"default": 1,
+					"increment": 0.5,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+						
+			"Move Very Small Condo": {
+				"handle": "move_small_condo",
+				"label": "Move Clean Very Small Condo                                                    MYR100/Unit",
+				"displayLabel": "Move Clean Very Small Condo",
+				"orderLabel": "Unit (Move Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "100",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Move Condo": {
+				"handle": "move_condo",
+				"label": "Move Clean Condo                                                   MYR45/Hr",
+				"displayLabel": "Move Clean Condo",
+				"orderLabel": "Hours (Move Clean Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Move Landed": {
+				"handle": "move_landed",
+				"label": "Move Clean Landed House                                            MYR45/Hr",
+				"displayLabel": "Move Clean Landed House",
+				"orderLabel": "Hours (Move Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 300,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Project Survey": {
+				"handle": "cleaning_project_survey",
+				"label": "Sanitizing or Cleaning Project Survey",
+				"displayLabel": "Sanitizing or Cleaning Project Survey",
+				"orderLabel": "Survey (Sanitizing or Cleaning Project Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "35",
+					"CNY": "82.5"
+				}, 
+				"quantity": {
+					"label": "Survey",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Project Confirmation": {
+				"handle": "cleaning_project_confirmation",
+				"label": "Sanitizing or Cleaning Project Confirmation",
+				"displayLabel": "Sanitizing or Cleaning Project Confirmation",
+				"orderLabel": "Project (Sanitizing or Cleaning Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				}, 
+				"quantity": {
+					"label": "Project",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Ladder Package": {
+				"handle": "cleaning_ladder_package",
+				"label": "Ladder Package                                                          Only in JB",
+				"displayLabel": "Ladder Package",
+				"orderLabel": "Package (Ladder PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "800",
+					"CNY": "10"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Vacuum Package": {
+				"handle": "cleaning_vacuum_package",				
+				"label": "Vacuum Package                                                         Only in JB",
+				"displayLabel": "Vacuum Package",
+				"orderLabel": "Package (Vacuum PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "960",
+					"CNY": "15"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+											
+				}
+			},
+			
+			"Top Up Package": {
+				"handle": "cleaning_top_up_package",				
+				"label": "Top Up Package                                                Only in JB",
+				"displayLabel": "Top Up Package",
+				"orderLabel": "Package (Top Up PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "500",
+					"CNY": "15"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+											
+				}
+			}
+		},
+		
+		
+	"types": {
+			"tools": {
+				"label": "Tools?",
+				"description": "Label standard",
+				"values": {
+														
+					"Customer tools": {
+						"label": "Customer provides",
+						"orderLabel": "Customer provides",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					
+					"Blooms tools": {
+						"label": "Blooms provides (+ MYR20)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+	"aircon": {
+		"name": "Aircon Works",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban"],
+		"startPrice": {
+			"SGD": "76",
+			"MYR": "114",
+			"CNY": "230"
+		},
+		"hasNote": 1,
+		"options": {
+			
+																
+			"Standard Wash": {
+				"handle": "aircon_standard_hour",
+				"label": "Wall-Mount Standard Wash                                       Minimum Booking 1Hr",
+				"orderLabel": "Hour (Wall-Mount Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+					
+			"Chemical Overhaul": {
+				"handle": "aircon_chemical_wash",
+				"label": "Wall-Mount Chemical Overhaul",
+				"orderLabel": "Hour (Wall-Mount Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Compressor Wash": {
+				"handle": "aircon_compressor_wash",
+				"label": "Compressor Wash                                                      Service time depends on site situation",
+				"orderLabel": "Hour (Compressor Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "100",
+					"MYR": "150",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+									
+			"Small Cassette CW 2-3HP": {
+				"handle": "malaysia_small_cassette_cw",
+				"label": "Small Cassette Chemical Overhaul : 2 to 3HP",
+				"orderLabel": "Hour (Small Cassette Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "200",
+					"CNY": "310"
+				},
+				"cost_max": {
+					"SGD": "0",
+					"MYR": "300",
+					"CNY": "310"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 90,
+					"base": 60
+				}
+			},
+			
+			"Big Cassette CW 3.5 to 5HP": {
+				"handle": "malaysia_big_cassette_cw",
+				"label": "Big Cassette Chemical Overhaul : 3.5 to 5HP",
+				"orderLabel": "Hour (Big Cassette Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "260",
+					"CNY": "365"
+				},
+				
+				"cost_max": {
+					"SGD": "0",
+					"MYR": "390",
+					"CNY": "310"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 90,
+					"base": 60
+				}
+			},
+			
+			"AC Survey": {				
+				"handle": "aircon_survey",
+				"label": "Aircon Survey                                       Free",
+				"orderLabel": "Job (Aircon Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"AC Water Leak": {
+				"handle": "aircon_water_leak",
+				"label": "Water Leak - Minimum Booking 1Hr",
+				"orderLabel": "Hour (Water Leak)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"AC Trouble Shoot": {
+				"handle": "aircon_trouble_shoot",
+				"label": "Aircon Trouble-Shoot",
+				"orderLabel": "Job (Aircon Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},			
+			
+			
+			"Project Quotation Enquiry": {				
+				"handle": "project_quotation_enquiry",
+				"label": "Project Quotation Enquiry",
+				"orderLabel": "Job (Project Quotation Enquiry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"AC Project": {
+				"handle": "ac_project",
+				"label": "Aircon Project Confirmation                                   Per Quotation",
+				"orderLabel": "Job (Aircon Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"3Hr Package": {
+				"handle": "three_hour",
+				"label": "3-Hour Package                                        Uavailable in SG",
+				"orderLabel": "PACKAGE (3Hr Package)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "360",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "PACKAGE",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"6Hr Package": {
+				"handle": "six_hour",
+				"label": "6-Hour Package                                             Unavailable in SG",
+				"orderLabel": "PACKAGE (6Hr Package)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "700",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "PACKAGE",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"9Hr Package": {
+				"handle": "nine_hour",
+				"label": "9-Hour Package                                              Unavailable in SG",
+				"orderLabel": "PACKAGE (9Hr Package)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1000",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "PACKAGE",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "16:00",
@@ -1201,455 +1982,6 @@
 	},
 	
 	
-	"cleaning": {
-		"name": "Sanitize & Cleaning",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore"],
-		"startPrice": {
-			"SGD": "40",
-			"MYR": "95",
-			"CNY": "195"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			 "A333": {
-				"handle": "basic_antimicrobial_shield",
-				"label": "A333 Basic Antimicrobial Shield                                           MYR30/Unit",
-				"displayLabel": "A333 Basic Antimicrobial Shield",
-				"orderLabel": "Unit (A333 Basic Antimicrobial Shield)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-															
-			
-			"Std Clean Condo": {
-				"handle": "standard_condo",
-				"label": "Standard Clean Condo                                               MYR40/Hr",
-				"displayLabel": "Standard Clean Condo",
-				"orderLabel": "Hours (Standard Clean Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "40",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 150,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Std Clean Landed House": {
-				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House                                               MYR40/Hr",
-				"displayLabel": "Standard Clean Landed House",
-				"orderLabel": "Hours (Standar Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "40",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-          
-			"Festive Very Small Condo": {
-				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo                                           MYR100/Unit",
-				"displayLabel": "Festive Clean Very Small Condo",
-				"orderLabel": "Unit (Festive Clean Very Small Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "100",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Festive Std Condo": {
-				"handle": "festive_big",
-				"label": "Festive Clean Condo                                                 MYR45/Hr",
-				"displayLabel": "Festive Clean Condo",
-				"orderLabel": "Hours (Festive Clean Std Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 210,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Festive Landed House": {
-				"handle": "festive_big",
-				"label": "Festive Clean Landed House                                                        MYR45/Hr",
-				"displayLabel": "Festive Clean Landed House",
-				"orderLabel": "Hours (Festive Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 300,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Reno Very Small Condo": {
-				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo                                        4 to 5 Hours",
-				"displayLabel": "Renovation Clean Very Small Condo",
-				"orderLabel": "Hour (Renovation Clean Very Small Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "44",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 5,
-					"default": 5,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Reno Standard House": {
-				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                                                MYR55/Hr",
-				"displayLabel": "Renovation Clean 1-Storey House or Condo",
-				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "55",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 360,
-					"increment": 60,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Reno Big House": {
-				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House                                                   MYR500/Day",
-				"displayLabel": "Renovation Clean Big House",
-				"orderLabel": "Day (Renovation Clean Big House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "500",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 2,
-					"default": 1,
-					"increment": 0.5,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-						
-			"Move Very Small Condo": {
-				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo                                                    MYR100/Unit",
-				"displayLabel": "Move Clean Very Small Condo",
-				"orderLabel": "Unit (Move Clean Very Small Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "100",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Move Condo": {
-				"handle": "move_condo",
-				"label": "Move Clean Condo                                                   MYR45/Hr",
-				"displayLabel": "Move Clean Condo",
-				"orderLabel": "Hours (Move Clean Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Move Landed": {
-				"handle": "move_landed",
-				"label": "Move Clean Landed House                                            MYR45/Hr",
-				"displayLabel": "Move Clean Landed House",
-				"orderLabel": "Hours (Move Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 300,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Project Survey": {
-				"handle": "cleaning_project_survey",
-				"label": "Sanitizing or Cleaning Project Survey",
-				"displayLabel": "Sanitizing or Cleaning Project Survey",
-				"orderLabel": "Survey (Sanitizing or Cleaning Project Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "35",
-					"CNY": "82.5"
-				}, 
-				"quantity": {
-					"label": "Survey",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Project Confirmation": {
-				"handle": "cleaning_project_confirmation",
-				"label": "Sanitizing or Cleaning Project Confirmation",
-				"displayLabel": "Sanitizing or Cleaning Project Confirmation",
-				"orderLabel": "Project (Sanitizing or Cleaning Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				}, 
-				"quantity": {
-					"label": "Project",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Ladder Package": {
-				"handle": "cleaning_ladder_package",
-				"label": "Ladder Package                                                          Only in JB",
-				"displayLabel": "Ladder Package",
-				"orderLabel": "Package (Ladder PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "800",
-					"CNY": "10"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Vacuum Package": {
-				"handle": "cleaning_vacuum_package",				
-				"label": "Vacuum Package                                                         Only in JB",
-				"displayLabel": "Vacuum Package",
-				"orderLabel": "Package (Vacuum PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "960",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
-			},
-			
-			"Top Up Package": {
-				"handle": "cleaning_top_up_package",				
-				"label": "Top Up Package                                                Only in JB",
-				"displayLabel": "Top Up Package",
-				"orderLabel": "Package (Top Up PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "500",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
-			}
-		},
-		
-		
-	"types": {
-			"tools": {
-				"label": "Tools?",
-				"description": "Label standard",
-				"values": {
-														
-					"Customer tools": {
-						"label": "Customer provides",
-						"orderLabel": "Customer provides",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					
-					"Blooms tools": {
-						"label": "Blooms provides (+ MYR20)",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "20",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
 		
 		
 	"installation": {
@@ -1812,333 +2144,8 @@
 		}
 	},
 			
-	
-			
-	"aircon": {
-		"name": "Aircon Works",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
-		"startPrice": {
-			"SGD": "76",
-			"MYR": "114",
-			"CNY": "230"
-		},
-		"hasNote": 1,
-		"options": {
-			
-																
-			"Standard Wash": {
-				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash                                       Minimum Booking 1Hr",
-				"orderLabel": "Hour (Wall-Mount Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-					
-			"Chemical Overhaul": {
-				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul",
-				"orderLabel": "Hour (Wall-Mount Chemical Overhaul)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Compressor Wash": {
-				"handle": "aircon_compressor_wash",
-				"label": "Compressor Wash                                                      Service time depends on site situation",
-				"orderLabel": "Hour (Compressor Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "100",
-					"MYR": "150",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-									
-			"Small Cassette CW 2-3HP": {
-				"handle": "malaysia_small_cassette_cw",
-				"label": "Small Cassette Chemical Overhaul : 2 to 3HP",
-				"orderLabel": "Hour (Small Cassette Chemical Overhaul)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "200",
-					"CNY": "310"
-				},
-				"cost_max": {
-					"SGD": "0",
-					"MYR": "300",
-					"CNY": "310"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
-				}
-			},
-			
-			"Big Cassette CW 3.5 to 5HP": {
-				"handle": "malaysia_big_cassette_cw",
-				"label": "Big Cassette Chemical Overhaul : 3.5 to 5HP",
-				"orderLabel": "Hour (Big Cassette Chemical Overhaul)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "260",
-					"CNY": "365"
-				},
 				
-				"cost_max": {
-					"SGD": "0",
-					"MYR": "390",
-					"CNY": "310"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
-				}
-			},
-			
-			"AC Survey": {				
-				"handle": "aircon_survey",
-				"label": "Aircon Survey                                       Free",
-				"orderLabel": "Job (Aircon Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"AC Water Leak": {
-				"handle": "aircon_water_leak",
-				"label": "Water Leak - Minimum Booking 1Hr",
-				"orderLabel": "Hour (Water Leak)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"AC Trouble Shoot": {
-				"handle": "aircon_trouble_shoot",
-				"label": "Aircon Trouble-Shoot",
-				"orderLabel": "Job (Aircon Trouble-Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "120",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},			
-			
-			
-			"Project Quotation Enquiry": {				
-				"handle": "project_quotation_enquiry",
-				"label": "Project Quotation Enquiry",
-				"orderLabel": "Job (Project Quotation Enquiry)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"AC Project": {
-				"handle": "ac_project",
-				"label": "Aircon Project Confirmation                                   Per Quotation",
-				"orderLabel": "Job (Aircon Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"3Hr Package": {
-				"handle": "three_hour",
-				"label": "3-Hour Package                                        Uavailable in SG",
-				"orderLabel": "PACKAGE (3Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "360",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"6Hr Package": {
-				"handle": "six_hour",
-				"label": "6-Hour Package                                             Unavailable in SG",
-				"orderLabel": "PACKAGE (6Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "700",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"9Hr Package": {
-				"handle": "nine_hour",
-				"label": "9-Hour Package                                              Unavailable in SG",
-				"orderLabel": "PACKAGE (9Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "1000",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			}
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
+	
 	
 	"house_diagnosis": {
 		"name": "House Diagnosis",
