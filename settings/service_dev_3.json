@@ -3138,8 +3138,8 @@
 			
 			"Vertical Trim Qty": {
 				"handle": "curtain_vertical_trim",
-				"label": "Curtain Vertical Trim by Quantity                                           Min Order MYR20",
-				"orderLabel": "Pc (Curtain Vertical Trim by Quantity)",
+				"label": "Vertical Trim by Quantity                                           Min Order MYR20",
+				"orderLabel": "Pc (Vertical Trim by Quantity)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3159,8 +3159,8 @@
 						
 			"Unstitch Horizontal Trim Length": {
 				"handle": "curtain_unstitch_horizontal_trim",
-				"label": "Curtain Horizontal Trim - Unstitch Required                                                Min Order MYR18",
-				"orderLabel": "m (Curtain Horizontal Trim - Unstitch Required)",
+				"label": "Horizontal Trim - Unstitch Required                                                Min Order MYR18",
+				"orderLabel": "m (Horizontal Trim - Unstitch Required)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3179,8 +3179,8 @@
 			
 			"Direct Cut Horizontal Trim Length": {
 				"handle": "curtain_direct_cut_horizontal_trim",
-				"label": "Curtain Horizontal Trim - Direct Cut                                                Min Order MYR20",
-				"orderLabel": "m (Curtain Horizontal Trim - Direct Cut)",
+				"label": "Horizontal Trim - Direct Cut                                                Min Order MYR20",
+				"orderLabel": "m (Horizontal Trim - Direct Cut)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
