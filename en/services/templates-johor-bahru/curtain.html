@@ -192,20 +192,33 @@ layout: service
    <!--Trim-->
      <thead> 
       <tr>
-       <th><b>Curtain Trim</b></th>
+       <th><b>Vertical Curtain Trim</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
-    <tbody>      
+    <tbody>
        <tr>
-        <td>Horizontal Trim<br>by Length</td>
-        <td>${params.curtain_horizontal_trim}/Meter<br>Min Order 20.0</td>
+       <td>Vertical Trim<br>by Quantity</td>
+       <td>${params.curtain_vertical_trim}/Piece<br>Min Order 20.0</td>
+      </tr>      
+    </tbody>
+
+ <thead> 
+      <tr>
+       <th><b>Horizontal Curtain Trim</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td>Horizontal Trim<br>Unstitch Required</td>
+        <td>${params.curtain_unstitch_horizontal_trim}/Meter<br>Min Order 18.0</td>
       </tr>
       
       <tr>
-        <td>Vertical Trim<br>by Quantity</td>
-       <td>${params.curtain_vertical_trim}/Piece<br>Min Order 20.0</td>
-      </tr>      
+        <td>Horizontal Trim<br>Direct Cut</td>
+        <td>${params.curtain_direct_cut__horizontal_trim}/Meter<br>Min Order 20.0</td>
+      </tr> 
      </tbody>
    
     <!--Other Charges-->
