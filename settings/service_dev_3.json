@@ -3136,27 +3136,6 @@
 				}
 			 },
 			
-						
-			"Horizontal Trim Length": {
-				"handle": "curtain_horizontal_trim",
-				"label": "Curtain Horizontal Trim by Length                                                Min Order MYR20",
-				"orderLabel": "m (Curtain Horizontal Trim by Length)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "8",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Meter",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 2.5,
-					"base": 1
-				}
-			 },
-			
 			"Vertical Trim Qty": {
 				"handle": "curtain_vertical_trim",
 				"label": "Curtain Vertical Trim by Quantity                                           Min Order MYR20",
@@ -3176,6 +3155,49 @@
 					"base": 1
 				}
 			 },
+			
+						
+			"Unstitch Horizontal Trim Length": {
+				"handle": "curtain_unstitch_horizontal_trim",
+				"label": "Curtain Horizontal Trim - Unstitich Required                                                Min Order MYR18",
+				"orderLabel": "m (Curtain Horizontal Trim - Unstitch Required)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "18",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Meter",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Direct Cut Horizontal Trim Length": {
+				"handle": "curtain_direct_cut_horizontal_trim",
+				"label": "Curtain Horizontal Trim - Direct Cut                                                Min Order MYR20",
+				"orderLabel": "m (Curtain Horizontal Trim - Direct Cut)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "8",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Meter",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 2.5,
+					"base": 1
+				}
+			 },
+			
+			
 			
 			"Curtain Survey & Measurement": {
 				"handle": "curtain_survey_measurement",
