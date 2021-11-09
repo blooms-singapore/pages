@@ -3159,7 +3159,7 @@
 						
 			"Unstitch Horizontal Trim Length": {
 				"handle": "curtain_unstitch_horizontal_trim",
-				"label": "Curtain Horizontal Trim - Unstitich Required                                                Min Order MYR18",
+				"label": "Curtain Horizontal Trim - Unstitch Required                                                Min Order MYR18",
 				"orderLabel": "m (Curtain Horizontal Trim - Unstitch Required)",
 				"description": "Label standard",
 				"cost": {
