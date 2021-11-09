@@ -90,9 +90,19 @@ layout: service
   <p>If Customers only have 1 piece or 1 meter of curtain to trim, minimum order of MYR20 applies.</p>
    </div>
    </div>
-
+    
   <input id="collapsible7" class="toggle" type="checkbox">
-  <label for="collapsible7" class="lbl-toggle">Q7 I don't know which Service item to book?</label>
+  <label for="collapsible7" class="lbl-toggle">Q7 Why are there 2 prices (per meter) for Horizontal Trim?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+  <p>It depends on the amount of available cloth for our seamstress to cut and sew.
+   <br><br>If there is not enough material to work with, our seamstress needs to unstitch the curtain end, to release material, then sew. There is alot more work.
+   <br><br>When there is adequate material, seamstress directly cuts the curtain and sews. Less work, thus cheaper rate.</p>
+   </div>
+   </div>
+
+  <input id="collapsible8" class="toggle" type="checkbox">
+  <label for="collapsible8" class="lbl-toggle">Q8 I don't know which Service item to book?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select "Curtain Survey and Measurement", when in doubt.
@@ -100,8 +110,8 @@ layout: service
    </div>
    </div>
  
-  <input id="collapsible8" class="toggle" type="checkbox">
-  <label for="collapsible8" class="lbl-toggle">Q8 In the "How to Order" video, for shortening of curtains (horizontal trimming), why is the chargeable length at 1.8+ meters?</label>
+  <input id="collapsible9" class="toggle" type="checkbox">
+  <label for="collapsible9" class="lbl-toggle">Q9 In the "How to Order" video, for shortening of curtains (horizontal trimming), why is the chargeable length at 1.8+ meters?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>There is a minimum order length and input is in denominations of 0.5 meter.
@@ -109,8 +119,8 @@ layout: service
    </div>
    </div>
    
-  <input id="collapsible9" class="toggle" type="checkbox">
-  <label for="collapsible9" class="lbl-toggle">Q9 What is Curtain Clean Picking Fee?</label>
+  <input id="collapsible10" class="toggle" type="checkbox">
+  <label for="collapsible10" class="lbl-toggle">Q10 What is Curtain Clean Picking Fee?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>For Curtain Clean Service, our crew delivers the curtains to the nearest laundry shop, and we charge MYR25 for each trip.
@@ -118,8 +128,8 @@ layout: service
    </div>
    </div>
     
-   <input id="collapsible10" class="toggle" type="checkbox">
-  <label for="collapsible10" class="lbl-toggle">Q10 Does Blooms provide new curtain, blinds, shades?</label>
+   <input id="collapsible11" class="toggle" type="checkbox">
+  <label for="collapsible11" class="lbl-toggle">Q11 Does Blooms provide new curtain, blinds, shades?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Not at the moment. We provide Services and not Products.<br><br>When Customers purchase curtains and rails from any shops like IKEA etc, we can assist to install.
@@ -127,8 +137,8 @@ layout: service
    </div>
    </div>
  
-  <input id="collapsible11" class="toggle" type="checkbox">
-  <label for="collapsible11" class="lbl-toggle">Q11 Is Credit Card payment safe?</label>
+  <input id="collapsible12" class="toggle" type="checkbox">
+  <label for="collapsible12" class="lbl-toggle">Q12 Is Credit Card payment safe?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes, very safe.<br><br>Blooms cannot assess card details and every transcastion is tracked digitally.</p>
@@ -136,24 +146,24 @@ layout: service
    </div>
 
     
-  <input id="collapsible12" class="toggle" type="checkbox">
-  <label for="collapsible12" class="lbl-toggle">Q12 When am I charged when using Credit Card as payment?</label>
+  <input id="collapsible13" class="toggle" type="checkbox">
+  <label for="collapsible13" class="lbl-toggle">Q13 When am I charged when using Credit Card as payment?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service first, Pay later.<br><br>Blooms charges upon completion of work, after issuance of receipt. Not at the point of placing Order.</p>
    </div>
    </div>
 
-  <input id="collapsible13" class="toggle" type="checkbox">
-  <label for="collapsible13" class="lbl-toggle">Q13 Can I book for someone else?</label>
+  <input id="collapsible14" class="toggle" type="checkbox">
+  <label for="collapsible14" class="lbl-toggle">Q14 Can I book for someone else?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes. Add their address, in your account and book choosing their address.<br><br>You have to pay for them as the Service is booked under your account.</p>
    </div>
    </div>
       
-  <input id="collapsible14" class="toggle" type="checkbox">
-  <label for="collapsible14" class="lbl-toggle">Q14 How do I cancel a Service?</label>
+  <input id="collapsible15" class="toggle" type="checkbox">
+  <label for="collapsible15" class="lbl-toggle">Q15 How do I cancel a Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service date which is <b>more than 3 days</b> into the future, use the <b>Cancel</b> button at the bottom of Order Confirmation page.
@@ -192,20 +202,20 @@ layout: service
    <!--Trim-->
      <thead> 
       <tr>
-       <th><b>Vertical Curtain Trim</b></th>
+       <th><b>Vertical Curtain Trim<br>By Quantity</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
        <tr>
-       <td>Vertical Trim<br>by Quantity</td>
+       <td>Vertical Trim</td>
        <td>${params.curtain_vertical_trim}/Piece<br>Min Order 20.0</td>
       </tr>      
     </tbody>
 
  <thead> 
       <tr>
-       <th><b>Horizontal Curtain Trim</b></th>
+       <th><b>Horizontal Curtain Trim<br>By Length</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
   </thead>
