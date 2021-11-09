@@ -1274,7 +1274,7 @@
 		"lastSlot": "15:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "55",
+			"SGD": "43",
 			"MYR": "14",
 			"CNY": "50"
 		},
@@ -1287,7 +1287,7 @@
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "45",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -1307,7 +1307,7 @@
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "35",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -1988,7 +1988,7 @@
 		"name": "Installation",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "45.5",
+			"SGD": "43",
 			"MYR": "66.25",
 			"CNY": "150"
 		},
@@ -2002,7 +2002,7 @@
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "45",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -2021,7 +2021,7 @@
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "35",
 					"MYR": "50",
 					"CNY": "0"
 				},
@@ -2040,7 +2040,7 @@
 				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "50",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -2059,7 +2059,7 @@
 				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "35",
 					"MYR": "70",
 					"CNY": "0"
 				},
@@ -2078,7 +2078,7 @@
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "25",
 					"CNY": "0"
 				},
@@ -2379,7 +2379,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "45.5",
+			"SGD": "43",
 			"MYR": "95",
 			"CNY": "20"
 		},
@@ -2392,7 +2392,7 @@
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "25",
 					"CNY": "0"
 				},
@@ -3660,7 +3660,7 @@
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "15",
+			"SGD": "43",
 			"MYR": "25",
 			"CNY": "20"
 		},
@@ -3673,7 +3673,7 @@
 				"orderLabel": "Trip (Transport)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "10",
 					"MYR": "40",
 					"CNY": "0"
 				},
@@ -3714,7 +3714,7 @@
 				"orderLabel": "Hour (Service Work 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "45",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -3734,7 +3734,7 @@
 				"orderLabel": "Hour (Service Work 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "35",
 					"MYR": "40",
 					"CNY": "0"
 				},
@@ -3755,7 +3755,7 @@
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "60",
 					"MYR": "100",
 					"CNY": "0"
 				},
