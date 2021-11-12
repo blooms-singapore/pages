@@ -2258,7 +2258,7 @@
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "52",
+			"MYR": "57",
 			"CNY": "20"
 		},
 		"hasNote": 1, 
@@ -2303,7 +2303,7 @@
 			},			
 			"Survey": {
 				"handle": "survey",
-				"label": "Renovation / Retrofit Survey                                            Free",
+				"label": "Retrofit / Renovation Survey                                            Free",
 				"orderLabel": "Job (Renovation / Retrofit Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2322,8 +2322,8 @@
 			},			
 			"Project": {
 				"handle": "projects",
-				"label": "Renovation Project Confirmation                                         Per Quotation",
-				"orderLabel": "Job (Renovation Project Confirmation)",
+				"label": "Retrofit / Renovation Project Confirmation                                         Per Quotation",
+				"orderLabel": "Job (Retrofit / Renovation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
