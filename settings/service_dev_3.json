@@ -2801,13 +2801,13 @@
 			},
 			
 			"Survey": {
-				"handle": "survey",
-				"label": "Other Lock Work Survey                                       Free",
+				"handle": "locksmith_survey",
+				"label": "Other Lock Work Survey",
 				"orderLabel": "Trip (Other Lock Work Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
