@@ -2734,7 +2734,7 @@
 		"options": {
 			"unlock-morning": {
 				"handle": "unlock_morning",
-				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100 (JB)",
+				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2758,7 +2758,7 @@
 			},
 			"unlock-evening": {
 				"handle": "unlock_evening",
-				"label": "Room Door Unlock (After 6pm)                                            MYR90 - 130 (JB) ",
+				"label": "Room Door Unlock (After 6pm)                                            MYR90 - 130",
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2782,7 +2782,7 @@
 			},
 			"unlock-metal": {
 				"handle": "unlock_metal",
-				"label": "Metal Door Unlock                                          From MYR85 (JB)",
+				"label": "Metal Door Unlock                                          From MYR85",
 				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
 				"cost": {
@@ -2842,7 +2842,7 @@
 			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
-				"label": "Foreign Car Key Copy                                                 From MYR260 (JB)",
+				"label": "Foreign Car Key Copy                                                 From MYR260",
 				"orderLabel": "Unit (Foreign Car Key Copy)",
 				"description": "Label standard",
 				"cost": {
@@ -2862,7 +2862,7 @@
 			
 			"National Car Key Copy": {
 				"handle": "national_car_key_copy",
-				"label": "Proton/Perodua Key Copy                                       From MYR120 (JB)",
+				"label": "Proton/Perodua Key Copy                                       From MYR120",
 				"orderLabel": "Unit (Proton/Perodua Key Copy)",
 				"description": "Label standard",
 				"cost": {
@@ -2882,7 +2882,7 @@
 			
 			"Digital Lock": {
 				"handle": "digital_lock",
-				"label": "EZope Smart Lock Install                                       MYR1399/Unit (JB)",
+				"label": "EZope Smart Lock Install                                       MYR1399/Unit",
 				"orderLabel": "Unit (EZope Smart Lock Install)",
 				"description": "Label standard",
 				"cost": {
