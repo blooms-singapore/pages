@@ -1,4 +1,166 @@
 {
+	"installation": {
+		"name": "Installation & Dismantling",
+		"lastSlot": "15:30",
+		"startPrice": {
+			"SGD": "43",
+			"MYR": "66.25",
+			"CNY": "150"
+		},
+		"disableLocations": ["Seremban"],
+		"hasNote": 1,
+		"options": {
+			
+			"Std 1st": {
+				"handle": "std_first",
+				"label": "Standard Install 1st Hour",
+				"orderLabel": "Hour (Standard Install 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "75",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Std 2nd": {
+				"handle": "std_second",
+				"label": "Standard Install 2nd Hour or more",
+				"orderLabel": "Hour (Std Install 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+            "Tech 1st": {
+				"handle": "tech_first",
+				"label": "Technical Install 1st Hour",
+				"orderLabel": "Hour (Tech Install 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Tech 2nd": {
+				"handle": "tech_second",
+				"label": "Technical Install 2nd Hour or more",
+				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Site Survey": {
+				"handle": "installation_site_survey",
+				"label": "Site Survey",
+				"orderLabel": "Trip (Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "25",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			"Project": {
+				"handle": "project",
+				"label": "Installation Project Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Installation Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+            		 }	
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
 	
 	"cleaning": {
 		"name": "Sanitize & Cleaning",
@@ -1981,170 +2143,7 @@
 		}
 	},
 	
-	
-		
-		
-	"installation": {
-		"name": "Installation",
-		"lastSlot": "15:30",
-		"startPrice": {
-			"SGD": "43",
-			"MYR": "66.25",
-			"CNY": "150"
-		},
-		"disableLocations": ["Seremban"],
-		"hasNote": 1,
-		"options": {
-			
-			"Std 1st": {
-				"handle": "std_first",
-				"label": "Standard Install 1st Hour",
-				"orderLabel": "Hour (Standard Install 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "75",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Std 2nd": {
-				"handle": "std_second",
-				"label": "Standard Install 2nd Hour or more",
-				"orderLabel": "Hour (Std Install 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "50",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-            "Tech 1st": {
-				"handle": "tech_first",
-				"label": "Technical Install 1st Hour",
-				"orderLabel": "Hour (Tech Install 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Tech 2nd": {
-				"handle": "tech_second",
-				"label": "Technical Install 2nd Hour or more",
-				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Site Survey": {
-				"handle": "installation_site_survey",
-				"label": "Site Survey",
-				"orderLabel": "Trip (Site Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "25",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Project": {
-				"handle": "project",
-				"label": "Installation Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Installation Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-            		 }	
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-			
-				
+					
 	
 	
 	"house_diagnosis": {
