@@ -1,4 +1,127 @@
 {
+	"carpentry": {
+		"name": "Carpentry",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "30",
+			"MYR": "57",
+			"CNY": "20"
+		},
+		"hasNote": 1, 
+		"options": {
+			"1st Hr": {
+				"handle": "first_hr",
+				"label": "1st Hour                                       MYR60/Hr",
+				"orderLabel": "Hour (1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"2Hr Rate": {
+				"handle": "second_or_more_hr",
+				"label": "2nd Hour & more                                             MYR50/Hr",
+				"orderLabel": "Hour (2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Survey": {
+				"handle": "survey",
+				"label": "Retrofit / Renovation Survey                                            Free",
+				"orderLabel": "Job (Renovation / Retrofit Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Project": {
+				"handle": "projects",
+				"label": "Retrofit / Renovation Project Confirmation                                         Per Quotation",
+				"orderLabel": "Job (Retrofit / Renovation Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
 	"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "15:30",
@@ -1240,197 +1363,7 @@
 	
 	
 	
-	"home-security": {
-		"name": "Home Security",
-		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "38",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Home Security Survey": {
-				"handle": "home_security_survey",
-				"label": "Home Security Survey",
-				"orderLabel": "Trip (Home Security Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-		"Home Security Project Confirmation": {
-				"handle": "home_security_project_confirmation",
-				"label": "Home Security Project Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Home Security Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-						
-			"Auto Gate Trouble Shoot": {
-				"handle": "autogate_trouble_shoot",
-				"label": "Auto-Gate Trouble Shoot",
-				"orderLabel": "Job (Auto-Gate Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"CCTV Trouble Shoot": {
-				"handle": "cctv_trouble_shoot",
-				"label": "CCTV Trouble Shoot",
-				"orderLabel": "Job (CCTV Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Alarm Trouble Shoot": {
-				"handle": "alarm_trouble_shoot",
-				"label": "Alarm Trouble Shoot",
-				"orderLabel": "Job (Alarm Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Door Assess Trouble Shoot": {
-				"handle": "door_assess_trouble_shoot",
-				"label": "Door Assess Trouble Shoot",
-				"orderLabel": "Job (Door Assess Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Door Assess Clone Card": {
-				"handle": "door_assess_clone_card",
-				"label": "Door Assess Clone Card",
-				"orderLabel": "Pc (Door Assess Clone Card)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "25",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Piece",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			}
-		 },
-				
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"landed": {
-						"label": "Landed",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"condo": {
-						"label": "Condominium",
-						"cost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-	
+		
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "15:30",
@@ -2251,128 +2184,7 @@
 	},
 	
 	
-	"carpentry": {
-		"name": "Carpentry",
-		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "30",
-			"MYR": "57",
-			"CNY": "20"
-		},
-		"hasNote": 1, 
-		"options": {
-			"1st Hr": {
-				"handle": "first_hr",
-				"label": "1st Hour                                       MYR60/Hr",
-				"orderLabel": "Hour (1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"2Hr Rate": {
-				"handle": "second_or_more_hr",
-				"label": "2nd Hour & more                                             MYR50/Hr",
-				"orderLabel": "Hour (2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Survey": {
-				"handle": "survey",
-				"label": "Retrofit / Renovation Survey                                            Free",
-				"orderLabel": "Job (Renovation / Retrofit Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"Project": {
-				"handle": "projects",
-				"label": "Retrofit / Renovation Project Confirmation                                         Per Quotation",
-				"orderLabel": "Job (Retrofit / Renovation Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
 		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "16:30",
@@ -3304,6 +3116,198 @@
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+	"home-security": {
+		"name": "Home Security",
+		"lastSlot": "15:30",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "38",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Home Security Survey": {
+				"handle": "home_security_survey",
+				"label": "Home Security Survey",
+				"orderLabel": "Trip (Home Security Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+		"Home Security Project Confirmation": {
+				"handle": "home_security_project_confirmation",
+				"label": "Home Security Project Confirmation                                        Per Quotation",
+				"orderLabel": "Job (Home Security Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+						
+			"Auto Gate Trouble Shoot": {
+				"handle": "autogate_trouble_shoot",
+				"label": "Auto-Gate Trouble Shoot",
+				"orderLabel": "Job (Auto-Gate Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"CCTV Trouble Shoot": {
+				"handle": "cctv_trouble_shoot",
+				"label": "CCTV Trouble Shoot",
+				"orderLabel": "Job (CCTV Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Alarm Trouble Shoot": {
+				"handle": "alarm_trouble_shoot",
+				"label": "Alarm Trouble Shoot",
+				"orderLabel": "Job (Alarm Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Door Assess Trouble Shoot": {
+				"handle": "door_assess_trouble_shoot",
+				"label": "Door Assess Trouble Shoot",
+				"orderLabel": "Job (Door Assess Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Door Assess Clone Card": {
+				"handle": "door_assess_clone_card",
+				"label": "Door Assess Clone Card",
+				"orderLabel": "Pc (Door Assess Clone Card)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "25",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Piece",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			}
+		 },
+				
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"landed": {
+						"label": "Landed",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"condo": {
+						"label": "Condominium",
+						"cost": {
+							"SGD": "0",
+							"MYR": "10",
 							"CNY": "0"
 						}
 					}
