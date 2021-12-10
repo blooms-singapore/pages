@@ -1243,7 +1243,7 @@
 	"home-security": {
 		"name": "Home Security",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "38",
