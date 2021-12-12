@@ -2191,7 +2191,7 @@
 		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "43",
-			"MYR": "95",
+			"MYR": "60",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -2259,6 +2259,26 @@
 				}
 			},
 			
+			
+			"Electrical Trouble Shoot": {
+				"handle": "electrical_trouble_shoot",
+				"label": "Electrical Trouble Shoot",
+				"orderLabel": "Trip (Electrical Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
 				
 			"Emergency": {
 				"handle": "emergency",
