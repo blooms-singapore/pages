@@ -291,7 +291,7 @@
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "95",
+			"MYR": "100",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -323,7 +323,7 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo                                               MYR40/Hr",
+				"label": "Standard Clean Condo",
 				"displayLabel": "Standard Clean Condo",
 				"orderLabel": "Hours (Standard Clean Condo)",
 				"description": "Label standard",
@@ -347,7 +347,7 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House                                               MYR40/Hr",
+				"label": "Standard Clean Landed House",
 				"displayLabel": "Standard Clean Landed House",
 				"orderLabel": "Hours (Standar Clean Landed House)",
 				"description": "Label standard",
@@ -371,7 +371,7 @@
           
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo                                           MYR100/Unit",
+				"label": "Festive Clean Very Small Condo",
 				"displayLabel": "Festive Clean Very Small Condo",
 				"orderLabel": "Unit (Festive Clean Very Small Condo)",
 				"description": "Label standard",
@@ -394,13 +394,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo                                                 MYR45/Hr",
+				"label": "Festive Clean Condo",
 				"displayLabel": "Festive Clean Condo",
 				"orderLabel": "Hours (Festive Clean Std Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "45",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -417,20 +417,20 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House                                                        MYR45/Hr",
+				"label": "Festive Clean Landed House",
 				"displayLabel": "Festive Clean Landed House",
 				"orderLabel": "Hours (Festive Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "45",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 300,
+					"default": 420,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
