@@ -1069,7 +1069,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Kuala Lumpur", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "171",
@@ -3446,7 +3446,7 @@
 	"roof": {
 		"name": "Roof",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -3703,7 +3703,7 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Seremban", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "43",
 			"MYR": "25",
