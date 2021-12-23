@@ -845,13 +845,13 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "260",
+					"MYR": "220",
 					"CNY": "365"
 				},
 				
 				"cost_max": {
 					"SGD": "0",
-					"MYR": "390",
+					"MYR": "320",
 					"CNY": "310"
 				},
 				"quantity": {
