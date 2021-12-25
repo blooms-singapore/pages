@@ -124,7 +124,7 @@
 	
 	"installation": {
 		"name": "Installation & Dismantling",
-		"lastSlot": "15:30",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "43",
 			"MYR": "66.25",
@@ -1366,7 +1366,7 @@
 		
 	"plumbing": {
 		"name": "Plumbing",
-		"lastSlot": "15:30",
+		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "43",
