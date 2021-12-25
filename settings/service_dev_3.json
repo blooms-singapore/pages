@@ -3705,8 +3705,8 @@
 		"lastSlot": "16:00",
 		"disableLocations": ["Seremban", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "43",
-			"MYR": "25",
+			"SGD": "10",
+			"MYR": "20",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -3719,7 +3719,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "25",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
