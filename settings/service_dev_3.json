@@ -895,27 +895,8 @@
 			},			
 			
 			
-			"Project Quotation Enquiry": {				
-				"handle": "project_quotation_enquiry",
-				"label": "Project Quotation Enquiry",
-				"orderLabel": "Job (Project Quotation Enquiry)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"AC Project": {
+						
+			"AC Project Confirmation": {
 				"handle": "ac_project",
 				"label": "Aircon Project Confirmation                                   Per Quotation",
 				"orderLabel": "Job (Aircon Project Confirmation)",
