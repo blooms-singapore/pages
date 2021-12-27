@@ -813,7 +813,7 @@
 			},
 			
 									
-			"Cassette Chemical Overhaul: {
+			"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
 				"label": "Cassette Chemical Overhaul",
 				"orderLabel": "Hour (Cassette Chemical Overhaul)",
