@@ -937,7 +937,7 @@
 			
 			"3Hr Package": {
 				"handle": "three_hour",
-				"label": "3-Hour Package                                        Uavailable in SG",
+				"label": "3-Hour Package                                         Only in JB",
 				"orderLabel": "PACKAGE (3Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -957,7 +957,7 @@
 			
 			"6Hr Package": {
 				"handle": "six_hour",
-				"label": "6-Hour Package                                             Unavailable in SG",
+				"label": "6-Hour Package                                             Only in JB",
 				"orderLabel": "PACKAGE (6Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -977,7 +977,7 @@
 			
 			"9Hr Package": {
 				"handle": "nine_hour",
-				"label": "9-Hour Package                                              Unavailable in SG",
+				"label": "9-Hour Package                                              Only in JB",
 				"orderLabel": "PACKAGE (9Hr Package)",
 				"description": "Label standard",
 				"cost": {
