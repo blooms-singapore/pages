@@ -2190,10 +2190,10 @@
 				}
 			},
 			
-			"Major Electrical project Confirmation": {
+			"Electrical project Confirmation": {
 				"handle": "major_electrical",
-				"label": "Major Electrical project Confirmation                                      Per Quotation",
-				"orderLabel": "Project (Major Electrical Project Confirmation)",
+				"label": "Electrical Project Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Electrical Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2201,7 +2201,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Project",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
