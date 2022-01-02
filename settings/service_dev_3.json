@@ -3306,8 +3306,8 @@
 				"orderLabel": "Trip (Other or Muiltiple Service Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "25",
+					"SGD": "30",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
