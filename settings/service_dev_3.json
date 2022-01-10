@@ -297,54 +297,6 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Std Clean Condo": {
-				"handle": "standard_condo",
-				"label": "Standard Clean Condo",
-				"displayLabel": "Standard Clean Condo",
-				"orderLabel": "Hours (Standard Clean Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "40",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 150,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Std Clean Landed House": {
-				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House",
-				"displayLabel": "Standard Clean Landed House",
-				"orderLabel": "Hours (Standar Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "40",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-          
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
 				"label": "Festive Clean Very Small Condo",
@@ -414,6 +366,55 @@
 				}
 			},
 			
+			
+			"Std Clean Condo": {
+				"handle": "standard_condo",
+				"label": "Standard Clean Condo",
+				"displayLabel": "Standard Clean Condo",
+				"orderLabel": "Hours (Standard Clean Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 150,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Std Clean Landed House": {
+				"handle": "standard_landed_house",
+				"label": "Standard Clean Landed House",
+				"displayLabel": "Standard Clean Landed House",
+				"orderLabel": "Hours (Standar Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			          
+						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
 				"label": "Renovation Clean Very Small Condo                                        4 to 5 Hours",
