@@ -556,9 +556,9 @@
 			
 			"Project Survey": {
 				"handle": "cleaning_project_survey",
-				"label": "Sanitizing or Cleaning Project Survey",
-				"displayLabel": "Sanitizing or Cleaning Project Survey",
-				"orderLabel": "Survey (Sanitizing or Cleaning Project Survey)",
+				"label": "Cleaning Project Survey",
+				"displayLabel": "Cleaning Project Survey",
+				"orderLabel": "Survey (Cleaning Project Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -579,9 +579,9 @@
 			
 			"Project Confirmation": {
 				"handle": "cleaning_project_confirmation",
-				"label": "Sanitizing or Cleaning Project Confirmation",
-				"displayLabel": "Sanitizing or Cleaning Project Confirmation",
-				"orderLabel": "Project (Sanitizing or Cleaning Project Confirmation)",
+				"label": "Cleaning Project Confirmation",
+				"displayLabel": "Cleaning Project Confirmation",
+				"orderLabel": "Project (Cleaning Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
