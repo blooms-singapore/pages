@@ -286,7 +286,7 @@
 	
 	
 	"cleaning": {
-		"name": "Sanitize & Cleaning",
+		"name": "Cleaning",
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
@@ -296,30 +296,6 @@
 		},
 		"hasNote": 1,
 		"options": {
-			
-			 "A333": {
-				"handle": "basic_antimicrobial_shield",
-				"label": "A333 Basic Antimicrobial Shield                                           MYR30/Unit",
-				"displayLabel": "A333 Basic Antimicrobial Shield",
-				"orderLabel": "Unit (A333 Basic Antimicrobial Shield)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-															
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
