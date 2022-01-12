@@ -406,7 +406,7 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 270,
+					"default": 240,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
