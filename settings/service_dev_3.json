@@ -1,76 +1,83 @@
 {
-	"carpentry": {
-		"name": "Carpentry",
-		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+	
+	
+	
+	"plumbing": {
+		"name": "Plumbing",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "30",
-			"MYR": "57",
-			"CNY": "20"
+			"SGD": "43",
+			"MYR": "14",
+			"CNY": "50"
 		},
-		"hasNote": 1, 
+		"hasNote": 1,
 		"options": {
-			"1st Hr": {
-				"handle": "first_hr",
-				"label": "1st Hour                                       MYR60/Hr",
-				"orderLabel": "Hour (1st Hour)",
+			
+			"Std Plumbing 1st Hr": {
+				"handle": "first_hour",
+				"label": "Standard Plumbing 1st Hour",
+				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "45",
+					"MYR": "75",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Std Plumbing 2nd Hr": {
+				"handle": "second_hour",
+				"label": "Standard Plumbing 2nd Hour or more",
+				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
 					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"2Hr Rate": {
-				"handle": "second_or_more_hr",
-				"label": "2nd Hour & more                                             MYR50/Hr",
-				"orderLabel": "Hour (2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
 					"max": 0,
-					"increment": 60,
+					"increment": 30,
 					"default": 0,
 					"base": 60
 				}
-			},			
-			"Survey": {
-				"handle": "survey",
-				"label": "Retrofit / Renovation Survey                                            Free",
-				"orderLabel": "Job (Renovation / Retrofit Survey)",
+			},
+			
+			"Non-Standard Plumbing Project Survey": {
+				"handle": "plumbing_other_survey",
+				"label": "Other Plumbing SURVEY",
+				"orderLabel": "Trip (Other Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
-			},			
-			"Project": {
-				"handle": "projects",
-				"label": "Retrofit / Renovation Project Confirmation                                         Per Quotation",
-				"orderLabel": "Job (Retrofit / Renovation Project Confirmation)",
+			},
+			
+			"Other Plumbing Confirmation": {
+				"handle": "plumbing_other_plumbing_confirmation",
+				"label": "Other Plumbing Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Other Plumbing Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -85,24 +92,345 @@
 					"default": 0,
 					"base": 60
 				}
+			},
+			
+			"Tank Issue Survey": {
+				"handle": "plumbing_tank_issue_survey",
+				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
+				"orderLabel": "Trip (Tank Issue SURVEY)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 1st Hr": {
+				"handle": "tank_wash_first_hour",
+				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
+				"orderLabel": "Hour (Tank WASH 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 2nd Hr": {
+				"handle": "tank_wash_second_hour",
+				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
+				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 1st Hr": {
+				"handle": "tank_repair_first_hour",
+				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
+				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 2nd Hr": {
+				"handle": "tank_repair_second_hour",
+				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
+				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+						
+			"Tank Project": {
+				"handle": "tank_project",
+				"label": "Tank Project Confirmation                                           Unavailable in SG",
+				"orderLabel": "Job (Tank Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Sink Poppy": {
+				"handle": "sink_poppy",
+				"label": "Sink Poppy                                             Available only in JB",
+				"orderLabel": "Set (Sink Poppy)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+			
+			"Trouble Shoot": {
+				"handle": "trouble_shoot",
+				"label": "Trouble Shoot",
+				"orderLabel": "Job (Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
 			}
 		},
 		
-	    "types": {
+		"types": {
 			"house": {
 				"label": "House Type",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+		
+	
+		
+	"electrical": {
+		"name": "Electrical",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban"],
+		"startPrice": {
+			"SGD": "43",
+			"MYR": "60",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Electrical Survey": {
+				"handle": "electrical_survey",
+				"label": "Electrical Survey",
+				"orderLabel": "Trip (Electrical Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "25",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			
+			"Minor Electrical": {
+				"handle": "minor_electrical",
+				"label": "Residential Minor Electrical Work",
+				"orderLabel": "Hour (Residential Minor Electrical Work)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Electrical project Confirmation": {
+				"handle": "major_electrical",
+				"label": "Electrical Project Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Electrical Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			"Electrical Trouble Shoot": {
+				"handle": "electrical_trouble_shoot",
+				"label": "Electrical Trouble Shoot",
+				"orderLabel": "Trip (Electrical Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+				
+			"Emergency": {
+				"handle": "emergency",
+				"label": "Emergency Booking                                                Unavailable in SG",
+				"orderLabel": "Trip (Emergency Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"cost_max": {
+					"SGD": "0",
+					"MYR": "135",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}	
+		},
+
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
@@ -119,8 +447,221 @@
 			}
 		}
 	},
+
 	
+		
+	"landscape": {
+		"name": "Landscape",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "42.5",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr cutting": {
+				"handle": "landscape_first_hour",
+				"label": "1 Crew - 1st Hour",
+				"orderLabel": "Hour (1 Crew - 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"2nd Hr cutting": {
+				"handle": "landscape_second_hour_or_more",
+				"label": "1 Crew - 2nd Hour & more",
+				"orderLabel": "Hour (1 Crew - 2nd Hour & more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Garden Maintenance": {
+				"handle": "landscape_garden_maintenance_hour",
+				"label": "2 Crews - Garden Maintenance Hourly Rate                                        Min 3 Hours",
+				"orderLabel": "Hour (2 Crews - Garden Maintenance Hourly Rate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "70",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 6,
+					"increment": 0.5,
+					"default": 3,
+					"base": 1
+				}
+			},
+			
+			"Small Debri": {
+				"handle": "small_debri",
+				"label": "Small Disposal Fee                                        <= 3 Bags",
+				"orderLabel": "Job (Small Disposal Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Big Debri": {
+				"handle": "big_debri",
+				"label": "Big Disposal Fee                                 4 Bags or more",
+				"orderLabel": "Bags (Big Disposal Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "10",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Bags",
+					"min": 0,
+					"max": 0,
+					"default": 4,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Disposal by Lorry": {
+				"handle": "landscape_disposal_by_lorry",
+				"label": "Disposal by Lorry",
+				"orderLabel": "Job (Disposal by Lorry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 2,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+			"survey": {
+				"handle": "survey",
+				"label": "Site Survey                                             Free",
+				"orderLabel": "Trip (Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
 	
+			"Maintenance Project": {
+				"handle": "project",
+				"label": "Maintenance Project Confirmation                                    Per Quotation",
+				"orderLabel": "Job (Maintenance Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 }
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"landed": {
+						"label": "Standard Locations",
+						"orderLabel": "Standard Locations",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+							}
+						},
+						
+					"condo": {
+						"label": "Distant Locations",
+						"orderLabel": "Distant Locations",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+		
 	
 	"installation": {
 		"name": "Installation & Dismantling",
@@ -284,437 +825,7 @@
 	
 	
 	
-	
-	"cleaning": {
-		"name": "Cleaning",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore"],
-		"startPrice": {
-			"SGD": "40",
-			"MYR": "100",
-			"CNY": "195"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Festive Very Small Condo": {
-				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo",
-				"displayLabel": "Festive Clean Very Small Condo",
-				"orderLabel": "Unit (Festive Clean Very Small Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "100",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Festive Std Condo": {
-				"handle": "festive_big",
-				"label": "Festive Clean Condo",
-				"displayLabel": "Festive Clean Condo",
-				"orderLabel": "Hours (Festive Clean Std Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "50",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 210,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Festive Landed House": {
-				"handle": "festive_big",
-				"label": "Festive Clean Landed House",
-				"displayLabel": "Festive Clean Landed House",
-				"orderLabel": "Hours (Festive Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "50",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 420,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Std Clean Condo": {
-				"handle": "standard_condo",
-				"label": "Standard Clean Condo",
-				"displayLabel": "Standard Clean Condo",
-				"orderLabel": "Hours (Standard Clean Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "40",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 180,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Std Clean Landed House": {
-				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House",
-				"displayLabel": "Standard Clean Landed House",
-				"orderLabel": "Hours (Standar Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "40",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			          
-						
-			"Reno Very Small Condo": {
-				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo                                        4 to 5 Hours",
-				"displayLabel": "Renovation Clean Very Small Condo",
-				"orderLabel": "Hour (Renovation Clean Very Small Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "44",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 5,
-					"default": 5,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Reno Standard House": {
-				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                                                MYR55/Hr",
-				"displayLabel": "Renovation Clean 1-Storey House or Condo",
-				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "55",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 360,
-					"increment": 60,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Reno Big House": {
-				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House                                                   MYR500/Day",
-				"displayLabel": "Renovation Clean Big House",
-				"orderLabel": "Day (Renovation Clean Big House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "500",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 2,
-					"default": 1,
-					"increment": 0.5,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-						
-			"Move Very Small Condo": {
-				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo                                                    MYR100/Unit",
-				"displayLabel": "Move Clean Very Small Condo",
-				"orderLabel": "Unit (Move Clean Very Small Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "100",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Move Condo": {
-				"handle": "move_condo",
-				"label": "Move Clean Condo                                                   MYR45/Hr",
-				"displayLabel": "Move Clean Condo",
-				"orderLabel": "Hours (Move Clean Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Move Landed": {
-				"handle": "move_landed",
-				"label": "Move Clean Landed House                                            MYR45/Hr",
-				"displayLabel": "Move Clean Landed House",
-				"orderLabel": "Hours (Move Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 300,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Project Survey": {
-				"handle": "cleaning_project_survey",
-				"label": "Cleaning Project Survey",
-				"displayLabel": "Cleaning Project Survey",
-				"orderLabel": "Survey (Cleaning Project Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "35",
-					"CNY": "82.5"
-				}, 
-				"quantity": {
-					"label": "Survey",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Project Confirmation": {
-				"handle": "cleaning_project_confirmation",
-				"label": "Cleaning Project Confirmation",
-				"displayLabel": "Cleaning Project Confirmation",
-				"orderLabel": "Project (Cleaning Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				}, 
-				"quantity": {
-					"label": "Project",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Ladder Package": {
-				"handle": "cleaning_ladder_package",
-				"label": "Ladder Package                                                          Only in JB",
-				"displayLabel": "Ladder Package",
-				"orderLabel": "Package (Ladder PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "800",
-					"CNY": "10"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Vacuum Package": {
-				"handle": "cleaning_vacuum_package",				
-				"label": "Vacuum Package                                                         Only in JB",
-				"displayLabel": "Vacuum Package",
-				"orderLabel": "Package (Vacuum PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "960",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
-			},
-			
-			"Top Up Package": {
-				"handle": "cleaning_top_up_package",				
-				"label": "Top Up Package                                                Only in JB",
-				"displayLabel": "Top Up Package",
-				"orderLabel": "Package (Top Up PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "500",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
-			}
-		},
 		
-		
-	"types": {
-			"tools": {
-				"label": "Tools?",
-				"description": "Label standard",
-				"values": {
-														
-					"Customer tools": {
-						"label": "Customer provides",
-						"orderLabel": "Customer provides",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					
-					"Blooms tools": {
-						"label": "Blooms provides (+ MYR20)",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "20",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-	
-	
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
@@ -1291,83 +1402,78 @@
 	
 	
 	
-		
-	"plumbing": {
-		"name": "Plumbing",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+	"carpentry": {
+		"name": "Carpentry",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "43",
-			"MYR": "14",
-			"CNY": "50"
+			"SGD": "30",
+			"MYR": "57",
+			"CNY": "20"
 		},
-		"hasNote": 1,
+		"hasNote": 1, 
 		"options": {
-			
-			"Std Plumbing 1st Hr": {
-				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour",
-				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
+			"1st Hr": {
+				"handle": "first_hr",
+				"label": "1st Hour                                       MYR60/Hr",
+				"orderLabel": "Hour (1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "75",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more",
-				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
+					"SGD": "25",
 					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 0,
-					"increment": 30,
+					"max": 1,
+					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
-			},
-			
-			"Non-Standard Plumbing Project Survey": {
-				"handle": "plumbing_other_survey",
-				"label": "Other Plumbing SURVEY",
-				"orderLabel": "Trip (Other Plumbing SURVEY)",
+			},			
+			"2Hr Rate": {
+				"handle": "second_or_more_hr",
+				"label": "2nd Hour & more                                             MYR50/Hr",
+				"orderLabel": "Hour (2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "15",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},			
+			"Survey": {
+				"handle": "survey",
+				"label": "Retrofit / Renovation Survey                                            Free",
+				"orderLabel": "Job (Renovation / Retrofit Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
 					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
 					"default": 0,
 					"base": 60
 				}
-			},
-			
-			"Other Plumbing Confirmation": {
-				"handle": "plumbing_other_plumbing_confirmation",
-				"label": "Other Plumbing Confirmation                                      Per Quotation",
-				"orderLabel": "Job (Other Plumbing Confirmation)",
+			},			
+			"Project": {
+				"handle": "projects",
+				"label": "Retrofit / Renovation Project Confirmation                                         Per Quotation",
+				"orderLabel": "Job (Retrofit / Renovation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1381,186 +1487,25 @@
 					"increment": 60,
 					"default": 0,
 					"base": 60
-				}
-			},
-			
-			"Tank Issue Survey": {
-				"handle": "plumbing_tank_issue_survey",
-				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
-				"orderLabel": "Trip (Tank Issue SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Wash 1st Hr": {
-				"handle": "tank_wash_first_hour",
-				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
-				"orderLabel": "Hour (Tank WASH 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Wash 2nd Hr": {
-				"handle": "tank_wash_second_hour",
-				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
-				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-			
-			"Tank Repair 1st Hr": {
-				"handle": "tank_repair_first_hour",
-				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
-				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Repair 2nd Hr": {
-				"handle": "tank_repair_second_hour",
-				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
-				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-						
-			"Tank Project": {
-				"handle": "tank_project",
-				"label": "Tank Project Confirmation                                           Unavailable in SG",
-				"orderLabel": "Job (Tank Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Sink Poppy": {
-				"handle": "sink_poppy",
-				"label": "Sink Poppy                                             Available only in JB",
-				"orderLabel": "Set (Sink Poppy)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-			
-			"Trouble Shoot": {
-				"handle": "trouble_shoot",
-				"label": "Trouble Shoot",
-				"orderLabel": "Job (Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
 				}
 			}
 		},
 		
-		"types": {
+	    "types": {
 			"house": {
 				"label": "House Type",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
+							"SGD": "5",
 							"MYR": "10",
 							"CNY": "10"
 						}
@@ -1571,11 +1516,6 @@
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
 						}
 					}
 				}
@@ -1583,6 +1523,7 @@
 		}
 	},
 		
+	
 	
 	
 	"tiling": {
@@ -2715,6 +2656,437 @@
 			}
 		}
 	},
+	
+	
+	
+	
+	"cleaning": {
+		"name": "Cleaning",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban", "Singapore"],
+		"startPrice": {
+			"SGD": "40",
+			"MYR": "100",
+			"CNY": "195"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Festive Very Small Condo": {
+				"handle": "festive_small_condo",
+				"label": "Festive Clean Very Small Condo",
+				"displayLabel": "Festive Clean Very Small Condo",
+				"orderLabel": "Unit (Festive Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "100",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Festive Std Condo": {
+				"handle": "festive_big",
+				"label": "Festive Clean Condo",
+				"displayLabel": "Festive Clean Condo",
+				"orderLabel": "Hours (Festive Clean Std Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "50",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 210,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Festive Landed House": {
+				"handle": "festive_big",
+				"label": "Festive Clean Landed House",
+				"displayLabel": "Festive Clean Landed House",
+				"orderLabel": "Hours (Festive Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "50",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 420,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Std Clean Condo": {
+				"handle": "standard_condo",
+				"label": "Standard Clean Condo",
+				"displayLabel": "Standard Clean Condo",
+				"orderLabel": "Hours (Standard Clean Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 180,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Std Clean Landed House": {
+				"handle": "standard_landed_house",
+				"label": "Standard Clean Landed House",
+				"displayLabel": "Standard Clean Landed House",
+				"orderLabel": "Hours (Standar Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			          
+						
+			"Reno Very Small Condo": {
+				"handle": "reno_small_condo",
+				"label": "Renovation Clean Very Small Condo                                        4 to 5 Hours",
+				"displayLabel": "Renovation Clean Very Small Condo",
+				"orderLabel": "Hour (Renovation Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "44",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 5,
+					"default": 5,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Standard House": {
+				"handle": "reno_standard_house",
+				"label": "Renovation Clean 1-Storey House or Condo                                                MYR55/Hr",
+				"displayLabel": "Renovation Clean 1-Storey House or Condo",
+				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "55",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 360,
+					"increment": 60,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Reno Big House": {
+				"handle": "reno_big_house",
+				"label": "Renovation Clean Big House                                                   MYR500/Day",
+				"displayLabel": "Renovation Clean Big House",
+				"orderLabel": "Day (Renovation Clean Big House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "500",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Day",
+					"min": 0,
+					"max": 2,
+					"default": 1,
+					"increment": 0.5,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+						
+			"Move Very Small Condo": {
+				"handle": "move_small_condo",
+				"label": "Move Clean Very Small Condo                                                    MYR100/Unit",
+				"displayLabel": "Move Clean Very Small Condo",
+				"orderLabel": "Unit (Move Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "100",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Move Condo": {
+				"handle": "move_condo",
+				"label": "Move Clean Condo                                                   MYR45/Hr",
+				"displayLabel": "Move Clean Condo",
+				"orderLabel": "Hours (Move Clean Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Move Landed": {
+				"handle": "move_landed",
+				"label": "Move Clean Landed House                                            MYR45/Hr",
+				"displayLabel": "Move Clean Landed House",
+				"orderLabel": "Hours (Move Clean Landed House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "45",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 300,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Project Survey": {
+				"handle": "cleaning_project_survey",
+				"label": "Cleaning Project Survey",
+				"displayLabel": "Cleaning Project Survey",
+				"orderLabel": "Survey (Cleaning Project Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "35",
+					"CNY": "82.5"
+				}, 
+				"quantity": {
+					"label": "Survey",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Project Confirmation": {
+				"handle": "cleaning_project_confirmation",
+				"label": "Cleaning Project Confirmation",
+				"displayLabel": "Cleaning Project Confirmation",
+				"orderLabel": "Project (Cleaning Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				}, 
+				"quantity": {
+					"label": "Project",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			"Ladder Package": {
+				"handle": "cleaning_ladder_package",
+				"label": "Ladder Package                                                          Only in JB",
+				"displayLabel": "Ladder Package",
+				"orderLabel": "Package (Ladder PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "800",
+					"CNY": "10"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Vacuum Package": {
+				"handle": "cleaning_vacuum_package",				
+				"label": "Vacuum Package                                                         Only in JB",
+				"displayLabel": "Vacuum Package",
+				"orderLabel": "Package (Vacuum PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "960",
+					"CNY": "15"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+											
+				}
+			},
+			
+			"Top Up Package": {
+				"handle": "cleaning_top_up_package",				
+				"label": "Top Up Package                                                Only in JB",
+				"displayLabel": "Top Up Package",
+				"orderLabel": "Package (Top Up PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "500",
+					"CNY": "15"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+											
+				}
+			}
+		},
+		
+		
+	"types": {
+			"tools": {
+				"label": "Tools?",
+				"description": "Label standard",
+				"values": {
+														
+					"Customer tools": {
+						"label": "Customer provides",
+						"orderLabel": "Customer provides",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					
+					"Blooms tools": {
+						"label": "Blooms provides (+ MYR20)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 	
 	
 	"clean-water": {
