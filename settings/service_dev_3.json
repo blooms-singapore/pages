@@ -7,8 +7,8 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "43",
-			"MYR": "14",
+			"SGD": "45",
+			"MYR": "75",
 			"CNY": "50"
 		},
 		"hasNote": 1,
