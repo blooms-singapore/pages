@@ -2828,7 +2828,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "100",
+					"MYR": "95",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -2851,7 +2851,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "50",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -2874,7 +2874,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "50",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -2898,7 +2898,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -2922,7 +2922,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -2946,7 +2946,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "44",
+					"MYR": "45",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -2969,7 +2969,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -3086,7 +3086,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "35",
+					"MYR": "20",
 					"CNY": "82.5"
 				}, 
 				"quantity": {
