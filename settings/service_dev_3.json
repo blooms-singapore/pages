@@ -3791,7 +3791,7 @@
 	"restoration": {
 		"name": "Restoration",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "35",
@@ -3806,7 +3806,7 @@
 				"orderLabel": "Trip (Item Assessment)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "35",
 					"CNY": "0"
 				},
