@@ -3824,7 +3824,7 @@
 		"Restoration Confirmation": {
 				"handle": "restoration_confirmation",
 				"label": "Restoration Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Restoration Confirmation)",
+				"orderLabel": "Project (Restoration Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3832,7 +3832,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Project",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
