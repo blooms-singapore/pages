@@ -3790,11 +3790,11 @@
 	
 	"restoration": {
 		"name": "Restoration",
-		"lastSlot": "15:30",
+		"lastSlot": "15:00",
 		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "50",
+			"MYR": "35",
 			"CNY": "20"
 		},
 		"hasNote": 1,
