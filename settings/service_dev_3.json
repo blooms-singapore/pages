@@ -1768,10 +1768,10 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45.5",
-			"MYR": "137.5",
+			"MYR": "150",
 			"CNY": "20"
 		},
 		"hasNote": 1,
