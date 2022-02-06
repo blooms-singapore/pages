@@ -3,7 +3,7 @@
 	"roof": {
 		"name": "Roof",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Seremban", "Singapore", "Nilai"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -93,7 +93,7 @@
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Nilai"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "75",
