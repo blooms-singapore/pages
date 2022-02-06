@@ -3,7 +3,7 @@
 	"roof": {
 		"name": "Roof",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Nilai"],
+		"disableLocations": ["Seremban", "Singapore", "Nilai - coming soon"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
