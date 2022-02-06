@@ -93,7 +93,7 @@
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Nilai"],
+		"disableLocations": ["Seremban", "NILAI - Coming Soon"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "75",
