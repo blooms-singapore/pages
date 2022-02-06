@@ -93,7 +93,7 @@
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "NILAI - Coming Soon"],
+		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "75",
@@ -632,7 +632,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -1008,7 +1008,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban","Kuala Lumpur"],
+		"disableLocations": ["Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "76",
 			"MYR": "114",
@@ -1287,7 +1287,7 @@
 	"home-security": {
 		"name": "Home Security",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "80",
@@ -1435,7 +1435,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Singapore", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "171",
@@ -1566,7 +1566,7 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Singapore", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -1732,7 +1732,7 @@
 	"carpentry": {
 		"name": "Carpentry",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "57",
@@ -1856,7 +1856,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "150",
@@ -2071,7 +2071,7 @@
 	"computer": {
 		"name": "Computer & Digital Entertainment",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "12",
 			"MYR": "23.50",
@@ -2278,7 +2278,7 @@
 	"house_diagnosis": {
 		"name": "House Diagnosis",
 		"lastSlot": "14:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "535",
@@ -2384,7 +2384,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "43",
 			"MYR": "60",
@@ -2538,7 +2538,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "42.5",
@@ -2751,7 +2751,7 @@
 	"locksmith": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur"],
+		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "52",
@@ -2990,7 +2990,7 @@
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Singapore"],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "100",
@@ -3419,7 +3419,7 @@
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban","Singapore","Kuala Lumpur"],
+		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "85",
 			"MYR": "23.5",
@@ -3546,7 +3546,7 @@
 	"curtain": {
 		"name": "Curtain Alteration",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "33",
@@ -3777,7 +3777,7 @@
 	"others": {
 		"name": "Others",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "20",
@@ -3887,7 +3887,7 @@
 	"runner": {
 		"name": "Runner & Helper",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Singapore", "Kuala Lumpur", "Johor Bahru", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "30",
@@ -4053,10 +4053,12 @@
 	},
 		
 	
+	
+	
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Johor Bahru"],
+		"disableLocations": ["Johor Bahru", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "10",
 			"MYR": "20",
@@ -4212,7 +4214,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand. MOQ = MYR100",
-		"disableLocations": ["Serembaan" ,"Kuala Lumpur","Johor Bahru", "Singapore"],
+		"disableLocations": ["Kuala Lumpur","Johor Bahru", "Singapore", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "100",
@@ -5958,10 +5960,12 @@
 	},
 	
 	
+	
+	
 	"car-care": {
 		"name": "Car Care",
 		"lastSlot": "14:00",
-		"disableLocations":["Kuala Lumpur","Singapore","Johor Bahru"],
+		"disableLocations":["Kuala Lumpur","Singapore","Johor Bahru", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "147",
@@ -6304,10 +6308,13 @@
 	},
 
 	
+	
+	
+	
 	"pet": {
 		"name": "Pet",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Singapore", "Kuala Lumpur", "Johor Bahru", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "52",
