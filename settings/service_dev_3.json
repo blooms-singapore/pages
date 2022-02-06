@@ -476,7 +476,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "43",
 			"MYR": "60",
