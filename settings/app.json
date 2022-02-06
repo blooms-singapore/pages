@@ -1,6 +1,6 @@
 {
-  "iosVersion": 1.35,
-  "androidVersion": 7.0,
+  "iosVersion": 1.40,
+  "androidVersion": 1.40.5,
   "iosDownload": "https://www.blooms.my",
   "androidDownload": "https://www.blooms.my",
   "devicesUrl": "https://pages.blooms.sg/en/pages/news.html",
@@ -12,13 +12,13 @@
   "defaultCurrency": "MYR",
   "customerSupport": "60 10 935 2700",
   "cancelBuffer": 72,
-  "bookingDays": 18,
-  "referralLimit": 5,
+  "bookingDays": 14,
+  "referralLimit": 100,
   "referralDiscount": 5,
   "discounts": {
     "SGD": 0,
     "MYR": 0,
-    "CNY": 12
+    "CNY": 0
   },
   "timeBuffer":1020,
   "timeStart": {
