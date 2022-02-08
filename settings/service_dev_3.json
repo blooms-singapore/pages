@@ -554,8 +554,8 @@
 				"orderLabel": "Trip (Electrical Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "60",
+					"SGD": "30",
+					"MYR": "85",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -575,7 +575,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "95",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"cost_max": {
