@@ -549,7 +549,7 @@
 			
 			
 			"Electrical Trouble Shoot": {
-				"handle": "electrical_trouble_shoot",
+				"handle": "electrical_troubleshoot",
 				"label": "Electrical Trouble Shoot",
 				"orderLabel": "Trip (Electrical Trouble Shoot)",
 				"description": "Label standard",
