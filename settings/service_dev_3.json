@@ -1729,8 +1729,8 @@
 			
 			"Home Security Survey": {
 				"handle": "home_security_survey",
-				"label": "Home Security Survey",
-				"orderLabel": "Trip (Home Security Survey)",
+				"label": "Survey",
+				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1748,10 +1748,10 @@
 			},
 			
 			
-		"Home Security Project Confirmation": {
+		"Project Confirmation": {
 				"handle": "home_security_project_confirmation",
-				"label": "Home Security Project Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Home Security Survey)",
+				"label": "Project Confirmation                                        Per Quotation",
+				"orderLabel": "Job (Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1769,14 +1769,14 @@
 			},
 									
 					
-			"All Systems Trouble Shoot": {
+			"CCTV Trouble Shoot": {
 				"handle": "home_security_trouble_shoot",
-				"label": "All System Trouble Shoot",
-				"orderLabel": "Job (All System Trouble Shoot)",
+				"label": "Trouble Shoot",
+				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "200",
+					"MYR": "220",
 					"CNY": "0"
 				},
 				"quantity": {
