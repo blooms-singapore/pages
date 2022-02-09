@@ -2601,14 +2601,56 @@
 	"locksmith": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "52",
+			"MYR": "60",
 			"CNY": "80"
 		},
 		"hasNote": 1,
 		"options": {
+			
+			"Survey": {
+				"handle": "locksmith_survey",
+				"label": "Lock Work Survey",
+				"orderLabel": "Trip (Lock Work Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Lock Work Confirmation": {
+				"handle": "locksmith_lock_work_confirmation",
+				"label": "Lock Work Confirmation                                         Per Quotation",
+				"orderLabel": "Job (Lock Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
 			"unlock-morning": {
 				"handle": "unlock_morning",
 				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100",
@@ -2677,45 +2719,7 @@
 				}
 			},
 			
-			"Survey": {
-				"handle": "locksmith_survey",
-				"label": "Other Lock Work Survey",
-				"orderLabel": "Trip (Other Lock Work Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
 			
-			"Non Std Repair": {
-				"handle": "non_standard_repair",
-				"label": "Non-Standard Lock Repair                                         Per Quotation",
-				"orderLabel": "Job (Non-Std Lock Repair)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
 			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
