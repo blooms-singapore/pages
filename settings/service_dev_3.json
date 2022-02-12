@@ -387,7 +387,7 @@
 	"restoration": {
 		"name": "Restoration",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Seremban", "Singappre", "Johor Bahru", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "35",
