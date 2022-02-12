@@ -2470,7 +2470,7 @@
 	"computer": {
 		"name": "Computer & Digital Entertainment",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Singapore","Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "12",
 			"MYR": "23.50",
