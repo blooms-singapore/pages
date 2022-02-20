@@ -2465,212 +2465,6 @@
 	
 	
 	
-	
-	
-	"computer": {
-		"name": "Computer & Digital Entertainment",
-		"lastSlot": "16:30",
-		"disableLocations": ["Singapore","Kuala Lumpur", "Johor Bahru"],
-		"startPrice": {
-			"SGD": "12",
-			"MYR": "23.50",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Assessment": {
-				"handle": "assessment",
-				"label": "On-Site Assessment                                       MYR20/Trip",
-				"orderLabel": "Trip (On-Site Assessment)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Ware Install": {
-				"handle": "ware_install",
-				"label": "Soft or Hardware Installation                                 MYR30/Hr",
-				"orderLabel": "Hour (Soft or Hardware Installation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},			
-			"Network": {
-				"handle": "network",
-				"label": "Network                                                 MYR30/Hr",
-				"orderLabel": "Hour (Network)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 180,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Workshop Repair": {
-				"handle": "workshop_repair",
-				"label": "Workshop Repair                                              MYR85/Job",
-				"orderLabel": "Job (Workshop Repair)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "85",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Karaoke": {
-				"handle": "karaoke",
-				"label": "Karaoke System Install or Setting                                              MYR80/Job",
-				"orderLabel": "Job (Karaoke System Install or Setting)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Project": {
-				"handle": "project",
-				"label": "Project Confirmation                                       Per Quotation",
-				"orderLabel": "Job (Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"TV Box": {
-				"handle": "tv_box",
-				"label": "Digital TV Box                                            MYR599/Set",
-				"orderLabel": "Set (Digital TV Box)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "249",
-					"MYR": "599",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-		
-		"Karaoke + TV Box": {
-				"handle": "karaoke_tvbox",
-				"label": "Karaoke & TV Box                                            MYR4500/Set",
-				"orderLabel": "Set (Karaoke + TV Box)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "2000",
-					"MYR": "4500",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			}
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
 					
 	
 	
@@ -3239,7 +3033,6 @@
 	
 		
 	
-	
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
@@ -3364,6 +3157,119 @@
 			}
 		}
 	},
+	
+	
+	
+	
+	
+	"disposal": {
+		"name": "Disposal",
+		"lastSlot": "15:00",
+		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "30",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Disposal Survey": {
+				"handle": "disposal_survey",
+				"label": "Disposal Survey",
+				"orderLabel": "Trip (Disposal Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			"Disposal Videocall Survey": {
+				"handle": "disposal_videocall_survey",
+				"label": "Disposal Video Call Survey",
+				"orderLabel": "Videocall (Disposal Video Call Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "10",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Videocall",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+		"Disposal Confirmation": {
+				"handle": "disposal_confirmation",
+				"label": "Disposal Confirmation                                        Per Quotation",
+				"orderLabel": "Job (Disposal Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		 },
+				
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"landed": {
+						"label": "Landed",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"condo": {
+						"label": "Condominium",
+						"cost": {
+							"SGD": "0",
+							"MYR": "30",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	
 	
 		
