@@ -1273,6 +1273,7 @@
 	
 		
 	
+	
 	"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
@@ -1439,7 +1440,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
-		"disableLocations": ["Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "76",
 			"MYR": "114",
