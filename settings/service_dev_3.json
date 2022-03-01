@@ -2947,7 +2947,7 @@
 	
 	"clean-water": {
 		"name": "Clean Water",
-		"lastSlot": "15:30",
+		"lastSlot": "14:30",
 		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "85",
