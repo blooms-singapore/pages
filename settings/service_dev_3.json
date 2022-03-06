@@ -844,7 +844,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "110",
+					"MYR": "120",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -905,6 +905,31 @@
 				}
 			},
 			
+			
+			"Std Clean Very Small Condo": {
+				"handle": "standard_small_condo",
+				"label": "Standard Clean Very Small Condo",
+				"displayLabel": "Standard Clean Very Small Condo",
+				"orderLabel": "Unit (Standard Clean Very Small Condo)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "100",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 2,
+					"default": 1,
+					"increment": 1,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+						
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
