@@ -155,7 +155,29 @@
 					"default": 60,
 					"base": 60
 				}
-			},			
+			},
+			
+			
+			"AC Install": {
+				"handle": "aircon_install",
+				"label": "Wall-Mount AC Install                                      Minimum Booking 2.5hrs",
+				"orderLabel": "Hours (Wall-Mount AC Install)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "99.13",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 2.5,
+					"base": 1
+				}
+			},
+			
 			
 			
 						
