@@ -364,8 +364,8 @@
 				"description": "Label standard",
 				"values": {
 					"landed": {
-						"label": "Landed",
-						"orderLabel": "Condo Surcharge",
+						"label": "Normal Days",
+						"orderLabel": "Normal Days",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -378,10 +378,10 @@
 						}
 					},
 					"condo": {
-						"label": "Condominium",
+						"label": "Public Holidays",
 						"cost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "50",
 							"CNY": "0"
 						}
 					}
