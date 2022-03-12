@@ -2103,8 +2103,8 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "1st Hour                                       MYR60/Hr",
-				"orderLabel": "Hour (1st Hour)",
+				"label": "Repair 1st Hour                                       MYR60/Hr",
+				"orderLabel": "Hour (Repair 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
@@ -2122,8 +2122,8 @@
 			},			
 			"2Hr Rate": {
 				"handle": "second_or_more_hr",
-				"label": "2nd Hour & more                                             MYR50/Hr",
-				"orderLabel": "Hour (2nd Hour or more)",
+				"label": "Repair 2nd Hour & more                                             MYR50/Hr",
+				"orderLabel": "Hour (Repair 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -2138,10 +2138,11 @@
 					"default": 0,
 					"base": 60
 				}
-			},			
+			},
+			
 			"Survey": {
 				"handle": "survey",
-				"label": "Retrofit / Renovation Survey                                            Free",
+				"label": "Retrofit / Renovation Survey                                            MYR20/Trip",
 				"orderLabel": "Job (Renovation / Retrofit Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2157,9 +2158,32 @@
 					"default": 0,
 					"base": 60
 				}
+			},
+			
+			
+			"Carpentry Quote Discussion": {
+				"handle": "carpentry_quote_discussion",
+				"label": "Retrofit / Renovation Quote Discussion                                            Free",
+				"orderLabel": "Job (Renovation / Retrofit Quote Discussion)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
 			},			
+			
+			
 			"Project": {
-				"handle": "projects",
+				"handle": "carpentry_projects",
 				"label": "Retrofit / Renovation Project Confirmation                                         Per Quotation",
 				"orderLabel": "Job (Retrofit / Renovation Project Confirmation)",
 				"description": "Label standard",
