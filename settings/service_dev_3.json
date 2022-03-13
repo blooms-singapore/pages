@@ -2241,7 +2241,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "150",
@@ -2249,6 +2249,68 @@
 		},
 		"hasNote": 1,
 		"options": {
+						
+			"Tiling Survey": {
+				"handle": "tiling_survey",
+				"label": "Survey                                                     MYR30/Trip",
+				"orderLabel": "Trip (Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Tiling Quote Discussion": {
+				"handle": "tiling_quote_discussion",
+				"label": "Quote Discussion                                           Free",
+				"orderLabel": "Job (Quote Discussion)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+          		"Tiling Project": {
+				"handle": "tiling_project",
+				"label": "Project Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
 			
 			"Non-Waterproof Min 1.5hrs": {
 				"handle": "nonwaterproof_min_order",
@@ -2372,47 +2434,6 @@
 					"default": 1,
 					"base": 1,
 					"Multiplier": 1
-				}
-			},
-		
-						
-			"Tiling Survey": {
-				"handle": "tiling_survey",
-				"label": "Survey",
-				"orderLabel": "Trip (Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-          		"Tiling Project": {
-				"handle": "tiling_project",
-				"label": "Project Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
 				}
 			}
 		},
