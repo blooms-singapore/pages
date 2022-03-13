@@ -3526,8 +3526,8 @@
 		"options": {
 			"Service Survey": {
 				"handle": "others_service_survey",
-				"label": "Other or Multiple Service Survey",
-				"orderLabel": "Trip (Other or Muiltiple Service Survey)",
+				"label": "Survey",
+				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
