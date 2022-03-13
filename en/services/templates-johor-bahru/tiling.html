@@ -173,10 +173,33 @@ layout: service
   
 <div class="pricing">
   <table>
+      <!--Project-->
+    <thead>
+      <tr>
+       <th><b>Lumpsum<br>Projects</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Survey<br>Quote within 3 days</td>
+        <td>${params.tiling_survey}/Trip<br><b>Waive upon<br>award of Job</b></td>
+      </tr>
+      
+       <tr>
+        <td>Tiling Quote<br>Discussion</td>
+        <td>Free</td>
+      </tr>
+      
+      <tr>
+        <td>Project Confirmation</td>
+        <td>Per Quotation</td>
+       </tr>
+    
      <!--non-Waterproof - hourly charge-->
      <thead>
       <tr>
-        <th><b>(A) Non-Waterproof<br>Tile Works</b></th>
+        <th><b>Non-Waterproof<br>Tile Works</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -191,10 +214,10 @@ layout: service
         <td>${params.nonwaterproof_second_hour}/Hour</td>
       </tr>
      
-     <!--Waterproof - by area-->
+     <!--Waterproof by area-->
      <thead>
       <tr>
-        <th><b>(B) Waterproof Tile Works<br>Min Area 30ft<sup>2</sup></b></th>
+        <th><b>Waterproof Tile Works<br>Min Area 30ft<sup>2</sup></b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -219,28 +242,11 @@ layout: service
         <td>Per Quotation</td>
       </tr>
       
-     <!--Project-->
-    <thead>
-      <tr>
-       <th><b>(C) Projects</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Survey<br>Quote within 3 days</td>
-        <td>${params.tiling_survey}/Trip<br><b>Waive upon<br>award of Job</b></td>
-      </tr>
-      
-      <tr>
-        <td>Project Confirmation</td>
-        <td>Per Quotation</td>
-       </tr>
-      
+        
       <!--Other Charges-->
       <thead>
       <tr>
-       <th><b>(D) Other Charges</b></th>
+       <th><b>Other Charges</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
