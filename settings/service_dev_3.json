@@ -3551,7 +3551,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3566,7 +3566,7 @@
 			
 			"Project Confirmation": {
 				"handle": "others_project",
-				"label": "Retrofit or Renovation Project Confirmation                                           Per Quotation",
+				"label": "Retrofit or Renovation Project Confirmation                                             Per Quotation",
 				"orderLabel" : "Job (Retrofit or Renovation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
