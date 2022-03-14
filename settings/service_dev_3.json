@@ -2142,7 +2142,7 @@
 			
 			"Survey": {
 				"handle": "survey",
-				"label": "Retrofit / Renovation Survey                                            MYR20/Trip",
+				"label": "Retrofit / Renovation Survey                                            MYR30/Trip",
 				"orderLabel": "Job (Renovation / Retrofit Survey)",
 				"description": "Label standard",
 				"cost": {
