@@ -157,15 +157,35 @@
 				}
 			},
 			
+			"AC Repair Project Confirmation": {
+				"handle": "aircon_repair_project_confirmation",
+				"label": "Aircon Repair Project Confirmation",
+				"orderLabel": "Job (Aircon Repair Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
 			
 			"AC Install": {
 				"handle": "aircon_install",
-				"label": "Wall-Mount AC Install                                      Minimum Booking 2.5hrs",
+				"label": "Wall-Mount AC Install                                         Min Booking 2.5hrs",
 				"orderLabel": "Hours (Wall-Mount AC Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "99.13",
+					"SGD": "50",
+					"MYR": "99.20",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -178,29 +198,7 @@
 				}
 			},
 			
-			
-			
-						
-			"AC Project Confirmation": {
-				"handle": "ac_project",
-				"label": "Aircon Project Confirmation                                   Per Quotation",
-				"orderLabel": "Job (Aircon Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
+												
 			"3Hr Package": {
 				"handle": "three_hour",
 				"label": "3-Hour Package                                         Only in JB",
