@@ -3281,7 +3281,7 @@
 	
 		
 	"curtain": {
-		"name": "Curtain Alteration",
+		"name": "Curtain Alteration & Laundry",
 		"lastSlot": "15:00",
 		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
