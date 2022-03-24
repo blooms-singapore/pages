@@ -1767,7 +1767,7 @@
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "50",
 					"MYR": "75",
 					"CNY": "0"
 				},
@@ -1786,7 +1786,7 @@
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "40",
 					"MYR": "50",
 					"CNY": "0"
 				},
@@ -1805,7 +1805,7 @@
 				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "65",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -1824,7 +1824,7 @@
 				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "50",
 					"MYR": "70",
 					"CNY": "0"
 				},
