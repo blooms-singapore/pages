@@ -2039,6 +2039,7 @@
 			"Survey": {
 				"handle" : "painting_survey",
 				"label": "Painting Survey",
+				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
 					"SGD": "0",
