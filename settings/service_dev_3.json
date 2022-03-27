@@ -625,8 +625,7 @@
 		}
 	},
 	
-	
-	
+		
 	
 	
 	"plumbing": {
@@ -1541,7 +1540,7 @@
 		"disableLocations": ["Seremban", "Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "42.5",
+			"MYR": "50",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -1754,7 +1753,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "43",
-			"MYR": "66.25",
+			"MYR": "75",
 			"CNY": "150"
 		},
 		"disableLocations": ["Seremban"],
@@ -2038,12 +2037,12 @@
 		"hasNote": 1,
 		"options": {
 			"Survey": {
-				"handle" : "my_survey",
-				"label": "Survey                                             Free",
-				"description": "Survey",
+				"handle" : "painting_survey",
+				"label": "Painting Survey",
+				"description": "Painting Survey",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
