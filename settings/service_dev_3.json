@@ -1195,7 +1195,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1219,7 +1219,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1237,9 +1237,9 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo                                        4 to 5 Hours",
+				"label": "Renovation Clean Very Small Condo                                        Up to 5 Hours",
 				"displayLabel": "Renovation Clean Very Small Condo",
-				"orderLabel": "Hour (Renovation Clean Very Small Condo)",
+				"orderLabel": "Hours (Renovation Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -1247,7 +1247,7 @@
 					"CNY": "82.5"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Hours",
 					"min": 0,
 					"max": 5,
 					"default": 5,
@@ -1260,13 +1260,13 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                                                MYR55/Hr",
+				"label": "Renovation Clean 1-Storey House or Condo",
 				"displayLabel": "Renovation Clean 1-Storey House or Condo",
 				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "50",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1514,7 +1514,7 @@
 					},
 					
 					"Blooms tools": {
-						"label": "Blooms provides (+ MYR20)",
+						"label": "Blooms provides (+ MYR30)",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
