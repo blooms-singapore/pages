@@ -634,7 +634,7 @@
 		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "45",
-			"MYR": "75",
+			"MYR": "80",
 			"CNY": "50"
 		},
 		"hasNote": 1,
@@ -767,7 +767,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "80",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -787,7 +787,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "100",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1004,7 +1004,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "50",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1024,7 +1024,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "70",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"cost_max": {
@@ -1753,7 +1753,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "43",
-			"MYR": "75",
+			"MYR": "80",
 			"CNY": "150"
 		},
 		"disableLocations": ["Seremban"],
@@ -1767,7 +1767,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "75",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1786,7 +1786,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "50",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2031,7 +2031,7 @@
 		"disableLocations": ["Singapore", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "30",
-			"MYR": "171",
+			"MYR": "180",
 			"CNY": "110"
 		},
 		"hasNote": 1,
