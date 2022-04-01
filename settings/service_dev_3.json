@@ -3522,26 +3522,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Service Survey": {
-				"handle": "others_service_survey",
-				"label": "Survey",
-				"orderLabel": "Trip (Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
+						
 			"Renovation Project Survey": {
 				"handle": "others_project_survey",
 				"label": "Retrofit or Renovation Project Survey                                                Unavailable in SG",
@@ -3549,7 +3530,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "35",
 					"CNY": "0"
 				},
 				"quantity": {
