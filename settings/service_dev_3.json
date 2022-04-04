@@ -2590,7 +2590,7 @@
 		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "42.5",
+			"MYR": "50",
 			"CNY": "20"
 		},
 		"hasNote": 1,
