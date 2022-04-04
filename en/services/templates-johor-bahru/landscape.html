@@ -207,7 +207,7 @@ layout: service
     
      <thead>
       <tr>
-       <th><b>Over-Growth<br>Clearance<br>2 Crews</b></th>
+       <th><b>Overgrowth<br>Clearance<br>2 Crews</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -220,19 +220,19 @@ layout: service
     
      <thead>
       <tr>
-       <th><b>Debri Disposal</b></th>
+       <th><b>Debris Disposal</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>      
      <tr>
        <td>Small Disposal Fee<br> Up to 3 bags</td>
-        <td>${params.small_debri}/Job</td>
+        <td>${params.small_debris}/Job</td>
       </tr>
         
       <tr>
        <td>Big Disposal Fee<br>4 Bags or more</td>
-        <td>${params.big_debri}/Bag</td>
+        <td>${params.big_debris}/Bag</td>
       </tr>
       
        <tr>
@@ -248,11 +248,11 @@ layout: service
     </thead>
     <tbody>      
       <tr>
-        <td>Landscape Survey</td>
+        <td>Landscape<br>Survey</td>
         <td>${params.landscape_survey}/Trip</td>
       </tr>
       <tr>
-        <td>Project Confirmation</td>
+        <td>Project<br>Confirmation</td>
         <td>Per Quotation</td>
       </tr>
       </tbody>
@@ -276,6 +276,10 @@ layout: service
        <tr>
          <td><b>2 Crews</b><br>Garden Maintenance<br>Service Extension<br>(Optional)</td>
         <td>${(params.landscape_garden_maintenance_hour * 0.5).toFixed(1)}<br>per 30-min block</td>
+      </tr>
+       <tr>
+         <td><b>2 Crews</b><br>Overgrowth Clearance<br>Service Extension<br>(Optional)</td>
+        <td>${(params.landscape_overgrowth_clearance * 0.5).toFixed(1)}<br>per 30-min block</td>
       </tr>
       <tr>
        <td>Distant Locations<br>Transport Charges<br><br>Scroll Below<br>for Locations</td>
