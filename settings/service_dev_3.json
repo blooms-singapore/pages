@@ -2595,10 +2595,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"1st Hr cutting": {
+			"1st Hr Cut": {
 				"handle": "landscape_first_hour",
-				"label": "1 Crew - 1st Hour",
-				"orderLabel": "Hour (1 Crew - 1st Hour)",
+				"label": "1st Hour Cut - 1 crew",
+				"orderLabel": "Hour (1st Hour Cut - 1 crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -2615,10 +2615,10 @@
 				}
 			},
 			
-			"2nd Hr cutting": {
+			"2nd Hr Cut": {
 				"handle": "landscape_second_hour_or_more",
-				"label": "1 Crew - 2nd Hour & more",
-				"orderLabel": "Hour (1 Crew - 2nd Hour & more)",
+				"label": "2nd Hour & more Cut - 1 Crew",
+				"orderLabel": "Hour (2nd Hour & more Cut - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -2637,8 +2637,8 @@
 			
 			"Garden Maintenance": {
 				"handle": "landscape_garden_maintenance_hour",
-				"label": "2 Crews - Garden Maintenance Hourly Rate                                        Min 3 Hours",
-				"orderLabel": "Hour (2 Crews - Garden Maintenance Hourly Rate)",
+				"label": "Garden Maintenance - 2 Crews                                        Min 3 Hours",
+				"orderLabel": "Hour (Garden Maintenance - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -2655,8 +2655,28 @@
 				}
 			},
 			
-			"Small Debri": {
-				"handle": "small_debri",
+			"Overgrowth Clearance": {
+				"handle": "landscape_overgrowth_clearace",
+				"label": "Overgrowth Clearance - 2 Crews                                     Min 2 Hours",
+				"orderLabel": "Hour (Overgrowth Clearance - 2 Crews)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "90",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 6,
+					"increment": 0.5,
+					"default": 2,
+					"base": 1
+				}
+			},
+			
+			"Small Debris": {
+				"handle": "small_debris",
 				"label": "Small Disposal Fee                                        <= 3 Bags",
 				"orderLabel": "Job (Small Disposal Fee)",
 				"description": "Label standard",
@@ -2676,8 +2696,8 @@
 				}
 			},
 			
-			"Big Debri": {
-				"handle": "big_debri",
+			"Big Debris": {
+				"handle": "big_debris",
 				"label": "Big Disposal Fee                                 4 Bags or more",
 				"orderLabel": "Bags (Big Disposal Fee)",
 				"description": "Label standard",
