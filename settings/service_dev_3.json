@@ -1654,7 +1654,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "130",
+					"MYR": "150",
 					"CNY": "20"
 				},
 				"quantity": {
@@ -1670,12 +1670,12 @@
 			
 			"survey": {
 				"handle": "survey",
-				"label": "Site Survey                                             Free",
+				"label": "Site Survey                                             RM30/Trip",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "20"
 				},
 				"quantity": {
