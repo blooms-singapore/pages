@@ -2719,13 +2719,13 @@
 			 },
 			
 			"survey": {
-				"handle": "survey",
-				"label": "Site Survey                                             Free",
-				"orderLabel": "Trip (Site Survey)",
+				"handle": "landscape_survey",
+				"label": "Landscape Survey                                             RM30/Trip",
+				"orderLabel": "Trip (Landscape Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "20"
 				},
 				"quantity": {
