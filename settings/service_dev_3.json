@@ -2670,7 +2670,7 @@
 					"min": 0,
 					"max": 6,
 					"increment": 0.5,
-					"default": 2,
+					"default": 3,
 					"base": 1
 				}
 			},
