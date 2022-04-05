@@ -2377,7 +2377,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "50",
@@ -2446,7 +2446,7 @@
 			},
 			
 			"Overgrowth Clearance": {
-				"handle": "landscape_overgrowth_clearace",
+				"handle": "landscape_overgrowth_clearance",
 				"label": "Overgrowth Clearance - 2 Crews                                     Min 3 Hours",
 				"orderLabel": "Hour (Overgrowth Clearance - 2 Crews)",
 				"description": "Label standard",
