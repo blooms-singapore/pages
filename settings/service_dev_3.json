@@ -243,8 +243,8 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
-			"SGD": "76",
-			"MYR": "114",
+			"SGD": "80",
+			"MYR": "120",
 			"CNY": "230"
 		},
 		"hasNote": 1,
