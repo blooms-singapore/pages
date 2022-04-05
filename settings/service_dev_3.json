@@ -2657,7 +2657,7 @@
 			
 			"Overgrowth Clearance": {
 				"handle": "landscape_overgrowth_clearace",
-				"label": "Overgrowth Clearance - 2 Crews                                     Min 2 Hours",
+				"label": "Overgrowth Clearance - 2 Crews                                     Min 3 Hours",
 				"orderLabel": "Hour (Overgrowth Clearance - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
@@ -2670,7 +2670,7 @@
 					"min": 0,
 					"max": 6,
 					"increment": 0.5,
-					"default": 4,
+					"default": 3,
 					"base": 1
 				}
 			},
