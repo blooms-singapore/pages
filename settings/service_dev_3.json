@@ -551,7 +551,7 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Roof Survey": {
+			"Residential Roof Survey": {
 				"handle": "roof_survey",
 				"label": "Roof Survey",
 				"orderLabel": "Trip (Roof Survey)",
@@ -559,6 +559,26 @@
 				"cost": {
 					"SGD": "0",
 					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Commercial Roof Survey": {
+				"handle": "commercial_roof_survey",
+				"label": "Commercial Roof Survey",
+				"orderLabel": "Trip (Commercial Roof Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"quantity": {
