@@ -552,9 +552,9 @@
 		"options": {
 			
 			"Residential Roof Survey": {
-				"handle": "roof_survey",
-				"label": "Roof Survey",
-				"orderLabel": "Trip (Roof Survey)",
+				"handle": "residential_roof_survey",
+				"label": "Residential Roof Survey",
+				"orderLabel": "Trip (Residential Roof Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
