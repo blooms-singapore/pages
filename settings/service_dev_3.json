@@ -666,7 +666,7 @@
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "55",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -686,7 +686,7 @@
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "45",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -982,7 +982,7 @@
 				"orderLabel": "Hour (Residential Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "65",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -1576,7 +1576,7 @@
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "55",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -1595,7 +1595,7 @@
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "45",
 					"MYR": "60",
 					"CNY": "0"
 				},
