@@ -653,7 +653,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
 		"startPrice": {
-			"SGD": "45",
+			"SGD": "55",
 			"MYR": "80",
 			"CNY": "50"
 		},
@@ -947,7 +947,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "43",
+			"SGD": "65",
 			"MYR": "60",
 			"CNY": "20"
 		},
@@ -1562,7 +1562,7 @@
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "43",
+			"SGD": "55",
 			"MYR": "80",
 			"CNY": "150"
 		},
@@ -3608,7 +3608,7 @@
 		"lastSlot": "16:00",
 		"disableLocations": ["Johor Bahru", "Nilai - Coming Soon"],
 		"startPrice": {
-			"SGD": "10",
+			"SGD": "55",
 			"MYR": "20",
 			"CNY": "20"
 		},
@@ -3662,7 +3662,7 @@
 				"orderLabel": "Hour (Service Work 1st Hour)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "55",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -3682,7 +3682,7 @@
 				"orderLabel": "Hour (Service Work 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "45",
 					"MYR": "40",
 					"CNY": "0"
 				},
