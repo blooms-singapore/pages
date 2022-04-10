@@ -1837,8 +1837,8 @@
 	
 	"painting": {
 		"name": "Painting",
-		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Nilai - Coming Soon"],
+		"lastSlot": "15:00",
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "30",
 			"MYR": "180",
