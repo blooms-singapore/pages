@@ -1516,6 +1516,22 @@
 				"label": "Tools?",
 				"description": "Label standard",
 				"values": {
+					
+					"Blooms tools": {
+						"label": "Blooms provides (+ MYR30)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "30",
+							"CNY": "10"
+						}
+					},
+					
 														
 					"Customer tools": {
 						"label": "Customer provides",
@@ -1529,21 +1545,6 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					
-					"Blooms tools": {
-						"label": "Blooms provides (+ MYR30)",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "30",
 							"CNY": "10"
 						}
 					}
