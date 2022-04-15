@@ -1911,8 +1911,8 @@
 						
 		  	"Paint Project": {
 		  		"handle": "paint_project",
-				"label": "Paint Project Confirmation                                            Per Quotation",
-				"description": "Paint Project Confirmation",
+				"label": "Paint Lumpsum Confirmation                                            Per Quotation",
+				"description": "Paint Lumpsum Confirmation",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
