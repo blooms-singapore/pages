@@ -1102,7 +1102,7 @@
 	
 	"cleaning": {
 		"name": "Cleaning",
-		"lastSlot": "15:00",
+		"lastSlot": "14:30",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
