@@ -3349,7 +3349,7 @@
 		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "20",
+			"MYR": "30",
 			"CNY": "20"
 		},
 		"hasNote": 1,
