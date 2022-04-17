@@ -1449,7 +1449,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "870",
+					"MYR": "900",
 					"CNY": "10"
 				},
 				"quantity": {
@@ -1471,7 +1471,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "1050",
+					"MYR": "1080",
 					"CNY": "15"
 				},
 				"quantity": {
@@ -1494,7 +1494,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "870",
+					"MYR": "900",
 					"CNY": "15"
 				},
 				"quantity": {
@@ -1517,23 +1517,7 @@
 				"description": "Label standard",
 				"values": {
 					
-					"Blooms tools": {
-						"label": "Blooms provides (+ MYR30)",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					
-														
-					"Customer tools": {
+					"Customers tools": {
 						"label": "Customer provides",
 						"orderLabel": "Customer provides",
 						"cost": {
@@ -1544,8 +1528,25 @@
 						
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "50",
-							"CNY": "10"
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					
+														
+					"Blooms tools": {
+						"label": "Blooms provides (+ RM30)",
+						"orderLabel": "Blooms provides (+ RM30)",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "30",
+							"CNY": "0"
 						}
 					}
 				}
