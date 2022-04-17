@@ -275,7 +275,7 @@
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
 				"label": "Wall-Mount Chemical Overhaul",
-				"orderLabel": "Hour (Wall-Mount Chemical Overhaul)",
+				"orderLabel": "Hours (Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -283,7 +283,7 @@
 					"CNY": "300"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Hours",
 					"min": 0,
 					"max": 0,
 					"increment": 30,
@@ -298,8 +298,8 @@
 				"orderLabel": "Hour (Compressor Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "100",
-					"MYR": "100",
+					"SGD": "80",
+					"MYR": "120",
 					"CNY": "300"
 				},
 				"quantity": {
