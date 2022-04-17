@@ -1449,7 +1449,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "900",
+					"MYR": "870",
 					"CNY": "10"
 				},
 				"quantity": {
@@ -1471,7 +1471,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "1080",
+					"MYR": "1050",
 					"CNY": "15"
 				},
 				"quantity": {
@@ -1494,7 +1494,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "900",
+					"MYR": "870",
 					"CNY": "15"
 				},
 				"quantity": {
