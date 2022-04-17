@@ -3346,7 +3346,7 @@
 	"others": {
 		"name": "Others",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
+		"disableLocations": ["Seremban", "Singapore"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "30",
@@ -3357,7 +3357,7 @@
 						
 			"Renovation Project Survey": {
 				"handle": "others_project_survey",
-				"label": "Retrofit or Renovation Project Survey                                                Unavailable in SG",
+				"label": "Retrofit or Renovation Project Survey",
 				"orderLabel": "Job (Retrofit or Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
