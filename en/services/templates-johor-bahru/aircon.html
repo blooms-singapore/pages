@@ -95,22 +95,22 @@ layout: service
     <tbody>
       <tr>
         <td>Overhaul 1 unit</td>
-        <td>${params.aircon_chemical_wash}
+        <td>${(params.aircon_standard_hour * 1.5).toFixed(1)}
           <br>Up to 1.5hrs</td>
       </tr>
       <tr>
         <td>Overhaul 2 units</td>
-        <td>${(params.aircon_chemical_wash * 2).toFixed(1)}
+        <td>${(params.aircon_chemical_wash * 2.5).toFixed(1)}
         <p>Up to 2.5hrs</td>
       </tr>
       <tr>
         <td>Overhaul 3 units</td>
-        <td>${(params.aircon_chemical_wash * 2.5).toFixed(1)}
+        <td>${(params.aircon_chemical_wash * 4.0).toFixed(1)}
         <p>Up to 4.0hrs</td>
       </tr>
       <tr>
         <td>Overhaul 4 units</td>
-        <td>${(params.aircon_chemical_wash * 3).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
+        <td>${(params.aircon_chemical_wash * 5.5).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
         <p>Up to 5.5hrs</td>
       </tr>
       <tr>
