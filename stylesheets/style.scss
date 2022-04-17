@@ -148,3 +148,62 @@ video {
   white-space: nowrap;
 }
 
+.container {
+  width: 90%;
+  margin:40px auto;
+}
+
+.container h1 {
+  font-size: 18px;
+  font-weight: normal;
+  display: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: 50%;
+  min-width: 250px;
+}
+
+.feature-img {
+  width: 95%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.small-img-row {
+  display: flex;
+  background: #efefef;
+  margin: 20px, 0;
+  align-items: center;
+  border-radius = 6px;
+  overflow = hidden;
+  width = 100%;
+}
+
+.small-img {
+  position: relative;
+}
+
+
+.small-img img {
+  width: 150px;
+}
+
+.small-image p {
+  margin: left;
+  color: #fd8f82;
+  line-height: 22px;
+  font-size: 15px;
+}
+  
+
+
+
