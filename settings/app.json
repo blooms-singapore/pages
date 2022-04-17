@@ -12,7 +12,7 @@
   "defaultCurrency": "MYR",
   "customerSupport": "+60109352700",
   "cancelBuffer": 72,
-  "bookingDays": 10,
+  "bookingDays": 12,
   "referralLimit": 100,
   "referralDiscount": 5,
   "discounts": {
@@ -20,7 +20,7 @@
     "MYR": 0,
     "CNY": 0
   },
-  "timeBuffer": 600,
+  "timeBuffer": 1080,
   "timeStart": {
     "hour": 9,
     "minutes": 0
