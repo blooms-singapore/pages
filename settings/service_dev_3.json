@@ -944,11 +944,11 @@
 		
 	"electrical": {
 		"name": "Electrical",
-		"lastSlot": "16:30",
+		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
-			"MYR": "60",
+			"MYR": "30",
 			"CNY": "20"
 		},
 		"hasNote": 1,
