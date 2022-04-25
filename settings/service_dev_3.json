@@ -14,7 +14,7 @@
 						
 			"Tiling Survey": {
 				"handle": "tiling_survey",
-				"label": "Survey                                                     MYR30/Trip",
+				"label": "Survey",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -998,7 +998,7 @@
 			
 			"Electrical project Confirmation": {
 				"handle": "major_electrical",
-				"label": "Electrical Project Confirmation                                      Per Quotation",
+				"label": "Electrical Project Confirmation                                               Per Quotation",
 				"orderLabel": "Job (Electrical Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
@@ -1039,7 +1039,7 @@
 				
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                                                Unavailable in SG",
+				"label": "Emergency Booking                                                          Unavailable in SG",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -2024,7 +2024,7 @@
 			
 			"Std Silicon 1st Hr": {
 				"handle": "standard_silicon_first_hour",
-				"label": "Standard Silicon 1st Hr                                       MYR70/Hr",
+				"label": "Standard Silicon 1st Hr",
 				"orderLabel": "Hour (Std Silicon 1st Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -2044,7 +2044,7 @@
 			
 			"Std Silicon": {
 				"handle": "standard_silicon",
-				"label": "Standard Silicon 1.5Hrs or more                                       MYR50/Hr",
+				"label": "Standard Silicon 1.5Hrs or more",
 				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
 				"description": "Label standard",
 				"cost": {
@@ -2064,7 +2064,7 @@
 			
 			"Antifungal Silicon 1st Hr": {
 				"handle": "antifungal_silicon_first_hour",
-				"label": "Anti-fungal Silicon 1st Hr                                       MYR90/Hr",
+				"label": "Anti-fungal Silicon 1st Hr",
 				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -2084,7 +2084,7 @@
 			
 			"Antifungal Silicon": {
 				"handle": "antifungal_silicon",
-				"label": "Anti-fungal Silicon 1.5Hrs or more                                       MYR70/Hr",
+				"label": "Anti-fungal Silicon 1.5Hrs or more",
 				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
 				"description": "Label standard",
 				"cost": {
@@ -2150,7 +2150,7 @@
 		"options": {
 			"1st Hr": {
 				"handle": "first_hr",
-				"label": "Repair 1st Hour                                       MYR60/Hr",
+				"label": "Repair 1st Hour",
 				"orderLabel": "Hour (Repair 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -2169,7 +2169,7 @@
 			},			
 			"2Hr Rate": {
 				"handle": "second_or_more_hr",
-				"label": "Repair 2nd Hour & more                                             MYR50/Hr",
+				"label": "Repair 2nd Hour & more",
 				"orderLabel": "Hour (Repair 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -2189,7 +2189,7 @@
 			
 			"Survey": {
 				"handle": "survey",
-				"label": "Retrofit / Renovation Survey                                            MYR30/Trip",
+				"label": "Retrofit / Renovation Survey",
 				"orderLabel": "Job (Renovation / Retrofit Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2552,7 +2552,7 @@
 			
 			"survey": {
 				"handle": "landscape_survey",
-				"label": "Landscape Survey                                             RM30/Trip",
+				"label": "Landscape Survey,
 				"orderLabel": "Trip (Landscape Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2906,7 +2906,7 @@
 			
 		"Survey Outside JB": {
 				"handle": "outside_jb",
-				"label": "Site Survey (Distant Locations)                                          RM30/Trip",
+				"label": "Site Survey (Distant Locations)",
 				"orderLabel": "Trip (Site Survey (Distant Locations)",
 				"description": "Label standard",
 				"cost": {
@@ -2926,7 +2926,7 @@
 	
 			"Outdoor": {
 				"handle": "outdoor",
-				"label": "Outdoor Filter Installation                                       MYR1350/Set",
+				"label": "Outdoor Filter Installation",
 				"orderLabel": "Set (Outdoor Filter Installation)",
 				"description": "Label standard",
 				"cost": {
@@ -2946,7 +2946,7 @@
 			
 			"Auto Timer": {
 				"handle": "auto_timer",
-				"label": "Automatic Bleed Timer                                       MYR100/Set",
+				"label": "Automatic Bleed Timer",
 				"orderLabel": "Set (Automatic Bleed Timer)",
 				"description": "Label standard",
 				"cost": {
