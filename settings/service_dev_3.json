@@ -1984,7 +1984,7 @@
 		"options": {
 			"Survey": {
 				"handle": "survey",
-				"label": "Survey                                         MYR30/Trip (JB)",
+				"label": "Survey",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2552,7 +2552,7 @@
 			
 			"survey": {
 				"handle": "landscape_survey",
-				"label": "Landscape Survey,
+				"label": "Landscape Survey",
 				"orderLabel": "Trip (Landscape Survey)",
 				"description": "Label standard",
 				"cost": {
