@@ -2571,10 +2571,10 @@
 				}
 			},
 	
-			"Maintenance Project": {
+			"Lumpsum Project": {
 				"handle": "project",
-				"label": "Maintenance Project Confirmation                                    Per Quotation",
-				"orderLabel": "Job (Maintenance Project Confirmation)",
+				"label": "Lumpsum Project Confirmation                                    Per Quotation",
+				"orderLabel": "Job (Lumpsum Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
