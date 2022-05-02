@@ -1487,7 +1487,7 @@
 			},
 			
 			"Top Up Package": {
-				"handle": "cleaning_top_up_package",				
+				"handle": "cleaning_topup_package",				
 				"label": "Top Up Package",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
