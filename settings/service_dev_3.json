@@ -1465,7 +1465,6 @@
 			},
 			
 			"Ladder Package": {
-				"isPackage": "true",
 				"handle": "cleaning_ladder_package",
 				"label": "Ladder Package                                                          Only in JB",
 				"displayLabel": "Ladder Package",
@@ -1488,7 +1487,6 @@
 			},
 			
 			"Vacuum Package": {
-				"isPackage": "true",
 				"handle": "cleaning_vacuum_package",				
 				"label": "Vacuum Package                                                         Only in JB",
 				"displayLabel": "Vacuum Package",
