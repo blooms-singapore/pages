@@ -1447,7 +1447,6 @@
 				"displayLabel": "Ladder Package",
 				"orderLabel": "Package (Ladder PKG)",
 				"description": "Label standard",
-				"isPackage": "true",
 				"cost": {
 					"SGD": "10",
 					"MYR": "900",
@@ -1470,7 +1469,6 @@
 				"displayLabel": "Vacuum Package",
 				"orderLabel": "Package (Vacuum PKG)",
 				"description": "Label standard",
-				"isPackage": "true",
 				"cost": {
 					"SGD": "15",
 					"MYR": "1080",
@@ -1494,7 +1492,6 @@
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
-				"isPackage": "true",
 				"cost": {
 					"SGD": "15",
 					"MYR": "1000",
