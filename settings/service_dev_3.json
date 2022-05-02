@@ -1487,14 +1487,14 @@
 			},
 			
 			"Top Up Package": {
-				"handle": "cleaning_top_up_package",				
-				"label": "Top Up Package                                                Only in JB",
+				"handle": "cleaning_topup_package",				
+				"label": "Top Up Package",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "900",
+					"MYR": "1000",
 					"CNY": "15"
 				},
 				"quantity": {
