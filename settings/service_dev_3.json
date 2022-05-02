@@ -1487,12 +1487,12 @@
 			},
 			
 			"Top Up Package": {
-				"handle": "cleaning_topup_package",				
+				"handle": "cleaning_top_up_package",				
 				"label": "Top Up Package",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
-				"isPackage": "false",
+				"isPackage": "true",
 				"cost": {
 					"SGD": "15",
 					"MYR": "1000",
