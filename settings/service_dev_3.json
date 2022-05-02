@@ -1492,7 +1492,7 @@
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
-				"isPackage": "true",
+				"isPackage": "false",
 				"cost": {
 					"SGD": "15",
 					"MYR": "1000",
