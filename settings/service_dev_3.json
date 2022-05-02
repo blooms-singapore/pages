@@ -1442,6 +1442,7 @@
 			},
 			
 			"Ladder Package": {
+				"isPackage": "true",
 				"handle": "cleaning_ladder_package",
 				"label": "Ladder Package                                                          Only in JB",
 				"displayLabel": "Ladder Package",
@@ -1464,6 +1465,7 @@
 			},
 			
 			"Vacuum Package": {
+				"isPackage": "true",
 				"handle": "cleaning_vacuum_package",				
 				"label": "Vacuum Package                                                         Only in JB",
 				"displayLabel": "Vacuum Package",
@@ -1488,7 +1490,7 @@
 			
 			"Top Up Package": {
 				"handle": "cleaning_topup_package",				
-				"label": "Top Up Package",
+				"label": "Top Up Package                                                         KL & JB",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
