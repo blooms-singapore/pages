@@ -1441,6 +1441,29 @@
 				}
 			},
 			
+			"Top Up Package": {
+				"handle": "cleaning_topup_package",				
+				"label": "Top Up Package                                                         KL & JB",
+				"displayLabel": "Top Up Package",
+				"orderLabel": "Package (Top Up PKG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "1000",
+					"CNY": "15"
+				},
+				"quantity": {
+					"label": "Package",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+											
+				}
+			},
+			
 			"Ladder Package": {
 				"isPackage": "true",
 				"handle": "cleaning_ladder_package",
@@ -1474,29 +1497,6 @@
 				"cost": {
 					"SGD": "15",
 					"MYR": "1080",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
-			},
-			
-			"Top Up Package": {
-				"handle": "cleaning_topup_package",				
-				"label": "Top Up Package                                                         KL & JB",
-				"displayLabel": "Top Up Package",
-				"orderLabel": "Package (Top Up PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "1000",
 					"CNY": "15"
 				},
 				"quantity": {
