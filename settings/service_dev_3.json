@@ -54,8 +54,8 @@
 
           		"Tiling Project": {
 				"handle": "tiling_project",
-				"label": "Project Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Project Confirmation)",
+				"label": "Lumpsum Project Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Lumpsum Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -81,7 +81,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "100",
+					"MYR": "120",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -102,7 +102,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "60",
+					"MYR": "80",
 					"CNY": "50"
 				},
 				"quantity": {
