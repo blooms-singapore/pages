@@ -6,7 +6,7 @@
 		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45.5",
-			"MYR": "150",
+			"MYR": "195",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -81,7 +81,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "120",
+					"MYR": "130",
 					"CNY": "50"
 				},
 				"quantity": {
