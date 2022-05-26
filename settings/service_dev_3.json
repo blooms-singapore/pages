@@ -1,5 +1,408 @@
 {
 		
+			
+	"landscape": {
+		"name": "Landscape",
+		"lastSlot": "15:00",
+		"disableLocations": ["Singapore","Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "50",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"1st Hr Cut": {
+				"handle": "landscape_first_hour",
+				"label": "1st Hour Cut - 1 crew",
+				"orderLabel": "Hour (1st Hour Cut - 1 crew)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "50",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"2nd Hr Cut": {
+				"handle": "landscape_second_hour_or_more",
+				"label": "2nd Hour & more Cut - 1 Crew",
+				"orderLabel": "Hour (2nd Hour & more Cut - 1 Crew)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Garden Maintenance": {
+				"handle": "landscape_garden_maintenance_hour",
+				"label": "Garden Maintenance - 2 Crews                                        Min 3 Hours",
+				"orderLabel": "Hour (Garden Maintenance - 2 Crews)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "70",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 6,
+					"increment": 0.5,
+					"default": 3,
+					"base": 1
+				}
+			},
+			
+			"Overgrowth Clearance": {
+				"handle": "landscape_overgrowth_clearance",
+				"label": "Overgrowth Clearance - 2 Crews                                     Min 3 Hours",
+				"orderLabel": "Hour (Overgrowth Clearance - 2 Crews)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "90",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 8,
+					"increment": 0.5,
+					"default": 3,
+					"base": 1
+				}
+			},
+			
+			"Small Debris": {
+				"handle": "small_debris",
+				"label": "Small Disposal Fee                                        <= 3 Bags",
+				"orderLabel": "Job (Small Disposal Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Big Debris": {
+				"handle": "big_debris",
+				"label": "Big Disposal Fee                                 4 Bags or more",
+				"orderLabel": "Bags (Big Disposal Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "10",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Bags",
+					"min": 0,
+					"max": 0,
+					"default": 4,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Disposal by Lorry": {
+				"handle": "landscape_disposal_by_lorry",
+				"label": "Disposal by Lorry",
+				"orderLabel": "Job (Disposal by Lorry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 2,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+			"survey": {
+				"handle": "landscape_survey",
+				"label": "Landscape Survey",
+				"orderLabel": "Trip (Landscape Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+	
+			"Lumpsum Project": {
+				"handle": "project",
+				"label": "Lumpsum Project Confirmation                                    Per Quotation",
+				"orderLabel": "Job (Lumpsum Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 }
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"landed": {
+						"label": "Standard Locations",
+						"orderLabel": "Standard Locations",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+							}
+						},
+						
+					"condo": {
+						"label": "Distant Locations",
+						"orderLabel": "Distant Locations",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+	"waterproof": {
+		"name": "Waterproofing",
+		"lastSlot": "15:00",
+		"disableLocations": ["Singapore", "Nilai - Coming Soon"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "66",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Survey": {
+				"handle": "survey",
+				"label": "Survey",
+				"orderLabel": "Trip (Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Waterproof Project": {
+				"handle": "waterproof_project",
+				"label": "Waterproof Project Confirmation                                Per Quotation",
+				"orderLabel": "Job (Waterproof Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			"Std Silicon 1st Hr": {
+				"handle": "standard_silicon_first_hour",
+				"label": "Standard Silicon 1st Hr",
+				"orderLabel": "Hour (Std Silicon 1st Hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Std Silicon": {
+				"handle": "standard_silicon",
+				"label": "Standard Silicon 1.5Hrs or more",
+				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			 },
+			
+			"Antifungal Silicon 1st Hr": {
+				"handle": "antifungal_silicon_first_hour",
+				"label": "Anti-fungal Silicon 1st Hr",
+				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Antifungal Silicon": {
+				"handle": "antifungal_silicon",
+				"label": "Anti-fungal Silicon 1.5Hrs or more",
+				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			 }
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+		
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
@@ -1097,9 +1500,7 @@
 
 	
 	
-	
-	
-	
+		
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "14:30",
@@ -1972,169 +2373,7 @@
 	
 	
 	
-	"waterproof": {
-		"name": "Waterproofing",
-		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Nilai - Coming Soon"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "66",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Survey": {
-				"handle": "survey",
-				"label": "Survey",
-				"orderLabel": "Trip (Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
-			"Waterproof Project": {
-				"handle": "waterproof_project",
-				"label": "Waterproof Project Confirmation                                Per Quotation",
-				"orderLabel": "Job (Waterproof Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			"Std Silicon 1st Hr": {
-				"handle": "standard_silicon_first_hour",
-				"label": "Standard Silicon 1st Hr",
-				"orderLabel": "Hour (Std Silicon 1st Hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
-			"Std Silicon": {
-				"handle": "standard_silicon",
-				"label": "Standard Silicon 1.5Hrs or more",
-				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "50",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1.5,
-					"base": 1
-				}
-			 },
-			
-			"Antifungal Silicon 1st Hr": {
-				"handle": "antifungal_silicon_first_hour",
-				"label": "Anti-fungal Silicon 1st Hr",
-				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "90",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
-			"Antifungal Silicon": {
-				"handle": "antifungal_silicon",
-				"label": "Anti-fungal Silicon 1.5Hrs or more",
-				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1.5,
-					"base": 1
-				}
-			 }
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
+	
 	
 	
 	
@@ -2395,240 +2634,6 @@
 	
 		
 	
-
-		
-	"landscape": {
-		"name": "Landscape",
-		"lastSlot": "15:00",
-		"disableLocations": ["Singapore","Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "20",
-			"MYR": "50",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"1st Hr Cut": {
-				"handle": "landscape_first_hour",
-				"label": "1st Hour Cut - 1 crew",
-				"orderLabel": "Hour (1st Hour Cut - 1 crew)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"2nd Hr Cut": {
-				"handle": "landscape_second_hour_or_more",
-				"label": "2nd Hour & more Cut - 1 Crew",
-				"orderLabel": "Hour (2nd Hour & more Cut - 1 Crew)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "40",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Garden Maintenance": {
-				"handle": "landscape_garden_maintenance_hour",
-				"label": "Garden Maintenance - 2 Crews                                        Min 3 Hours",
-				"orderLabel": "Hour (Garden Maintenance - 2 Crews)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "70",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 6,
-					"increment": 0.5,
-					"default": 3,
-					"base": 1
-				}
-			},
-			
-			"Overgrowth Clearance": {
-				"handle": "landscape_overgrowth_clearance",
-				"label": "Overgrowth Clearance - 2 Crews                                     Min 3 Hours",
-				"orderLabel": "Hour (Overgrowth Clearance - 2 Crews)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "90",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 8,
-					"increment": 0.5,
-					"default": 3,
-					"base": 1
-				}
-			},
-			
-			"Small Debris": {
-				"handle": "small_debris",
-				"label": "Small Disposal Fee                                        <= 3 Bags",
-				"orderLabel": "Job (Small Disposal Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "30",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Big Debris": {
-				"handle": "big_debris",
-				"label": "Big Disposal Fee                                 4 Bags or more",
-				"orderLabel": "Bags (Big Disposal Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "10",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Bags",
-					"min": 0,
-					"max": 0,
-					"default": 4,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Disposal by Lorry": {
-				"handle": "landscape_disposal_by_lorry",
-				"label": "Disposal by Lorry",
-				"orderLabel": "Job (Disposal by Lorry)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "130",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 2,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			 },
-			
-			"survey": {
-				"handle": "landscape_survey",
-				"label": "Landscape Survey",
-				"orderLabel": "Trip (Landscape Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-	
-			"Lumpsum Project": {
-				"handle": "project",
-				"label": "Lumpsum Project Confirmation                                    Per Quotation",
-				"orderLabel": "Job (Lumpsum Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			 }
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"landed": {
-						"label": "Standard Locations",
-						"orderLabel": "Standard Locations",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-							}
-						},
-						
-					"condo": {
-						"label": "Distant Locations",
-						"orderLabel": "Distant Locations",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "20",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
 		
 	"locksmith": {
 		"name": "Locksmith",
@@ -2876,7 +2881,7 @@
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "14:30",
-		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "85",
 			"MYR": "23.5",
