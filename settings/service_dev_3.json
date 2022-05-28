@@ -2239,7 +2239,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "105",
 			"MYR": "180",
