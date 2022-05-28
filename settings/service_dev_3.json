@@ -2239,7 +2239,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "105",
 			"MYR": "180",
@@ -2337,7 +2337,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
+						"label": "Condominium or HDB",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -2350,6 +2350,7 @@
 							"CNY": "0"
 						}
 					},
+
 					"landed": {
 						"label": "Landed House",
 						"cost": {
