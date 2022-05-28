@@ -2243,7 +2243,7 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "30",
+			"SGD": "105",
 			"MYR": "180",
 			"CNY": "110"
 		},
@@ -2255,7 +2255,7 @@
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
-					"SGD": "0",
+					"SGD": "10",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -2318,7 +2318,7 @@
 				"orderLabel": "Day (Daily Painting)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "180",
 					"MYR": "350",
 					"CNY": "0"
 				},
@@ -2339,7 +2339,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
+						"label": "Condominium/HDB",
 						"orderLabel": "Condo Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -2347,7 +2347,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
+							"SGD": "10",
 							"MYR": "10",
 							"CNY": "0"
 						}
