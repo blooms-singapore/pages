@@ -2892,7 +2892,7 @@
 			"Survey JB": {
 				"handle": "survey",
 				"label": "Site Survey",
-				"orderLabel": "Trip",
+				"orderLabel": "Trip(Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
