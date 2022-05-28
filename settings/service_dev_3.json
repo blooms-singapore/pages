@@ -1048,6 +1048,116 @@
 		}
 	},
 	
+	
+	
+	
+	
+	"clean-water": {
+		"name": "Clean Water",
+		"lastSlot": "15:30",
+		"disableLocations": ["kuala Lumpur"],
+		"startPrice": {
+			"SGD": "568",
+			"MYR": "1600",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Residential Roof Survey": {
+				"handle": "residential_roof_survey",
+				"label": "Residential Roof Survey",
+				"orderLabel": "Trip (Residential Roof Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Commercial Roof Survey": {
+				"handle": "commercial_roof_survey",
+				"label": "Commercial Roof Survey",
+				"orderLabel": "Trip (Commercial Roof Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+		"Roof Project Confirmation": {
+				"handle": "roof_project_confirmation",
+				"label": "Roof Project Confirmation                                        Per Quotation",
+				"orderLabel": "Job (Roof Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		 },
+				
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"landed": {
+						"label": "Normal Days",
+						"orderLabel": "Normal Days",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"condo": {
+						"label": "Public Holidays",
+						"cost": {
+							"SGD": "0",
+							"MYR": "50",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 		
 	
 	
