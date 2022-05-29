@@ -2406,7 +2406,7 @@
 				"orderLabel": "Hour (Hourly Painting)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "80"
 				},
@@ -2426,7 +2426,7 @@
 				"orderLabel": "Day (Daily Painting)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "180",
+					"SGD": "150",
 					"MYR": "350",
 					"CNY": "0"
 				},
@@ -2455,7 +2455,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "5",
 							"MYR": "10",
 							"CNY": "0"
 						}
@@ -2469,7 +2469,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "20",
 							"MYR": "0",
 							"CNY": "0"
 						}
