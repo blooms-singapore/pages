@@ -996,7 +996,7 @@
 			
 			
 		"Filter 2 UF Membrane": {
-				"handle": "clean_water_uf_membrane",
+				"handle": "clean_water_filter2",
 				"label": "Filter 2 UF Membrane",
 				"orderLabel": "Unit (Filter 2 UF Membrane)",
 				"description": "Label standard",
@@ -1018,7 +1018,7 @@
 			
 				
 		"Filter 3 AG": {
-				"handle": "clean_water_ag",
+				"handle": "clean_water_filter3",
 				"label": "Filter 3 Nano-Silver AG & Alkaline",
 				"orderLabel": "Unit (Filter 3 Nano-Silver AG & Alkaline)",
 				"description": "Label standard",
