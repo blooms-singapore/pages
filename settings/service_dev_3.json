@@ -921,6 +921,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
