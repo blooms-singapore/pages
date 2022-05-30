@@ -1176,25 +1176,26 @@
 				"label": "House Type",
 				"description": "Label standard",
 				"values": {
-					"landed": {
-						"label": "Normal Days",
-						"orderLabel": "Normal Days",
+					"HDB or Condo": {
+						"label": "HDB or Condo",
+						"orderLabel": "HDB or Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
+							"SGD": "10",
+							"MYR": "10",
 							"CNY": "10"
 						}
 					},
-					"condo": {
-						"label": "Public Holidays",
+					"Landed House": {
+						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
-							"MYR": "50",
+							"MYR": "0",
 							"CNY": "0"
 						}
 					}
