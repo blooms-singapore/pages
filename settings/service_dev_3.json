@@ -975,8 +975,8 @@
 			
 		"Filter 1 Sediment": {
 				"handle": "clean_water_filter1",
-				"label": "Filter 1 Sediment and Pre-Carbon",
-				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon")",
+				"label": "Filter 1 Sediment & Pre-Carbon",
+				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
