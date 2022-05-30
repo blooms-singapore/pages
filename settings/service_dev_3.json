@@ -661,7 +661,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "120",
+					"MYR": "130",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -682,7 +682,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "120",
+					"MYR": "130",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -702,7 +702,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "120",
+					"MYR": "130",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -784,7 +784,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1064,13 +1064,98 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Residential Roof Survey": {
-				"handle": "residential_roof_survey",
-				"label": "Residential Roof Survey",
-				"orderLabel": "Trip (Residential Roof Survey)",
+			"ik900": {
+				"handle": "clean_water_ik900",
+				"label": "IK900",
+				"orderLabel": "Set (IK900)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "568",
+					"MYR": "1600",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Filter 1 Sediment": {
+				"handle": "clean_water_filter1",
+				"label": "Filter 1 Sediment & Pre-Carbon",
+				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon")",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "88",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+		
+		
+		"Filter 2 UF Membrane": {
+				"handle": "clean_water_uf_membrane",
+				"label": "Filter 2 UF Membrane",
+				"orderLabel": "Unit (Filter 2 UF Membrane)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "58",
+					"MYR": "168",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+		
+			
+				
+		"Filter 3 AG": {
+				"handle": "clean_water_ag",
+				"label": "Filter 3 Nano-Silver AG & Alkaline",
+				"orderLabel": "Unit (Filter 3 Nano-Silver AG & Alkaline)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "100",
+					"MYR": "288",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+		
+		
+		
+			"Survey": {
+				"handle": "clean_water_survey",
+				"label": "Clean Water Survey",
+				"orderLabel": "Trip (Clean Water Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -1082,49 +1167,9 @@
 					"default": 0,
 					"base": 1
 				}
-			},
-			
-			"Commercial Roof Survey": {
-				"handle": "commercial_roof_survey",
-				"label": "Commercial Roof Survey",
-				"orderLabel": "Trip (Commercial Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-		"Roof Project Confirmation": {
-				"handle": "roof_project_confirmation",
-				"label": "Roof Project Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
 			}
 		 },
+	
 				
 	    "types": {
 			"house": {
@@ -1167,7 +1212,7 @@
 		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "55",
-			"MYR": "80",
+			"MYR": "95",
 			"CNY": "50"
 		},
 		"hasNote": 1,
@@ -1180,7 +1225,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "80",
+					"MYR": "95",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1200,7 +1245,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "60",
+					"MYR": "70",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1260,7 +1305,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1280,7 +1325,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "120",
+					"MYR": "150",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1300,7 +1345,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "100",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1320,7 +1365,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "120",
+					"MYR": "150",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1340,7 +1385,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "100",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1373,27 +1418,7 @@
 				}
 			},
 			
-			"Sink Poppy": {
-				"handle": "sink_poppy",
-				"label": "Sink Poppy                                             Available only in JB",
-				"orderLabel": "Set (Sink Poppy)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-			
+						
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
 				"label": "Trouble Shoot",
@@ -1461,7 +1486,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
-			"MYR": "30",
+			"MYR": "95",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -2483,157 +2508,7 @@
 	
 	
 	
-	
-	
-	
-	"carpentry": {
-		"name": "Carpentry",
-		"lastSlot": "15:00",
-		"disableLocations": ["Singapore","Kuala Lumpur", "Nilai - Coming Soon"],
-		"startPrice": {
-			"SGD": "30",
-			"MYR": "57",
-			"CNY": "20"
-		},
-		"hasNote": 1, 
-		"options": {
-			"1st Hr": {
-				"handle": "first_hr",
-				"label": "Repair 1st Hour",
-				"orderLabel": "Hour (Repair 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			"2Hr Rate": {
-				"handle": "second_or_more_hr",
-				"label": "Repair 2nd Hour & more",
-				"orderLabel": "Hour (Repair 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "50",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Survey": {
-				"handle": "survey",
-				"label": "Retrofit / Renovation Survey",
-				"orderLabel": "Job (Renovation / Retrofit Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			"Carpentry Quote Discussion": {
-				"handle": "carpentry_quote_discussion",
-				"label": "Retrofit / Renovation Quote Discussion                                            Free",
-				"orderLabel": "Job (Renovation / Retrofit Quote Discussion)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},			
-			
-			
-			"Project": {
-				"handle": "carpentry_projects",
-				"label": "Retrofit / Renovation Project Confirmation                                         Per Quotation",
-				"orderLabel": "Job (Retrofit / Renovation Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-		
-	
-		
-					
+				
 	
 	
 	"house_diagnosis": {
