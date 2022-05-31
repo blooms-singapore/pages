@@ -647,7 +647,7 @@
 		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "120",
+			"MYR": "130",
 			"CNY": "230"
 		},
 		"hasNote": 1,
