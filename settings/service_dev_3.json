@@ -1,5 +1,91 @@
 {
+		"others": {
+		"name": "Retrofit & Renovation",
+		"lastSlot": "15:30",
+		"disableLocations": ["Singapore"],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "30",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+						
+			"Renovation Project Survey": {
+				"handle": "others_project_survey",
+				"label": "Retrofit or Renovation Project Survey",
+				"orderLabel": "Job (Retrofit or Renovation Project Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project Confirmation": {
+				"handle": "others_project",
+				"label": "Retrofit or Renovation Project Confirmation                                             Per Quotation",
+				"orderLabel" : "Job (Retrofit or Renovation Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}			
+		},
 		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	
+	
 			
 	"landscape": {
 		"name": "Landscape",
@@ -3225,97 +3311,7 @@
 		
 	
 	
-	"others": {
-		"name": "Retrofit & Renovation",
-		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore"],
-		"startPrice": {
-			"SGD": "20",
-			"MYR": "30",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-						
-			"Renovation Project Survey": {
-				"handle": "others_project_survey",
-				"label": "Retrofit or Renovation Project Survey",
-				"orderLabel": "Job (Retrofit or Renovation Project Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Project Confirmation": {
-				"handle": "others_project",
-				"label": "Retrofit or Renovation Project Confirmation                                             Per Quotation",
-				"orderLabel" : "Job (Retrofit or Renovation Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}			
-		},
 		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-	
-	
-	
-	
-	
-	
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "16:00",
