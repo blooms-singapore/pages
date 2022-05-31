@@ -2271,7 +2271,7 @@
 	"home-security": {
 		"name": "Home Security",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -2383,7 +2383,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "115",
 			"MYR": "180",
@@ -2520,7 +2520,7 @@
 	"renovation": {
 		"name": "Retrofit & Renovation",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "30",
