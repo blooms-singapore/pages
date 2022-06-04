@@ -1646,7 +1646,7 @@
 	
 		
 	"cleaning": {
-		"name": "Cleaning",
+		"name": "Cleaning (Contractor)",
 		"lastSlot": "14:30",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
