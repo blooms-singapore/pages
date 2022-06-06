@@ -437,7 +437,7 @@
 			
 			"Tiling Quote Discussion": {
 				"handle": "tiling_quote_discussion",
-				"label": "Quote Discussion                                           Free",
+				"label": "Quote Discussion                                                      Free",
 				"orderLabel": "Job (Quote Discussion)",
 				"description": "Label standard",
 				"cost": {
@@ -484,7 +484,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -505,7 +505,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "80",
+					"MYR": "100",
 					"CNY": "50"
 				},
 				"quantity": {
