@@ -409,7 +409,7 @@
 		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45.5",
-			"MYR": "195",
+			"MYR": "210",
 			"CNY": "20"
 		},
 		"hasNote": 1,
