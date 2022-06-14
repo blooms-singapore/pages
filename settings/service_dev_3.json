@@ -945,7 +945,7 @@
 		"lastSlot": "15:30",
 		"disableLocations": ["kuala Lumpur"],
 		"startPrice": {
-			"SGD": "568",
+			"SGD": "528",
 			"MYR": "1600",
 			"CNY": "20"
 		},
@@ -957,7 +957,7 @@
 				"orderLabel": "Set (IK900)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "568",
+					"SGD": "528",
 					"MYR": "1600",
 					"CNY": "0"
 				},
@@ -1045,7 +1045,7 @@
 				"orderLabel": "Trip (Clean Water Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "10",
 					"MYR": "30",
 					"CNY": "0"
 				},
