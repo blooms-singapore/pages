@@ -1648,7 +1648,7 @@
 	"cleaning": {
 		"name": "Cleaning (Contractor)",
 		"lastSlot": "14:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "110",
