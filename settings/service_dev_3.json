@@ -1,5 +1,286 @@
 {	
 	
+		
+	
+	
+	"plumbing": {
+		"name": "Plumbing",
+		"lastSlot": "16:30",
+		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
+		"startPrice": {
+			"SGD": "55",
+			"MYR": "95",
+			"CNY": "50"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Std Plumbing 1st Hr": {
+				"handle": "first_hour",
+				"label": "Standard Plumbing 1st Hour",
+				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "55",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Std Plumbing 2nd Hr": {
+				"handle": "second_hour",
+				"label": "Standard Plumbing 2nd Hour or more",
+				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Non-Standard Plumbing Project Survey": {
+				"handle": "plumbing_other_survey",
+				"label": "Other Plumbing SURVEY",
+				"orderLabel": "Trip (Other Plumbing SURVEY)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Other Plumbing Confirmation": {
+				"handle": "plumbing_other_plumbing_confirmation",
+				"label": "Other Plumbing Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Other Plumbing Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Issue Survey": {
+				"handle": "plumbing_tank_issue_survey",
+				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
+				"orderLabel": "Trip (Tank Issue SURVEY)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 1st Hr": {
+				"handle": "tank_wash_first_hour",
+				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
+				"orderLabel": "Hour (Tank WASH 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "150",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Wash 2nd Hr": {
+				"handle": "tank_wash_second_hour",
+				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
+				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 1st Hr": {
+				"handle": "tank_repair_first_hour",
+				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
+				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "150",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Tank Repair 2nd Hr": {
+				"handle": "tank_repair_second_hour",
+				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
+				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 0,
+					"base": 60
+				}
+			},
+						
+			"Tank Project": {
+				"handle": "tank_project",
+				"label": "Tank Project Confirmation                                           Unavailable in SG",
+				"orderLabel": "Job (Tank Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+						
+			"Trouble Shoot": {
+				"handle": "trouble_shoot",
+				"label": "Trouble Shoot",
+				"orderLabel": "Job (Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium/HDB",
+						"orderLabel": "Condo/HDB Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+			
+	
+	
+	
+	
+	
+	
+	
 	 "clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
@@ -1196,282 +1477,7 @@
 	
 	
 	
-	
 
-		
-	
-	
-	"plumbing": {
-		"name": "Plumbing",
-		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
-		"startPrice": {
-			"SGD": "55",
-			"MYR": "95",
-			"CNY": "50"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Std Plumbing 1st Hr": {
-				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour",
-				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "55",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more",
-				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Non-Standard Plumbing Project Survey": {
-				"handle": "plumbing_other_survey",
-				"label": "Other Plumbing SURVEY",
-				"orderLabel": "Trip (Other Plumbing SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Other Plumbing Confirmation": {
-				"handle": "plumbing_other_plumbing_confirmation",
-				"label": "Other Plumbing Confirmation                                      Per Quotation",
-				"orderLabel": "Job (Other Plumbing Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Issue Survey": {
-				"handle": "plumbing_tank_issue_survey",
-				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
-				"orderLabel": "Trip (Tank Issue SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Wash 1st Hr": {
-				"handle": "tank_wash_first_hour",
-				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
-				"orderLabel": "Hour (Tank WASH 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "150",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Wash 2nd Hr": {
-				"handle": "tank_wash_second_hour",
-				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
-				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-			
-			"Tank Repair 1st Hr": {
-				"handle": "tank_repair_first_hour",
-				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
-				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "150",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Repair 2nd Hr": {
-				"handle": "tank_repair_second_hour",
-				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
-				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "120",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-						
-			"Tank Project": {
-				"handle": "tank_project",
-				"label": "Tank Project Confirmation                                           Unavailable in SG",
-				"orderLabel": "Job (Tank Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-						
-			"Trouble Shoot": {
-				"handle": "trouble_shoot",
-				"label": "Trouble Shoot",
-				"orderLabel": "Job (Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			}
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-		
 	
 		
 		
