@@ -12,10 +12,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"1st Hr Cut": {
-				"handle": "landscape_first_hour",
-				"label": "1st Hour Cut - 1 crew",
-				"orderLabel": "Hour (1st Hour Cut - 1 crew)",
+			"Landscape 1 crew": {
+				"handle": "landscape_one_crew",
+				"label": "1 crew - Small Garden",
+				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -34,10 +34,10 @@
 			
 			
 			
-			"Garden Maintenance": {
-				"handle": "landscape_garden_maintenance_hour",
-				"label": "Garden Maintenance - 2 Crews                                        Min 3 Hours",
-				"orderLabel": "Hour (Garden Maintenance - 2 Crews)",
+			"Landscape 2 crews": {
+				"handle": "landscape_two_crews",
+				"label": "2 Crews - Large Garden                                              Min 3 Hours",
+				"orderLabel": "Hour (2 Crews - Large Garden)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
