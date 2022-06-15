@@ -1799,13 +1799,13 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo                                           Up to 5 Hours",
-				"displayLabel": "Renovation Clean Very Small Condo",
-				"orderLabel": "Hours (Renovation Clean Very Small Condo)",
+				"label": "1 Crew - Renovation Clean Very Small Condo                                           Up to 5 Hours",
+				"displayLabel": "1 Crew - Renovation Clean Very Small Condo",
+				"orderLabel": "Unit (1 Crew - Renovation Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "55",
+					"SGD": "130",
+					"MYR": "200",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1850,7 +1850,7 @@
 				"orderLabel": "Day (Renovation Clean Big House)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "450",
 					"MYR": "500",
 					"CNY": "82.5"
 				},
@@ -1874,7 +1874,7 @@
 				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "100",
 					"MYR": "120",
 					"CNY": "82.5"
 				},
