@@ -1643,7 +1643,7 @@
 	
 		
 	"cleaning": {
-		"name": "Cleaning (Contractor)",
+		"name": "Cleaning",
 		"lastSlot": "14:30",
 		"disableLocations": [],
 		"startPrice": {
