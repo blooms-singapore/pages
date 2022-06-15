@@ -1645,7 +1645,7 @@
 	"cleaning": {
 		"name": "Cleaning (Contractor)",
 		"lastSlot": "14:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "110",
@@ -1656,12 +1656,12 @@
 			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo",
-				"displayLabel": "Festive Clean Very Small Condo",
-				"orderLabel": "Unit (Festive Clean Very Small Condo)",
+				"label": "1 crew - Festive Clean Very Small Condo",
+				"displayLabel": "1 Crew - Festive Clean Very Small Condo",
+				"orderLabel": "Unit (1 Crew - Festive Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "100",
 					"MYR": "125",
 					"CNY": "82.5"
 				},
@@ -1679,12 +1679,12 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo",
-				"displayLabel": "Festive Clean Condo",
-				"orderLabel": "Hours (Festive Clean Std Condo)",
+				"label": "2 Crews - Festive Clean Condo                                                       Min 3 Hours",
+				"displayLabel": "2 Crews - Festive Clean Condo",
+				"orderLabel": "Hours (2 Crews - Festive Clean Std Condo)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "45",
 					"MYR": "50",
 					"CNY": "82.5"
 				},
@@ -1702,12 +1702,12 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House",
-				"displayLabel": "Festive Clean Landed House",
-				"orderLabel": "Hours (Festive Clean Landed House)",
+				"label": "2 Crews - Festive Clean Landed House                                                    Min 5 Hours",
+				"displayLabel": "2 Crews - Festive Clean Landed House",
+				"orderLabel": "Hours (2 Crews - Festive Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "45",
 					"MYR": "50",
 					"CNY": "82.5"
 				},
@@ -1726,9 +1726,9 @@
 			
 			"Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo",
-				"displayLabel": "Standard Clean Very Small Condo",
-				"orderLabel": "Unit (Standard Clean Very Small Condo)",
+				"label": "1 Crew - Standard Clean Very Small Condo",
+				"displayLabel": "1 Crew - Standard Clean Very Small Condo",
+				"orderLabel": "Unit (1 Crew Standard Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -1751,9 +1751,9 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo",
-				"displayLabel": "Standard Clean Condo",
-				"orderLabel": "Hours (Standard Clean Condo)",
+				"label": "2 Crews - Standard Clean Condo                                          Min 3 Hours",
+				"displayLabel": "2 Crews - Standard Clean Condo",
+				"orderLabel": "Hours (2 Crews - Standard Clean Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -1775,9 +1775,9 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House",
-				"displayLabel": "Standard Clean Landed House",
-				"orderLabel": "Hours (Standar Clean Landed House)",
+				"label": "2 Crews - Standard Clean Landed House                                                        Min 4 Hours",
+				"displayLabel": "2 Crews - Standard Clean Landed House",
+				"orderLabel": "Hours (2 Crews - Standard Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -1799,7 +1799,7 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo                                        Up to 5 Hours",
+				"label": "Renovation Clean Very Small Condo                                           Up to 5 Hours",
 				"displayLabel": "Renovation Clean Very Small Condo",
 				"orderLabel": "Hours (Renovation Clean Very Small Condo)",
 				"description": "Label standard",
