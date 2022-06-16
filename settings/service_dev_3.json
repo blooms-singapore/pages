@@ -1656,9 +1656,9 @@
 			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "1 crew - Festive Clean Very Small Condo",
-				"displayLabel": "1 Crew - Festive Clean Very Small Condo",
-				"orderLabel": "Unit (1 Crew - Festive Clean Very Small Condo)",
+				"label": "Festive Clean Very Small Condo - 1 Crew",
+				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
+				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
@@ -1679,9 +1679,9 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "2 Crews - Festive Clean Condo                                                       Min 3 Hours",
-				"displayLabel": "2 Crews - Festive Clean Condo",
-				"orderLabel": "Hours (2 Crews - Festive Clean Std Condo)",
+				"label": "Festive Clean Condo - 2 Crews                                                       Min 3 Hours",
+				"displayLabel": "Festive Clean Condo - 2 Crews",
+				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -1702,9 +1702,9 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "2 Crews - Festive Clean Landed House                                                    Min 5 Hours",
-				"displayLabel": "2 Crews - Festive Clean Landed House",
-				"orderLabel": "Hours (2 Crews - Festive Clean Landed House)",
+				"label": "Festive Clean Landed House - 2 Crews                                                    Min 5 Hours",
+				"displayLabel": "Festive Clean Landed House - 2 Crews",
+				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -1726,9 +1726,9 @@
 			
 			"Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "1 Crew - Standard Clean Very Small Condo",
-				"displayLabel": "1 Crew - Standard Clean Very Small Condo",
-				"orderLabel": "Unit (1 Crew Standard Clean Very Small Condo)",
+				"label": "Standard Clean Very Small Condo - 1 Crews",
+				"displayLabel": "Standard Clean Very Small Condo - 1 Crew",
+				"orderLabel": "Unit (Standard Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -1751,9 +1751,9 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "2 Crews - Standard Clean Condo                                          Min 3 Hours",
-				"displayLabel": "2 Crews - Standard Clean Condo",
-				"orderLabel": "Hours (2 Crews - Standard Clean Condo)",
+				"label": "Standard Clean Condo - 2 Crews                                          Min 3 Hours",
+				"displayLabel": "Standard Clean Condo - 2 Crews",
+				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -1775,9 +1775,9 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "2 Crews - Standard Clean Landed House                                                        Min 4 Hours",
-				"displayLabel": "2 Crews - Standard Clean Landed House",
-				"orderLabel": "Hours (2 Crews - Standard Clean Landed House)",
+				"label": "Standard Clean Landed House - 2 Crews                                                        Min 4 Hours",
+				"displayLabel": "Standard Clean Landed House - 2 Crews",
+				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
@@ -1799,9 +1799,9 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "1 Crew - Renovation Clean Very Small Condo                                           Up to 5 Hours",
-				"displayLabel": "1 Crew - Renovation Clean Very Small Condo",
-				"orderLabel": "Unit (1 Crew - Renovation Clean Very Small Condo)",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           Up to 5 Hours",
+				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
+				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "130",
