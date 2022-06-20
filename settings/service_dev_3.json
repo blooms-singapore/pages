@@ -2433,8 +2433,8 @@
 			
 			"Hourly Service": {
 				"handle": "painting_hourly_service",
-				"label": "Hourly Painting                                         Min 3 Hrs",
-				"orderLabel": "Hour (Hourly Painting)",
+				"label": "Hourly Painting - 1 Crew                                            Min 3 Hrs",
+				"orderLabel": "Hour (Hourly Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -2453,8 +2453,8 @@
 									
 			"Paint Day": {
 				"handle": "painting_day",
-				"label": "Daily Painting",
-				"orderLabel": "Day (Daily Painting)",
+				"label": "Daily Painting - 1 Crew                                                   10am to 6pm",
+				"orderLabel": "Day (Daily Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
