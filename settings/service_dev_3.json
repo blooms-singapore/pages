@@ -1167,12 +1167,12 @@
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "Aircon Survey                                       Free",
+				"label": "Aircon Survey",
 				"orderLabel": "Job (Aircon Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1212,7 +1212,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "60",
 					"CNY": "260"
 				},
 				"quantity": {
