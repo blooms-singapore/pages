@@ -1105,12 +1105,12 @@
 					
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul                                                MYR130/hr",
+				"label": "Wall-Mount Chemical Overhaul                                                MYR140/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1130,7 +1130,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1192,7 +1192,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "145",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1648,7 +1648,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "110",
+			"MYR": "125",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -1656,13 +1656,13 @@
 			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew",
+				"label": "Festive Clean Very Small Condo - 1 Crew                                                   MYR140/Unit",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
-					"MYR": "125",
+					"MYR": "140",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1679,13 +1679,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                       Min 3 Hours",
+				"label": "Festive Clean Condo - 2 Crews                                                       MYR55/hr",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "50",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1702,13 +1702,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                                    Min 5 Hours",
+				"label": "Festive Clean Landed House - 2 Crews                                                    MYR55/hr",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "50",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1726,13 +1726,13 @@
 			
 			"Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo - 1 Crews",
+				"label": "Standard Clean Very Small Condo - 1 Crews                                                            MYR120/unit",
 				"displayLabel": "Standard Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Standard Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "110",
+					"MYR": "120",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1751,13 +1751,13 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo - 2 Crews                                          Min 3 Hours",
+				"label": "Standard Clean Condo - 2 Crews                                          MYR48/hr",
 				"displayLabel": "Standard Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "48",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1775,13 +1775,13 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House - 2 Crews                                                        Min 4 Hours",
+				"label": "Standard Clean Landed House - 2 Crews                                                        MYR48/hr",
 				"displayLabel": "Standard Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "45",
+					"MYR": "48",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1799,13 +1799,13 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           Up to 5 Hours",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           MYR220/Unit",
 				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "130",
-					"MYR": "200",
+					"MYR": "220",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1822,13 +1822,13 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo",
+				"label": "Renovation Clean 1-Storey House or Condo                                                               MYR60/hr",
 				"displayLabel": "Renovation Clean 1-Storey House or Condo",
 				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1851,7 +1851,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "450",
-					"MYR": "500",
+					"MYR": "550",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1869,13 +1869,13 @@
 						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo",
+				"label": "Move Clean Very Small Condo                                                          MYR150/Unit",
 				"displayLabel": "Move Clean Very Small Condo",
 				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
-					"MYR": "120",
+					"MYR": "150",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1892,13 +1892,13 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Condo",
+				"label": "Move Clean Condo                                                                MYR60/hr",
 				"displayLabel": "Move Clean Condo",
 				"orderLabel": "Hours (Move Clean Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1915,13 +1915,13 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House",
+				"label": "Move Clean Landed House                                                         MYR60/hr",
 				"displayLabel": "Move Clean Landed House",
 				"orderLabel": "Hours (Move Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1985,7 +1985,7 @@
 			
 			"Top Up Package": {
 				"handle": "cleaning_topup_package",				
-				"label": "Top Up Package                                                         KL & JB",
+				"label": "Top Up Package",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
@@ -2004,53 +2004,10 @@
 					"multiplier": 1
 											
 				}
-			},
-			
-			"Ladder Package": {
-				"handle": "cleaning_ladder_package",
-				"label": "Ladder Package                                                          Only in JB",
-				"displayLabel": "Ladder Package",
-				"orderLabel": "Package (Ladder PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "900",
-					"CNY": "10"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Vacuum Package": {
-				"handle": "cleaning_vacuum_package",				
-				"label": "Vacuum Package                                                         Only in JB",
-				"displayLabel": "Vacuum Package",
-				"orderLabel": "Package (Vacuum PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "1080",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
 			}
 		},
+			
+			
 		
 		
 	"types": {
