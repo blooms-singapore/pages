@@ -255,12 +255,13 @@
       }
     }
   },
+  
+  
+  
   "clean-water": {
     "name": "Clean Water",
     "lastSlot": "15:30",
-    "disableLocations": [
-      "kuala Lumpur"
-    ],
+    "disableLocations": ["kuala Lumpur"],
     "startPrice": {
       "SGD": "528",
       "MYR": "1600",
@@ -396,6 +397,9 @@
       }
     }
   },
+  
+  
+  
   "landscape": {
     "name": "Landscape",
     "lastSlot": "15:00",
@@ -979,6 +983,9 @@
       }
     }
   },
+  
+  
+  
   "aircon": {
     "name": "Aircon Works",
     "lastSlot": "15:30",
@@ -987,7 +994,7 @@
     ],
     "startPrice": {
       "SGD": "80",
-      "MYR": "130",
+      "MYR": "145.60",
       "CNY": "230"
     },
     "hasNote": 1,
@@ -1070,7 +1077,7 @@
       },
       "AC Survey": {
         "handle": "aircon_survey",
-        "label": "Aircon Survey                                       Free",
+        "label": "Aircon Survey",
         "orderLabel": "Job (Aircon Survey)",
         "description": "Label standard",
         "cost": {
@@ -1113,7 +1120,7 @@
         "description": "Label standard",
         "cost": {
           "SGD": "0",
-          "MYR": "30",
+          "MYR": "60",
           "CNY": "260"
         },
         "quantity": {
