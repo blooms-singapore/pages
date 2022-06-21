@@ -1105,7 +1105,7 @@
 					
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul",
+				"label": "Wall-Mount Chemical Overhaul                                                MYR130/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
@@ -1167,7 +1167,7 @@
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "Aircon Survey",
+				"label": "Aircon Survey                                                    MYR20/Trip",
 				"orderLabel": "Job (Aircon Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1207,12 +1207,12 @@
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_trouble_shoot",
-				"label": "Aircon Trouble-Shoot",
+				"label": "Aircon Trouble-Shoot                                                  MYR50/Trip",
 				"orderLabel": "Job (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "60",
+					"MYR": "50",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1253,7 +1253,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "99.20",
+					"MYR": "100",
 					"CNY": "260"
 				},
 				"quantity": {
