@@ -1655,7 +1655,7 @@
 		"options": {
 			
 			"Festive Very Small Condo": {
-				"handle": "festive_small_condo",
+				"handle": "festive_small_condo_kl",
 				"label": "Festive Clean Very Small Condo - 1 Crew                                                   MYR140/Unit",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
@@ -1678,7 +1678,7 @@
 			},
 			
 			"Festive Std Condo": {
-				"handle": "festive_big",
+				"handle": "festive_big_kl",
 				"label": "Festive Clean Condo - 2 Crews                                                       MYR55/hr",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
@@ -1701,7 +1701,7 @@
 			},
 			
 			"Festive Landed House": {
-				"handle": "festive_big",
+				"handle": "festive_big_kl",
 				"label": "Festive Clean Landed House - 2 Crews                                                    MYR55/hr",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
@@ -1725,7 +1725,7 @@
 			
 			
 			"Std Clean Very Small Condo": {
-				"handle": "standard_small_condo",
+				"handle": "standard_small_condo_kl",
 				"label": "Standard Clean Very Small Condo - 1 Crews                                                            MYR120/unit",
 				"displayLabel": "Standard Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Standard Clean Very Small Condo - 1 Crew)",
@@ -1750,7 +1750,7 @@
 						
 			
 			"Std Clean Condo": {
-				"handle": "standard_condo",
+				"handle": "standard_condo_kl",
 				"label": "Standard Clean Condo - 2 Crews                                          MYR48/hr",
 				"displayLabel": "Standard Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
@@ -1774,7 +1774,7 @@
 			
 			
 			"Std Clean Landed House": {
-				"handle": "standard_landed_house",
+				"handle": "standard_landed_house_kl",
 				"label": "Standard Clean Landed House - 2 Crews                                                        MYR48/hr",
 				"displayLabel": "Standard Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
