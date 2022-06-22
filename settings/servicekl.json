@@ -16,7 +16,7 @@
 		"options": {
 			
 			"Std Plumbing 1st Hr": {
-				"handle": "first_hour",
+				"handle": "plumbing_first_hour_kl",
 				"label": "Standard Plumbing 1st Hour                                                                 MYR100/hr",
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
@@ -35,7 +35,7 @@
 			},
 			
 			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
+				"handle": "plumbing_second_hour_kl",
 				"label": "Standard Plumbing 2nd Hour or more                                                            MYR80/hr",
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
@@ -55,7 +55,7 @@
 			},
 			
 			"Non-Standard Plumbing Project Survey": {
-				"handle": "plumbing_other_survey",
+				"handle": "plumbing_survey_kl",
 				"label": "Other Plumbing SURVEY                                                     MYR20/Trip",
 				"orderLabel": "Trip (Other Plumbing SURVEY)",
 				"description": "Label standard",
@@ -94,8 +94,8 @@
 				}
 			},
 			
-			"Tank Issue Survey": {
-				"handle": "plumbing_tank_issue_survey",
+			"Tank Survey": {
+				"handle": "plumbing_tank_survey_kl",
 				"label": "Tank Issue SURVEY                                                     MYR30/Trip",
 				"orderLabel": "Trip (Tank Issue SURVEY)",
 				"description": "Label standard",
@@ -115,9 +115,9 @@
 			},
 			
 			"Tank Wash 1st Hr": {
-				"handle": "tank_wash_first_hour",
-				"label": "Tank WASH 1st Hour                                                MYR150/hr",
-				"orderLabel": "Hour (Tank WASH 1st Hour)",
+				"handle": "plumbing_tank_wash_kl",
+				"label": "Tank WASH                                                MYR150/hr",
+				"orderLabel": "Hour (Tank WASH)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -137,9 +137,9 @@
 			
 			
 			"Tank Repair 1st Hr": {
-				"handle": "tank_repair_first_hour",
-				"label": "Tank REPAIR 1st Hour                                                  MYR150/hr",
-				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
+				"handle": "plumbing_tank_repair_kl",
+				"label": "Tank REPAIR                                                   MYR150/hr",
+				"orderLabel": "Hour (Tank REPAIR)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -180,7 +180,7 @@
 			
 						
 			"Trouble Shoot": {
-				"handle": "trouble_shoot",
+				"handle": "plumbing_trouble_shoot_kl",
 				"label": "Trouble Shoot                                                              MYR60/Trip",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
