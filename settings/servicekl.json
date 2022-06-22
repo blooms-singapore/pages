@@ -94,27 +94,8 @@
 				}
 			},
 			
-			"Tank Survey": {
-				"handle": "plumbing_tank_survey_kl",
-				"label": "Tank Issue SURVEY                                                     MYR30/Trip",
-				"orderLabel": "Trip (Tank Issue SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Tank Wash 1st Hr": {
+					
+			"Tank Wash": {
 				"handle": "plumbing_tank_wash_kl",
 				"label": "Tank WASH                                                MYR150/hr",
 				"orderLabel": "Hour (Tank WASH)",
@@ -136,7 +117,7 @@
 			
 			
 			
-			"Tank Repair 1st Hr": {
+			"Tank Repair": {
 				"handle": "plumbing_tank_repair_kl",
 				"label": "Tank REPAIR                                                   MYR150/hr",
 				"orderLabel": "Hour (Tank REPAIR)",
@@ -159,9 +140,9 @@
 			
 						
 			"Tank Project": {
-				"handle": "tank_project",
-				"label": "Tank Project Confirmation                                               Per Quotation",
-				"orderLabel": "Job (Tank Project Confirmation)",
+				"handle": "plumbing_tank_project_kl",
+				"label": "Tank Lumpsum Project Confirmation                                               Per Quotation",
+				"orderLabel": "Job (Tank Lumpsum Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
