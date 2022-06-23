@@ -92,6 +92,23 @@
       border: 5px solid #999;
       Padding: 5px;
     }
+    
+    
+ /*Embedded Video*/
+  .iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 
     input[type='checkbox'] {
