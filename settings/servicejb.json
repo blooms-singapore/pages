@@ -2380,7 +2380,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
-		"disableLocations": ["Johor bahru", "Singapore"],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "115",
 			"MYR": "180",
