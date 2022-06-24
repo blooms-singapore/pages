@@ -20,18 +20,103 @@ layout: service
 </div>
 </div>
 
+
+
+
 <div class="divider"></div>
 <div class="gap">
-<div class="service-info">
-<h5>VIDEO ON ORDERING</h5>
+<h5 class="service-title">PRICES</h5>
+</div>
 <div class="pricing">
-<table style="width:100%">
-<tr>
- <th><a class="btn"  href="https://youtu.be/BAThRT_sC7c">How to Order Video</a></th>
- </tr>
-</table>
-</div>
-</div>
+  <table>
+   <thead> <!--Transport compulsory charge-->
+      <tr>
+       <th><b>Transport Fee<br>Trim or Laundry</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>      
+      <tr>
+        <td>2-Way<br>Curtain Collection<br>& Delivery</b></td>
+        <td>${params.curtain_transport_2way}/Order</td>
+      </tr>
+      
+       <tr>
+        <td>1-Way<br>Survey & Others</td>
+        <td>${params.curtain_transport_1way}/Trip</td>
+      </tr>
+    </tbody>
+   
+   <!--Trim-->
+     <thead> 
+      <tr>
+       <th><b>Vertical Curtain Trim<br>By Quantity</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+       <td>Vertical Trim</td>
+       <td>${params.curtain_vertical_trim}/Piece<br>Min Order 20.0</td>
+      </tr>      
+    </tbody>
+
+ <thead> 
+      <tr>
+       <th><b>Horizontal Curtain Trim<br>By Length</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td>Horizontal Trim<br>Unstitch Required</td>
+        <td>${params.curtain_unstitch_horizontal_trim}/Meter<br>Min Order 18.0</td>
+      </tr>
+      
+      <tr>
+        <td>Horizontal Trim<br>Direct Cut</td>
+        <td>${params.curtain_direct_cut_horizontal_trim}/Meter<br>Min Order 20.0</td>
+      </tr> 
+     </tbody>
+   
+    <!--Other Charges-->
+    <thead>
+      <tr>
+       <th><b>Other Charges</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Curtain Survey<br>& Measurement</td>
+        <td>Free</td>
+      </tr>
+     
+      <tr>
+        <td>Curtain<br>Dismantling</td>
+        <td>${params.curtain_dismantle}/Hr</td>
+      </tr>
+     
+     <tr>
+        <td>Curtain<br>Installation</td>
+        <td>${params.curtain_install}/Hr</td>
+      </tr>
+     
+      <tr>
+        <td>Curtain Laundry</td>
+        <td>Outsource<br>Info in FAQs</td>
+      </tr>
+     
+    
+      <tr>
+        <td>Condo Surcharge</td>
+        <td>10.0</td>
+      </tr>
+      </tbody> 
+    </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
 </div>
    
 
@@ -175,105 +260,7 @@ layout: service
 </div>
 
 
-<div class="divider"></div>
-<div class="gap">
-<h5 class="service-title">PRICES</h5>
-</div>
-<div class="pricing">
-  <table>
-   <thead> <!--Transport compulsory charge-->
-      <tr>
-       <th><b>Transport</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>      
-      <tr>
-        <td>2-Way<br>Curtain Collection<br>& Delivery</b></td>
-        <td>${params.curtain_transport_2way}/Order</td>
-      </tr>
-      
-       <tr>
-        <td>1-Way<br>Survey & Others</td>
-        <td>${params.curtain_transport_1way}/Trip</td>
-      </tr>
-    </tbody>
-   
-   <!--Trim-->
-     <thead> 
-      <tr>
-       <th><b>Vertical Curtain Trim<br>By Quantity</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-       <td>Vertical Trim</td>
-       <td>${params.curtain_vertical_trim}/Piece<br>Min Order 20.0</td>
-      </tr>      
-    </tbody>
 
- <thead> 
-      <tr>
-       <th><b>Horizontal Curtain Trim<br>By Length</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td>Horizontal Trim<br>Unstitch Required</td>
-        <td>${params.curtain_unstitch_horizontal_trim}/Meter<br>Min Order 18.0</td>
-      </tr>
-      
-      <tr>
-        <td>Horizontal Trim<br>Direct Cut</td>
-        <td>${params.curtain_direct_cut_horizontal_trim}/Meter<br>Min Order 20.0</td>
-      </tr> 
-     </tbody>
-   
-    <!--Other Charges-->
-    <thead>
-      <tr>
-       <th><b>Other Charges</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Curtain Survey<br>& Measurement</td>
-        <td>Free</td>
-      </tr>
-     
-      <tr>
-        <td>Curtain<br>Dismantling</td>
-        <td>${params.curtain_dismantle}/Hr</td>
-      </tr>
-     
-     <tr>
-        <td>Curtain<br>Installation</td>
-        <td>${params.curtain_install}/Hr</td>
-      </tr>
-     
-      <tr>
-        <td>Curtain Laundry</td>
-        <td>Outsource<br>Info in FAQs</td>
-      </tr>
-     
-       <tr>
-        <td>Curtain Laundry<br>Picking Fee</td>
-        <td>25.0/Trip</td>
-      </tr>
-     
-      <tr>
-        <td>Condo Surcharge</td>
-        <td>10.0</td>
-      </tr>
-      </tbody> 
-    </table>
-  <div class="fineprint">
-    Prices subject to change without prior notice
-  </div>
-</div>
 
 <div class="divider"></div>
 <div class="gap">
