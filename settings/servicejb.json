@@ -3079,22 +3079,22 @@
 	"curtain": {
 		"name": "Curtain Alteration & Laundry",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "33",
+			"MYR": "58",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
 			"Curtain Transport 2 Way": {
 				"handle": "curtain_transport_2way",
-				"label": "Transport 2-Way: Curtain Collection & Delivery",
+				"label": "Transport 2-Way: Curtain Collection & Delivery                                                          MYR50/2 Trips",
 				"orderLabel": "Order (Transport 2-Way: Curtain Collection & Delivery)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "40",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3109,12 +3109,12 @@
 			
 			"Curtain Transport 1 Way": {
 				"handle": "curtain_transport_1way",
-				"label": "Transport 1-Way: Survey & Others",
+				"label": "Transport 1-Way: Survey & Others                                                         MYR30/Trip",
 				"orderLabel": "Trip (Transport 1-Way: Survey & Others)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3129,7 +3129,7 @@
 			
 			"Vertical Trim Qty": {
 				"handle": "curtain_vertical_trim",
-				"label": "Vertical Trim by Quantity                                           Min Order MYR20",
+				"label": "Vertical Trim by Quantity                                             Min MYR20",
 				"orderLabel": "Pc (Vertical Trim by Quantity)",
 				"description": "Label standard",
 				"cost": {
@@ -3150,7 +3150,7 @@
 						
 			"Unstitch Horizontal Trim Length": {
 				"handle": "curtain_unstitch_horizontal_trim",
-				"label": "Horizontal Trim - Unstitch Required                                                Min Order MYR18",
+				"label": "Horizontal Trim - Unstitch Required                                                Min MYR18",
 				"orderLabel": "m (Horizontal Trim - Unstitch Required)",
 				"description": "Label standard",
 				"cost": {
@@ -3170,7 +3170,7 @@
 			
 			"Direct Cut Horizontal Trim Length": {
 				"handle": "curtain_direct_cut_horizontal_trim",
-				"label": "Horizontal Trim - Direct Cut                                                Min Order MYR20",
+				"label": "Horizontal Trim - Direct Cut                                                Min MYR20",
 				"orderLabel": "m (Horizontal Trim - Direct Cut)",
 				"description": "Label standard",
 				"cost": {
@@ -3192,7 +3192,7 @@
 			
 			"Curtain Survey & Measurement": {
 				"handle": "curtain_survey_measurement",
-				"label": "Curtain Survey & Measurement",
+				"label": "Curtain Survey & Measurement                                                         Free",
 				"orderLabel": "Job (Curtain Survey & Measurement)",
 				"description": "Label standard",
 				"cost": {
@@ -3212,12 +3212,12 @@
 			
 			"Curtain Dismantle": {
 				"handle": "curtain_dismantle",
-				"label": "Curtain Dismantling",
+				"label": "Curtain Dismantling                                                                   MYR35/hr",
 				"orderLabel": "Hour (Curtain Dismantling)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3233,12 +3233,12 @@
 			
 			"Curtain Install": {
 				"handle": "curtain_install",
-				"label": "Curtain Installation",
+				"label": "Curtain Installation                                                                       MYR50/hr",
 				"orderLabel": "Hour (Curtain Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "35",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3246,26 +3246,6 @@
 					"min": 0,
 					"max": 0,
 					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"Curtain Clean Picking Fee": {
-				"handle": "curtain_clean_picking_fee",
-				"label": "Curtain Clean Picking Fee",
-				"orderLabel": "Trip (Curtain Clean Picking Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "25",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 2,
-					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
