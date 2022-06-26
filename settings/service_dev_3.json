@@ -276,11 +276,6 @@
 			
 	
 	
-	
-	
-	
-	
-	
 	 "clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
@@ -294,7 +289,7 @@
 		"options": {
 			"ik900": {
 				"handle": "clean_water_ik900",
-				"label": "IK900",
+				"label": "IK900                                                             SGD528/Set",
 				"orderLabel": "Set (IK900)",
 				"description": "Label standard",
 				"cost": {
@@ -316,11 +311,11 @@
 			
 		"Filter 1 Sediment": {
 				"handle": "clean_water_filter1",
-				"label": "Filter 1 Sediment & Pre-Carbon",
+				"label": "Filter 1 Sediment & Pre-Carbon                                                    SGD30/Unit",
 				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "30",
 					"MYR": "88",
 					"CNY": "0"
 				},
@@ -338,7 +333,7 @@
 			
 		"Filter 2 UF Membrane": {
 				"handle": "clean_water_filter2",
-				"label": "Filter 2 UF Membrane",
+				"label": "Filter 2 UF Membrane                                                         SGD55/Unit",
 				"orderLabel": "Unit (Filter 2 UF Membrane)",
 				"description": "Label standard",
 				"cost": {
@@ -360,8 +355,8 @@
 				
 		"Filter 3 AG": {
 				"handle": "clean_water_filter3",
-				"label": "Filter 3 Nano-Silver AG & Alkaline",
-				"orderLabel": "Unit (Filter 3 Nano-Silver AG & Alkaline)",
+				"label": "Filter 3 Alkaline & Nano Silver AG+                                                SGD100/Unit",
+				"orderLabel": "Unit (Alkaline & Filter 3 Nano-Silver AG+)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
@@ -382,7 +377,7 @@
 		
 			"Survey": {
 				"handle": "clean_water_survey",
-				"label": "Clean Water Survey",
+				"label": "Clean Water Survey                                                         SGD10/Trip",
 				"orderLabel": "Trip (Clean Water Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -435,7 +430,8 @@
 			}
 		}
 	},
-		
+	
+	
 	
 	
 	
