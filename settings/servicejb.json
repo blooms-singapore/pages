@@ -676,7 +676,7 @@
 		"options": {
 			"Survey": {
 				"handle": "survey",
-				"label": "Survey",
+				"label": "Survey                                                        RM30/Trip",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -716,7 +716,7 @@
 			
 			"Std Silicon 1st Hr": {
 				"handle": "standard_silicon_first_hour",
-				"label": "Standard Silicon 1st Hr",
+				"label": "Standard Silicon 1st Hr                                                 RM70/hr",
 				"orderLabel": "Hour (Std Silicon 1st Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -736,7 +736,7 @@
 			
 			"Std Silicon": {
 				"handle": "standard_silicon",
-				"label": "Standard Silicon 1.5Hrs or more",
+				"label": "Standard Silicon 1.5Hrs or more                                               RM50/hr",
 				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
 				"description": "Label standard",
 				"cost": {
@@ -756,7 +756,7 @@
 			
 			"Antifungal Silicon 1st Hr": {
 				"handle": "antifungal_silicon_first_hour",
-				"label": "Anti-fungal Silicon 1st Hr",
+				"label": "Anti-fungal Silicon 1st Hr                                                         RM90/hr",
 				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -776,7 +776,7 @@
 			
 			"Antifungal Silicon": {
 				"handle": "antifungal_silicon",
-				"label": "Anti-fungal Silicon 1.5Hrs or more",
+				"label": "Anti-fungal Silicon 1.5Hrs or more                                                      RM70/hr",
 				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
 				"description": "Label standard",
 				"cost": {
@@ -949,7 +949,7 @@
 					
 			"Waterproof Empty House - 10ft2": {
 				"handle": "waterproof_empty_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 10ft2 Increment                                                  30, 40, 50 ... ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 10ft2 Increment                                                    RM35/ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Empty House - In 10ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -969,7 +969,7 @@
 			
 			"Waterproof Empty House - 1ft2": {
 				"handle": "waterproof_empty_house_1ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 1ft2 Increment                                          1, 2 ... 9ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 1ft2 Increment                                              RM35/ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Empty House - In 1ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -1080,12 +1080,12 @@
 		},
 		"hasNote": 1,
 		"options": {
+				
 			
-																
 			"Standard Wash": {
 				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash                                       Minimum Booking 1Hr",
-				"orderLabel": "Hour (Wall-Mount Standard Wash)",
+				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM130/hr",
+				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -1097,12 +1097,13 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			},
 			
-					
+			
+			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
 				"label": "Wall-Mount Chemical Overhaul                                                MYR130/hr",
@@ -1118,14 +1119,15 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 90,
+					"default": 60,
 					"base": 60
 				}
 			},
 			
+			
 			"Compressor Wash": {
 				"handle": "aircon_compressor_wash",
-				"label": "Compressor Wash                                                      Service time depends on site situation",
+				"label": "Compressor Wash                                                  RM130/hr",
 				"orderLabel": "Hour (Compressor Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -1146,7 +1148,7 @@
 									
 			"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
-				"label": "Cassette Chemical Overhaul",
+				"label": "Cassette Chemical Overhaul                                                    RM200/hr",
 				"orderLabel": "Hour (Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
@@ -1159,7 +1161,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 120,
+					"default": 90,
 					"base": 60
 				}
 			},
@@ -1167,7 +1169,7 @@
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "Aircon Survey                                                    MYR20/Trip",
+				"label": "Aircon Survey                                                    RM20/Trip",
 				"orderLabel": "Job (Aircon Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1187,7 +1189,7 @@
 			
 			"AC Water Leak": {
 				"handle": "aircon_water_leak",
-				"label": "Water Leak - Minimum Booking 1Hr",
+				"label": "Water Leak - Minimum Booking 1Hr                                          RM130/hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
 				"cost": {
@@ -1207,7 +1209,7 @@
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_trouble_shoot",
-				"label": "Aircon Trouble-Shoot                                                  MYR50/Trip",
+				"label": "Aircon Trouble-Shoot                                                  RM50/Trip",
 				"orderLabel": "Job (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -1227,7 +1229,7 @@
 			
 			"AC Repair Project Confirmation": {
 				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Repair Project Confirmation",
+				"label": "Aircon Repair Project Confirmation                                            Per Quotation",
 				"orderLabel": "Job (Aircon Repair Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
@@ -1248,8 +1250,8 @@
 			
 			"AC Install": {
 				"handle": "aircon_install",
-				"label": "Wall-Mount AC Install                                         Min Booking 2.5hrs",
-				"orderLabel": "Hours (Wall-Mount AC Install)",
+				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM100/hr",
+				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5Hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -1269,7 +1271,7 @@
 												
 			"3Hr Package": {
 				"handle": "three_hour",
-				"label": "3-Hour Package                                         Only in JB",
+				"label": "3-Hour Package                                         RM360",
 				"orderLabel": "PACKAGE (3Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -1289,7 +1291,7 @@
 			
 			"6Hr Package": {
 				"handle": "six_hour",
-				"label": "6-Hour Package                                             Only in JB",
+				"label": "6-Hour Package                                             RM700",
 				"orderLabel": "PACKAGE (6Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -1309,7 +1311,7 @@
 			
 			"9Hr Package": {
 				"handle": "nine_hour",
-				"label": "9-Hour Package                                              Only in JB",
+				"label": "9-Hour Package                                              RM1000",
 				"orderLabel": "PACKAGE (9Hr Package)",
 				"description": "Label standard",
 				"cost": {
@@ -1387,7 +1389,7 @@
 			
 			"Residential Roof Survey": {
 				"handle": "residential_roof_survey",
-				"label": "Residential Roof Survey",
+				"label": "Residential Roof Survey                                                    RM30/Trip",
 				"orderLabel": "Trip (Residential Roof Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1407,7 +1409,7 @@
 			
 			"Commercial Roof Survey": {
 				"handle": "commercial_roof_survey",
-				"label": "Commercial Roof Survey",
+				"label": "Commercial Roof Survey                                                RM100/Trip",
 				"orderLabel": "Trip (Commercial Roof Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1428,7 +1430,7 @@
 			
 		"Roof Project Confirmation": {
 				"handle": "roof_project_confirmation",
-				"label": "Roof Project Confirmation                                        Per Quotation",
+				"label": "Roof Project Confirmation                                            Per Quotation",
 				"orderLabel": "Job (Roof Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1500,7 +1502,7 @@
 			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
-				"label": "Electrical Survey",
+				"label": "Electrical Survey                                                    RM20/Trip",
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1522,7 +1524,7 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Residential Minor Electrical Work",
+				"label": "Residential Minor Electrical Work                                                      RM95/hr",
 				"orderLabel": "Hour (Residential Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
@@ -1563,7 +1565,7 @@
 			
 			"Electrical Trouble Shoot": {
 				"handle": "electrical_troubleshoot",
-				"label": "Electrical Trouble Shoot",
+				"label": "Electrical Trouble Shoot                                                     RM60/Trip",
 				"orderLabel": "Trip (Electrical Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -1583,7 +1585,7 @@
 				
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                                                          Unavailable in SG",
+				"label": "Emergency Booking                                                          RM80/Trip",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -2114,7 +2116,7 @@
 			
 			"Std 1st": {
 				"handle": "std_first",
-				"label": "Standard Install 1st Hour",
+				"label": "Standard Install 1st Hour                                                          RM80/hr",
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -2133,7 +2135,7 @@
 			},
 			"Std 2nd": {
 				"handle": "std_second",
-				"label": "Standard Install 2nd Hour or more",
+				"label": "Standard Install 2nd Hour or more                                                          RM60/hr",
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -2152,7 +2154,7 @@
 			},
             "Tech 1st": {
 				"handle": "tech_first",
-				"label": "Technical Install 1st Hour",
+				"label": "Technical Install 1st Hour                                                          RM95/hr",
 				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -2171,7 +2173,7 @@
 			},
 			"Tech 2nd": {
 				"handle": "tech_second",
-				"label": "Technical Install 2nd Hour or more",
+				"label": "Technical Install 2nd Hour or more                                                      RM70/hr",
 				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -2190,12 +2192,12 @@
 			},
 			"Site Survey": {
 				"handle": "installation_site_survey",
-				"label": "Site Survey",
+				"label": "Site Survey                                                      RM20/Trip",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "25",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2390,7 +2392,7 @@
 		"options": {
 			"Survey": {
 				"handle" : "painting_survey",
-				"label": "Painting Survey",
+				"label": "Painting Survey                                                     RM20/Trip",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
@@ -2433,7 +2435,7 @@
 			
 			"Hourly Service": {
 				"handle": "painting_hourly_service",
-				"label": "Hourly Painting - 1 Crew                                            Min 3 Hrs",
+				"label": "Hourly Painting - 1 Crew - Min 3Hrs                                                       RM180",
 				"orderLabel": "Hour (Hourly Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
@@ -2453,7 +2455,7 @@
 									
 			"Paint Day": {
 				"handle": "painting_day",
-				"label": "Daily Painting - 1 Crew                                                   10am to 6pm",
+				"label": "Daily Painting - 1 Crew                                                   RM350/day",
 				"orderLabel": "Day (Daily Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
@@ -2528,8 +2530,8 @@
 						
 			"Renovation Project Survey": {
 				"handle": "others_project_survey",
-				"label": "Retrofit or Renovation Project Survey",
-				"orderLabel": "Job (Retrofit or Renovation Project Survey)",
+				"label": "Retrofit or Renovation Project Survey                                                        RM30/Trip",
+				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2537,7 +2539,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -2979,7 +2981,7 @@
 			
 			"Disposal Survey": {
 				"handle": "disposal_site_survey",
-				"label": "Disposal Survey",
+				"label": "Disposal Survey                                                         RM30/Trip",
 				"orderLabel": "Trip (Disposal Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -3000,7 +3002,7 @@
 			
 			"Disposal Videocall Survey": {
 				"handle": "disposal_videocall_survey",
-				"label": "Disposal Video Call Survey",
+				"label": "Disposal Video Call Survey                                                        RM10",
 				"orderLabel": "Videocall (Disposal Video Call Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -3089,7 +3091,7 @@
 		"options": {
 			"Curtain Transport 2 Way": {
 				"handle": "curtain_transport_2way",
-				"label": "Transport 2-Way: Curtain Collection & Delivery                                                          MYR50/2 Trips",
+				"label": "Transport 2-Way: Curtain Collection & Delivery                                                          RM50",
 				"orderLabel": "Order (Transport 2-Way: Curtain Collection & Delivery)",
 				"description": "Label standard",
 				"cost": {
@@ -3109,7 +3111,7 @@
 			
 			"Curtain Transport 1 Way": {
 				"handle": "curtain_transport_1way",
-				"label": "Transport 1-Way: Survey & Others                                                         MYR30/Trip",
+				"label": "Transport 1-Way: Survey & Others                                                         RM30/Trip",
 				"orderLabel": "Trip (Transport 1-Way: Survey & Others)",
 				"description": "Label standard",
 				"cost": {
@@ -3129,8 +3131,8 @@
 			
 			"Vertical Trim Qty": {
 				"handle": "curtain_vertical_trim",
-				"label": "Vertical Trim by Quantity                                             Min MYR20",
-				"orderLabel": "Pc (Vertical Trim by Quantity)",
+				"label": "Vertical Trim by Quantity - Min 2pcs                                                 RM10/pc",
+				"orderLabel": "Pc (Vertical Trim by Quantity - Min 2pcs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3138,7 +3140,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Piece",
+					"label": "Pieces",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
@@ -3150,8 +3152,8 @@
 						
 			"Unstitch Horizontal Trim Length": {
 				"handle": "curtain_unstitch_horizontal_trim",
-				"label": "Horizontal Trim - Unstitch Required                                                Min MYR18",
-				"orderLabel": "m (Horizontal Trim - Unstitch Required)",
+				"label": "Horizontal Trim - Unstitch Required - Min 1m                                                RM18/m",
+				"orderLabel": "m (Horizontal Trim - Unstitch Required - Min 1m)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3170,8 +3172,8 @@
 			
 			"Direct Cut Horizontal Trim Length": {
 				"handle": "curtain_direct_cut_horizontal_trim",
-				"label": "Horizontal Trim - Direct Cut                                                Min MYR20",
-				"orderLabel": "m (Horizontal Trim - Direct Cut)",
+				"label": "Horizontal Trim - Direct Cut - Min 2.5m                                                RM8/m",
+				"orderLabel": "m (Horizontal Trim - Direct Cut - Min 2.5m)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3212,7 +3214,7 @@
 			
 			"Curtain Dismantle": {
 				"handle": "curtain_dismantle",
-				"label": "Curtain Dismantling                                                                   MYR35/hr",
+				"label": "Curtain Dismantling                                                                   RM35/hr",
 				"orderLabel": "Hour (Curtain Dismantling)",
 				"description": "Label standard",
 				"cost": {
@@ -3233,7 +3235,7 @@
 			
 			"Curtain Install": {
 				"handle": "curtain_install",
-				"label": "Curtain Installation                                                                       MYR50/hr",
+				"label": "Curtain Installation                                                                       RM50/hr",
 				"orderLabel": "Hour (Curtain Installation)",
 				"description": "Label standard",
 				"cost": {
