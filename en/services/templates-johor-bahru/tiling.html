@@ -25,6 +25,180 @@ layout: service
 </div>
 </div>
 
+<!--embedded video, style @ service.scss-->
+<div class = "iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o_b5_PtPV8A" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+
+
+<div class="divider"></div>
+<div class="gap">
+<h5 class="service-title">PRICES</h5>
+</div>
+  
+<div class="pricing">
+  <table>
+      <!--Project-->
+    <thead>
+      <tr>
+       <th><b>Lumpsum<br>Projects</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Survey<br><b>Quote within<br>3 days</b></td>
+        <td>${params.tiling_survey}/Trip<br><b>Waive upon<br>award of Job</b></td>
+      </tr>
+      
+       <tr>
+        <td>Tiling Quote<br>Discussion</td>
+        <td>Free</td>
+      </tr>
+      
+      <tr>
+        <td>Lumpsum Project<br>Confirmation</td>
+        <td>Per Quotation</td>
+       </tr>
+    
+     <!--non-Waterproof - hourly charge-->
+     <thead>
+      <tr>
+        <th><b>Non-Waterproof<br>Tile Works<br>Small Jobs</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+      <tbody>    
+      <tr>
+        <td>Min Order - 1.5 Hours<br><b>Standard Locations</b></td>
+        <td>${params.nonwaterproof_min_order}/Hour</td>
+      </tr>
+      
+      <tr>
+        <td>2nd Hour or more<br><b>Standard Rate</b></td>
+        <td>${params.nonwaterproof_second_hour}/Hour</td>
+      </tr>
+     
+     <!--Waterproof by area-->
+     <thead>
+      <tr>
+        <th><b>Waterproof Tile Works<br>Min Area 30ft<sup>2</sup></b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+      <tbody>    
+      <tr>
+        <td>Customers Supply Tiles<br><b>Empty House</b></td>
+        <td>${params.waterproof_empty_house_10ft2}/ft<sup>2</sup></td>
+      </tr>
+        
+        <tr>
+        <td>Customers Supply Tiles<br><b>Occupied House</b></td>
+        <td>${params.waterproof_occupied_house_10ft2}/ft<sup>2</sup></td>
+      </tr>
+        
+       <tr>
+        <td>Blooms Supplies Tiles<br>Considered As Project<br><b>Book a Survey</b></td>
+        <td>${params.tiling_survey}/Trip</td>
+      </tr>
+        
+       <tr>
+        <td>Customized or Special<br>Dust Protection Request<br><b>Optional</b></td>
+        <td>Per Quotation</td>
+      </tr>
+      
+        
+      <!--Other Charges-->
+      <thead>
+      <tr>
+       <th><b>Other Charges</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Service Extension<br><b>For Hourly<br>Rated Services</b></td>
+        <td>Charge in<br>30-min blocks</td>
+      </tr>
+      
+      <tr>
+        <td>Material Picking Fee<br><b>Optional</b></td>
+        <td>45.0/Trip</td>
+      </tr>
+      
+      <tr>
+        <td>Transport Charge for<br>Distant Locations<br><b>Scroll below for info</b></td>
+        <td>30.0/Trip</td>
+      </tr>
+  </tbody>
+  </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
+</div>
+
+
+
+
+<div class="divider"></div>
+<div class="gap">
+  <div class="service-info">
+    <h5 class="service-title">SERVICE INFO</h5>
+    <h6 class="service-title">Service by Area</h6>
+    <p><ul>
+    <li>Crew will confirm area (ft<sup>2</sup>) again on site, before start work.</li>
+    <br>
+    <li>Charges will be based on actual measured area, not on Booking Order.</li>
+    </ul></p>
+  
+    <h6 class="service-title">Project Payment Info</h6>
+    <p><ul>
+    <li>For work exceeding 3 days.</li>
+    <br>
+    <li>Payment mode to be by Credit Card.</li>
+    <br>
+    <li>Progress Payments:
+      <br>
+      <br>50% Down Payment by TT,
+      <br>35% @ Half-Job by TT,
+      <br>15% Balance by Credit Card.</li>
+  </ul></p>
+</div>
+</div>
+
+
+<!--Area Measurement-->
+<div class="divider"></div>
+<div class="gap">
+<div class="service-info">
+ <h5 class="service-title">PROPER MEASUREMENT OF WORK AREA</h5>
+ <h6 class="service-title">Floor + Skirting Areas</h6>
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/tiling-area-measurement.png">
+</div>
+</div>
+
+
+
+<!--Distant Locations-->
+<div class="divider"></div>
+<div class="gap">
+  <div class="service-info">
+    <h5 class="service-title">DISTANT LOCATIONS</h5>
+    <h3 class="service-title">Transport charge MYR30 applies.</h6>
+    <p><ul>
+    <li>Gelang Patah.</li>
+    <li>Kota Tinggi.</li>
+    <li>Masai.</li>
+    <li>Pasir Gudang.</li>
+    </ul></p>
+</div>
+</div>
+
+
 <!--FAQs-->
 <div class="divider"></div>
 <div class="gap">
@@ -156,164 +330,6 @@ layout: service
   </div>
   </div>
 
-<!--Area Measurement-->
-<div class="divider"></div>
-<div class="gap">
-<div class="service-info">
- <h5 class="service-title">PROPER MEASUREMENT OF WORK AREA</h5>
- <h6 class="service-title">Floor + Skirting Areas</h6>
-<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/tiling-area-measurement.png">
-</div>
-</div>
-
-<div class="divider"></div>
-<div class="gap">
-<h5 class="service-title">PRICES</h5>
-</div>
-  
-<div class="pricing">
-  <table>
-      <!--Project-->
-    <thead>
-      <tr>
-       <th><b>Lumpsum<br>Projects</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Survey<br><b>Quote within<br>3 days</b></td>
-        <td>${params.tiling_survey}/Trip<br><b>Waive upon<br>award of Job</b></td>
-      </tr>
-      
-       <tr>
-        <td>Tiling Quote<br>Discussion</td>
-        <td>Free</td>
-      </tr>
-      
-      <tr>
-        <td>Lumpsum Project<br>Confirmation</td>
-        <td>Per Quotation</td>
-       </tr>
-    
-     <!--non-Waterproof - hourly charge-->
-     <thead>
-      <tr>
-        <th><b>Non-Waterproof<br>Tile Works<br>Small Jobs</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-      <tbody>    
-      <tr>
-        <td>Min Order - 1.5 Hours<br><b>Standard Locations</b></td>
-        <td>${params.nonwaterproof_min_order}/Hour</td>
-      </tr>
-      
-      <tr>
-        <td>2nd Hour or more<br><b>Standard Rate</b></td>
-        <td>${params.nonwaterproof_second_hour}/Hour</td>
-      </tr>
-     
-     <!--Waterproof by area-->
-     <thead>
-      <tr>
-        <th><b>Waterproof Tile Works<br>Min Area 30ft<sup>2</sup></b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-      <tbody>    
-      <tr>
-        <td>Customers Supply Tiles<br><b>Empty House</b></td>
-        <td>${params.waterproof_empty_house_10ft2}/ft<sup>2</sup></td>
-      </tr>
-        
-        <tr>
-        <td>Customers Supply Tiles<br><b>Occupied House</b></td>
-        <td>${params.waterproof_occupied_house_10ft2}/ft<sup>2</sup></td>
-      </tr>
-        
-       <tr>
-        <td>Blooms Supplies Tiles<br>Considered As Project<br><b>Book a Survey</b></td>
-        <td>${params.tiling_survey}/Trip</td>
-      </tr>
-        
-       <tr>
-        <td>Customized or Special<br>Dust Protection Request<br><b>Optional</b></td>
-        <td>Per Quotation</td>
-      </tr>
-      
-        
-      <!--Other Charges-->
-      <thead>
-      <tr>
-       <th><b>Other Charges</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-        <td>Service Extension<br><b>For Hourly<br>Rated Services</b></td>
-        <td>Charge in<br>30-min blocks</td>
-      </tr>
-      
-      <tr>
-        <td>Material Picking Fee<br><b>Optional</b></td>
-        <td>45.0/Trip</td>
-      </tr>
-      
-      <tr>
-        <td>Transport Charge for<br>Distant Locations<br><b>Scroll below for info</b></td>
-        <td>30.0/Trip</td>
-      </tr>
-  </tbody>
-  </table>
-  <div class="fineprint">
-    Prices subject to change without prior notice
-  </div>
-</div>
-
-<div class="divider"></div>
-<div class="gap">
-  <div class="service-info">
-    <h5 class="service-title">SERVICE INFO</h5>
-    <h6 class="service-title">Service by Area</h6>
-    <p><ul>
-    <li>Crew will confirm area (ft<sup>2</sup>) again on site, before start work.</li>
-    <br>
-    <li>Charges will be based on actual measured area, not on Booking Order.</li>
-    </ul></p>
-  
-    <h6 class="service-title">Project Payment Info</h6>
-    <p><ul>
-    <li>For work exceeding 3 days.</li>
-    <br>
-    <li>Payment mode to be by Credit Card.</li>
-    <br>
-    <li>Progress Payments:
-      <br>
-      <br>50% Down Payment by TT,
-      <br>35% @ Half-Job by TT,
-      <br>15% Balance by Credit Card.</li>
-  </ul></p>
-</div>
-</div>
-
-
-<!--Distant Locations-->
-<div class="divider"></div>
-<div class="gap">
-  <div class="service-info">
-    <h5 class="service-title">DISTANT LOCATIONS</h5>
-    <h3 class="service-title">Transport charge MYR30 applies.</h6>
-    <p><ul>
-    <li>Gelang Patah.</li>
-    <li>Kota Tinggi.</li>
-    <li>Masai.</li>
-    <li>Pasir Gudang.</li>
-    </ul></p>
-</div>
-</div>
 
 
 <div class="divider"></div>
