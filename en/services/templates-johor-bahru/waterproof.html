@@ -20,7 +20,94 @@ layout: service
  </div>
 </div>
 
- <!--FAQs-->
+<!--embedded video, style @ service.scss-->
+<div class = "iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o_b5_PtPV8A" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+ 
+
+<div class="divider"></div>
+<div class="gap">
+<h5 class="service-title">PRICES</h5>
+</div>
+
+<div class="pricing">
+  <table>
+    <thead>
+      <tr>
+       <th><b>Outdoor Works</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Survey<br><br>Waive upon<br>project confirmation</td>
+          <td>${params.survey}/Trip</td>
+      </tr>
+      
+      <tr>
+       <td>Waterproof Project</td>
+       <td>Per Quotation</a></td>
+      </tr>
+      
+      <tr>
+       <td>Videos</td>
+       <td>Coming Soon</td>
+      </tr>
+
+      <tr>
+       <td>Photos</td>
+       <td>Coming Soon</td>
+      </tr>
+  </tbody>
+   <thead>
+      <tr>
+       <th><b>Indoor Silicon<br>Re-proofing</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+     
+      <tr>
+          <td>Standard Silicon<br>1st Hour</td>
+          <td>${params.standard_silicon_first_hour}/Hr</td>
+      </tr>
+      <tr>
+          <td>Standard Silicon<br>1.5Hrs or more<br></td>
+          <td>${params.standard_silicon}/Hr</td>
+      </tr>
+     
+      <tr>
+          <td>Anti-fungal Silicon<br>1st Hour</td>
+          <td>${params.antifungal_silicon_first_hour}/Hr</td>
+      </tr>
+      <tr>
+          <td>Anti-fungal Silicon<br>1.5Hrs or more<br></td>
+          <td>${params.antifungal_silicon}/Hr</td>
+      </tr>
+     
+      <tr>
+       <td>Videos</td>
+       <td>Coming Soon</td>
+      </tr>
+     
+      <tr>
+       <td>Photos</td>
+       <td>Coming Soon</td>
+      </tr>
+     
+  </tbody>
+  </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+</div>
+</div>
+
+
+<!--FAQs-->
  <div class="divider"></div>
  <div class="gap">
  <h5 class="service-title">FAQs</h5>
@@ -109,83 +196,6 @@ layout: service
 
 <div class="divider"></div>
 <div class="gap">
-<h5 class="service-title">PRICES</h5>
-</div>
-
-<div class="pricing">
-  <table>
-    <thead>
-      <tr>
-       <th><b>Outdoor Works</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td>Survey<br><br>Waive upon<br>project confirmation</td>
-          <td>${params.survey}/Trip</td>
-      </tr>
-      
-      <tr>
-       <td>Waterproof Project</td>
-       <td>Per Quotation</a></td>
-      </tr>
-      
-      <tr>
-       <td>Videos</td>
-       <td>Coming Soon</td>
-      </tr>
-
-      <tr>
-       <td>Photos</td>
-       <td>Coming Soon</td>
-      </tr>
-  </tbody>
-   <thead>
-      <tr>
-       <th><b>Indoor Silicon<br>Re-proofing</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-     
-      <tr>
-          <td>Standard Silicon<br>1st Hour</td>
-          <td>${params.standard_silicon_first_hour}/Hr</td>
-      </tr>
-      <tr>
-          <td>Standard Silicon<br>1.5Hrs or more<br></td>
-          <td>${params.standard_silicon}/Hr</td>
-      </tr>
-     
-      <tr>
-          <td>Anti-fungal Silicon<br>1st Hour</td>
-          <td>${params.antifungal_silicon_first_hour}/Hr</td>
-      </tr>
-      <tr>
-          <td>Anti-fungal Silicon<br>1.5Hrs or more<br></td>
-          <td>${params.antifungal_silicon}/Hr</td>
-      </tr>
-     
-      <tr>
-       <td>Videos</td>
-       <td>Coming Soon</td>
-      </tr>
-     
-      <tr>
-       <td>Photos</td>
-       <td>Coming Soon</td>
-      </tr>
-     
-  </tbody>
-  </table>
-  <div class="fineprint">
-    Prices subject to change without prior notice
-</div>
-</div>
-
-<div class="divider"></div>
-<div class="gap">
 <div class="service-info">
 <h5 class="service-title">SERVICE INFO</h5>
 <h6 class="service-title">Outdoor Project Info</h6>
@@ -211,8 +221,8 @@ layout: service
 <div class="gap">
   <div class="service-info">
   <h5 class="service-title">CUSTOMER CARE</h5>
-  <p>60 16 709 3863</p>
   <p>${params.phone}</p>
+  <p>60 16 709 3863</p>
   <p>${params.email}</p>
   <p>www.blooms.my</p>
 </div>
