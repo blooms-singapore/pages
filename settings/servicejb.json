@@ -6,7 +6,7 @@
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban", "Nilai - Coming Soon"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "95",
@@ -17,7 +17,7 @@
 			
 			"Std Plumbing 1st Hr": {
 				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour",
+				"label": "Standard Plumbing 1st Hour                                         RM95/hr",
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -37,7 +37,7 @@
 			
 			"Std Plumbing 2nd Hr": {
 				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more",
+				"label": "Standard Plumbing 2nd Hour or more                                                    RM70/hr",
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -57,7 +57,7 @@
 			
 			"Non-Standard Plumbing Project Survey": {
 				"handle": "plumbing_other_survey",
-				"label": "Other Plumbing SURVEY",
+				"label": "Other Plumbing SURVEY                                                    RM20/Trip",
 				"orderLabel": "Trip (Other Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
@@ -97,7 +97,7 @@
 			
 			"Tank Issue Survey": {
 				"handle": "plumbing_tank_issue_survey",
-				"label": "Tank Issue SURVEY                                                  Unavailable in SG",
+				"label": "Tank Issue SURVEY                                                   RM30/Trip",
 				"orderLabel": "Trip (Tank Issue SURVEY)",
 				"description": "Label standard",
 				"cost": {
@@ -117,7 +117,7 @@
 			
 			"Tank Wash 1st Hr": {
 				"handle": "tank_wash_first_hour",
-				"label": "Tank WASH 1st Hour                                                     Unavailable in SG",
+				"label": "Tank WASH 1st Hour                                                     RM150/hr",
 				"orderLabel": "Hour (Tank WASH 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -137,7 +137,7 @@
 			
 			"Tank Wash 2nd Hr": {
 				"handle": "tank_wash_second_hour",
-				"label": "Tank WASH 2nd Hour or more                                       Unavailable in SG",
+				"label": "Tank WASH 2nd Hour or more                                       RM120/hr",
 				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -157,7 +157,7 @@
 			
 			"Tank Repair 1st Hr": {
 				"handle": "tank_repair_first_hour",
-				"label": "Tank REPAIR 1st Hour                                                Unavailable in SG",
+				"label": "Tank REPAIR 1st Hour                                                RM150/hr",
 				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -177,7 +177,7 @@
 			
 			"Tank Repair 2nd Hr": {
 				"handle": "tank_repair_second_hour",
-				"label": "Tank REPAIR 2nd Hour or more                                           Unavailable in SG",
+				"label": "Tank REPAIR 2nd Hour or more                                           RM120/hr",
 				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -197,7 +197,7 @@
 						
 			"Tank Project": {
 				"handle": "tank_project",
-				"label": "Tank Project Confirmation                                           Unavailable in SG",
+				"label": "Tank Project Confirmation                                           Per Quotation",
 				"orderLabel": "Job (Tank Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
@@ -218,7 +218,7 @@
 						
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "Trouble Shoot",
+				"label": "Trouble Shoot                                                         RM60/Job",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -294,7 +294,7 @@
 		"options": {
 			"ik900": {
 				"handle": "clean_water_ik900",
-				"label": "IK900                                                             MYR1600/Set",
+				"label": "IK900                                                             RM1600/Set",
 				"orderLabel": "Set (IK900)",
 				"description": "Label standard",
 				"cost": {
@@ -316,7 +316,7 @@
 			
 		"Filter 1 Sediment": {
 				"handle": "clean_water_filter1",
-				"label": "Filter 1 Sediment & Pre-Carbon                                                    MYR88/Unit",
+				"label": "Filter 1 Sediment & Pre-Carbon                                                    RM88/Unit",
 				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon)",
 				"description": "Label standard",
 				"cost": {
@@ -338,7 +338,7 @@
 			
 		"Filter 2 UF Membrane": {
 				"handle": "clean_water_filter2",
-				"label": "Filter 2 UF Membrane                                                         MYR168/Unit",
+				"label": "Filter 2 UF Membrane                                                         RM168/Unit",
 				"orderLabel": "Unit (Filter 2 UF Membrane)",
 				"description": "Label standard",
 				"cost": {
@@ -360,7 +360,7 @@
 				
 		"Filter 3 AG": {
 				"handle": "clean_water_filter3",
-				"label": "Filter 3 Alkaline & Nano Silver AG+                                                MYR288/Unit",
+				"label": "Filter 3 Alkaline & Nano Silver AG+                                                RM288/Unit",
 				"orderLabel": "Unit (Alkaline & Filter 3 Nano-Silver AG+)",
 				"description": "Label standard",
 				"cost": {
@@ -382,7 +382,7 @@
 		
 			"Survey": {
 				"handle": "clean_water_survey",
-				"label": "Clean Water Survey                                                         MYR30/Trip",
+				"label": "Clean Water Survey                                                         RM30/Trip",
 				"orderLabel": "Trip (Clean Water Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -456,7 +456,7 @@
 			
 			"Landscape 1 crew": {
 				"handle": "landscape_one_crew",
-				"label": "1 crew - Small Garden                                           Min 1 Hour",
+				"label": "1 crew - Small Garden                                           RM50/hr",
 				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
 				"cost": {
@@ -479,7 +479,7 @@
 			
 			"Landscape 2 crews": {
 				"handle": "landscape_two_crews",
-				"label": "2 Crews - Large Garden                                              Min 3 Hours",
+				"label": "2 Crews - Large Garden                                              RM70/hr",
 				"orderLabel": "Hours (2 Crews - Large Garden)",
 				"description": "Label standard",
 				"cost": {
@@ -502,18 +502,18 @@
 			
 			"Overgrowth Clearance": {
 				"handle": "landscape_overgrowth_clearance",
-				"label": "Overgrowth Clearance - 2 Crews                                     Min 3 Hours",
+				"label": "Overgrowth Clearance - 2 Crews                                     RM90/hr",
 				"orderLabel": "Hour (Overgrowth Clearance - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "100",
+					"MYR": "90",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 8,
+					"max": 7,
 					"increment": 0.5,
 					"default": 3,
 					"base": 1
@@ -522,7 +522,7 @@
 			
 			"Small Debris": {
 				"handle": "small_debris",
-				"label": "Small Disposal Fee                                        <= 3 Bags",
+				"label": "Small Disposal Fee                                        RM30",
 				"orderLabel": "Job (Small Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -543,7 +543,7 @@
 			
 			"Big Debris": {
 				"handle": "big_debris",
-				"label": "Big Disposal Fee                                 4 Bags or more",
+				"label": "Big Disposal Fee                                 RM10/bag",
 				"orderLabel": "Bags (Big Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -564,7 +564,7 @@
 			
 			"Disposal by Lorry": {
 				"handle": "landscape_disposal_by_lorry",
-				"label": "Disposal by Lorry",
+				"label": "Disposal by Lorry                                                      RM130/lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
 				"cost": {
@@ -585,7 +585,7 @@
 			
 			"survey": {
 				"handle": "landscape_survey",
-				"label": "Landscape Survey",
+				"label": "Landscape Survey                                                     RM30/Trip",
 				"orderLabel": "Trip (Landscape Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -666,7 +666,7 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Nilai - Coming Soon"],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -845,8 +845,8 @@
 						
 			"Tiling Survey": {
 				"handle": "tiling_survey",
-				"label": "Survey",
-				"orderLabel": "Trip (Survey)",
+				"label": "Tiling Survey                                                              RM30/Trip",
+				"orderLabel": "Trip (Tiling Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -907,7 +907,7 @@
 			
 			"Non-Waterproof Min 1.5hrs": {
 				"handle": "nonwaterproof_min_order",
-				"label": "Non-Waterproof Tile Works - Min 1.5Hrs",
+				"label": "Non-Waterproof Tile Works - Min 1.5Hrs                                                 RM140/hr",
 				"orderLabel": "Hour (Non-Waterproof Tile Works - Min 1.5Hrs)",
 				"description": "Label standard",
 				"cost": {
@@ -928,7 +928,7 @@
 			
 			"Non-Waterproof 2nd Hour": {
 				"handle": "nonwaterproof_second_hour",
-				"label": "Non-Waterproof Tile Works - 2nd Hour or more",
+				"label": "Non-Waterproof Tile Works - 2nd Hour or more                                                     RM100/hr",
 				"orderLabel": "Hour (Non-Waterproof Tile Works - 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -991,7 +991,7 @@
 					
 			"Waterproof Occupied House - 10ft2": {
 				"handle": "waterproof_occupied_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Occupied House - 10ft2 Increment                                        30, 40, 50 ... ft2",
+				"label": "Waterproof Work - Customers Supply Tiles - Occupied House - 10ft2 Increment                                             RM40/ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 10ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -1011,7 +1011,7 @@
 			
 			"Waterproof Occupied House - 1ft2": {
 				"handle": "waterproof_occupied_house_1ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Occupied House - 1ft2 Increment                                          1, 2 ... 9ft2",
+				"label": "Waterproof Work - Customer Supplies Tiles - Occupied House - 1ft2 Increment                                              RM40/ft2",
 				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 1ft2)",
 				"description": "Label standard",
 				"cost": {
@@ -1656,7 +1656,7 @@
 			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew",
+				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM125/unit",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -1679,7 +1679,7 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                       Min 3 Hours",
+				"label": "Festive Clean Condo - 2 Crews                                                            RM50/hr",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
@@ -1702,7 +1702,7 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                                    Min 5 Hours",
+				"label": "Festive Clean Landed House - 2 Crews                                                       RM50/hr",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
@@ -1726,7 +1726,7 @@
 			
 			"Std Clean Very Small Condo": {
 				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo - 1 Crews",
+				"label": "Standard Clean Very Small Condo - 1 Crews                                                             RM110/unit",
 				"displayLabel": "Standard Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Standard Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -1751,7 +1751,7 @@
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo - 2 Crews                                          Min 3 Hours",
+				"label": "Standard Clean Condo - 2 Crews                                               RM45/hr",
 				"displayLabel": "Standard Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
 				"description": "Label standard",
@@ -1775,7 +1775,7 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House - 2 Crews                                                        Min 4 Hours",
+				"label": "Standard Clean Landed House - 2 Crews                                                        RM45/hr",
 				"displayLabel": "Standard Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
 				"description": "Label standard",
@@ -1799,7 +1799,7 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           Up to 5 Hours",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM200/unit",
 				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -1822,7 +1822,7 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo",
+				"label": "Renovation Clean 1-Storey House or Condo                                                          RM55/hr",
 				"displayLabel": "Renovation Clean 1-Storey House or Condo",
 				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
 				"description": "Label standard",
@@ -1845,7 +1845,7 @@
 			
 			"Reno Big House": {
 				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House",
+				"label": "Renovation Clean Big House                                                              RM500/day",
 				"displayLabel": "Renovation Clean Big House",
 				"orderLabel": "Day (Renovation Clean Big House)",
 				"description": "Label standard",
@@ -1869,7 +1869,7 @@
 						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo",
+				"label": "Move Clean Very Small Condo                                                               RM120/unit",
 				"displayLabel": "Move Clean Very Small Condo",
 				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
@@ -1892,7 +1892,7 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Condo",
+				"label": "Move Clean Condo                                                            RM55/hr",
 				"displayLabel": "Move Clean Condo",
 				"orderLabel": "Hours (Move Clean Condo)",
 				"description": "Label standard",
@@ -1915,7 +1915,7 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House",
+				"label": "Move Clean Landed House                                                             RM55/hr",
 				"displayLabel": "Move Clean Landed House",
 				"orderLabel": "Hours (Move Clean Landed House)",
 				"description": "Label standard",
@@ -1939,7 +1939,7 @@
 			
 			"Project Survey": {
 				"handle": "cleaning_project_survey",
-				"label": "Specialise Cleaning Project Survey",
+				"label": "Specialise Cleaning Project Survey                                                        RM20/Survey",
 				"displayLabel": "Specialise Cleaning Project Survey",
 				"orderLabel": "Survey (Specialise Cleaning Project Survey)",
 				"description": "Label standard",
@@ -1962,7 +1962,7 @@
 			
 			"Project Confirmation": {
 				"handle": "cleaning_project_confirmation",
-				"label": "Specialise Cleaning Project Confirmation",
+				"label": "Specialise Cleaning Project Confirmation                                                         Per Quotation",
 				"displayLabel": "Specialisew Cleaning Project Confirmation",
 				"orderLabel": "Project (Specialise Cleaning Project Confirmation)",
 				"description": "Label standard",
@@ -1985,7 +1985,7 @@
 			
 			"Top Up Package": {
 				"handle": "cleaning_topup_package",				
-				"label": "Top Up Package                                                         KL & JB",
+				"label": "Top Up Package                                                         RM1000",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
@@ -2008,7 +2008,7 @@
 			
 			"Ladder Package": {
 				"handle": "cleaning_ladder_package",
-				"label": "Ladder Package                                                          Only in JB",
+				"label": "Ladder Package                                                          RM900",
 				"displayLabel": "Ladder Package",
 				"orderLabel": "Package (Ladder PKG)",
 				"description": "Label standard",
@@ -2030,7 +2030,7 @@
 			
 			"Vacuum Package": {
 				"handle": "cleaning_vacuum_package",				
-				"label": "Vacuum Package                                                         Only in JB",
+				"label": "Vacuum Package                                                         RM1080",
 				"displayLabel": "Vacuum Package",
 				"orderLabel": "Package (Vacuum PKG)",
 				"description": "Label standard",
