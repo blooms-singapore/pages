@@ -1106,8 +1106,8 @@
 			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul                                                MYR130/hr",
-				"orderLabel": "Hours (Wall-Mount Chemical Overhaul)",
+				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR130/hr",
+				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -1148,8 +1148,8 @@
 									
 			"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
-				"label": "Cassette Chemical Overhaul                                                    RM200/hr",
-				"orderLabel": "Hour (Cassette Chemical Overhaul)",
+				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM200/hr",
+				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5Hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
