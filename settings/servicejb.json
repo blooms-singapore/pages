@@ -2765,7 +2765,7 @@
 			
 			"unlock-morning": {
 				"handle": "unlock_morning",
-				"label": "Room Door Unlock (10am to 6pm)                                      MYR60 - 100",
+				"label": "Room Door Unlock (10am to 6pm)                                      RM60 - 100",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2789,7 +2789,7 @@
 			},
 			"unlock-evening": {
 				"handle": "unlock_evening",
-				"label": "Room Door Unlock (After 6pm)                                            MYR90 - 130",
+				"label": "Room Door Unlock (After 6pm)                                            RM90 - 130",
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2813,7 +2813,7 @@
 			},
 			"unlock-metal": {
 				"handle": "unlock_metal",
-				"label": "Metal Door Unlock                                          From MYR85",
+				"label": "Metal Door Unlock                                          From RM85",
 				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
 				"cost": {
@@ -2835,7 +2835,7 @@
 			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
-				"label": "Foreign Car Key Copy                                                 From MYR260",
+				"label": "Foreign Car Key Copy                                                 From RM260",
 				"orderLabel": "Unit (Foreign Car Key Copy)",
 				"description": "Label standard",
 				"cost": {
