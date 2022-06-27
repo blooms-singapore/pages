@@ -19,6 +19,74 @@ layout: service
 </div>
 </div>
 
+
+<!--embedded video, style @ service.scss-->
+<div class = "iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o_b5_PtPV8A" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+
+
+<div class="divider"></div>
+<div class="gap">
+<h5>PRICES</h5>
+</div>
+<div class="pricing">
+  <table>  
+   <thead> <!--Landed House-->
+      <tr>
+        <th><b>Landed House</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <td>Standard House<br><b>less than 3000ft<sup>2</b></td>
+        <td>${params.house_diagnosis_standard_house}/Project</td>
+        </tr>
+      
+       <tr>
+         <td>Survey<br><br>Large House<br>Bungalow or Villa<br><b>above 3000ft<sup>2</sup></b></td>
+        <td>${params.house_diagnosis_survey}/Job</td>
+        </tr>
+     
+      <thead>
+      <tr>
+        <th><b>Condominium</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Condominium<br>2BR or more</td>
+        <td>${params.house_diagnosis_condo}/Project</td>
+        </tr>
+  
+       <tr>
+        <td>Very Small Condo<br>Studio or 1BR</td>
+        <td>See below<br>FAQs</td>
+       </tr>
+    
+      <thead> <!--Brochure-->
+      <tr>
+        <th><b>Brochure</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>Standard Inspection<br>Scope</td>
+       <td><a class="btn"  href="/assets/img/news/house_diagnosis_brochure.png">Download</a></td>
+      </tr>
+  </tbody>
+  </table>
+  <div class="fineprint">
+  Prices subject to change without prior notice
+</div>
+</div>
+
 <!--FAQs-->
 <div class="divider"></div>
 <div class="gap">
@@ -84,71 +152,12 @@ layout: service
   </div>
 
 
-<div class="divider"></div>
-<div class="gap">
-<h5>PRICES</h5>
-</div>
-<div class="pricing">
-  <table>  
-   <thead> <!--Landed House-->
-      <tr>
-        <th><b>Landed House</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td>Standard House<br><b>less than 3000ft<sup>2</b></td>
-        <td>${params.house_diagnosis_standard_house}/Project</td>
-        </tr>
-      
-       <tr>
-         <td>Survey<br><br>Large House<br>Bungalow or Villa<br><b>above 3000ft<sup>2</sup></b></td>
-        <td>${params.house_diagnosis_survey}/Job</td>
-        </tr>
-     
-      <thead>
-      <tr>
-        <th><b>Condominium</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td>Condominium<br>2BR or more</td>
-        <td>${params.house_diagnosis_condo}/Project</td>
-        </tr>
-  
-       <tr>
-        <td>Very Small Condo<br>Studio or 1BR</td>
-        <td>See below<br>FAQs</td>
-       </tr>
-    
-      <thead> <!--Brochure-->
-      <tr>
-        <th><b>Brochure</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-       <td>Standard Inspection<br>Scope</td>
-       <td><a class="btn"  href="/assets/img/news/house_diagnosis_brochure.png">Download</a></td>
-      </tr>
-  </tbody>
-  </table>
-  <div class="fineprint">
-  Prices subject to change without prior notice
-</div>
-</div>
-
 
 <div class="divider"></div>
 <div class="gap">
 <div class="service-info">
   <h5 class="service-title">INQUIRY</h5>
-  <p>Wai Kong: 60 11 3934 7848</p>
-  <p>Albert: 60 10 661 3344</p>
+  <p>${params.phone}</p>
   <p>${params.email}</p>
   <p>www.blooms.my</p>
 </div>
