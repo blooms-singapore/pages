@@ -281,166 +281,6 @@
 	
 	
 	
-	 "clean-water": {
-		"name": "Clean Water",
-		"lastSlot": "15:30",
-		"disableLocations": ["kuala Lumpur"],
-		"startPrice": {
-			"SGD": "528",
-			"MYR": "1600",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"ik900": {
-				"handle": "clean_water_ik900",
-				"label": "IK900                                                             RM1600/set",
-				"orderLabel": "Set (IK900)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "528",
-					"MYR": "1600",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Set",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-			
-			
-		"Filter 1 Sediment": {
-				"handle": "clean_water_filter1",
-				"label": "Filter 1 Sediment & Pre-Carbon                                                    RM88/unit",
-				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "88",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-			
-			
-		"Filter 2 UF Membrane": {
-				"handle": "clean_water_filter2",
-				"label": "Filter 2 UF Membrane                                                         RM168/unit",
-				"orderLabel": "Unit (Filter 2 UF Membrane)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "58",
-					"MYR": "168",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-		
-			
-				
-		"Filter 3 AG": {
-				"handle": "clean_water_filter3",
-				"label": "Filter 3 Alkaline & Nano Silver AG+                                                RM288/unit",
-				"orderLabel": "Unit (Alkaline & Filter 3 Nano-Silver AG+)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "100",
-					"MYR": "288",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-		
-		
-		
-			"Survey": {
-				"handle": "clean_water_survey",
-				"label": "Clean Water Survey                                                         RM30/trip",
-				"orderLabel": "Trip (Clean Water Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		 },
-	
-				
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"HDB or Condo": {
-						"label": "HDB or Condo",
-						"orderLabel": "HDB or Condo",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					
-					"Landed House": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-		
-	
-	
-	
-	
-	
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "15:00",
@@ -453,9 +293,9 @@
 		"hasNote": 1,
 		"options": {
 			"Survey": {
-				"handle": "survey",
-				"label": "Survey                                                        RM30/trip",
-				"orderLabel": "Trip (Survey)",
+				"handle": "waterproofing_survey_kl",
+				"label": "Waterproofing Survey                                                        RM30/trip",
+				"orderLabel": "Trip (Waterproofing Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -473,7 +313,7 @@
 			 },
 			
 			"Waterproof Project": {
-				"handle": "waterproof_project",
+				"handle": "waterproof_project_kl",
 				"label": "Waterproof Project Confirmation                                Per Quotation",
 				"orderLabel": "Job (Waterproof Project Confirmation)",
 				"description": "Label standard",
@@ -493,7 +333,7 @@
 			 },
 			
 			"Std Silicon 1st Hr": {
-				"handle": "standard_silicon_first_hour",
+				"handle": "standard_silicon_first_hour_kl",
 				"label": "Standard Silicon 1st Hr                                                 RM80/hr",
 				"orderLabel": "Hour (Std Silicon 1st Hr)",
 				"description": "Label standard",
@@ -513,7 +353,7 @@
 			 },
 			
 			"Std Silicon": {
-				"handle": "standard_silicon",
+				"handle": "standard_silicon_kl",
 				"label": "Standard Silicon 1.5Hrs or more                                               RM60/hr",
 				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
 				"description": "Label standard",
@@ -533,7 +373,7 @@
 			 },
 			
 			"Antifungal Silicon 1st Hr": {
-				"handle": "antifungal_silicon_first_hour",
+				"handle": "antifungal_silicon_first_hour_kl",
 				"label": "Anti-fungal Silicon 1st Hr                                                         RM100/hr",
 				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
 				"description": "Label standard",
@@ -553,7 +393,7 @@
 			 },
 			
 			"Antifungal Silicon": {
-				"handle": "antifungal_silicon",
+				"handle": "antifungal_silicon_kl",
 				"label": "Anti-fungal Silicon 1.5Hrs or more                                                      RM80/hr",
 				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
 				"description": "Label standard",
@@ -606,251 +446,13 @@
 	},
 	
 	
-	
-	
 		
-	"tiling": {
-		"name": "Tiling & Concrete",
-		"lastSlot": "15:00",
-		"disableLocations": ["Singapore","Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "45.5",
-			"MYR": "210",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-						
-			"Tiling Survey": {
-				"handle": "tiling_survey",
-				"label": "Tiling Survey                                                              RM30/trip",
-				"orderLabel": "Trip (Tiling Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Tiling Quote Discussion": {
-				"handle": "tiling_quote_discussion",
-				"label": "Quote Discussion                                                      Free",
-				"orderLabel": "Job (Quote Discussion)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-          		"Tiling Project": {
-				"handle": "tiling_project",
-				"label": "Lumpsum Project Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Lumpsum Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			
-			"Non-Waterproof Min 1.5hrs": {
-				"handle": "nonwaterproof_min_order",
-				"label": "Non-Waterproof Tile Works - Min 1.5Hrs                                                 RM140/hr",
-				"orderLabel": "Hour (Non-Waterproof Tile Works - Min 1.5Hrs)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "140",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1.5,
-					"increment": 1.5,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			"Non-Waterproof 2nd Hour": {
-				"handle": "nonwaterproof_second_hour",
-				"label": "Non-Waterproof Tile Works - 2nd Hour or more                                                     RM100/hr",
-				"orderLabel": "Hour (Non-Waterproof Tile Works - 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "100",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-		
-					
-			"Waterproof Empty House - 10ft2": {
-				"handle": "waterproof_empty_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 10ft2 Increment                                                    RM35/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Empty House - In 10ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "35",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 30,
-					"base": 1
-				}
-			},
-			
-			"Waterproof Empty House - 1ft2": {
-				"handle": "waterproof_empty_house_1ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 1ft2 Increment                                              RM35/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Empty House - In 1ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "35",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 9,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			},
-			
-					
-			"Waterproof Occupied House - 10ft2": {
-				"handle": "waterproof_occupied_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Occupied House - 10ft2 Increment                                             RM40/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 10ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "40",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 30,
-					"base": 1
-				}
-			},
-			
-			"Waterproof Occupied House - 1ft2": {
-				"handle": "waterproof_occupied_house_1ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Occupied House - 1ft2 Increment                                              RM40/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 1ft2)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "40",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 9,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			}
-		},
-		
-		"types": {
-			"house": {
-				"label": "Location?",
-				"description": "Label standard",
-				"values": {
-					
-					"Standard Location": {
-						"label": "Standard Location",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					},
-					
-					"Distant Location": {
-						"label": "Distant Location",
-						"orderLabel": "Distant Location",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "30",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-	
 	
 		
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "140",
@@ -861,7 +463,7 @@
 				
 			
 			"Standard Wash": {
-				"handle": "aircon_standard_hour",
+				"handle": "aircon_standard_hour_kl",
 				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM140/hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1Hr)",
 				"description": "Label standard",
@@ -883,7 +485,7 @@
 			
 			
 			"Chemical Overhaul": {
-				"handle": "aircon_chemical_wash",
+				"handle": "aircon_chemical_wash_kl",
 				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR140/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
 				"description": "Label standard",
@@ -904,7 +506,7 @@
 			
 			
 			"Compressor Wash": {
-				"handle": "aircon_compressor_wash",
+				"handle": "aircon_compressor_wash_kl",
 				"label": "Compressor Wash                                                  RM140/hr",
 				"orderLabel": "Hour (Compressor Wash)",
 				"description": "Label standard",
@@ -925,7 +527,7 @@
 			
 									
 			"Cassette Chemical Overhaul": {
-				"handle": "aircon_cassette",
+				"handle": "aircon_cassette_kl",
 				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM200/hr",
 				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5Hrs)",
 				"description": "Label standard",
@@ -946,7 +548,7 @@
 			
 			
 			"AC Survey": {				
-				"handle": "aircon_survey",
+				"handle": "aircon_survey_kl",
 				"label": "Aircon Survey                                                    RM30/trip",
 				"orderLabel": "Trip (Aircon Survey)",
 				"description": "Label standard",
@@ -966,7 +568,7 @@
 			},
 			
 			"AC Water Leak": {
-				"handle": "aircon_water_leak",
+				"handle": "aircon_water_leak_kl",
 				"label": "Water Leak - Minimum Booking 1Hr                                          RM140/hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
@@ -986,7 +588,7 @@
 			},
 			
 			"AC Trouble Shoot": {
-				"handle": "aircon_trouble_shoot",
+				"handle": "aircon_trouble_shoot_kl",
 				"label": "Aircon Trouble-Shoot                                                  RM00/job",
 				"orderLabel": "Job (Aircon Trouble-Shoot)",
 				"description": "Label standard",
@@ -1006,7 +608,7 @@
 			},
 			
 			"AC Repair Project Confirmation": {
-				"handle": "aircon_repair_project_confirmation",
+				"handle": "aircon_repair_project_confirmation_kl",
 				"label": "Aircon Repair Project Confirmation                                            Per Quotation",
 				"orderLabel": "Job (Aircon Repair Project Confirmation)",
 				"description": "Label standard",
@@ -1027,7 +629,7 @@
 			
 			
 			"AC Install": {
-				"handle": "aircon_install",
+				"handle": "aircon_install_kl",
 				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM100/hr",
 				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5Hrs)",
 				"description": "Label standard",
