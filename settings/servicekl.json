@@ -16,7 +16,7 @@
 		"options": {
 			
 			"Std Plumbing 1st Hr": {
-				"handle": "first_hour",
+				"handle": "first_hour_kl",
 				"label": "Standard Plumbing 1st Hour                                         RM105/hr",
 				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
 				"description": "Label standard",
@@ -36,7 +36,7 @@
 			},
 			
 			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
+				"handle": "second_hour_kl",
 				"label": "Standard Plumbing 2nd Hour or more                                                    RM80/hr",
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
@@ -56,7 +56,7 @@
 			},
 			
 			"Non-Standard Plumbing Project Survey": {
-				"handle": "plumbing_other_survey",
+				"handle": "plumbing_other_survey_kl",
 				"label": "Other Plumbing SURVEY                                                    RM30/trip",
 				"orderLabel": "Trip (Other Plumbing SURVEY)",
 				"description": "Label standard",
@@ -76,7 +76,7 @@
 			},
 			
 			"Other Plumbing Confirmation": {
-				"handle": "plumbing_other_plumbing_confirmation",
+				"handle": "plumbing_other_plumbing_confirmation_kl",
 				"label": "Other Plumbing Confirmation                                              Per Quotation",
 				"orderLabel": "Job (Other Plumbing Confirmation)",
 				"description": "Label standard",
@@ -96,7 +96,7 @@
 			},
 			
 			"Tank Issue Survey": {
-				"handle": "plumbing_tank_issue_survey",
+				"handle": "plumbing_tank_issue_survey_kl",
 				"label": "Tank Issue SURVEY                                                   RM30/trip",
 				"orderLabel": "Trip (Tank Issue SURVEY)",
 				"description": "Label standard",
@@ -116,7 +116,7 @@
 			},
 			
 			"Tank Wash 1st Hr": {
-				"handle": "tank_wash_first_hour",
+				"handle": "tank_wash_first_hour_kl",
 				"label": "Tank WASH 1st Hour                                                     RM160/hr",
 				"orderLabel": "Hour (Tank WASH 1st Hour)",
 				"description": "Label standard",
@@ -136,7 +136,7 @@
 			},
 			
 			"Tank Wash 2nd Hr": {
-				"handle": "tank_wash_second_hour",
+				"handle": "tank_wash_second_hour_kl",
 				"label": "Tank WASH 2nd Hour or more                                       RM130/hr",
 				"orderLabel": "Hour (Tank WASH 2nd Hour or more)",
 				"description": "Label standard",
@@ -156,7 +156,7 @@
 			},
 			
 			"Tank Repair 1st Hr": {
-				"handle": "tank_repair_first_hour",
+				"handle": "tank_repair_first_hour_kl",
 				"label": "Tank REPAIR 1st Hour                                                RM160/hr",
 				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
 				"description": "Label standard",
@@ -176,7 +176,7 @@
 			},
 			
 			"Tank Repair 2nd Hr": {
-				"handle": "tank_repair_second_hour",
+				"handle": "tank_repair_second_hour_kl",
 				"label": "Tank REPAIR 2nd Hour or more                                           RM130/hr",
 				"orderLabel": "Hour (Tank REPAIR 2nd Hour or more)",
 				"description": "Label standard",
@@ -196,7 +196,7 @@
 			},
 						
 			"Tank Project": {
-				"handle": "tank_project",
+				"handle": "tank_project_kl",
 				"label": "Tank Project Confirmation                                           Per Quotation",
 				"orderLabel": "Job (Tank Project Confirmation)",
 				"description": "Label standard",
@@ -217,7 +217,7 @@
 			
 						
 			"Trouble Shoot": {
-				"handle": "trouble_shoot",
+				"handle": "trouble_shoot_kl",
 				"label": "Trouble Shoot                                                         RM70/job",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
