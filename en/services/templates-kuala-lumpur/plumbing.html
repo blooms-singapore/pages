@@ -41,11 +41,11 @@ layout: service
     <tbody>
       <tr>
         <td>1st Hour</td>
-        <td>105.0/Hr</td>
+        <td>${params.first_hour}/Hr</td>
       </tr>
       <tr>
-        <td>2nd Hour or more<br>(Standard Rate)</td>
-        <td>80.0/Hr</td>
+        <td>2nd Hour or more<br>(standard rate)</td>
+        <td>${params.second_hour}/Hr</td>
       </tr>
       
      <thead>
@@ -56,11 +56,10 @@ layout: service
     </thead>
     <tbody>
        <tr>
-        <td>Other Plumbing<br>Survey</td>
-        <td>30.0/Trip<br>Waive upon<br>award of Job</td>
+         <td>Other Plumbing<br>Survey</td>
+        <td>${params.plumbing_other_survey}/Trip<br>Waive upon<br>award of Job</td>
       </tr>
-      
-   
+
       <tr>
        <td>Other Plumbing<br>Confirmation</td>
         <td>Per Quotation</td>
@@ -74,32 +73,21 @@ layout: service
       </tr>
     </thead>
     <tbody>
-          
-      
-      <tr>
-        <td>Tank Issue<br>Survey</td>
-        <td>30.0/Trip</td>
-      </tr>
-      
-          
-      <tr>
-       <td>Tank Lumpsum<br>Repair</td>
-        <td>Per Quotation</td>
-       </tr>
-      
+         
       <tr>
         <td>Tank Wash</td>
-        <td>160.0/Hr</td>
+        <td>${params.tank_wash}/Hr</span></td>
       </tr>
-     
 
       <tr>
         <td>Tank Repair</td>
-        <td>160.0/Hr</td>
+        <td>${params.tank_repair}/Hr</td>
       </tr>
 
-         
-   
+       <tr>
+       <td>Tank Project<br>Confirmation</td>
+        <td>Per Quotation</td>
+        </tr>
    </tbody>
 
    <thead>
@@ -114,10 +102,14 @@ layout: service
         <td>Charge in<br>30-min blocks</td>
       </tr>
       
-    
+      <tr>
+       <td>Trouble<br>Shoot</td>
+        <td>${params.trouble_shoot}/Job</td>
+      </tr>
+      
        <tr>
-       <td>Material Picking<br>Fee (Optional)</td>
-        <td>55.0/Trip</td>
+       <td>Material<br>Picking Fee<br>(optional)</td>
+        <td>45.0/Trip</td>
       </tr>
       
       <tr>
@@ -130,6 +122,7 @@ layout: service
     Prices subject to change without prior notice
   </div>
 </div>
+
 
 
 
