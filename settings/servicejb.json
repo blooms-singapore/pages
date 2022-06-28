@@ -97,7 +97,7 @@
 			
 		
 			
-			"Tank Wash 1st Hr": {
+			"Tank Wash": {
 				"handle": "tank_wash",
 				"label": "Tank WASH                                                      RM130/hr",
 				"orderLabel": "Hour (Tank WASH)",
@@ -121,8 +121,8 @@
 			
 			"Tank Repair": {
 				"handle": "tank_repair",
-				"label": "Tank REPAIR 1st Hour                                                RM130/hr",
-				"orderLabel": "Hour (Tank REPAIR 1st Hour)",
+				"label": "Tank REPAIR                                               RM130/hr",
+				"orderLabel": "Hour (Tank REPAIR)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
