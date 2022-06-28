@@ -95,7 +95,7 @@
 			
 		
 			
-			"Tank Wash 1st Hr": {
+			"Tank Wash": {
 				"handle": "tank_wash",
 				"label": "Tank WASH                                                      RM140/hr",
 				"orderLabel": "Hour (Tank WASH)",
