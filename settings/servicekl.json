@@ -41,7 +41,9 @@
 				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
+					"SGD": "55",
 					"MYR": "80",
+					"CNY": "0"
 					},
 				"quantity": {
 					"label": "Hour",
