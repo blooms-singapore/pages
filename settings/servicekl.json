@@ -231,7 +231,7 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -399,7 +399,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "140",
