@@ -643,7 +643,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "95",
