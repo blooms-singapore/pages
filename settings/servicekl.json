@@ -410,7 +410,7 @@
 				
 			
 			"Standard Wash": {
-				"handle": "aircon_standard_hour_kl",
+				"handle": "aircon_standard_hour",
 				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM140/hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1Hr)",
 				"description": "Label standard",
@@ -432,7 +432,7 @@
 			
 			
 			"Chemical Overhaul": {
-				"handle": "aircon_chemical_wash_kl",
+				"handle": "aircon_chemical_wash",
 				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR140/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
 				"description": "Label standard",
@@ -453,7 +453,7 @@
 			
 			
 			"Compressor Wash": {
-				"handle": "aircon_compressor_wash_kl",
+				"handle": "aircon_compressor_wash",
 				"label": "Compressor Wash                                                  RM140/hr",
 				"orderLabel": "Hour (Compressor Wash)",
 				"description": "Label standard",
@@ -474,7 +474,7 @@
 			
 									
 			"Cassette Chemical Overhaul": {
-				"handle": "aircon_cassette_kl",
+				"handle": "aircon_cassette",
 				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM200/hr",
 				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5Hrs)",
 				"description": "Label standard",
@@ -495,7 +495,7 @@
 			
 			
 			"AC Survey": {				
-				"handle": "aircon_survey_kl",
+				"handle": "aircon_survey",
 				"label": "Aircon Survey                                                    RM30/trip",
 				"orderLabel": "Trip (Aircon Survey)",
 				"description": "Label standard",
@@ -515,7 +515,7 @@
 			},
 			
 			"AC Water Leak": {
-				"handle": "aircon_water_leak_kl",
+				"handle": "aircon_water_leak",
 				"label": "Water Leak - Minimum Booking 1Hr                                          RM140/hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
@@ -535,7 +535,7 @@
 			},
 			
 			"AC Trouble Shoot": {
-				"handle": "aircon_trouble_shoot_kl",
+				"handle": "aircon_trouble_shoot",
 				"label": "Aircon Trouble-Shoot                                                  RM00/job",
 				"orderLabel": "Job (Aircon Trouble-Shoot)",
 				"description": "Label standard",
@@ -555,7 +555,7 @@
 			},
 			
 			"AC Repair Project Confirmation": {
-				"handle": "aircon_repair_project_confirmation_kl",
+				"handle": "aircon_repair_project_confirmation",
 				"label": "Aircon Repair Project Confirmation                                            Per Quotation",
 				"orderLabel": "Job (Aircon Repair Project Confirmation)",
 				"description": "Label standard",
@@ -576,7 +576,7 @@
 			
 			
 			"AC Install": {
-				"handle": "aircon_install_kl",
+				"handle": "aircon_install",
 				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM100/hr",
 				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5Hrs)",
 				"description": "Label standard",
