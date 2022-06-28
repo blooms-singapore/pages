@@ -2281,7 +2281,7 @@
 			
 			"Home Security Survey": {
 				"handle": "home_security_survey",
-				"label": "Survey",
+				"label": "Survey                                                                   RM30/Trip",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2323,12 +2323,12 @@
 					
 			"CCTV Trouble Shoot": {
 				"handle": "home_security_trouble_shoot",
-				"label": "Trouble Shoot",
+				"label": "Trouble Shoot                                                            RM50/Trip",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "220",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2615,10 +2615,33 @@
 		},
 		"hasNote": 1,
 		"options": {
+			
+				
+			"Large House Survey": {
+				"handle": "house_diagnosis_survey",
+				"label": "Diagnosis Survey                                                    RM50/Trip",
+				"orderLabel": "Trip (Diagnosis Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			
 			"House Diagnosis Landed House": {
-				"handle": "house_diagnosis_standard_house",
-				"label": "Standard Landed House",
-				"orderLabel": "Project (Standard Landed House)",
+				"handle": "house_diagnosis_landed_house",
+				"label": "Diagnosis - Landed House                                                            RM1388",
+				"orderLabel": "Project (Diagnosis - Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2634,30 +2657,11 @@
 					"base": 1
 				}
 			 },
-			
-			"Large House Survey": {
-				"handle": "house_diagnosis_survey",
-				"label": "Survey - Large House",
-				"orderLabel": "Job (Survey - Large House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
+		
 			
 			"House Diagnosis Condo": {
 				"handle": "house_diagnosis_condo",
-				"label": "Condominium",
+				"label": "Diagnosis - Condominium                                                      RM558",
 				"orderLabel": "Project (Condominium)",
 				"description": "Label standard",
 				"cost": {
@@ -2727,7 +2731,7 @@
 			"Survey": {
 				"handle": "locksmith_survey",
 				"label": "Lock Work Survey",
-				"orderLabel": "Trip (Lock Work Survey)",
+				"orderLabel": "Trip (Lock Work Survey                                          RM30/Trip)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2767,7 +2771,7 @@
 			
 			"unlock-morning": {
 				"handle": "unlock_morning",
-				"label": "Room Door Unlock (10am to 6pm)                                      RM60 - 100",
+				"label": "Room Door Unlock (10am to 6pm)                                       RM60 - 100",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
@@ -2857,7 +2861,7 @@
 			
 			"National Car Key Copy": {
 				"handle": "national_car_key_copy",
-				"label": "Proton/Perodua Key Copy                                       From MYR120",
+				"label": "Proton/Perodua Key Copy                                       From RM120",
 				"orderLabel": "Unit (Proton/Perodua Key Copy)",
 				"description": "Label standard",
 				"cost": {
@@ -2877,7 +2881,7 @@
 			
 			"Digital Lock": {
 				"handle": "digital_lock",
-				"label": "EZope Smart Lock Install                                       MYR1399/Unit",
+				"label": "EZope Smart Lock Install                                       RM1399/Unit",
 				"orderLabel": "Unit (EZope Smart Lock Install)",
 				"description": "Label standard",
 				"cost": {
@@ -3304,7 +3308,7 @@
 						
 			"Transport": {
 				"handle": "door_transport",
-				"label": "Transport",
+				"label": "Transport                                                      RM20",
 				"orderLabel": "Trip (Transport)",
 				"description": "Label standard",
 				"cost": {
