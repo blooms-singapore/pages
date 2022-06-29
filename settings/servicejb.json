@@ -1173,10 +1173,10 @@
 				}
 			},
 			
-			"AC Repair Project Confirmation": {
-				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Repair Project Confirmation                                            Per Quotation",
-				"orderLabel": "Job (Aircon Repair Project Confirmation)",
+			"AC Lumpsum WorksConfirmation": {
+				"handle": "aircon_lumpsum_works_confirmation",
+				"label": "Aircon Lumpsum Works Confirmation                                            Per Quotation",
+				"orderLabel": "Job (Aircon Lumpsum Works Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
