@@ -1,12 +1,12 @@
 {	
 	
-		"aircon": {
+	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
-		"disableLocations": ["Seremban"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "130",
+			"MYR": "140",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -15,12 +15,12 @@
 			
 			"Standard Wash": {
 				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM130/hr",
+				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM140/hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -37,12 +37,12 @@
 			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR130/hr",
+				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR140/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -58,12 +58,12 @@
 			
 		"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
-				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM200/hr",
+				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM210/hr",
 				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5Hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "200",
+					"MYR": "210",
 					"CNY": "310"
 				},
 				"quantity": {
@@ -79,12 +79,12 @@
 			
 		"Compressor Service & Wash": {
 				"handle": "aircon_compressor_service",
-				"label": "Aircon Compressor Service + Wash                                                  RM130/hr",
+				"label": "Aircon Compressor Service + Wash                                                  RM140/hr",
 				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -103,12 +103,12 @@
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "AC Survey                                                    RM20/trip",
+				"label": "AC Survey                                                    RM30/trip",
 				"orderLabel": "Trip (AC Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -124,12 +124,12 @@
 			
 			"AC Fault Trouble Shoot": {
 				"handle": "aircon_fault_trouble_shoot",
-				"label": "AC Fault Trouble-Shoot                                                  RM50/trip",
+				"label": "AC Fault Trouble-Shoot                                                  RM60/trip",
 				"orderLabel": "Job (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "60",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -144,12 +144,12 @@
 			
 			"AC Leak": {
 				"handle": "aircon_leak",
-				"label": "AC Leak - Min 1Hr                                        RM130/hr",
+				"label": "AC Leak - Min 1Hr                                        RM140/hr",
 				"orderLabel": "Hour (AC Leak - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -186,12 +186,12 @@
 			
 			"AC Install": {
 				"handle": "aircon_install",
-				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM100/hr",
+				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM110/hr",
 				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5Hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "100",
+					"MYR": "110",
 					"CNY": "260"
 				},
 				"quantity": {
