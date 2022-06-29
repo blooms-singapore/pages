@@ -103,7 +103,7 @@
 			
 			"AC Fault Trouble Shoot": {
 				"handle": "aircon_fault_trouble_shoot",
-				"label": "AC Fault Trouble-Shoot                                                  RM60/trip",
+				"label": "AC Fault Trouble-Shoot                                                  RM60/job",
 				"orderLabel": "Job (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
