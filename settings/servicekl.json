@@ -1050,7 +1050,7 @@
 			
 			"Project Survey": {
 				"handle": "cleaning_project_survey",
-				"label": "Specialise Cleaning Project Survey                                                        RM30/Survey",
+				"label": "Specialise Cleaning Project Survey                                                        RM30/survey",
 				"displayLabel": "Specialise Cleaning Project Survey",
 				"orderLabel": "Survey (Specialise Cleaning Project Survey)",
 				"description": "Label standard",
@@ -1351,12 +1351,12 @@
 		"options": {
 			"Survey": {
 				"handle" : "painting_survey",
-				"label": "Painting Survey                                                     RM20/Trip",
+				"label": "Painting Survey                                                     RM30/trip",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
 					"SGD": "10",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1439,8 +1439,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium or HDB",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1455,6 +1455,7 @@
 
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1489,7 +1490,7 @@
 						
 			"Renovation Project Survey": {
 				"handle": "others_project_survey",
-				"label": "Retrofit or Renovation Project Survey                                                        RM30/Trip",
+				"label": "Retrofit or Renovation Project Survey                                                        RM30/trip",
 				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1534,8 +1535,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1549,164 +1550,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-				
-	
-	
-	
-	
-		
-	"door-window": {
-		"name": "Door & Window",
-		"lastSlot": "16:00",
-		"disableLocations": ["Johor Bahru", "Nilai - Coming Soon"],
-		"startPrice": {
-			"SGD": "55",
-			"MYR": "20",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-						
-			"Transport": {
-				"handle": "door_transport",
-				"label": "Transport                                                      RM20",
-				"orderLabel": "Trip (Transport)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			"Survey": {
-				"handle": "door_window_survey",
-				"label": "Door or Window Survey",
-				"orderLabel": "Trip (Door / Window Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			 },
-			
-			
-			"Service Work 1st Hr": {
-				"handle": "door_service_work_1st_hour",
-				"label": "Service Work 1st Hour",
-				"orderLabel": "Hour (Service Work 1st Hour)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "55",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			 },
-			
-			"Service Work 2nd Hr": {
-				"handle": "door_service_work_2nd_hour",
-				"label": "Service Work 2nd Hour or more",
-				"orderLabel": "Hour (Service Work 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			 },			
-			
-						
-			"Emergency": {
-				"handle": "door_emergency",
-				"label": "Emergency Booking",
-				"orderLabel": "Trip (Emergency Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "100",
-					"MYR": "150",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
