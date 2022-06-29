@@ -190,8 +190,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -411,8 +411,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -426,6 +426,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -452,7 +453,7 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -587,8 +588,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -602,6 +603,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -620,7 +622,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "15:00",
-		"disableLocations": ["Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "95",
@@ -631,12 +633,12 @@
 			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
-				"label": "Electrical Survey                                                    RM20/Trip",
+				"label": "Electrical Survey                                                    RM20/trip",
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -653,12 +655,12 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Residential Minor Electrical Work                                                      RM95/hr",
-				"orderLabel": "Hour (Residential Minor Electrical Work)",
+				"label": "Residential Minor Electrical Work - Min 1hr                                                      RM115/hr",
+				"orderLabel": "Hour (Residential Minor Electrical Work - Min 1hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "65",
-					"MYR": "95",
+					"MYR": "115",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -673,8 +675,8 @@
 			
 			"Electrical project Confirmation": {
 				"handle": "major_electrical",
-				"label": "Electrical Project Confirmation                                               Per Quotation",
-				"orderLabel": "Job (Electrical Project Confirmation)",
+				"label": "Electrical Lumpsum Work Confirmation                                               Per Quotation",
+				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -694,12 +696,12 @@
 			
 			"Electrical Trouble Shoot": {
 				"handle": "electrical_troubleshoot",
-				"label": "Electrical Trouble Shoot                                                     RM60/Trip",
+				"label": "Electrical Trouble Shoot                                                     RM70/trip",
 				"orderLabel": "Trip (Electrical Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "70",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -713,13 +715,13 @@
 			},
 				
 			"Emergency": {
-				"handle": "emergency",
-				"label": "Emergency Booking                                                          RM80/Trip",
-				"orderLabel": "Trip (Emergency Booking)",
+				"handle": "electrical_emergency",
+				"label": "Electrical Emergency                                                             RM100/trip",
+				"orderLabel": "Trip (Electrical Emergency)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "80",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"cost_max": {
@@ -744,8 +746,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -759,6 +761,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1140,8 +1143,8 @@
 					
 														
 					"Blooms tools": {
-						"label": "Blooms provides (+ RM30)",
-						"orderLabel": "Blooms provides (+ RM30)",
+						"label": "Blooms provides +RM30",
+						"orderLabel": "Blooms provides +RM30",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1168,21 +1171,21 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "55",
-			"MYR": "80",
+			"MYR": "105",
 			"CNY": "150"
 		},
-		"disableLocations": ["Seremban"],
+		"disableLocations": [],
 		"hasNote": 1,
 		"options": {
 			
 			"Std 1st": {
 				"handle": "std_first",
-				"label": "Standard Install 1st Hour                                                          RM80/hr",
+				"label": "Standard Install 1st Hour                                                          RM105/hr",
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "80",
+					"MYR": "105",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1194,14 +1197,15 @@
 					"base": 60
 				}
 			},
-			"Std 2nd": {
+			
+		"Std 2nd": {
 				"handle": "std_second",
-				"label": "Standard Install 2nd Hour or more                                                          RM60/hr",
+				"label": "Standard Install 2nd Hour or more                                                          RM85/hr",
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "60",
+					"MYR": "85",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1213,52 +1217,55 @@
 					"base": 60
 				}
 			},
+			
             "Tech 1st": {
 				"handle": "tech_first",
-				"label": "Technical Install 1st Hour                                                          RM95/hr",
+				"label": "Technical Install 1st Hour                                                          RM115/hr",
 				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "65",
+					"MYR": "115",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+		"Tech 2nd": {
+				"handle": "tech_second",
+				"label": "Technical Install 2nd Hour or more                                                      RM95/hr",
+				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
 					"MYR": "95",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 60,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			"Tech 2nd": {
-				"handle": "tech_second",
-				"label": "Technical Install 2nd Hour or more                                                      RM70/hr",
-				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
 					"max": 0,
 					"increment": 30,
 					"default": 0,
 					"base": 60
 				}
 			},
-			"Site Survey": {
+			
+		"Installation Site Survey": {
 				"handle": "installation_site_survey",
-				"label": "Site Survey                                                      RM20/Trip",
-				"orderLabel": "Trip (Site Survey)",
+				"label": "Installation Site Survey                                                      RM30/trip",
+				"orderLabel": "Trip (Installation Site Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1270,10 +1277,11 @@
 					"base": 60
 				}
 			},
-			"Project": {
+			
+		"Installation Lumpsum Work": {
 				"handle": "project",
-				"label": "Installation Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Installation Project Confirmation)",
+				"label": "Installation Lumpsum Work Confirmation                                                           Per Quotation",
+				"orderLabel": "Job (Installation Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1297,8 +1305,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"Label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1312,6 +1320,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
