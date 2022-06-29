@@ -26,10 +26,10 @@
 				},
 				"quantity": {
 					"label": "Hours",
-					"min": 0,
+					"min": 90,
 					"max": 0,
 					"increment": 30,
-					"default": 90,
+					"default": 0,
 					"base": 60
 				}
 			},
