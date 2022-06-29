@@ -866,34 +866,14 @@
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1.5,
-					"increment": 1.5,
-					"default": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
 					"base": 1
 				}
 			},
 			
-			
-			"Non-Waterproof 2nd Hour": {
-				"handle": "nonwaterproof_second_hour",
-				"label": "Non-Waterproof Tile Works - 2nd Hour or more                                                     RM100/hr",
-				"orderLabel": "Hour (Non-Waterproof Tile Works - 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "100",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-		
+				
 					
 			"Waterproof Empty House - 10ft2": {
 				"handle": "waterproof_empty_house_10ft2",
@@ -1458,7 +1438,7 @@
 			
 			
 			"Electrical Trouble Shoot": {
-				"handle": "electrical_troubleshoot",
+				"handle": "electrical_trouble_shoot",
 				"label": "Electrical Trouble Shoot                                                     RM60/trip",
 				"orderLabel": "Trip (Electrical Trouble Shoot)",
 				"description": "Label standard",
@@ -2858,19 +2838,7 @@
 		}
 	},
 	
-	
 		
-	
-	
-			
-			
-				
-					
-	
-						
-	
-	
-	
 	
 	
 	"disposal": {
