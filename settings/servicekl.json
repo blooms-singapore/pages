@@ -433,7 +433,7 @@
 			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR140/hr",
+				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                RM140/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -452,10 +452,10 @@
 			},
 			
 			
-			"Compressor Wash": {
+			"Compressor Service & Wash": {
 				"handle": "aircon_compressor_wash",
-				"label": "Compressor Wash                                                  RM140/hr",
-				"orderLabel": "Hour (Compressor Wash)",
+				"label": "Aircon Compressor Service + Wash                                                  RM140/hr",
+				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
