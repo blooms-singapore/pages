@@ -811,30 +811,12 @@
 				}
 			},
 			
-			"Tiling Quote Discussion": {
-				"handle": "tiling_quote_discussion",
-				"label": "Quote Discussion                                                      Free",
-				"orderLabel": "Job (Quote Discussion)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
+		
 
           		"Tiling Project": {
 				"handle": "tiling_project",
-				"label": "Lumpsum Project Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Lumpsum Project Confirmation)",
+				"label": "Tiling Lumpsum Work Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -853,10 +835,10 @@
 			
 			
 			
-			"Non-Waterproof Min 1.5hrs": {
+			"Tiling Non-Waterproof": {
 				"handle": "nonwaterproof_min_order",
-				"label": "Non-Waterproof Tile Works - Min 1.5Hrs                                                 RM140/hr",
-				"orderLabel": "Hour (Non-Waterproof Tile Works - Min 1.5Hrs)",
+				"label": "Tile Non-Waterproof Works - Min 1.5hrs                                                 RM140/hr",
+				"orderLabel": "Hour (Tile Non-Waterproof Works - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -875,10 +857,10 @@
 			
 				
 					
-			"Waterproof Empty House - 10ft2": {
+			"Tiling Waterproof Empty House - 10ft2": {
 				"handle": "waterproof_empty_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 10ft2 Increment                                                    RM35/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Empty House - In 10ft2)",
+				"label": "Tile Waterproof Work - Empty House - 10ft2 Increments                                                    RM35/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -897,8 +879,8 @@
 			
 			"Waterproof Empty House - 1ft2": {
 				"handle": "waterproof_empty_house_1ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Empty House - 1ft2 Increment                                              RM35/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customer Supplies Tiles - Empty House - In 1ft2)",
+				"label": "Tile Waterproof Work - Empty House - 1ft2 Increment                                              RM35/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -919,8 +901,8 @@
 					
 			"Waterproof Occupied House - 10ft2": {
 				"handle": "waterproof_occupied_house_10ft2",
-				"label": "Waterproof Work - Customers Supply Tiles - Occupied House - 10ft2 Increment                                             RM40/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 10ft2)",
+				"label": "Tile Waterproof Work - Occupied House - 10ft2 Increments                                                     RM40/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -939,8 +921,8 @@
 			
 			"Waterproof Occupied House - 1ft2": {
 				"handle": "waterproof_occupied_house_1ft2",
-				"label": "Waterproof Work - Customer Supplies Tiles - Occupied House - 1ft2 Increment                                              RM40/ft2",
-				"orderLabel": "ft2 (Waterproof Work - Customers Supply Tiles - Occupied House - In 1ft2)",
+				"label": "Tile Waterproof Work - Occupied House - 1ft2 Increment                                                   RM40/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -953,6 +935,28 @@
 					"max": 9,
 					"increment": 1,
 					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+			
+			
+		"Tiling Dust Protection": {
+				"handle": "tiling_dust_protection",
+				"label": "Tile Dust Protection Survey                                                   RM30/trip",
+				"orderLabel": "Trip (Tile Dust Protection Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "30",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
 					"base": 1,
 					"Multiplier": 1
 				}
