@@ -7,7 +7,7 @@ layout: service
 <div class="gap">
 <div class="service-info">
 <h5 class="service-title">SERVICE LOCATIONS</h5>
-<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/kl-cmg.png">
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/kl.png">
 </div>
 </div>
 
@@ -20,22 +20,13 @@ layout: service
 </div>
 </div>
 
-<div class="divider"></div>
-<div class="gap">
-<div class="service-info">
-<div class="pricing">
-<table style="width:100%">
-<h5 class="service-title">AC BOOKING VIDEO</h5>
-<table> 
- <tr>
-  <th><a class="btn" href="https://youtu.be/F8hZxG-1E4w">English</a></th>
-  <th><a class="btn" href="https://youtu.be/LrVpsKLZMcs">Mandarin</a></th>
-</tr>
-</table>
+<!--embedded video, style @ service.scss-->
+<div class = "iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o_b5_PtPV8A" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-</div>
-</div>
-
+<br>
+                                                                          
 
 <div class="divider"></div>
 <div class="gap">
@@ -47,10 +38,10 @@ layout: service
     
     <!--Standard Wash-->
     <thead>
-       <tr>
+      <tr>
         <th><b>Wall-Mount<br>Standard Wash</b></th>
         <th><b>Pricing (${params.currency})
-         <br>${params.aircon_standard_hour}/hr</b></th>
+         <br>${params.aircon_standard_hour}/Hr</b></th>
       </tr>
     </thead>
     <tbody>
@@ -62,67 +53,62 @@ layout: service
         <td><b>Standard Condo<br>& Landed House</b>
         <br><br>Wash 2 to 3 units</td>
         <td>${params.aircon_standard_hour}
-        <p>Book 1.0hr</td>
+        <p>Book 1hr</td>
       </tr>
       
       <tr>
         <td>Wash 4 to 5 units</td>
         <td>${(params.aircon_standard_hour * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal-->
-       <p>Book 1.5hrs</td>
+       <p>Book 2.0hrs</td>
       </tr>
       
       <tr>
         <td>Wash 6 units</td>
         <td>${(params.aircon_standard_hour * 2).toFixed(1)}
-        <p>Book 2.0hrs</td>
+        <p>Book 2.5hrs</td>
       </tr>
        <tr>
         <td>Wash 7 to 8 units</td>
         <td>${(params.aircon_standard_hour * 2.5).toFixed(1)}
-        <p>Book 2.5hrs</td>
+        <p>Book 3.0hrs</td>
       </tr>
-      </tbody>
+     </tbody>
     
     <!--Chemical Overhaul-->
     <thead>
       <tr>
         <th><b>Wall-Mount<br>Chemical Overhaul</b></th>
         <th><b>Pricing (${params.currency})
-         <br>${params.aircon_chemical_wash}/hr</b></th>
+         <br>${params.aircon_chemical_wash}/Hr</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Overhaul 1 unit</td>
-        <td>${(params.aircon_chemical_wash * 1.5).toFixed(1)}
-          <p>Up to 1.5hrs</td>
+        <td>${(params.aircon_standard_hour * 1.5).toFixed(1)}
+          <br>Up to 1.5hrs</td>
       </tr>
       <tr>
         <td>Overhaul 2 units</td>
-        <td>${(params.aircon_chemical_wash * 2).toFixed(1)}
-        <p>Up to 2.0hrs</td>
+        <td>${(params.aircon_chemical_wash * 2.5).toFixed(1)}
+        <p>Up to 2.5hrs</td>
       </tr>
       <tr>
         <td>Overhaul 3 units</td>
-        <td>${(params.aircon_chemical_wash * 3.0).toFixed(1)}
-        <p>Up to 3.0Hrs</td>
+        <td>${(params.aircon_chemical_wash * 3.5).toFixed(1)}
+        <p>Up to 3.5hrs</td>
       </tr>
       <tr>
         <td>Overhaul 4 units</td>
-        <td>${(params.aircon_chemical_wash * 4.0).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
-        <p>Up to 4.0hrs</td>
-      </tr>
-      <tr>
-      <tr>
-        <td>Coolant Gas<br>Top-Up
-       <td>80.0 to 100.0/unit<br><b>Scroll below<br>for more info</b></td>
+        <td>${(params.aircon_chemical_wash * 4.5).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
+        <p>Up to 4.5hrs</td>
       </tr>
     </tbody>
     
     <!--Cassette-->
     <thead>
       <tr>
-        <th><b>Cassette Type</b></th>
+        <th><b>Cassette Chemical<br>Overhaul</b></th>
         <th><b>Pricing (${params.currency})
          <br>${params.aircon_cassette}/Hr</b></th>
       </tr>
@@ -130,27 +116,41 @@ layout: service
     <tbody>
       <tr>
       <td>Overhaul 1 unit</td>
-      <td>363.0 to 484.0
-       <br>1.5 to 2.0hrs
-       <br><b>FAQ 9 for<br>more info</b></td>
+      <td>${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}
+       <br>1.5 - 2hrs</td>
+      </tr>
+      
+     <tr>
+      <td>Overhaul 2 units</td>
+      <td>${(params.aircon_cassette * 3.0).toFixed(1)} to ${(params.aircon_cassette * 3.5).toFixed(1)}
+       <br>3.5 - 4.0hrs</td>
       </tr>
      
      <tr>
-      <td>Overhaul 2 units</td>
-      <td>726.0 to 847.0
-       <br>3.0 to 3.5hrs</td>
+      <td>Overhaul 3 units</td>
+      <td>${(params.aircon_cassette * 4.0).toFixed(1)} to ${(params.aircon_cassette * 4.5).toFixed(1)}
+       <br>4.5 - 5.0hrs</td>
       </tr>
      
+         
+     <!--Compressor Service + Wash-->
+     <thead>
       <tr>
-      <td>Overhaul 3 units</td>
-      <td>1089.0 to 1331.0
-       <br>4.5 to 5.5hrs</td>
+        <th><b>Outdoor Aircon<br>Compressor</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
       </tr>
-    
+    </thead>
+    <tbody>
+      
       <tr>
-        <td>Coolant Gas<br>Top-Up
-        <td>80.0 to 100.0/unit<br><b>Scroll below<br>for more info</b></td>
+      <td>Service + Wash</td>
+       <td>${params.aircon_compressor_service}/hr<br>Min 0.5hr</td>
       </tr>
+         
+     <tr>
+      <td>Coolant Gas<br>Top-Up
+      <td>80.0 to 100.0/unit<br><b>Scroll below<br>for more info</b></td>
+      </tr>             
      
      <!--Aircon Fault-->
      <thead>
@@ -173,8 +173,8 @@ layout: service
       </tr>    
       
       <tr>
-      <td>Aircon Leak<br>More info @<br>After Service<br>Commitment</td>
-      <td>${params.aircon_leak}/Hr</td>
+      <td>Aircon Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
+      <td>${params.aircon_leak}/hr</td>
       </tr>
        
       <tr>
@@ -184,31 +184,30 @@ layout: service
      
      
      
-     <!--Installation-->
+      <!--Installation-->
      <thead>
       <tr>
         <th><b>Wall-Mount AC<br>Installation</b></th>
-        <th><b>Pricing (${params.currency})<br>120.0/Hr</b></th>
+       <th><b>Pricing (${params.currency})<br>${params.aircon_install}/Hr</b></th>
       </tr>
     </thead>
     <tbody>
       
       <tr>
       <td>1.0 or 1.5 hp</td>
-       <td>300.0<br>Book 2.5hrs</b></td>
+       <td>${(params.aircon_install * 2.5).toFixed(1)}<br>Book 2.5hrs</td>
       </tr>
          
        <tr>
         <td>2.0 hp</td>
-        <td>360.0<br>Book 3.0hrs</b></td>
+        <td>${(params.aircon_install * 3.0).toFixed(1)}<br>Book 3hrs</td>
       </tr>
 
       <tr>
         <td>2.5 hp</td>
-        <td>420.0<br>Book 3.5hrs</b></td>
+        <td>${(params.aircon_install * 3.5).toFixed(1)}<br>Book 3.5hrs</td>
       </tr>
-                 
-   
+         
     
      <!-- Miscellaneous Charges-->
      <thead>
@@ -219,27 +218,29 @@ layout: service
     </thead>
     <tbody>
       <tr>
-        <td>Service Extension</td>
+        <td>Service<br>Extension</td>
         <td>Charge in<br>30-min blocks</td>
       </tr>
       <tr>
-       <td>Condo Surcharge</td>
+       <td>Condo<br>Surcharge</td>
        <td>10.0</td>
       </tr>
-   </tbody>
-   </table>
+    </tbody>
+    </table>
   <div class="fineprint">
     Prices subject to change without prior notice
   </div>
 </div>
-
+ 
+ 
+ 
 
 <div class="divider"></div>
 <div class="gap">
   <div class="service-info">
-    <h5 class="service-title">Service Info</h5>
+    <h5 class="service-title">SERVICE INFO</h5>
     <p><b>Minimum booking is 1hr.</b> Same hourly rated price regardless of Aircon unit sizes.
-    <br>Aircon repair/relocation/installation prices to be quoted after site survey. Upon confirmation of job, survey fee (if applicable) will be waived.</p>
+    <br><br>Aircon repair/relocation/installation prices to be quoted after site survey. Upon confirmation of job, survey fee (if applicable) will be waived.</p>
     
       <h6 class="service-title">Standard Wash Scope</h6>
     <p>
@@ -256,48 +257,32 @@ layout: service
     </ul></p>
   
     <h6 class="service-title">Chemical Overhaul</h6>
-  <p>Thorough wash of internal parts of AC fancoil units. Requires the dismantling of the unit from the wall, components taken apart.
+ <p>Thorough wash of internal parts of AC fancoil units. Requires the dismantling of the unit from the wall, components taken apart.
+<br><br>It does not include outdoor compressor units.
 <br><br>Stronger chemcials are used to dissolved the slime and kill potential dust mite in the aluminium exchangers. Takes about 1 hour to overhaul 1 unit.</p>
- 
-   <h6 class="service-title">Wall-Mount AC Installation</h6>
- <p><b>Scope</b>:
-  <ul>
-   <li>Copper piping, outgoing & incoming wiring, PVC drain pipe and insulation up to 10ft,</li>
-   <li>Outdoor bracket,</li>
-   <li>Coolant Gas up to 20PSI,</li>
-   <li>18-month workmanship warranty.</li>
- </ul></p>
-
- <p><b>Exclude:</b>
- <ul>
-  <li>Dismantling work,</li>
-  <li>Hacking, trunking and electrical work,</li>
-  <li>AC high Amp Switch,</li>
-  <li>Sky lift (if required),</li>
-  <li>Relocation of power point,</li>
-  <li>Installation work on weekends or public holidays.</li>
- </ul></p>
 </div>
 </div>
 
 <div class="divider"></div>
 <div class="gap">
   <div class="service-info">
-    <h5 class="service-title">Other Charges and Booking Info</h5>
+    <h5 class="service-title">OTHER CHARGES</h5>
     <h6 class="service-title">Gas Top Up</h6>
     <p>There are 3 types of refrigerant coolant gases and charges are as follows:
    <ul>
        <li>R22 <strong>@ RM80</strong></li>
        <li>R32 & R410 <strong>@ RM100</strong></li>
-    </ul></p>
+    </ul>
+   Customers are unable to choose the type of coolant gas, because each is designed for different Aircon Systems.</p>
 </div>
 </div>
+
 
 <!--Service Committment-->
 <div class="divider"></div>
 <div class="gap">
   <div class="service-info">
-  <h5>After Service Commitment</h5>
+  <h5>AFTER SERVICE COMMITMENT</h5>
   <h6 class="service-title">Water Leak or Faults</h6>
   <p>If your Order is to solve only Aircon water leak or any fault, Blooms charges a minimum 1 hour service, and our crew can work up to 2- 3 units, if time permits.
      <br><br>Should your Order is <b>not</b> for water leak or fault issues, but purely washes, please take note of following:
@@ -318,7 +303,7 @@ layout: service
   </ul></p>
  </div>
  </div>
-
+  
   
  <!--FAQs-->
 <div class="divider"></div>
@@ -342,15 +327,15 @@ layout: service
     <br><br>One fix hourly price - ${params.currency}${params.aircon_standard_hour}/Hr, regardless of Aircon sizes (horsepower) & Service types.
    <br><br>Customers can combine different tasks, and only pay for the total time use, such as:
      <ul>
-     <li>Standard Wash 2 units - 1 hour.</li>
-     <li>Chemical Wash 1 unit - 1.5 hours.</li>
+     <li>Standard Wash 2 units - 1+/- hour.</li>
+     <li>Chemical Overhaul 1 unit - 1.5+/- hours.</li>
      <li>Check and address water leak - additional time.</li>
-     <li>Total duration 2 hours 45 mins. Blooms charges 3.0 hours, ie. ${params.currency}300.
+     <li>If actual service duration is 2 hours 15 mins. Blooms charges 2.5 hours, ie. ${params.currency}300.
    </ul></p>
    </div>
    </div>
  
-  <input id="collapsible3" class="toggle" type="checkbox">
+   <input id="collapsible3" class="toggle" type="checkbox">
   <label for="collapsible3" class="lbl-toggle">Q3 I booked multiple Services, but the combined tasks take less time in actual. Will I be charged the Order amount?</label>
   <div class="collapsible-content">
   <div class="content-inner">
@@ -367,30 +352,33 @@ layout: service
    </div>
  
   <input id="collapsible5" class="toggle" type="checkbox">
-  <label for="collapsible5" class="lbl-toggle">Q5 What is the difference between Aircon Survey and Trouble-Shooting?</label>
+  <label for="collapsible5" class="lbl-toggle">Q5 How do I book a Chemical Overhaul?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Blooms charges by actual service time.
+   <br><br>For example if you need to overhaul 3 wall-mount units, it can take up to 4.0hrs, depending on the AC size and filth condition.
+   <br><br>Customers can book 4.0hrs and if the actual time used is 3.5hrs, Blooms will charge the lesser time.</p>
+   </div>
+   </div>
+ 
+  <input id="collapsible6" class="toggle" type="checkbox">
+  <label for="collapsible6" class="lbl-toggle">Q6 What is the difference between Aircon Survey and Trouble-Shooting?</label>
   <div class="collapsible-content">
   <div class="content-inner">
   <p>Aircon Survey is free of charge. Our crews are there to understand the requirements of customers, such as where to install/relocate the AC, or which AC to be dismantled etc. 
-   <br><br>Trouble-Shooting is chargeable at <b>SGD${params.aircon_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
+   <br><br>Trouble-Shooting is chargeable at <b>MYR${params.aircon_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
    <br><br>This fee will be waived if customers choose to proceed with the repair.</p>
    </div>
    </div>
 
-  <input id="collapsible6" class="toggle" type="checkbox">
-  <label for="collapsible6" class="lbl-toggle">Q6 I don't know which Service item to book?</label>
+  <input id="collapsible7" class="toggle" type="checkbox">
+  <label for="collapsible7" class="lbl-toggle">Q7 I don't know which Service item to book?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select Aircon Survey when in doubt. Upload photos and write your issues in our comment box.<br><br>Our Customer Care will follow up with you.</p>
    </div>
    </div>
    
-  <input id="collapsible7" class="toggle" type="checkbox">
-  <label for="collapsible7" class="lbl-toggle">Q7 What is the Start Price of MYR30?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>It is the minimum fee for booking an Aicron Service, which is a Survey.</p>
-   </div>
-   </div>
  
   <input id="collapsible8" class="toggle" type="checkbox">
   <label for="collapsible8" class="lbl-toggle">Q8 How does Blooms charge for time extensions?</label>
@@ -401,23 +389,24 @@ layout: service
    </div>
    </div>
  
- <input id="collapsible9" class="toggle" type="checkbox">
-  <label for="collapsible9" class="lbl-toggle">Q9 How to book Cassette Chemical Overhaul?</label>
+  <input id="collapsible9" class="toggle" type="checkbox">
+  <label for="collapsible9" class="lbl-toggle">Q9 Outdoor Compressor Wash, is it included in Chemical Overhaul Service?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Compressor Wash is not included.
+   <br><br>Service duration depends on assessibility and compressor size. 
+   <br><br>Minimum booking time is 1 hour and is an optional service. </p>
+   </div>
+   </div>
+ 
+  <input id="collapsible10" class="toggle" type="checkbox">
+  <label for="collapsible10" class="lbl-toggle">Q10 How to book Cassette Chemical Overhaul?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select any hours within the time range.
    <br><br>Cassette units have different sizes, installed at various heights. Therefore, we are unable to accurately determine the servicing duration.
    <br><br>Fees will be charged according to the actual time used and will not exceed the maximum hours.</p>
    </div>
-   </div>
- 
-  <input id="collapsible10" class="toggle" type="checkbox">
-  <label for="collapsible10" class="lbl-toggle">Q10 Does Blooms' crews collect new AC units for Customers?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>Customers must ensure that new or replacement AC unit is present at site on appointment date.
-   <br><br>We seek Customers' understanding that Blooms' crews do not perform AC collection duties.</p>
-   </div>e
    </div>
  
   <input id="collapsible11" class="toggle" type="checkbox">
@@ -456,11 +445,10 @@ layout: service
   </div>
   </div>
 
-         
+  
 <div class="divider"></div>
 <div class="gap">
-  <h5>Customer Care</h5>
- <p>${params.phone}</p>
- <p>60 12 609 1641</p>
- <p>${params.email}</p>
+  <h5>CUSTOMER CARE</h5>
+  <p>${params.phone}</p>
+  <p>${params.email}</p>
 </div>
