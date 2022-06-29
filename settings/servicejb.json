@@ -189,8 +189,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -204,6 +204,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -354,8 +355,8 @@
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "HDB or Condo",
-						"orderLabel": "HDB or Condo",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -588,8 +589,8 @@
 						},
 						
 					"condo": {
-						"label": "Distant Locations",
-						"orderLabel": "Distant Locations",
+						"label": "Distant Locations +RM20",
+						"orderLabel": "Distant Locations +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -622,7 +623,7 @@
 		"options": {
 			"Survey": {
 				"handle": "survey",
-				"label": "Survey                                                        RM30/Trip",
+				"label": "Survey                                                        RM30/trip",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -747,8 +748,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -762,6 +763,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -780,7 +782,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore","Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "210",
@@ -791,7 +793,7 @@
 						
 			"Tiling Survey": {
 				"handle": "tiling_survey",
-				"label": "Tiling Survey                                                              RM30/Trip",
+				"label": "Tiling Survey                                                              RM30/trip",
 				"orderLabel": "Trip (Tiling Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -984,7 +986,8 @@
 				"values": {
 					
 					"Standard Location": {
-						"label": "Standard Location",
+						"label": "Standard Locations",
+						"orderLabel": "Standard Locations",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -993,8 +996,8 @@
 					},
 					
 					"Distant Location": {
-						"label": "Distant Location",
-						"orderLabel": "Distant Location",
+						"label": "Distant Locations +RM20",
+						"orderLabel": "Distant Locations +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1002,7 +1005,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "30",
+							"MYR": "20",
 							"CNY": "10"
 						}
 					}
@@ -1052,7 +1055,7 @@
 			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR130/hr",
+				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                RM130/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -1226,8 +1229,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1268,7 +1271,7 @@
 	"roof": {
 		"name": "Roof",
 		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Nilai - coming soon"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -1279,7 +1282,7 @@
 			
 			"Residential Roof Survey": {
 				"handle": "residential_roof_survey",
-				"label": "Residential Roof Survey                                                    RM30/Trip",
+				"label": "Residential Roof Survey                                                    RM30/trip",
 				"orderLabel": "Trip (Residential Roof Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1299,7 +1302,7 @@
 			
 			"Commercial Roof Survey": {
 				"handle": "commercial_roof_survey",
-				"label": "Commercial Roof Survey                                                RM100/Trip",
+				"label": "Commercial Roof Survey                                                RM100/trip",
 				"orderLabel": "Trip (Commercial Roof Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1359,7 +1362,8 @@
 						}
 					},
 					"condo": {
-						"label": "Public Holidays",
+						"label": "Public Holidays +RM50",
+						"orderLabel": "Public Holidays +RM50",
 						"cost": {
 							"SGD": "0",
 							"MYR": "50",
@@ -1392,7 +1396,7 @@
 			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
-				"label": "Electrical Survey                                                    RM20/Trip",
+				"label": "Electrical Survey                                                    RM20/trip",
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1455,7 +1459,7 @@
 			
 			"Electrical Trouble Shoot": {
 				"handle": "electrical_troubleshoot",
-				"label": "Electrical Trouble Shoot                                                     RM60/Trip",
+				"label": "Electrical Trouble Shoot                                                     RM60/trip",
 				"orderLabel": "Trip (Electrical Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -1475,7 +1479,7 @@
 				
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                                                          RM80/Trip",
+				"label": "Emergency Booking                                                          RM80/trip",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -1505,8 +1509,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1520,6 +1524,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1831,7 +1836,7 @@
 			
 			"Project Survey": {
 				"handle": "cleaning_project_survey",
-				"label": "Specialise Cleaning Project Survey                                                        RM20/Survey",
+				"label": "Specialise Cleaning Project Survey                                                        RM20/survey",
 				"displayLabel": "Specialise Cleaning Project Survey",
 				"orderLabel": "Survey (Specialise Cleaning Project Survey)",
 				"description": "Label standard",
@@ -1969,8 +1974,8 @@
 					
 														
 					"Blooms tools": {
-						"label": "Blooms provides (+ RM30)",
-						"orderLabel": "Blooms provides (+ RM30)",
+						"label": "Blooms provides +RM30)",
+						"orderLabel": "Blooms provides +RM30)",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2082,7 +2087,7 @@
 			},
 			"Site Survey": {
 				"handle": "installation_site_survey",
-				"label": "Site Survey                                                      RM20/Trip",
+				"label": "Site Survey                                                      RM20/trip",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2126,8 +2131,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2141,6 +2146,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2160,7 +2166,7 @@
 	"home-security": {
 		"name": "Home Security",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -2171,8 +2177,8 @@
 			
 			"Home Security Survey": {
 				"handle": "home_security_survey",
-				"label": "Survey                                                                   RM30/Trip",
-				"orderLabel": "Trip (Survey)",
+				"label": "Home Security Survey                                                                   RM30/trip",
+				"orderLabel": "Trip (Home Security Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2192,8 +2198,8 @@
 			
 		"Project Confirmation": {
 				"handle": "home_security_project_confirmation",
-				"label": "Project Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Project Confirmation)",
+				"label": "Home Security Project Confirmation                                        Per Quotation",
+				"orderLabel": "Job (Home Security Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2213,7 +2219,7 @@
 					
 			"CCTV Trouble Shoot": {
 				"handle": "home_security_trouble_shoot",
-				"label": "Trouble Shoot                                                            RM50/Trip",
+				"label": "Trouble Shoot                                                            RM50/trip",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -2240,8 +2246,8 @@
 				"description": "Label standard",
 				"values": {
 					"landed": {
-						"label": "Landed",
-						"orderLabel": "Condo Surcharge",
+						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2254,7 +2260,8 @@
 						}
 					},
 					"condo": {
-						"label": "Condominium",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "10",
@@ -2272,7 +2279,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
 			"MYR": "180",
@@ -2282,7 +2289,7 @@
 		"options": {
 			"Survey": {
 				"handle" : "painting_survey",
-				"label": "Painting Survey                                                     RM20/Trip",
+				"label": "Painting Survey                                                     RM20/trip",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
@@ -2370,8 +2377,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium or HDB",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2386,6 +2393,7 @@
 
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2409,7 +2417,7 @@
 	"renovation": {
 		"name": "Retrofit & Renovation",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore","Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "30",
@@ -2420,7 +2428,7 @@
 						
 			"Renovation Project Survey": {
 				"handle": "others_project_survey",
-				"label": "Retrofit or Renovation Project Survey                                                        RM30/Trip",
+				"label": "Retrofit or Renovation Project Survey                                                        RM30/trip",
 				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -2465,8 +2473,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2480,6 +2488,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2497,7 +2506,7 @@
 	"house_diagnosis": {
 		"name": "House Diagnosis",
 		"lastSlot": "14:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "535",
@@ -2509,12 +2518,12 @@
 				
 			"Large House Survey": {
 				"handle": "house_diagnosis_survey",
-				"label": "Diagnosis Survey                                                    RM50/Trip",
+				"label": "Diagnosis Survey                                                    RM30/trip",
 				"orderLabel": "Trip (Diagnosis Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2576,8 +2585,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2591,6 +2600,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2621,7 +2631,7 @@
 			"Survey": {
 				"handle": "locksmith_survey",
 				"label": "Lock Work Survey",
-				"orderLabel": "Trip (Lock Work Survey                                          RM30/Trip)",
+				"orderLabel": "Trip (Lock Work Survey                                          RM30/trip)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2709,7 +2719,7 @@
 			},
 			"unlock-metal": {
 				"handle": "unlock_metal",
-				"label": "Metal Door Unlock                                          From RM85",
+				"label": "Metal Door Unlock                                          from RM85",
 				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
 				"cost": {
@@ -2731,7 +2741,7 @@
 			
 			"Premium Car Key Copy": {
 				"handle": "premium_car_key_copy",
-				"label": "Foreign Car Key Copy                                                 From RM260",
+				"label": "Foreign Car Key Copy                                                 from RM260",
 				"orderLabel": "Unit (Foreign Car Key Copy)",
 				"description": "Label standard",
 				"cost": {
@@ -2751,7 +2761,7 @@
 			
 			"National Car Key Copy": {
 				"handle": "national_car_key_copy",
-				"label": "Proton/Perodua Key Copy                                       From RM120",
+				"label": "Proton/Perodua Key Copy                                       from RM120",
 				"orderLabel": "Unit (Proton/Perodua Key Copy)",
 				"description": "Label standard",
 				"cost": {
@@ -2771,7 +2781,7 @@
 			
 			"Digital Lock": {
 				"handle": "digital_lock",
-				"label": "EZope Smart Lock Install                                       RM1399/Unit",
+				"label": "EZope Smart Lock Install                                       RM1399/unit",
 				"orderLabel": "Unit (EZope Smart Lock Install)",
 				"description": "Label standard",
 				"cost": {
@@ -2788,6 +2798,7 @@
 					"base": 60
 				}
 			},
+			
 			"Projects": {
 				"handle": "misc_projects",
 				"label":"Lock Projects                                              Per Quotation",
@@ -2815,8 +2826,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2830,6 +2841,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
