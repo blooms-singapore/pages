@@ -399,7 +399,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
-		"disableLocations": ["Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "140",
@@ -472,6 +472,29 @@
 				}
 			},
 			
+			"AC Water Leak": {
+				"handle": "aircon_water_leak",
+				"label": "Water Leak - Minimum Booking 1Hr                                          RM140/hr",
+				"orderLabel": "Hour (Water Leak)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "140",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
+			
+			
 									
 			"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
@@ -514,29 +537,11 @@
 				}
 			},
 			
-			"AC Water Leak": {
-				"handle": "aircon_water_leak",
-				"label": "Water Leak - Minimum Booking 1Hr                                          RM140/hr",
-				"orderLabel": "Hour (Water Leak)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "140",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
+			
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_trouble_shoot",
-				"label": "Aircon Trouble-Shoot                                                  RM00/job",
+				"label": "Aircon Trouble-Shoot                                                  RM60/job",
 				"orderLabel": "Job (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -554,10 +559,10 @@
 				}
 			},
 			
-			"AC Repair Project Confirmation": {
-				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Repair Project Confirmation                                            Per Quotation",
-				"orderLabel": "Job (Aircon Repair Project Confirmation)",
+			"AC Lumpsum Works Confirmation": {
+				"handle": "aircon_lumpsum_works_confirmation",
+				"label": "Aircon Lumpsum Works Confirmation                                            Per Quotation",
+				"orderLabel": "Job (Aircon Lumpsu Works Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -577,12 +582,12 @@
 			
 			"AC Install": {
 				"handle": "aircon_install",
-				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM100/hr",
+				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM110/hr",
 				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5Hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "100",
+					"MYR": "110",
 					"CNY": "260"
 				},
 				"quantity": {
