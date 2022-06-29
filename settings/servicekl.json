@@ -467,7 +467,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 60,
+					"default": 30,
 					"base": 60
 				}
 			},
