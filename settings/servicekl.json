@@ -625,7 +625,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
-			"MYR": "95",
+			"MYR": "115",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -695,7 +695,7 @@
 			
 			
 			"Electrical Trouble Shoot": {
-				"handle": "electrical_troubleshoot",
+				"handle": "electrical_trouble_shoot",
 				"label": "Electrical Trouble Shoot                                                     RM70/trip",
 				"orderLabel": "Trip (Electrical Trouble Shoot)",
 				"description": "Label standard",
