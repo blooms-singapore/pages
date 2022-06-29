@@ -1071,10 +1071,10 @@
 			},
 			
 			
-			"Compressor Wash": {
+		"Compressor Service & Wash": {
 				"handle": "aircon_compressor_wash",
-				"label": "Compressor Wash                                                  RM130/hr",
-				"orderLabel": "Hour (Compressor Wash)",
+				"label": "Aircon Compressor Service + Wash                                                  RM130/hr",
+				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -1086,7 +1086,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 60,
+					"default": 30,
 					"base": 60
 				}
 			},
