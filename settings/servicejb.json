@@ -1217,67 +1217,6 @@
 					"default": 2.5,
 					"base": 1
 				}
-			},
-			
-												
-			"3Hr Package": {
-				"handle": "three_hour",
-				"label": "3-Hour Package                                         RM360",
-				"orderLabel": "PACKAGE (3Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "360",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"6Hr Package": {
-				"handle": "six_hour",
-				"label": "6-Hour Package                                             RM700",
-				"orderLabel": "PACKAGE (6Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "700",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"9Hr Package": {
-				"handle": "nine_hour",
-				"label": "9-Hour Package                                              RM1000",
-				"orderLabel": "PACKAGE (9Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "1000",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
 			}
 		},
 		
