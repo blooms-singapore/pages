@@ -127,7 +127,7 @@
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "HDB",
+						"label": "HDB Parking Surcharge +SGD5",
 						"orderLabel": "HDB Parking Surcharge",
 						"cost": {
 							"SGD": "0",
@@ -285,7 +285,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "HDB",
+						"label": "HDB Parking Surcharge +SGD5",
 						"orderLabel": "HDB Parking Surcharge",
 						"cost": {
 							"SGD": "5",
@@ -329,7 +329,7 @@
 			
 			"Std 1st": {
 				"handle": "std_first",
-				"label": "Standard Install 1st Hour",
+				"label": "Standard Install 1st Hour                                                   SGD55/hr",
 				"orderLabel": "Hour (Standard Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -348,7 +348,7 @@
 			},
 			"Std 2nd": {
 				"handle": "std_second",
-				"label": "Standard Install 2nd Hour or more",
+				"label": "Standard Install 2nd Hour or more                                                       SGD45/hr",
 				"orderLabel": "Hour (Std Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
@@ -367,7 +367,7 @@
 			},
             "Tech 1st": {
 				"handle": "tech_first",
-				"label": "Technical Install 1st Hour",
+				"label": "Technical Install 1st Hour                                                        SGD65/hr",
 				"orderLabel": "Hour (Tech Install 1st Hour)",
 				"description": "Label standard",
 				"cost": {
@@ -386,11 +386,11 @@
 			},
 			"Tech 2nd": {
 				"handle": "tech_second",
-				"label": "Technical Install 2nd Hour or more",
+				"label": "Technical Install 2nd Hour or more                                                        SGD55/hr",
 				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "55",
 					"MYR": "70",
 					"CNY": "0"
 				},
@@ -405,7 +405,7 @@
 			},
 			"Site Survey": {
 				"handle": "installation_site_survey",
-				"label": "Site Survey",
+				"label": "Site Survey                                                                        SGD10/trip",
 				"orderLabel": "Trip (Site Survey)",
 				"description": "Label standard",
 				"cost": {
