@@ -1394,12 +1394,12 @@
 			
 			"Hourly Service": {
 				"handle": "painting_hourly_service",
-				"label": "Hourly Painting - 1 Crew - Min 3Hrs                                                       RM60/hr",
+				"label": "Hourly Painting - 1 Crew - Min 3Hrs                                                       RM70/hr",
 				"orderLabel": "Hour (Hourly Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "70",
 					"CNY": "80"
 				},
 				"quantity": {
@@ -1414,12 +1414,12 @@
 									
 			"Paint Day": {
 				"handle": "painting_day",
-				"label": "Daily Painting - 1 Crew                                                   RM350/day",
+				"label": "Daily Painting - 1 Crew                                                   RM360/day",
 				"orderLabel": "Day (Daily Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
-					"MYR": "350",
+					"MYR": "360",
 					"CNY": "0"
 				},
 				"quantity": {
