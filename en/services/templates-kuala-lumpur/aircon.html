@@ -38,48 +38,13 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     
     <!--Standard Wash-->
     <thead>
-      <tr>
-        <th><b>Wall-Mount<br>Standard Wash</b></th>
-        <th><b>Pricing (${params.currency})
-         <br>${params.aircon_standard_hour}/Hr</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td><b>Very Small<br>Apartment</b><br>Studio or 1BR</td>
-        <td>Unavailable<br>Book under<br>Chemical Overhaul</td>
-      </tr>
-      <tr>
-        <td><b>Standard Condo<br>& Landed House</b>
-        <br><br>Wash 2 to 3 units</td>
-        <td>${params.aircon_standard_hour}
-        <p>Book 1hr</td>
-      </tr>
-      
-      <tr>
-        <td>Wash 4 to 5 units</td>
-        <td>${(params.aircon_standard_hour * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal-->
-       <p>Book 2.0hrs</td>
-      </tr>
-      
-      <tr>
-        <td>Wash 6 units</td>
-        <td>${(params.aircon_standard_hour * 2).toFixed(1)}
-        <p>Book 2.5hrs</td>
-      </tr>
-       <tr>
-        <td>Wash 7 to 8 units</td>
-        <td>${(params.aircon_standard_hour * 2.5).toFixed(1)}
-        <p>Book 3.0hrs</td>
-      </tr>
-     </tbody>
     
-    <!--Chemical Overhaul-->
+      <!--Chemical Overhaul-->
     <thead>
       <tr>
         <th><b>Wall-Mount<br>Chemical Overhaul</b></th>
         <th><b>Pricing (${params.currency})
-         <br>${params.aircon_chemical_wash}/Hr</b></th>
+         <br>${params.aircon_chemical_wash}/hr</b></th>
       </tr>
     </thead>
     <tbody>
@@ -90,18 +55,18 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
       <tr>
         <td>Overhaul 2 units</td>
-        <td>${(params.aircon_chemical_wash * 2.5).toFixed(1)}
-        <p>Up to 2.5hrs</td>
+        <td>${(params.aircon_chemical_wash * 3.0).toFixed(1)}
+        <p>Up to 3.0hrs</td>
       </tr>
       <tr>
         <td>Overhaul 3 units</td>
-        <td>${(params.aircon_chemical_wash * 3.5).toFixed(1)}
-        <p>Up to 3.5hrs</td>
+        <td>${(params.aircon_chemical_wash * 4.0).toFixed(1)}
+        <p>Up to 4.0hrs</td>
       </tr>
       <tr>
         <td>Overhaul 4 units</td>
-        <td>${(params.aircon_chemical_wash * 4.5).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
-        <p>Up to 4.5hrs</td>
+        <td>${(params.aircon_chemical_wash * 5.5).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
+        <p>Up to 5.5hrs</td>
       </tr>
     </tbody>
     
