@@ -128,7 +128,7 @@
 				"values": {
 					"HDB or Condo": {
 						"label": "HDB Parking Surcharge +SGD5",
-						"orderLabel": "HDB Parking Surcharge",
+						"orderLabel": "HDB Parking Surcharge +SGD5",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -286,7 +286,7 @@
 				"values": {
 					"condo": {
 						"label": "HDB Parking Surcharge +SGD5",
-						"orderLabel": "HDB Parking Surcharge",
+						"orderLabel": "HDB Parking Surcharge +SGD5",
 						"cost": {
 							"SGD": "5",
 							"MYR": "0",
@@ -300,6 +300,7 @@
 					},
 					"landed": {
 						"label": "Condo/Landed House",
+						"orderLabel": "Condo/Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -323,7 +324,7 @@
 			"MYR": "80",
 			"CNY": "150"
 		},
-		"disableLocations": ["Seremban"],
+		"disableLocations": [],
 		"hasNote": 1,
 		"options": {
 			
@@ -346,6 +347,7 @@
 					"base": 60
 				}
 			},
+			
 			"Std 2nd": {
 				"handle": "std_second",
 				"label": "Standard Install 2nd Hour or more                                                       SGD45/hr",
@@ -365,7 +367,8 @@
 					"base": 60
 				}
 			},
-            "Tech 1st": {
+			
+           		 "Tech 1st": {
 				"handle": "tech_first",
 				"label": "Technical Install 1st Hour                                                        SGD65/hr",
 				"orderLabel": "Hour (Tech Install 1st Hour)",
@@ -384,7 +387,8 @@
 					"base": 60
 				}
 			},
-			"Tech 2nd": {
+			
+	   		"Tech 2nd": {
 				"handle": "tech_second",
 				"label": "Technical Install 2nd Hour or more                                                        SGD55/hr",
 				"orderLabel": "Hour (Tech Install 2nd Hour or more)",
@@ -403,6 +407,7 @@
 					"base": 60
 				}
 			},
+			
 			"Site Survey": {
 				"handle": "installation_site_survey",
 				"label": "Site Survey                                                                        SGD10/trip",
@@ -422,10 +427,11 @@
 					"base": 60
 				}
 			},
+			
 			"Project": {
 				"handle": "project",
-				"label": "Installation Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Installation Project Confirmation)",
+				"label": "Installation Lumpsum Work Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Installation Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -449,8 +455,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "HDB Parking Surcharge +SGD5",
+						"orderLabel": "HDB Parking Surcharge +SGD5",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -463,7 +469,8 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House",
+						"label": "Condo/Landed House",
+						"orderLabel": "Condo/Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
