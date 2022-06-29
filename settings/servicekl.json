@@ -673,7 +673,7 @@
 				}
 			},
 			
-			"Electrical project Confirmation": {
+			"Electrical Pooject Confirmation": {
 				"handle": "major_electrical",
 				"label": "Electrical Lumpsum Work Confirmation                                               Per Quotation",
 				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
@@ -716,7 +716,7 @@
 				
 			"Emergency": {
 				"handle": "electrical_emergency",
-				"label": "Electrical Emergency                                                             RM100/trip",
+				"label": "Electrical Emergency                                                             RM100 - 150/trip",
 				"orderLabel": "Trip (Electrical Emergency)",
 				"description": "Label standard",
 				"cost": {
@@ -726,7 +726,7 @@
 				},
 				"cost_max": {
 					"SGD": "0",
-					"MYR": "95",
+					"MYR": "150",
 					"CNY": "0"
 				},
 				"quantity": {
