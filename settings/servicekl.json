@@ -453,7 +453,7 @@
 			
 			
 			"Compressor Service & Wash": {
-				"handle": "aircon_compressor_wash",
+				"handle": "aircon_compressor_service",
 				"label": "Aircon Compressor Service + Wash                                                  RM140/hr",
 				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
 				"description": "Label standard",
