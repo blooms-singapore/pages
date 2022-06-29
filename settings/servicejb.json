@@ -1071,28 +1071,7 @@
 			},
 			
 			
-		"Compressor Service & Wash": {
-				"handle": "aircon_compressor_wash",
-				"label": "Aircon Compressor Service + Wash                                                  RM130/hr",
-				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "130",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-			
-									
-			"Cassette Chemical Overhaul": {
+		"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
 				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM200/hr",
 				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5Hrs)",
@@ -1113,10 +1092,34 @@
 			},
 			
 			
+		"Compressor Service & Wash": {
+				"handle": "aircon_compressor_service",
+				"label": "Aircon Compressor Service + Wash                                                  RM130/hr",
+				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
+					"base": 60
+				}
+			},
+			
+									
+			
+			
+			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "Aircon Survey                                                    RM20/Trip",
-				"orderLabel": "Job (Aircon Survey)",
+				"label": "AC Survey                                                    RM20/trip",
+				"orderLabel": "Trip (AC Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1124,7 +1127,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -1133,30 +1136,11 @@
 				}
 			},
 			
-			"AC Water Leak": {
-				"handle": "aircon_water_leak",
-				"label": "Water Leak - Minimum Booking 1Hr                                          RM130/hr",
-				"orderLabel": "Hour (Water Leak)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
 			
-			"AC Trouble Shoot": {
-				"handle": "aircon_trouble_shoot",
-				"label": "Aircon Trouble-Shoot                                                  RM50/Trip",
-				"orderLabel": "Job (Aircon Trouble-Shoot)",
+			"AC Fault Trouble Shoot": {
+				"handle": "aircon_fault_trouble_shoot",
+				"label": "AC Fault Trouble-Shoot                                                  RM50/trip",
+				"orderLabel": "Job (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1173,10 +1157,31 @@
 				}
 			},
 			
+			"AC Leak": {
+				"handle": "aircon_leak",
+				"label": "AC Leak - Min 1Hr                                        RM130/hr",
+				"orderLabel": "Hour (AC Leak - Min 1Hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+						
 			"AC Lumpsum WorksConfirmation": {
 				"handle": "aircon_lumpsum_works_confirmation",
-				"label": "Aircon Lumpsum Works Confirmation                                            Per Quotation",
-				"orderLabel": "Job (Aircon Lumpsum Works Confirmation)",
+				"label": "AC Lumpsum Works Confirmation                                            Per Quotation",
+				"orderLabel": "Job (AC Lumpsum Works Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
