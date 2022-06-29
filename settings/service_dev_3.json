@@ -1094,88 +1094,6 @@
 					"default": 60,
 					"base": 60
 				}
-			},
-			
-			
-			"AC Install": {
-				"handle": "aircon_install",
-				"label": "Wall-Mount AC Install                                         Min Booking 2.5hrs",
-				"orderLabel": "Hours (Wall-Mount AC Install)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "99.20",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 2.5,
-					"base": 1
-				}
-			},
-			
-												
-			"3Hr Package": {
-				"handle": "three_hour",
-				"label": "3-Hour Package                                         Only in JB",
-				"orderLabel": "PACKAGE (3Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "360",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"6Hr Package": {
-				"handle": "six_hour",
-				"label": "6-Hour Package                                             Only in JB",
-				"orderLabel": "PACKAGE (6Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "700",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"9Hr Package": {
-				"handle": "nine_hour",
-				"label": "9-Hour Package                                              Only in JB",
-				"orderLabel": "PACKAGE (9Hr Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "1000",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "PACKAGE",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
 			}
 		},
 		
@@ -1219,132 +1137,12 @@
 	
 	
 	
-     	
-	
-	
-	
-	
-	"roof": {
-		"name": "Roof",
-		"lastSlot": "15:30",
-		"disableLocations": ["Seremban", "Singapore", "Nilai - coming soon"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "30",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Residential Roof Survey": {
-				"handle": "residential_roof_survey",
-				"label": "Residential Roof Survey",
-				"orderLabel": "Trip (Residential Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Commercial Roof Survey": {
-				"handle": "commercial_roof_survey",
-				"label": "Commercial Roof Survey",
-				"orderLabel": "Trip (Commercial Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-		"Roof Project Confirmation": {
-				"handle": "roof_project_confirmation",
-				"label": "Roof Project Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		 },
-				
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"landed": {
-						"label": "Normal Days",
-						"orderLabel": "Normal Days",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"condo": {
-						"label": "Public Holidays",
-						"cost": {
-							"SGD": "0",
-							"MYR": "50",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-	
-	
-
-	
-		
-
-
-	
 	
 		
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "14:30",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "110",
@@ -1684,7 +1482,7 @@
 			
 			"Top Up Package": {
 				"handle": "cleaning_topup_package",				
-				"label": "Top Up Package                                                         KL & JB",
+				"label": "Top Up Package",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
@@ -1703,54 +1501,8 @@
 					"multiplier": 1
 											
 				}
-			},
-			
-			"Ladder Package": {
-				"handle": "cleaning_ladder_package",
-				"label": "Ladder Package                                                          Only in JB",
-				"displayLabel": "Ladder Package",
-				"orderLabel": "Package (Ladder PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "900",
-					"CNY": "10"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Vacuum Package": {
-				"handle": "cleaning_vacuum_package",				
-				"label": "Vacuum Package                                                         Only in JB",
-				"displayLabel": "Vacuum Package",
-				"orderLabel": "Package (Vacuum PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "1080",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
 			}
 		},
-		
 		
 	"types": {
 			"tools": {
@@ -2089,113 +1841,6 @@
 					"base": 60
 				}
 			}			
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-				
-	
-	
-	"house_diagnosis": {
-		"name": "House Diagnosis",
-		"lastSlot": "14:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur", "Nilai - Coming Soon"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "535",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"House Diagnosis Landed House": {
-				"handle": "house_diagnosis_standard_house",
-				"label": "Standard Landed House",
-				"orderLabel": "Project (Standard Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "1388",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Project",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
-			"Large House Survey": {
-				"handle": "house_diagnosis_survey",
-				"label": "Survey - Large House",
-				"orderLabel": "Job (Survey - Large House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			"House Diagnosis Condo": {
-				"handle": "house_diagnosis_condo",
-				"label": "Condominium",
-				"orderLabel": "Project (Condominium)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "558",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Project",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 }
 		},
 		
 	    "types": {
