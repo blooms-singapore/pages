@@ -21,6 +21,114 @@ layout: service
 </div>
 </div>
 
+<!--embedded video, style @ service.scss-->
+<div class = "iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o_b5_PtPV8A" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+
+
+<div class="divider"></div>
+<div class="gap">
+<h5 class="service-title">PRICES</h5>
+</div>
+<div class="pricing">
+  <table>
+    <thead>
+      <tr>
+        <th><b>Electrical Work</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Electrical Survey</td>
+           <td>${params.electrical_survey}/trip</td>
+      </tr>
+     
+      <tr>
+        <td>Minor Electrical</td>
+        <td>${params.minor_electrical}/hr</td>
+      </tr>
+              
+      <tr>
+        <td>Electrical Lumpsum<br>Work Confirmation</td>
+        <td>Per Quotation</td>
+      </tr>
+        
+      <tr>
+        <td>Electrical Trouble Shoot</td>
+           <td>${params.electrical_trouble_shoot}/trip</td>
+      </tr>
+ 
+     <thead>
+      <tr>
+        <th><b>Urgent<br>Electrical Works</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>Eelctrical Emergency<br><br><b>Scroll below for<br>booking process</b></td>
+       <td>${params.emergency}<br>Per trip</td>
+      </tr>     
+        
+          
+    <thead>
+      <tr>
+        <th><b>Other Charges</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+         <tr>
+        <td>Condo Surcharge</td>
+        <td>10.0</td>
+      </tr>
+      <tr>
+        <td>Picking Fee<br><br><b>Applies to<br>Minor Electrical<br>Works only</b></td>
+        <td>55.0/trip</td>
+      </tr>
+  </tbody>
+  </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
+</div>
+
+<div class="divider"></div>
+<div class="gap">
+<div class="service-info">
+    <h5 class="service-title">SERVICE INFO</h5>
+    <h6 class="service-title">2-Step Emergency Booking</h6>
+   
+<!--image published direct archived in assets/news-->
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/electrical_emergency.png">
+    <h6 class="service-title">Important Notes</h6>
+     <ul>
+        <li>Price excludes replacement parts.</li>
+        <br>
+        <li>Blooms does not guarantee electrical issues can be solved on the same day.</li>
+        <br>
+        <li>For High Tension issue, please contact TNB.</li>
+        <br>
+        <li>Price range depends on the severity or complexity of the trouble-shooting process.</li>
+ </ul></p>
+ 
+  <h6 class="service-title">Electrical Projects</h6>
+    <p><ul>
+    <li>Quotation to be provided 2 to 5 work days after survey date.</li>
+    <br>
+    <li>For cash & credit card payments, schedule as follows: 35% (deposit), 50% (half work), 15% (project complete).</li>
+     <br>
+    <li>Discount code <strong>DOES NOT</strong> apply to Emergency Bookings and Projects.</li>
+ </ul></p>
+</div>
+</div>
+
+
 <!--FAQs-->
 <div class="divider"></div>
 <div class="gap">
@@ -107,104 +215,6 @@ layout: service
   </div>
   </div>
 
-
-<div class="divider"></div>
-<div class="gap">
-<h5 class="service-title">PRICES</h5>
-</div>
-<div class="pricing">
-  <table>
-    <thead>
-      <tr>
-        <th><b>Electrical Work</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td>Survey</td>
-           <td>${params.electrical_survey}/Trip</td>
-      </tr>
-     
-      <tr>
-        <td>Minor Electrical</td>
-        <td>${params.minor_electrical}/Hr</td>
-      </tr>
-              
-      <tr>
-        <td>Electrical<br>Project Confirmation</td>
-        <td>Per Quotation</td>
-      </tr>
-        
-      <tr>
-        <td>Trouble Shoot</td>
-           <td>${params.electrical_trouble_shoot}/Trip</td>
-      </tr>
- 
-     <thead>
-      <tr>
-        <th><b>Urgent<br>Electrical Works</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-       <td>Emergency Booking<br><br><b>Scroll below for<br>booking process</b></td>
-       <td>${params.emergency}<br>Per Trip</td>
-      </tr>     
-        
-          
-    <thead>
-      <tr>
-        <th><b>Other Charges</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-         <tr>
-        <td>Condo Surcharge</td>
-        <td>10.0</td>
-      </tr>
-      <tr>
-        <td>Picking Fee<br><br><b>Applies to<br>Minor Electrical<br>Works only</b></td>
-        <td>55.0/Trip</td>
-      </tr>
-  </tbody>
-  </table>
-  <div class="fineprint">
-    Prices subject to change without prior notice
-  </div>
-</div>
-
-<div class="divider"></div>
-<div class="gap">
-<div class="service-info">
-    <h5 class="service-title">SERVICE INFO</h5>
-    <h6 class="service-title">2-Step Emergency Booking</h6>
-   
-<!--image published direct archived in assets/news-->
-<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/electrical_emergency.png">
-    <h6 class="service-title">Important Notes</h6>
-     <ul>
-        <li>Price excludes replacement parts.</li>
-        <br>
-        <li>Blooms does not guarantee electrical issues can be solved on the same day.</li>
-        <br>
-        <li>For High Tension issue, please contact TNB.</li>
-        <br>
-        <li>Price range depends on the severity or complexity of the trouble-shooting process.</li>
- </ul></p>
- 
-  <h6 class="service-title">Electrical Projects</h6>
-    <p><ul>
-    <li>Quotation to be provided 2 to 5 work days after survey date.</li>
-    <br>
-    <li>For cash & credit card payments, schedule as follows: 35% (deposit), 50% (half work), 15% (project complete).</li>
-     <br>
-    <li>Discount code <strong>DOES NOT</strong> apply to Emergency Bookings and Projects.</li>
- </ul></p>
-</div>
-</div>
 
 
 <div class="divider"></div>
