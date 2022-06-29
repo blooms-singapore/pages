@@ -81,20 +81,20 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>
       <tr>
       <td>Overhaul 1 unit</td>
-      <td>${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}
-       <br>1.5 - 2.0hrs</td>
+      <td>${(params.aircon_cassette * 1.5).toFixed(1)}
+       <br>Up to 1.5hrs</td>
       </tr>
       
      <tr>
       <td>Overhaul 2 units</td>
-      <td>${(params.aircon_cassette * 2.5).toFixed(1)} to ${(params.aircon_cassette * 3.0).toFixed(1)}
-       <br>2.5 - 3.0hrs</td>
+      <td>${(params.aircon_cassette * 2.5).toFixed(1)}
+       <br>Up to 2.5hrs</td>
       </tr>
      
      <tr>
       <td>Overhaul 3 units</td>
-      <td>${(params.aircon_cassette * 4.0).toFixed(1)} to ${(params.aircon_cassette * 4.5).toFixed(1)}
-       <br>4.0 - 4.5hrs</td>
+      <td>${(params.aircon_cassette * 3.5).toFixed(1)}
+       <br>Up to 3.5hrs</td>
       </tr>
      
          
@@ -128,13 +128,13 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       
       <tr>
       <td>Aircon Survey</td>
-       <td>${params.aircon_survey}/Trip</td>
+       <td>${params.aircon_survey}/trip</td>
       </tr>
       
       
        <tr>
         <td>Aircon Fault<br>Trouble-Shoot</td>
-        <td>${params.aircon_fault_trouble_shoot}/Trip</td>
+        <td>${params.aircon_fault_trouble_shoot}/trip</td>
       </tr>    
       
       <tr>
@@ -295,7 +295,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
      <li>Standard Wash 2 units - 1+/- hour.</li>
      <li>Chemical Overhaul 1 unit - 1.5+/- hours.</li>
      <li>Check and address water leak - additional time.</li>
-     <li>If actual service duration is 2 hours 15 mins. Blooms charges 2.5 hours, ie. ${params.currency}300.
+     <li>If actual service duration is 2 hours 15 mins. Blooms charge 2.5 hours.
    </ul></p>
    </div>
    </div>
@@ -322,7 +322,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <div class="content-inner">
    <p>Blooms charges by actual service time.
    <br><br>For example if you need to overhaul 3 wall-mount units, it can take up to 4.0hrs, depending on the AC size and filth condition.
-   <br><br>Customers can book 4.0hrs and if the actual time used is 3.5hrs, Blooms will charge the lesser time.</p>
+   <br><br>Customers can book 3.5hrs and if the actual time used is 3.0hrs, Blooms will charge the lesser time.</p>
    </div>
    </div>
  
@@ -331,8 +331,8 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <div class="collapsible-content">
   <div class="content-inner">
   <p>Aircon Survey is free of charge. Our crews are there to understand the requirements of customers, such as where to install/relocate the AC, or which AC to be dismantled etc. 
-   <br><br>Trouble-Shooting is chargeable at <b>MYR${params.aircon_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
-   <br><br>This fee will be waived if customers choose to proceed with the repair.</p>
+   <br><br>Trouble-Shooting is chargeable at <b>${params.currency}${params.aircon_fault_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
+   <br><br>This fee will be waived if customers proceed with the repair.</p>
    </div>
    </div>
 
@@ -349,18 +349,18 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <label for="collapsible8" class="lbl-toggle">Q8 How does Blooms charge for time extensions?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Blooms charges by actual service time, at 30-min blocks. For example, if our crews takes 1hr 10 mins to complete the job, Blooms will charge 1.5hrs.
+   <p>Blooms charges by actual service time, in 30-min blocks. For example, if our crews takes 1hr 10 mins to complete the job, Blooms will charge 1.5hrs.
      <br><br>Blooms' crews execute their tasks, focusing on quality and efficiency. Depending on site situation, or customers' demands, crews may take more time to complete the tasks.</p>
    </div>
    </div>
  
   <input id="collapsible9" class="toggle" type="checkbox">
-  <label for="collapsible9" class="lbl-toggle">Q9 Outdoor Compressor Wash, is it included in Chemical Overhaul Service?</label>
+  <label for="collapsible9" class="lbl-toggle">Q9 Outdoor Compressor Service and Wash, are they included in Chemical Overhaul Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Compressor Wash is not included.
-   <br><br>Service duration depends on assessibility and compressor size. 
-   <br><br>Minimum booking time is 1 hour and is an optional service. </p>
+   <br><br>Service duration depends on its assessibility and size. 
+   <br><br>It takes about 30mins to service compressor and it is optional. This time will be added into the other AC Services.</p>
    </div>
    </div>
  
@@ -368,9 +368,9 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <label for="collapsible10" class="lbl-toggle">Q10 How to book Cassette Chemical Overhaul?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Select any hours within the time range.
-   <br><br>Cassette units have different sizes, installed at various heights. Therefore, we are unable to accurately determine the servicing duration.
-   <br><br>Fees will be charged according to the actual time used and will not exceed the maximum hours.</p>
+   <p>Select the suggested service duration in app according to the number of cassette units.
+   <br><br>These units have different sizes, installed at various heights. Therefore, we are unable to accurately determine the servicing duration.
+   <br><br>Fees will be charged according to the actual time used.</p>
    </div>
    </div>
  
@@ -415,5 +415,6 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 <div class="gap">
   <h5>CUSTOMER CARE</h5>
   <p>${params.phone}</p>
+  <p>60 10 292 7033</p>
   <p>${params.email}</p>
 </div>
