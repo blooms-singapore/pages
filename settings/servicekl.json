@@ -13,36 +13,15 @@
 		"options": {
 				
 			
-			"Standard Wash": {
-				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM140/hr",
-				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1Hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "140",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			
+					
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                MYR140/hr",
-				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
+				"label": "Wall-Mount Chemical Overhaul - Min 1.5hrs                                              RM100/hr",
+				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "140",
+					"MYR": "100",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -50,7 +29,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 60,
+					"default": 90,
 					"base": 60
 				}
 			},
@@ -58,8 +37,8 @@
 			
 		"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
-				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM210/hr",
-				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5Hrs)",
+				"label": "Cassette Chemical Overhaul - Min 1.5hrs                                                   RM210/hr",
+				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -145,7 +124,7 @@
 			"AC Leak": {
 				"handle": "aircon_leak",
 				"label": "AC Leak - Min 1Hr                                        RM140/hr",
-				"orderLabel": "Hour (AC Leak - Min 1Hr)",
+				"orderLabel": "Hour (AC Leak - Min 1hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -187,7 +166,7 @@
 			"AC Install": {
 				"handle": "aircon_install",
 				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM110/hr",
-				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5Hrs)",
+				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
