@@ -163,7 +163,7 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "65",
+			"SGD": "35",
 			"MYR": "95",
 			"CNY": "20"
 		},
@@ -220,11 +220,11 @@
 			
 			"Electrical Residential Survey": {
 				"handle": "electrical_residential_survey",
-				"label": "Electrical Survey                                                           SGD20/trip",
-				"orderLabel": "Trip (Electrical Survey)",
+				"label": "Electrical Minor Scope Survey                                                           SGD20/trip",
+				"orderLabel": "Trip (Electrical Minor Scope Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "20",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -265,10 +265,10 @@
 	         	"Electrical Commercial Survey": {
 				"handle": "electrical_commercial_survey",
 				"label": "Electrical Commercial Scope Survey                                               SGD100/trip",
-				"orderLabel": "Trip (Electrical Survey)",
+				"orderLabel": "Trip (Electrical Commercial Scope Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "100",
 					"MYR": "100",
 					"CNY": "0"
 				},
