@@ -12,6 +12,13 @@ layout: service
 </div>
 </div>
 
+<!--embedded Video-->
+<div class = "iframe-container">
+<iframe width="315" height="315" src="https://www.youtube.com/embed/VPZm2DzK5N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
 
 <div class="divider"></div>
 <div class="gap">
@@ -20,22 +27,6 @@ layout: service
 
 <div class="pricing">
   <table>
-  <thead>
-      <tr>
-        <th><b>Standard<br>Installation</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1st Hour
-        <td>${params.std_first}/Hr</td>
-      </tr>
-      <tr>
-        <td>2nd Hour or more<br>Standard Rate</td>
-        <td>${params.std_second}/Hr</td>
-      </tr>
-    </tbody>
     <thead>
       <tr>
         <th><b>Technical<br>Installation</b></th>
@@ -52,7 +43,27 @@ layout: service
         <td>${params.tech_second}/Hr</td>
       </tr>
     </tbody>
-    <thead>
+    
+    <!--Standard Installation-->
+      <thead>
+      <tr>
+        <th><b>Standard<br>Installation</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1st Hour
+        <td>${params.std_first}/hr</td>
+      </tr>
+      <tr>
+        <td>2nd Hour or more<br>Standard Rate</td>
+        <td>${params.std_second}/hr</td>
+      </tr>
+    </tbody>
+    
+    <!--Lumpsum Installation-->
+        <thead>
       <tr>
         <th><b>Lumpsum<br>Projects</b></th>
         <th><b>Pricing (${params.currency})</b></th>
