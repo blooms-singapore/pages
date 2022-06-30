@@ -192,7 +192,7 @@
 				
 		"Emergency": {
 				"handle": "electrical_emergency_work",
-				"label": "Emergency Booking                                                          SGD80/trip",
+				"label": "Emergency Booking                                                          SGD80 -100",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -201,7 +201,7 @@
 					"CNY": "0"
 				},
 				"cost_max": {
-					"SGD": "0",
+					"SGD": "100",
 					"MYR": "95",
 					"CNY": "0"
 				},
