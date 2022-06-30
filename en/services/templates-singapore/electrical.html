@@ -25,10 +25,28 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
 </div>
 <div class="pricing">
   <table>
-    
-     <thead>
+    <!--Fault-->
+    <thead>
       <tr>
-        <th><b>Residential<br>or Minor Scope</b></th>
+        <th><b>Electrical<br>Fault</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Trouble<br>Shoot</td>
+        <td>${params.electrical_trouble_shoot}/job</td>
+      </tr>
+     
+      <tr>
+        <td>Emergency<br>Work</td>
+        <td>${params.electrical_emergency_work}/trip</td>
+      </tr>
+    
+    <!--Minor-->
+    <thead>
+      <tr>
+        <th><b>Residential or<br>Minor Scope</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -48,6 +66,8 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
         <td>Per Quotation</td>
       </tr>
       
+      
+     <!--Commercial Scope--> 
     <thead>
       <tr>
         <th><b>Commercial<br>Scope</b></th>
