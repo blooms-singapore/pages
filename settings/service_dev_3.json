@@ -191,7 +191,7 @@
 			},
 				
 		"Emergency": {
-				"handle": "emergency",
+				"handle": "electrical_emergency_work",
 				"label": "Emergency Booking                                                          SGD80/trip",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
