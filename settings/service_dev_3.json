@@ -682,11 +682,11 @@
          
 			"Installation Technical": {
 				"handle": "installation_technical",
-				"label": "Technical Installation                                                SGD50/hr",
+				"label": "Technical Installation                                                SGD55/hr",
 				"orderLabel": "Hour (Technical Installation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "55",
 					"MYR": "70",
 					"CNY": "0"
 				},
