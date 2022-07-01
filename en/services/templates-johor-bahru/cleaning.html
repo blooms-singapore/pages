@@ -45,19 +45,19 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </thead>
     <tbody>
        <tr>
-        <td><b>Very Small Condo</b><br>(Studio or 1BR)<br>1 Crew</td>
+        <td><b>Very Small Condo</b><br>(Studio or 1BR)<br><b>1 Crew</b></td>
         <td>${params.standard_small_condo}/Unit<br>Up to 3hrs</td>
       </tr> 
       <tr>
-        <td><b>Condo</b><br>(2BR or more)<br>2 crews</td>
-        <td>${params.standard_condo}/hr/crew<br>Min 3hrs</td>
+       <td><b>Condo</b><br>(2BR or more)<br><b>2 crews</b></td>
+        <td>${(params.standard_condo * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
       </tr> 
       <tr>
         <td><b>Landed Property</b><br>2 Crews</td>
-        <td>${params.standard_landed_house}/hr/crew<br>Min 4hrs</td>
+        <td>${(params.standard_landed_house * 0.5).toFixed(1)}/hr/crew<br>Min 4hrs</td>
       </tr>
    
-      <!--Ferstive-->
+      <!--Festive-->
      <thead>
       <tr>
       <th><b>FESTIVE<br>CLEAN</b></th>  <!--FESTIVE CLEAN-->
