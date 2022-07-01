@@ -44,28 +44,28 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
       </tr>
     </tbody>
     
-    <!--Standard Installation-->
+    <!--Installation-->
       <thead>
       <tr>
-        <th><b>Standard<br>Installation</b></th>
+        <th><b>Installation<br>Dismanntling</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1st Hour
-        <td>${params.std_first}/hr</td>
+        <td>Standard
+        <td>${params.installation_standard}/hr</td>
       </tr>
       <tr>
-        <td>2nd Hour or more<br>Standard Rate</td>
-        <td>${params.std_second}/hr</td>
+        <td>Technical</td>
+        <td>${params.installation_technical}/hr</td>
       </tr>
     </tbody>
     
     <!--Lumpsum Installation-->
         <thead>
       <tr>
-        <th><b>Installation<br>Projects</b></th>
+        <th><b>Lumpsum<br>Work</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -75,7 +75,7 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
         <td>${params.installation_site_survey}/trip</td>
       </tr>
       <tr>
-        <td>Lumpsum Work<br>Confirmation</td>
+        <td>Installation Lumpsum<br>Work Confirmation</td>
         <td>Per Quotation</td>
       </tr>      
     </tbody>
@@ -86,6 +86,10 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
       </tr>
     </thead>
     <tbody>
+       <tr>
+        <td>Transport<br>Fee</td>
+        <td>${params.transport_fee}/trip</td>
+      </tr>
       <tr>
         <td>Service<br>Extension</td>
         <td>Charge in<br>30-min blocks</td>
@@ -94,6 +98,11 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
         <td>Picking Fee<br>(Optional)</td>
         <td>20.0/trip</td>
       </tr>
+      
+      <tr>
+        <td>HDB Parking<br>Fee</td>
+        <td>5.0</td>
+      </tr>    
     </tbody>
   </table>
   <div class="fineprint">
