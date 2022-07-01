@@ -80,6 +80,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <p><b>Landed Property</b><br>2 Crews</p>
         <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min 5hrs</td>
       </tr>
+   </tbody>
     
    <!--Renovation-->
       <thead>
@@ -108,6 +109,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
           <p><b>2-3 Storey House</b><br>Book 1 day<br>
           <p><b>Bungalow</b><br>Book 1.5 days</td>
       </tr>
+     </tbody>
     
      <!--Move Clean-->
      <thead>
@@ -132,6 +134,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td><b>Landed Property</b><br>2 Crews</tp>    <!--Landed House-->
         <td>${(params.move_landed *0.5).toFixed(1)}/hr/crew<br>Min 5hrs</td>
       </tr>
+   </tbody>
    
  <!--Specialise Clean-->
     <thead>
@@ -175,9 +178,11 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>Vacuum<br>Package</td>
         <td>${params.cleaning_vacuum_package}/package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
       </tr>
+  </tbody>
       
     
     <thead>
+       <tbody>
       <tr>
         <th><b>OTHER<br>CHARGES</b></th>
         <th><b>Pricing (${params.currency})</b></th>
