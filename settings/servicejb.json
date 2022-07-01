@@ -598,7 +598,7 @@
 			
 			"Plumbing Transport Fee": {
 				"handle": "plumbing_transport",
-				"label": "Plumbing Trabsport Fee                                         RM30/hr",
+				"label": "Plumbing Transport Fee                                         RM30/hr",
 				"orderLabel": "Hour (Plumbing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
