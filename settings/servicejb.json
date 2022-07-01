@@ -590,7 +590,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
-			"MYR": "95",
+			"MYR": "100",
 			"CNY": "50"
 		},
 		"hasNote": 1,
@@ -636,10 +636,10 @@
 				}
 			},
 			
-			"Non-Standard Plumbing Project Survey": {
-				"handle": "plumbing_other_survey",
-				"label": "Other Plumbing SURVEY                                                    Free",
-				"orderLabel": "Trip (Other Plumbing SURVEY)",
+			"Plumbing Lumpsum Survey": {
+				"handle": "plumbing_survey",
+				"label": "Plumbing SURVEY                                               Free",
+				"orderLabel": "Trip (Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -656,10 +656,10 @@
 				}
 			},
 			
-			"Other Plumbing Confirmation": {
-				"handle": "plumbing_other_confirmation",
-				"label": "Other Plumbing Confirmation                                      Per Quotation",
-				"orderLabel": "Job (Other Plumbing Confirmation)",
+			"Plumbing Lumpsum Confirmation": {
+				"handle": "plumbing_lumpsum_confirmation",
+				"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -680,7 +680,7 @@
 			
 			"Tank Wash": {
 				"handle": "tank_wash",
-				"label": "Tank WASH                                                      RM100/hr",
+				"label": "Tank WASH                                            RM100/hr",
 				"orderLabel": "Hour (Tank WASH)",
 				"description": "Label standard",
 				"cost": {
@@ -702,7 +702,7 @@
 			
 			"Tank Repair": {
 				"handle": "tank_repair",
-				"label": "Tank REPAIR                                               RM100/hr",
+				"label": "Tank REPAIR                                          RM100/hr",
 				"orderLabel": "Hour (Tank REPAIR)",
 				"description": "Label standard",
 				"cost": {
@@ -723,13 +723,13 @@
 			
 						
 			"Tank Project": {
-				"handle": "tank_project",
-				"label": "Tank Project Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tank Project Confirmation)",
+				"handle": "plumbing_tank_project",
+				"label": "Tank Lumpsum Work Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tank Lumpsum WorkConfirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -745,12 +745,12 @@
 						
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         RM60/job",
+				"label": "Trouble Shoot                                                         RM30/job",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "60",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
