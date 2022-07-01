@@ -1981,8 +1981,8 @@
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": "60",
-					"max": "0",
+					"min": 1,
+					"max": 0,
 					"increment": 60,
 					"default": 60,
 					"base": 60
