@@ -425,8 +425,8 @@
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 0,
-					"max": 1,
+					"min": "0",
+					"max": "1",
 					"increment": 60,
 					"default": 0,
 					"base": 60
