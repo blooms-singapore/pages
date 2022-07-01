@@ -641,7 +641,7 @@
 			
 			"Installation Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Installation Transport Fee                                                          SGD15/trip",
+				"label": "Installation Transport Fee                                                          SGD20/trip",
 				"orderLabel": "Trip (Installation Transport Fee)",
 				"description": "Label standard",
 				"cost": {
