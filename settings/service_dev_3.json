@@ -631,7 +631,7 @@
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "60",
+			"SGD": "65",
 			"MYR": "80",
 			"CNY": "150"
 		},
@@ -661,11 +661,11 @@
 			
 			"Installation Standard": {
 				"handle": "installation_standard",
-				"label": "Standard Installation                                                   SGD40/hr",
+				"label": "Standard Installation                                                   SGD45/hr",
 				"orderLabel": "Hour (Standard Installation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "45",
 					"MYR": "55",
 					"CNY": "0"
 				},
