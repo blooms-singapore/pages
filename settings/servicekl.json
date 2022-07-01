@@ -788,9 +788,57 @@
 		"hasNote": 1,
 		"options": {
 			
+						
+			"Std Clean Condo": {
+				"handle": "standard_condo",
+				"label": "Standard Clean Condo - 2 Crews                                               RM25/hr/crew",
+				"displayLabel": "Standard Clean Condo - 2 Crews",
+				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "50",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 180,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
+			"Std Clean Landed House": {
+				"handle": "standard_landed_house",
+				"label": "Standard Clean Landed House - 2 Crews                                                        RM25/hr/crew",
+				"displayLabel": "Standard Clean Landed House - 2 Crews",
+				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "50",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"default": 240,
+					"increment": 30,
+					"base": 60,
+					"multiplier": 1
+					
+				}
+			},
+			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM135/unit",
+				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM135/unit/crew",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -813,13 +861,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                            RM55/hr",
+				"label": "Festive Clean Condo - 2 Crews                                                            RM30/hr/crew",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "55",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -836,13 +884,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                                       RM55/hr",
+				"label": "Festive Clean Landed House - 2 Crews                                                       RM30/hr/crew",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "55",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -857,195 +905,8 @@
 				}
 			},
 			
-			
-						
-			
-			"Std Clean Condo": {
-				"handle": "standard_condo",
-				"label": "Standard Clean Condo - 2 Crews                                               RM48/hr",
-				"displayLabel": "Standard Clean Condo - 2 Crews",
-				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "48",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 180,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Std Clean Landed House": {
-				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House - 2 Crews                                                        RM48/hr",
-				"displayLabel": "Standard Clean Landed House - 2 Crews",
-				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "48",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
 			          
-						
-			"Reno Very Small Condo": {
-				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM200/unit",
-				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
-				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "130",
-					"MYR": "200",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 5,
-					"default": 5,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Reno Standard House": {
-				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                                                          RM60/hr",
-				"displayLabel": "Renovation Clean 1-Storey House or Condo",
-				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 360,
-					"increment": 60,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Reno Big House": {
-				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House                                                              RM500/day",
-				"displayLabel": "Renovation Clean Big House",
-				"orderLabel": "Day (Renovation Clean Big House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "450",
-					"MYR": "500",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 2,
-					"default": 1,
-					"increment": 0.5,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-						
-			"Move Very Small Condo": {
-				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo                                                               RM135/unit",
-				"displayLabel": "Move Clean Very Small Condo",
-				"orderLabel": "Unit (Move Clean Very Small Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "100",
-					"MYR": "135",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Move Condo": {
-				"handle": "move_condo",
-				"label": "Move Clean Condo                                                            RM60/hr",
-				"displayLabel": "Move Clean Condo",
-				"orderLabel": "Hours (Move Clean Condo)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			"Move Landed": {
-				"handle": "move_landed",
-				"label": "Move Clean Landed House                                                             RM60/hr",
-				"displayLabel": "Move Clean Landed House",
-				"orderLabel": "Hours (Move Clean Landed House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 300,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
+		
 			
 			
 			"Project Survey": {
@@ -1070,6 +931,7 @@
 					
 				}
 			},
+			
 			
 			"Project Confirmation": {
 				"handle": "cleaning_project_confirmation",
