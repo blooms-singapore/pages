@@ -37,6 +37,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 <div class="pricing">
   <table>
     
+   <!--Standard Clean-->
      <thead>
       <tr>
        <th><b>STANDARD<br>CLEAN</b></th>   
@@ -45,11 +46,11 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </thead>
     <tbody>
        <tr>
-        <td><b>Very Small Condo</b><br>(Studio or 1BR)<br><b>1 Crew</b></td>
-        <td>${params.standard_small_condo}/Unit<br>Up to 3hrs</td>
+        <td><b>Very Small Condo</b><br>(Studio or 1BR)<br>1 Crew</td>
+        <td>${params.standard_small_condo}/unit<br>Up to 3hrs</td>
       </tr> 
       <tr>
-       <td><b>Condo</b><br>(2BR or more)<br><b>2 crews</b></td>
+       <td><b>Condo</b><br>(2BR or more)<br>2 crews</td>
         <td>${(params.standard_condo * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
       </tr> 
       <tr>
@@ -60,59 +61,58 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <!--Festive-->
      <thead>
       <tr>
-      <th><b>FESTIVE<br>CLEAN</b></th>  <!--FESTIVE CLEAN-->
+      <th><b>FESTIVE<br>CLEAN</b></th>
       <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><b>Very Small Condo</b><br>(Studio, 1BR)<br>1 Crew</td>
-        <td>${params.festive_small_condo}/Unit<br>Up to 4Hrs</td>
+        <td>${params.festive_small_condo/unit<br>Up to 4hrs</td>
       </tr>
       <tr>
         <td>
         <p><b>Condo</b><br>(2BR or more)<br>2 Crews</p>
-        <td>${params.festive_big}/Hr<br>Min 3Hrs</td>
+        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
       </tr>
       <tr>
         <td>
         <p><b>Landed Property</b><br>2 Crews</p>
-        <td>${params.festive_big}/Hr<br>Min 5Hrs</td>
+        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min 5hrs</td>
       </tr>
-      </tbody>
     
+   <!--Renovation-->
       <thead>
       <tr>
-      <th><b>RENOVATION<br>CLEAN</b></th>  <!--RENOVATION CLEAN-->
+      <th><b>RENOVATION<br>CLEAN</b></th> 
       <th><b>Pricing (${params.currency})<br>Include tools &<br>cleaning solution</b></th> 
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><b>Very Small Condo</b><br>(Studio, 1BR)</td> <!--Reno Very Small Condo-->
-        <td>220.0/Unit<br>Up to 5Hrs</td>
+        <td>220.0/unit<br>Up to 5hrs</td>
       </tr>
       
       <tr>
         <td><b>Condo or<br>1-Storey House</b></td>
-        <td>${params.reno_standard_house}/Hr<br><br>   <!--1-Storey House or Condo-->
-          <p><b>2BR Condo</b><br>Book 6Hrs<br>
-          <p><b>3BR++ Condo</b><br>Book 7Hrs<br>
-          <p><b>1-Storey House<br>or Commercial</b><br>Book 8Hrs</td> <!--${(params.malaysia_sw * 2.5).toFixed(0)}-->
+        <td>${(params.reno_standard_house * 0.5).toFixed(1)}/hr/crew<br><br>   <!--1-Storey House or Condo-->
+          <p><b>2BR Condo</b><br>Book 6hrs<br>
+          <p><b>3BR++ Condo</b><br>Book 7hrs<br>
+          <p><b>1-Storey House<br>or Commercial</b><br>Book 8hrs</td> <!--${(params.malaysia_sw * 2.5).toFixed(0)}-->
       </tr>
 
       <tr>
         <td><b>Big House</b></td>       <!--Reno Big House-->
-        <td>${params.reno_big_house}/Day<br><br>
-          <p><b>2-3 Storey House</b><br>Book 1 Day<br>
-          <p><b>Bungalow</b><br>Book 1.5 Days</td>
+        <td>${params.reno_big_house}/day<br><br>
+          <p><b>2-3 Storey House</b><br>Book 1 day<br>
+          <p><b>Bungalow</b><br>Book 1.5 days</td>
       </tr>
-
-     </tbody>
     
+     <!--Move Clean-->
      <thead>
       <tr>
-      <th><b>MOVE IN/OUT<br>CLEAN</b></th>   <!--MOVE IN/OUT CLEANING-->
+      <th><b>MOVE IN/OUT<br>CLEAN</b></th>
       <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -120,20 +120,20 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       
       <tr>
        <td><b>Very Small Condo</b><br>(Studio, 1BR)<br>1 Crew</td> <!--Very Small Condo-->
-       <td>${params.move_small_condo}/Unit<br>Up to 3.5Hrs</td>
+       <td>${params.move_small_condo}/unit<br>Up to 3.5hrs</td>
       </tr>
       
       <tr>
         <td><b>Condo</b><br>(2BR or more)<br>2 Crews</td> <!--Std Condo-->
-        <td>${params.move_landed}/Hr<br>Min 4Hrs</td>
+        <td>${(params.move_landed * 0.5).tofixed(1)}/hr/crew<br>Min 4hrs</td>
       </tr>
       
       <tr>
         <td><b>Landed Property</b><br>2 Crews</tp>    <!--Landed House-->
-        <td>${params.move_landed}/Hr<br>Min 5Hrs</td>
+        <td>${(params.move_landed *0.5).toFixed(1)}/hr/crew<br>Min 5hrs</td>
       </tr>
-      </tbody>
-
+   
+ <!--Specialise Clean-->
     <thead>
       <tr>
       <th><b>SPECIALISED<br>CLEANING</b></th> 
@@ -141,18 +141,18 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </thead>
     <tbody>
-      
       <tr>
        <td>Survey</td>
-       <td>${params.cleaning_project_survey}/Survey</td>
+       <td>${params.cleaning_project_survey}/survey</td>
       </tr>
       
       <tr>
-        <td>Project Confirmation</td> 
+        <td>Cleaning Project<br>Confirmation</td> 
         <td>Per Quotation</td>
       </tr>
       </tbody>
 
+ <!--Clean Packages-->
  <thead>
       <tr>
         <th><b>CLEANING<br>PACKAGES</b><br>Scroll below<br>for FAQs</th>
@@ -162,18 +162,18 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>
        <tr>
         <td>Top Up<br>Package</td>
-        <td>${params.cleaning_topup_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+        <td>${params.cleaning_topup_package}/package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
       </tr>
       </tbody>
      
        <tr>
          <td>Ladder<br>Package</td>
-         <td>${params.cleaning_ladder_package}/Package</td> 
+         <td>${params.cleaning_ladder_package}/package</td> 
       </tr>
       
       <tr>
         <td>Vacuum<br>Package</td>
-        <td>${params.cleaning_vacuum_package}/Package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+        <td>${params.cleaning_vacuum_package}/package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
       </tr>
       
     
@@ -185,7 +185,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </thead>
     <tbody>
        <tr>
-        <td>Service Extension</td>
+        <td>Service<br>Extension</td>
         <td>Charge in<br>30-min blocks</td>
       </tr>
       
@@ -195,7 +195,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
       
       <tr>
-      <td>No-Show Charge</td>
+      <td>No-Show<br>Charge</td>
       <td>40% of Order</td>
       </tr>
     </tbody>
