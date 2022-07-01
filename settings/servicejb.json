@@ -596,30 +596,30 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Std Plumbing 1st Hr": {
-				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour                                         RM95/hr",
-				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
+			"Plumbing Transport Fee": {
+				"handle": "plumbing_transport",
+				"label": "Plumbing Trabsport Fee                                         RM30/hr",
+				"orderLabel": "Hour (Plumbing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "95",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
-					"min": 0,
-					"max": 1,
+					"min": 60,
+					"max": 0,
 					"increment": 60,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			},
 			
-			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more                                                    RM70/hr",
-				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
+			"Standard Plumbing": {
+				"handle": "plumbing_standard",
+				"label": "Standard Plumbing                                              RM70/hr",
+				"orderLabel": "Hour (Standard Plumbing)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -631,19 +631,19 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			},
 			
 			"Non-Standard Plumbing Project Survey": {
 				"handle": "plumbing_other_survey",
-				"label": "Other Plumbing SURVEY                                                    RM20/trip",
+				"label": "Other Plumbing SURVEY                                                    Free",
 				"orderLabel": "Trip (Other Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -657,13 +657,13 @@
 			},
 			
 			"Other Plumbing Confirmation": {
-				"handle": "plumbing_other_plumbing_confirmation",
+				"handle": "plumbing_other_confirmation",
 				"label": "Other Plumbing Confirmation                                      Per Quotation",
 				"orderLabel": "Job (Other Plumbing Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -680,12 +680,12 @@
 			
 			"Tank Wash": {
 				"handle": "tank_wash",
-				"label": "Tank WASH                                                      RM130/hr",
+				"label": "Tank WASH                                                      RM100/hr",
 				"orderLabel": "Hour (Tank WASH)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "130",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -702,12 +702,12 @@
 			
 			"Tank Repair": {
 				"handle": "tank_repair",
-				"label": "Tank REPAIR                                               RM130/hr",
+				"label": "Tank REPAIR                                               RM100/hr",
 				"orderLabel": "Hour (Tank REPAIR)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "130",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -783,6 +783,7 @@
 							"CNY": "10"
 						}
 					},
+					
 					"landed": {
 						"label": "Landed House",
 						"orderLabel": "Landed House",
