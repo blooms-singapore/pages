@@ -722,8 +722,8 @@
 			
 			"Project": {
 				"handle": "project",
-				"label": "Installation Project Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Installation Project Confirmation)",
+				"label": "Lumpsum Work Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
