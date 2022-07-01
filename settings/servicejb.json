@@ -14,31 +14,6 @@
 		"options": {
 			
 			
-			"Std Clean Very Small Condo": {
-				"handle": "standard_small_condo",
-				"label": "Standard Clean Very Small Condo - 1 Crews                                                             RM110/unit/crew",
-				"displayLabel": "Standard Clean Very Small Condo - 1 Crew",
-				"orderLabel": "Unit (Standard Clean Very Small Condo - 1 Crew)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "110",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 2,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-						
-			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
 				"label": "Standard Clean Condo - 2 Crews                                               RM22.5/hr/crew",
@@ -88,7 +63,7 @@
 			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM125/unit/crew",
+				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM125/unit",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -160,13 +135,13 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM200/unit",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM220/unit",
 				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "130",
-					"MYR": "200",
+					"MYR": "220",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -324,7 +299,7 @@
 			"Project Confirmation": {
 				"handle": "cleaning_project_confirmation",
 				"label": "Specialise Cleaning Project Confirmation                                                         Per Quotation",
-				"displayLabel": "Specialisew Cleaning Project Confirmation",
+				"displayLabel": "Specialise Cleaning Project Confirmation",
 				"orderLabel": "Project (Specialise Cleaning Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
