@@ -38,31 +38,8 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 </div>
 <div class="pricing">
   <table>
-   
-         
-    <thead>
-      <tr>
-      <th><b>FESTIVE<br>CLEAN</b></th>  <!--FESTIVE CLEAN-->
-      <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Very Small Condo</b><br>(Studio, 1BR)<br>1 Crew</td>
-        <td>${params.festive_small_condo}/Unit<br>Within 3.5Hrs</td>
-      </tr>
-      <tr>
-        <td>
-        <p><b>Condo</b><br>(2BR or more)<br>2 Crews</p>
-        <td>${params.festive_big}/Hr<br>Min Book 3Hrs</td>
-      </tr>
-      <tr>
-        <td>
-        <p><b>Landed Property</b><br>2 Crews</p>
-        <td>${params.festive_big}/Hr<br>Min Book 5Hrs</td>
-      </tr>
-      </tbody>
-    
+      
+    <!--Standardf Clean-->
       <thead>
       <tr>
        <th><b>STANDARD<br>CLEAN</b></th>   
@@ -72,89 +49,41 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>
       <tr>
         <td><b>Condo</b><br>(2BR or more)<br>2 Crews</td>
-        <td>${params.standard_condo}/Hr<br>Min Book 3Hrs</td>
+        <td>${(params.standard_condo * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
       </tr> 
       <tr>
         <td><b>Landed Property</b><br>2 Crews</td>
-        <td>${params.standard_landed_house}/Hr<br>Min Book 4Hrs</td>
+        <td>${(params.standard_landed_house * 0.5).toFixed(1)}/hr/crew<br>Min 4hrs</td>
       </tr>
     </tbody>
     
-      <thead>
-      <tr>
-      <th><b>RENOVATION<br>CLEAN</b></th>  <!--RENOVATION CLEAN-->
-      <th><b>Pricing (${params.currency})<br>Include tools &<br>cleaning solution</b></th> 
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Very Small Condo</b><br>(Studio, 1BR)<br>1 crew</td> <!--Reno Very Small Condo-->
-        <td>220/Unit<br>Up to 5Hrs</td>
-      </tr>
-      
-      <tr>
-        <td><b>Condo or<br>1-Storey House</b><br>2 Crews</td>
-        <td>${params.reno_standard_house}/Hr<br><br>   <!--1-Storey House or Condo-->
-          <p><b>2BR Condo</b><br>Book 6Hrs<br>
-          <p><b>3BR++ Condo</b><br>Book 7Hrs<br>
-          <p><b>1-Storey House<br>or Commercial</b><br>Book 8Hrs</td> <!--${(params.malaysia_sw * 2.5).toFixed(0)}-->
-      </tr>
-
-      <tr>
-        <td><b>Big House</b><br>A few Crews</td>       <!--Reno Big House-->
-        <td>${params.reno_big_house}/Day<br><br>
-          <p><b>2-3 Storey House</b><br>Book 1 Day<br>
-          <p><b>Bungalow</b><br>Book 1.5 Days</td>
-      </tr>
-
-     </tbody>
     
-     <thead>
-      <tr>
-      <th><b>MOVE IN/OUT<br>Clean</b></th>   <!--MOVE IN/OUT CLEANING-->
-      <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-       <td><b>Very Small Condo</b><br>(Studio, 1BR)<br>1 Crew</td> <!--Very Small Condo-->
-       <td>${params.move_small_condo}/Unit<br>Within 3.5Hrs</td>
-      </tr>
-      
-      <tr>
-        <td><b>Condo</b><br>(2BR or more)<br>2 Crews</td> <!--Std Condo-->
-        <td>${params.move_landed}/Hr<br>Min Book 4Hrs</td>
-      </tr>
-      
-      <tr>
-        <td><b>Landed Property</b><br>2 Crews</tp>    <!--Landed House-->
-        <td>${params.move_landed}/Hr<br>Min Book 5Hrs</td>
-      </tr>
-      
-      </tbody>
- 
-
+    <!--Festive Clean-->
     <thead>
       <tr>
-      <th><b>SPECIALISE<br>CLEANING</b></th> 
+      <th><b>FESTIVE<br>CLEAN</b></th>  <!--FESTIVE CLEAN-->
       <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-       <td>Survey</td>
-       <td>Free</td>
+        <td><b>Very Small Condo</b><br>(Studio, 1BR)<br>1 Crew</td>
+        <td>${params.festive_small_condo}/unit<br>Within 3.5hrs</td>
       </tr>
-      
       <tr>
-        <td>Project Confirmation</td> 
-        <td>Per Quotation</td>
+        <td>
+        <p><b>Condo</b><br>(2BR or more)<br>2 Crews</p>
+        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
+      </tr>
+      <tr>
+        <td>
+        <p><b>Landed Property</b><br>2 Crews</p>
+        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min Book 5hrs</td>
       </tr>
       </tbody>
-
-
- <thead>
+    
+<!--TopUp Package-->
+  <thead>
       <tr>
         <th><b>CLEANING<br>PACKAGE</b><br>Scroll below<br>for FAQs</th>
         <th><b>Pricing (${params.currency})</b></th>
