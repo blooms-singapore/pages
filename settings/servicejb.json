@@ -985,7 +985,7 @@
 			
 			"Landscape 1 crew": {
 				"handle": "landscape_one_crew",
-				"label": "1 crew - Small Garden                                           RM50/hr",
+				"label": "1 crew - Small Garden                                           RM50/hr                                                    Min 1hr",
 				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
 				"cost": {
