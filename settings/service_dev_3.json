@@ -161,7 +161,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "35",
 			"MYR": "95",
@@ -220,11 +220,11 @@
 			
 			"Electrical Residential Survey": {
 				"handle": "electrical_residential_survey",
-				"label": "Electrical Minor Scope Survey                                                           SGD15/trip",
+				"label": "Electrical Minor Scope Survey                                                           SGD20/trip",
 				"orderLabel": "Trip (Electrical Minor Scope Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "20",
 					"MYR": "20",
 					"CNY": "0"
 				},
