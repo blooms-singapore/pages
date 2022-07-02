@@ -35,8 +35,8 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Residential Minor Electrical Work                                                      SGD65/hr",
-				"orderLabel": "Hour (Residential Minor Electrical Work)",
+				"label": "Minor Electrical Work                                                      SGD65/hr",
+				"orderLabel": "Hour (Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "65",
@@ -53,10 +53,10 @@
 				}
 			},
 			
-			"Electrical project Confirmation": {
+			"Electrical Lumpsum Work Confirmation": {
 				"handle": "major_electrical",
-				"label": "Electrical Project Confirmation                                               Per Quotation",
-				"orderLabel": "Job (Electrical Project Confirmation)",
+				"label": "Electrical Lumpsum Work Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
