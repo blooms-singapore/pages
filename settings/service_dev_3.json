@@ -588,40 +588,40 @@
 	
 	"plumbing": {
 		"name": "Plumbing",
-		"lastSlot": "16:30",
+		"lastSlot": "16:00",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
-			"MYR": "95",
+			"MYR": "100",
 			"CNY": "50"
 		},
 		"hasNote": 1,
 		"options": {
 			
-			"Std Plumbing 1st Hr": {
-				"handle": "first_hour",
-				"label": "Standard Plumbing 1st Hour                                                       SGD55/hr",
-				"orderLabel": "Hour (Standard Plumbing 1st Hour)",
+			"Plumbing Transport Fee": {
+				"handle": "plumbing_transport",
+				"label": "Plumbing Transport Fee                                         SGD20/trip",
+				"orderLabel": "Trip (Plumbing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
-					"MYR": "95",
+					"SGD": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
+					"label": "Trip",
+					"min": 60,
+					"max": 0,
 					"increment": 60,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			},
 			
-			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more                                               SGD45/hr",
-				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
+			"Standard Plumbing": {
+				"handle": "plumbing_standard",
+				"label": "Standard Plumbing                                              RM45/hr",
+				"orderLabel": "Hour (Standard Plumbing)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -633,19 +633,19 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			},
 			
-			"Non-Standard Plumbing Project Survey": {
-				"handle": "plumbing_other_survey",
-				"label": "Other Plumbing SURVEY                                                            SGD10/trip",
-				"orderLabel": "Trip (Other Plumbing SURVEY)",
+			"Plumbing Lumpsum Survey": {
+				"handle": "plumbing_survey",
+				"label": "Plumbing SURVEY                                               Free",
+				"orderLabel": "Trip (Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "20",
+					"SGD": "0",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -658,14 +658,14 @@
 				}
 			},
 			
-			"Other Plumbing Confirmation": {
-				"handle": "plumbing_other_plumbing_confirmation",
-				"label": "Other Plumbing Confirmation                                            Per Quotation",
-				"orderLabel": "Job (Other Plumbing Confirmation)",
+			"Plumbing Lumpsum Confirmation": {
+				"handle": "plumbing_lumpsum_confirmation",
+				"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "0",
+					"SGD": "-20",
+					"MYR": "-30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -678,15 +678,15 @@
 				}
 			},
 			
-						
+				
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                       SGD35/job",
+				"label": "Trouble Shoot                                                         SGD15/job",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
-					"MYR": "60",
+					"SGD": "15",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -706,8 +706,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "HDB",
-						"orderLabel": "HDB Parking Surcharge",
+						"label": "HDB Parking +SGD5",
+						"orderLabel": "HDB Parking +SGD5",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -715,12 +715,14 @@
 						},
 						"oneOffCost": {
 							"SGD": "5",
-							"MYR": "0",
+							"MYR": "10",
 							"CNY": "10"
 						}
 					},
+					
 					"landed": {
 						"label": "Condo/Landed House",
+						"orderLabel": "Condo/Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
