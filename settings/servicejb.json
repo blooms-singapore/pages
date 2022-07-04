@@ -638,12 +638,12 @@
 			
 			"Plumbing Lumpsum Survey": {
 				"handle": "plumbing_survey",
-				"label": "Plumbing SURVEY                                               Free",
+				"label": "Plumbing SURVEY                                               RM30/trip",
 				"orderLabel": "Trip (Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "0",
+					"SGD": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
