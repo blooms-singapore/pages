@@ -319,7 +319,7 @@
 		"lastSlot": "16:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "55",
+			"SGD": "60",
 			"MYR": "20",
 			"CNY": "20"
 		},
@@ -368,7 +368,7 @@
 			
 			
 			"Door & Window Hourly": {
-				"handle": "door_service_hour",
+				"handle": "door_window_hour",
 				"label": "Hourly Service                                                     SGD40/hr",
 				"orderLabel": "Hour (Hourly Service)",
 				"description": "Label standard",
@@ -389,7 +389,7 @@
 						
 						
 			"Emergency": {
-				"handle": "door_emergency",
+				"handle": "door_window_emergency",
 				"label": "Emergency                                                              SGD80 - 100",
 				"orderLabel": "Trip (Emergency)",
 				"description": "Label standard",
