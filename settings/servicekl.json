@@ -407,26 +407,7 @@
 				}
 			},
 			
-			"Std Plumbing 2nd Hr": {
-				"handle": "second_hour",
-				"label": "Standard Plumbing 2nd Hour or more                                                    RM80/hr",
-				"orderLabel": "Hour (Standard Plumbing 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "55",
-					"MYR": "80",
-					"CNY": "0"
-					},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
+					
 			"Non-Standard Plumbing Project Survey": {
 				"handle": "plumbing_other_survey",
 				"label": "Other Plumbing SURVEY                                                    RM30/trip",
