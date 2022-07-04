@@ -12,6 +12,82 @@ layout: service
 </div>
 </div>
 
+<div class = "iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xt5ATrFQ8xI" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+                       
+<div class="divider"></div>
+<div class="gap">
+<h5 class="service-title">PRICES</h5>
+</div>                         
+<div class="pricing">
+  <table>
+    <thead>
+      <tr>
+       <th><b>Survey</th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead> 
+    <tbody>
+      <tr>
+        <td>Door/Window Survey</td>
+        <td>Free<!--${params.door_window_survey}/Trip--></td>
+      </tr>
+   
+    <thead>
+      <tr>
+       <th><b>Door & Wndow</th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead> 
+   <tbody>
+      <tr>
+        <td>Service Work</td>
+        <td>${params.door_service_work_1st_hour}/Hr</td>
+      </tr>
+    
+      <tr>
+        <td>Emergency Booking</td>
+        <td>${params.door_emergency}/Hr</td>
+      </tr>
+      <tr>
+        <td>Door Assessories</td>
+        <td><a class="btn" href="/assets/pdf/door-price.png">Tap here<br>for Prices</a>
+      </tr>
+    
+      <tr>
+        <td>Window Assessories</td>
+        <td><a class="btn" href="/assets/pdf/door-window-price.png">Tap here<br>for Prices</a>
+      </tr>
+     
+    <thead>
+      <tr>
+       <th><b>Other Charges</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Service Transport<br>Fee</td>
+        <td>${params.door_transport}/Trip</td>
+      </tr>
+       <tr>
+        <td>Service Extension</td>
+        <td>Charge in<br>30-min blocks</td>
+      </tr>
+       <tr>
+        <td>Picking Fee<br>Optional</td>
+        <td>20.0</td>
+      </tr>
+      </tbody>
+  </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
+</div>
+
 
 <!--FAQs-->
 <div class="divider"></div>
@@ -49,34 +125,22 @@ layout: service
    </div>
    </div>
  
+ 
   <input id="collapsible4" class="toggle" type="checkbox">
-  <label for="collapsible4" class="lbl-toggle">Q4 How to book 1.5 Hours Service?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-  <p>Service fee is split into 2 parts as follows:
-  <ul>
-  <li>1st Hour fee price, taking into account transport cost,</li><br>
-  <li>2nd Hour onwards, Standard Fee, at a reduced price.</li>
-  </ul>
-    To book 1.5 hours, please select 2 options together. <b>"1st Hour" X 1 and "2nd Hour or more" X 0.5.<br><br>Total = 1.5 Hours.</b></p>
-   </div>
-   </div>
-
-  <input id="collapsible5" class="toggle" type="checkbox">
-  <label for="collapsible5" class="lbl-toggle">Q5 I don't know which Service item to book?</label>
+  <label for="collapsible4" class="lbl-toggle">Q4 I don't know which Service item to book?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select Door/Window Survey when in doubt. Our Crew will call and visit you to understand your needs.</p>
    </div>
    </div>
 
-  <input id="collapsible6" class="toggle" type="checkbox">
-  <label for="collapsible6" class="lbl-toggle">Q6 How to book for Emergency?</label>
+  <input id="collapsible5" class="toggle" type="checkbox">
+  <label for="collapsible5" class="lbl-toggle">Q5 How to book for Emergency?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Choose "Emergency Booking".
     <br><br>Need not worry if today is unavailable. Select the nearest available date and time to log in a booking.
-    <br><br>Our Customer Care will attend to you within 15 mins, arrange a crew to assist you on the same day asap.</p>
+    <br><br>Our Customer Care will attend to you within 20 mins, arrange a crew to assist you on the same day asap.</p>
    </div>
    </div>
 
@@ -142,88 +206,6 @@ layout: service
   </div>
   </div>
                             
-                            
-<div class="divider"></div>
-<div class="gap">
-<h5 class="service-title">PRICES</h5>
-</div>                         
-<div class="pricing">
-  <table>
-    <thead>
-      <tr>
-       <th><b>Survey</th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead> 
-    <tbody>
-      <tr>
-        <td>Door/Window Survey</td>
-        <td>Free<!--${params.door_window_survey}/Trip--></td>
-      </tr>
-   
-    <thead>
-      <tr>
-       <th><b>Door & Wndow</th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead> 
-   <tbody>
-      <tr>
-        <td>Service Work<br>1st Hour</td>
-        <td>${params.door_service_work_1st_hour}/Hr</td>
-      </tr>
-      <tr>
-        <td>Service Work<br>2nd Hour or more</td>
-        <td>${params.door_service_work_2nd_hour}/Hr</td>
-      </tr>
-      <tr>
-        <td>Emergency Booking</td>
-        <td>${params.door_emergency}/Hr</td>
-      </tr>
-      <tr>
-        <td>Door Assessories</td>
-        <td><a class="btn" href="/assets/pdf/door-price.png">Tap here<br>for Prices</a>
-      </tr>
-    
-      <tr>
-        <td>Window Assessories</td>
-        <td><a class="btn" href="/assets/pdf/door-window-price.png">Tap here<br>for Prices</a>
-      </tr>
-     
-    <thead>
-      <tr>
-       <th><b>Other Charges</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td>Transport Charge<br>Fix Fee</td>
-        <td>${params.door_transport}/Trip</td>
-      </tr>
-       <tr>
-        <td>Service Extension</td>
-        <td>Charge in<br>30-min blocks</td>
-      </tr>
-       <tr>
-        <td>Picking Fee<br>Optional</td>
-        <td>20.0</td>
-      </tr>
-      </tbody>
-  </table>
-  <div class="fineprint">
-    Prices subject to change without prior notice
-  </div>
-</div>
-
-<div class="divider"></div>
-<div class="gap">
-<div class="service-info">
-<h5 class="service-title">Service Info</h5>
- Coming Soon 
- 
-</div>
-</div>
 
 <div class="divider"></div>
 <div class="gap">
