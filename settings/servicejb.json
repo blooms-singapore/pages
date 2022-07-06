@@ -2227,7 +2227,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
-			"MYR": "230",
+			"MYR": "210",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -2245,9 +2245,9 @@
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 0,
+					"min": 1,
 					"max": 1,
-					"default": 0,
+					"default": 1,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
