@@ -178,7 +178,7 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 0,
+					"default": 180,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
