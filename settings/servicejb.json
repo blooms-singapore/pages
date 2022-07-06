@@ -2227,19 +2227,44 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
-			"MYR": "180",
+			"MYR": "230",
 			"CNY": "110"
 		},
 		"hasNote": 1,
 		"options": {
+			
+			"Paint Service Transport": {
+				"handle" : "painting_transport",
+				"label": "Painting Service Transport                                                     RM30/trip",
+				"orderLabel": "Trip (Painting Service Transport)",
+				"description": "Painting Service Transport",
+				"cost": {
+					"SGD": "10",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+			
 			"Survey": {
 				"handle" : "painting_survey",
-				"label": "Painting Survey                                                     RM20/trip",
+				"label": "Painting Survey                                                     Free",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
 					"SGD": "10",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2253,8 +2278,9 @@
 				}
 			},
 
+			
 
-             "Paint Project": {
+            		 "Paint Project": {
 		  		"handle": "paint_project",
 				"label": "Paint Lumpsum Confirmation                                            Per Quotation",
 				"description": "Paint Lumpsum Confirmation",
@@ -2297,12 +2323,12 @@
 									
 			"Paint Day": {
 				"handle": "painting_day",
-				"label": "Daily Painting - 1 Crew                                                   RM350/day",
+				"label": "Daily Painting - 1 Crew                                                   RM400/day",
 				"orderLabel": "Day (Daily Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
-					"MYR": "350",
+					"MYR": "400",
 					"CNY": "0"
 				},
 				"quantity": {
