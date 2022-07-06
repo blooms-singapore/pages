@@ -2227,7 +2227,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
-			"MYR": "210",
+			"MYR": "255",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -2308,7 +2308,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "75",
 					"CNY": "80"
 				},
 				"quantity": {
