@@ -2974,18 +2974,18 @@
 				}
 			 },
 			
-			"Curtain Transport 1 Way": {
-				"handle": "curtain_transport_1way",
-				"label": "Transport 1-Way: Survey & Others                                                         RM30/Trip",
-				"orderLabel": "Trip (Transport 1-Way: Survey & Others)",
+			"Curtain Survey & Measurement": {
+				"handle": "curtain_survey_measurement",
+				"label": "Curtain Survey & Measurement                                                         Free",
+				"orderLabel": "Job (Curtain Survey & Measurement)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
@@ -2993,6 +2993,48 @@
 					"base": 1
 				}
 			 },
+			
+			"Curtain Dismantle": {
+				"handle": "curtain_dismantle",
+				"label": "Curtain Dismantling                                                                   RM35/hr",
+				"orderLabel": "Hour (Curtain Dismantling)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "35",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			
+			"Curtain Install": {
+				"handle": "curtain_install",
+				"label": "Curtain Installation                                                                       RM50/hr",
+				"orderLabel": "Hour (Curtain Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "50",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
 			
 			"Vertical Trim Qty": {
 				"handle": "curtain_vertical_trim",
@@ -3053,70 +3095,7 @@
 					"default": 2.5,
 					"base": 1
 				}
-			 },
-			
-			
-			
-			"Curtain Survey & Measurement": {
-				"handle": "curtain_survey_measurement",
-				"label": "Curtain Survey & Measurement                                                         Free",
-				"orderLabel": "Job (Curtain Survey & Measurement)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			"Curtain Dismantle": {
-				"handle": "curtain_dismantle",
-				"label": "Curtain Dismantling                                                                   RM35/hr",
-				"orderLabel": "Hour (Curtain Dismantling)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "35",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			
-			"Curtain Install": {
-				"handle": "curtain_install",
-				"label": "Curtain Installation                                                                       RM50/hr",
-				"orderLabel": "Hour (Curtain Installation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "50",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			}
+			 }
 		},
 		
 	    "types": {
