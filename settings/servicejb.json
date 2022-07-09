@@ -2949,7 +2949,7 @@
 		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "58",
+			"MYR": "68",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -2974,18 +2974,18 @@
 				}
 			 },
 			
-			"Curtain Survey & Measurement": {
-				"handle": "curtain_survey_measurement",
-				"label": "Curtain Survey & Measurement                                                         Free",
-				"orderLabel": "Job (Curtain Survey & Measurement)",
+			"Curtain Transport 1-Way": {
+				"handle": "curtain_transport_1way",
+				"label": "1-Way Survey only                                                       RM30/trip",
+				"orderLabel": "Trip (1-Way Survey Only)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
@@ -3104,8 +3104,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3119,6 +3119,7 @@
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
