@@ -41,7 +41,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <table>
    <thead> <!--Transport compulsory charge-->
       <tr>
-       <th><b>Transport Fee<br>Trim or Laundry</b></th>
+       <th><b>Transport Fee<br>Laundry & Trim</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -52,10 +52,34 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
       
        <tr>
-        <td>1-Way<br>Survey & Others</td>
+        <td>1-Way<br>Survey Only</td>
         <td>${params.curtain_transport_1way}/Trip</td>
       </tr>
     </tbody>
+
+  <!--Other Charges-->
+    <thead>
+      <tr>
+       <th><b>Curtain Laundry</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Curtain<br>Dismantling</td>
+        <td>${params.curtain_dismantle}/Hr</td>
+      </tr>
+     
+     <tr>
+        <td>Curtain<br>Installation</td>
+        <td>${params.curtain_install}/Hr</td>
+      </tr>
+     
+      <tr>
+        <td>Curtain Laundry</td>
+        <td>Outsource<br>Info in FAQs</td>
+      </tr>
+ 
    
    <!--Trim-->
      <thead> 
@@ -82,42 +106,33 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
      </tbody>
    
     <!--Other Charges-->
-    <thead>
+  <thead>
+       <tbody>
       <tr>
-       <th><b>Other Charges</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
+        <th><b>OTHER<br>CHARGES</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Curtain Survey<br>& Measurement</td>
-        <td>Free</td>
+       <tr>
+        <td>Service<br>Extension</td>
+        <td>Charge in<br>30-min blocks</td>
       </tr>
-     
+      
       <tr>
-        <td>Curtain<br>Dismantling</td>
-        <td>${params.curtain_dismantle}/Hr</td>
+      <td>Condo<br>Surharge</td>
+      <td>10.0</td>
       </tr>
-     
+      
      <tr>
-        <td>Curtain<br>Installation</td>
-        <td>${params.curtain_install}/Hr</td>
+      <td>No-Show<br>Charge</td>
+      <td>40% of Order</td>
       </tr>
-     
-      <tr>
-        <td>Curtain Laundry</td>
-        <td>Outsource<br>Info in FAQs</td>
-      </tr>
-         
-      <tr>
-        <td>Condo Surcharge</td>
-        <td>10.0</td>
-      </tr>
-      </tbody> 
-    </table>
+    </tbody>
+  </table>
   <div class="fineprint">
-    Prices subject to change without prior notice
-  </div>
+  Prices subject to change without prior notice
+</div>
 </div>
    
 
