@@ -20,7 +20,7 @@
     "MYR": 0,
     "CNY": 0
   },
-  "timeBuffer": 900,
+  "timeBuffer": 1260,
   "timeStart": {
     "hour": 9,
     "minutes": 0
