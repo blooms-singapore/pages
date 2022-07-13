@@ -701,12 +701,12 @@
 			
 		"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         RM50/job",
+				"label": "Trouble Shoot                                                         RM20/job",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "50",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
