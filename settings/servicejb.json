@@ -692,7 +692,7 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30
+					"increment": 30,
 					"default": 90,
 					"base": 60
 				}
