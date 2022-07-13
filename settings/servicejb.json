@@ -680,7 +680,7 @@
 			
 			"Tank Wash": {
 				"handle": "tank_wash",
-				"label": "Tank WASH                                            RM100/hr",
+				"label": "Tank WASH                                            RM100/hr                                                 Min 1.5hrs",
 				"orderLabel": "Hour (Tank WASH)",
 				"description": "Label standard",
 				"cost": {
@@ -691,41 +691,20 @@
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
+					"max": 0,
+					"increment": 30
+					"default": 90,
 					"base": 60
 				}
 			},
 			
 		
 			
-			"Tank Repair": {
-				"handle": "tank_repair",
-				"label": "Tank REPAIR                                          RM100/hr",
-				"orderLabel": "Hour (Tank REPAIR)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
 			
-			
-						
 			"Tank Project": {
-				"handle": "plumbing_tank_project",
-				"label": "Tank Lumpsum Work Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tank Lumpsum WorkConfirmation)",
+				"handle": "plumbing_tank_repair",
+				"label": "Tank Lumpsum Repair Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tank Lumpsum Repair Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -745,12 +724,12 @@
 						
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         RM30/job",
+				"label": "Trouble Shoot                                                         RM50/job",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "30",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
