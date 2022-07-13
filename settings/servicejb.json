@@ -3138,7 +3138,7 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "16:00",
-		"disableLocations": ["Johor Bahru", "Nilai - Coming Soon"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "20",
