@@ -638,12 +638,12 @@
 			
 			"Plumbing Lumpsum Survey": {
 				"handle": "plumbing_survey",
-				"label": "Plumbing SURVEY                                               RM30/trip",
+				"label": "Plumbing SURVEY                                               Free",
 				"orderLabel": "Trip (Plumbing SURVEY)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -698,31 +698,8 @@
 				}
 			},
 			
-		
 			
-			
-			"Tank Project": {
-				"handle": "plumbing_tank_repair",
-				"label": "Tank Lumpsum Repair Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tank Lumpsum Repair Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "-30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-						
-			"Trouble Shoot": {
+		"Trouble Shoot": {
 				"handle": "trouble_shoot",
 				"label": "Trouble Shoot                                                         RM50/job",
 				"orderLabel": "Job (Trouble Shoot)",
@@ -739,6 +716,27 @@
 					"increment": 1,
 					"default": 1,
 					"base": 1
+				}
+			},
+			
+			
+			"Tank Repair": {
+				"handle": "plumbing_tank_repair",
+				"label": "Tank Lumpsum Repair Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tank Lumpsum Repair Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "-30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
 				}
 			}
 		},
