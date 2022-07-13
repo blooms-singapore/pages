@@ -382,7 +382,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
-			"MYR": "100",
+			"MYR": "105",
 			"CNY": "50"
 		},
 		"hasNote": 1,
@@ -490,17 +490,35 @@
 				}
 			},
 			
-		
 			
 						
-						
-			"Tank Repair": {
-				"handle": "plumbing_tank_repair",
-				"label": "Tank Lumpsum Repair Confirmation                                           Per Quotation",
+			"Trouble Shoot": {
+				"handle": "trouble_shoot",
+				"label": "Trouble Shoot                                                         RM20/job",
+				"orderLabel": "Job (Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+		"Tank Repair Confirmation": {
+				"handle": "tank_lumpsum_repair_confirmation",
+				"label": "Tank Lumpsum Repair Confirmation                                                         Per Quotation",
 				"orderLabel": "Job (Tank Lumpsum Repair Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "35",
 					"MYR": "-30",
 					"CNY": "0"
 				},
@@ -508,27 +526,6 @@
 					"label": "Job",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-						
-			"Trouble Shoot": {
-				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         RM60/job",
-				"orderLabel": "Job (Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
