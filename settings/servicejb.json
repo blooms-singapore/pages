@@ -3139,7 +3139,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "60",
-			"MYR": "110",
+			"MYR": "90",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -3188,12 +3188,12 @@
 			
 			"Door & Window Hourly": {
 				"handle": "door_window_hour",
-				"label": "Hourly Service                                                     RM80/hr",
+				"label": "Hourly Service                                                     RM60/hr",
 				"orderLabel": "Hour (Hourly Service)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "80",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
