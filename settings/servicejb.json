@@ -3133,15 +3133,13 @@
 	
 		
 	
-	
-		
 	"door-window": {
 		"name": "Door & Window",
-		"lastSlot": "16:00",
+		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "55",
-			"MYR": "20",
+			"SGD": "60",
+			"MYR": "110",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -3149,18 +3147,18 @@
 						
 			"Transport": {
 				"handle": "door_transport",
-				"label": "Transport                                                      RM20",
-				"orderLabel": "Trip (Transport)",
+				"label": "Service Transport Fee                                                 RM30/trip",
+				"orderLabel": "Trip (Service Transport Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "20",
+					"SGD": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
 					"min": 1,
-					"max": 1,
+					"max": 0,
 					"increment": 1,
 					"default": 1,
 					"base": 1
@@ -3169,7 +3167,7 @@
 			
 			"Survey": {
 				"handle": "door_window_survey",
-				"label": "Door or Window Survey",
+				"label": "Door or Window Survey                                          Free",
 				"orderLabel": "Trip (Door / Window Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -3188,34 +3186,14 @@
 			 },
 			
 			
-			"Service Work 1st Hr": {
-				"handle": "door_service_work_1st_hour",
-				"label": "Service Work 1st Hour",
-				"orderLabel": "Hour (Service Work 1st Hour)",
+			"Door & Window Hourly": {
+				"handle": "door_window_hour",
+				"label": "Hourly Service                                                     RM80/hr",
+				"orderLabel": "Hour (Hourly Service)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
+					"SGD": "40",
 					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			 },
-			
-			"Service Work 2nd Hr": {
-				"handle": "door_service_work_2nd_hour",
-				"label": "Service Work 2nd Hour or more",
-				"orderLabel": "Hour (Service Work 2nd Hour or more)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3223,20 +3201,20 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
-			 },			
-			
+			 },
+						
 						
 			"Emergency": {
-				"handle": "door_emergency",
-				"label": "Emergency Booking",
-				"orderLabel": "Trip (Emergency Booking)",
+				"handle": "door_window_emergency",
+				"label": "Emergency                                                              RM120 to 150",
+				"orderLabel": "Trip (Emergency)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
-					"MYR": "100",
+					"SGD": "80",
+					"MYR": "120",
 					"CNY": "0"
 				},
 				"cost_max": {
@@ -3261,21 +3239,22 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium/HDB",
-						"orderLabel": "Condo/HDB Surcharge",
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
+							"SGD": "5",
 							"MYR": "10",
 							"CNY": "10"
 						}
 					},
 					"landed": {
 						"label": "Landed House",
+						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3286,6 +3265,9 @@
 			}
 		}
 	},
+	
+	
+	
 	
 	
 			
