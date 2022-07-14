@@ -2578,8 +2578,8 @@
 			
 			"Survey": {
 				"handle": "locksmith_survey",
-				"label": "Lock Work Survey",
-				"orderLabel": "Trip (Lock Work Survey                                          RM60/trip",
+				"label": "Lock Work Survey                                                    RM60/trip",
+				"orderLabel": "Trip (Lock Work Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
