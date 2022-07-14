@@ -2579,11 +2579,11 @@
 			"Survey": {
 				"handle": "locksmith_survey",
 				"label": "Lock Work Survey",
-				"orderLabel": "Trip (Lock Work Survey                                          RM30/trip)",
+				"orderLabel": "Trip (Lock Work Survey                                          RM60/trip",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
