@@ -1339,7 +1339,7 @@
 	
 		
 	"tiling": {
-		"name": "Tiling & Concrete",
+		"name": "Tiling & Concrete (C)",
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
@@ -2565,7 +2565,7 @@
 	
 		
 	"locksmith": {
-		"name": "Locksmith",
+		"name": "Locksmith (C)",
 		"lastSlot": "16:30",
 		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
