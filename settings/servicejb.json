@@ -2204,7 +2204,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
-			"MYR": "255",
+			"MYR": "270",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -2280,12 +2280,12 @@
 			
 			"Hourly Service": {
 				"handle": "painting_hourly_service",
-				"label": "Hourly Painting - 1 Crew - Min 3Hrs                                                       RM75/hr",
+				"label": "Hourly Painting - 1 Crew - Min 3Hrs                                                       RM80/hr",
 				"orderLabel": "Hour (Hourly Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "75",
+					"MYR": "80",
 					"CNY": "80"
 				},
 				"quantity": {
