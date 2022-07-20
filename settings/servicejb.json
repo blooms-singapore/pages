@@ -1572,95 +1572,6 @@
 		},
 		"hasNote": 1,
 		"options": {
-				
-			
-			"Standard Wash": {
-				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM130/hr",
-				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1Hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			
-			"Chemical Overhaul": {
-				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1Hr                                                RM130/hr",
-				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1Hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "130",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			
-		"Cassette Chemical Overhaul": {
-				"handle": "aircon_cassette",
-				"label": "Cassette Chemical Overhaul - Min 1.5Hrs                                                   RM200/hr",
-				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5Hrs)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "200",
-					"CNY": "310"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
-				}
-			},
-			
-			
-		"Compressor Service & Wash": {
-				"handle": "aircon_compressor_service",
-				"label": "Aircon Compressor Service + Wash                                                  RM130/hr",
-				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "130",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-			
-									
-			
-			
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
@@ -1702,6 +1613,99 @@
 					"base": 60
 				}
 			},
+			
+			
+				
+			
+			"Standard Wash": {
+				"handle": "aircon_standard_hour",
+				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM130/hr",
+				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
+			
+			"Chemical Overhaul": {
+				"handle": "aircon_chemical_wash",
+				"label": "Wall-Mount Chemical Overhaul - Min 1hr                                             RM130/hr",
+				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
+		"Cassette Chemical Overhaul": {
+				"handle": "aircon_cassette",
+				"label": "Cassette Chemical Overhaul - Min 1.5hrs                                                   RM200/hr",
+				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5hrs)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "200",
+					"CNY": "310"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 90,
+					"base": 60
+				}
+			},
+			
+			
+		"Compressor Service & Wash": {
+				"handle": "aircon_compressor_service",
+				"label": "Aircon Compressor Service + Wash                                                  RM130/hr",
+				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
+					"base": 60
+				}
+			},
+			
+									
+			
+			
+			
+			
 			
 			"AC Leak": {
 				"handle": "aircon_leak",
