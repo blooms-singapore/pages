@@ -90,18 +90,18 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
       <tr>
         <td>2 units</td>
-        <td>${(params.aircon_chemical_wash * 2.5).toFixed(1)}
-        <p>Up to 2.5hrs</td>
-      </tr>
-      <tr>
-        <td>3 units</td>
         <td>${(params.aircon_chemical_wash * 3.5).toFixed(1)}
         <p>Up to 3.5hrs</td>
       </tr>
       <tr>
-        <td>4 units</td>
-        <td>${(params.aircon_chemical_wash * 4.5).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
+        <td>3 units</td>
+        <td>${(params.aircon_chemical_wash * 4.5).toFixed(1)}
         <p>Up to 4.5hrs</td>
+      </tr>
+      <tr>
+        <td>4 units</td>
+        <td>${(params.aircon_chemical_wash * 6.0).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
+        <p>Up to 6.0hrs</td>
       </tr>
     </tbody>
     
@@ -144,7 +144,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       
       <tr>
       <td>Service + Wash</td>
-       <td>${params.aircon_compressor_service}/hr<br>Min 0.5hr</td>
+       <td>${params.aircon_compressor_service}/hr<br>Min 1hr</td>
       </tr>
          
      <tr>
@@ -217,6 +217,10 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </thead>
     <tbody>
+       <tr>
+        <td>Transport<br>Fee</td>
+        <td>${params.aircon_transport_fee}/trip</td>
+      </tr>
       <tr>
         <td>Service<br>Extension</td>
         <td>Charge in<br>30-min blocks</td>
