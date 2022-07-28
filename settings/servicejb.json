@@ -1573,14 +1573,36 @@
 		"hasNote": 1,
 		"options": {
 			
+			"AC Transport Fee": {				
+				"handle": "aircon_transport_fee",
+				"label": "Aircon Transport Fee                                                    RM30/trip"
+				"orderLabel": "Trip (Aircon Transport fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
+			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "AC Survey                                                    RM20/trip",
+				"label": "AC Survey                                                    free"
 				"orderLabel": "Trip (AC Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1596,12 +1618,12 @@
 			
 			"AC Fault Trouble Shoot": {
 				"handle": "aircon_fault_trouble_shoot",
-				"label": "AC Fault Trouble-Shoot                                                  RM50/trip",
+				"label": "AC Fault Trouble-Shoot                                                  RM20/trip",
 				"orderLabel": "Job (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "20",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1619,12 +1641,12 @@
 			
 			"Standard Wash": {
 				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM130/hr",
+				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM100/hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "100",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1641,12 +1663,12 @@
 			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1hr                                             RM130/hr",
+				"label": "Wall-Mount Chemical Overhaul - Min 1hr                                             RM100/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "100",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1662,12 +1684,12 @@
 			
 		"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
-				"label": "Cassette Chemical Overhaul - Min 1.5hrs                                                   RM200/hr",
+				"label": "Cassette Chemical Overhaul - Min 1.5hrs                                                   RM150/hr",
 				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "200",
+					"MYR": "150",
 					"CNY": "310"
 				},
 				"quantity": {
@@ -1683,12 +1705,12 @@
 			
 		"Compressor Service & Wash": {
 				"handle": "aircon_compressor_service",
-				"label": "Aircon Compressor Service + Wash                                                  RM130/hr",
+				"label": "Aircon Compressor Service + Wash                                                  RM100/hr",
 				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "100",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1709,12 +1731,12 @@
 			
 			"AC Leak": {
 				"handle": "aircon_leak",
-				"label": "AC Leak - Min 1Hr                                        RM130/hr",
+				"label": "AC Leak - Min 1Hr                                        RM100/hr",
 				"orderLabel": "Hour (AC Leak - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "100",
 					"CNY": "260"
 				},
 				"quantity": {
