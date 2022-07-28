@@ -1572,26 +1572,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			
-			"AC Transport Fee": {				
-				"handle": "aircon_transport_fee",
-				"label": "Aircon Transport Fee                                                    RM30/trip"
-				"orderLabel": "Trip (Aircon Transport fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
+					
 			
 			
 			
