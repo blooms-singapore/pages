@@ -1488,7 +1488,7 @@
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "AC Survey                                                    free"
+				"label": "AC Survey                                                    free",
 				"orderLabel": "Trip (AC Survey)",
 				"description": "Label standard",
 				"cost": {
