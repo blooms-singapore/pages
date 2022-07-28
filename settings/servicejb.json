@@ -2022,32 +2022,7 @@
 					"default": 0,
 					"base": 60
 				}
-			},
-				
-			"Emergency": {
-				"handle": "emergency",
-				"label": "Emergency Booking                                                          RM80/trip",
-				"orderLabel": "Trip (Emergency Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "0",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}	
+			}
 		},
 
 	    "types": {
