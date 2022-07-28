@@ -1712,7 +1712,7 @@
 			
 			"AC Leak": {
 				"handle": "aircon_leak",
-				"label": "AC Leak - Min 1Hr                                        RM100/hr",
+				"label": "AC Leak - Min 1hr                                        RM100/hr",
 				"orderLabel": "Hour (AC Leak - Min 1Hr)",
 				"description": "Label standard",
 				"cost": {
@@ -1731,7 +1731,7 @@
 			},
 			
 						
-			"AC Lumpsum WorksConfirmation": {
+			"AC Lumpsum Works Confirmation": {
 				"handle": "aircon_lumpsum_works_confirmation",
 				"label": "AC Lumpsum Works Confirmation                                            Per Quotation",
 				"orderLabel": "Job (AC Lumpsum Works Confirmation)",
