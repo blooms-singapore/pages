@@ -1070,12 +1070,12 @@
 			
 			"Disposal by Lorry": {
 				"handle": "landscape_disposal_by_lorry",
-				"label": "Disposal by Lorry                                                      RM130/lorry",
+				"label": "Disposal by Lorry                                                      RM150/lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "130",
+					"MYR": "150",
 					"CNY": "20"
 				},
 				"quantity": {
