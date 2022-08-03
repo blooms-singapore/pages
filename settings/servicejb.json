@@ -1180,14 +1180,36 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Survey": {
-				"handle": "survey",
-				"label": "Survey                                                        RM30/trip",
-				"orderLabel": "Trip (Survey)",
+			
+			"Waterproof Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Waterproofing Transport Fee                                                          RM30/trip",
+				"orderLabel": "Trip (Waterproofing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			
+			"Survey": {
+				"handle": "survey",
+				"label": "Survey                                                        Free",
+				"orderLabel": "Trip (Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
