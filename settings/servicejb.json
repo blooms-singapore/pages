@@ -699,6 +699,29 @@
 			},
 			
 			
+			"Tank Repair Ball Float Valve": {
+				"handle": "plumbing_ball_float",
+				"label": "Repair Ball Float Valve                                            RM180/unit",
+				"orderLabel": "Unit (Repair Ball Float Valve)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "180",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
 		"Trouble Shoot": {
 				"handle": "trouble_shoot",
 				"label": "Trouble Shoot                                                         RM20/job",
