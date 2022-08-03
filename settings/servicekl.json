@@ -410,7 +410,7 @@
 			
 			"Standard Plumbing": {
 				"handle": "plumbing_standard",
-				"label": "Standard Plumbing                                              RM75/hr",
+				"label": "Standard Plumbing                                              RM75/hr/crew",
 				"orderLabel": "Hour (Standard Plumbing)",
 				"description": "Label standard",
 				"cost": {
@@ -472,7 +472,7 @@
 			
 			"Tank Wash": {
 				"handle": "tank_wash",
-				"label": "Tank WASH                                              RM110/hr                                                     Min 1.5hrs",
+				"label": "Tank WASH                                              RM110/hr/crew                                                     Min 1.5hrs",
 				"orderLabel": "Hour (Tank WASH)",
 				"description": "Label standard",
 				"cost": {
