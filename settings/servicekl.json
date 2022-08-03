@@ -34,7 +34,7 @@
 			
 			"Installation Standard": {
 				"handle": "installation_standard",
-				"label": "Standard Installation                                                 RM65/hr",
+				"label": "Standard Installation                                                 RM65/hr/crew",
 				"orderLabel": "Hour (Standard Installation)",
 				"description": "Label standard",
 				"cost": {
@@ -55,7 +55,7 @@
          
 			"Installation Technical": {
 				"handle": "installation_technical",
-				"label": "Technical Installation                                                RM80/hr",
+				"label": "Technical Installation                                                RM80/hr/crew",
 				"orderLabel": "Hour (Technical Installation)",
 				"description": "Label standard",
 				"cost": {
