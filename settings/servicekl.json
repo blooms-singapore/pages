@@ -588,14 +588,36 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Survey": {
-				"handle": "waterproofing_survey_kl",
-				"label": "Waterproofing Survey                                                        RM30/trip",
-				"orderLabel": "Trip (Waterproofing Survey)",
+			
+			"Waterproof transport fee": {
+				"handle": "waterproofing_transport_fee",
+				"label": "Waterproofing Transport Fee                                                        RM30/trip",
+				"orderLabel": "Trip (Waterproofing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			
+			"Survey": {
+				"handle": "waterproofing_survey_kl",
+				"label": "Waterproofing Survey                                                         Free",
+				"orderLabel": "Trip (Waterproofing Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -628,30 +650,11 @@
 				}
 			 },
 			
-			"Std Silicon 1st Hr": {
-				"handle": "standard_silicon_first_hour_kl",
-				"label": "Standard Silicon 1st Hr                                                 RM80/hr",
-				"orderLabel": "Hour (Std Silicon 1st Hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
+					
 			"Std Silicon": {
 				"handle": "standard_silicon_kl",
-				"label": "Standard Silicon 1.5Hrs or more                                               RM60/hr",
-				"orderLabel": "Hour (Std Silicon 1.5Hrs or more)",
+				"label": "Standard Silicon                                                  RM60/hr/crew",
+				"orderLabel": "Hour (Standard Silicon)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -668,30 +671,11 @@
 				}
 			 },
 			
-			"Antifungal Silicon 1st Hr": {
-				"handle": "antifungal_silicon_first_hour_kl",
-				"label": "Anti-fungal Silicon 1st Hr                                                         RM100/hr",
-				"orderLabel": "Hour (Anti-fungal Silicon 1st Hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
+					
 			"Antifungal Silicon": {
 				"handle": "antifungal_silicon_kl",
-				"label": "Anti-fungal Silicon 1.5Hrs or more                                                      RM80/hr",
-				"orderLabel": "Hour (Anti-fungal Silicon 1.5Hrs or more)",
+				"label": "Anti-fungal Silicon                                                       RM80/hr/crew",
+				"orderLabel": "Hour (Anti-fungal Silicon)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
