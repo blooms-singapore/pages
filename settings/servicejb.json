@@ -1008,7 +1008,7 @@
 			
 			"Landscape 2 crews": {
 				"handle": "landscape_two_crews",
-				"label": "2 Crews - Large Garden                                              RM70/hr",
+				"label": "2 Crews - Large Garden                                              RM70/hr                                                     Min 3hrs",
 				"orderLabel": "Hours (2 Crews - Large Garden)",
 				"description": "Label standard",
 				"cost": {
@@ -1031,7 +1031,7 @@
 			
 			"Overgrowth Clearance": {
 				"handle": "landscape_overgrowth_clearance",
-				"label": "Overgrowth Clearance - 2 Crews                                     RM90/hr",
+				"label": "Overgrowth Clearance - 2 Crews                                     RM90/hr                                                       Min 3hrs",
 				"orderLabel": "Hour (Overgrowth Clearance - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
@@ -1051,7 +1051,7 @@
 			
 			"Small Debris": {
 				"handle": "small_debris",
-				"label": "Small Disposal Fee                                        RM30",
+				"label": "Small Disposal Fee                                        RM30                                                Up to 3 bags",
 				"orderLabel": "Job (Small Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -1093,7 +1093,7 @@
 			
 			"Disposal by Lorry": {
 				"handle": "landscape_disposal_by_lorry",
-				"label": "Disposal by Lorry                                                      RM150/lorry",
+				"label": "Disposal by Lorry                                                        RM150/lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
 				"cost": {
