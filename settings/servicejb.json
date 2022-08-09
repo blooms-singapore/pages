@@ -2839,6 +2839,27 @@
 		"hasNote": 1,
 		"options": {
 			
+			"Disposal Van Load": {
+				"handle": "disposal_van_load",
+				"label": "Disposal Van Load                                                         RM120/Job",
+				"orderLabel": "Job (Disposal Van Load)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
 			"Disposal Survey": {
 				"handle": "disposal_site_survey",
 				"label": "Disposal Survey                                                         RM30/Trip",
