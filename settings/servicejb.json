@@ -1579,8 +1579,8 @@
 			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1hr                                             RM100/hr",
-				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1hr)",
+				"label": "Wall-Mount Chemical Overhaul - Min 1.5hrs                                             RM100/hr",
+				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -1592,7 +1592,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 60,
+					"default": 90,
 					"base": 60
 				}
 			},
