@@ -2841,12 +2841,12 @@
 			
 			"Disposal Van Load": {
 				"handle": "disposal_van_load",
-				"label": "Disposal Van Load                                                         RM120/Job",
+				"label": "Disposal Van Load                                                         RM100/Job",
 				"orderLabel": "Job (Disposal Van Load)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "120",
+					"MYR": "100",
 					"CNY": "0"
 				},
 				"quantity": {
