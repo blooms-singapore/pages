@@ -926,7 +926,7 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House - 2 Crews                                                        RM25/hr/crew",
+				"label": "Standard Clean Landed House - 2 Crews                                                RM25/hr/crew                                            Min 4hrs",
 				"displayLabel": "Standard Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
 				"description": "Label standard",
@@ -949,7 +949,7 @@
 			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM135/unit",
+				"label": "Festive Clean Very Small Condo - 1 Crew                                              RM135/unit                                            Up to 4hrs",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -972,7 +972,7 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                            RM30/hr/crew",
+				"label": "Festive Clean Condo - 2 Crews                                        RM30/hr/crew                                                    Min 3hrs",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
@@ -995,7 +995,7 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                                       RM30/hr/crew",
+				"label": "Festive Clean Landed House - 2 Crews                                          RM30/hr/crew                                            Min 5hrs",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
