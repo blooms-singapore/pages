@@ -189,7 +189,7 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House - 2 Crews                                                        RM22.5/hr/crew",
+				"label": "Standard Clean Landed House - 2 Crews                                                        RM22.5/hr/crew                                                      Min 4hrs",
 				"displayLabel": "Standard Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
 				"description": "Label standard",
@@ -212,7 +212,7 @@
 			
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM125/unit",
+				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM125/unit                                      Up to 4hrs",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -235,7 +235,7 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                            RM25/hr/crew",
+				"label": "Festive Clean Condo - 2 Crews                                                            RM25/hr/crew                                                  Min 3hrs",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
@@ -258,7 +258,7 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                                       RM25/hr/crew",
+				"label": "Festive Clean Landed House - 2 Crews                                                       RM25/hr/crew                                                       Min 5hrs",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
@@ -284,7 +284,7 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM220/unit",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM220/unit                                                  Up to 5hrs",
 				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
@@ -307,7 +307,7 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                                                          RM30/hr/crew",
+				"label": "Renovation Clean 1-Storey House or Condo                                                          RM30/hr/crew                                                       Min 6hrs",
 				"displayLabel": "Renovation Clean 1-Storey House or Condo",
 				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
 				"description": "Label standard",
@@ -354,7 +354,7 @@
 						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo                                                               RM120/unit",
+				"label": "Move Clean Very Small Condo                                                               RM120/unit                                                   Up to 3.5hrs",
 				"displayLabel": "Move Clean Very Small Condo",
 				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
@@ -377,7 +377,7 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Condo                                                            RM27.5/hr/crew",
+				"label": "Move Clean Condo                                                            RM27.5/hr/crew                                                Min 4hrs",
 				"displayLabel": "Move Clean Condo",
 				"orderLabel": "Hours (Move Clean Condo)",
 				"description": "Label standard",
@@ -400,7 +400,7 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House                                                             RM27.5/hr/crew",
+				"label": "Move Clean Landed House                                                             RM27.5/hr/crew                                                    Min 5hrs",
 				"displayLabel": "Move Clean Landed House",
 				"orderLabel": "Hours (Move Clean Landed House)",
 				"description": "Label standard",
