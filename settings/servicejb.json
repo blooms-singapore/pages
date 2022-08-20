@@ -1,7 +1,7 @@
 {	
 	"installation": {
 		"name": "Installation & Dismantling",
-		"lastSlot": "16:30",
+		"lastSlot": "16:00",
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "85",
@@ -1325,7 +1325,7 @@
 	
 	"electrical": {
 		"name": "Electrical",
-		"lastSlot": "15:00",
+		"lastSlot": "16:00",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
