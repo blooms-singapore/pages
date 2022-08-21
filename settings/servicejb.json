@@ -1157,7 +1157,7 @@
 		
 		"types": {
 			"house": {
-				"label": "Location",
+				"label": "House Location",
 				"description": "Label standard",
 				"values": {
 					"Standard": {
