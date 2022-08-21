@@ -1157,12 +1157,12 @@
 		
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Location",
 				"description": "Label standard",
 				"values": {
-					"landed": {
-						"label": "Standard Locations",
-						"orderLabel": "Standard Locations",
+					"Standard": {
+						"label": "Standard Location",
+						"orderLabel": "Standard Location",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1170,9 +1170,9 @@
 							}
 						},
 						
-					"condo": {
-						"label": "Distant Locations +RM20",
-						"orderLabel": "Distant Locations +RM20",
+					"Distant": {
+						"label": "Distant Location +RM20",
+						"orderLabel": "Distant Location +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
