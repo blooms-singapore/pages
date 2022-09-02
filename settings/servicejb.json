@@ -2394,8 +2394,8 @@
 						
 			"Renovation Project Survey": {
 				"handle": "others_project_survey",
-				"label": "Retrofit or Renovation Project Survey                                                        RM30/trip",
-				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
+				"label": "Retrofit & Renovation Project Survey                                                        RM30/trip",
+				"orderLabel": "Trip (Retrofit & Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
