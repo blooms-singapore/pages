@@ -2414,8 +2414,8 @@
 			
 			"Project Confirmation": {
 				"handle": "others_project",
-				"label": "Retrofit or Renovation Project Confirmation                                             Per Quotation",
-				"orderLabel" : "Job (Retrofit or Renovation Project Confirmation)",
+				"label": "Retrofit & Renovation Project Confirmation                                             Per Quotation",
+				"orderLabel" : "Job (Retrofit & Renovation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
