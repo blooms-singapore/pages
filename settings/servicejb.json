@@ -1600,7 +1600,7 @@
 			
 		"Cassette Wash": {
 				"handle": "aircon_cassette",
-				"label": "Cassette Wash (2 crews) - Min 1.5hrs                                                   RM160/hr",
+				"label": "Cassette Wash (2 crews)                                    Min 1.5hrs                                                   RM160/hr",
 				"orderLabel": "Hour (Cassette Wash (2 crews) - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
