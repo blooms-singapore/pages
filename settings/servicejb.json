@@ -1557,7 +1557,7 @@
 			
 			"Standard Wash": {
 				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash - Min 1Hr                                                 RM100/hr",
+				"label": "Wall-Mount Standard Wash                                            Min 1Hr                                                 RM100/hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1hr)",
 				"description": "Label standard",
 				"cost": {
@@ -1579,7 +1579,7 @@
 			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1.5hrs                                             RM100/hr",
+				"label": "Wall-Mount Chemical Overhaul                                  Min 1.5hrs                                             RM100/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
