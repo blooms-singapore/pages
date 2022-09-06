@@ -1598,10 +1598,10 @@
 			},
 			
 			
-		"Cassette Chemical Overhaul": {
+		"Cassette Wash": {
 				"handle": "aircon_cassette",
-				"label": "Cassette Chemical Overhaul (2 crews) - Min 1.5hrs                                                   RM160/hr",
-				"orderLabel": "Hour (Cassette Chemical Overhaul (2 crews) - Min 1.5hrs)",
+				"label": "Cassette Wash (2 crews) - Min 1.5hrs                                                   RM160/hr",
+				"orderLabel": "Hour (Cassette Wash (2 crews) - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
