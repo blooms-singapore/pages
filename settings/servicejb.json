@@ -320,8 +320,8 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 360,
-					"increment": 60,
+					"default": 300,
+					"increment": 30,
 					"base": 60,
 					"multiplier": 1
 					
