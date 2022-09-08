@@ -307,9 +307,9 @@
 			
 			"Reno Standard House": {
 				"handle": "reno_standard_house",
-				"label": "Renovation Clean 1-Storey House or Condo                                                          RM30/hr/crew                                                       Min 6hrs",
-				"displayLabel": "Renovation Clean 1-Storey House or Condo",
-				"orderLabel": "Hours (Renovation Clean 1-Storey House or Condo)",
+				"label": "Renovation Clean standard 1 to 2 storey House or Condo                                                          RM30/hr/crew                                                       Min 6hrs",
+				"displayLabel": "Renovation Clean standard 1 to 2 Storey House or Condo",
+				"orderLabel": "Hours (Renovation Clean Standard House or Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
