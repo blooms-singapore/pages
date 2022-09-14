@@ -1826,7 +1826,7 @@
 						"label": "Condo/HDB +SGD5",
 						"orderLabel": "Condo/HDB +SGD5",
 						"cost": {
-							"SGD": "",
+							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
