@@ -1776,8 +1776,8 @@
 		"hasNote": 1,
 		"options": {
 						
-			"Renovation Project Survey": {
-				"handle": "others_project_survey",
+			"SG Renovation Project Survey": {
+				"handle": "sg_renovation_project_survey",
 				"label": "Retrofit or Renovation Project Survey",
 				"orderLabel": "Job (Retrofit or Renovation Project Survey)",
 				"description": "Label standard",
