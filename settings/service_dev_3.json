@@ -1778,8 +1778,8 @@
 						
 			"SG Renovation Project Survey": {
 				"handle": "sg_renovation_project_survey",
-				"label": "Retrofit or Renovation Project Survey",
-				"orderLabel": "Job (Retrofit or Renovation Project Survey)",
+				"label": "Retrofit or Renovation Project Survey                                                   SGD20/trip",
+				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1787,7 +1787,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
