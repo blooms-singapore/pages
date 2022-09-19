@@ -11,25 +11,7 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Electrical Transport": {
-				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                                    SGD20/trip",
-				"orderLabel": "Trip (Electrical Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 60,
-					"default": 1,
-					"base": 60
-				}
-			},
+			
 			
 			
 			"Electrical Survey": {
