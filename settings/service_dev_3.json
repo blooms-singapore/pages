@@ -1797,14 +1797,38 @@
 		},
 		"hasNote": 1,
 		"options": {
+			
 						
-			"SG Renovation Project Survey": {
-				"handle": "sg_renovation_project_survey",
-				"label": "Retrofit or Renovation Project Survey                                                   SGD20/trip",
-				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
+			"SG Renovation Transport": {
+				"handle": "sg_renovation_transport",
+				"label": "Retrofit or Renovation Transport Fee                                                   SGD20/trip",
+				"orderLabel": "Trip (Retrofit or Renovation Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+						
+			"SG Renovation Project Survey": {
+				"handle": "sg_renovation_project_survey",
+				"label": "Retrofit or Renovation Project Survey                                                   Free",
+				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
 					"MYR": "30",
 					"CNY": "0"
 				},
