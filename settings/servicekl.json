@@ -390,8 +390,8 @@
 			
 			"Plumbing Transport Fee": {
 				"handle": "plumbing_transport",
-				"label": "Plumbing Transport Fee                                         RM30/hr",
-				"orderLabel": "Hour (Plumbing Transport Fee)",
+				"label": "Plumbing Transport Fee                                         RM30/trip",
+				"orderLabel": "Trip (Plumbing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
@@ -399,7 +399,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "trip",
 					"min": 60,
 					"max": 0,
 					"increment": 60,
