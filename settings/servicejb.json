@@ -2017,12 +2017,12 @@
 			
 			"Commercial Roof Survey": {
 				"handle": "commercial_roof_survey",
-				"label": "Commercial Roof Survey                                                RM100/trip",
+				"label": "Commercial Roof Survey                                                RM80/trip",
 				"orderLabel": "Trip (Commercial Roof Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "100",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2359,7 +2359,7 @@
 					},
 
 					"landed": {
-						"label": "Landed House",
+						"label": "Landed House / Commercial",
 						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
@@ -2454,7 +2454,7 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House",
+						"label": "Landed House / Commercial",
 						"orderLabel": "Landed House",
 						"cost": {
 							"SGD": "0",
