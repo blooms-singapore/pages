@@ -391,11 +391,11 @@
 			
 			"Door & Window Hourly": {
 				"handle": "door_window_hour",
-				"label": "Hourly Service                                                     SGD40/hr",
+				"label": "Hourly Service                                                     SGD50/hr",
 				"orderLabel": "Hour (Hourly Service)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "50",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -412,16 +412,16 @@
 						
 			"Emergency": {
 				"handle": "door_window_emergency",
-				"label": "Emergency                                                              SGD80 - 100",
+				"label": "Emergency                                                              SGD120 - 150",
 				"orderLabel": "Trip (Emergency)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "120",
 					"MYR": "100",
 					"CNY": "0"
 				},
 				"cost_max": {
-					"SGD": "100",
+					"SGD": "150",
 					"MYR": "150",
 					"CNY": "0"
 				},
