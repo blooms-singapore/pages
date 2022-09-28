@@ -339,7 +339,7 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "70",
 			"MYR": "20",
