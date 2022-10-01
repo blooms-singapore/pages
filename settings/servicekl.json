@@ -100,7 +100,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "-30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -519,7 +519,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "-30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -742,14 +742,34 @@
 		"hasNote": 1,
 		"options": {
 			
+			"Electrical Transport Fee": {
+				"handle": "electrical_transport",
+				"label": "Electrical Transport Fee                                         RM30/trip",
+				"orderLabel": "Trip (Electrical Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "55",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "trip",
+					"min": 60,
+					"max": 0,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
 			"Electrical Survey": {
 				"handle": "electrical_survey",
-				"label": "Electrical Survey                                                    RM20/trip",
+				"label": "Electrical Survey                                                    Free",
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -784,7 +804,7 @@
 				}
 			},
 			
-			"Electrical Pooject Confirmation": {
+			"Electrical Project Confirmation": {
 				"handle": "major_electrical",
 				"label": "Electrical Lumpsum Work Confirmation                                               Per Quotation",
 				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
