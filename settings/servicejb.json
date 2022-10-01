@@ -99,7 +99,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "-30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -663,7 +663,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "-30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
