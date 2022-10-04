@@ -31,14 +31,14 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
   <table>
     <thead>
       <tr>
-       <th><b>Multiple Crews<Br>Paint Lumpsum</b><br>Labour + Paint</th>
+       <th><b>Multiple Crews<br>Paint Lumpsum</b><br>Labour + Paint</th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
     </thead>
     <tbody>
-     
+     <!--Lumpsum Project-->
       <tr>
-       <td>Transport<br>fee</td>
+       <td>Transport<br>Fee</td>
        <td>${params.painting_sg_transport}/trip</td>
       </tr>
       
@@ -52,27 +52,50 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
        <td>Per Quotation</td>
       </tr>
       
+     <!--HDB Lumpsum-->
      <thead>
-      <tr>
-       <th><b>Multiple Crews<Br>Paint Lumpsum</b><br>Labour + Paint</th>
+       <tr>
+       <th><b>Economical HDB<br>Paint Lumpsum</b><br>Labour + Paint</th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
     </thead>
     <tbody>
-     
       <tr>
-       <td>Transport<br>fee</td>
-       <td>${params.painting_sg_transport}/trip</td>
-      </tr>
-      
-      <tr>
-       <td>Survey<br>Provide Quotation<br> in 1-3 work days</td>
-       <td>${params.painting_sg_survey}/trip</td>
+       <td>2-Room</td>
+       <td>${params.painting_sg_two_room}/unit</td>
       </tr>
      
        <tr>
-       <td>Paint Lumpsum<br>Confirmation</td>
-       <td>Per Quotation</td>
+       <td>3-Room</td>
+       <td>${params.painting_sg_three_room}/unit</td>
+      </tr>
+      
+       <tr>
+       <td>4-Room</td>
+       <td>${params.painting_sg_four_room}/unit</td>
+      </tr>
+      
+       <!--HDB Labour Only-->
+     <thead>
+       <tr>
+       <th><b>Economical HDB<br>Paint Lumpsum</b><br>Labour Only</th>
+       <th><b>Pricing (${params.currency})</b></th>
+       </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>2-Room</td>
+       <td>${params.painting_sg_two_room_labour}/unit</td>
+      </tr>
+     
+       <tr>
+       <td>3-Room</td>
+       <td>${params.painting_sg_three_room-labour}/unit</td>
+      </tr>
+      
+       <tr>
+       <td>4-Room</td>
+       <td>${params.painting_sg_four_room_labour}/unit</td>
       </tr>
       
    
