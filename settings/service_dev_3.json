@@ -530,9 +530,10 @@
 
 
              "Paint Project": {
-		  		"handle": "paint_project",
-				"label": "Paint Lumpsum Confirmation                                            Per Quotation",
-				"description": "Paint Lumpsum Confirmation",
+		  		"handle": "painting_project",
+				"label": "Painting Lumpsum Confirmation                                      Per Quotation",
+		                "orderLabel": "Unit (Painting Lumpsum Confirmation)",
+				"description": "Painting Lumpsum Confirmation",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
@@ -548,11 +549,83 @@
 					"multiplier": 1
 				}
 			},
+			
+			
+			
+		   "HDB 2-Room Labour & Paint": {
+		  		"handle": "painting_hdb_labour_paint_two_room",
+				"label": "HDB 2-Room                                  Labour + Paint                                 SGD900/unit",
+			        "orderLabel": "Unit (HDB 2-Room, Labour + Paint)",
+				"description": "HDB 2-Room, Labour + Paint",
+				"cost": {
+					"SGD": "900",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+		   "HDB 3-Room Labour & Paint": {
+		  		"handle": "painting_hdb_labour_paint_three_room",
+				"label": "HDB 3-Room                                  Labour + Paint                                 SGD1380/unit",
+			        "orderLabel": "Unit (HDB 3-Room, Labour + Paint)",
+				"description": "HDB 3-Room, Labour + Paint",
+				"cost": {
+					"SGD": "900",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
 
+			
+			
+		   "HDB 4-Room Labour & Paint": {
+		  		"handle": "painting_hdb_labour_paint_four_room",
+				"label": "HDB 4-Room                                  Labour + Paint                                 SGD1680/unit",
+			        "orderLabel": "Unit (HDB 4-Room, Labour + Paint)",
+				"description": "HDB 4-Room, Labour + Paint",
+				"cost": {
+					"SGD": "1680",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+			
 			
 			"Hourly Service": {
 				"handle": "painting_hourly_service",
-				"label": "Hourly Painting - 1 Crew                                            Min 3 Hrs",
+				"label": "Hourly Painting - 1 Crew                                            Min 3 hrs",
 				"orderLabel": "Hour (Hourly Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
@@ -569,6 +642,16 @@
 					"base": 60
 				}
 			},
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 									
 			"Paint Day": {
 				"handle": "painting_day",
