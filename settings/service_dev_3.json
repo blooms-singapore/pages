@@ -478,7 +478,7 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "115",
+			"SGD": "132.5",
 			"MYR": "180",
 			"CNY": "110"
 		},
@@ -646,11 +646,11 @@
 			
 		   "HDB 3-Room Labour Only": {
 		  		"handle": "painting_hdb_labour_three_room",
-				"label": "HDB 3-Room                                  Labour Only                                 SGD1000/unit",
+				"label": "HDB 3-Room                                  Labour Only                                 SGD800/unit",
 			        "orderLabel": "Unit (HDB 3-Room, Labour Only)",
 				"description": "HDB 3-Room, Labour Only",
 				"cost": {
-					"SGD": "1000",
+					"SGD": "800",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -669,11 +669,11 @@
 			
 		   "HDB 4-Room Labour Only": {
 		  		"handle": "painting_hdb_labour_four_room",
-				"label": "HDB 4-Room                                  Labour Only                                 SGD1200/unit",
+				"label": "HDB 4-Room                                  Labour Only                                 SGD1000/unit",
 			        "orderLabel": "Unit (HDB 4-Room, Labour Only)",
 				"description": "HDB 4-Room, Labour Only",
 				"cost": {
-					"SGD": "1200",
+					"SGD": "1000",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -693,11 +693,11 @@
 			
 			"Painting Hourly Rate": {
 				"handle": "painting_hourly_rate",
-				"label": "1 Crew Hourly Rate                                         SGD40/hr                       Min 2.5hrs",
+				"label": "1 Crew Hourly Rate                                         SGD45/hr                       Min 2.5hrs",
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "45",
 					"MYR": "60",
 					"CNY": "80"
 				},
