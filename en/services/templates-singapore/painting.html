@@ -23,7 +23,7 @@ layout: service
   <table>
     <thead>
       <tr>
-       <th><b>Multiple Crews<br>Paint Lumpsum</b><br>Labour + Paint</th>
+       <th><b>Misc Project<br>Lumpsum</b><br>Labour + Paint</th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
     </thead>
@@ -35,54 +35,54 @@ layout: service
       </tr>
      
        <tr>
-       <td>Paint Lumpsum<br>Confirmation</td>
+       <td>Paint Project<br>Lumpsum Confirmation</td>
        <td>Per Quotation</td>
       </tr>
       
      <!--HDB Lumpsum-->
      <thead>
        <tr>
-       <th><b>Economical HDB<br>Paint Lumpsum</b><br>Labour + Paint</th>
+       <th><b>Economical HDB<br>Lumpsum</b><br>Labour + Paint</th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
     </thead>
     <tbody>
       <tr>
        <td>2-Room</td>
-       <td>${params.painting_sg_two_room}/unit</td>
+       <td>${params.painting_sg_labour_paint_two_room}/unit</td>
       </tr>
      
        <tr>
        <td>3-Room</td>
-       <td>${params.painting_sg_three_room}/unit</td>
+       <td>${params.painting_sg_labour_paint_three_room}/unit</td>
       </tr>
       
        <tr>
        <td>4-Room</td>
-       <td>${params.painting_sg_four_room}/unit</td>
+       <td>${params.painting_sg_labour_paint_four_room}/unit</td>
       </tr>
       
        <!--HDB Labour Only-->
      <thead>
        <tr>
-       <th><b>Economical HDB<br>Paint Lumpsum</b><br>Labour Only</th>
+       <th><b>Economical HDB<br>Lumpsum</b><br>Labour Only</th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
     </thead>
     <tbody>
       <tr>
        <td>2-Room</td>
-       <td>${params.painting_sg_two_room_labour}/unit</td>
+       <td>${params.painting_sg_labour_two_room}/unit</td>
       </tr>
      
        <tr>
        <td>3-Room</td>
-       <td>${params.painting_sg_three_room_labour}/unit</td>
+       <td>${params.painting_sg_labour_three_room}/unit</td>
       </tr>
       
        <tr>
        <td>4-Room</td>
-       <td>${params.painting_sg_four_room_labour}/unit</td>
+       <td>${params.painting_sg_labour_four_room}/unit</td>
       </tr>
       
    
@@ -184,27 +184,23 @@ layout: service
     
   <div class="wrap-collapsible">
   <input id="collapsible1" class="toggle" type="checkbox">
-  <label for="collapsible1" class="lbl-toggle">Q1 When to choose Hourly Service?</label>
+  <label for="collapsible1" class="lbl-toggle">Q1 When to choose Time-Charge Rated Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>For small paint areas/work and Customers must supply paint. Only 1 crew is assigned to your work, and Blooms provides all paint tools.
-   <br><br>If wall smoothening (plastering) is required, it will take longer time.</p>
+   <p>When customer wants control over their paint quality. 1 skilled crew is assigned to your work.
+   <br><br>If wall plastering is required, it will take longer time.</p>
    </p>
    </div>
    </div>
   
  <div class="wrap-collapsible">
   <input id="collapsible2" class="toggle" type="checkbox">
-  <label for="collapsible2" class="lbl-toggle">Q2 Why hourly or daily service rate?</label>
+  <label for="collapsible2" class="lbl-toggle">Q2 What happens if job cannot be completed within the booked time?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p><ul>
-     <li>For smaller paint works, where Customers only want to paint very small areas, like rooms, doors, windows according to their needs. Customers who want control of the paint quality, colour, brand and wish to purchase theese themselves.</li>
-     <br>
-     <li>Crew pays more attention to tasks and do not rush through jobs. They will set up, execute and clean up the work area properly.</li>
-     <br>
-     <li>If customers decide to improvise and add areas, places to paint, service time can be extended, you know exactly how much more to pay.</li>
-  </ul></p>
+   <p>Customer can opt to extend the service time.
+    <br><br>For hourly rated service, extension is charged at 30-min blocks.
+    <br><br>For daily rated service, extension is by full day or customer can revert to hourly service option.</p>
    </div>
    </div>
 
@@ -217,20 +213,20 @@ layout: service
    </div>
 
   <input id="collapsible4" class="toggle" type="checkbox">
-  <label for="collapsible4" class="lbl-toggle">Q4 For daily service rate, what is the service time?</label>
+  <label for="collapsible4" class="lbl-toggle">Q4 For Daily Rated Service, what is the working time?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Paint crew will arrive about 10am and leave latest 6pm. In between, the crew will take less than 1 hour to have lunch.
-   <br><br>The service time includes setting up the paint area. We encourage customers to prepare it before appointment date, so that more paint work can be done.</p>
+   <p>Paint crew will arrive about 10am and leave latest 6pm. Crew will take about 1 hour to have lunch.
+   <br><br>The service time includes setting up the paint area. We encourage customers to prepare it before appointment date, so that more work can be out into painting.</p>
    </div>
    </div>
  
  
   <input id="collapsible5" class="toggle" type="checkbox">
-  <label for="collapsible5" class="lbl-toggle">Q5 Unsure of time needed for Hourly Service?</label>
+  <label for="collapsible5" class="lbl-toggle">Q5 If you are unsure of time needed required for a paint job?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Just book minimum 3 hours. Blooms charges by actual time use.</p>
+   <p>Book the minimum hours or a Survey.</p>
    </div>
    </div>
  
@@ -238,12 +234,12 @@ layout: service
   <label for="collapsible6" class="lbl-toggle">Q6 I don't know which Service item to book?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Select Survey when in doubt. Upload your photos and input information or requests in our Comment Box. Our Crew will call and visit you to understand your needs.</p>
+   <p>Book a Survey when in doubt. Upload your photos and input information or requests in our Comment Box. Our Crew will call and visit you to understand your needs.</p>
    </div>
    </div>
 
   <input id="collapsible7" class="toggle" type="checkbox">
-  <label for="collapsible7" class="lbl-toggle">Q7 For Paint Project, how do I book and make payment?</label>
+  <label for="collapsible7" class="lbl-toggle">Q7 For Paint Lumpsum work, how do I book and make payment?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>After our crew surveys your house, you will receive a Quote. The booking instructions are in the Quote. If you need help, call our Customer Care to discuss.
@@ -251,9 +247,9 @@ layout: service
 <ul>
  (1) 35% TT deposit to confirm the Project.
  <br>
- (2) 50% TT when work progress is at 50%.
+ (2) 50% TT when work progress is at 50% (negotiable).
  <br>
- (3) 15% by Credit Card upon job completion. Blooms will charge balance through app.
+ (3) 15% by Credit Card upon job completion. Blooms will charge balance through credit card.
    </ul></p>
    </div>
    </div>
@@ -279,7 +275,7 @@ layout: service
   <label for="collapsible10" class="lbl-toggle">Q10 Which item to order if we need to plaster the wall first, then paint?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Book a Survey and tell our crew your requirements. It will be treated as a Paint Project.</p>
+   <p>Book a Survey and tell our crew your requirements. It will be treated as a Paint Lumpsum Project.</p>
    </div>
    </div>
  
