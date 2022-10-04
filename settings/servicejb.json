@@ -120,7 +120,7 @@
 				"values": {
 					"condo": {
 						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10 ",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -546,7 +546,7 @@
 					
 					"Customers tools": {
 						"label": "Customer provides",
-						"orderLabel": "Customer provides",
+						"orderLabel": "Customer provides ",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
