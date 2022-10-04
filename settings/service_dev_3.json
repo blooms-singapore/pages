@@ -553,7 +553,7 @@
 			
 			
 		   "HDB 2-Room Labour & Paint": {
-		  		"handle": "hdb_labourpaint_two_room",
+		  		"handle": "painting_hdb_labour_paint_two_room",
 				"label": "HDB 2-Room                                  Labour + Paint                                 SGD900/unit",
 			        "orderLabel": "Unit (HDB 2-Room, Labour + Paint)",
 				"description": "HDB 2-Room, Labour + Paint",
@@ -576,7 +576,7 @@
 			
 			
 		   "HDB 3-Room Labour & Paint": {
-		  		"handle": "hdb_labourpaint_three_room",
+		  		"handle": "painting_hdb_labour_paint_three_room",
 				"label": "HDB 3-Room                                  Labour + Paint                                 SGD1380/unit",
 			        "orderLabel": "Unit (HDB 3-Room, Labour + Paint)",
 				"description": "HDB 3-Room, Labour + Paint",
@@ -599,7 +599,7 @@
 			
 			
 		   "HDB 4-Room Labour & Paint": {
-		  		"handle": "hdb_labourpaint_four_room",
+		  		"handle": "painting_hdb_labour_paint_four_room",
 				"label": "HDB 4-Room                                  Labour + Paint                                 SGD1680/unit",
 			        "orderLabel": "Unit (HDB 4-Room, Labour + Paint)",
 				"description": "HDB 4-Room, Labour + Paint",
