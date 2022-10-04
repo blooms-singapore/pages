@@ -487,7 +487,7 @@
 			
 			"Painting Transport": {
 				"handle" : "painting_sg_transport",
-				"label": "Transport Fee",
+				"label": "Transport Fee                                           SGD20/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Transport Fee",
 				"cost": {
@@ -507,13 +507,13 @@
 			},
 			
 			
-			"Survey": {
+			"Painting Survey": {
 				"handle" : "painting_survey",
-				"label": "Painting Survey",
+				"label": "Painting Survey                                         Free",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -597,15 +597,15 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condominium or HDB",
-						"orderLabel": "Condo Surcharge",
+						"label": "Condo / HDB +SGD5",
+						"orderLabel": "Condo / HDB +SGD5 ",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "5",
 							"MYR": "10",
 							"CNY": "0"
 						}
