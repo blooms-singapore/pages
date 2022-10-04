@@ -476,7 +476,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
 			"MYR": "180",
@@ -484,6 +484,29 @@
 		},
 		"hasNote": 1,
 		"options": {
+			
+			"Painting Transport": {
+				"handle" : "painting_sg_transport",
+				"label": "Transport Fee",
+				"orderLabel": "Trip (Transport Fee)",
+				"description": "Transport Fee",
+				"cost": {
+					"SGD": "20",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
 			"Survey": {
 				"handle" : "painting_survey",
 				"label": "Painting Survey",
