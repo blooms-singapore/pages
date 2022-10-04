@@ -508,7 +508,7 @@
 			
 			
 			"Painting Survey": {
-				"handle" : "painting_survey",
+				"handle" : "painting_sg_survey",
 				"label": "Painting Survey                                         Free",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
@@ -530,9 +530,9 @@
 
 
              "Paint Project": {
-		  		"handle": "painting_project",
-				"label": "Painting Lumpsum Confirmation                                      Per Quotation",
-		                "orderLabel": "Unit (Painting Lumpsum Confirmation)",
+		  		"handle": "painting_sg_project",
+				"label": "Paint Project Lumpsum Confirmation                                      Per Quotation",
+		                "orderLabel": "Unit (Paint Project Lumpsum Confirmation)",
 				"description": "Painting Lumpsum Confirmation",
 				"cost": {
 					"SGD": "0",
@@ -692,7 +692,7 @@
 			
 			
 			"Painting Hourly Rate": {
-				"handle": "painting_hourly_rate",
+				"handle": "painting_sg_hourly",
 				"label": "1 Crew Hourly Rate                                         SGD45/hr                       Min 2.5hrs",
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
@@ -716,7 +716,7 @@
 			
 									
 			"Painting Daily Rate": {
-				"handle": "painting_daily_rate",
+				"handle": "painting_sg_daily",
 				"label": "1 Crew Daily Rate                                   SGD250/day                               10am to 6pm",
 				"orderLabel": "Day (1 Crew Daily Rate)",
 				"description": "Label standard",
