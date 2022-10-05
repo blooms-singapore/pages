@@ -1,5 +1,95 @@
 {	
-	 "clean-water": {
+	
+		
+	"renovation": {
+		"name": "Retrofit & Renovation",
+		"lastSlot": "15:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "30",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+						
+			"Renovation Project Survey": {
+				"handle": "others_project_survey",
+				"label": "Retrofit & Renovation Project Survey                                                        RM30/trip",
+				"orderLabel": "Trip (Retrofit & Renovation Project Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project Confirmation": {
+				"handle": "others_project",
+				"label": "Retrofit & Renovation Project Confirmation                                             Per Quotation",
+				"orderLabel" : "Job (Retrofit & Renovation Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}			
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / Commercial",
+						"orderLabel": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
 		"disableLocations": ["kuala Lumpur"],
@@ -2374,94 +2464,6 @@
 	
 	
 	
-	
-	"renovation": {
-		"name": "Retrofit & Renovation",
-		"lastSlot": "15:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "20",
-			"MYR": "30",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-						
-			"Renovation Project Survey": {
-				"handle": "others_project_survey",
-				"label": "Retrofit & Renovation Project Survey                                                        RM30/trip",
-				"orderLabel": "Trip (Retrofit & Renovation Project Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Project Confirmation": {
-				"handle": "others_project",
-				"label": "Retrofit & Renovation Project Confirmation                                             Per Quotation",
-				"orderLabel" : "Job (Retrofit & Renovation Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}			
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House / Commercial",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-				
 	
 	
 	"house_diagnosis": {
