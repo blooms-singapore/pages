@@ -251,7 +251,7 @@
 		
 	"aircon": {
 		"name": "Aircon Works",
-		"lastSlot": "16:00",
+		"lastSlot": "16:30",
 		"disableLocations": ["Seremban"],
 		"startPrice": {
 			"SGD": "80",
@@ -522,7 +522,7 @@
 	
 	"installation": {
 		"name": "Installation & Dismantling",
-		"lastSlot": "16:00",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "85",
@@ -1331,7 +1331,7 @@
 			
 	"landscape": {
 		"name": "Landscape",
-		"lastSlot": "15:00",
+		"lastSlot": "15:30",
 		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
@@ -1553,7 +1553,7 @@
 	
 	"waterproof": {
 		"name": "Waterproofing",
-		"lastSlot": "15:00",
+		"lastSlot": "16:00",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "0",
