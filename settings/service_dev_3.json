@@ -339,9 +339,9 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
-			"SGD": "70",
+			"SGD": "90",
 			"MYR": "20",
 			"CNY": "20"
 		},
@@ -395,7 +395,7 @@
 				"orderLabel": "Hour (Hourly Service)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "70",
 					"MYR": "80",
 					"CNY": "0"
 				},
@@ -442,8 +442,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "HDB Parking +SGD5",
-						"orderLabel": "HDB Parking +SGD5",
+						"label": "Condo/HDB +SGD5",
+						"orderLabel": "Condo/HDB +SGD5",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -478,7 +478,7 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "132.5",
+			"SGD": "107.5",
 			"MYR": "180",
 			"CNY": "110"
 		},
@@ -558,7 +558,7 @@
 			        "orderLabel": "Unit (HDB 2-Room, Labour + Paint)",
 				"description": "HDB 2-Room, Labour + Paint",
 				"cost": {
-					"SGD": "900",
+					"SGD": "500",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -581,7 +581,7 @@
 			        "orderLabel": "Unit (HDB 3-Room, Labour + Paint)",
 				"description": "HDB 3-Room, Labour + Paint",
 				"cost": {
-					"SGD": "1380",
+					"SGD": "1280",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -604,7 +604,7 @@
 			        "orderLabel": "Unit (HDB 4-Room, Labour + Paint)",
 				"description": "HDB 4-Room, Labour + Paint",
 				"cost": {
-					"SGD": "1680",
+					"SGD": "1480",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -627,7 +627,7 @@
 			        "orderLabel": "Unit (HDB 2-Room, Labour Only)",
 				"description": "HDB 2-Room, Labour Only",
 				"cost": {
-					"SGD": "500",
+					"SGD": "350",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -650,7 +650,7 @@
 			        "orderLabel": "Unit (HDB 3-Room, Labour Only)",
 				"description": "HDB 3-Room, Labour Only",
 				"cost": {
-					"SGD": "800",
+					"SGD": "600",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -673,7 +673,7 @@
 			        "orderLabel": "Unit (HDB 4-Room, Labour Only)",
 				"description": "HDB 4-Room, Labour Only",
 				"cost": {
-					"SGD": "1000",
+					"SGD": "800",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -697,7 +697,7 @@
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "35",
 					"MYR": "60",
 					"CNY": "80"
 				},
@@ -721,7 +721,7 @@
 				"orderLabel": "Day (1 Crew Daily Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "250",
+					"SGD": "200",
 					"MYR": "350",
 					"CNY": "0"
 				},
@@ -742,8 +742,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo / HDB +SGD5",
-						"orderLabel": "Condo / HDB +SGD5 ",
+						"label": "Condo/HDB +SGD5",
+						"orderLabel": "Condo/HDB +SGD5 ",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
