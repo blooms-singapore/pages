@@ -1164,23 +1164,47 @@
 	
 	"painting": {
 		"name": "Painting",
-		"lastSlot": "14:00",
+		"lastSlot": "15:00",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "115",
-			"MYR": "210",
+			"MYR": "217.5",
 			"CNY": "110"
 		},
 		"hasNote": 1,
 		"options": {
+			"Painting Transport": {
+				"handle" : "painting_transport",
+				"label": "Painting Transport Fee                                       RM30/trip",
+				"orderLabel": "Trip (Painting Transport Fee)",
+				"description": "Painting Transport Fee",
+				"cost": {
+					"SGD": "10",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+			
 			"Survey": {
 				"handle" : "painting_survey",
-				"label": "Painting Survey                                                     RM30/trip",
+				"label": "Painting Survey                                                     Free",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
 					"SGD": "10",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1196,9 +1220,9 @@
 
 
              "Paint Project": {
-		  		"handle": "paint_project",
-				"label": "Paint Lumpsum Confirmation                                            Per Quotation",
-				"description": "Paint Lumpsum Confirmation",
+		  		"handle": "paint_lumpsum_work",
+				"label": "Paint Lumpsum Work Confirmation                                            Per Quotation",
+				"description": "Paint Lumpsum Work Confirmation",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
@@ -1218,12 +1242,12 @@
 			
 			"Hourly Service": {
 				"handle": "painting_hourly_service",
-				"label": "Hourly Painting - 1 Crew - Min 3Hrs                                                       RM70/hr",
-				"orderLabel": "Hour (Hourly Painting - 1 Crew)",
+				"label": "1 Crew Hourly Rate                                       RM75/hr                                    Min 2.5hrs",
+				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "70",
+					"MYR": "75",
 					"CNY": "80"
 				},
 				"quantity": {
@@ -1231,19 +1255,19 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 180,
+					"default": 150,
 					"base": 60
 				}
 			},
 									
 			"Paint Day": {
 				"handle": "painting_day",
-				"label": "Daily Painting - 1 Crew                                                   RM360/day",
+				"label": "1 Crew Daily Rate                                              RM380/day                                    10am to 6pm",
 				"orderLabel": "Day (Daily Painting - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
-					"MYR": "360",
+					"MYR": "380",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1263,8 +1287,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo +RM10",
+						"orderLabel": "Condo +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
