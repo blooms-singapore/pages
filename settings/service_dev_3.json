@@ -475,7 +475,7 @@
 	
 	"painting": {
 		"name": "Painting",
-		"lastSlot": "15:00",
+		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "107.5",
@@ -554,11 +554,11 @@
 			
 		   "HDB 2-Room Labour & Paint": {
 		  		"handle": "painting_hdb_labour_paint_two_room",
-				"label": "HDB 2-Room                                  Labour + Paint                                 SGD900/unit",
+				"label": "HDB 2-Room                                  Labour + Paint                                 SGD600/unit",
 			        "orderLabel": "Unit (HDB 2-Room, Labour + Paint)",
 				"description": "HDB 2-Room, Labour + Paint",
 				"cost": {
-					"SGD": "500",
+					"SGD": "600",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -577,7 +577,7 @@
 			
 		   "HDB 3-Room Labour & Paint": {
 		  		"handle": "painting_hdb_labour_paint_three_room",
-				"label": "HDB 3-Room                                  Labour + Paint                                 SGD1380/unit",
+				"label": "HDB 3-Room                                  Labour + Paint                                 SGD1280/unit",
 			        "orderLabel": "Unit (HDB 3-Room, Labour + Paint)",
 				"description": "HDB 3-Room, Labour + Paint",
 				"cost": {
@@ -600,7 +600,7 @@
 			
 		   "HDB 4-Room Labour & Paint": {
 		  		"handle": "painting_hdb_labour_paint_four_room",
-				"label": "HDB 4-Room                                  Labour + Paint                                 SGD1680/unit",
+				"label": "HDB 4-Room                                  Labour + Paint                                 SGD1480/unit",
 			        "orderLabel": "Unit (HDB 4-Room, Labour + Paint)",
 				"description": "HDB 4-Room, Labour + Paint",
 				"cost": {
@@ -623,11 +623,11 @@
 				
 		   "HDB 2-Room Labour Only": {
 		  		"handle": "painting_hdb_labour_two_room",
-				"label": "HDB 2-Room                                  Labour Only                                 SGD500/unit",
+				"label": "HDB 2-Room                                  Labour Only                                 SGD400/unit",
 			        "orderLabel": "Unit (HDB 2-Room, Labour Only)",
 				"description": "HDB 2-Room, Labour Only",
 				"cost": {
-					"SGD": "350",
+					"SGD": "400",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -646,11 +646,11 @@
 			
 		   "HDB 3-Room Labour Only": {
 		  		"handle": "painting_hdb_labour_three_room",
-				"label": "HDB 3-Room                                  Labour Only                                 SGD800/unit",
+				"label": "HDB 3-Room                                  Labour Only                                 SGD650/unit",
 			        "orderLabel": "Unit (HDB 3-Room, Labour Only)",
 				"description": "HDB 3-Room, Labour Only",
 				"cost": {
-					"SGD": "600",
+					"SGD": "650",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -669,11 +669,11 @@
 			
 		   "HDB 4-Room Labour Only": {
 		  		"handle": "painting_hdb_labour_four_room",
-				"label": "HDB 4-Room                                  Labour Only                                 SGD1000/unit",
+				"label": "HDB 4-Room                                  Labour Only                                 SGD850/unit",
 			        "orderLabel": "Unit (HDB 4-Room, Labour Only)",
 				"description": "HDB 4-Room, Labour Only",
 				"cost": {
-					"SGD": "800",
+					"SGD": "850",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -693,7 +693,7 @@
 			
 			"Painting Hourly Rate": {
 				"handle": "painting_sg_hourly",
-				"label": "1 Crew Hourly Rate                                         SGD45/hr                       Min 2.5hrs",
+				"label": "1 Crew Hourly Rate                                         SGD35/hr                       Min 2.5hrs",
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
@@ -717,7 +717,7 @@
 									
 			"Painting Daily Rate": {
 				"handle": "painting_sg_daily",
-				"label": "1 Crew Daily Rate                                   SGD250/day                               10am to 6pm",
+				"label": "1 Crew Daily Rate                                   SGD200/day                               10am to 6pm",
 				"orderLabel": "Day (1 Crew Daily Rate)",
 				"description": "Label standard",
 				"cost": {
