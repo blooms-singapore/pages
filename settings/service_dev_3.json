@@ -1319,7 +1319,7 @@
 						
 		"Standard Clean Condo & HDB": {
 				"handle": "cleaning_sg_condo_hdb",
-				"label": "1 Crew - Standard Clean                                          Min 3.5 Hours",
+				"label": "1 Crew - Standard Clean                                          Min 3.5hrs",
 				"displayLabel": 1 Crew - Standard Clean",
 				"orderLabel": "Hours (1 Crew - Standard Clean)",
 				"description": "Label standard",
@@ -1341,9 +1341,9 @@
 			},
 			
 			
-		"Standard Clean Landed House": {
-				"handle": "cleaning_sg_landed_house",
-				"label": "1 Crew - Standard Clean                                            Min 6 Hours",
+		"Standard Clean Landed Property": {
+				"handle": "cleaning_sg_landed_property",
+				"label": "1 Crew - Standard Clean                                            Min 6hrs",
 				"displayLabel": "1 Crew - Standard Clean",
 				"orderLabel": "Hours (1 Crew - Standard Clean)",
 				"description": "Label standard",
