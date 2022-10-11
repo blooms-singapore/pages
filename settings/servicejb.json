@@ -682,53 +682,29 @@
 		},
 		"hasNote": 1,
 		"options": {
-				"Project Survey": {
-				"handle": "cleaning_project_survey",
-				"label": "Specialise Cleaning Project Survey                                                        RM20/survey",
-				"displayLabel": "Specialise Cleaning Project Survey",
-				"orderLabel": "Survey (Specialise Cleaning Project Survey)",
+			
+			"Top Up Package": {
+				"handle": "cleaning_topup_package",				
+				"label": "Top Up Package                                               RM1000                                               Bonus RM50",
+				"displayLabel": "Top Up Package",
+				"orderLabel": "Package (Top Up PKG)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "20",
-					"CNY": "82.5"
-				}, 
+					"SGD": "15",
+					"MYR": "1000",
+					"CNY": "15"
+				},
 				"quantity": {
-					"label": "Survey",
-					"min": 0,
-					"max": 0,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Project Confirmation": {
-				"handle": "cleaning_project_confirmation",
-				"label": "Specialise Cleaning Project Confirmation                                                         Per Quotation",
-				"displayLabel": "Specialise Cleaning Project Confirmation",
-				"orderLabel": "Project (Specialise Cleaning Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				}, 
-				"quantity": {
-					"label": "Project",
+					"label": "Package",
 					"min": 0,
 					"max": 1,
-					"default": 0,
+					"default": 1,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
-					
+											
 				}
 			},
-			
 						
 			
 			"Std Clean Condo": {
@@ -990,72 +966,50 @@
 			},
 						
 		
-			
-			"Top Up Package": {
-				"handle": "cleaning_topup_package",				
-				"label": "Top Up Package                                                         RM1000                                                    Bonus RM50",
-				"displayLabel": "Top Up Package",
-				"orderLabel": "Package (Top Up PKG)",
+			"Project Survey": {
+				"handle": "cleaning_project_survey",
+				"label": "Specialise Cleaning Project Survey                                                        RM20/survey",
+				"displayLabel": "Specialise Cleaning Project Survey",
+				"orderLabel": "Survey (Specialise Cleaning Project Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "1000",
-					"CNY": "15"
-				},
+					"SGD": "30",
+					"MYR": "20",
+					"CNY": "82.5"
+				}, 
 				"quantity": {
-					"label": "Package",
+					"label": "Survey",
 					"min": 0,
-					"max": 1,
-					"default": 1,
+					"max": 0,
+					"default": 0,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
-											
+					
 				}
 			},
 			
-			"Ladder Package": {
-				"handle": "cleaning_ladder_package",
-				"label": "Ladder Package                                                          RM900",
-				"displayLabel": "Ladder Package",
-				"orderLabel": "Package (Ladder PKG)",
+			
+			"Project Confirmation": {
+				"handle": "cleaning_project_confirmation",
+				"label": "Specialise Cleaning Project Confirmation                                                         Per Quotation",
+				"displayLabel": "Specialise Cleaning Project Confirmation",
+				"orderLabel": "Project (Specialise Cleaning Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
-					"MYR": "900",
-					"CNY": "10"
-				},
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				}, 
 				"quantity": {
-					"label": "Package",
+					"label": "Project",
 					"min": 0,
 					"max": 1,
 					"default": 0,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
-				}
-			},
-			
-			"Vacuum Package": {
-				"handle": "cleaning_vacuum_package",				
-				"label": "Vacuum Package                                                         RM1080",
-				"displayLabel": "Vacuum Package",
-				"orderLabel": "Package (Vacuum PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "1080",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
+					
 				}
 			}
 		},
