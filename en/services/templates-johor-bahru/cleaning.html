@@ -49,6 +49,20 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 </div>
 <div class="pricing">
   <table>
+    <!--Clean Package-->
+ <thead>
+      <tr>
+        <th><b>CLEANING<br>PACKAGES</b><br>Scroll below<br>for FAQs</th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Top Up<br>Package<br><b>Bonus RM50</b></td>
+        <td>${params.cleaning_topup_package}/package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
+      </tr>
+      </tbody>
+   
     
    <!--Standard Clean-->
      <thead>
@@ -58,7 +72,6 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </thead>
     <tbody>
-     
       <tr>
        <td><b>Condo</b><br>(2BR or more)<br>2 Crews</td>
         <td>${(params.standard_condo * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
@@ -165,33 +178,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>Per Quotation</td>
       </tr>
       </tbody>
-
- <!--Clean Packages-->
- <thead>
-      <tr>
-        <th><b>CLEANING<br>PACKAGES</b><br>Scroll below<br>for FAQs</th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td>Top Up<br>Package<br><b>Bonus RM50</b></td>
-        <td>${params.cleaning_topup_package}/package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
-      </tr>
-      </tbody>
-     
-       <tr>
-         <td>Ladder<br>Package</td>
-         <td>${params.cleaning_ladder_package}/package</td> 
-      </tr>
-      
-      <tr>
-        <td>Vacuum<br>Package</td>
-        <td>${params.cleaning_vacuum_package}/package</td> <!--service_dev3.json - "isPackage" = "true" value, does not multiply lpf.-->
-      </tr>
-  </tbody>
-      
-    
+   
     <thead>
        <tbody>
       <tr>
@@ -303,15 +290,9 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 <div class="divider"></div>
 <div class="gap">
 <div class="service-info">
-  <h5 class="service-title">3 STANDARD CLEANING PACKAGES</h5>
+  <h5 class="service-title">Top-Up Package</h5>
   <br>
 <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning-topup-package-jb.png">
-  <br>
-  <br>
-<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning-ladder-package.png">
-<br>
-<br>
-<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/cleaning-vacuum-package.png">
 </div>
 </div>
 
