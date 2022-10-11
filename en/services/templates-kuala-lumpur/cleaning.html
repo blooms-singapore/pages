@@ -52,8 +52,22 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 </div>
 <div class="pricing">
   <table>
+    <!--TopUp Package-->
+  <thead>
+      <tr>
+        <th><b>CLEANING<br>PACKAGE</b><br>Scroll below<br>for FAQs</th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <td>Top Up<br>Package<br><b>Bonus RM50</b></td>
+         <td>${params.cleaning_topup_package}/Package</td> 
+      </tr>
+    </tbody>
+    
       
-    <!--Standardf Clean-->
+    <!--Standard Clean-->
       <thead>
       <tr>
        <th><b>STANDARD<br>CLEAN</b></th>   
@@ -93,20 +107,6 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>
         <p><b>Landed Property</b><br>2 Crews</p>
         <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min Book 5hrs</td>
-      </tr>
-      </tbody>
-    
-<!--TopUp Package-->
-  <thead>
-      <tr>
-        <th><b>CLEANING<br>PACKAGE</b><br>Scroll below<br>for FAQs</th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td>Top Up<br>Package<br><b>Bonus RM50</b></td>
-         <td>${params.cleaning_topup_package}/Package</td> 
       </tr>
 </tbody>
 
