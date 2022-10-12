@@ -54,50 +54,7 @@
 			
 			
 			
-			"Festive Clean Condo & HDB": {
-				"handle": "cleaning_sg_festive_condo_hdb",
-				"label": "1 Crew - Condo/HDB                                           SGD22/hr                                 Min 4hrs",
-				"orderLabel": "Hour (1 Crew - Condo/HDB)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 240,
-					"base": 60
-				}
-			},
-			
-			
-			
-			
-		"Festive Cleaning Landed Preoperty": {
-				"handle": "cleaning_sg_festive_landed_property",
-				"label": "1 Crew - Landed Property                                         SGD22/hr                                                Min 8hrs",
-				"orderLabel": "Hour (1 Crew - Landed Property )",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "22",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 480,
-					"base": 60
-				}
-			},
-			
-					
+								
 		
 				
 			"Top Up Package": {
