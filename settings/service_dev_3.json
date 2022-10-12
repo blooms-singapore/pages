@@ -12,7 +12,7 @@
 		"options": {
 		"Standard Clean Condo & HDB": {
 				"handle": "cleaning_sg_condo_hdb",
-				"label": "1 Crew - Condo/HDB                                           SGD22/hr                                             Min 3.5hrs",
+				"label": "1 Crew - Condo/HDB                                           SGD22/hr                                             Min 3hrs",
 				"orderLabel": "Hour (1 Crew - Condo/HDB)",
 				"description": "Label standard",
 				"cost": {
@@ -25,17 +25,16 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 210,
+					"default": 180,
 					"base": 60
 				}
 			},
 			
-			
-			
+				
 			
 		"Standard Cleaning Landed Preoperty": {
 				"handle": "cleaning_sg_landed_property",
-				"label": "1 Crew - Landed Property                                         SGD22/hr                                                Min 6hrs",
+				"label": "1 Crew - Landed Property                                         SGD22/hr                                                Min 5hrs",
 				"orderLabel": "Hour (1 Crew - Landed Property )",
 				"description": "Label standard",
 				"cost": {
@@ -46,9 +45,54 @@
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 60,
-					"default": 360,
+					"default": 300,
+					"base": 60
+				}
+			},
+			
+			
+			
+			"Festive Clean Condo & HDB": {
+				"handle": "cleaning_sg_festive_condo_hdb",
+				"label": "1 Crew - Condo/HDB                                           SGD22/hr                                 Min 4hrs",
+				"orderLabel": "Hour (1 Crew - Condo/HDB)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 240,
+					"base": 60
+				}
+			},
+			
+			
+			
+			
+		"Festive Cleaning Landed Preoperty": {
+				"handle": "cleaning_sg_festive_landed_property",
+				"label": "1 Crew - Landed Property                                         SGD22/hr                                                Min 8hrs",
+				"orderLabel": "Hour (1 Crew - Landed Property )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "22",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 480,
 					"base": 60
 				}
 			},
@@ -58,7 +102,7 @@
 				
 			"Top Up Package": {
 				"handle": "cleaning_sg_topup_package",
-				"label": "Cleaning Top-Up Package                                                          SGD500/PKG",
+				"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
 				"orderLabel": "Package (Cleaning Top-Up Package)",
 				"description": "Label standard",
 				"cost": {
