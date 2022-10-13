@@ -12,7 +12,7 @@
 		"options": {
 		"Standard Clean Condo & HDB": {
 				"handle": "cleaning_sg_condo_hdb",
-				"label": "1 Crew - Condo/HDB                                           SGD22/hr                                             Min 3hrs",
+				"label": "1 Crew - Condo/HDB                                           SGD22/hr                                             Min 3.5hrs",
 				"orderLabel": "Hours (1 Crew - Condo/HDB)",
 				"description": "Label standard",
 				"cost": {
@@ -25,7 +25,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 180,
+					"default": 210,
 					"base": 60
 				}
 			},
