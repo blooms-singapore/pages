@@ -659,12 +659,12 @@
 			
 			"Standard Plumbing": {
 				"handle": "plumbing_standard",
-				"label": "Standard Plumbing                                              RM75/hr/crew",
+				"label": "Standard Plumbing                                              RM80/hr/crew",
 				"orderLabel": "Hour (Standard Plumbing)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "75",
+					"MYR": "80",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -743,12 +743,12 @@
 						
 			"Trouble Shoot": {
 				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         RM20/job",
+				"label": "Trouble Shoot                                                         RM30/job",
 				"orderLabel": "Job (Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "20",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
