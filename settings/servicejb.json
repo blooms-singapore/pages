@@ -706,6 +706,30 @@
 				}
 			},
 						
+			"Festive Basket": {
+				"handle": "cleaning_festive_basket",
+				"label": "Festive Basket                                               RM40/unit",
+				"displayLabel": "Festive Basket",
+				"orderLabel": "Units (Festive Basket)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "40",
+					"CNY": "82.5"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+					
+				}
+			},
+			
+			
 			
 			"Std Clean Condo": {
 				"handle": "standard_condo",
