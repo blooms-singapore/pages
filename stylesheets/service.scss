@@ -189,6 +189,20 @@
     .collapsible-content p {
       margin-bottom: 0;
     }
+    
+    .moreText{
+      display:none;
+    }
+    
+    .readMoreButton{
+      padding: 15px 60px;
+      background-color: #fd8f82;
+      color: #000;
+      border: none;
+      outline: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
 
 
     .gap:last-child {
