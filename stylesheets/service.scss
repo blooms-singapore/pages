@@ -195,12 +195,13 @@
     }
     
     .read-more-button {
-      padding: 15px 60px;
+      padding: 15px 15px;
       background-color: #fd8f82;
       color: #fff;
-      border: none;
+      border: solid;
+      border-radius: 2px;
       outline: none;
-      font-size: 15px;
+      font-size: 20px;
       cursor: pointer;
     }
     
