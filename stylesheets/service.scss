@@ -198,13 +198,15 @@
       padding: 15px 15px;
       background-color: #fd8f82;
       color: #fff;
-      border: solid;
-      border-radius: 2px;
+      border: 5px solid #f88f82;
+      border-radius: 5px;
       outline: none;
-      font-size: 20px;
+      font-family: sans-serif;
+      font-size: medium;
       cursor: pointer;
     }
     
+       
     text.show-more.moreText{
       display: inline;}
     
