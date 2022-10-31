@@ -1313,7 +1313,7 @@
 			
 	"landscape": {
 		"name": "Landscape",
-		"lastSlot": "16:00",
+		"lastSlot": "15:00",
 		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
