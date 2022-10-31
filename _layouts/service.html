@@ -1,27 +1,30 @@
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.5, user-scalable=yes" />
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/{{page.layout}}.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=4.5, user-scalable=yes"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/{{page.layout}}.css" />
     <style>
-    .hero{
-      width: 100%;
-    }
+      .hero {
+        width: 100%;
+      }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="/assets/js/bundle.min.js"></script>
-
   </head>
   <body class="layout-{{page.layout}}">
     <div id="app">
-      <img class='hero' v-bind:src="banner" />
-      <div class='content'>
+      <img class="hero" v-bind:src="banner" />
+      <div class="content">
         <h1>{{page.title}}</h1>
 
         <div class="title-body">
-          <div class="subtitle">
-            {{page.subtitle}}
-          </div>
+          <div class="subtitle">{{page.subtitle}}</div>
 
           <!-- <div class="share-container">
             <div class="share-body">
@@ -31,94 +34,92 @@
           </div> -->
         </div>
 
-
         <div class="divider"></div>
 
         <div class="main">
-
           {{content}}
 
           <div class="gap">${uri}</div>
-
         </div>
       </div>
     </div>
 
     <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const currency = urlParams.get("currency") || "MYR";
+      const share_count = urlParams.get("share_count") || 0;
+      console.log("share = ", share_count);
+      const uri = urlParams.get("uri");
+      // const host = uri ? 'http://'+uri : 'https://pages.blooms.sg'
+      const host = "..";
+      const serviceKey = window.location.pathname
+        .split("/")
+        .pop()
+        .replace(".html", "");
 
-    const urlParams = new URLSearchParams(window.location.search)
-    const currency = urlParams.get('currency') || 'MYR'
-    const share_count = urlParams.get('share_count') || 0
-    console.log('share = ' , share_count)
-    const uri = urlParams.get('uri')
-    // const host = uri ? 'http://'+uri : 'https://pages.blooms.sg'
-    const host = '..'
-    const serviceKey = window.location.pathname.split("/").pop().replace('.html', '')
-
-    new Vue({
-      delimiters: ['${', '}'],
-      el: '#app',
-      data () {
-        return {
-          uri: null,
-          currency: currency,
-          serviceKey: serviceKey,
-          share_count : share_count,
-          service: null,
-          options: null,
-          types: null,
-          banner: '/assets/img/banners/'+serviceKey+'.png'
-        }
-      },
-      computed: {
-        params: function() {
-          let newParams = {}
-          for(var key of urlParams.keys())
-          {
-            newParams[key] = urlParams.get(key)
+      new Vue({
+        delimiters: ["${", "}"],
+        el: "#app",
+        data() {
+          return {
+            uri: null,
+            currency: currency,
+            serviceKey: serviceKey,
+            share_count: share_count,
+            service: null,
+            options: null,
+            types: null,
+            banner: "/assets/img/banners/" + serviceKey + ".png",
+          };
+        },
+        computed: {
+          params: function () {
+            let newParams = {};
+            for (var key of urlParams.keys()) {
+              newParams[key] = urlParams.get(key);
+            }
+            return newParams;
+          },
+        },
+        mounted() {
+          function readResponseAsJSON(response) {
+            return response.json();
           }
-          return newParams
-        }
-      },
-      mounted () {
-        function readResponseAsJSON(response) {
-          return response.json();
-        }
 
-        // var root = this
-        // root.uri = uri
-        // fetch('/settings/services.json')
-        // .then(readResponseAsJSON) // 3
-        // .then(function(response) {
-        //   // Do stuff with the response
-        //   var res = response[serviceKey]
-        //   root.service = res
-        //   root.options = _.toArray(res.options)
-        //   root.types = _.toArray(res.types)
-        //   _.each(root.types, (t, k) => {
-        //     console.log('type', k, t)
-        //   })
-        //   console.log('res', root)
-        // })
-        // .catch(function(error) {
-        //   console.log('Looks like there was a problem: \n', error);
-        // });
+          // var root = this
+          // root.uri = uri
+          // fetch('/settings/services.json')
+          // .then(readResponseAsJSON) // 3
+          // .then(function(response) {
+          //   // Do stuff with the response
+          //   var res = response[serviceKey]
+          //   root.service = res
+          //   root.options = _.toArray(res.options)
+          //   root.types = _.toArray(res.types)
+          //   _.each(root.types, (t, k) => {
+          //     console.log('type', k, t)
+          //   })
+          //   console.log('res', root)
+          // })
+          // .catch(function(error) {
+          //   console.log('Looks like there was a problem: \n', error);
+          // });
 
-        // axios
-        //   .get('https://pages.blooms.sg/settings/services.json', {
-        //     headers: {
-        //       'Access-Control-Allow-Origin': '*',
-        //     },
-        //   })
-        //   .then(response => {
-        //
-        //     this.service = response.data[serviceKey]
-        //     this.options = this.service.options
-        //     console.log('res', this.service)
-        //   })
-      }
-    })
+          // axios
+          //   .get('https://pages.blooms.sg/settings/services.json', {
+          //     headers: {
+          //       'Access-Control-Allow-Origin': '*',
+          //     },
+          //   })
+          //   .then(response => {
+          //
+          //     this.service = response.data[serviceKey]
+          //     this.options = this.service.options
+          //     console.log('res', this.service)
+          //   })
+        },
+      });
     </script>
-
+    <script src="/javascript/main.js"></script>
   </body>
 </html>

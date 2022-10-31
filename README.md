@@ -1,12 +1,12 @@
 # Guide
 
-* [Settings](https://github.com/blooms-singapore/pages/tree/master/settings) - Configure app settings
-* [Services](https://github.com/blooms-singapore/pages/tree/master/en/services) - Service content
+- [Settings](https://github.com/blooms-singapore/pages/tree/master/settings) - Configure app settings
+- [Services](https://github.com/blooms-singapore/pages/tree/master/en/services) - Service content
 
 ### Services
 
-- **lastSlot**:  Last service timeslot for the day
-- **startPrice**:  Starting price override. Eg. Start from xxx
+- **lastSlot**: Last service timeslot for the day
+- **startPrice**: Starting price override. Eg. Start from xxx
 - **options**:
   ```
   "standard": { // Specify unique key
@@ -48,19 +48,29 @@
     }
   }
   ```
- 
- ### Price Calculation Examples:
- 
-First thing is find quantity first:  _300 (min) / 60 (options.quantity.base) = 3_
- 
- #### 3 hours standard cleaning (Condo):
- ```
- 180 (min) / 60 (options.quantity.base) x 27.5 (options.cost) + 10 (types...oneOffCost) = 92.5
- ```
- 
-  #### 5 hours deep cleaning (Landed):
- ```
- 300 (min) / 60 (options.quantity.base) x 40 (options.cost) + ((300 (min) / 60 (options.quantity.base)) x 40 (types...cost)) = 400
- ```
- 
- 
+
+### Price Calculation Examples:
+
+First thing is find quantity first: _300 (min) / 60 (options.quantity.base) = 3_
+
+#### 3 hours standard cleaning (Condo):
+
+```
+180 (min) / 60 (options.quantity.base) x 27.5 (options.cost) + 10 (types...oneOffCost) = 92.5
+```
+
+#### 5 hours deep cleaning (Landed):
+
+```
+300 (min) / 60 (options.quantity.base) x 40 (options.cost) + ((300 (min) / 60 (options.quantity.base)) x 40 (types...cost)) = 400
+```
+
+#### how to use show more and show less button
+
+```
+<div class="show-hide-text">
+	<!-- any content goes here -->
+</div>
+
+<button class="read-more-button" >Read More</button>
+```
