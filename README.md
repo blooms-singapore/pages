@@ -72,5 +72,5 @@ First thing is find quantity first: _300 (min) / 60 (options.quantity.base) = 3_
 	<!-- any content goes here -->
 </div>
 
-<button class="read-more-button" >Read More</button>
+<button class="read-more-button" >Show More</button>
 ```
