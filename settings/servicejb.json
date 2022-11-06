@@ -3082,13 +3082,13 @@
 						
 			"Move Very Small Condo": {
 				"handle": "move_small_condo",
-				"label": "Move Clean Very Small Condo                                                               RM120/unit                                                   Up to 3.5hrs",
+				"label": "Move Clean Very Small Condo                                                               RM125/unit                                                   Up to 3.5hrs",
 				"displayLabel": "Move Clean Very Small Condo",
 				"orderLabel": "Unit (Move Clean Very Small Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
-					"MYR": "120",
+					"MYR": "125",
 					"CNY": "82.5"
 				},
 				"quantity": {
