@@ -449,7 +449,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "75",
 			"MYR": "95",
@@ -632,7 +632,7 @@
 			"MYR": "80",
 			"CNY": "150"
 		},
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"hasNote": 1,
 		"options": {
 			
