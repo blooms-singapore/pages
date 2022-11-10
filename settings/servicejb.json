@@ -1745,10 +1745,10 @@
 				}
 			},
 			
-			"Electrical project Confirmation": {
+			"Electrical lumpsum Confirmation": {
 				"handle": "major_electrical",
-				"label": "Electrical Project Confirmation                                               Per Quotation",
-				"orderLabel": "Job (Electrical Project Confirmation)",
+				"label": "Electrical Lumpsum Work Confirmation                                               Per Quotation",
+				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
