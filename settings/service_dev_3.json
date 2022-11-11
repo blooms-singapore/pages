@@ -322,7 +322,7 @@
 				"orderLabel": "Hours (1 Crew - Condo/HDB)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22",
+					"SGD": "25",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -411,14 +411,14 @@
 				"values": {
 					"condo": {
 						"label": "Condo/HDB",
-						"orderLabel": "HDB Parking Surcharge +SGD5",
+						"orderLabel": "Condo/HDB",
 						"cost": {
-							"SGD": "0",
+							"SGD": "25",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
+							"SGD": "5",
 							"MYR": "10",
 							"CNY": "10"
 						}
