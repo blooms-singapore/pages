@@ -1837,11 +1837,12 @@
 		},
 		"hasNote": 1,
 		"options": {
-						
-			"Tiling Survey": {
-				"handle": "tiling_survey",
-				"label": "Tiling Survey                                                              RM30/trip",
-				"orderLabel": "Trip (Tiling Survey)",
+			
+									
+			"Tiling Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Tiling Transport Fee                                                              RM30/trip",
+				"orderLabel": "Trip (Tiling Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1860,8 +1861,32 @@
 			
 		
 
-          		"Tiling Project": {
-				"handle": "tiling_project",
+			"Tiling Survey": {
+				"handle": "tiling_survey",
+				"label": "Tiling Survey                                                              Free",
+				"orderLabel": "Trip (Tiling Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+          						
+			
+		
+
+          		"Tiling Lumpsum Confirmation": {
+				"handle": "tiling_lumpsum",
 				"label": "Tiling Lumpsum Work Confirmation                                           Per Quotation",
 				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
 				"description": "Label standard",
