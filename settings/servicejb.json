@@ -1909,12 +1909,12 @@
 			
 			"Tiling Non-Waterproof": {
 				"handle": "nonwaterproof_min_order",
-				"label": "Tile Non-Waterproof Works - Min 1.5hrs                                                 RM140/hr",
+				"label": "Tile Non-Waterproof Works - Min 1.5hrs                                                 RM120/hr",
 				"orderLabel": "Hour (Tile Non-Waterproof Works - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "140",
+					"MYR": "120",
 					"CNY": "50"
 				},
 				"quantity": {
