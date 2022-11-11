@@ -2013,14 +2013,18 @@
 			},
 			
 			
+			
+			
+			
+			
 		"Tiling Dust Protection": {
 				"handle": "tiling_dust_protection",
-				"label": "Tile Dust Protection Survey                                                   RM30/trip",
+				"label": "Tile Dust Protection Survey                                                   Free",
 				"orderLabel": "Trip (Tile Dust Protection Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "50"
 				},
 				"quantity": {
