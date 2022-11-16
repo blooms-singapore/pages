@@ -248,6 +248,8 @@
 		
 		
 	
+	
+	
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "15:00",
@@ -285,7 +287,7 @@
 			
 			"Top Up Package": {
 				"handle": "cleaning_topup_package_jb",
-				"label": "Top-Up Package                                               RM1000                                                       Bonus RM150",
+				"label": "Top-Up Package                                               RM1000                                            Bonus RM150",
 				"displayLabel": "Top-Up Package",
 				"orderLabel": "Package (Top-Up Package)",
 				"description": "Label standard",
@@ -688,6 +690,7 @@
 	
 	
 	
+	
 		
 	"aircon": {
 		"name": "Aircon Works",
@@ -960,6 +963,8 @@
 	
 	
 	
+	
+	
 	"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
@@ -1109,8 +1114,6 @@
 	
 	
 	
-	
-		
 	
 	
 		
@@ -1562,6 +1565,7 @@
 	
 	
 	
+	
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "16:00",
@@ -1689,6 +1693,7 @@
 			}
 		}
 	},
+	
 	
 	
 	
@@ -2238,14 +2243,6 @@
 	
 	
 	
-
-	
-		
-		
-	
-	
-			
-		
 	
 	
 	
