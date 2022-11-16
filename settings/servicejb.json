@@ -262,7 +262,7 @@
 			
 			"Festive Package": {
 				"handle": "cleaning_festive_package",
-				"label": "Festive Package                                               RM540/pkg",
+				"label": "Festive Package                                               RM540",
 				"displayLabel": "Festive Package",
 				"orderLabel": "Package (Festive Package)",
 				"description": "Label standard",
