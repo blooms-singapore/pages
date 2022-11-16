@@ -12,7 +12,7 @@
 		"hasNote": 1,
 		"options": {
 			"Top Up Package": {
-				"handle": "cleaning_topup_package",				
+				"handle": "cleaning_topup_package_kl",				
 				"label": "Top Up Package                                           RM1100                                       Bonus RM50",
 				"displayLabel": "Top Up Package",
 				"orderLabel": "Package (Top Up PKG)",
