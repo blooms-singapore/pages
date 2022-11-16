@@ -284,7 +284,7 @@
 			},
 			
 			"Top Up Package": {
-				"handle": "cleaning_topup_package",
+				"handle": "cleaning_topup_package_jb",
 				"label": "Top-Up Package                                               RM1000                                                       Bonus RM150",
 				"displayLabel": "Top-Up Package",
 				"orderLabel": "Package (Top-Up Package)",
