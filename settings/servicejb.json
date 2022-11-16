@@ -615,31 +615,6 @@
 					"multiplier": 1
 					
 				}
-			},
-			
-			
-			
-			"Top Up Package": {
-				"handle": "cleaning_topup_package",				
-				"label": "Top Up Package                                               RM1000                                               Bonus RM50",
-				"displayLabel": "Top Up Package",
-				"orderLabel": "Package (Top Up PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "1000",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
 			}
 		},
 		
