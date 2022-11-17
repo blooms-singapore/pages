@@ -105,9 +105,80 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </tbody>
     
-    <!--start hide-->
-    <div class = "show-hide-text">
+       
+     <!--Aircon Fault-->
+     <thead>
+      <tr>
+        <th><b>Enquiry &<br>Aircon Fault</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+      <td>Aircon Survey</td>
+       <td>${params.aircon_survey}/trip</td>
+      </tr>
+      
+      
+       <tr>
+        <td>Aircon Fault<br>Trouble-Shoot</td>
+        <td>${params.aircon_fault_trouble_shoot}/job</td>
+      </tr>    
+      
+      <tr>
+      <td>Aircon Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
+      <td>${params.aircon_leak}/hr</td>
+      </tr>
+       
+      <tr>
+      <td>Aircon Lumpsum<br>Works Confirmation</td>
+       <td>Per Quotation</td>
+      </tr>
+          
+        
+     <!-- Miscellaneous Charges-->
+     <thead>
+      <tr>
+        <th><b>Misc Charges</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Transport<br>Fee</td>
+        <td>${params.aircon_transport_fee}/trip</td>
+      </tr>
+      
+      <tr>
+        <td>Service<br>Extension</td>
+        <td>Charge in<br>30-min blocks</td>
+      </tr>
+      <tr>
+       <td>Condo<br>Surcharge</td>
+       <td>10.0</td>
+        
+      </tr>
+        <tr>
+        <td>Weekend<br>Public Holiday</td>
+        <td>Survey Only<br><b>Refer FAQ15</b></td>
+      </tr>
+    </tbody>
+    </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+    </div>
+    </div>
+  
+  
+  
+  <div class = "gap">
+  <div class = "pricing">
     
+ <!--start hide-->
+<div class = "show-hide-text">
+  <table>
+      
     <!--Cassette-->
     <thead>
       <tr>
@@ -160,38 +231,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <td>120.0/unit<br><b>Refer FAQ10</b></td>
       </tr>     
      
-     <!--Aircon Fault-->
-     <thead>
-      <tr>
-        <th><b>Enquiry &<br>Aircon Fault</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-      <td>Aircon Survey</td>
-       <td>${params.aircon_survey}/trip</td>
-      </tr>
-      
-      
-       <tr>
-        <td>Aircon Fault<br>Trouble-Shoot</td>
-        <td>${params.aircon_fault_trouble_shoot}/job</td>
-      </tr>    
-      
-      <tr>
-      <td>Aircon Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
-      <td>${params.aircon_leak}/hr</td>
-      </tr>
-       
-      <tr>
-      <td>Aircon Lumpsum<br>Works Confirmation</td>
-       <td>Per Quotation</td>
-      </tr>
-     
-     
-     
+    
       <!--Installation-->
      <thead>
       <tr>
@@ -215,40 +255,19 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>2.5 hp</td>
         <td>${(params.aircon_install * 3.5).toFixed(1)}<br>Book 3.5hrs</td>
       </tr>
-         
-    
-     <!-- Miscellaneous Charges-->
-     <thead>
-      <tr>
-        <th><b>Misc Charges</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td>Transport<br>Fee</td>
-        <td>${params.aircon_transport_fee}/trip</td>
-      </tr>
-      
-      <tr>
-        <td>Service<br>Extension</td>
-        <td>Charge in<br>30-min blocks</td>
-      </tr>
-      <tr>
-       <td>Condo<br>Surcharge</td>
-       <td>10.0</td>
-        
-      </tr>
-        <tr>
-        <td>Weekend<br>Public Holiday</td>
-        <td>Survey Only<br><b>Refer FAQ15</b></td>
-      </tr>
-    </tbody>
+       
+     </tbody>
     </table>
   <div class="fineprint">
     Prices subject to change without prior notice
     </div>
+    
+    <!--end hide-->
     </div>
+    <button class = "read-more-button">Show More</button>
+    <br>
+    </div> <!--pricing-->
+    </div> <!--gap-->
   
  
  
