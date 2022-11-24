@@ -253,7 +253,7 @@
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "15:00",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "125",
