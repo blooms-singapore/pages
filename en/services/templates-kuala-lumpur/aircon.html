@@ -36,10 +36,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 <div class="pricing">
   <table>
     
-    <!--Standard Wash-->
-    <thead>
-    
-      <!--Chemical Overhaul-->
+    <!--Chemical Overhaul-->
     <thead>
       <tr>
         <th><b>Wall-Mount<br>Chemical Overhaul</b></th>
@@ -70,33 +67,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </tbody>
     
-    <!--Cassette-->
-    <thead>
-      <tr>
-        <th><b>Cassette<br>Chemical Overhaul</b></th>
-        <th><b>Pricing (${params.currency})
-         <br>${params.aircon_cassette}/Hr</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-      <td>1 unit</td>
-      <td>${(params.aircon_cassette * 1.5).toFixed(1)}
-       <br>Up to 1.5hrs</td>
-      </tr>
-      
-     <tr>
-      <td>2 units</td>
-      <td>${(params.aircon_cassette * 2.5).toFixed(1)}
-       <br>Up to 2.5hrs</td>
-      </tr>
-     
-     <tr>
-      <td>3 units</td>
-      <td>${(params.aircon_cassette * 3.5).toFixed(1)}
-       <br>Up to 3.5hrs</td>
-      </tr>
-     
+         
          
      <!--Compressor Service + Wash-->
      <thead>
@@ -151,8 +122,39 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <td>Aircon Lumpsum<br>Works Confirmation</td>
        <td>Per Quotation</td>
       </tr>
+      
+  <div class = "Gap">
+  <div class="pricing">
+    <!--start hide-->
+    <div class = "show-hide-text">
+      
+  <table>
+       <!--Cassette-->
+    <thead>
+      <tr>
+        <th><b>Cassette<br>Chemical Overhaul</b></th>
+        <th><b>Pricing (${params.currency})
+         <br>${params.aircon_cassette}/Hr</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>1 unit</td>
+      <td>${(params.aircon_cassette * 1.5).toFixed(1)}
+       <br>Up to 1.5hrs</td>
+      </tr>
+      
+     <tr>
+      <td>2 units</td>
+      <td>${(params.aircon_cassette * 2.5).toFixed(1)}
+       <br>Up to 2.5hrs</td>
+      </tr>
      
-     
+     <tr>
+      <td>3 units</td>
+      <td>${(params.aircon_cassette * 3.5).toFixed(1)}
+       <br>Up to 3.5hrs</td>
+      </tr>
      
       <!--Installation-->
      <thead>
@@ -200,7 +202,13 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <div class="fineprint">
     Prices subject to change without prior notice
   </div>
-</div>
+      <br>
+    <!--end hide-->
+      </div>
+    <button class = "read-more-button">Shpw More</button>
+      
+    </div> <!--pricing-->
+    </div><!--gap-->
  
  
  
