@@ -383,13 +383,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                            RM25/hr/crew                                                  Min 3hrs",
+				"label": "Festive Clean Condo - 2 Crews                                                            RM28/hr/crew                                                  Min 3hrs",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "50",
+					"MYR": "56",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -406,13 +406,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                                       RM25/hr/crew                                                       Min 5hrs",
+				"label": "Festive Clean Landed House - 2 Crews                                                       RM28/hr/crew                                                       Min 5hrs",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "50",
+					"MYR": "56",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -432,13 +432,13 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM220/unit                                                  Up to 5hrs",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM200/unit                                                  Up to 5hrs",
 				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "130",
-					"MYR": "220",
+					"MYR": "200",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -478,13 +478,13 @@
 			
 			"Reno Big House": {
 				"handle": "reno_big_house",
-				"label": "Renovation Clean Big House                                                              RM500/day",
+				"label": "Renovation Clean Big House                                                              RM450/day",
 				"displayLabel": "Renovation Clean Big House",
 				"orderLabel": "Day (Renovation Clean Big House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "450",
-					"MYR": "500",
+					"MYR": "450",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -525,13 +525,13 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Condo                                                            RM27.5/hr/crew                                                Min 4hrs",
+				"label": "Move Clean Condo                                                            RM25/hr/crew                                                Min 4hrs",
 				"displayLabel": "Move Clean Condo",
 				"orderLabel": "Hours (Move Clean Condo)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -548,13 +548,13 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House                                                             RM27.5/hr/crew                                                    Min 5hrs",
+				"label": "Move Clean Landed House                                                             RM25/hr/crew                                                    Min 5hrs",
 				"displayLabel": "Move Clean Landed House",
 				"orderLabel": "Hours (Move Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "55",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
