@@ -671,7 +671,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
-		"disableLocations": ["Seremban"],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "130",
