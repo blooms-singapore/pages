@@ -311,53 +311,7 @@
 			
 						
 			
-			"Std Clean Condo": {
-				"handle": "standard_condo",
-				"label": "Standard Clean Condo - 2 Crews                                               RM22.5/hr/crew                                             Min 3hrs",
-				"displayLabel": "Standard Clean Condo - 2 Crews",
-				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 180,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
-			
-			"Std Clean Landed House": {
-				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House - 2 Crews                                                        RM22.5/hr/crew                                                      Min 4hrs",
-				"displayLabel": "Standard Clean Landed House - 2 Crews",
-				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "45",
-					"CNY": "82.5"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
-					"multiplier": 1
-					
-				}
-			},
-			
+						
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
 				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM125/unit                                      Up to 4hrs",
