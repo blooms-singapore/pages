@@ -451,7 +451,7 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "75",
+			"SGD": "95",
 			"MYR": "95",
 			"CNY": "20"
 		},
@@ -508,7 +508,7 @@
 				"orderLabel": "Hour (Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "65",
+					"SGD": "75",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -565,16 +565,16 @@
 				
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                                                          SGD80 - 100",
+				"label": "Emergency Booking                                                          SGD100 - 150",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "100",
 					"MYR": "80",
 					"CNY": "0"
 				},
 				"cost_max": {
-					"SGD": "100",
+					"SGD": "150",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -679,11 +679,11 @@
          
 			"Installation Technical": {
 				"handle": "installation_technical",
-				"label": "Technical Installation                                                SGD65/hr",
+				"label": "Technical Installation                                                SGD75/hr",
 				"orderLabel": "Hour (Technical Installation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "65",
+					"SGD": "75",
 					"MYR": "70",
 					"CNY": "0"
 				},
@@ -716,6 +716,7 @@
 					"base": 60
 				}
 			},
+			
 			
 			"Project": {
 				"handle": "project",
