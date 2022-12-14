@@ -337,7 +337,7 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                            RM28/hr/crew                                                  Min 3hrs",
+				"label": "Festive Clean Condo - 2 Crews                                                            RM28/hr/crew                                                  Min 3.5hrs",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
@@ -350,7 +350,7 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 180,
+					"default": 210,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
