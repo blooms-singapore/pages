@@ -1242,21 +1242,22 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"ik900": {
-				"handle": "clean_water_ik900",
-				"label": "IK900 with installation                                                 SGD528/set",
-				"orderLabel": "Set (IK900)",
+			
+			"Washing Machine Transport": {
+				"handle": "washing_machine_transport",
+				"label": "Service Transport Fee                                               SGD20/trip",
+				"orderLabel": "Service Transport Fee",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "528",
-					"MYR": "1600",
+					"SGD": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Set",
 					"min": 0,
 					"max": 0,
-					"increment": 1,
+					"increment": 0,
 					"default": 0,
 					"base": 1
 				}
