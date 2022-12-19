@@ -1236,9 +1236,9 @@
 		"lastSlot": "15:30",
 		"disableLocations": ["kuala Lumpur"],
 		"startPrice": {
-			"SGD": "528",
-			"MYR": "1600",
-			"CNY": "20"
+			"SGD": "100",
+			"MYR": "0",
+			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
