@@ -1289,7 +1289,7 @@
 			
 		"Washing Machine Lumpsum Work Confirmation": {
 				"handle": "washing _machine_sg_lumpsum_confirmation",
-				"label": "Machine Lumpsum Work Confirmation                                                        per quotation",
+				"label": "Machine Lumpsum Work Confirmation                                                        Per Quotation",
 				"orderLabel": "Job (Machine Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
