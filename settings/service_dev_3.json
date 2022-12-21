@@ -322,7 +322,7 @@
 				"orderLabel": "Hours (1 Crew - Condo/HDB)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "11",
+					"SGD": "22",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -344,7 +344,7 @@
 				"orderLabel": "Hours (1 Crew - Landed Property )",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "11",
+					"SGD": "22",
 					"MYR": "22",
 					"CNY": "0"
 				},
@@ -413,7 +413,7 @@
 						"label": "Condo/HDB",
 						"orderLabel": "Condo/HDB",
 						"cost": {
-							"SGD": "25",
+							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
