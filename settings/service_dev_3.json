@@ -318,11 +318,11 @@
 		"options": {
 		"Standard Clean Condo & HDB": {
 				"handle": "cleaning_sg_condo_hdb",
-				"label": "1 Crew - Condo/HDB                                           SGD22/hr                                             Min 3.5hrs",
+				"label": "1 Crew - Condo/HDB                                           SGD22/hr/crew                                        Min 3.5hrs",
 				"orderLabel": "Hours (1 Crew - Condo/HDB)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22",
+					"SGD": "11",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -340,11 +340,11 @@
 			
 		"Standard Cleaning Landed Property": {
 				"handle": "cleaning_sg_landed_property",
-				"label": "1 Crew - Landed Property                                         SGD22/hr                                                Min 5hrs",
+				"label": "1 Crew - Landed Property                                         SGD22/hr/crew                                             Min 5hrs",
 				"orderLabel": "Hours (1 Crew - Landed Property )",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22",
+					"SGD": "11",
 					"MYR": "22",
 					"CNY": "0"
 				},
