@@ -1353,20 +1353,42 @@
 		
 	"aircon": {
 		"name": "Aircon Works",
-		"lastSlot": "16:00",
-		"disableLocations": ["Singapore"],
+		"lastSlot": "16:30",
+		"disableLocations": [],
 		"startPrice": {
-			"SGD": "80",
+			"SGD": "100",
 			"MYR": "130",
 			"CNY": "230"
 		},
 		"hasNote": 1,
 		"options": {
 			
-																
+			"AC Transport": {
+				"handle" : "aircon_sg_transport",
+				"label": "Transport Fee                                           SGD20/trip",
+				"orderLabel": "Trip (Transport Fee)",
+				"description": "Transport Fee",
+				"cost": {
+					"SGD": "20",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
 			"Standard Wash": {
 				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash                                       Minimum Booking 1Hr",
+				"label": "Wall-Mount Standard Wash                                       Min 1hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -1379,12 +1401,13 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 0,
+					"default": 60,
 					"base": 60
 				}
 			},
 			
-					
+			
+																			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
 				"label": "Wall-Mount Chemical Overhaul",
@@ -1405,9 +1428,11 @@
 				}
 			},
 			
+						
+			
 			"Compressor Wash": {
 				"handle": "aircon_compressor_wash",
-				"label": "Compressor Wash                                                      Service time depends on site situation",
+				"label": "Compressor Wash                                                  Min 1hr",
 				"orderLabel": "Hour (Compressor Wash)",
 				"description": "Label standard",
 				"cost": {
