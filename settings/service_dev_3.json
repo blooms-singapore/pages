@@ -1387,7 +1387,7 @@
 			
 			
 			"Standard Wash": {
-				"handle": "aircon_standard_hour",
+				"handle": "aircon_standard_wash",
 				"label": "Wall-Mount Standard Wash                                       Min 1hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash)",
 				"description": "Label standard",
