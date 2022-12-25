@@ -1246,7 +1246,7 @@
 			"Washing Machine Transport": {
 				"handle": "washing_machine_sg_transport",
 				"label": "Service Transport Fee                                               SGD20/trip",
-				"orderLabel": "Service Transport Fee",
+				"orderLabel": "Trip (Service Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1254,8 +1254,8 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Set",
-					"min": 0,
+					"label": "Trip",
+					"min": 1,
 					"max": 0,
 					"increment": 0,
 					"default": 0,
@@ -1267,8 +1267,8 @@
 			
 		"Washing Machine Troubleshoot": {
 				"handle": "washing_machine_sg_troubleshoot",
-				"label": "Machine Troubleshoot                                                    SGD30/unit",
-				"orderLabel": "Unit (Machine Troubleshoot)",
+				"label": "Machine Troubleshoot                                                    SGD30/job",
+				"orderLabel": "Job (Machine Troubleshoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -1276,7 +1276,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Unit",
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 0,
