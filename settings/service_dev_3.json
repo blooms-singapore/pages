@@ -1431,9 +1431,9 @@
 						
 			
 			"Compressor Wash": {
-				"handle": "aircon_compressor_wash",
-				"label": "Compressor Wash                                                  Min 1hr",
-				"orderLabel": "Hour (Compressor Wash)",
+				"handle": "aircon_standard_wash",
+				"label": "Compressor Service + Wash                                                 SGD80/hr",
+				"orderLabel": "Hour (Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -1452,7 +1452,7 @@
 			
 									
 			"Cassette Chemical Overhaul": {
-				"handle": "aircon_cassette",
+				"handle": "aircon_standard_wash",
 				"label": "Cassette Chemical Overhaul                               Coming Soon",
 				"orderLabel": "Unit (Cassette Chemical Overhaul)",
 				"description": "Label standard",
@@ -1493,7 +1493,7 @@
 			},
 			
 			"AC Water Leak": {
-				"handle": "aircon_water_leak",
+				"handle": "aircon_standard_wash",
 				"label": "Water Leak - Minimum Booking 1Hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
