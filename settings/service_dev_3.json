@@ -1454,7 +1454,7 @@
 			"Cassette Chemical Overhaul": {
 				"handle": "aircon_cassette",
 				"label": "Cassette Chemical Overhaul                               Coming Soon",
-				"orderLabel": "Hour (Cassette Chemical Overhaul)",
+				"orderLabel": "Unit (Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1462,7 +1462,7 @@
 					"CNY": "310"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Unit",
 					"min": 0,
 					"max": 0,
 					"increment": 30,
