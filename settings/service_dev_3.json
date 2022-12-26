@@ -1410,7 +1410,7 @@
 																			
 			"Chemical Overhaul": {
 				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul",
+				"label": "Wall-Mount Chemical Overhaul                                 Min 1.5hrs                                    SGD80/hr",
 				"orderLabel": "Hours (Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
@@ -1432,7 +1432,7 @@
 			
 			"Compressor Wash": {
 				"handle": "aircon_standard_wash",
-				"label": "Compressor Service + Wash                                                 SGD80/hr",
+				"label": "Compressor Service + Wash                                           SGD80/hr",
 				"orderLabel": "Hour (Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -1494,7 +1494,7 @@
 			
 			"AC Water Leak": {
 				"handle": "aircon_standard_wash",
-				"label": "Water Leak - Min 1hr",
+				"label": "Water Leak                                    Min 1hr",
 				"orderLabel": "Hour (Water Leak)",
 				"description": "Label standard",
 				"cost": {
@@ -1534,7 +1534,7 @@
 			
 			"AC Repair Project Confirmation": {
 				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Repair Project Confirmation",
+				"label": "Aircon Repair Project Confirmation                                       Per Quotation",
 				"orderLabel": "Job (Aircon Repair Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
