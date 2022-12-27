@@ -2,7 +2,7 @@
 	
 		
 	"renovation": {
-		"name": "Retrofit & Renovation",
+		"name": "Retrofit & Renovation (C)",
 		"lastSlot": "15:30",
 		"disableLocations": [],
 		"startPrice": {
@@ -1050,7 +1050,7 @@
 	
 	
 	"plumbing": {
-		"name": "Plumbing",
+		"name": "Plumbing (C)",
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
@@ -1497,7 +1497,7 @@
 	
 	
 	"waterproof": {
-		"name": "Waterproofing",
+		"name": "Waterproofing (C)",
 		"lastSlot": "16:00",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
@@ -2043,7 +2043,7 @@
 	
 	
 	"roof": {
-		"name": "Roof",
+		"name": "Roof (C)",
 		"lastSlot": "15:30",
 		"disableLocations": [],
 		"startPrice": {
@@ -2177,7 +2177,7 @@
 	
 	
 	"home-security": {
-		"name": "Home Security",
+		"name": "Home Security (C)",
 		"lastSlot": "16:00",
 		"disableLocations": [],
 		"startPrice": {
