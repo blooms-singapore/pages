@@ -1325,7 +1325,7 @@
 					"label": "Job",
 					"min": 0,
 					"max": 0,
-					"increment": 0,
+					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
@@ -1336,11 +1336,11 @@
 			
 		"Washing Machine Plumbing Electrical": {
 				"handle": "washing_machine_sg_plumbing_electrical",
-				"label": "Plumbing/Electrical                                           SGD75/hr",
-				"orderLabel": "Hour (Machine Troubleshoot)",
+				"label": "Washing Machine Plumbing/Electrical                                           SGD70/hr",
+				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "75",
+					"SGD": "70",
 					"MYR": "0",
 					"CNY": "0"
 				},
