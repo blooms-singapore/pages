@@ -1335,7 +1335,7 @@
 			
 			
 		"Washing Machine Plumbing Electrical": {
-				"handle": "washing_machine_sg_plumbing_electrical",
+				"handle": "washing_machine_plumbing_electrical",
 				"label": "Washing Machine Plumbing/Electrical                                           SGD70/hr",
 				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
 				"description": "Label standard",
