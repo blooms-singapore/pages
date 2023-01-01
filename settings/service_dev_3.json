@@ -1288,6 +1288,30 @@
 			
 			
 			
+		"Washing Machine Lumpsum Repair Work": {
+				"handle": "washing _machine_lumpsum_repair",
+				"label": "Lumpsum Repair Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Lumpsum Repair Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "168",
+					"CNY": "0"
+				},
+				
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
 		"Washing Machine HookUp New Installation": {
 				"handle": "washing_machine_new_installation",
 				"label": "Hook Up New Installation                                         SGD100/job",
@@ -1350,28 +1374,6 @@
 					"max": 0,
 					"increment": 0.5,
 					"default": 1,
-					"base": 1
-				}
-			},			
-			
-			
-		"Washing Machine Lumpsum Work Confirmation": {
-				"handle": "washing _machine_sg_lumpsum_confirmation",
-				"label": "Machine Lumpsum Work Confirmation                                            Per Quotation",
-				"orderLabel": "Job (Machine Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "168",
-					"CNY": "0"
-				},
-				
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
 					"base": 1
 				}
 			}
