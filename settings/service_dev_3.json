@@ -1333,6 +1333,28 @@
 			
 			
 			
+			
+		"Washing Machine Plumbing Electrical": {
+				"handle": "washing_machine_sg_plumbing_electrical",
+				"label": "Plumbing/Electrical                                           SGD75/hr",
+				"orderLabel": "Hour (Machine Troubleshoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "75",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			},			
+			
+			
 		"Washing Machine Lumpsum Work Confirmation": {
 				"handle": "washing _machine_sg_lumpsum_confirmation",
 				"label": "Machine Lumpsum Work Confirmation                                                        Per Quotation",
