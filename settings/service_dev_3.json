@@ -1290,11 +1290,11 @@
 			
 		"Washing Machine HookUp New Installation": {
 				"handle": "washing_machine_new_installation",
-				"label": "Hook Up New Installation                                         SGD120/job",
+				"label": "Hook Up New Installation                                         SGD100/job",
 				"orderLabel": "Job (Hook Up New Installation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "120",
+					"SGD": "100",
 					"MYR": "0",
 					"CNY": "0"
 				},
