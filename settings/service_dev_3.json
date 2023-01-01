@@ -1278,8 +1278,8 @@
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 0,
-					"increment": 0,
+					"max": 1,
+					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
@@ -1302,8 +1302,8 @@
 					"label": "Job",
 					"min": 0,
 					"max": 0,
-					"increment": 0,
-					"default": 1,
+					"increment": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
