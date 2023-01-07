@@ -337,13 +337,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                            RM28/hr/crew                                                  Min 3.5hrs",
+				"label": "Festive Clean Condo - 2 Crews                                                            RM25/hr/crew                                                  Min 3.5hrs",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "56",
+					"SGD": "50",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -360,13 +360,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                                       RM28/hr/crew                                                       Min 5hrs",
+				"label": "Festive Clean Landed House - 2 Crews                                                       RM25/hr/crew                                                       Min 5hrs",
 				"displayLabel": "Festive Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "56",
+					"SGD": "50",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -386,13 +386,13 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM200/unit                                                  Up to 5hrs",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM180/unit                                                  Up to 5hrs",
 				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "130",
-					"MYR": "200",
+					"SGD": "180",
+					"MYR": "180",
 					"CNY": "82.5"
 				},
 				"quantity": {
