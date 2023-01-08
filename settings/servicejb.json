@@ -2372,7 +2372,7 @@
 			
 			"Hourly Rate": {
 				"handle": "painting_hourly_service",
-				"label": "1 Crew Hourly Rate                                         RM70/hr                                         Min 3hrs",
+				"label": "1 Crew Hourly Rate                                         RM60/hr                                         Min 3hrs",
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
