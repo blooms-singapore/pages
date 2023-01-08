@@ -2295,7 +2295,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
-			"MYR": "240",
+			"MYR": "210",
 			"CNY": "110"
 		},
 		"hasNote": 1,
@@ -2331,7 +2331,7 @@
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -2377,7 +2377,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "70",
+					"MYR": "60",
 					"CNY": "80"
 				},
 				"quantity": {
