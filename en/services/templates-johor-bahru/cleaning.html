@@ -80,11 +80,11 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
      
       <tr>
        <td><b>Condo</b><br>(2BR or more)<br>2 Crews</td>
-        <td>${params.cleaning_standard_condo}/hr</td>
+        <td>${(params.cleaning_standard_condo*0.5).toFixed(1)}/hr/crew<br>Min 2.5hrs</td>
       </tr> 
       <tr>
         <td><b>Landed Property</b><br>2 Crews</td>
-        <td>${params.cleaning_standard_landed}/hr</td>
+        <td>${(params.cleaning_standard_landed*0.5).toFixed(1)}/hr/crew<br>Min 4hrs</td>
       </tr>
      
    
