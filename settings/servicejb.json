@@ -3281,7 +3281,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand. MOQ = MYR100",
-		"disableLocations": ["Kuala Lumpur","Johor Bahru", "Singapore", "Nilai - Coming Soon"],
+		"disableLocations": ["Kuala Lumpur","Johor Bahru"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "100",
