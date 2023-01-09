@@ -640,7 +640,7 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "85",
+			"SGD": "80",
 			"MYR": "95",
 			"CNY": "20"
 		},
@@ -693,11 +693,11 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Minor Electrical Work                                                      SGD65/hr",
+				"label": "Minor Electrical Work                                                      SGD60/hr",
 				"orderLabel": "Hour (Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "65",
+					"SGD": "60",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -817,7 +817,7 @@
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "75",
+			"SGD": "70",
 			"MYR": "80",
 			"CNY": "150"
 		},
@@ -847,11 +847,11 @@
 			
 			"Installation Standard": {
 				"handle": "installation_standard",
-				"label": "Standard Installation                                                   SGD55/hr",
+				"label": "Standard Installation                                                   SGD50/hr",
 				"orderLabel": "Hour (Standard Installation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
+					"SGD": "50",
 					"MYR": "55",
 					"CNY": "0"
 				},
@@ -868,11 +868,11 @@
          
 			"Installation Technical": {
 				"handle": "installation_technical",
-				"label": "Technical Installation                                                SGD65/hr",
+				"label": "Technical Installation                                                SGD60/hr",
 				"orderLabel": "Hour (Technical Installation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "65",
+					"SGD": "60",
 					"MYR": "70",
 					"CNY": "0"
 				},
