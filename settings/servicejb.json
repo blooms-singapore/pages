@@ -1,4 +1,167 @@
 {	
+	"painting": {
+		"name": "Painting",
+		"lastSlot": "15:00",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "115",
+			"MYR": "210",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Paint Service Transport": {
+				"handle" : "painting_transport",
+				"label": "Painting Transport Fee                                                     RM30/trip",
+				"orderLabel": "Trip (Painting Transport Fee)",
+				"description": "Painting Transport Fee",
+				"cost": {
+					"SGD": "10",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+			
+			"Survey": {
+				"handle" : "painting_survey",
+				"label": "Painting Survey                                                     Free",
+				"orderLabel": "Trip (Painting Survey)",
+				"description": "Painting Survey",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+
+			
+
+            		 "Paint Project Confirmation": {
+		  		"handle": "paint_project",
+				"label": "Paint Project Lumpsum Confirmation                                            Per Quotation",
+				"orderLabel": "Job (Paint Project Lumpsum Confirmation)",
+				"description": "Paint Project Lumpsum Confirmation",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+
+			
+			"Hourly Rate": {
+				"handle": "painting_hourly_service",
+				"label": "1 Crew Hourly Rate                                         RM60/hr                                         Min 3hrs",
+				"orderLabel": "Hour (1 Crew Hourly Rate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 180,
+					"base": 60
+				}
+			},
+									
+			"Daily Rate": {
+				"handle": "painting_day",
+				"label": "1 Crew Daily Rate                                            RM370/day                                          10am to 6pm",
+				"orderLabel": "Day (1 Crew Daily Rate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "150",
+					"MYR": "370",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Day",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			}
+		 },
+	
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+
+					"landed": {
+						"label": "Landed House / Commercial",
+						"orderLabel": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "20",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},	
+	
+	
+	
 	
 		
 	"renovation": {
@@ -256,7 +419,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "125",
+			"MYR": "120",
 			"CNY": "195"
 		},
 		"hasNote": 1,
@@ -2335,168 +2498,6 @@
 	},
 	
 	
-	
-	
-	"painting": {
-		"name": "Painting",
-		"lastSlot": "15:00",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "115",
-			"MYR": "210",
-			"CNY": "110"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Paint Service Transport": {
-				"handle" : "painting_transport",
-				"label": "Painting Transport Fee                                                     RM30/trip",
-				"orderLabel": "Trip (Painting Transport Fee)",
-				"description": "Painting Transport Fee",
-				"cost": {
-					"SGD": "10",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			
-			
-			
-			"Survey": {
-				"handle" : "painting_survey",
-				"label": "Painting Survey                                                     Free",
-				"orderLabel": "Trip (Painting Survey)",
-				"description": "Painting Survey",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-
-			
-
-            		 "Paint Project Confirmation": {
-		  		"handle": "paint_project",
-				"label": "Paint Project Lumpsum Confirmation                                            Per Quotation",
-				"orderLabel": "Job (Paint Project Lumpsum Confirmation)",
-				"description": "Paint Project Lumpsum Confirmation",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-
-			
-			"Hourly Rate": {
-				"handle": "painting_hourly_service",
-				"label": "1 Crew Hourly Rate                                         RM60/hr                                         Min 3hrs",
-				"orderLabel": "Hour (1 Crew Hourly Rate)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 180,
-					"base": 60
-				}
-			},
-									
-			"Daily Rate": {
-				"handle": "painting_day",
-				"label": "1 Crew Daily Rate                                            RM370/day                                          10am to 6pm",
-				"orderLabel": "Day (1 Crew Daily Rate)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "150",
-					"MYR": "370",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			}
-		 },
-	
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "10",
-							"CNY": "0"
-						}
-					},
-
-					"landed": {
-						"label": "Landed House / Commercial",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "20",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},	
 	
 	
 	
