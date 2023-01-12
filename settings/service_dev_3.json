@@ -497,7 +497,7 @@
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "77",
 			"MYR": "95",
