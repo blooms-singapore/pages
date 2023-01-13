@@ -251,7 +251,7 @@
 			
 	"installation": {
 		"name": "Installation & Dismantling",
-		"lastSlot": "15:30",
+		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "110",
@@ -627,7 +627,7 @@
 	
 	"plumbing": {
 		"name": "Plumbing",
-		"lastSlot": "15:30",
+		"lastSlot": "16:00",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
@@ -981,7 +981,7 @@
 		
 	"electrical": {
 		"name": "Electrical",
-		"lastSlot": "15:00",
+		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
@@ -1159,7 +1159,7 @@
 	
 	"painting": {
 		"name": "Painting",
-		"lastSlot": "15:00",
+		"lastSlot": "16:00",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "115",
@@ -1321,7 +1321,7 @@
 	
 	"renovation": {
 		"name": "Retrofit & Renovation",
-		"lastSlot": "16:30",
+		"lastSlot": "15:30",
 		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
