@@ -500,7 +500,7 @@
 			
 			"Standard Clean Landed House": {
 				"handle": "cleaning_standard_landed",
-				"label": "Stabdard Clean Landed House - 2 Crews                                                       RM22.5/hr/crew                                                       Min 4hrs",
+				"label": "Standard Clean Landed House - 2 Crews                                                       RM22.5/hr/crew                                                       Min 4hrs",
 				"displayLabel": "Standard Clean Landed House - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
 				"description": "Label standard",
