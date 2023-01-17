@@ -1542,7 +1542,7 @@
 			
 			"Landscape 2 crews": {
 				"handle": "landscape_two_crews",
-				"label": "2 Crews - Large Garden                                              RM70/hr                                                     Min 3hrs",
+				"label": "2 Crews - Large Garden                                              RM75/hr                                                     Min 3hrs",
 				"orderLabel": "Hours (2 Crews - Large Garden)",
 				"description": "Label standard",
 				"cost": {
