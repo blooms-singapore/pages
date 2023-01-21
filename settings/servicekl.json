@@ -267,7 +267,7 @@
 				"orderLabel": "Trip (Installation Transport Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
+					"SGD": "20",
 					"MYR": "45",
 					"CNY": "0"
 				},
