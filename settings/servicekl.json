@@ -639,12 +639,12 @@
 			
 			"Plumbing Transport Fee": {
 				"handle": "plumbing_transport",
-				"label": "Plumbing Transport Fee                                         RM30/trip",
+				"label": "Plumbing Transport Fee                                         RM45/trip",
 				"orderLabel": "Trip (Plumbing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "30",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -840,12 +840,12 @@
 			
 			"Waterproof transport fee": {
 				"handle": "waterproofing_transport_fee",
-				"label": "Waterproofing Transport Fee                                                        RM30/trip",
+				"label": "Waterproofing Transport Fee                                                        RM45/trip",
 				"orderLabel": "Trip (Waterproofing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
