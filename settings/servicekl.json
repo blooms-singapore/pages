@@ -993,12 +993,12 @@
 			
 			"Electrical Transport Fee": {
 				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                         RM30/trip",
+				"label": "Electrical Transport Fee                                         RM45/trip",
 				"orderLabel": "Trip (Electrical Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "30",
+					"MYR": "45",
 					"CNY": "0"
 				},
 				"quantity": {
