@@ -836,7 +836,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
-		"disableLocations":["Johor Bahru"],
+		"disableLocations":[],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "130",
@@ -912,12 +912,12 @@
 			
 			"Standard Wash": {
 				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash                                            Min 1Hr                                                 RM100/hr",
+				"label": "Wall-Mount Standard Wash                                            Min 1hr                                                 RM100/hr",
 				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "100",
+					"MYR": "110",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -939,7 +939,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "100",
+					"MYR": "110",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -981,7 +981,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "100",
+					"MYR": "110",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1007,7 +1007,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "100",
+					"MYR": "110",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1069,8 +1069,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo +RM10",
+						"orderLabel": "Condo +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
