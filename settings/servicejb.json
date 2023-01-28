@@ -833,43 +833,89 @@
 	
 	
 		
-	"aircon": {
+	
+		"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
-		"disableLocations":[],
+		"disableLocations": [],
 		"startPrice": {
-			"SGD": "80",
-			"MYR": "130",
+			"SGD": "65",
+			"MYR": "90",
 			"CNY": "230"
 		},
 		"hasNote": 1,
 		"options": {
-					
-			"AC Transport Fee": {
-				"handle": "aircon_transport_fee",
-				"label": "Aircon Transport Fee                                                    RM30/trip",
-				"orderLabel": "Trip (Aircon Transport Fee)",
-				"description": "Label standard",
+			
+			"AC Transport": {
+				"handle" : "aircon_sg_transport",
+				"label": "Transport Fee                                           RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
+				"description": "Transport Fee",
 				"cost": {
-					"SGD": "10",
+					"SGD": "40",
 					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 60,
-					"max": 60,
-					"increment": 60,
-					"default": 60,
-					"base": 60
+					"min": 1,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
 				}
 			},
 			
 			
+			
+			"Weekdays Standard Wash": {
+				"handle": "aircon_standard_wash_weekdays",
+				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   RM50/unit",
+				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "50",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
+			"Weekends Standard Wash": {
+				"handle": "aircon_standard_wash_weekends",
+				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   RM60/unit",
+				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			},
+			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "AC Survey                                                    Free",
-				"orderLabel": "Trip (AC Survey)",
+				"label": "Aircon Survey                                  Free",
+				"orderLabel": "Job (Aircon Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -877,7 +923,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -887,18 +933,18 @@
 			},
 			
 			
-			"AC Fault Trouble Shoot": {
-				"handle": "aircon_fault_trouble_shoot",
-				"label": "AC Fault Trouble-Shoot                                                  RM20/trip",
-				"orderLabel": "Job (AC Fault Trouble-Shoot)",
+			"AC Trouble Shoot": {
+				"handle": "aircon_sg_troubleshoot",
+				"label": "Aircon Trouble-Shoot                                    RM60/unit",
+				"orderLabel": "Unit (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "20",
+					"SGD": "30",
+					"MYR": "60",
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Unit",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -907,124 +953,32 @@
 				}
 			},
 			
-			
-				
-			
-			"Standard Wash": {
-				"handle": "aircon_standard_hour",
-				"label": "Wall-Mount Standard Wash                                            Min 1hr                                                 RM110/hr",
-				"orderLabel": "Hour (Wall-Mount Standard Wash - Min 1hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "110",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			
-			
-			"Chemical Overhaul": {
-				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul                                  Min 1.5hrs                                             RM110/hr",
-				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1.5hrs)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "110",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
-				}
-			},
-			
-			
-		"Cassette Wash": {
-				"handle": "aircon_cassette",
-				"label": "Cassette Wash (2 crews)                                    Min 1.5hrs                                                   RM160/hr",
-				"orderLabel": "Hour (Cassette Wash (2 crews) - Min 1.5hrs)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "160",
-					"CNY": "310"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
-				}
-			},
-			
-			
-		"Compressor Service & Wash": {
-				"handle": "aircon_compressor_service",
-				"label": "Aircon Compressor Service + Wash                                                  RM110/hr",
-				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "110",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-			
-									
-			
-			
-			
-			
-			
-			"AC Leak": {
+			"AC Water Leak": {
 				"handle": "aircon_leak",
-				"label": "AC Leak - Min 1hr                                        RM110/hr",
-				"orderLabel": "Hour (AC Leak - Min 1Hr)",
+				"label": "Water Leak                                                           RM60/unit",
+				"orderLabel": "Unit (Water Leak)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
-					"MYR": "110",
+					"SGD": "30",
+					"MYR": "60",
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Unit",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
+					"increment": 1,
+					"default": 1,
+					"base": 1
 				}
 			},
 			
-						
-			"AC Lumpsum Works Confirmation": {
-				"handle": "aircon_lumpsum_works_confirmation",
-				"label": "AC Lumpsum Works Confirmation                                            Per Quotation",
-				"orderLabel": "Job (AC Lumpsum Works Confirmation)",
+			
+			
+			"AC Lumosump Work Confirmation": {
+				"handle": "aircon_repair_project_confirmation",
+				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
+				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1042,22 +996,24 @@
 			},
 			
 			
-			"AC Install": {
-				"handle": "aircon_install",
-				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM110/hr",
-				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5Hrs)",
+																			
+				
+			"Compressor Wash": {
+				"handle": "aircon_compressor",
+				"label": "Compressor Service + Wash                                           RM60/unit",
+				"orderLabel": "Unit (Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
-					"MYR": "110",
-					"CNY": "260"
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "300"
 				},
 				"quantity": {
-					"label": "Hours",
+					"label": "Unit",
 					"min": 0,
 					"max": 0,
-					"increment": 0.5,
-					"default": 2.5,
+					"increment": 1,
+					"default": 0,
 					"base": 1
 				}
 			}
@@ -1077,14 +1033,14 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
+							"SGD": "5",
 							"MYR": "10",
 							"CNY": "25"
 						}
 					},
 					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+						"label": "Landed Property",
+						"orderLabel": "Landed Property",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1100,7 +1056,6 @@
 			}
 		}
 	},
-	
 	
 	
 	
