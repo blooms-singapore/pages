@@ -1562,10 +1562,10 @@
 			
 			
 			
-			"AC Repair Project Confirmation": {
+			"AC Lumosump Work Confirmation": {
 				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Repair Project Confirmation                                       Per Quotation",
-				"orderLabel": "Job (Aircon Repair Project Confirmation)",
+				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
+				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
