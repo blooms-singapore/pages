@@ -33,35 +33,21 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <tr>
         <th><b>Wall-Mount<br>Standard Wash</b></th>
         <th><b>Pricing (${params.currency})
-         <br>${params.aircon_standard_wash}/Hr</b></th>
+         <br>${params.aircon_standard_wash}/Unit</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><b>Standard Condo<br>& Landed House</b>
-        <br><br>1 to 3 units</td>
-        <td>${params.aircon_standard_wash}
-        <p>Book 1.0hr</td>
+        <td>HDB & Condo</td>
+        <td>${params.aircon_standard_wash_weekdays}/unit</td>
+      </tr>
+	    
+     <tr>
+        <td>Landed Property</td>
+        <td>${params.aircon_standard_wash_landedproperty_weekdays}/unit</td>
       </tr>
       
-      <tr>
-        <td>4 to 5 units</td>
-        <td>${(params.aircon_standard_wash * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal-->
-       <p>Book 2.0hrs</td>
-      </tr>
-      
-      <tr>
-        <td>Up to 6 units</td>
-        <td>${(params.aircon_standard_wash * 2).toFixed(1)}
-        <p>Book 2.5hrs</td>
-      </tr>
-       <tr>
-        <td>7 to 8 units</td>
-        <td>${(params.aircon_standard_wash * 2.5).toFixed(1)}
-        <p>Book 3.0hrs</td>
-      </tr>
-     </tbody>
-    
+        
     <!--Chemical Overhaul-->
     <thead>
       <tr>
