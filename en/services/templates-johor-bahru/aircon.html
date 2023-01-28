@@ -269,7 +269,8 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 <div class="divider"></div>
 <div class="gap">
 <h5 class="service-title">FAQs</h5>
-    
+  
+ <p class = "text">
   <div class="wrap-collapsible">
   <input id="collapsible1" class="toggle" type="checkbox">
   <label for="collapsible1" class="lbl-toggle">Q1 My Aircon is not working properly or leaking water. Which service do I book?</label>
@@ -278,60 +279,33 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <p>Please select options under "Enquiry & Aircon Fault" section.<br><br>When there is a need for part replacement, our crew will quote the price.</p>
    </div>
    </div>
-
+	  
+  <span class = "more text">
   <input id="collapsible2" class="toggle" type="checkbox">
-  <label for="collapsible2" class="lbl-toggle">Q2 Why does Blooms charge by time?</label>
+  <label for="collapsible2" class="lbl-toggle">Q2 My Aircon issue is not listed in the Price List?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>It is cheaper, flexible & price transparent.
-    <br><br>One fix hourly price - ${params.currency}${params.aircon_standard_hour}/hr, regardless of Aircon sizes (horsepower) & scope.
-   <br><br>Customers can combine different tasks, and only pay for the total time use.</p>
-   </div>
-   </div>
-  <br>
-
-<!--start hide-->
-  <div class = "show-hide-text">
-
- 
-   <input id="collapsible3" class="toggle" type="checkbox">
-  <label for="collapsible3" class="lbl-toggle">Q3 I booked multiple Services, but the combined tasks take less time in actual. Will I be charged the Order amount?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>No. Blooms charges on actual time use. We do not necessarily charge based on Order amount.</p>
+   <p>Book a survey. Our crew will contact you to understand your issue(s) over the phone/video call.</p>
    </div>
    </div>
 
-  <input id="collapsible4" class="toggle" type="checkbox">
-  <label for="collapsible4" class="lbl-toggle">Q4 What if Blooms' crews deliberately delay time?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>Please provide a video evidence, and you'll enjoy a free Service.</p>
-   </div>
-   </div>
+ <br>
+	<!--start hide-->
+	<div class = "show-hide-text">
  
-  <input id="collapsible5" class="toggle" type="checkbox">
-  <label for="collapsible5" class="lbl-toggle">Q5 How do I book a Chemical Overhaul?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>Blooms charges by actual service time.
-   <br><br>For example if you need to overhaul 3 wall-mount units, it can take up to 4.0hrs, depending on the AC size and filth condition.
-   <br><br>Customers can book 4.0hrs and if the actual time used is 3.5hrs, Blooms will charge the lesser time.</p>
-   </div>
-   </div>
- 
-  <input id="collapsible6" class="toggle" type="checkbox">
-  <label for="collapsible6" class="lbl-toggle">Q6 What is the difference between Aircon Survey and Trouble-Shooting?</label>
+   
+  <input id="collapsible3" class="toggle" type="checkbox">
+  <label for="collapsible3" class="lbl-toggle">Q3 What is the difference between Aircon Survey and Trouble-Shooting?</label>
   <div class="collapsible-content">
   <div class="content-inner">
   <p>Aircon Survey is free of charge. Our crews are there to understand the requirements of customers, such as where to install/relocate the AC, or which AC to be dismantled etc. 
-   <br><br>Trouble-Shooting is chargeable at <b>MYR${params.aircon_trouble_shoot}/Job</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
+   <br><br>Trouble-Shooting is chargeable at <b>${params.currency}${params.aircon_sg_troubleshoot}/unit</b> and it requires our crews to inspect in detail, find out fault issues with the Aircon system. Customers are paying for the crew's expertise.
    <br><br>This fee will be waived if customers choose to proceed with the repair.</p>
    </div>
    </div>
 
-  <input id="collapsible7" class="toggle" type="checkbox">
-  <label for="collapsible7" class="lbl-toggle">Q7 I don't know which Service item to book?</label>
+  <input id="collapsible4" class="toggle" type="checkbox">
+  <label for="collapsible4" class="lbl-toggle">Q4 I don't know which Service item to book?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select Aircon Survey when in doubt. Upload photos and write your issues in our comment box.<br><br>Our Customer Care will follow up with you.</p>
@@ -339,47 +313,36 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
    </div>
    
  
-  <input id="collapsible8" class="toggle" type="checkbox">
-  <label for="collapsible8" class="lbl-toggle">Q8 How does Blooms charge for time extensions?</label>
+  <input id="collapsible5" class="toggle" type="checkbox">
+  <label for="collapsible5" class="lbl-toggle">Q5 Outdoor Compressor Service or Wash, is it included in the Chemical Overhaul Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Blooms charges by actual service time, at 30-min blocks. For example, if our crews takes 1hr 10 mins to complete the job, Blooms will charge 1.5hrs.
-     <br><br>Blooms' crews execute their tasks, focusing on quality and efficiency. Depending on site situation, or customers' demands, crews may take more time to complete the tasks.</p>
-   </div>
-   </div>
-  
-   <input id="collapsible9" class="toggle" type="checkbox">
-  <label for="collapsible9" class="lbl-toggle">Q9 Outdoor Compressor Wash, is it included in Chemical Overhaul Service?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>Compressor Wash is not included.
-   <br><br>Service duration depends on assessibility and compressor size. 
-   <br><br>Minimum booking time is 1 hour and is an optional service. </p>
+   <p>Compressor wash is excluded.</p>
    </div>
    </div>
  
-  <input id="collapsible10" class="toggle" type="checkbox">
-  <label for="collapsible10" class="lbl-toggle">Q10 There is no selection for Gas refrigerant top up. How will I know how much to pay?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>There is a price range listed.
-   <br><br>Amount charged depends on a few factors, such as the type of refrigerant used, its quantity required, and the difficulty of the top-up task (location and assesbility of the outdoor compressor).
-   <br><br>Base on site condition, the crew will inform home owners of the price.</p>
-   </div>
-   </div>
- 
-  <input id="collapsible11" class="toggle" type="checkbox">
-  <label for="collapsible11" class="lbl-toggle">Q11 How to book Cassette Chemical Overhaul?</label>
+  <input id="collapsible6" class="toggle" type="checkbox">
+  <label for="collapsible6" class="lbl-toggle">Q6 How to book Cassette Chemical Overhaul?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select any hours within the time range.
    <br><br>Cassette units have different sizes, installed at various heights. Therefore, we are unable to accurately determine the servicing duration.
-   <br><br>Fees will be charged according to the actual time used and will not exceed the maximum hours.</p>
+   <br><br>Fees will be charged according to the actual time used.</p>
+   </div>
+   </div>
+	  
+  <input id="collapsible7" class="toggle" type="checkbox">
+  <label for="collapsible7" class="lbl-toggle">Q7 What is there a charge of SGD5 for HDB & Condominium?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>This charge applies to all multi-level properties, including offices & malls etc. Our crews need to park their vehicle a distant away, in proper car park lot.
+   <br><br>Extra efforts are required to haul the equipment & tools, via lift & security (if applicable), to reach you.
+   <br><br>This charge may also be use to compensate the parking charges, where applicable.</p>
    </div>
    </div>
  
-  <input id="collapsible12" class="toggle" type="checkbox">
-  <label for="collapsible12" class="lbl-toggle">Q12 Is Credit Card payment safe?</label>
+  <input id="collapsible8" class="toggle" type="checkbox">
+  <label for="collapsible8" class="lbl-toggle">Q8 Is Credit Card payment safe?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes, very safe.<br><br>Blooms cannot assess card details and every transcastion is tracked digitally.</p>
@@ -387,47 +350,37 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
    </div>
 
     
-  <input id="collapsible13" class="toggle" type="checkbox">
-  <label for="collapsible13" class="lbl-toggle">Q13 When am I charged when using Credit Card as payment?</label>
+  <input id="collapsible9" class="toggle" type="checkbox">
+  <label for="collapsible9" class="lbl-toggle">Q9 When am I charged when using Credit Card as payment?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service first, Pay later.<br><br>Blooms charges upon completion of work, after issuance of receipt. Not at the point of placing Order.</p>
    </div>
    </div>
 
-  <input id="collapsible14" class="toggle" type="checkbox">
-  <label for="collapsible14" class="lbl-toggle">Q14 Can I book for someone else?</label>
+  <input id="collapsible10" class="toggle" type="checkbox">
+  <label for="collapsible10" class="lbl-toggle">Q10 Can I book for someone else?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes. Add their address, in your account and book choosing their address.<br><br>You have to pay for them as the Service is booked under your account.</p>
    </div>
    </div>
+	  
   
-   <input id="collapsible15" class="toggle" type="checkbox">
-  <label for="collapsible15" class="lbl-toggle">Q15 Weekend or Public holiday booking?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>If the dates are available for booking, they are meant for non-physical work, such as Survey, Discussion on Quotation, Review of Materials or Emergencies.</p>
-   </div>
-   </div>
-      
-  <input id="collapsible16" class="toggle" type="checkbox">
-  <label for="collapsible16" class="lbl-toggle">Q16 How do I cancel a Service?</label>
+  <input id="collapsible11" class="toggle" type="checkbox">
+  <label for="collapsible11" class="lbl-toggle">Q11 How do I cancel a Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service date which is <b>more than 3 days</b> into the future, use the <b>Cancel</b> button at the bottom of Order Confirmation page.
    <br><br>For <b>urgent cancellation</b>, where your Service date is <b>within the next 3 days</b>, please call our Customer Care to inform. There is no cancellation charge.</p>
    </div>
    </div>
-    <br>
-    
-    <!--end hide-->
-    </div>
-    <button class = "read-more-button">Show More</button>
-  <br>
-    
+	  <br>
+	  <!--end hide-->
+	  </div>
+		<button class = "read-more-button">Show More</button>
   </div>
-  </div>
+ </div>
 
   
 <div class="divider"></div>
