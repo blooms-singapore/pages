@@ -35,78 +35,45 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 
 <div class="pricing">
   <table>
-    
+  <!--Transport Fee-->
+   <thead>
+      <tr>
+        <th><b>Miscellaneous<br>Charge</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>Transport Fee</td>
+      <td>${params.aircon_sg_transport}/trip</td>
+      </tr>
+
+     <tr>
+      <td>HDB/Condo</td>
+      <td>5.0</td>
+      </tr>
+ 
+       
     <!--Standard Wash-->
     <thead>
       <tr>
-        <th><b>Wall-Mount<br>Standard Wash<br>1 crew</b></th>
-        <th><b>Pricing (${params.currency})
-         <br>${params.aircon_standard_hour}/Hr</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td><b>Very Small<br>Apartment</b><br>Studio or 1BR</td>
-        <td>Unavailable<br>Book under<br>Chemical Overhaul</td>
-      </tr>
-      <tr>
-        <td><b>Standard Condo<br>& Landed House</b>
-        <br><br>Wash 1, 2 or 3 units</td>
-        <td>${params.aircon_standard_hour}
-        <p>Book 1hr</td>
-      </tr>
-      
-      <tr>
-        <td>Wash 4 to 5 units</td>
-        <td>${(params.aircon_standard_hour * 2.0).toFixed(1)} <!--for hour factor, need to fix decimal-->
-       <p>Book 2.0hrs</td>
-      </tr>
-      
-      <tr>
-        <td>Wash 6 units</td>
-        <td>${(params.aircon_standard_hour * 2.5).toFixed(1)}
-        <p>Book 2.5hrs</td>
-      </tr>
-       <tr>
-        <td>Wash 7 to 8 units</td>
-        <td>${(params.aircon_standard_hour * 3.0).toFixed(1)}
-        <p>Book 3.0hrs</td>
-      </tr>
-     </tbody>
-    
-    <!--Chemical Overhaul-->
-    <thead>
-      <tr>
-        <th><b>Wall-Mount<br>Chemical Overhaul<br>1 crew</b></th>
-        <th><b>Pricing (${params.currency})
-         <br>${params.aircon_chemical_wash}/hr</b></th>
+        <th><b>Wall-Mount<br>Standard Wash</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1 unit</td>
-        <td>${(params.aircon_standard_hour * 1.5).toFixed(1)}
-          <br>Up to 1.5hrs</td>
+        <td>Weekdays</td>
+        <td>${params.aircon_standard_wash_weekdays}/unit</td>
       </tr>
-      <tr>
-        <td>2 units</td>
-        <td>${(params.aircon_chemical_wash * 3.0).toFixed(1)}
-        <p>Up to 3.0hrs</td>
+
+     <tr>
+        <td>Weekends</td>
+        <td>${params.aircon_standard_wash_weekends}/unit</td>
       </tr>
-      <tr>
-        <td>3 units</td>
-        <td>${(params.aircon_chemical_wash * 4.0).toFixed(1)}
-        <p>Up to 4.0hrs</td>
-      </tr>
-      <tr>
-        <td>4 units</td>
-        <td>${(params.aircon_chemical_wash * 5.5).toFixed(1)} <!--<td>${(params.malaysia_cw * 3).toFixed(0)}-->
-        <p>Up to 5.5hrs</td>
-      </tr>
-    </tbody>
-    
-       
-     <!--Aircon Fault-->
+	    
+	    
+	    <!--Aircon Fault-->
      <thead>
       <tr>
         <th><b>Enquiry &<br>Aircon Fault</b></th>
@@ -117,148 +84,81 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       
       <tr>
       <td>Aircon Survey</td>
-       <td>${params.aircon_survey}/trip</td>
+       <td>Free</td>
       </tr>
       
       
        <tr>
         <td>Aircon Fault<br>Trouble-Shoot</td>
-        <td>${params.aircon_fault_trouble_shoot}/job</td>
+        <td>${params.aircon_sg_troubleshoot}/unit</td>
       </tr>    
       
       <tr>
-      <td>Aircon Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
-      <td>${params.aircon_leak}/hr</td>
+      <td>Water Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
+      <td>${params.aircon_leak}/unit</td>
       </tr>
        
       <tr>
-      <td>Aircon Lumpsum<br>Works Confirmation</td>
+      <td>Aircon Lumpsum<br>Work Confirmation</td>
        <td>Per Quotation</td>
       </tr>
-          
-        
-     <!-- Miscellaneous Charges-->
-     <thead>
-      <tr>
-        <th><b>Misc Charges</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td>Transport<br>Fee</td>
-        <td>${params.aircon_transport_fee}/trip</td>
-      </tr>
-      
-      <tr>
-        <td>Service<br>Extension</td>
-        <td>Charge in<br>30-min blocks</td>
-      </tr>
-      <tr>
-       <td>Condo<br>Surcharge</td>
-       <td>10.0</td>
-        
-      </tr>
-        <tr>
-        <td>Weekend<br>Public Holiday</td>
-        <td>Survey Only<br><b>Refer FAQ15</b></td>
-      </tr>
-    </tbody>
+         
+   </tbody>
     </table>
   <div class="fineprint">
     Prices subject to change without prior notice
-    </div>
-    </div>
-  
-  
-  
-  <div class = "gap">
+  </div>
+</div>
+
+
+
+ <div class = "gap">
   <div class = "pricing">
     
  <!--start hide-->
 <div class = "show-hide-text">
   <table>
-      
+            
     <!--Cassette-->
     <thead>
       <tr>
-        <th><b>Cassette Wash<br>2 crews</b></th>
-        <th><b>Pricing (${params.currency})
-         <br>${params.aircon_cassette}/Hr</b></th>
+        <th><b>Cassette<br>Chemical Overhaul</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-      <td>1 unit</td>
-      <td>${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}
-       <br>1.5 - 2hrs</td>
+      <td>Weekdays</td>
+      <td>Coming Soon.<!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+      </tr>
+ 
+<tr>
+      <td>Weekends</td>
+      <td>Coming Soon.<!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
       
-     <tr>
-      <td>2 units</td>
-      <td>${(params.aircon_cassette * 3.0).toFixed(1)} to ${(params.aircon_cassette * 4.0).toFixed(1)}
-       <br>2.0 - 2.5hrs</td>
-      </tr>
-     
-     <tr>
-      <td>> 3 units</td>
-      <td>from ${(params.aircon_cassette * 3.0).toFixed(1)}
-       <br>> 3.0hrs</td>
-      </tr>
-     
-         
+   
      <!--Compressor Service + Wash-->
      <thead>
       <tr>
-        <th><b>Outdoor Aircon<br>Compressor</b></th>
+        <th><b>Aircon<br>Compressor</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       
       <tr>
-      <td>Service + Wash</td>
-       <td>${params.aircon_compressor_service}/hr<br>Min 1hr</td>
+       <td>Servicing</td>
+       <td>${params.aircon_compressor}/unit</td>
       </tr>
          
      <tr>
-      <td>Coolant<br><b>Partial Top-Up</b></td>
-      <td>50.0 to 80.0/unit<br><b>Refer FAQ10</b></td>
-      </tr>
-      
-      <tr>
-      <td>Coolant<br><b>Full Top-Up</b></td>
-      <td>120.0/unit<br><b>Refer FAQ10</b></td>
-      </tr>     
-     
-    
-      <!--Installation-->
-     <thead>
-      <tr>
-        <th><b>Wall-Mount AC<br>Installation</b></th>
-       <th><b>Pricing (${params.currency})<br>${params.aircon_install}/Hr</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-      <td>1.0 or 1.5 hp</td>
-       <td>${(params.aircon_install * 2.5).toFixed(1)}<br>Book 2.5hrs</td>
-      </tr>
-         
-       <tr>
-        <td>2.0 hp</td>
-        <td>${(params.aircon_install * 3.0).toFixed(1)}<br>Book 3hrs</td>
-      </tr>
-
-      <tr>
-        <td>2.5 hp</td>
-        <td>${(params.aircon_install * 3.5).toFixed(1)}<br>Book 3.5hrs</td>
-      </tr>
-       
-     </tbody>
+      <td>Coolant Gas<br>Top-Up
+      <td>40.0 to 140.0/unit<br><b>Scroll below<br>for more info</b></td>
+      </tr>             
+    </tbody>
     </table>
-  <div class="fineprint">
+    <div class="fineprint">
     Prices subject to change without prior notice
     </div>
 <br>
@@ -268,7 +168,6 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <button class = "read-more-button">Show More</button>
     </div> <!--pricing-->
     </div> <!--gap-->
-  
  
  
  
