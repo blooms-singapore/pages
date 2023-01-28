@@ -1426,7 +1426,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "100",
+			"SGD": "60",
 			"MYR": "130",
 			"CNY": "230"
 		},
@@ -1435,11 +1435,11 @@
 			
 			"AC Transport": {
 				"handle" : "aircon_sg_transport",
-				"label": "Transport Fee                                           SGD20/trip",
+				"label": "Transport Fee                                           SGD40/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Transport Fee",
 				"cost": {
-					"SGD": "20",
+					"SGD": "40",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -1456,23 +1456,46 @@
 			
 			
 			
-			"Standard Wash": {
-				"handle": "aircon_standard_wash",
-				"label": "Wall-Mount Standard Wash                                       Min 1hr",
-				"orderLabel": "Hour (Wall-Mount Standard Wash)",
+			"Standard Wash Weekdays": {
+				"handle": "aircon_standard_wash_weekdays",
+				"label": "Wall-Mount Standard Wash - Weekdays                                      Min 2 units                                   SGD10/unit",
+				"orderLabel": "Unit (Wall-Mount Standard Wash - Weekdays)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "10",
 					"MYR": "130",
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Units",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
+			"Standard Wash Weekends": {
+				"handle": "aircon_standard_wash_weekends",
+				"label": "Wall-Mount Standard Wash - Weekends                                      Min 2 units                                   SGD15/unit",
+				"orderLabel": "Unit (Wall-Mount Standard Wash - Weekends)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
 				}
 			},
 			
@@ -1502,21 +1525,21 @@
 			
 			"Compressor Wash": {
 				"handle": "aircon_standard_wash",
-				"label": "Compressor Service + Wash                                           SGD80/hr",
-				"orderLabel": "Hour (Compressor Service + Wash)",
+				"label": "Compressor Service + Wash                                           SGD30/unit",
+				"orderLabel": "Unit (Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "30",
 					"MYR": "130",
 					"CNY": "300"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Unit",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
+					"increment": 1,
+					"default": 0,
+					"base": 1
 				}
 			},
 			
