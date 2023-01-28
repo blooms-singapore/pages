@@ -1587,11 +1587,11 @@
 				
 			"Compressor Wash": {
 				"handle": "aircon_compressor",
-				"label": "Compressor Service + Wash                                           SGD50/unit",
+				"label": "Compressor Service + Wash                                           SGD30/unit",
 				"orderLabel": "Unit (Compressor Service + Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "30",
 					"MYR": "130",
 					"CNY": "300"
 				},
