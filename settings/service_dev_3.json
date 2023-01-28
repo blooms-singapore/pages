@@ -1739,8 +1739,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/HDB +SGD5",
-						"orderLabel": "Condo/HDB +SGD5",
+						"label": "HDB/Condo +SGD5",
+						"orderLabel": "HDB/Condo +SGD5",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
