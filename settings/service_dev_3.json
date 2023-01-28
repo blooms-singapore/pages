@@ -1471,7 +1471,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			},
@@ -1494,76 +1494,10 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			},
-			
-			
-																			
-			"Chemical Overhaul": {
-				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul                                 Min 1.5hrs                                    SGD80/hr",
-				"orderLabel": "Hours (Wall-Mount Chemical Overhaul)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "130",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
-				}
-			},
-			
-						
-			
-			"Compressor Wash": {
-				"handle": "aircon_standard_wash",
-				"label": "Compressor Service + Wash                                           SGD30/unit",
-				"orderLabel": "Unit (Compressor Service + Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "130",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-									
-			"Cassette Chemical Overhaul": {
-				"handle": "aircon_standard_wash",
-				"label": "Cassette Chemical Overhaul                               Coming Soon",
-				"orderLabel": "Unit (Cassette Chemical Overhaul)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "200",
-					"CNY": "310"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
@@ -1585,30 +1519,11 @@
 				}
 			},
 			
-			"AC Water Leak": {
-				"handle": "aircon_standard_wash",
-				"label": "Water Leak                                    Min 1hr",
-				"orderLabel": "Hour (Water Leak)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_sg_troubleshoot",
-				"label": "Aircon Trouble-Shoot                                    SGD30/job",
-				"orderLabel": "Job (Aircon Trouble-Shoot)",
+				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
+				"orderLabel": "Unit (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -1616,7 +1531,7 @@
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Unit",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -1624,6 +1539,28 @@
 					"base": 60
 				}
 			},
+			
+			"AC Water Leak": {
+				"handle": "aircon_standard_wash",
+				"label": "Water Leak                                                           SGD30/unit",
+				"orderLabel": "Unit (Water Leak)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
 			
 			"AC Repair Project Confirmation": {
 				"handle": "aircon_repair_project_confirmation",
@@ -1642,6 +1579,29 @@
 					"increment": 60,
 					"default": 60,
 					"base": 60
+				}
+			},
+			
+			
+																			
+				
+			"Compressor Wash": {
+				"handle": "aircon_standard_wash",
+				"label": "Compressor Service + Wash                                           SGD30/unit",
+				"orderLabel": "Unit (Compressor Service + Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
 				}
 			}
 		},
