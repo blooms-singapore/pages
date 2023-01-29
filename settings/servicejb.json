@@ -1,4 +1,143 @@
 {	
+	
+	
+	
+	"roof": {
+		"name": "Roof (C)",
+		"lastSlot": "15:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "30",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Roof Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Roof Transport Fee                                                    RM30/trip",
+				"orderLabel": "Trip (Roof Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"Residential Roof Survey": {
+				"handle": "residential_roof_survey",
+				"label": "Residential Roof Survey                                                    Free",
+				"orderLabel": "Trip (Residential Roof Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Commercial Roof Survey": {
+				"handle": "commercial_roof_survey",
+				"label": "Commercial Roof Survey                                                RM30/trip",
+				"orderLabel": "Trip (Commercial Roof Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+		"Roof Project Confirmation": {
+				"handle": "roof_project_confirmation",
+				"label": "Roof Project Confirmation                                            Per Quotation",
+				"orderLabel": "Job (Roof Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		 },
+				
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"landed": {
+						"label": "Normal Days",
+						"orderLabel": "Normal Days",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"condo": {
+						"label": "Public Holidays +RM50",
+						"orderLabel": "Public Holidays +RM50",
+						"cost": {
+							"SGD": "0",
+							"MYR": "50",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
@@ -2191,144 +2330,6 @@
 							"SGD": "0",
 							"MYR": "20",
 							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-	
-	
-	
-	
-     	
-	
-	
-	
-	
-	"roof": {
-		"name": "Roof (C)",
-		"lastSlot": "15:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "30",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Roof Transport Fee": {
-				"handle": "transport_fee",
-				"label": "Roof Transport Fee                                                    RM30/trip",
-				"orderLabel": "Trip (Roof Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-			"Residential Roof Survey": {
-				"handle": "residential_roof_survey",
-				"label": "Residential Roof Survey                                                    Free",
-				"orderLabel": "Trip (Residential Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Commercial Roof Survey": {
-				"handle": "commercial_roof_survey",
-				"label": "Commercial Roof Survey                                                RM30/trip",
-				"orderLabel": "Trip (Commercial Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-		"Roof Project Confirmation": {
-				"handle": "roof_project_confirmation",
-				"label": "Roof Project Confirmation                                            Per Quotation",
-				"orderLabel": "Job (Roof Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		 },
-				
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"landed": {
-						"label": "Normal Days",
-						"orderLabel": "Normal Days",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					"condo": {
-						"label": "Public Holidays +RM50",
-						"orderLabel": "Public Holidays +RM50",
-						"cost": {
-							"SGD": "0",
-							"MYR": "50",
-							"CNY": "0"
 						}
 					}
 				}
