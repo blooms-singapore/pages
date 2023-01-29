@@ -188,6 +188,238 @@
 	
 	
 	
+	"aircon": {
+		"name": "Aircon Works",
+		"lastSlot": "16:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "70",
+			"MYR": "90",
+			"CNY": "230"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"AC Transport": {
+				"handle" : "aircon_sg_transport",
+				"label": "Transport Fee                                           SGD40/trip",
+				"orderLabel": "Trip (Transport Fee)",
+				"description": "Transport Fee",
+				"cost": {
+					"SGD": "40",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+			"Weekdays Standard Wash": {
+				"handle": "aircon_standard_wash_weekdays",
+				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   SGD10/unit",
+				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
+			"Weekends Standard Wash": {
+				"handle": "aircon_standard_wash_weekends",
+				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   SGD15/unit",
+				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			},
+			
+			"AC Survey": {				
+				"handle": "aircon_survey",
+				"label": "Aircon Survey                                  Free",
+				"orderLabel": "Job (Aircon Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			"AC Trouble Shoot": {
+				"handle": "aircon_sg_troubleshoot",
+				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
+				"orderLabel": "Unit (Aircon Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"AC Water Leak": {
+				"handle": "aircon_leak",
+				"label": "Water Leak                                                           SGD30/unit",
+				"orderLabel": "Unit (Water Leak)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+			"AC Lumosump Work Confirmation": {
+				"handle": "aircon_repair_project_confirmation",
+				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
+				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
+																			
+				
+			"Compressor Wash": {
+				"handle": "aircon_compressor",
+				"label": "Compressor Service + Wash                                           SGD30/unit",
+				"orderLabel": "Unit (Compressor Service + Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo/HDB +SGD5",
+						"orderLabel": "Condo/HDB +SGD5",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed Property",
+						"orderLabel": "Landed Property",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "16:30",
@@ -494,144 +726,7 @@
 	
 	
 	
-	"cleaning-sg": {
-		"name": "Cleaning",
-		"lastSlot": "15:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "77",
-			"MYR": "95",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-		"Standard Clean Condo & HDB": {
-				"handle": "cleaning_sg_condo_hdb",
-				"label": "1 Crew - Condo/HDB                                           SGD22/hr/crew                                        Min 3.5hrs",
-				"orderLabel": "Hours (1 Crew - Condo/HDB)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 210,
-					"base": 60
-				}
-			},
-			
-				
-			
-		"Standard Cleaning Landed Property": {
-				"handle": "cleaning_sg_landed_property",
-				"label": "1 Crew - Landed Property                                         SGD22/hr/crew                                             Min 5hrs",
-				"orderLabel": "Hours (1 Crew - Landed Property )",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "22",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 300,
-					"base": 60
-				}
-			},
-			
-					
-		
-				
-			"Top Up Package": {
-				"handle": "cleaning_sg_topup_package",
-				"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
-				"orderLabel": "Package (Cleaning Top-Up Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "500",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-			
-			"Cleaning Tools": {
-				"handle": "cleaning_sg_tools",
-				"label": "Cleaning Tools                                              SGD20/order",
-				"orderLabel": "Order (Cleaning Tools)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			}	
-		},
 
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo/HDB",
-						"orderLabel": "Condo/HDB",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					
-					"landed": {
-						"label": "Landed Property +SGD10",
-						"orderLabel": "Landed Property +SGD10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						 	},
-						
-						"oneOffCost": {
-							"SGD": "15",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
 	
 	
 	
@@ -811,6 +906,11 @@
 		}
 	},
 
+	
+	
+	
+	
+	
 	
 	
 	"installation": {
@@ -1261,6 +1361,10 @@
 	
 	
 	
+	
+	
+	
+	
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:00",
@@ -1420,223 +1524,140 @@
 	
 	
 	
+	
 		
-	"aircon": {
-		"name": "Aircon Works",
-		"lastSlot": "16:30",
+	"cleaning-sg": {
+		"name": "Cleaning",
+		"lastSlot": "15:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "70",
-			"MYR": "90",
-			"CNY": "230"
+			"SGD": "77",
+			"MYR": "95",
+			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			
-			"AC Transport": {
-				"handle" : "aircon_sg_transport",
-				"label": "Transport Fee                                           SGD40/trip",
-				"orderLabel": "Trip (Transport Fee)",
-				"description": "Transport Fee",
+		"Standard Clean Condo & HDB": {
+				"handle": "cleaning_sg_condo_hdb",
+				"label": "1 Crew - Condo/HDB                                           SGD22/hr/crew                                        Min 3.5hrs",
+				"orderLabel": "Hours (1 Crew - Condo/HDB)",
+				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "22",
 					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			
-			
-			"Weekdays Standard Wash": {
-				"handle": "aircon_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   SGD10/unit",
-				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Units",
+					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"increment": 1,
-					"default": 2,
-					"base": 1
-				}
-			},
-			
-			
-			
-			
-			"Weekends Standard Wash": {
-				"handle": "aircon_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   SGD15/unit",
-				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Units",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 2,
-					"base": 1
-				}
-			},
-			
-			"AC Survey": {				
-				"handle": "aircon_survey",
-				"label": "Aircon Survey                                  Free",
-				"orderLabel": "Job (Aircon Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
+					"increment": 30,
+					"default": 210,
 					"base": 60
 				}
 			},
 			
-			
-			"AC Trouble Shoot": {
-				"handle": "aircon_sg_troubleshoot",
-				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
-				"orderLabel": "Unit (Aircon Trouble-Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"AC Water Leak": {
-				"handle": "aircon_leak",
-				"label": "Water Leak                                                           SGD30/unit",
-				"orderLabel": "Unit (Water Leak)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-			
-			"AC Lumosump Work Confirmation": {
-				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
-				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			
-																			
 				
-			"Compressor Wash": {
-				"handle": "aircon_compressor",
-				"label": "Compressor Service + Wash                                           SGD30/unit",
-				"orderLabel": "Unit (Compressor Service + Wash)",
+			
+		"Standard Cleaning Landed Property": {
+				"handle": "cleaning_sg_landed_property",
+				"label": "1 Crew - Landed Property                                         SGD22/hr/crew                                             Min 5hrs",
+				"orderLabel": "Hours (1 Crew - Landed Property )",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "130",
-					"CNY": "300"
+					"SGD": "22",
+					"MYR": "22",
+					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Unit",
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 300,
+					"base": 60
+				}
+			},
+			
+					
+		
+				
+			"Top Up Package": {
+				"handle": "cleaning_sg_topup_package",
+				"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
+				"orderLabel": "Package (Cleaning Top-Up Package)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "500",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Package",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 1,
 					"base": 1
 				}
-			}
+			},
+			
+			
+			
+			"Cleaning Tools": {
+				"handle": "cleaning_sg_tools",
+				"label": "Cleaning Tools                                              SGD20/order",
+				"orderLabel": "Order (Cleaning Tools)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Order",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			}	
 		},
-		
-		"types": {
+
+	    "types": {
 			"house": {
 				"label": "House Type",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/HDB +SGD5",
-						"orderLabel": "Condo/HDB +SGD5",
+						"label": "Condo/HDB",
+						"orderLabel": "Condo/HDB",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
-							"CNY": "25"
+							"CNY": "10"
 						}
 					},
+					
 					"landed": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+						"label": "Landed Property +SGD10",
+						"orderLabel": "Landed Property +SGD10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
-						},
+						 	},
+						
 						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
+							"SGD": "15",
+							"MYR": "10",
+							"CNY": "10"
 						}
 					}
 				}
@@ -1644,14 +1665,9 @@
 		}
 	},
 	
-		
-		
 	
 	
 	
-	
-		
-		
 		
 	
 	
