@@ -1559,7 +1559,7 @@
 			
 			"Festive Clean Condo & HDB": {
 				"handle": "cleaning_sg_festive_condo_hdb",
-				"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 3hrs",
+				"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
 				"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
 				"description": "Label standard",
 				"cost": {
@@ -1572,7 +1572,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 180,
+					"default": 240,
 					"base": 60
 				}
 			},
