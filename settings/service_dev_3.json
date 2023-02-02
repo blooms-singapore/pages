@@ -1537,6 +1537,7 @@
 		},
 		"hasNote": 1,
 		"options": {
+			
 		"Standard Clean Condo & HDB": {
 				"handle": "cleaning_sg_condo_hdb",
 				"label": "1 Crew - Condo/HDB                                           SGD22/hr/crew                                        Min 3hrs",
@@ -1561,11 +1562,53 @@
 			
 		"Standard Cleaning Landed Property": {
 				"handle": "cleaning_sg_landed_property",
-				"label": "1 Crew - Landed Property                                         SGD22/hr/crew                                             Min 5hrs",
-				"orderLabel": "Hours (1 Crew - Landed Property )",
+				"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
+				"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
+					"MYR": "22",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 300,
+					"base": 60
+				}
+			},
+			
+			"Festive Clean Condo & HDB": {
+				"handle": "cleaning_festive_sg_condo_hdb",
+				"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 3hrs",
+				"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 180,
+					"base": 60
+				}
+			},
+			
+				
+			
+		"Standard Cleaning Landed Property": {
+				"handle": "cleaning_sg_festive_landed_property",
+				"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 5hrs",
+				"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
 					"MYR": "22",
 					"CNY": "0"
 				},
@@ -1655,7 +1698,7 @@
 						 	},
 						
 						"oneOffCost": {
-							"SGD": "15",
+							"SGD": "10",
 							"MYR": "10",
 							"CNY": "10"
 						}
