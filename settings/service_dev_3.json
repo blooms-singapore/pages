@@ -1670,27 +1670,27 @@
 
 	    "types": {
 			"house": {
-				"label": "House Type",
+				"label": "Weekend?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo/HDB",
-						"orderLabel": "Condo/HDB",
+					"Weekends": {
+						"label": "Weekend +SGD30",
+						"orderLabel": "Weekend +SGD30",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "0",
+							"SGD": "30",
 							"MYR": "10",
 							"CNY": "10"
 						}
 					},
 					
-					"landed": {
-						"label": "Landed Property +SGD10",
-						"orderLabel": "Landed Property +SGD10",
+					"Weekdays": {
+						"label": "Weekdays Waived",
+						"orderLabel": "Weekdays Waived",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1698,7 +1698,7 @@
 						 	},
 						
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
