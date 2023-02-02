@@ -1674,15 +1674,15 @@
 				"description": "Label standard",
 				"values": {
 					"Weekends": {
-						"label": "Weekend +SGD30",
-						"orderLabel": "Weekend +SGD30",
+						"label": "Weekend +SGD20",
+						"orderLabel": "Weekend +SGD20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "30",
+							"SGD": "20",
 							"MYR": "10",
 							"CNY": "10"
 						}
