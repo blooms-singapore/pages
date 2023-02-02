@@ -1560,7 +1560,7 @@
 			
 				
 			
-		"Standard Cleaning Landed Property": {
+		"Standard Clean Landed Property": {
 				"handle": "cleaning_sg_landed_property",
 				"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
 				"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
@@ -1602,7 +1602,7 @@
 			
 				
 			
-		"Standard Cleaning Landed Property": {
+		"Festive Clean Landed Property": {
 				"handle": "cleaning_sg_festive_landed_property",
 				"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 5hrs",
 				"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
