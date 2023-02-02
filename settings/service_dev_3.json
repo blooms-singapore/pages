@@ -1528,10 +1528,10 @@
 		
 	"cleaning-sg": {
 		"name": "Cleaning",
-		"lastSlot": "15:30",
+		"lastSlot": "14:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "77",
+			"SGD": "66",
 			"MYR": "95",
 			"CNY": "20"
 		},
