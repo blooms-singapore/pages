@@ -11,13 +11,13 @@
 		"hasNote": 1,
 		"options": {
 			
-			"Washing Machine Transport": {
-				"handle": "washing_machine_sg_transport",
-				"label": "Service Transport Fee                                               SGD20/trip",
-				"orderLabel": "Trip (Service Transport Fee)",
+			"Transport & Trouble-Shoot": {
+				"handle": "washing_machine_sg_transport_troubleshoot",
+				"label": "Transport & Trouble-Shoot                                               SGD45/trip",
+				"orderLabel": "Trip (Transport & Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "45",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -31,30 +31,7 @@
 				}
 			},
 
-			
-			
-		"Washing Machine Troubleshoot": {
-				"handle": "washing_machine_sg_troubleshoot",
-				"label": "Machine Troubleshoot                                                    SGD20/job",
-				"orderLabel": "Job (Machine Troubleshoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			
+							
 			
 		"Washing Machine Lumpsum Repair Work": {
 				"handle": "washing _machine_lumpsum_repair",
@@ -82,8 +59,8 @@
 			
 		"Washing Machine HookUp New Installation": {
 				"handle": "washing_machine_new_installation",
-				"label": "Hook Up New Installation                                         SGD95/job",
-				"orderLabel": "Job (Hook Up New Installation)",
+				"label": "Hook Up. New Installation                                         SGD95/job",
+				"orderLabel": "Job (Hook Up. New Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "95",
