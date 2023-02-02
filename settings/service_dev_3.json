@@ -1485,7 +1485,7 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/HDB+SGD5",
+						"label": "Condo/HDB +SGD5",
 						"orderLabel": "Condo/HDB +SGD5",
 						"cost": {
 							"SGD": "0",
@@ -1539,7 +1539,7 @@
 		"options": {
 		"Standard Clean Condo & HDB": {
 				"handle": "cleaning_sg_condo_hdb",
-				"label": "1 Crew - Condo/HDB                                           SGD22/hr/crew                                        Min 3.5hrs",
+				"label": "1 Crew - Condo/HDB                                           SGD22/hr/crew                                        Min 3hrs",
 				"orderLabel": "Hours (1 Crew - Condo/HDB)",
 				"description": "Label standard",
 				"cost": {
@@ -1552,7 +1552,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 210,
+					"default": 180,
 					"base": 60
 				}
 			},
@@ -1606,11 +1606,11 @@
 			
 			"Cleaning Tools": {
 				"handle": "cleaning_sg_tools",
-				"label": "Cleaning Tools                                              SGD20/order",
+				"label": "Cleaning Tools                                              SGD30/order",
 				"orderLabel": "Order (Cleaning Tools)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "30",
 					"MYR": "80",
 					"CNY": "0"
 				},
