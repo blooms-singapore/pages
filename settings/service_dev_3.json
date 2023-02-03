@@ -1620,29 +1620,7 @@
 					"default": 1,
 					"base": 1
 				}
-			},
-			
-			
-			
-			"Cleaning Tools": {
-				"handle": "cleaning_sg_tools",
-				"label": "Cleaning Tools                                              SGD30/order",
-				"orderLabel": "Order (Cleaning Tools)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Order",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			}	
+			}
 		},
 
 	    "types": {
