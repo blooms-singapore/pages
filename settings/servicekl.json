@@ -1,4 +1,151 @@
 {	
+	"installation": {
+		"name": "Installation & Dismantling",
+		"lastSlot": "16:30",
+		"startPrice": {
+			"SGD": "55",
+			"MYR": "110",
+			"CNY": "150"
+		},
+		"disableLocations": ["Seremban"],
+		"hasNote": 1,
+		"options": {
+						
+			"Installation Transport Fee": {
+				"handle": "transport_fee_kl",
+				"label": "Installation Transport Fee                                                          RM45/trip",
+				"orderLabel": "Trip (Installation Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"Installation Standard": {
+				"handle": "installation_standard",
+				"label": "Standard Installation                                                 RM65/hr/crew",
+				"orderLabel": "Hour (Standard Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "65",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+         
+			"Installation Technical": {
+				"handle": "installation_technical",
+				"label": "Technical Installation                                                RM80/hr/crew",
+				"orderLabel": "Hour (Technical Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Site Survey": {
+				"handle": "installation_site_survey",
+				"label": "Installation Site Survey                                                      Free",
+				"orderLabel": "Trip (Installation Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project": {
+				"handle": "project",
+				"label": "Lumpsum Work Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+            		 }
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"orderLabel": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
 				
 	"cleaning": {
 		"name": "Cleaning",
@@ -248,162 +395,11 @@
 	},
 	
 	
-			
-	"installation": {
-		"name": "Installation & Dismantling",
-		"lastSlot": "16:30",
-		"startPrice": {
-			"SGD": "55",
-			"MYR": "110",
-			"CNY": "150"
-		},
-		"disableLocations": ["Seremban"],
-		"hasNote": 1,
-		"options": {
-						
-			"Installation Transport Fee": {
-				"handle": "transport_fee_kl",
-				"label": "Installation Transport Fee                                                          RM45/trip",
-				"orderLabel": "Trip (Installation Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"Installation Standard": {
-				"handle": "installation_standard",
-				"label": "Standard Installation                                                 RM65/hr/crew",
-				"orderLabel": "Hour (Standard Installation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "65",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-         
-			"Installation Technical": {
-				"handle": "installation_technical",
-				"label": "Technical Installation                                                RM80/hr/crew",
-				"orderLabel": "Hour (Technical Installation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Site Survey": {
-				"handle": "installation_site_survey",
-				"label": "Installation Site Survey                                                      Free",
-				"orderLabel": "Trip (Installation Site Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Project": {
-				"handle": "project",
-				"label": "Lumpsum Work Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-            		 }
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-	
-	
 	
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "140",
@@ -411,26 +407,84 @@
 		},
 		"hasNote": 1,
 		"options": {
-				
-			
-					
-			"Chemical Overhaul": {
-				"handle": "aircon_chemical_wash",
-				"label": "Wall-Mount Chemical Overhaul - Min 1.5hrs                                              RM100/hr",
-				"orderLabel": "Hours (Wall-Mount Chemical Overhaul - Min 1.5hrs)",
+			"Weekdays AC Standard Wash": {
+				"handle": "aircon_standard_wash_weekdays",
+				"label": "Weekdays Wall-Mount Standard Wash                                     RM190/unit",
+				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "100",
+					"MYR": "90",
 					"CNY": "300"
 				},
 				"quantity": {
-					"label": "Hours",
+					"label": "Unit",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Weekends AC Standard Wash": {
+				"handle": "aircon_standard_wash_weekends",
+				"label": "Weekends Wall-Mount Standard Wash                                       RM120/unit",
+				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "120",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+					
+			"Weekdays AC Chemical Overhaul": {
+				"handle": "aircon_chemical_overhaul_weekdays",
+				"label": "Weekdays Wall-Mount Chemical Overhaul                                      RM150/unit",
+				"orderLabel": "Units (Weekdays Wall-Mount Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "150",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Weekends AC Chemical Overhaul": {
+				"handle": "aircon_chemical_overhaul_weekends",
+				"label": "Weekends Wall-Mount Chemical Overhaul                                      RM180/unit",
+				"orderLabel": "Units (Weekends Wall-Mount Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "180",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
 				}
 			},
 			
