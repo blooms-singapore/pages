@@ -286,8 +286,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo +RM10",
-						"orderLabel": "Condo +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
