@@ -739,7 +739,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
-		"disableLocations": ["Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "140",
