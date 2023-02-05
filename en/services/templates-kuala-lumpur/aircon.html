@@ -45,14 +45,33 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>
       <tr>
       <td>Transport Fee</td>
-      <td>${params.aircon_sg_transport}/trip</td>
+      <td>${params.aircon_kl_transport}/trip</td>
       </tr>
 
      <tr>
-      <td>Condo/Offices/Malls</td>
-      <td>10.0</td>
+      <td>Weekends</td>
+      <td>30.0</td>
       </tr>
  
+    <!--Standard Wash-->
+    <thead>
+      <tr>
+        <th><b>Wall-Mount<br>Standard Wash</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Weekdays</td>
+        <td>${params.aircon_kl_standard_wash_weekdays}/unit</td>
+      </tr>
+
+     <tr>
+        <td>Weekends</td>
+        <td>${params.aircon_kl_standard_wash_weekends}/unit</td>
+      </tr>
+	    
+	    
        
     <!--Chemical Overhaul-->
     <thead>
@@ -64,12 +83,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>
       <tr>
         <td>Weekdays</td>
-        <td>${params.aircon_chemical_overhaul_weekdays}/unit</td>
+        <td>${params.aircon_kl_chemical_overhaul_weekdays}/unit</td>
       </tr>
 
      <tr>
         <td>Weekends</td>
-        <td>${params.aircon_chemical_overhaul_weekends}/unit</td>
+        <td>${params.aircon_kl_chemical_overhaul_weekends}/unit</td>
       </tr>
 	    
 	    
@@ -90,7 +109,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       
        <tr>
         <td>Aircon Fault<br>Trouble-Shoot</td>
-        <td>${params.aircon_sg_troubleshoot}/unit</td>
+        <td>${params.aircon_kl_troubleshoot}/unit</td>
       </tr>    
       
       <tr>
@@ -129,12 +148,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>
       <tr>
       <td>Weekdays</td>
-      <td>${params.aircon_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+      <td>${params.aircon_kl_cassette_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
  
 <tr>
       <td>Weekends</td>
-      <td>${params.aircon_chemical_overhaul_weekends}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+      <td>${params.aircon_kl_cassette_weekends}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
       
    
@@ -149,7 +168,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       
       <tr>
        <td>Servicing</td>
-       <td>${params.aircon_compressor}/unit</td>
+       <td>${params.aircon_kl_compressor}/unit</td>
       </tr>
          
      <tr>
