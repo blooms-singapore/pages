@@ -1,4 +1,344 @@
 {	
+			
+	"electrical": {
+		"name": "Electrical",
+		"lastSlot": "16:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "65",
+			"MYR": "115",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Electrical Transport Fee": {
+				"handle": "electrical_transport",
+				"label": "Electrical Transport Fee                                         RM45/trip",
+				"orderLabel": "Trip (Electrical Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "55",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "trip",
+					"min": 60,
+					"max": 0,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Electrical Survey": {
+				"handle": "electrical_survey",
+				"label": "Electrical Survey                                                    Free",
+				"orderLabel": "Trip (Electrical Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			
+			"Minor Electrical": {
+				"handle": "minor_electrical",
+				"label": "Residential Minor Electrical Work - Min 1hr                                                      RM80/hr",
+				"orderLabel": "Hour (Residential Minor Electrical Work - Min 1hr)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "65",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Electrical Project Confirmation": {
+				"handle": "major_electrical",
+				"label": "Electrical Lumpsum Work Confirmation                                               Per Quotation",
+				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			"Electrical Trouble Shoot": {
+				"handle": "electrical_trouble_shoot",
+				"label": "Electrical Trouble Shoot                                                     RM70/trip",
+				"orderLabel": "Trip (Electrical Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+				
+			"Emergency": {
+				"handle": "electrical_emergency",
+				"label": "Electrical Emergency                                                             RM100 - 150/trip",
+				"orderLabel": "Trip (Electrical Emergency)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"cost_max": {
+					"SGD": "0",
+					"MYR": "150",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}	
+		},
+
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"orderLabel": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	
+	
+	
+	
+	"painting": {
+		"name": "Painting",
+		"lastSlot": "16:00",
+		"disableLocations": ["Singapore"],
+		"startPrice": {
+			"SGD": "115",
+			"MYR": "217.5",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"options": {
+			"Painting Transport": {
+				"handle" : "painting_transport",
+				"label": "Painting Transport Fee                                       RM30/trip",
+				"orderLabel": "Trip (Painting Transport Fee)",
+				"description": "Painting Transport Fee",
+				"cost": {
+					"SGD": "10",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+			
+			"Survey": {
+				"handle" : "painting_survey",
+				"label": "Painting Survey                                                     Free",
+				"orderLabel": "Trip (Painting Survey)",
+				"description": "Painting Survey",
+				"cost": {
+					"SGD": "10",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+
+
+             "Paint Project": {
+		  		"handle": "paint_lumpsum_work",
+				"label": "Paint Lumpsum Work Confirmation                                            Per Quotation",
+				"description": "Paint Lumpsum Work Confirmation",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+
+			
+			"Hourly Service": {
+				"handle": "painting_hourly_service",
+				"label": "1 Crew Hourly Rate                                       RM75/hr                                    Min 2.5hrs",
+				"orderLabel": "Hour (1 Crew Hourly Rate)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "80"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 150,
+					"base": 60
+				}
+			},
+									
+			"Paint Day": {
+				"handle": "painting_day",
+				"label": "1 Crew Daily Rate                                              RM380/day                                    10am to 6pm",
+				"orderLabel": "Day (Daily Painting - 1 Crew)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "150",
+					"MYR": "380",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Day",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			}
+		 },
+	
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo +RM10",
+						"orderLabel": "Condo +RM10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+
+					"landed": {
+						"label": "Landed House",
+						"orderLabel": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "20",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},	
+	
+	
+	
+	
 	"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
@@ -408,7 +748,7 @@
 		"hasNote": 1,
 		"options": {
 			"Weekdays AC Standard Wash": {
-				"handle": "aircon_standard_wash_weekdays",
+				"handle": "aircon_kl_standard_wash_weekdays",
 				"label": "Weekdays Wall-Mount Standard Wash                                     RM190/unit",
 				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
@@ -428,7 +768,7 @@
 			},
 			
 			"Weekends AC Standard Wash": {
-				"handle": "aircon_standard_wash_weekends",
+				"handle": "aircon_kl_standard_wash_weekends",
 				"label": "Weekends Wall-Mount Standard Wash                                       RM120/unit",
 				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
 				"description": "Label standard",
@@ -449,7 +789,7 @@
 			
 					
 			"Weekdays AC Chemical Overhaul": {
-				"handle": "aircon_chemical_overhaul_weekdays",
+				"handle": "aircon_kl_chemical_overhaul_weekdays",
 				"label": "Weekdays Wall-Mount Chemical Overhaul                                      RM150/unit",
 				"orderLabel": "Units (Weekdays Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
@@ -469,7 +809,7 @@
 			},
 			
 			"Weekends AC Chemical Overhaul": {
-				"handle": "aircon_chemical_overhaul_weekends",
+				"handle": "aircon_kl_chemical_overhaul_weekends",
 				"label": "Weekends Wall-Mount Chemical Overhaul                                      RM180/unit",
 				"orderLabel": "Units (Weekends Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
@@ -490,7 +830,7 @@
 			
 			
 		"Cassette Chemical Overhaul": {
-				"handle": "aircon_cassette",
+				"handle": "aircon_kl_cassette",
 				"label": "Cassette Chemical Overhaul - Min 1.5hrs                                                   RM210/hr",
 				"orderLabel": "Hour (Cassette Chemical Overhaul - Min 1.5hrs)",
 				"description": "Label standard",
@@ -511,7 +851,7 @@
 			
 			
 		"Compressor Service & Wash": {
-				"handle": "aircon_compressor_service",
+				"handle": "aircon_kl_compressor_service",
 				"label": "Aircon Compressor Service + Wash                                                  RM140/hr",
 				"orderLabel": "Hour (Aircon Compressor Service + Wash)",
 				"description": "Label standard",
@@ -535,7 +875,7 @@
 			
 			
 			"AC Survey": {				
-				"handle": "aircon_survey",
+				"handle": "aircon_kl_survey",
 				"label": "AC Survey                                                    RM30/trip",
 				"orderLabel": "Trip (AC Survey)",
 				"description": "Label standard",
@@ -556,7 +896,7 @@
 			
 			
 			"AC Fault Trouble Shoot": {
-				"handle": "aircon_fault_trouble_shoot",
+				"handle": "aircon_kl_fault_trouble_shoot",
 				"label": "AC Fault Trouble-Shoot                                                  RM60/job",
 				"orderLabel": "Job (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
@@ -576,7 +916,7 @@
 			},
 			
 			"AC Leak": {
-				"handle": "aircon_leak",
+				"handle": "aircon_kl_leak",
 				"label": "AC Leak - Min 1Hr                                        RM140/hr",
 				"orderLabel": "Hour (AC Leak - Min 1hr)",
 				"description": "Label standard",
@@ -618,7 +958,7 @@
 			
 			
 			"AC Install": {
-				"handle": "aircon_install",
+				"handle": "aircon_kl_install",
 				"label": "Wall-Mount AC Install - Min 2.5hrs                                         RM110/hr",
 				"orderLabel": "Hours (Wall-Mount AC Install - Min 2.5hrs)",
 				"description": "Label standard",
@@ -640,12 +980,12 @@
 		
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Weekends?",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Weekends +RM30",
+						"orderLabel": "Weekends +RM30",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -653,13 +993,13 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "30",
 							"CNY": "25"
 						}
 					},
 					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+						"label": "weekdays",
+						"orderLabel": "Weekdays",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -675,6 +1015,165 @@
 			}
 		}
 	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"waterproof": {
+		"name": "Waterproofing",
+		"lastSlot": "15:00",
+		"disableLocations": ["Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "66",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Waterproof transport fee": {
+				"handle": "waterproofing_transport_fee",
+				"label": "Waterproofing Transport Fee                                                        RM45/trip",
+				"orderLabel": "Trip (Waterproofing Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+			
+			"Survey": {
+				"handle": "waterproofing_survey_kl",
+				"label": "Waterproofing Survey                                                         Free",
+				"orderLabel": "Trip (Waterproofing Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
+			
+			"Waterproof Project": {
+				"handle": "waterproof_project_kl",
+				"label": "Waterproof Project Confirmation                                Per Quotation",
+				"orderLabel": "Job (Waterproof Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
+			
+					
+			"Std Silicon": {
+				"handle": "standard_silicon_kl",
+				"label": "Standard Silicon                                                  RM60/hr/crew",
+				"orderLabel": "Hour (Standard Silicon)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			 },
+			
+					
+			"Antifungal Silicon": {
+				"handle": "antifungal_silicon_kl",
+				"label": "Anti-fungal Silicon                                                       RM80/hr/crew",
+				"orderLabel": "Hour (Anti-fungal Silicon)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			 }
+		},
+		
+	    "types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo Surcharge +RM10",
+						"orderLabel": "Condo Surcharge +RM10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"orderLabel": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
 	
 	
 	
@@ -874,501 +1373,6 @@
 			}
 		}
 	},
-	
-	
-	
-	
-	
-	
-	"waterproof": {
-		"name": "Waterproofing",
-		"lastSlot": "15:00",
-		"disableLocations": ["Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "0",
-			"MYR": "66",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Waterproof transport fee": {
-				"handle": "waterproofing_transport_fee",
-				"label": "Waterproofing Transport Fee                                                        RM45/trip",
-				"orderLabel": "Trip (Waterproofing Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			
-			"Survey": {
-				"handle": "waterproofing_survey_kl",
-				"label": "Waterproofing Survey                                                         Free",
-				"orderLabel": "Trip (Waterproofing Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			 },
-			
-			"Waterproof Project": {
-				"handle": "waterproof_project_kl",
-				"label": "Waterproof Project Confirmation                                Per Quotation",
-				"orderLabel": "Job (Waterproof Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-					
-			"Std Silicon": {
-				"handle": "standard_silicon_kl",
-				"label": "Standard Silicon                                                  RM60/hr/crew",
-				"orderLabel": "Hour (Standard Silicon)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1.5,
-					"base": 1
-				}
-			 },
-			
-					
-			"Antifungal Silicon": {
-				"handle": "antifungal_silicon_kl",
-				"label": "Anti-fungal Silicon                                                       RM80/hr/crew",
-				"orderLabel": "Hour (Anti-fungal Silicon)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1.5,
-					"base": 1
-				}
-			 }
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-		
-		
-		
-	"electrical": {
-		"name": "Electrical",
-		"lastSlot": "16:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "65",
-			"MYR": "115",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Electrical Transport Fee": {
-				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                         RM45/trip",
-				"orderLabel": "Trip (Electrical Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "55",
-					"MYR": "45",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "trip",
-					"min": 60,
-					"max": 0,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Electrical Survey": {
-				"handle": "electrical_survey",
-				"label": "Electrical Survey                                                    Free",
-				"orderLabel": "Trip (Electrical Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			
-			"Minor Electrical": {
-				"handle": "minor_electrical",
-				"label": "Residential Minor Electrical Work - Min 1hr                                                      RM80/hr",
-				"orderLabel": "Hour (Residential Minor Electrical Work - Min 1hr)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "65",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Electrical Project Confirmation": {
-				"handle": "major_electrical",
-				"label": "Electrical Lumpsum Work Confirmation                                               Per Quotation",
-				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			"Electrical Trouble Shoot": {
-				"handle": "electrical_trouble_shoot",
-				"label": "Electrical Trouble Shoot                                                     RM70/trip",
-				"orderLabel": "Trip (Electrical Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-				
-			"Emergency": {
-				"handle": "electrical_emergency",
-				"label": "Electrical Emergency                                                             RM100 - 150/trip",
-				"orderLabel": "Trip (Electrical Emergency)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "0",
-					"MYR": "150",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}	
-		},
-
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-	
-	
-	
-	
-	"painting": {
-		"name": "Painting",
-		"lastSlot": "16:00",
-		"disableLocations": ["Singapore"],
-		"startPrice": {
-			"SGD": "115",
-			"MYR": "217.5",
-			"CNY": "110"
-		},
-		"hasNote": 1,
-		"options": {
-			"Painting Transport": {
-				"handle" : "painting_transport",
-				"label": "Painting Transport Fee                                       RM30/trip",
-				"orderLabel": "Trip (Painting Transport Fee)",
-				"description": "Painting Transport Fee",
-				"cost": {
-					"SGD": "10",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			
-			
-			
-			"Survey": {
-				"handle" : "painting_survey",
-				"label": "Painting Survey                                                     Free",
-				"orderLabel": "Trip (Painting Survey)",
-				"description": "Painting Survey",
-				"cost": {
-					"SGD": "10",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-
-
-             "Paint Project": {
-		  		"handle": "paint_lumpsum_work",
-				"label": "Paint Lumpsum Work Confirmation                                            Per Quotation",
-				"description": "Paint Lumpsum Work Confirmation",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-
-			
-			"Hourly Service": {
-				"handle": "painting_hourly_service",
-				"label": "1 Crew Hourly Rate                                       RM75/hr                                    Min 2.5hrs",
-				"orderLabel": "Hour (1 Crew Hourly Rate)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "75",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 150,
-					"base": 60
-				}
-			},
-									
-			"Paint Day": {
-				"handle": "painting_day",
-				"label": "1 Crew Daily Rate                                              RM380/day                                    10am to 6pm",
-				"orderLabel": "Day (Daily Painting - 1 Crew)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "150",
-					"MYR": "380",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			}
-		 },
-	
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo +RM10",
-						"orderLabel": "Condo +RM10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "10",
-							"CNY": "0"
-						}
-					},
-
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "20",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},	
-	
 	
 	
 	
