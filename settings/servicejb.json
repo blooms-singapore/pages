@@ -147,7 +147,7 @@
 			
 			
 			"AC Trouble Shoot": {
-				"handle": "aircon_sg_troubleshoot",
+				"handle": "aircon_jb_troubleshoot",
 				"label": "Aircon Trouble-Shoot                                    RM60/unit",
 				"orderLabel": "Unit (Aircon Trouble-Shoot)",
 				"description": "Label standard",
