@@ -874,7 +874,7 @@
 			
 			
 			"AC Fault Trouble Shoot": {
-				"handle": "aircon_kl_fault_troubleshoot",
+				"handle": "aircon_kl_troubleshoot",
 				"label": "AC Fault Trouble-Shoot                                                  RM60/unit",
 				"orderLabel": "Unit (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
