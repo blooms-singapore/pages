@@ -937,7 +937,7 @@
 			
 			"AC Compressor Service": {
 				"handle": "aircon_kl_compressor",
-				"label": "AX Compressor Service                                        RM80/unit",
+				"label": "AC Compressor Service                                        RM80/unit",
 				"orderLabel": "Unit (AC Compressor Service)",
 				"description": "Label standard",
 				"cost": {
