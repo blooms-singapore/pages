@@ -935,6 +935,51 @@
 			},
 			
 			
+			
+			"Standard AC Cassette Chemical Overhaul": {
+				"handle": "aircon_jb_cassette_chemical_overhaul_standard",
+				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM398/unit",
+				"orderLabel": "Unit (Standard Cassette Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "398",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+		"Big AC Cassette Chemical Overhaul": {
+				"handle": "aircon_jb_cassette_chemical_overhaul_big",
+				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM458/unit",
+				"orderLabel": "Unit (Big Cassette Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "458",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
 			"AC Compressor Service": {
 				"handle": "aircon_kl_compressor",
 				"label": "AC Compressor Service                                        RM75/unit",
