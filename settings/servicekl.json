@@ -769,12 +769,12 @@
 			
 			"Weekdays AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash                                     RM80/unit",
+				"label": "Weekdays Wall-Mount Standard Wash                                          Min 2 units                                                  RM65/unit",
 				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "80",
+					"MYR": "65",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -782,19 +782,19 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			},
 			
 			"Weekends AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash                                       RM100/unit",
+				"label": "Weekends Wall-Mount Standard Wash                                           Min 2 units                                          RM75/unit",
 				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "100",
+					"MYR": "75",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -802,7 +802,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			},
@@ -810,7 +810,7 @@
 					
 			"Weekdays AC Chemical Overhaul": {
 				"handle": "aircon_kl_chemical_overhaul_weekdays",
-				"label": "Weekdays Wall-Mount Chemical Overhaul                                      RM110/unit",
+				"label": "Weekdays Wall-Mount Chemical Overhaul                                            RM110/unit",
 				"orderLabel": "Units (Weekdays Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
@@ -830,7 +830,7 @@
 			
 			"Weekends AC Chemical Overhaul": {
 				"handle": "aircon_kl_chemical_overhaul_weekends",
-				"label": "Weekends Wall-Mount Chemical Overhaul                                      RM130/unit",
+				"label": "Weekends Wall-Mount Chemical Overhaul                                              RM140/unit",
 				"orderLabel": "Units (Weekends Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
@@ -873,14 +873,14 @@
 			},
 			
 			
-			"AC Fault Trouble Shoot": {
+			"AC Trouble Shoot": {
 				"handle": "aircon_kl_troubleshoot",
-				"label": "AC Fault Trouble-Shoot                                                  RM60/unit",
+				"label": "AC Fault Trouble-Shoot                                           RM70/unit",
 				"orderLabel": "Unit (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "60",
+					"MYR": "70",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -895,12 +895,12 @@
 			
 			"AC Leak": {
 				"handle": "aircon_kl_leak",
-				"label": "AC Leak                                        RM80/unit",
+				"label": "AC Leak                                        RM75/unit",
 				"orderLabel": "Unit (AC Leak)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "80",
+					"MYR": "75",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -937,12 +937,12 @@
 			
 			"AC Compressor Service": {
 				"handle": "aircon_kl_compressor",
-				"label": "AC Compressor Service                                        RM80/unit",
+				"label": "AC Compressor Service                                        RM75/unit",
 				"orderLabel": "Unit (AC Compressor Service)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "80",
+					"MYR": "75",
 					"CNY": "260"
 				},
 				"quantity": {
