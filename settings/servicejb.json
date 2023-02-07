@@ -210,14 +210,14 @@
 			
 			
 			
-			"Weekdays Chemical Overhaul": {
-				"handle": "aircon_chemical_overhaul_weekdays",
-				"label": "Weekdays Wall-Mount Chemical Overhaul                                   RM120/unit",
-				"orderLabel": "Unit (Weekdays Wall-Mount Chemical Overhaul)",
+		"Standard AC Cassette Chemical Overhaul": {
+				"handle": "aircon_jb_cassette_chemical_overhaul_standard",
+				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM398/unit",
+				"orderLabel": "Unit (Standard Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "120",
+					"MYR": "398",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -232,15 +232,14 @@
 			
 			
 			
-			
-			"Weekends Chemical Overhaul": {
-				"handle": "aircon_chemical_overhaul_weekends",
-				"label": "Weekends Wall-Mount Chemical Overhaul                                   RM140/unit",
-				"orderLabel": "Unit (Weekends Wall-Mount Chemical Overhaul)",
+		"Big AC Cassette Chemical Overhaul": {
+				"handle": "aircon_jb_cassette_chemical_overhaul_big",
+				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM398/unit",
+				"orderLabel": "Unit (Big Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "140",
+					"MYR": "458",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -252,14 +251,12 @@
 					"base": 1
 				}
 			},
-			
-			
 			
 			
 			
 																			
 				
-			"Compressor Servicing": {
+			"AC Compressor Service": {
 				"handle": "aircon_compressor",
 				"label": "Compressor Service + Wash                                           RM60/unit",
 				"orderLabel": "Unit (Compressor Service + Wash)",
