@@ -285,7 +285,7 @@
 			},
 			
 			"AC Water Leak": {
-				"handle": "aircon_leak",
+				"handle": "aircon_sg_leak",
 				"label": "Water Leak                                                           SGD30/unit",
 				"orderLabel": "Unit (Water Leak)",
 				"description": "Label standard",
