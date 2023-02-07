@@ -167,7 +167,7 @@
 			},
 			
 			"AC Water Leak": {
-				"handle": "aircon_leak",
+				"handle": "aircon_jb_leak",
 				"label": "Water Leak                                                           RM60/unit",
 				"orderLabel": "Unit (Water Leak)",
 				"description": "Label standard",
