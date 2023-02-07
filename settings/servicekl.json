@@ -742,7 +742,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "130",
+			"MYR": "180",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -937,7 +937,7 @@
 			
 			
 			"Standard AC Cassette Chemical Overhaul": {
-				"handle": "aircon_jb_cassette_chemical_overhaul_standard",
+				"handle": "aircon_kl_cassette_chemical_overhaul_standard",
 				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM398/unit",
 				"orderLabel": "Unit (Standard Cassette Chemical Overhaul)",
 				"description": "Label standard",
@@ -959,7 +959,7 @@
 			
 			
 		"Big AC Cassette Chemical Overhaul": {
-				"handle": "aircon_jb_cassette_chemical_overhaul_big",
+				"handle": "aircon_kl_cassette_chemical_overhaul_big",
 				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM458/unit",
 				"orderLabel": "Unit (Big Cassette Chemical Overhaul)",
 				"description": "Label standard",
