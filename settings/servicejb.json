@@ -234,7 +234,7 @@
 			
 		"Big AC Cassette Chemical Overhaul": {
 				"handle": "aircon_jb_cassette_chemical_overhaul_big",
-				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM398/unit",
+				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM458/unit",
 				"orderLabel": "Unit (Big Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
