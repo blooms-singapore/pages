@@ -585,8 +585,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -681,8 +681,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -839,8 +839,8 @@
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1249,8 +1249,8 @@
 				"values": {
 					
 					"Customers tools": {
-						"label": "Customer provides",
-						"orderLabel": "Customer provides ",
+						"label": "Customer provides +RM0",
+						"orderLabel": "Customer provides +RM0 ",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1412,8 +1412,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10 ",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10 ",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1632,8 +1632,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1994,8 +1994,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2148,8 +2148,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2401,7 +2401,7 @@
 				"values": {
 					
 					"Standard Location": {
-						"label": "Standard Locations",
+						"label": "Standard Location",
 						"orderLabel": "Standard Locations",
 						"cost": {
 							"SGD": "0",
@@ -2411,7 +2411,7 @@
 					},
 					
 					"Distant Location": {
-						"label": "Distant Locations +RM20",
+						"label": "Distant Location +RM20",
 						"orderLabel": "Distant Locations +RM20",
 						"cost": {
 							"SGD": "0",
@@ -2532,8 +2532,8 @@
 						}
 					},
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "10",
@@ -2634,8 +2634,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2875,8 +2875,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2913,7 +2913,7 @@
 	"disposal": {
 		"name": "Disposal",
 		"lastSlot": "15:00",
-		"disableLocations": ["Seremban", "Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -3012,8 +3012,8 @@
 				"description": "Label standard",
 				"values": {
 					"landed": {
-						"label": "Landed",
-						"orderLabel": "Condo Surcharge",
+						"label": "Landed Property",
+						"orderLabel": "Landed Property",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3026,10 +3026,11 @@
 						}
 					},
 					"condo": {
-						"label": "Condominium",
+						"label": "Condo/Office +RM50",
+						"orderLabel": "Condo/Office +RM50",
 						"cost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "50",
 							"CNY": "0"
 						}
 					}
@@ -3203,8 +3204,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM20",
+						"orderLabel": "Condo/Office +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3217,8 +3218,8 @@
 						}
 					},
 					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+						"label": "Landed Property",
+						"orderLabel": "Landed Property",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3338,8 +3339,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -5129,7 +5130,7 @@
 	"car-care": {
 		"name": "Car Care",
 		"lastSlot": "14:00",
-		"disableLocations":["Kuala Lumpur","Singapore","Johor Bahru", "Nilai - Coming Soon"],
+		"disableLocations":[],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "147",
