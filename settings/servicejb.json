@@ -5130,7 +5130,7 @@
 	"car-care": {
 		"name": "Car Care",
 		"lastSlot": "14:00",
-		"disableLocations":[],
+		"disableLocations":["Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "147",
