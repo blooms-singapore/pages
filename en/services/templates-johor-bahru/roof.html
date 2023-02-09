@@ -38,7 +38,25 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 <div class="pricing">
   <table>
     <thead>
+      <!--Transport Fee-->
+   <thead>
       <tr>
+        <th><b>Miscellaneous<br>Charge</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>Transport Fee</td>
+      <td>${params.transport_fee}/trip</td>
+      </tr>
+      
+      <tr>
+       <td>Public<br>Holidays</td>
+        <td>+50.0</td>
+      </tr>
+
+  <!--Roof Work-->
        <th><b>Roof Work</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
@@ -57,26 +75,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>Project<br>Confirmation</td>
         <td>Per Quotation</td>
       </tr>
-      
-          
-    <!--Other Charges-->
-      <thead>
-      <tr>
-       <th><b>Other Charges</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-       <td>Transport<br>Fee</td>
-        <td>${params.transport_fee}/Trip</td>
-      </tr>
-      
-      <tr>
-       <td>Public<br>Holidays</td>
-        <td>50.0/Trip</td>
-      </tr>
-    </tbody>
+      </tbody>
   </table>
   <div class="fineprint">
     Prices subject to change without prior notice
