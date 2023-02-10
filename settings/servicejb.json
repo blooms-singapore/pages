@@ -2612,12 +2612,12 @@
 			
 		"Washing Machine HookUp New Installation": {
 				"handle": "washing_machine_new_installation",
-				"label": "Hook Up. New Installation                                         RM105/unit",
+				"label": "Hook Up. New Installation                                         RM60/unit",
 				"orderLabel": "Unit (Hook Up. New Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "95",
-					"MYR": "105",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2635,12 +2635,12 @@
 			
 		"Washing Machine HookUp Existing Utility": {
 				"handle": "washing_machine_existing_utility",
-				"label": "Hookup with Existing Utilities                                             RM85/unit",
+				"label": "Hookup with Existing Utilities                                             RM40/unit",
 				"orderLabel": "Unit (Hook Up with Existing Utilities)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "75",
-					"MYR": "85",
+					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
