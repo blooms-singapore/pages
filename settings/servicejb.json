@@ -2549,6 +2549,176 @@
 	
 	
 	
+		
+	 "washing-machine": {
+		"name": "Washing Machine",
+		"lastSlot": "15:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "45",
+			"MYR": "120",
+			"CNY": "0"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Transport & Trouble-Shoot": {
+				"handle": "washing_machine_sg_transport_troubleshoot",
+				"label": "Transport & Trouble-Shoot                                               RM45/trip",
+				"orderLabel": "Trip (Transport & Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "45",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 0,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+		
+							
+			
+		"Washing Machine Lumpsum Repair Work": {
+				"handle": "washing _machine_lumpsum_repair",
+				"label": "Lumpsum Repair Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Lumpsum Repair Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "168",
+					"CNY": "0"
+				},
+				
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
+		"Washing Machine HookUp New Installation": {
+				"handle": "washing_machine_new_installation",
+				"label": "Hook Up. New Installation                                         RM60/job",
+				"orderLabel": "Job (Hook Up. New Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "95",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+			
+			
+			
+		"Washing Machine HookUp Existing Utility": {
+				"handle": "washing_machine_existing_utility",
+				"label": "Hookup with Existing Utilities                                             RM40/job",
+				"orderLabel": "Job (Hook Up with Existing Utilities)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "75",
+					"MYR": "40",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
+		"Washing Machine Plumbing Electrical": {
+				"handle": "washing_machine_plumbing_electrical",
+				"label": "Washing Machine Plumbing/Electrical                                           RM60/hr",
+				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			}
+		 },
+	
+				
+	    "types": {
+			"house": {
+				"label": "Machine Type",
+				"description": "Label standard",
+				"values": {
+					"HDB or Condo": {
+						"label": "Side Loading +RM20",
+						"orderLabel": "Side Load +RM20",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "5",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					},
+					
+					"Landed House": {
+						"label": "Top Loading",
+						"orderLabel": "Top Loading",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
