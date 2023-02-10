@@ -127,27 +127,27 @@
 				
 	    "types": {
 			"house": {
-				"label": "House Type",
+				"label": "Machine Type",
 				"description": "Label standard",
 				"values": {
-					"HDB or Condo": {
-						"label": "Condo/HDB +SGD5",
-						"orderLabel": "Condo/HDB +SGD5",
+					"Side Loading": {
+						"label": "Side Loading +SGD20",
+						"orderLabel": "Side Loading +SGD20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "20",
 							"MYR": "5",
 							"CNY": "10"
 						}
 					},
 					
-					"Landed House": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+					"Top Loading": {
+						"label": "Top Loading",
+						"orderLabel": "Top Loading",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
