@@ -3,7 +3,7 @@
 	
 		
 	
-		"aircon": {
+	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
 		"disableLocations": [],
@@ -2550,7 +2550,7 @@
 	
 	
 		
-	 "washing-machine": {
+	 "washing-machine-jb": {
 		"name": "Washing Machine",
 		"lastSlot": "15:30",
 		"disableLocations": [],
