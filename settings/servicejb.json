@@ -2553,7 +2553,7 @@
 	 "washing-machine-jb": {
 		"name": "Washing Machine",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "120",
