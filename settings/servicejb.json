@@ -1673,7 +1673,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore","Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "55",
