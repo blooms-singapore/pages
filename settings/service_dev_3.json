@@ -1204,7 +1204,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "60",
+			"SGD": "20",
 			"MYR": "20",
 			"CNY": "230"
 		},
@@ -1314,7 +1314,7 @@
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "25"
 						}
