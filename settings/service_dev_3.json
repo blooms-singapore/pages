@@ -1199,6 +1199,147 @@
 	
 	
 	
+	"free-service": {
+		"name": "Try Us",
+		"lastSlot": "16:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "60",
+			"MYR": "20",
+			"CNY": "230"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Free Service Transport": {
+				"handle" : "free_service_sg_transport",
+				"label": "Transport Fee                                           SGD20/trip",
+				"orderLabel": "Trip (Transport Fee)",
+				"description": "Transport Fee",
+				"cost": {
+					"SGD": "20",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"default": 1,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			
+			
+			"Free Service Fan": {
+				"handle": "free_service_fan",
+				"label": "Install Fan                                           Free",
+				"orderLabel": "Unit (Install Fan)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			"Free Service TV": {
+				"handle": "free_service_tv",
+				"label": "Install TV                                             Free",
+				"orderLabel": "Unit (Install TV)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			"Free Service Light": {
+				"handle": "free_service_light",
+				"label": "Install Light                                             Free",
+				"orderLabel": "Unit (Install Light)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "130",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "5",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed Property +SGD25",
+						"orderLabel": "Landed Property +SGD25",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "25",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
 	
 	
 	"door-window": {
