@@ -20,7 +20,8 @@ layout: service
  
     <h6 class="service-title">Service Conditions</h6>
     <p>Installation is free for 1 item, either a fan, light or TV wall-bracket. There will still be a transport charge.
-     <br><br>Please refer to below FAQs for more information, or contact our Customer Care.</p>
+	    <br><br>Free service can only be booked once <b>per residential/property address. Repeat booking from the same address, standard installation charge applies.</b>.
+	    <br><br>Please refer to below FAQs for more information, or contact our Customer Care.</p>
     
    
  <h6 class="service-title">Warranty</h6>
@@ -35,39 +36,49 @@ layout: service
 <h5 class="service-title">PRICES</h5>
 </div>
 <div class="pricing">
-  <table>  
-   <thead>
-      <tr>
-       <th><b>Retrofit &<br>Renovation</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       
-      <tr>
-        <td>Survey<br><b>Refer FAQ1</b></td>
-       <td>${params.sg_renovation_project_survey}/trip</td>
-      </tr>
-     
-      <tr>
-        <td>Confirmation</td>
-        <td>Per Quotation</td>
-      </tr>
-     
-     <!--Misc Charge-->
-     
-      <thead>
+  <table>
+  <!--Misc Charge-->
+     <thead>
       <tr>
        <th><b>Misc Charges<br>Where Applicable</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
-     <tr>
-       <td>Condo/HDB<br>Surcharge</td>
-       <td>5.0</td>
+  <tr>
+      <td>Transport<br>Fee</td>
+       <td>${params.free_service_transport}/trip</td>
       </tr>
-    </tbody>
+	    
+     <tr>
+       <td>Landed<br>Property</td>
+       <td>+25.0</td>
+      </tr>
+	  
+	  
+   <thead>
+      <tr>
+       <th><b>Standard<br>Installation</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       
+      <tr>
+        <td>Fan</b></td>
+       <td>${params.free_service_fan}/unit</td>
+      </tr>
+     
+      <tr>
+        <td>TV Bracket</td>
+        <td>${params.free_service_tv}/unit</td>
+      </tr>
+
+      <tr>
+        <td>Light</td>
+        <td>${params.free_service_light}/unit</td>
+      </tr>
+   </tbody>
   </table>
   <div class="fineprint">
     Prices subject to change without prior notice
