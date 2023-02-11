@@ -1258,8 +1258,8 @@
 			
 			"Free Service TV": {
 				"handle": "free_service_tv",
-				"label": "Install TV                                             Free",
-				"orderLabel": "Unit (Install TV)",
+				"label": "Install TV Bracket                                             Free",
+				"orderLabel": "Unit (Install TV Bracket)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
