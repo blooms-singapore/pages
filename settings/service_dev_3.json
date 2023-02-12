@@ -1,5 +1,5 @@
-{	
-	 "washing-machine": {
+{
+	"washing-machine": {
 		"name": "Washing Machine",
 		"lastSlot": "15:30",
 		"disableLocations": ["kuala Lumpur"],
@@ -10,7 +10,7 @@
 		},
 		"hasNote": 1,
 		"options": {
-			
+
 			"Transport & Trouble-Shoot": {
 				"handle": "washing_machine_sg_transport_troubleshoot",
 				"label": "Transport & Trouble-Shoot                                               SGD45/trip",
@@ -31,9 +31,9 @@
 				}
 			},
 
-							
-			
-		"Washing Machine Lumpsum Repair Work": {
+
+
+			"Washing Machine Lumpsum Repair Work": {
 				"handle": "washing _machine_lumpsum_repair",
 				"label": "Lumpsum Repair Confirmation                                      Per Quotation",
 				"orderLabel": "Job (Lumpsum Repair Confirmation)",
@@ -43,7 +43,7 @@
 					"MYR": "168",
 					"CNY": "0"
 				},
-				
+
 				"quantity": {
 					"label": "Job",
 					"min": 0,
@@ -53,11 +53,11 @@
 					"base": 1
 				}
 			},
-			
-			
-			
-			
-		"Washing Machine HookUp New Installation": {
+
+
+
+
+			"Washing Machine HookUp New Installation": {
 				"handle": "washing_machine_new_installation",
 				"label": "Hook Up. New Installation                                         SGD50/unit",
 				"orderLabel": "Unit (Hook Up. New Installation)",
@@ -77,10 +77,10 @@
 				}
 			},
 
-			
-			
-			
-		"Washing Machine HookUp Existing Utility": {
+
+
+
+			"Washing Machine HookUp Existing Utility": {
 				"handle": "washing_machine_existing_utility",
 				"label": "Hookup with Existing Utilities                                             SGD30/unit",
 				"orderLabel": "Unit (Hook Up with Existing Utilities)",
@@ -99,11 +99,11 @@
 					"base": 1
 				}
 			},
-			
-			
-			
-			
-		"Washing Machine Plumbing Electrical": {
+
+
+
+
+			"Washing Machine Plumbing Electrical": {
 				"handle": "washing_machine_plumbing_electrical",
 				"label": "Washing Machine Plumbing/Electrical                                           SGD60/hr",
 				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
@@ -122,10 +122,10 @@
 					"base": 1
 				}
 			}
-		 },
-	
-				
-	    "types": {
+		},
+
+
+		"types": {
 			"house": {
 				"label": "Machine Type",
 				"description": "Label standard",
@@ -144,7 +144,7 @@
 							"CNY": "10"
 						}
 					},
-					
+
 					"Top Loading": {
 						"label": "Top Loading",
 						"orderLabel": "Top Loading",
@@ -157,14 +157,14 @@
 				}
 			}
 		}
-	},	
-	
-	
-	
-	
-	
-	
-	
+	},
+
+
+
+
+
+
+
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
@@ -176,9 +176,9 @@
 		},
 		"hasNote": 1,
 		"options": {
-			
+
 			"AC Transport": {
-				"handle" : "aircon_sg_transport",
+				"handle": "aircon_sg_transport",
 				"label": "Transport Fee                                           SGD40/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Transport Fee",
@@ -197,9 +197,9 @@
 					"multiplier": 1
 				}
 			},
-			
-			
-			
+
+
+
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
 				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   SGD10/unit",
@@ -219,10 +219,10 @@
 					"base": 1
 				}
 			},
-			
-			
-			
-			
+
+
+
+
 			"Weekends Standard Wash": {
 				"handle": "aircon_standard_wash_weekends",
 				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   SGD15/unit",
@@ -242,8 +242,8 @@
 					"base": 1
 				}
 			},
-			
-			"AC Survey": {				
+
+			"AC Survey": {
 				"handle": "aircon_survey",
 				"label": "Aircon Survey                                  Free",
 				"orderLabel": "Job (Aircon Survey)",
@@ -262,8 +262,8 @@
 					"base": 60
 				}
 			},
-			
-			
+
+
 			"AC Trouble Shoot": {
 				"handle": "aircon_sg_troubleshoot",
 				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
@@ -283,7 +283,7 @@
 					"base": 60
 				}
 			},
-			
+
 			"AC Water Leak": {
 				"handle": "aircon_sg_leak",
 				"label": "Water Leak                                                           SGD30/unit",
@@ -303,9 +303,9 @@
 					"base": 1
 				}
 			},
-			
-			
-			
+
+
+
 			"AC Lumosump Work Confirmation": {
 				"handle": "aircon_repair_project_confirmation",
 				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
@@ -325,10 +325,10 @@
 					"base": 60
 				}
 			},
-			
-			
-																			
-				
+
+
+
+
 			"Compressor Wash": {
 				"handle": "aircon_compressor",
 				"label": "Compressor Service + Wash                                           SGD30/unit",
@@ -349,7 +349,7 @@
 				}
 			}
 		},
-		
+
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -387,16 +387,16 @@
 			}
 		}
 	},
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "16:30",
@@ -408,9 +408,9 @@
 		},
 		"hasNote": 1,
 		"options": {
-			
+
 			"Painting Transport": {
-				"handle" : "painting_sg_transport",
+				"handle": "painting_sg_transport",
 				"label": "Transport Fee                                           SGD20/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Transport Fee",
@@ -429,10 +429,10 @@
 					"multiplier": 1
 				}
 			},
-			
-			
+
+
 			"Painting Survey": {
-				"handle" : "painting_sg_survey",
+				"handle": "painting_sg_survey",
 				"label": "Painting Survey                                         Free",
 				"orderLabel": "Trip (Painting Survey)",
 				"description": "Painting Survey",
@@ -453,10 +453,10 @@
 			},
 
 
-             "Paint Project": {
-		  		"handle": "painting_sg_project",
+			"Paint Project": {
+				"handle": "painting_sg_project",
 				"label": "Paint Project Lumpsum Confirmation                                      Per Quotation",
-		                "orderLabel": "Unit (Paint Project Lumpsum Confirmation)",
+				"orderLabel": "Unit (Paint Project Lumpsum Confirmation)",
 				"description": "Painting Lumpsum Confirmation",
 				"cost": {
 					"SGD": "0",
@@ -473,13 +473,13 @@
 					"multiplier": 1
 				}
 			},
-			
-			
-			
-		   "HDB 2-Room Labour & Paint": {
-		  		"handle": "painting_hdb_labour_paint_two_room",
+
+
+
+			"HDB 2-Room Labour & Paint": {
+				"handle": "painting_hdb_labour_paint_two_room",
 				"label": "HDB 2-Room                                  Labour + Paint                                 SGD600/unit",
-			        "orderLabel": "Unit (HDB 2-Room, Labour + Paint)",
+				"orderLabel": "Unit (HDB 2-Room, Labour + Paint)",
 				"description": "HDB 2-Room, Labour + Paint",
 				"cost": {
 					"SGD": "600",
@@ -496,13 +496,13 @@
 					"multiplier": 1
 				}
 			},
-			
-			
-			
-		   "HDB 3-Room Labour & Paint": {
-		  		"handle": "painting_hdb_labour_paint_three_room",
+
+
+
+			"HDB 3-Room Labour & Paint": {
+				"handle": "painting_hdb_labour_paint_three_room",
 				"label": "HDB 3-Room                                  Labour + Paint                                 SGD1280/unit",
-			        "orderLabel": "Unit (HDB 3-Room, Labour + Paint)",
+				"orderLabel": "Unit (HDB 3-Room, Labour + Paint)",
 				"description": "HDB 3-Room, Labour + Paint",
 				"cost": {
 					"SGD": "1280",
@@ -520,12 +520,12 @@
 				}
 			},
 
-			
-			
-		   "HDB 4-Room Labour & Paint": {
-		  		"handle": "painting_hdb_labour_paint_four_room",
+
+
+			"HDB 4-Room Labour & Paint": {
+				"handle": "painting_hdb_labour_paint_four_room",
 				"label": "HDB 4-Room                                  Labour + Paint                                 SGD1480/unit",
-			        "orderLabel": "Unit (HDB 4-Room, Labour + Paint)",
+				"orderLabel": "Unit (HDB 4-Room, Labour + Paint)",
 				"description": "HDB 4-Room, Labour + Paint",
 				"cost": {
 					"SGD": "1480",
@@ -542,13 +542,13 @@
 					"multiplier": 1
 				}
 			},
-			
-			
-				
-		   "HDB 2-Room Labour Only": {
-		  		"handle": "painting_hdb_labour_two_room",
+
+
+
+			"HDB 2-Room Labour Only": {
+				"handle": "painting_hdb_labour_two_room",
 				"label": "HDB 2-Room                                  Labour Only                                 SGD400/unit",
-			        "orderLabel": "Unit (HDB 2-Room, Labour Only)",
+				"orderLabel": "Unit (HDB 2-Room, Labour Only)",
 				"description": "HDB 2-Room, Labour Only",
 				"cost": {
 					"SGD": "400",
@@ -565,13 +565,13 @@
 					"multiplier": 1
 				}
 			},
-			
-			
-			
-		   "HDB 3-Room Labour Only": {
-		  		"handle": "painting_hdb_labour_three_room",
+
+
+
+			"HDB 3-Room Labour Only": {
+				"handle": "painting_hdb_labour_three_room",
 				"label": "HDB 3-Room                                  Labour Only                                 SGD650/unit",
-			        "orderLabel": "Unit (HDB 3-Room, Labour Only)",
+				"orderLabel": "Unit (HDB 3-Room, Labour Only)",
 				"description": "HDB 3-Room, Labour Only",
 				"cost": {
 					"SGD": "650",
@@ -589,12 +589,12 @@
 				}
 			},
 
-			
-			
-		   "HDB 4-Room Labour Only": {
-		  		"handle": "painting_hdb_labour_four_room",
+
+
+			"HDB 4-Room Labour Only": {
+				"handle": "painting_hdb_labour_four_room",
 				"label": "HDB 4-Room                                  Labour Only                                 SGD850/unit",
-			        "orderLabel": "Unit (HDB 4-Room, Labour Only)",
+				"orderLabel": "Unit (HDB 4-Room, Labour Only)",
 				"description": "HDB 4-Room, Labour Only",
 				"cost": {
 					"SGD": "850",
@@ -611,10 +611,10 @@
 					"multiplier": 1
 				}
 			},
-			
-					
-			
-			
+
+
+
+
 			"Painting Hourly Rate": {
 				"handle": "painting_sg_hourly",
 				"label": "1 Crew Hourly Rate                                         SGD35/hr                       Min 2.5hrs",
@@ -634,11 +634,11 @@
 					"base": 60
 				}
 			},
-			
-					
-			
-			
-									
+
+
+
+
+
 			"Painting Daily Rate": {
 				"handle": "painting_sg_daily",
 				"label": "1 Crew Daily Rate                                   SGD200/day                               10am to 6pm",
@@ -658,8 +658,8 @@
 					"base": 1
 				}
 			}
-		 },
-	
+		},
+
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -697,16 +697,16 @@
 				}
 			}
 		}
-	},	
-	
-	
-	
-	
-	
+	},
 
-	
-	
-	
+
+
+
+
+
+
+
+
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "15:00",
@@ -737,10 +737,10 @@
 					"base": 1
 				}
 			},
-			
-			
-			
-			
+
+
+
+
 			"Electrical Survey": {
 				"handle": "electrical_survey",
 				"label": "Electrical Survey                                                    Free",
@@ -760,9 +760,9 @@
 					"base": 60
 				}
 			},
-			
-			
-			
+
+
+
 			"Minor Electrical": {
 				"handle": "minor_electrical",
 				"label": "Minor Electrical Work                                                      SGD60/hr",
@@ -782,7 +782,7 @@
 					"base": 60
 				}
 			},
-			
+
 			"Electrical Lumpsum Work Confirmation": {
 				"handle": "major_electrical",
 				"label": "Electrical Lumpsum Work Confirmation                                     Per Quotation",
@@ -802,8 +802,8 @@
 					"base": 60
 				}
 			},
-			
-			
+
+
 			"Electrical Trouble Shoot": {
 				"handle": "electrical_trouble_shoot",
 				"label": "Electrical Trouble Shoot                                                     SGD30/trip",
@@ -823,7 +823,7 @@
 					"base": 60
 				}
 			},
-				
+
 			"Emergency": {
 				"handle": "emergency",
 				"label": "Emergency Booking                                                          SGD100 - 150",
@@ -847,10 +847,10 @@
 					"default": 0,
 					"base": 60
 				}
-			}	
+			}
 		},
 
-	    "types": {
+		"types": {
 			"house": {
 				"label": "House Type",
 				"description": "Label standard",
@@ -883,13 +883,13 @@
 		}
 	},
 
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
@@ -901,7 +901,7 @@
 		"disableLocations": [],
 		"hasNote": 1,
 		"options": {
-			
+
 			"Installation Transport Fee": {
 				"handle": "transport_fee",
 				"label": "Installation Transport Fee                                                          SGD20/trip",
@@ -921,7 +921,7 @@
 					"base": 1
 				}
 			},
-			
+
 			"Installation Standard": {
 				"handle": "installation_standard",
 				"label": "Standard Installation                                                   SGD50/hr",
@@ -941,8 +941,8 @@
 					"base": 60
 				}
 			},
-			
-         
+
+
 			"Installation Technical": {
 				"handle": "installation_technical",
 				"label": "Technical Installation                                                SGD60/hr",
@@ -962,7 +962,7 @@
 					"base": 60
 				}
 			},
-			
+
 			"Site Survey": {
 				"handle": "installation_site_survey",
 				"label": "Installation Site Survey                                                      Free",
@@ -982,8 +982,8 @@
 					"base": 60
 				}
 			},
-			
-			
+
+
 			"Project": {
 				"handle": "project",
 				"label": "Lumpsum Work Confirmation                                     Per Quotation",
@@ -1002,9 +1002,9 @@
 					"default": 0,
 					"base": 60
 				}
-            		 }
+			}
 		},
-		
+
 		"types": {
 			"house": {
 				"label": "House Type",
@@ -1024,7 +1024,7 @@
 							"CNY": "25"
 						}
 					},
-					
+
 					"landed": {
 						"label": "Landed Property",
 						"orderLabel": "Landed Property",
@@ -1038,11 +1038,11 @@
 			}
 		}
 	},
-	
-	
-	
-	
-	 "clean-water": {
+
+
+
+
+	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
 		"disableLocations": ["kuala Lumpur"],
@@ -1073,9 +1073,9 @@
 				}
 			},
 
-			
-			
-		"Filter 1 Sediment": {
+
+
+			"Filter 1 Sediment": {
 				"handle": "clean_water_filter1",
 				"label": "Filter 1 Sediment & Pre-Carbon                                                    SGD30/unit",
 				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon)",
@@ -1095,9 +1095,9 @@
 				}
 			},
 
-			
-			
-		"Filter 2 UF Membrane": {
+
+
+			"Filter 2 UF Membrane": {
 				"handle": "clean_water_filter2",
 				"label": "Filter 2 UF Membrane                                                         SGD58/unit",
 				"orderLabel": "Unit (Filter 2 UF Membrane)",
@@ -1116,10 +1116,10 @@
 					"base": 1
 				}
 			},
-		
-			
-				
-		"Filter 3 AG": {
+
+
+
+			"Filter 3 AG": {
 				"handle": "clean_water_filter3",
 				"label": "Filter 3 Alkaline & Nano Silver AG+                                                SGD100/unit",
 				"orderLabel": "Unit (Alkaline & Filter 3 Nano-Silver AG+)",
@@ -1138,9 +1138,9 @@
 					"base": 1
 				}
 			},
-		
-		
-		
+
+
+
 			"Survey": {
 				"handle": "clean_water_survey",
 				"label": "Clean Water Survey                                                         SGD10/trip",
@@ -1160,10 +1160,10 @@
 					"base": 1
 				}
 			}
-		 },
-	
-				
-	    "types": {
+		},
+
+
+		"types": {
 			"house": {
 				"label": "House Type",
 				"description": "Label standard",
@@ -1182,7 +1182,7 @@
 							"CNY": "10"
 						}
 					},
-					
+
 					"Landed House": {
 						"label": "Landed Property",
 						"orderLabel": "Landed Property",
@@ -1195,751 +1195,744 @@
 				}
 			}
 		}
-	},	
-	
-	
-	
+	},
+
+
+
 	"free-service": {
-		"name": "Free Service",
-		"lastSlot": "16:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "20",
-			"MYR": "20",
-			"CNY": "230"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Free Service Transport": {
-				"handle" : "free_service_sg_transport",
-				"label": "Transport Fee                                           SGD20/trip",
-				"orderLabel": "Trip (Transport Fee)",
-				"description": "Transport Fee",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"default": 1,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			
-			
-			"Free Service Fan": {
-				"handle": "free_service_fan",
-				"label": "Install Fan                                           Free",
-				"orderLabel": "Unit (Install Fan)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			
-			"Free Service TV": {
-				"handle": "free_service_tv",
-				"label": "Install TV Bracket                                             Free",
-				"orderLabel": "Unit (Install TV Bracket)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			
-			"Free Service Light": {
-				"handle": "free_service_light",
-				"label": "Install Light                                             Free",
-				"orderLabel": "Unit (Install Light)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}，
-			
-			
-			
-			"Free Service Survey": {
-				"handle": "free_service_survey",
-				"label": "Free service survey                                             Free",
-				"orderLabel": "Trip (Free service survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		},
-		
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "HDB/Condo",
-						"orderLabel": "HDB/Condo",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"landed": {
-						"label": "Landed Property +SGD25",
-						"orderLabel": "Landed Property +SGD25",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "25",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
+    "name": "Free Service",
+    "lastSlot": "16:30",
+    "disableLocations": [],
+    "startPrice": {
+      "SGD": "20",
+      "MYR": "20",
+      "CNY": "230"
+    },
+    "hasNote": 1,
+    "options": {
+      "Free Service Transport": {
+        "handle": "free_service_sg_transport",
+        "label": "Transport Fee                                           SGD20/trip",
+        "orderLabel": "Trip (Transport Fee)",
+        "description": "Transport Fee",
+        "cost": {
+          "SGD": "20",
+          "MYR": "20",
+          "CNY": "0"
+        },
+        "quantity": {
+          "label": "Trip",
+          "min": 1,
+          "max": 0,
+          "default": 1,
+          "increment": 1,
+          "base": 1,
+          "multiplier": 1
+        }
+      },
+
+      "Free Service Fan": {
+        "handle": "free_service_fan",
+        "label": "Install Fan                                           Free",
+        "orderLabel": "Unit (Install Fan)",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "0",
+          "MYR": "130",
+          "CNY": "260"
+        },
+        "quantity": {
+          "label": "Unit",
+          "min": 0,
+          "max": 1,
+          "increment": 1,
+          "default": 0,
+          "base": 1
+        }
+      },
+
+      "Free Service TV": {
+        "handle": "free_service_tv",
+        "label": "Install TV Bracket                                             Free",
+        "orderLabel": "Unit (Install TV Bracket)",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "0",
+          "MYR": "130",
+          "CNY": "260"
+        },
+        "quantity": {
+          "label": "Unit",
+          "min": 0,
+          "max": 1,
+          "increment": 1,
+          "default": 0,
+          "base": 1
+        }
+      },
+
+      "Free Service Light": {
+        "handle": "free_service_light",
+        "label": "Install Light                                             Free",
+        "orderLabel": "Unit (Install Light)",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "0",
+          "MYR": "130",
+          "CNY": "260"
+        },
+        "quantity": {
+          "label": "Unit",
+          "min": 0,
+          "max": 1,
+          "increment": 1,
+          "default": 0,
+          "base": 1
+        }
+      },
+
+      "Free Service Survey": {
+        "handle": "free_service_survey",
+        "label": "Free service survey                                             Free",
+        "orderLabel": "Trip (Free service survey)",
+        "description": "Label standard",
+        "cost": {
+          "SGD": "0",
+          "MYR": "130",
+          "CNY": "260"
+        },
+        "quantity": {
+          "label": "Trip",
+          "min": 0,
+          "max": 1,
+          "increment": 1,
+          "default": 0,
+          "base": 1
+        }
+      }
+    },
+    "types": {
+      "house": {
+        "label": "House Type",
+        "description": "Label standard",
+        "values": {
+          "condo": {
+            "label": "HDB/Condo",
+            "orderLabel": "HDB/Condo",
+            "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            },
+            "oneOffCost": {
+              "SGD": "0",
+              "MYR": "10",
+              "CNY": "25"
+            }
+          },
+          "landed": {
+            "label": "Landed Property +SGD25",
+            "orderLabel": "Landed Property +SGD25",
+            "cost": {
+              "SGD": "0",
+              "MYR": "0",
+              "CNY": "0"
+            },
+            "oneOffCost": {
+              "SGD": "25",
+              "MYR": "0",
+              "CNY": "0"
+            }
+          }
+        }
+      }
+    }
+  },
+
+
+	
+
+
+
+
+
+
+"door-window": {
+	"name": "Door & Window",
+	"lastSlot": "16:00",
+	"disableLocations": [],
+	"startPrice": {
+		"SGD": "90",
+		"MYR": "20",
+		"CNY": "20"
 	},
-	
-	
-	
-	
-	
-	"door-window": {
-		"name": "Door & Window",
-		"lastSlot": "16:00",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "90",
-			"MYR": "20",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-						
-			"Transport": {
-				"handle": "door_transport",
-				"label": "Service Transport Fee                                                 SGD20/trip",
-				"orderLabel": "Trip (Service Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			 },
-			
-			"Survey": {
-				"handle": "door_window_survey",
-				"label": "Door or Window Survey                                          Free",
-				"orderLabel": "Trip (Door / Window Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			 },
-			
-			
-			"Door & Window Hourly": {
-				"handle": "door_window_hour",
-				"label": "Hourly Service                                                     SGD50/hr",
-				"orderLabel": "Hour (Hourly Service)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "70",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			 },
-						
-						
-			"Emergency": {
-				"handle": "door_window_emergency",
-				"label": "Emergency                                                              SGD120 - 150",
-				"orderLabel": "Trip (Emergency)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "120",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "150",
-					"MYR": "150",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo/HDB +SGD5",
-						"orderLabel": "Condo/HDB +SGD5",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-			
-	
-	
-	
-	
-	
-	
-	
-	"plumbing": {
-		"name": "Plumbing",
-		"lastSlot": "16:00",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "55",
-			"MYR": "100",
-			"CNY": "50"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Plumbing Transport Fee": {
-				"handle": "plumbing_transport",
-				"label": "Plumbing Transport Fee                                         SGD20/trip",
-				"orderLabel": "Trip (Plumbing Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 60,
-					"max": 0,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
+	"hasNote": 1,
+	"options": {
+
+		"Transport": {
+			"handle": "door_transport",
+			"label": "Service Transport Fee                                                 SGD20/trip",
+			"orderLabel": "Trip (Service Transport Fee)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "20",
+				"MYR": "20",
+				"CNY": "0"
 			},
-			
-			"Standard Plumbing": {
-				"handle": "plumbing_standard",
-				"label": "Standard Plumbing                                              RM45/hr",
-				"orderLabel": "Hour (Standard Plumbing)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Plumbing Lumpsum Survey": {
-				"handle": "plumbing_survey",
-				"label": "Plumbing SURVEY                                               Free",
-				"orderLabel": "Trip (Plumbing SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Plumbing Lumpsum Confirmation": {
-				"handle": "plumbing_lumpsum_confirmation",
-				"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
-				"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "-20",
-					"MYR": "-30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-				
-			"Trouble Shoot": {
-				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         SGD15/job",
-				"orderLabel": "Job (Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			}
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo/HDB +SGD5",
-						"orderLabel": "Condo/HDB +SGD5",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					
-					"landed": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	
-	
-	
-	
-	
-	
-	
-		
-	"cleaning-sg": {
-		"name": "Cleaning",
-		"lastSlot": "14:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "66",
-			"MYR": "95",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-		"Standard Clean Condo & HDB": {
-				"handle": "cleaning_sg_condo_hdb",
-				"label": "1 Crew - Condo/HDB. Standard Clean                                       SGD22/hr/crew                                        Min 3hrs",
-				"orderLabel": "Hours (1 Crew - Condo/HDB)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 180,
-					"base": 60
-				}
-			},
-			
-				
-			
-		"Standard Clean Landed Property": {
-				"handle": "cleaning_sg_landed_property",
-				"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
-				"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "22",
-					"MYR": "22",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 300,
-					"base": 60
-				}
-			},
-			
-			"Festive Clean Condo & HDB": {
-				"handle": "cleaning_sg_festive_condo_hdb",
-				"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
-				"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 240,
-					"base": 60
-				}
-			},
-			
-				
-			
-		"Festive Clean Landed Property": {
-				"handle": "cleaning_sg_festive_landed_property",
-				"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 6hrs",
-				"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "22",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 450,
-					"increment": 60,
-					"default": 360,
-					"base": 60
-				}
-			},
-			
-					
-		
-				
-			"Top Up Package": {
-				"handle": "cleaning_sg_topup_package",
-				"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
-				"orderLabel": "Package (Cleaning Top-Up Package)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "500",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
+			"quantity": {
+				"label": "Trip",
+				"min": 1,
+				"max": 0,
+				"increment": 1,
+				"default": 1,
+				"base": 1
 			}
 		},
 
-	    "types": {
-			"house": {
-				"label": "Weekend?",
-				"description": "Label standard",
-				"values": {
-					"Weekends": {
-						"label": "Weekend +SGD20",
-						"orderLabel": "Weekend +SGD20",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "20",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					
-					"Weekdays": {
-						"label": "Weekdays Waived",
-						"orderLabel": "Weekdays Waived",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						 	},
-						
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					}
-				}
+		"Survey": {
+			"handle": "door_window_survey",
+			"label": "Door or Window Survey                                          Free",
+			"orderLabel": "Trip (Door / Window Survey)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "0",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 60,
+				"base": 60
+			}
+		},
+
+
+		"Door & Window Hourly": {
+			"handle": "door_window_hour",
+			"label": "Hourly Service                                                     SGD50/hr",
+			"orderLabel": "Hour (Hourly Service)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "70",
+				"MYR": "80",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 60,
+				"base": 60
+			}
+		},
+
+
+		"Emergency": {
+			"handle": "door_window_emergency",
+			"label": "Emergency                                                              SGD120 - 150",
+			"orderLabel": "Trip (Emergency)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "120",
+				"MYR": "100",
+				"CNY": "0"
+			},
+			"cost_max": {
+				"SGD": "150",
+				"MYR": "150",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
 			}
 		}
 	},
-	
-	
-	
-	
-		
-	
-	
-	
-	"renovation": {
-		"name": "Retrofit & Renovation",
-		"lastSlot": "15:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "20",
-			"MYR": "30",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			
-						
-			"SG Renovation Transport": {
-				"handle": "sg_renovation_transport",
-				"label": "Retrofit or Renovation Transport Fee                                                   SGD20/trip",
-				"orderLabel": "Trip (Retrofit or Renovation Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			
-						
-			"SG Renovation Project Survey": {
-				"handle": "sg_renovation_project_survey",
-				"label": "Retrofit or Renovation Project Survey                                                   Free",
-				"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Project Confirmation": {
-				"handle": "others_project",
-				"label": "Retrofit or Renovation Project Confirmation                                             Per Quotation",
-				"orderLabel" : "Job (Retrofit or Renovation Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}			
-		},
-		
-	    "types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "HDB/Condo +SGD5",
-						"orderLabel": "HDB/Condo +SGD5",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "10",
-							"CNY": "10"
-						}
+
+	"types": {
+		"house": {
+			"label": "House Type",
+			"description": "Label standard",
+			"values": {
+				"condo": {
+					"label": "Condo/HDB +SGD5",
+					"orderLabel": "Condo/HDB +SGD5",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
 					},
-					"landed": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
+					"oneOffCost": {
+						"SGD": "5",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+				"landed": {
+					"label": "Landed Property",
+					"orderLabel": "Landed Property",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
 					}
 				}
 			}
 		}
 	}
+},
+
+
+
+
+
+
+
+
+
+"plumbing": {
+	"name": "Plumbing",
+	"lastSlot": "16:00",
+	"disableLocations": [],
+	"startPrice": {
+		"SGD": "55",
+		"MYR": "100",
+		"CNY": "50"
+	},
+	"hasNote": 1,
+	"options": {
+
+		"Plumbing Transport Fee": {
+			"handle": "plumbing_transport",
+			"label": "Plumbing Transport Fee                                         SGD20/trip",
+			"orderLabel": "Trip (Plumbing Transport Fee)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "20",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 60,
+				"max": 0,
+				"increment": 60,
+				"default": 60,
+				"base": 60
+			}
+		},
+
+		"Standard Plumbing": {
+			"handle": "plumbing_standard",
+			"label": "Standard Plumbing                                              RM45/hr",
+			"orderLabel": "Hour (Standard Plumbing)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "45",
+				"MYR": "70",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 60,
+				"base": 60
+			}
+		},
+
+		"Plumbing Lumpsum Survey": {
+			"handle": "plumbing_survey",
+			"label": "Plumbing SURVEY                                               Free",
+			"orderLabel": "Trip (Plumbing SURVEY)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		},
+
+		"Plumbing Lumpsum Confirmation": {
+			"handle": "plumbing_lumpsum_confirmation",
+			"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
+			"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-20",
+				"MYR": "-30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		},
+
+
+		"Trouble Shoot": {
+			"handle": "trouble_shoot",
+			"label": "Trouble Shoot                                                         SGD15/job",
+			"orderLabel": "Job (Trouble Shoot)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 0,
+				"increment": 1,
+				"default": 1,
+				"base": 1
+			}
+		}
+	},
+
+	"types": {
+		"house": {
+			"label": "House Type",
+			"description": "Label standard",
+			"values": {
+				"condo": {
+					"label": "Condo/HDB +SGD5",
+					"orderLabel": "Condo/HDB +SGD5",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "5",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+
+				"landed": {
+					"label": "Landed Property",
+					"orderLabel": "Landed Property",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					}
+				}
+			}
+		}
+	}
+},
+
+
+
+
+
+
+
+
+
+"cleaning-sg": {
+	"name": "Cleaning",
+	"lastSlot": "14:30",
+	"disableLocations": [],
+	"startPrice": {
+		"SGD": "66",
+		"MYR": "95",
+		"CNY": "20"
+	},
+	"hasNote": 1,
+	"options": {
+
+		"Standard Clean Condo & HDB": {
+			"handle": "cleaning_sg_condo_hdb",
+			"label": "1 Crew - Condo/HDB. Standard Clean                                       SGD22/hr/crew                                        Min 3hrs",
+			"orderLabel": "Hours (1 Crew - Condo/HDB)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "22",
+				"MYR": "20",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 180,
+				"base": 60
+			}
+		},
+
+
+
+		"Standard Clean Landed Property": {
+			"handle": "cleaning_sg_landed_property",
+			"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
+			"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "22",
+				"MYR": "22",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 60,
+				"default": 300,
+				"base": 60
+			}
+		},
+
+		"Festive Clean Condo & HDB": {
+			"handle": "cleaning_sg_festive_condo_hdb",
+			"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
+			"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "25",
+				"MYR": "20",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 240,
+				"base": 60
+			}
+		},
+
+
+
+		"Festive Clean Landed Property": {
+			"handle": "cleaning_sg_festive_landed_property",
+			"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 6hrs",
+			"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "25",
+				"MYR": "22",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 450,
+				"increment": 60,
+				"default": 360,
+				"base": 60
+			}
+		},
+
+
+
+
+		"Top Up Package": {
+			"handle": "cleaning_sg_topup_package",
+			"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
+			"orderLabel": "Package (Cleaning Top-Up Package)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "500",
+				"MYR": "80",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Package",
+				"min": 0,
+				"max": 0,
+				"increment": 1,
+				"default": 1,
+				"base": 1
+			}
+		}
+	},
+
+	"types": {
+		"house": {
+			"label": "Weekend?",
+			"description": "Label standard",
+			"values": {
+				"Weekends": {
+					"label": "Weekend +SGD20",
+					"orderLabel": "Weekend +SGD20",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "20",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+
+				"Weekdays": {
+					"label": "Weekdays Waived",
+					"orderLabel": "Weekdays Waived",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+
+					"oneOffCost": {
+						"SGD": "0",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				}
+			}
+		}
+	}
+},
+
+
+
+
+
+
+
+
+"renovation": {
+	"name": "Retrofit & Renovation",
+	"lastSlot": "15:30",
+	"disableLocations": [],
+	"startPrice": {
+		"SGD": "20",
+		"MYR": "30",
+		"CNY": "20"
+	},
+	"hasNote": 1,
+	"options": {
+
+
+		"SG Renovation Transport": {
+			"handle": "sg_renovation_transport",
+			"label": "Retrofit or Renovation Transport Fee                                                   SGD20/trip",
+			"orderLabel": "Trip (Retrofit or Renovation Transport Fee)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "20",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 1,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
+
+
+		"SG Renovation Project Survey": {
+			"handle": "sg_renovation_project_survey",
+			"label": "Retrofit or Renovation Project Survey                                                   Free",
+			"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		},
+
+		"Project Confirmation": {
+			"handle": "others_project",
+			"label": "Retrofit or Renovation Project Confirmation                                             Per Quotation",
+			"orderLabel": "Job (Retrofit or Renovation Project Confirmation)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "0",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		}
+	},
+
+	"types": {
+		"house": {
+			"label": "House Type",
+			"description": "Label standard",
+			"values": {
+				"condo": {
+					"label": "HDB/Condo +SGD5",
+					"orderLabel": "HDB/Condo +SGD5",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "5",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+				"landed": {
+					"label": "Landed Property",
+					"orderLabel": "Landed Property",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					}
+				}
+			}
+		}
+	}
+}
 }
