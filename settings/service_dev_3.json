@@ -1202,7 +1202,7 @@
 	"free-service": {
     "name": "Free Service",
     "lastSlot": "16:30",
-    "disableLocations": [],
+    "disableLocations": ["Johor Bahru", "Kuala Lumpur"],
     "startPrice": {
       "SGD": "20",
       "MYR": "20",
