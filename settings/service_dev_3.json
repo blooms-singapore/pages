@@ -1326,10 +1326,12 @@
             },
             "oneOffCost": {
               "SGD": "0",
-              "MYR": "10",
-              "CNY": "25"
+              "MYR": "0",
+              "CNY": "0"
             }
           },
+		
+		
           "landed": {
             "label": "Landed Property +SGD25",
             "orderLabel": "Landed Property +SGD25",
