@@ -2,7 +2,7 @@
 	"washing-machine": {
 		"name": "Washing Machine",
 		"lastSlot": "15:30",
-		"disableLocations": ["kuala Lumpur"],
+		"disableLocations": ["kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "0",
@@ -400,7 +400,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "107.5",
 			"MYR": "180",
@@ -710,7 +710,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "95",
@@ -898,7 +898,7 @@
 			"MYR": "80",
 			"CNY": "150"
 		},
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"hasNote": 1,
 		"options": {
 
@@ -1503,7 +1503,7 @@
 "plumbing": {
 	"name": "Plumbing",
 	"lastSlot": "16:00",
-	"disableLocations": [],
+	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 	"startPrice": {
 		"SGD": "55",
 		"MYR": "100",
