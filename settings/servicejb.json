@@ -2,7 +2,7 @@
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "90",
@@ -320,7 +320,7 @@
 	"roof": {
 		"name": "Roof (C)",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -456,7 +456,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "115",
 			"MYR": "210",
@@ -621,7 +621,7 @@
 	"renovation": {
 		"name": "Retrofit & Renovate (C)",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "30",
@@ -711,7 +711,7 @@
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "528",
 			"MYR": "1600",
@@ -870,7 +870,7 @@
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "120",
@@ -1296,7 +1296,7 @@
 			"MYR": "85",
 			"CNY": "150"
 		},
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"hasNote": 1,
 		"options": {
 			
@@ -1445,7 +1445,7 @@
 	"plumbing": {
 		"name": "Plumbing (C)",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "100",
@@ -1669,7 +1669,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "55",
@@ -1892,7 +1892,7 @@
 	"waterproof": {
 		"name": "Waterproofing (C)",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -2024,7 +2024,7 @@
 	"electrical": {
 		"name": "Electrical",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "95",
@@ -2180,7 +2180,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "210",
@@ -2434,7 +2434,7 @@
 	"home-security": {
 		"name": "Home Security (C)",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -2549,7 +2549,7 @@
 	 "washing-machine-jb": {
 		"name": "Washing Machine",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "120",
@@ -2721,7 +2721,7 @@
 	"house_diagnosis": {
 		"name": "House Diagnosis",
 		"lastSlot": "14:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "535",
@@ -2834,7 +2834,7 @@
 	"locksmith": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore","Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "60",
@@ -3079,7 +3079,7 @@
 	"disposal": {
 		"name": "Disposal",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -3212,7 +3212,7 @@
 	"curtain": {
 		"name": "Curtain Alteration & Laundry",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "68",
@@ -3402,7 +3402,7 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "90",
@@ -3545,7 +3545,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand. MOQ = MYR100",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "100",
@@ -5300,7 +5300,7 @@
 	"pet": {
 		"name": "Pet",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "52",
