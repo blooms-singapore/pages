@@ -711,7 +711,7 @@
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["kuala Lumpur"],
 		"startPrice": {
 			"SGD": "528",
 			"MYR": "1600",
@@ -1296,7 +1296,7 @@
 			"MYR": "85",
 			"CNY": "150"
 		},
-		"disableLocations": [],
+		"disableLocations": ["Seremban"],
 		"hasNote": 1,
 		"options": {
 			
@@ -1669,7 +1669,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "55",
@@ -1892,7 +1892,7 @@
 	"waterproof": {
 		"name": "Waterproofing (C)",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -2549,7 +2549,7 @@
 	 "washing-machine-jb": {
 		"name": "Washing Machine",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "120",
@@ -2834,7 +2834,7 @@
 	"locksmith": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Singapore","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "60",
@@ -3079,7 +3079,7 @@
 	"disposal": {
 		"name": "Disposal",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -3212,7 +3212,7 @@
 	"curtain": {
 		"name": "Curtain Alteration & Laundry",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "68",
@@ -3545,7 +3545,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand. MOQ = MYR100",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur","Johor Bahru"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "100",
@@ -5293,6 +5293,351 @@
 	
 	
 	
+	"car-care": {
+		"name": "Car Care",
+		"lastSlot": "14:00",
+		"disableLocations":["Johor Bahru"],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "147",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Wax Sedan": {
+				"handle": "wax_sedan",
+				"label": "Sedan Wax / 打蜡",
+				"orderLabel": "Job (Sedan Wax / 打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "168.42",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+			"SUV Wax": {
+				"handle": "wax_suv",
+				"label": "SUV Wax / 打蜡",
+				"orderLabel": "Job (SUV Wax / 打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "189.47",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Wax": {
+				"handle": "wax_mpv",
+				"label": "MPV Wax / 打蜡",
+				"orderLabel": "Job (MPV Wax / 打蜡)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "231.58",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Coat": {
+				"handle": "coat_sedan",
+				"label": "Sedan Coat / 保护膜层",
+				"orderLabel": "Job (Sedan Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "300",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Coat": {
+				"handle": "coat_suv",
+				"label": "SUV Coat / 保护膜层",
+				"orderLabel": "Job (SUV Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "400",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Coat": {
+				"handle": "coat_mpv",
+				"label": "MPV Coat / 保护膜层",
+				"orderLabel": "Job (MPV Coat / 保护膜层)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "500",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Tint": {
+				"handle": "tint_sedan",
+				"label": "Sedan Window Tint / 车窗隔热膜",
+				"orderLabel": "Job (Sedan Window Tint / 车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "370",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Tint": {
+				"handle": "tint_suv",
+				"label": "SUV Window Tint / 车窗隔热膜",
+				"orderLabel": "Job (SUV Window Tint / 车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "450",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Tint": {
+				"handle": "tint_mpv",
+				"label": "MPV Window Tint / 车窗隔热膜",
+				"orderLabel": "Job (MPV Window Tint / 车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "500",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Premium Sedan Tint": {
+				"handle": "premium_tint_sedan",
+				"label": "Sedan Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium Sedan Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "800",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Premium SUV Tint": {
+				"handle": "premium_tint_suv",
+				"label": "SUV Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium SUV Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1000",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Premium MPV Tint": {
+				"handle": "premium_tint_mpv",
+				"label": "MPV Premium Window Tint / 优质车窗隔热膜",
+				"orderLabel": "Job (Premium MPV Window Tint / 优质车窗隔热膜 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "1350",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Sedan Clean": {
+				"handle": "clean_sedan",
+				"label": "Sedan Seat Clean / 车椅维护",
+				"orderLabel": "Job (Sedan Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "120",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"SUV Clean": {
+				"handle": "clean_suv",
+				"label": "SUV Seat Clean / 车椅维护",
+				"orderLabel": "Job (SUV Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "180",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"MPV Clean": {
+				"handle": "clean_mpv",
+				"label": "MPV Seat Clean / 车椅维护",
+				"orderLabel": "Job (MPV Seat Clean / 车椅维护 )",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "250",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium / 公寓",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed House / 有地住宅",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
 	
 	
 	
@@ -5300,7 +5645,7 @@
 	"pet": {
 		"name": "Pet",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore", "Kuala Lumpur", "Johor Bahru", "Nilai - Coming Soon"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "52",
