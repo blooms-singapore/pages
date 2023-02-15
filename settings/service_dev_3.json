@@ -1664,7 +1664,7 @@
 "cleaning-sg": {
 	"name": "Cleaning",
 	"lastSlot": "14:30",
-	"disableLocations": [],
+	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 	"startPrice": {
 		"SGD": "66",
 		"MYR": "95",
@@ -1831,7 +1831,7 @@
 "renovation": {
 	"name": "Retrofit & Renovation",
 	"lastSlot": "15:30",
-	"disableLocations": [],
+	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 	"startPrice": {
 		"SGD": "20",
 		"MYR": "30",
