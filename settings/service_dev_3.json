@@ -1045,7 +1045,7 @@
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
-		"disableLocations": ["kuala Lumpur"],
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "528",
 			"MYR": "1600",
