@@ -201,8 +201,8 @@
 			
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash                                                SGD20/unit",
-				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
+				"label": "Week-DAYS Wall-Mount Standard Wash                                                SGD20/unit",
+				"orderLabel": "Unit (Week-DAYS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -224,8 +224,8 @@
 
 			"Weekends Standard Wash": {
 				"handle": "aircon_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash                                          SGD25/unit",
-				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
+				"label": "Week-ENDS Wall-Mount Standard Wash                                          SGD25/unit",
+				"orderLabel": "Unit (Week-ENDS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
