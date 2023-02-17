@@ -201,7 +201,7 @@
 			
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash",
+				"label": "Weekdays Wall-Mount Standard Wash                                                SGD20/unit",
 				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
