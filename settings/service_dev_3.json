@@ -1293,7 +1293,7 @@
       "Free Service Aircon": {
         "handle": "free_service_aircon",
         "label": "AC Standard Wash 1 unit                                               Free",
-        "orderLabel": "Order (AC Standard Wash 1 unit)",
+        "orderLabel": "Unit (AC Standard Wash 1 unit)",
         "description": "Label standard",
         "cost": {
           "SGD": "0",
@@ -1301,7 +1301,7 @@
           "CNY": "260"
         },
         "quantity": {
-          "label": "Order",
+          "label": "Unit",
           "min": 0,
           "max": 1,
           "increment": 1,
