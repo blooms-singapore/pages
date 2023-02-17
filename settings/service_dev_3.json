@@ -1312,8 +1312,8 @@
 
       "Free Service Survey": {
         "handle": "free_service_survey",
-        "label": "Free service survey                                             Free",
-        "orderLabel": "Trip (Free service survey)",
+        "label": "Survey                                             Free",
+        "orderLabel": "Trip (Survey)",
         "description": "Label standard",
         "cost": {
           "SGD": "0",
