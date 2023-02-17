@@ -177,56 +177,12 @@
 		"hasNote": 1,
 		"options": {
 
-			"AC Transport": {
-				"handle": "aircon_sg_transport",
-				"label": "Transport Fee                                           SGD20/trip",
-				"orderLabel": "Trip (Transport Fee)",
-				"description": "Transport Fee",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
+				
 			
-			
-			
-			"Weekdays First Unit free": {
-				"handle": "aircon_standard_wash_1st_weekdays",
-				"label": "First Unit                                     Free",
-				"orderLabel": "Unit (First Unit)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "-20",
-					"MYR": "130",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Units",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 2,
-					"base": 1
-				}
-			},
-
-
-
-
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash 2nd Unit Onwards                                      SGD20/unit",
-				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash 2nd Unit onwards)",
+				"label": "Weekdays Wall-Mount Standard Wash",
+				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -248,8 +204,8 @@
 
 			"Weekends Standard Wash": {
 				"handle": "aircon_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash 2nd Units onwards                                     SGD25/unit",
-				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash 2nd Unit onwards)",
+				"label": "Weekends Wall-Mount Standard Wash                                          SGD25/unit",
+				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "25",
