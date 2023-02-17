@@ -1292,8 +1292,8 @@
 	    
       "Free Service Aircon": {
         "handle": "free_service_aircon",
-        "label": "AC Standard Wash                                                1st unit free",
-        "orderLabel": "Order (AC Standard Wash)",
+        "label": "AC Standard Wash 1 unit                                               Free",
+        "orderLabel": "Order (AC Standard Wash 1 unit)",
         "description": "Label standard",
         "cost": {
           "SGD": "0",
