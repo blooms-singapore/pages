@@ -170,7 +170,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Johor Bahru", "Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "60",
+			"SGD": "40",
 			"MYR": "90",
 			"CNY": "230"
 		},
@@ -179,19 +179,19 @@
 
 			"AC Transport": {
 				"handle": "aircon_sg_transport",
-				"label": "Transport Fee                                           SGD40/trip",
+				"label": "Transport Fee                                           SGD20/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Transport Fee",
 				"cost": {
-					"SGD": "40",
+					"SGD": "20",
 					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 1,
+					"min": 2,
 					"max": 0,
-					"default": 1,
+					"default": 0,
 					"increment": 1,
 					"base": 1,
 					"multiplier": 1
@@ -202,7 +202,7 @@
 
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   SGD10/unit",
+				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   SGD20/unit",
 				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
