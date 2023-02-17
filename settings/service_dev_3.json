@@ -225,11 +225,11 @@
 
 			"Weekends Standard Wash": {
 				"handle": "aircon_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   SGD15/unit",
+				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   SGD25/unit",
 				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "25",
 					"MYR": "130",
 					"CNY": "260"
 				},
@@ -266,11 +266,11 @@
 
 			"AC Trouble Shoot": {
 				"handle": "aircon_sg_troubleshoot",
-				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
+				"label": "Aircon Trouble-Shoot                                    SGD25/unit",
 				"orderLabel": "Unit (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "25",
 					"MYR": "60",
 					"CNY": "260"
 				},
@@ -286,11 +286,11 @@
 
 			"AC Water Leak": {
 				"handle": "aircon_sg_leak",
-				"label": "Water Leak                                                           SGD30/unit",
+				"label": "Water Leak                                                           SGD25/unit",
 				"orderLabel": "Unit (Water Leak)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "25",
 					"MYR": "60",
 					"CNY": "260"
 				},
