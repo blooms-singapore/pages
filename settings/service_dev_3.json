@@ -355,15 +355,15 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/HDB +SGD5",
-						"orderLabel": "Condo/HDB +SGD5",
+						"label": "Condo/HDB",
+						"orderLabel": "Condo/HDB",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "25"
 						}
