@@ -2549,7 +2549,7 @@
 	 "washing-machine-jb": {
 		"name": "Washing Machine",
 		"lastSlot": "15:30",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "120",
@@ -2565,7 +2565,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "45",
+					"MYR": "60",
 					"CNY": "0"
 				},
 				"quantity": {
