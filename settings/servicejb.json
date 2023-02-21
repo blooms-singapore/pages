@@ -454,9 +454,9 @@
 	
 	
 	"painting": {
-		"name": "Painting",
+		"name": "Painting (C)",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "115",
 			"MYR": "210",
@@ -1669,7 +1669,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "55",
