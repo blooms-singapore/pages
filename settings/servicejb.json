@@ -1,4 +1,162 @@
 {	
+	
+		"installation": {
+		"name": "Installation & Dismantling",
+		"lastSlot": "16:30",
+		"startPrice": {
+			"SGD": "55",
+			"MYR": "85",
+			"CNY": "150"
+		},
+		"disableLocations": ["Seremban"],
+		"hasNote": 1,
+		"options": {
+			
+			"Installation Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Installation Transport Fee                                                          RM30/trip",
+				"orderLabel": "Trip (Installation Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "55",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"Installation Standard": {
+				"handle": "installation_standard",
+				"label": "Standard Installation                                                 RM55/hr/crew",
+				"orderLabel": "Hour (Standard Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "55",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+         
+			"Installation Technical": {
+				"handle": "installation_technical",
+				"label": "Technical Installation                                                RM70/hr/crew",
+				"orderLabel": "Hour (Technical Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"Site Survey": {
+				"handle": "installation_site_survey",
+				"label": "Installation Site Survey                                                      Free",
+				"orderLabel": "Trip (Installation Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			"Project": {
+				"handle": "project",
+				"label": "Lumpsum Work Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+            		 }
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10 ",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"orderLabel": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	"aircon": {
 		"name": "Aircon Works",
 		"lastSlot": "16:30",
@@ -312,6 +470,230 @@
 	},
 	
 	
+	
+	
+	
+	
+	
+			
+	"landscape": {
+		"name": "Landscape",
+		"lastSlot": "15:00",
+		"disableLocations": ["Kuala Lumpur"],
+		"startPrice": {
+			"SGD": "20",
+			"MYR": "55",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Landscape Survey": {
+				"handle": "landscape_survey",
+				"label": "Landscape Survey                                             RM20/trip",
+				"orderLabel": "Trip (Landscape Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "20",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 0,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			
+			"Landscape 1 crew": {
+				"handle": "landscape_one_crew",
+				"label": "1 crew - Small Garden                                           RM55/hr                                                    Min 1hr",
+				"orderLabel": "Hour (1 crew - Small Garden)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "55",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
+			
+			
+			"Landscape 2 crews": {
+				"handle": "landscape_two_crews",
+				"label": "2 Crews - Large Garden                                              RM75/hr                                                     Min 3hrs",
+				"orderLabel": "Hours (2 Crews - Large Garden)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "75",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 6,
+					"increment": 0.5,
+					"default": 3,
+					"base": 1
+				}
+			},
+						
+					
+			
+			
+			"Overgrowth Clearance": {
+				"handle": "landscape_overgrowth_clearance",
+				"label": "2 Crews - Overgrowth Clearance                                  RM90/hr                                                       Min 3hrs",
+				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "90",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 7,
+					"increment": 0.5,
+					"default": 3,
+					"base": 1
+				}
+			},
+			
+			"Small Debris": {
+				"handle": "small_debris",
+				"label": "Small Disposal Fee                                        RM30                                                Up to 3 bags",
+				"orderLabel": "Job (Small Disposal Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Big Debris": {
+				"handle": "big_debris",
+				"label": "Big Disposal Fee                                 RM10/bag",
+				"orderLabel": "Bags (Big Disposal Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "10",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Bags",
+					"min": 0,
+					"max": 0,
+					"default": 4,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Disposal by Lorry": {
+				"handle": "landscape_disposal_by_lorry",
+				"label": "Disposal by Lorry                                                        RM150/lorry",
+				"orderLabel": "Job (Disposal by Lorry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "150",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 2,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+	
+			"Lumpsum Project": {
+				"handle": "project",
+				"label": "Lumpsum Project Confirmation                                    Per Quotation",
+				"orderLabel": "Job (Lumpsum Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 }
+		},
+		
+		"types": {
+			"house": {
+				"label": "House Location",
+				"description": "Label standard",
+				"values": {
+					"Standard": {
+						"label": "Standard Location",
+						"orderLabel": "Standard Location",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+							}
+						},
+						
+					"Distant": {
+						"label": "Distant Location +RM20",
+						"orderLabel": "Distant Location +RM20",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
 	
 	
 	
@@ -1288,153 +1670,7 @@
 	
 	
 	
-	"installation": {
-		"name": "Installation & Dismantling",
-		"lastSlot": "16:30",
-		"startPrice": {
-			"SGD": "55",
-			"MYR": "85",
-			"CNY": "150"
-		},
-		"disableLocations": ["Seremban"],
-		"hasNote": 1,
-		"options": {
-			
-			"Installation Transport Fee": {
-				"handle": "transport_fee",
-				"label": "Installation Transport Fee                                                          RM30/trip",
-				"orderLabel": "Trip (Installation Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "55",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"Installation Standard": {
-				"handle": "installation_standard",
-				"label": "Standard Installation                                                 RM55/hr/crew",
-				"orderLabel": "Hour (Standard Installation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "55",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-         
-			"Installation Technical": {
-				"handle": "installation_technical",
-				"label": "Technical Installation                                                RM70/hr/crew",
-				"orderLabel": "Hour (Technical Installation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Site Survey": {
-				"handle": "installation_site_survey",
-				"label": "Installation Site Survey                                                      Free",
-				"orderLabel": "Trip (Installation Site Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			"Project": {
-				"handle": "project",
-				"label": "Lumpsum Work Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-            		 }
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo/Office +RM10",
-						"orderLabel": "Condo/Office +RM10 ",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-	
+
 	
 	
 	
@@ -1665,225 +1901,6 @@
 	
 		
 	
-			
-	"landscape": {
-		"name": "Landscape",
-		"lastSlot": "15:00",
-		"disableLocations": ["Kuala Lumpur"],
-		"startPrice": {
-			"SGD": "20",
-			"MYR": "55",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Landscape Survey": {
-				"handle": "landscape_survey",
-				"label": "Landscape Survey                                             RM20/trip",
-				"orderLabel": "Trip (Landscape Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 0,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			
-			"Landscape 1 crew": {
-				"handle": "landscape_one_crew",
-				"label": "1 crew - Small Garden                                           RM55/hr                                                    Min 1hr",
-				"orderLabel": "Hour (1 crew - Small Garden)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "55",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			
-			
-			
-			"Landscape 2 crews": {
-				"handle": "landscape_two_crews",
-				"label": "2 Crews - Large Garden                                              RM75/hr                                                     Min 3hrs",
-				"orderLabel": "Hours (2 Crews - Large Garden)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "75",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hours",
-					"min": 0,
-					"max": 6,
-					"increment": 0.5,
-					"default": 3,
-					"base": 1
-				}
-			},
-						
-					
-			
-			
-			"Overgrowth Clearance": {
-				"handle": "landscape_overgrowth_clearance",
-				"label": "2 Crews - Overgrowth Clearance                                  RM90/hr                                                       Min 3hrs",
-				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "90",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 7,
-					"increment": 0.5,
-					"default": 3,
-					"base": 1
-				}
-			},
-			
-			"Small Debris": {
-				"handle": "small_debris",
-				"label": "Small Disposal Fee                                        RM30                                                Up to 3 bags",
-				"orderLabel": "Job (Small Disposal Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "30",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Big Debris": {
-				"handle": "big_debris",
-				"label": "Big Disposal Fee                                 RM10/bag",
-				"orderLabel": "Bags (Big Disposal Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "10",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Bags",
-					"min": 0,
-					"max": 0,
-					"default": 4,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			},
-			
-			"Disposal by Lorry": {
-				"handle": "landscape_disposal_by_lorry",
-				"label": "Disposal by Lorry                                                        RM150/lorry",
-				"orderLabel": "Job (Disposal by Lorry)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "150",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 2,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			 },
-			
-	
-			"Lumpsum Project": {
-				"handle": "project",
-				"label": "Lumpsum Project Confirmation                                    Per Quotation",
-				"orderLabel": "Job (Lumpsum Project Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "20"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			 }
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Location",
-				"description": "Label standard",
-				"values": {
-					"Standard": {
-						"label": "Standard Location",
-						"orderLabel": "Standard Location",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-							}
-						},
-						
-					"Distant": {
-						"label": "Distant Location +RM20",
-						"orderLabel": "Distant Location +RM20",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "20",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
 	
 	
 	
@@ -2679,27 +2696,27 @@
 				"label": "Machine Type",
 				"description": "Label standard",
 				"values": {
-					"HDB or Condo": {
-						"label": "Side Loading +RM20",
-						"orderLabel": "Side Load +RM20",
+					"Top Loading": {
+						"label": "Top Loading",
+						"orderLabel": "Top Load",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
-							"MYR": "20",
+							"SGD": "0",
+							"MYR": "0",
 							"CNY": "10"
 						}
 					},
 					
-					"Landed House": {
-						"label": "Top Loading",
-						"orderLabel": "Top Loading",
+					"Side Loading": {
+						"label": "Side Loading +RM30",
+						"orderLabel": "Side Loading +RM30",
 						"cost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "30",
 							"CNY": "0"
 						}
 					}
