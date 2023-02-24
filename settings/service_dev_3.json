@@ -145,8 +145,8 @@
 						}
 					},
 					"Side Loading": {
-						"label": "Side Loading",
-						"orderLabel": "Side Loading",
+						"label": "Side Loading +SGD20",
+						"orderLabel": "Side Loading + SGD20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
