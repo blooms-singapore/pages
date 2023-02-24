@@ -1044,6 +1044,173 @@
 	},
 
 
+	
+	
+	
+	
+	"cleaning-sg": {
+	"name": "Cleaning",
+	"lastSlot": "16:00",
+	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+	"startPrice": {
+		"SGD": "66",
+		"MYR": "95",
+		"CNY": "20"
+	},
+	"hasNote": 1,
+	"options": {
+
+		"Standard Clean Condo & HDB": {
+			"handle": "cleaning_sg_condo_hdb",
+			"label": "1 Crew - Condo/HDB. Standard Clean                                       SGD22/hr/crew                                        Min 3hrs",
+			"orderLabel": "Hours (1 Crew - Condo/HDB)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "22",
+				"MYR": "20",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 180,
+				"base": 60
+			}
+		},
+
+
+
+		"Standard Clean Landed Property": {
+			"handle": "cleaning_sg_landed_property",
+			"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
+			"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "22",
+				"MYR": "22",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 60,
+				"default": 300,
+				"base": 60
+			}
+		},
+
+		"Festive Clean Condo & HDB": {
+			"handle": "cleaning_sg_festive_condo_hdb",
+			"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
+			"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "25",
+				"MYR": "20",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 240,
+				"base": 60
+			}
+		},
+
+
+
+		"Festive Clean Landed Property": {
+			"handle": "cleaning_sg_festive_landed_property",
+			"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 6hrs",
+			"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "25",
+				"MYR": "22",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 450,
+				"increment": 60,
+				"default": 360,
+				"base": 60
+			}
+		},
+
+
+
+
+		"Top Up Package": {
+			"handle": "cleaning_sg_topup_package",
+			"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
+			"orderLabel": "Package (Cleaning Top-Up Package)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "500",
+				"MYR": "80",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Package",
+				"min": 0,
+				"max": 0,
+				"increment": 1,
+				"default": 1,
+				"base": 1
+			}
+		}
+	},
+
+	"types": {
+		"house": {
+			"label": "Weekend?",
+			"description": "Label standard",
+			"values": {
+				"Weekends": {
+					"label": "Weekend +SGD20",
+					"orderLabel": "Weekend +SGD20",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "20",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+
+				"Weekdays": {
+					"label": "Weekdays Waived",
+					"orderLabel": "Weekdays Waived",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+
+					"oneOffCost": {
+						"SGD": "0",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				}
+			}
+		}
+	}
+},
+
+	
+	
+	
 
 
 	"clean-water": {
@@ -1677,173 +1844,6 @@
 	}
 },
 
-
-
-
-
-
-
-
-
-"cleaning-sg": {
-	"name": "Cleaning",
-	"lastSlot": "14:30",
-	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
-	"startPrice": {
-		"SGD": "66",
-		"MYR": "95",
-		"CNY": "20"
-	},
-	"hasNote": 1,
-	"options": {
-
-		"Standard Clean Condo & HDB": {
-			"handle": "cleaning_sg_condo_hdb",
-			"label": "1 Crew - Condo/HDB. Standard Clean                                       SGD22/hr/crew                                        Min 3hrs",
-			"orderLabel": "Hours (1 Crew - Condo/HDB)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "22",
-				"MYR": "20",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 0,
-				"increment": 30,
-				"default": 180,
-				"base": 60
-			}
-		},
-
-
-
-		"Standard Clean Landed Property": {
-			"handle": "cleaning_sg_landed_property",
-			"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
-			"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "22",
-				"MYR": "22",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 0,
-				"increment": 60,
-				"default": 300,
-				"base": 60
-			}
-		},
-
-		"Festive Clean Condo & HDB": {
-			"handle": "cleaning_sg_festive_condo_hdb",
-			"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
-			"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "25",
-				"MYR": "20",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 0,
-				"increment": 30,
-				"default": 240,
-				"base": 60
-			}
-		},
-
-
-
-		"Festive Clean Landed Property": {
-			"handle": "cleaning_sg_festive_landed_property",
-			"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 6hrs",
-			"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "25",
-				"MYR": "22",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 450,
-				"increment": 60,
-				"default": 360,
-				"base": 60
-			}
-		},
-
-
-
-
-		"Top Up Package": {
-			"handle": "cleaning_sg_topup_package",
-			"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
-			"orderLabel": "Package (Cleaning Top-Up Package)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "500",
-				"MYR": "80",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Package",
-				"min": 0,
-				"max": 0,
-				"increment": 1,
-				"default": 1,
-				"base": 1
-			}
-		}
-	},
-
-	"types": {
-		"house": {
-			"label": "Weekend?",
-			"description": "Label standard",
-			"values": {
-				"Weekends": {
-					"label": "Weekend +SGD20",
-					"orderLabel": "Weekend +SGD20",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-					"oneOffCost": {
-						"SGD": "20",
-						"MYR": "10",
-						"CNY": "10"
-					}
-				},
-
-				"Weekdays": {
-					"label": "Weekdays Waived",
-					"orderLabel": "Weekdays Waived",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-
-					"oneOffCost": {
-						"SGD": "0",
-						"MYR": "10",
-						"CNY": "10"
-					}
-				}
-			}
-		}
-	}
-},
 
 
 
