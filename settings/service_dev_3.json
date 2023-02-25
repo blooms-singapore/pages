@@ -1,6 +1,6 @@
 {
 	"washing-machine": {
-		"name": "Washing Mach",
+		"name": "Washing Machine",
 		"lastSlot": "15:30",
 		"disableLocations": ["kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
