@@ -524,13 +524,13 @@
 						
 			"Std Clean Condo": {
 				"handle": "standard_condo",
-				"label": "Standard Clean Condo - 2 Crews                                               RM25/hr/crew                                            Min 3hrs",
+				"label": "Standard Clean Condo - 2 Crews                                               RM28/hr/crew                                            Min 3hrs",
 				"displayLabel": "Standard Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "50",
+					"MYR": "56",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -548,13 +548,13 @@
 			
 			"Std Clean Landed House": {
 				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed House - 2 Crews                                                RM25/hr/crew                                            Min 4hrs",
-				"displayLabel": "Standard Clean Landed House - 2 Crews",
-				"orderLabel": "Hours (Standard Clean Landed House - 2 Crews)",
+				"label": "Standard Clean Landed Property - 2 Crews                                                RM28/hr/crew                                            Min 4hrs",
+				"displayLabel": "Standard Clean Landed Property - 2 Crews",
+				"orderLabel": "Hours (Standard Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "22",
-					"MYR": "50",
+					"MYR": "56",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -594,13 +594,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                        RM30/hr/crew                                                    Min 3hrs",
+				"label": "Festive Clean Condo - 2 Crews                                        RM35/hr/crew                                                    Min 3hrs",
 				"displayLabel": "Festive Clean Condo - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "60",
+					"MYR": "70",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -617,13 +617,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed House - 2 Crews                                          RM30/hr/crew                                            Min 5hrs",
-				"displayLabel": "Festive Clean Landed House - 2 Crews",
-				"orderLabel": "Hours (Festive Clean Landed House - 2 Crews)",
+				"label": "Festive Clean Landed Property - 2 Crews                                          RM35/hr/crew                                            Min 5hrs",
+				"displayLabel": "Festive Clean Landed Property - 2 Crews",
+				"orderLabel": "Hours (Festive Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "60",
+					"MYR": "70",
 					"CNY": "82.5"
 				},
 				"quantity": {
