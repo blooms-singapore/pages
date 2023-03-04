@@ -194,12 +194,12 @@
 			
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   RM50/unit",
+				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   RM55/unit",
 				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "50",
+					"MYR": "55",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -217,12 +217,12 @@
 			
 			"Weekends Standard Wash": {
 				"handle": "aircon_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   RM60/unit",
+				"label": "Weekends Wall-Mount Standard Wash                                      Min 2 units                                   RM65/unit",
 				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "60",
+					"MYR": "65",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -260,12 +260,12 @@
 			
 			"Weekends Chemical Overhaul": {
 				"handle": "aircon_chemical_overhaul_weekends",
-				"label": "Weekends Wall-Mount Chemical Overhaul                                             RM140/unit",
+				"label": "Weekends Wall-Mount Chemical Overhaul                                             RM125/unit",
 				"orderLabel": "Unit (Weekends Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "140",
+					"MYR": "125",
 					"CNY": "260"
 				},
 				"quantity": {
