@@ -742,7 +742,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "180",
+			"MYR": "50",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -769,12 +769,12 @@
 			
 			"Weekdays AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash                                          Min 2 units                                                  RM65/unit",
+				"label": "Weekdays Wall-Mount Standard Wash                                          Min 2 units                                                  RM35/unit",
 				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "65",
+					"MYR": "35",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -789,12 +789,12 @@
 			
 			"Weekends AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash                                           Min 2 units                                          RM75/unit",
+				"label": "Weekends Wall-Mount Standard Wash                                           Min 2 units                                          RM40/unit",
 				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "75",
+					"MYR": "40",
 					"CNY": "300"
 				},
 				"quantity": {
