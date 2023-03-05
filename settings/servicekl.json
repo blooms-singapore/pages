@@ -742,7 +742,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "50",
+			"MYR": "110",
 			"CNY": "230"
 		},
 		"hasNote": 1,
@@ -754,7 +754,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "50",
+					"MYR": "40",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -830,12 +830,12 @@
 			
 			"Weekends AC Chemical Overhaul": {
 				"handle": "aircon_kl_chemical_overhaul_weekends",
-				"label": "Weekends Wall-Mount Chemical Overhaul                                              RM140/unit",
+				"label": "Weekends Wall-Mount Chemical Overhaul                                              RM120/unit",
 				"orderLabel": "Units (Weekends Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "120",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -895,12 +895,12 @@
 			
 			"AC Leak": {
 				"handle": "aircon_kl_leak",
-				"label": "AC Leak                                        RM75/unit",
+				"label": "AC Leak                                        RM70/unit",
 				"orderLabel": "Unit (AC Leak)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "75",
+					"MYR": "70",
 					"CNY": "260"
 				},
 				"quantity": {
