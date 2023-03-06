@@ -985,12 +985,12 @@
 			
 			"AC Compressor Service": {
 				"handle": "aircon_kl_compressor",
-				"label": "AC Compressor Service                                        RM75/unit",
+				"label": "AC Compressor Service                                        RM60/unit",
 				"orderLabel": "Unit (AC Compressor Service)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "75",
+					"MYR": "60",
 					"CNY": "260"
 				},
 				"quantity": {
