@@ -745,8 +745,8 @@
 			
 			"Weekdays Chemical Overhaul": {
 				"handle": "aircon_chemical_overhaul_weekdays",
-				"label": "Weekdays Wall-Mount Chemical Overhaul                                                RM110/unit",
-				"orderLabel": "Unit (Weekdays Wall-Mount Chemical Overhaul)",
+				"label": "Week-DAYS Wall-Mount Chemical Overhaul                                                RM110/unit",
+				"orderLabel": "Unit (Week-DAYS Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -767,8 +767,8 @@
 			
 			"Weekends Chemical Overhaul": {
 				"handle": "aircon_chemical_overhaul_weekends",
-				"label": "Weekends Wall-Mount Chemical Overhaul                                             RM120/unit",
-				"orderLabel": "Unit (Weekends Wall-Mount Chemical Overhaul)",
+				"label": "Week-ENDS Wall-Mount Chemical Overhaul                                             RM120/unit",
+				"orderLabel": "Unit (Week-ENDS Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
