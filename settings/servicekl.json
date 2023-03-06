@@ -853,8 +853,8 @@
 			
 			"Weekdays AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekdays",
-				"label": "Weekdays Wall-Mount Standard Wash                                          Min 2 units                                                  RM35/unit",
-				"orderLabel": "Unit (Weekdays Wall-Mount Standard Wash)",
+				"label": "Week-DAYS Wall-Mount Standard Wash                                          Min 2 units                                                  RM35/unit",
+				"orderLabel": "Unit (Week_DAYS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -873,8 +873,8 @@
 			
 			"Weekends AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekends",
-				"label": "Weekends Wall-Mount Standard Wash                                           Min 2 units                                          RM40/unit",
-				"orderLabel": "Unit (Weekends Wall-Mount Standard Wash)",
+				"label": "Week-ENDS Wall-Mount Standard Wash                                           Min 2 units                                          RM40/unit",
+				"orderLabel": "Unit (Week-ENDS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -894,28 +894,8 @@
 					
 			"Weekdays AC Chemical Overhaul": {
 				"handle": "aircon_kl_chemical_overhaul_weekdays",
-				"label": "Weekdays Wall-Mount Chemical Overhaul                                            RM110/unit",
-				"orderLabel": "Units (Weekdays Wall-Mount Chemical Overhaul)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "110",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Units",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Weekends AC Chemical Overhaul": {
-				"handle": "aircon_kl_chemical_overhaul_weekends",
-				"label": "Weekends Wall-Mount Chemical Overhaul                                              RM120/unit",
-				"orderLabel": "Units (Weekends Wall-Mount Chemical Overhaul)",
+				"label": "Week-DAYS Wall-Mount Chemical Overhaul                                            RM120/unit",
+				"orderLabel": "Units (Week-DAYS Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -932,18 +912,38 @@
 				}
 			},
 			
+			"Weekends AC Chemical Overhaul": {
+				"handle": "aircon_kl_chemical_overhaul_weekends",
+				"label": "Week-ENDS Wall-Mount Chemical Overhaul                                              RM130/unit",
+				"orderLabel": "Units (Week-ENDS Wall-Mount Chemical Overhaul)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
 			
 			
 			
 			
-			"Standard AC Cassette Chemical Overhaul": {
+			
+			"Standard AC Cassette Overhaul": {
 				"handle": "aircon_kl_cassette_chemical_overhaul_standard",
-				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM398/unit",
+				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM348/unit",
 				"orderLabel": "Unit (Standard Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "398",
+					"MYR": "358",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -960,12 +960,12 @@
 			
 		"Big AC Cassette Chemical Overhaul": {
 				"handle": "aircon_kl_cassette_chemical_overhaul_big",
-				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM458/unit",
+				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM408/unit",
 				"orderLabel": "Unit (Big Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "458",
+					"MYR": "408",
 					"CNY": "260"
 				},
 				"quantity": {
