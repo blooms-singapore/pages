@@ -792,12 +792,12 @@
 			
 		"Cassette Chemical Overhaul": {
 				"handle": "aircon_jb_cassette_chemical_overhaul_standard",
-				"label": "Cassette Chemical Overhaul                                       RM380/unit",
+				"label": "Cassette Chemical Overhaul                                       RM360/unit",
 				"orderLabel": "Unit (Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "380",
+					"MYR": "360",
 					"CNY": "260"
 				},
 				"quantity": {
