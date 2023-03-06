@@ -38,7 +38,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <!--Transport Fee-->
    <thead>
       <tr>
-        <th><b>Miscellaneous<br>Charge</b></th>
+        <th><b>Other<br>Charges</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -48,9 +48,14 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <td>${params.aircon_kl_transport}/trip</td>
       </tr>
 	    
-	<tr>
+    <tr>
       <td>Condo/Office</td>
       <td>+10.0</td>
+      </tr>
+	    
+     <tr>
+      <td>Large AC Units<br>2.5hp & above</td>
+      <td>+50.0/unit</td>
       </tr>
 
   
@@ -58,17 +63,17 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <thead>
       <tr>
         <th><b>Wall-Mount<br>Standard Wash</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
+        <th><b>Pricing (${params.currency})<br>Standard Size</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Weekdays</td>
+	      <td>Week-<b>DAYS</b></td>
         <td>${params.aircon_kl_standard_wash_weekdays}/unit</td>
       </tr>
 
      <tr>
-        <td>Weekends</td>
+	     <td>Week-<b>ENDS</b></td>
         <td>${params.aircon_kl_standard_wash_weekends}/unit</td>
       </tr>
 	    
@@ -78,51 +83,21 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <thead>
       <tr>
         <th><b>Wall-Mount<br>Chemical Overhaul</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
+        <th><b>Pricing (${params.currency})<br>Standard Size</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Weekdays</td>
+	      <td>Week-<b>DAYS</b></td>
         <td>${params.aircon_kl_chemical_overhaul_weekdays}/unit</td>
       </tr>
 
      <tr>
-        <td>Weekends</td>
+	     <td>Week-<b>ENDS</b></td>
         <td>${params.aircon_kl_chemical_overhaul_weekends}/unit</td>
       </tr>
 	    
-	    
-	    <!--Aircon Fault-->
-     <thead>
-      <tr>
-        <th><b>Enquiry &<br>Aircon Fault</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-      <td>Aircon Survey</td>
-       <td>Free</td>
-      </tr>
-      
-      
-       <tr>
-        <td>Aircon Fault<br>Trouble-Shoot</td>
-        <td>${params.aircon_kl_troubleshoot}/unit</td>
-      </tr>    
-      
-      <tr>
-      <td>Water Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
-      <td>${params.aircon_kl_leak}/unit</td>
-      </tr>
-       
-      <tr>
-      <td>Aircon Lumpsum<br>Work Confirmation</td>
-       <td>Per Quotation</td>
-      </tr>
-         
+	             
    </tbody>
     </table>
   <div class="fineprint">
