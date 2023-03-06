@@ -792,12 +792,12 @@
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_kl_troubleshoot",
-				"label": "AC Fault Trouble-Shoot                                           RM70/unit",
+				"label": "AC Fault Trouble-Shoot                                           RM60/unit",
 				"orderLabel": "Unit (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "70",
+					"MYR": "60",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -812,7 +812,7 @@
 			
 			"AC Leak": {
 				"handle": "aircon_kl_leak",
-				"label": "AC Leak                                        RM70/unit",
+				"label": "AC Leak                                            RM60/unit",
 				"orderLabel": "Unit (AC Leak)",
 				"description": "Label standard",
 				"cost": {
@@ -851,91 +851,7 @@
 				}
 			},
 			
-			
-			
-			"AC Survey": {				
-				"handle": "aircon_kl_survey",
-				"label": "AC Survey                                           Free",
-				"orderLabel": "Trip (AC Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			"AC Trouble Shoot": {
-				"handle": "aircon_kl_troubleshoot",
-				"label": "AC Fault Trouble-Shoot                                           RM70/unit",
-				"orderLabel": "Unit (AC Fault Trouble-Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "70",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"AC Leak": {
-				"handle": "aircon_kl_leak",
-				"label": "AC Leak                                        RM70/unit",
-				"orderLabel": "Unit (AC Leak)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "80",
-					"MYR": "70",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-						
-			"AC Lumpsum Works Confirmation": {
-				"handle": "aircon_lumpsum_works_confirmation",
-				"label": "AC Lumpsum Works Confirmation                                            Per Quotation",
-				"orderLabel": "Job (AC Lumpsum Works Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
+					
 			
 			
 			"Weekdays AC Standard Wash": {
