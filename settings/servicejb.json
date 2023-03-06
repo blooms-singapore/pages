@@ -614,6 +614,91 @@
 			
 			
 			
+			
+				"AC Survey": {				
+				"handle": "aircon_survey",
+				"label": "Aircon Survey                                  Free",
+				"orderLabel": "Job (Aircon Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			"AC Trouble Shoot": {
+				"handle": "aircon_jb_troubleshoot",
+				"label": "Aircon Trouble-Shoot                                    RM60/unit",
+				"orderLabel": "Unit (Aircon Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"AC Water Leak": {
+				"handle": "aircon_jb_leak",
+				"label": "Water Leak                                                           RM60/unit",
+				"orderLabel": "Unit (Water Leak)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+			"AC Lumpsump Work Confirmation": {
+				"handle": "aircon_repair_project_confirmation",
+				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
+				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
 				"label": "Weekdays Wall-Mount Standard Wash                                      Min 2 units                                   RM35/unit",
@@ -701,88 +786,7 @@
 			},
 			
 			
-			"AC Survey": {				
-				"handle": "aircon_survey",
-				"label": "Aircon Survey                                  Free",
-				"orderLabel": "Job (Aircon Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			"AC Trouble Shoot": {
-				"handle": "aircon_jb_troubleshoot",
-				"label": "Aircon Trouble-Shoot                                    RM60/unit",
-				"orderLabel": "Unit (Aircon Trouble-Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"AC Water Leak": {
-				"handle": "aircon_jb_leak",
-				"label": "Water Leak                                                           RM60/unit",
-				"orderLabel": "Unit (Water Leak)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-			
-			"AC Lumpsump Work Confirmation": {
-				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
-				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
+		
 			
 			
 			
