@@ -855,7 +855,7 @@
 		
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type",
 				"description": "Label standard",
 				"values": {
 					"condo": {
