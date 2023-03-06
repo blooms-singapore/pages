@@ -14,12 +14,12 @@
 			
 			"Electrical Transport Fee": {
 				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                         RM45/trip",
+				"label": "Electrical Transport Fee                                         RM40/trip",
 				"orderLabel": "Trip (Electrical Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -191,12 +191,12 @@
 		"options": {
 			"Painting Transport": {
 				"handle" : "painting_transport",
-				"label": "Painting Transport Fee                                       RM30/trip",
+				"label": "Painting Transport Fee                                       RM40/trip",
 				"orderLabel": "Trip (Painting Transport Fee)",
 				"description": "Painting Transport Fee",
 				"cost": {
 					"SGD": "10",
-					"MYR": "30",
+					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -353,12 +353,12 @@
 						
 			"Installation Transport Fee": {
 				"handle": "transport_fee_kl",
-				"label": "Installation Transport Fee                                                          RM45/trip",
+				"label": "Installation Transport Fee                                                          RM40/trip",
 				"orderLabel": "Trip (Installation Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "45",
+					"MYR": "40",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -749,7 +749,7 @@
 		"options": {
 			"Aircon Transport Fee": {
 				"handle": "aircon_kl_transport",
-				"label": "Transport Fee                                             RM50/trip",
+				"label": "Transport Fee                                             RM40/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -851,6 +851,93 @@
 				}
 			},
 			
+			
+			
+			"AC Survey": {				
+				"handle": "aircon_kl_survey",
+				"label": "AC Survey                                           Free",
+				"orderLabel": "Trip (AC Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+			
+			
+			"AC Trouble Shoot": {
+				"handle": "aircon_kl_troubleshoot",
+				"label": "AC Fault Trouble-Shoot                                           RM70/unit",
+				"orderLabel": "Unit (AC Fault Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "70",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			"AC Leak": {
+				"handle": "aircon_kl_leak",
+				"label": "AC Leak                                        RM70/unit",
+				"orderLabel": "Unit (AC Leak)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "80",
+					"MYR": "70",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+						
+			"AC Lumpsum Works Confirmation": {
+				"handle": "aircon_lumpsum_works_confirmation",
+				"label": "AC Lumpsum Works Confirmation                                            Per Quotation",
+				"orderLabel": "Job (AC Lumpsum Works Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
 			"Weekdays AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekdays",
 				"label": "Week-DAYS Wall-Mount Standard Wash                                          Min 2 units                                                  RM35/unit",
@@ -938,7 +1025,7 @@
 			
 			"Standard AC Cassette Overhaul": {
 				"handle": "aircon_kl_cassette_chemical_overhaul_standard",
-				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM358/unit",
+				"label": "Standard Cassette Chemical Overhaul                                       Below 5hp                                       RM358/unit",
 				"orderLabel": "Unit (Standard Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
