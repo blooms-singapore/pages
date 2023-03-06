@@ -938,7 +938,7 @@
 			
 			"Standard AC Cassette Overhaul": {
 				"handle": "aircon_kl_cassette_chemical_overhaul_standard",
-				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM348/unit",
+				"label": "Standard Cassette Chemical Overhaul                                       below 5hp                                       RM358/unit",
 				"orderLabel": "Unit (Standard Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
@@ -960,7 +960,7 @@
 			
 		"Big AC Cassette Chemical Overhaul": {
 				"handle": "aircon_kl_cassette_chemical_overhaul_big",
-				"label": "Big Cassette Chemical Overhaul                                       above 5hp                                       RM408/unit",
+				"label": "Big Cassette Chemical Overhaul                                       5hp                                        RM408/unit",
 				"orderLabel": "Unit (Big Cassette Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
