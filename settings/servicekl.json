@@ -1251,6 +1251,264 @@
 	
 	
 	
+	
+	"tiling-kl": {
+		"name": "Tiling & Concrete",
+		"lastSlot": "15:00",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "45.5",
+			"MYR": "210",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			
+									
+			"Tiling Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Tiling Transport Fee                                                              RM30/trip",
+				"orderLabel": "Trip (Tiling Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+		
+
+			"Tiling Survey": {
+				"handle": "tiling_survey",
+				"label": "Tiling Survey                                                              Free",
+				"orderLabel": "Trip (Tiling Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+          						
+			
+		
+
+          		"Tiling Lumpsum Confirmation": {
+				"handle": "tiling_lumpsum",
+				"label": "Tiling Lumpsum Work Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			"Tiling Non-Waterproof": {
+				"handle": "nonwaterproof_min_order",
+				"label": "Tile Non-Waterproof Works - Min 1.5hrs                                                 RM120/hr",
+				"orderLabel": "Hour (Tile Non-Waterproof Works - Min 1.5hrs)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "120",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1.5,
+					"base": 1
+				}
+			},
+			
+				
+					
+			"Tiling Waterproof Empty House - 10ft2": {
+				"handle": "waterproof_empty_house_10ft2",
+				"label": "Tile Waterproof Work - Empty House - 10ft2 Increments                                                    RM35/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "35",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 30,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Empty House - 1ft2": {
+				"handle": "waterproof_empty_house_1ft2",
+				"label": "Tile Waterproof Work - Empty House - 1ft2 Increment                                              RM35/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "35",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 9,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+			
+					
+			"Waterproof Occupied House - 10ft2": {
+				"handle": "waterproof_occupied_house_10ft2",
+				"label": "Tile Waterproof Work - Occupied House - 10ft2 Increments                                                     RM40/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 0,
+					"increment": 10,
+					"default": 30,
+					"base": 1
+				}
+			},
+			
+			"Waterproof Occupied House - 1ft2": {
+				"handle": "waterproof_occupied_house_1ft2",
+				"label": "Tile Waterproof Work - Occupied House - 1ft2 Increment                                                   RM40/ft2",
+				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "40",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "ft2",
+					"min": 0,
+					"max": 9,
+					"increment": 1,
+					"default": 1,
+					"base": 1,
+					"Multiplier": 1
+				}
+			},
+			
+			
+			
+			
+			
+			
+		"Tiling Dust Protection": {
+				"handle": "tiling_dust_protection",
+				"label": "Tile Dust Protection Survey                                                   Free",
+				"orderLabel": "Trip (Tile Dust Protection Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1,
+					"Multiplier": 1
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "Location?",
+				"description": "Label standard",
+				"values": {
+					
+					"Standard Location": {
+						"label": "Standard Location",
+						"orderLabel": "Standard Locations",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					
+					"Distant Location": {
+						"label": "Distant Location +RM20",
+						"orderLabel": "Distant Locations +RM20",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	"renovation": {
 		"name": "Retrofit & Renovation",
 		"lastSlot": "15:30",
