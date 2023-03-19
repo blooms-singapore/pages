@@ -1634,12 +1634,12 @@
 			"orderLabel": "Trip (Emergency)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "120",
+				"SGD": "80",
 				"MYR": "100",
 				"CNY": "0"
 			},
 			"cost_max": {
-				"SGD": "150",
+				"SGD": "100",
 				"MYR": "150",
 				"CNY": "0"
 			},
