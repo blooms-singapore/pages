@@ -1729,7 +1729,7 @@
 
 		"Standard Plumbing": {
 			"handle": "plumbing_standard",
-			"label": "Standard Plumbing                                              RM45/hr",
+			"label": "Standard Plumbing                                              SGD45/hr",
 			"orderLabel": "Hour (Standard Plumbing)",
 			"description": "Label standard",
 			"cost": {
