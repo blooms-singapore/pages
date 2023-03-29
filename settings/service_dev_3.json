@@ -638,7 +638,7 @@
 
 			"HDB 2-Room Labour & Paint": {
 				"handle": "painting_hdb_labour_paint_two_room",
-				"label": "HDB 2-Room                                  Labour + Paint+ Sealant                                   SGD900/unit",
+				"label": "HDB 2-Room                                     Labour + Paint + Sealant                                   SGD900/unit",
 				"orderLabel": "Unit (HDB 2-Room Labour + Paint + Sealant)",
 				"description": "HDB 2-Room, Labour + Paint",
 				"cost": {
