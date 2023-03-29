@@ -639,7 +639,7 @@
 			"HDB 2-Room Labour & Paint": {
 				"handle": "painting_hdb_labour_paint_two_room",
 				"label": "HDB 2-Room                                  Labour + Paint+ Sealant                                   SGD900/unit",
-				"orderLabel": "Unit (HDB 2-Room, Labour + Paint + Sealant)",
+				"orderLabel": "Unit (HDB 2-Room Labour + Paint + Sealant)",
 				"description": "HDB 2-Room, Labour + Paint",
 				"cost": {
 					"SGD": "900",
@@ -662,7 +662,7 @@
 			"HDB 3-Room Labour & Paint": {
 				"handle": "painting_hdb_labour_paint_three_room",
 				"label": "HDB 3-Room                                  Labour + Paint + Sealant                                SGD1250/unit",
-				"orderLabel": "Unit (HDB 3-Room, Labour + Paint + Sealant)",
+				"orderLabel": "Unit (HDB 3-Room Labour + Paint + Sealant)",
 				"description": "HDB 3-Room, Labour + Paint + Sealant",
 				"cost": {
 					"SGD": "1250",
@@ -685,7 +685,7 @@
 			"HDB 4-Room Labour & Paint": {
 				"handle": "painting_hdb_labour_paint_four_room",
 				"label": "HDB 4-Room                                  Labour + Paint + Sealant                              SGD1700/unit",
-				"orderLabel": "Unit (HDB 4-Room, Labour + Paint + Sealant)",
+				"orderLabel": "Unit (HDB 4-Room Labour + Paint + Sealant)",
 				"description": "HDB 4-Room, Labour + Paint + Sealant",
 				"cost": {
 					"SGD": "1700",
@@ -707,7 +707,7 @@
 			"HDB 5-Room Labour & Paint": {
 				"handle": "painting_hdb_labour_paint_five_room",
 				"label": "HDB 5-Room                                  Labour + Paint + Sealant                                    SGD2150/unit",
-				"orderLabel": "Unit (HDB 5-Room, Labour + Paint + Sealant)",
+				"orderLabel": "Unit (HDB 5-Room Labour + Paint + Sealant)",
 				"description": "HDB 5-Room, Labour + Paint + Sealant",
 				"cost": {
 					"SGD": "2150",
