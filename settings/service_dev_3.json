@@ -797,7 +797,7 @@
 			
 			
 			"HDB 5-Room Labour Only": {
-				"handle": "painting_hdb_labour_four_room",
+				"handle": "painting_hdb_labour_five_room",
 				"label": "HDB 5-Room                                  Labour Only                                 SGD1100/unit",
 				"orderLabel": "Unit (HDB 5-Room, Labour Only)",
 				"description": "HDB 5-Room, Labour Only",
