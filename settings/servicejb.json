@@ -356,7 +356,7 @@
 				
 			"AC Compressor Service": {
 				"handle": "aircon_compressor",
-				"label": "FCU/Compressor Service                                           RM60/unit",
+				"label": "FCU/Compressor Service                                           RM60/unit                                        Min 2 Units",
 				"orderLabel": "Unit (FCU/Compressor Service)",
 				"description": "Label standard",
 				"cost": {
@@ -369,7 +369,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			}
