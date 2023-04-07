@@ -356,8 +356,8 @@
 				
 			"AC Compressor Service": {
 				"handle": "aircon_compressor",
-				"label": "Compressor Service + Wash                                           RM60/unit",
-				"orderLabel": "Unit (Compressor Service + Wash)",
+				"label": "FCU/Compressor Service                                           RM60/unit",
+				"orderLabel": "Unit (FCU/Compressor Service)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
