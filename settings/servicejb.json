@@ -1010,9 +1010,9 @@
 			
 			"Standard Clean Condo": {
 				"handle": "cleaning_standard_condo",
-				"label": "Standard Clean Condo - 2 Crews                                                            RM24/hr/crew                                                  Min 2.5hrs",
-				"displayLabel": "Standard Clean Condo - 2 Crews",
-				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
+				"label": "Standard Clean Condo/Apt - 2 Crews                                                            RM24/hr/crew                                                  Min 2.5hrs",
+				"displayLabel": "Standard Clean Condo/Apt - 2 Crews",
+				"orderLabel": "Hours (Standard Clean Condo/Apt - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -1082,9 +1082,9 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                                            RM25/hr/crew                                                  Min 3.5hrs",
-				"displayLabel": "Festive Clean Condo - 2 Crews",
-				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
+				"label": "Festive Clean Condo/Apt - 2 Crews                                                            RM25/hr/crew                                                  Min 3.5hrs",
+				"displayLabel": "Festive Clean Condo/Apt - 2 Crews",
+				"orderLabel": "Hours (Festive Clean Std Condo/Apt - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -1224,9 +1224,9 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Condo                                                            RM25/hr/crew                                                Min 4hrs",
-				"displayLabel": "Move Clean Condo",
-				"orderLabel": "Hours (Move Clean Condo)",
+				"label": "Move Clean Condo/Apt                                                            RM25/hr/crew                                                Min 4hrs",
+				"displayLabel": "Move Clean Condo/Apt",
+				"orderLabel": "Hours (Move Clean Condo/Apt)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
