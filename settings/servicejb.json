@@ -284,12 +284,12 @@
 			
 			"Weekdays Chemical Overhaul": {
 				"handle": "aircon_chemical_overhaul_weekdays",
-				"label": "Week-DAYS Wall-Mount Chemical Overhaul                                                RM110/unit",
+				"label": "Week-DAYS Wall-Mount Chemical Overhaul                                                RM130/unit",
 				"orderLabel": "Unit (Week-DAYS Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "110",
+					"MYR": "130",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -306,12 +306,12 @@
 			
 			"Weekends Chemical Overhaul": {
 				"handle": "aircon_chemical_overhaul_weekends",
-				"label": "Week-ENDS Wall-Mount Chemical Overhaul                                             RM120/unit",
+				"label": "Week-ENDS Wall-Mount Chemical Overhaul                                             RM150/unit",
 				"orderLabel": "Unit (Week-ENDS Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "120",
+					"MYR": "150",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -356,12 +356,12 @@
 				
 			"AC Compressor Service": {
 				"handle": "aircon_compressor",
-				"label": "FCU/Compressor Service                                           RM60/unit                                        Min 2 units",
-				"orderLabel": "Unit (FCU/Compressor Service)",
+				"label": "Fancoil Standard Wash                                           RM70/unit                                        Min 2 units",
+				"orderLabel": "Unit (Fancoil Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "70",
 					"CNY": "300"
 				},
 				"quantity": {
