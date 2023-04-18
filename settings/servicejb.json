@@ -1010,13 +1010,13 @@
 			
 			"Standard Clean Condo": {
 				"handle": "cleaning_standard_condo",
-				"label": "Standard Clean Condo/Apt - 2 Crews                                                            RM22.5/hr/crew                                                  Min 2.5hrs",
+				"label": "Standard Clean Condo/Apt - 2 Crews                                                            RM24/hr/crew                                                  Min 2.5hrs",
 				"displayLabel": "Standard Clean Condo/Apt - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Condo/Apt - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "45",
+					"MYR": "48",
 					"CNY": "82.5"
 				},
 				"quantity": {
