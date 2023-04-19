@@ -1906,7 +1906,7 @@
 	"digital-mural": {
 		"name": "Digital Mural",
 		"lastSlot": "15:30",
-		"disableLocations": ["kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "0",
