@@ -341,11 +341,11 @@
 			
 			"AC Transport Fee": {
 				"handle": "aircon_transport_fee",
-				"label": "AC Transport Fee                                               Waived",
+				"label": "AC Transport Fee                                               SGD20/trip",
 				"orderLabel": "Trip (AC Transport Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "20",
 					"MYR": "0",
 					"CNY": "0"
 				},
