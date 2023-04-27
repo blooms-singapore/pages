@@ -92,19 +92,32 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
  	    
  <!--Wall Mount Chemical Overhaul-->
     <tr>
-        <th><b>Wall-Mount<br>Chemical Overhaul</b></th>
+        <th><b>Chemical Wash<br>Wall-Mount</b></th>
         <th><b>Pricing (${params.currency})<br>Standard Size</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-	      <td>Week-<b>DAYS</b></td>
+	<td>Week-<b>DAYS</b></td>
         <td>${params.aircon_chemical_overhaul_weekdays}/unit</td>
       </tr>
 
      <tr>
 	     <td>Week-<b>ENDS</b></td>
         <td>${params.aircon_chemical_overhaul_weekends}/unit</td>
+      </tr>
+	    
+     <!--Cassette-->
+    <thead>
+      <tr>
+        <th><b>Chemical Wash<br>Cassette</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>Canvas Method</td>
+     <td>${params.aircon_jb_cassette_chemical_overhaul_standard}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
 	    
          
@@ -124,32 +137,19 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
 <div class = "show-hide-text">
   <table>
             
-    <!--Cassette-->
-    <thead>
-      <tr>
-        <th><b>Cassette<br>Chemical Overhaul</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-      <td>Canvas Method</td>
-     <td>${params.aircon_jb_cassette_chemical_overhaul_standard}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
-      </tr>
-	
-     
+       
    
      <!--Compressor Service + Wash-->
      <thead>
       <tr>
-        <th><b>Standard<br>Servicing</b></th>
+        <th><b>Standard Service</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       
       <tr>
-	      <td>Fancoil Standard Wash<br><b>Min 2 units</b></td>
+	<td>Wall-Mount<br><b>Min 2 units</b></td>
        <td>${params.aircon_compressor}/unit</td>
       </tr>
          
