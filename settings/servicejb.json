@@ -365,7 +365,7 @@
 					"CNY": "300"
 				},
 				"quantity": {
-					"label": "Unit",
+					"label": "Units",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
