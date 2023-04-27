@@ -486,6 +486,28 @@
 				}
 			},
 
+			
+			
+			"Chemical Overhaul Wall Mount": {
+				"handle": "ac_overhaul_wallmount",
+				"label": "Chemical Overhaul - Wall Mount                                              SGD90/unit",
+				"orderLabel": "Unit (Chemical Overhaul - Wall Mount)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "90",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
 
 
 
