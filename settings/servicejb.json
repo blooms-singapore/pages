@@ -260,7 +260,7 @@
 			
 			"AC Lumpsump Work Confirmation": {
 				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
+				"label": "Aircon Lumpsum Work Confirmation                                        Per Quotation",
 				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
@@ -282,10 +282,10 @@
 		
 				
 			
-			"Weekdays Chemical Overhaul": {
+			"Weekdays Chemical Wash": {
 				"handle": "aircon_chemical_overhaul_weekdays",
-				"label": "Week-DAYS Wall-Mount Chemical Overhaul                                                RM130/unit",
-				"orderLabel": "Unit (Week-DAYS Wall-Mount Chemical Overhaul)",
+				"label": "Week-DAYS Chemical Wash - Wall Mount                                                RM130/unit",
+				"orderLabel": "Unit (Week-DAYS Chemical Wash - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -306,8 +306,8 @@
 			
 			"Weekends Chemical Overhaul": {
 				"handle": "aircon_chemical_overhaul_weekends",
-				"label": "Week-ENDS Wall-Mount Chemical Overhaul                                             RM150/unit",
-				"orderLabel": "Unit (Week-ENDS Wall-Mount Chemical Overhaul)",
+				"label": "Week-ENDS Chemical Wash - Wall Mount                                             RM150/unit",
+				"orderLabel": "Unit (Week-ENDS Chemical Wash - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
@@ -329,10 +329,10 @@
 			
 			
 			
-		"Cassette Chemical Overhaul": {
+		"Chemical Wash - Cassette": {
 				"handle": "aircon_jb_cassette_chemical_overhaul_standard",
-				"label": "Cassette Chemical Overhaul                                       RM360/unit",
-				"orderLabel": "Unit (Cassette Chemical Overhaul)",
+				"label": "Chemical Wash - Cassette                                       RM360/unit",
+				"orderLabel": "Unit (Chemical Wash - Cassette)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -354,10 +354,10 @@
 				
 																			
 				
-			"AC Compressor Service": {
+			"AC Standard Wash": {
 				"handle": "aircon_compressor",
-				"label": "Fancoil Standard Wash                                           RM70/unit                                        Min 2 units",
-				"orderLabel": "Unit (Fancoil Standard Wash)",
+				"label": "Standard Wash - Wall Mount                                           RM70/unit                                        Min 2 units",
+				"orderLabel": "Unit (Standard Wash - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
