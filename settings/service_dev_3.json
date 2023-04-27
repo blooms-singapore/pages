@@ -490,7 +490,7 @@
 			
 			"Chemical Overhaul Wall Mount": {
 				"handle": "ac_overhaul_wallmount",
-				"label": "Chemical Overhaul - Wall Mount                                              SGD90/unit",
+				"label": "Chemical Overhaul - Wall Mount                                          SGD90/unit                                      up to 2hp",
 				"orderLabel": "Unit (Chemical Overhaul - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
