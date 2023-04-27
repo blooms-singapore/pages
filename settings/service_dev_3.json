@@ -466,7 +466,7 @@
 
 
 
-			"AC Lumosump Work Confirmation": {
+			"AC Lumpsump Work Confirmation": {
 				"handle": "aircon_repair_project_confirmation",
 				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
 				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
@@ -495,6 +495,50 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			"Chemical Overhaul Cassette": {
+				"handle": "ac_overhaul_cassette",
+				"label": "Chemical Overhaul - Cassette                                          SGD350/unit",
+				"orderLabel": "Unit (Chemical Overhaul - Cassette)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "350",
+					"MYR": "130",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+			"Chemical Canvas Wash Cassette": {
+				"handle": "ac_canvas_cassette",
+				"label": "Canvas Wash - Cassette                                          SGD150/unit",
+				"orderLabel": "Unit (Canvas Wash - Cassette)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "150",
 					"MYR": "130",
 					"CNY": "300"
 				},
