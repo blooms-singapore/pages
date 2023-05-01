@@ -5,7 +5,7 @@
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
 		"startPrice": {
-			"SGD": "70",
+			"SGD": "50",
 			"MYR": "80",
 			"CNY": "150"
 		},
@@ -32,6 +32,30 @@
 					"base": 1
 				}
 			},
+			
+			
+		"Installation One Item": {
+				"handle": "installation_one_item",
+				"label": "Installation - One Item                                                   SGD30/pc",
+				"orderLabel": "Pc (Installation - One Item)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "55",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
 
 			"Installation Standard": {
 				"handle": "installation_standard",
