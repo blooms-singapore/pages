@@ -164,14 +164,9 @@
 						"label": "Landed Property +SGD10",
 						"orderLabel": "Landed Property +SGD10",
 						"cost": {
-							"SGD": "0",
+							"SGD": "10",
 							"MYR": "0",
 							"CNY": "0"
-						},
-						"oneOffCost": {
-						"SGD": "10",
-						"MYR": "10",
-						"CNY": "10"
 						}
 					}
 				}
