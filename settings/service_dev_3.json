@@ -186,7 +186,7 @@
 	"cleaning-sg": {
 	"name": "Cleaning (C)",
 	"lastSlot": "15:00",
-	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+	"disableLocations": [],
 	"startPrice": {
 		"SGD": "66",
 		"MYR": "95",
@@ -309,15 +309,15 @@
 			"description": "Label standard",
 			"values": {
 				"Weekends": {
-					"label": "Weekend +SGD20",
-					"orderLabel": "Weekend +SGD20",
+					"label": "Weekend +SGD10",
+					"orderLabel": "Weekend +SGD10",
 					"cost": {
 						"SGD": "0",
 						"MYR": "0",
 						"CNY": "0"
 					},
 					"oneOffCost": {
-						"SGD": "20",
+						"SGD": "10",
 						"MYR": "10",
 						"CNY": "10"
 					}
