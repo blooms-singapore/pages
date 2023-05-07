@@ -1252,238 +1252,211 @@
 	
 	
 	
-	"tiling-kl": {
-		"name": "Tiling & Concrete",
+	
+	
+	"landscape-kl": {
+		"name": "Landscape",
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "45.5",
-			"MYR": "210",
+			"SGD": "20",
+			"MYR": "55",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			
-									
-			"Tiling Transport Fee": {
-				"handle": "transport_fee",
-				"label": "Tiling Transport Fee                                                              RM30/trip",
-				"orderLabel": "Trip (Tiling Transport Fee)",
+			"Landscape Survey": {
+				"handle": "landscape_survey",
+				"label": "Landscape Survey                                             RM20/trip",
+				"orderLabel": "Trip (Landscape Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "30",
+					"SGD": "20",
+					"MYR": "20",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 1,
+					"min": 0,
 					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-		
-
-			"Tiling Survey": {
-				"handle": "tiling_survey",
-				"label": "Tiling Survey                                                              Free",
-				"orderLabel": "Trip (Tiling Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
+					"increment": 60,
 					"default": 0,
-					"base": 1
-				}
-			},
-			
-          						
-			
-		
-
-          		"Tiling Lumpsum Confirmation": {
-				"handle": "tiling_lumpsum",
-				"label": "Tiling Lumpsum Work Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
+					"base": 60
 				}
 			},
 			
 			
 			
-			"Tiling Non-Waterproof": {
-				"handle": "nonwaterproof_min_order",
-				"label": "Tile Non-Waterproof Works - Min 1.5hrs                                                 RM120/hr",
-				"orderLabel": "Hour (Tile Non-Waterproof Works - Min 1.5hrs)",
+			"Landscape 1 crew": {
+				"handle": "landscape_one_crew",
+				"label": "1 crew - Small Garden                                           RM55/hr                                                    Min 1hr",
+				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
-					"MYR": "120",
+					"SGD": "20",
+					"MYR": "55",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+			
+			
+			
+			
+			"Landscape 2 crews": {
+				"handle": "landscape_two_crews",
+				"label": "2 Crews - Large Garden                                              RM75/hr                                                     Min 3hrs",
+				"orderLabel": "Hours (2 Crews - Large Garden)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "75",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Hours",
+					"min": 0,
+					"max": 6,
 					"increment": 0.5,
-					"default": 1.5,
+					"default": 3,
 					"base": 1
 				}
 			},
-			
-				
+						
 					
-			"Tiling Waterproof Empty House - 10ft2": {
-				"handle": "waterproof_empty_house_10ft2",
-				"label": "Tile Waterproof Work - Empty House - 10ft2 Increments                                                    RM35/ft2",
-				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
+			
+			
+			"Overgrowth Clearance": {
+				"handle": "landscape_overgrowth_clearance",
+				"label": "2 Crews - Overgrowth Clearance                                  RM90/hr                                                       Min 3hrs",
+				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
-					"MYR": "35",
+					"SGD": "15",
+					"MYR": "90",
 					"CNY": "50"
 				},
 				"quantity": {
-					"label": "ft2",
+					"label": "Hour",
 					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 30,
+					"max": 7,
+					"increment": 0.5,
+					"default": 3,
 					"base": 1
 				}
 			},
 			
-			"Waterproof Empty House - 1ft2": {
-				"handle": "waterproof_empty_house_1ft2",
-				"label": "Tile Waterproof Work - Empty House - 1ft2 Increment                                              RM35/ft2",
-				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
+			"Small Debris": {
+				"handle": "small_debris",
+				"label": "Small Disposal Fee                                        RM30                                                Up to 3 bags",
+				"orderLabel": "Job (Small Disposal Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
-					"MYR": "35",
-					"CNY": "50"
+					"SGD": "15",
+					"MYR": "30",
+					"CNY": "20"
 				},
 				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 9,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			},
-			
-					
-			"Waterproof Occupied House - 10ft2": {
-				"handle": "waterproof_occupied_house_10ft2",
-				"label": "Tile Waterproof Work - Occupied House - 10ft2 Increments                                                     RM40/ft2",
-				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "40",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 0,
-					"increment": 10,
-					"default": 30,
-					"base": 1
-				}
-			},
-			
-			"Waterproof Occupied House - 1ft2": {
-				"handle": "waterproof_occupied_house_1ft2",
-				"label": "Tile Waterproof Work - Occupied House - 1ft2 Increment                                                   RM40/ft2",
-				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "40",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "ft2",
-					"min": 0,
-					"max": 9,
-					"increment": 1,
-					"default": 1,
-					"base": 1,
-					"Multiplier": 1
-				}
-			},
-			
-			
-			
-			
-			
-			
-		"Tiling Dust Protection": {
-				"handle": "tiling_dust_protection",
-				"label": "Tile Dust Protection Survey                                                   Free",
-				"orderLabel": "Trip (Tile Dust Protection Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Trip",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
-					"increment": 1,
 					"default": 0,
+					"increment": 1,
 					"base": 1,
-					"Multiplier": 1
+					"multiplier": 1
 				}
-			}
+			},
+			
+			"Big Debris": {
+				"handle": "big_debris",
+				"label": "Big Disposal Fee                                 RM10/bag",
+				"orderLabel": "Bags (Big Disposal Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "10",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Bags",
+					"min": 0,
+					"max": 0,
+					"default": 4,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			},
+			
+			"Disposal by Lorry": {
+				"handle": "landscape_disposal_by_lorry",
+				"label": "Disposal by Lorry                                                        RM150/lorry",
+				"orderLabel": "Job (Disposal by Lorry)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "170",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 2,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 },
+			
+	
+			"Lumpsum Project": {
+				"handle": "project",
+				"label": "Lumpsum Project Confirmation                                    Per Quotation",
+				"orderLabel": "Job (Lumpsum Project Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "20"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 }
 		},
 		
 		"types": {
 			"house": {
-				"label": "Location?",
+				"label": "House Location",
 				"description": "Label standard",
 				"values": {
-					
-					"Standard Location": {
+					"Standard": {
 						"label": "Standard Location",
-						"orderLabel": "Standard Locations",
+						"orderLabel": "Standard Location",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
-						}
-					},
-					
-					"Distant Location": {
+							}
+						},
+						
+					"Distant": {
 						"label": "Distant Location +RM20",
-						"orderLabel": "Distant Locations +RM20",
+						"orderLabel": "Distant Location +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1499,7 +1472,6 @@
 			}
 		}
 	},
-	
 	
 	
 	
