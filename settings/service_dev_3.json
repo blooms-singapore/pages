@@ -175,12 +175,12 @@
 	"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "80",
 			"CNY": "150"
 		},
-		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"hasNote": 1,
 		"options": {
 
