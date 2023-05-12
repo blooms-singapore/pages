@@ -1,178 +1,6 @@
 {
 	
-		
-	"cleaning-sg": {
-	"name": "Cleaning (C)",
-	"lastSlot": "15:00",
-	"disableLocations": [],
-	"startPrice": {
-		"SGD": "66",
-		"MYR": "95",
-		"CNY": "20"
-	},
-	"hasNote": 1,
-	"options": {
-
-		"Standard Clean Condo & HDB": {
-			"handle": "cleaning_sg_condo_hdb",
-			"label": "1 Crew - Condo/HDB. Standard Clean                                       SGD22/hr/crew                                        Min 3hrs",
-			"orderLabel": "Hours (1 Crew - Condo/HDB)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "22",
-				"MYR": "20",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 0,
-				"increment": 30,
-				"default": 180,
-				"base": 60
-			}
-		},
-
-
-
-		"Standard Clean Landed Property": {
-			"handle": "cleaning_sg_landed_property",
-			"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
-			"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "22",
-				"MYR": "22",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 0,
-				"increment": 60,
-				"default": 300,
-				"base": 60
-			}
-		},
-
-		"Festive Clean Condo & HDB": {
-			"handle": "cleaning_sg_festive_condo_hdb",
-			"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
-			"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "25",
-				"MYR": "20",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 0,
-				"increment": 30,
-				"default": 240,
-				"base": 60
-			}
-		},
-
-
-
-		"Festive Clean Landed Property": {
-			"handle": "cleaning_sg_festive_landed_property",
-			"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 6hrs",
-			"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "25",
-				"MYR": "22",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 450,
-				"increment": 60,
-				"default": 360,
-				"base": 60
-			}
-		},
-
-
-
-
-		"Top Up Package": {
-			"handle": "cleaning_sg_topup_package",
-			"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
-			"orderLabel": "Package (Cleaning Top-Up Package)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "500",
-				"MYR": "80",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Package",
-				"min": 0,
-				"max": 0,
-				"increment": 1,
-				"default": 1,
-				"base": 1
-			}
-		}
-	},
-
-	"types": {
-		"house": {
-			"label": "Weekend?",
-			"description": "Label standard",
-			"values": {
-				"Weekends": {
-					"label": "Weekend +SGD10",
-					"orderLabel": "Weekend +SGD10",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-					"oneOffCost": {
-						"SGD": "10",
-						"MYR": "10",
-						"CNY": "10"
-					}
-				},
-
-				"Weekdays": {
-					"label": "Weekdays +SGD0",
-					"orderLabel": "Weekdays +SGD0",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-
-					"oneOffCost": {
-						"SGD": "0",
-						"MYR": "10",
-						"CNY": "10"
-					}
-				}
-			}
-		}
-	}
-},
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	"installation": {
+		"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
@@ -352,10 +180,352 @@
 	},
 
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+"plumbing": {
+	"name": "Plumbing",
+	"lastSlot": "16:00",
+	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+	"startPrice": {
+		"SGD": "35",
+		"MYR": "100",
+		"CNY": "50"
+	},
+	"hasNote": 1,
+	"options": {
+
+		"Plumbing Transport Fee": {
+			"handle": "plumbing_transport",
+			"label": "Plumbing Transport Fee                                         SGD20/trip",
+			"orderLabel": "Trip (Plumbing Transport Fee)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "20",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 60,
+				"max": 0,
+				"increment": 60,
+				"default": 60,
+				"base": 60
+			}
+		},
+
+		"Standard Plumbing": {
+			"handle": "plumbing_standard",
+			"label": "Standard Plumbing                                              SGD45/hr",
+			"orderLabel": "Hour (Standard Plumbing)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "45",
+				"MYR": "70",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 60,
+				"base": 60
+			}
+		},
+
+		"Plumbing Lumpsum Survey": {
+			"handle": "plumbing_survey",
+			"label": "Plumbing SURVEY                                               Free",
+			"orderLabel": "Trip (Plumbing SURVEY)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		},
+
+		"Plumbing Lumpsum Confirmation": {
+			"handle": "plumbing_lumpsum_confirmation",
+			"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
+			"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-20",
+				"MYR": "-30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		},
+
+
+		"Trouble Shoot": {
+			"handle": "trouble_shoot",
+			"label": "Trouble Shoot                                                         SGD15/job",
+			"orderLabel": "Job (Trouble Shoot)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 0,
+				"increment": 1,
+				"default": 1,
+				"base": 1
+			}
+		}
+	},
+
+	"types": {
+		"house": {
+			"label": "House Type",
+			"description": "Label standard",
+			"values": {
+				"condo": {
+					"label": "Condo/HDB +SGD0",
+					"orderLabel": "Condo/HDB +SGD0",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "0",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+
+				"landed": {
+					"label": "Landed Property +SGD10",
+					"orderLabel": "Landed Property +SGD10",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "10",
+						"MYR": "0",
+						"CNY": "0"
+					}
+				}
+			}
+		}
+	}
+},
+
+
+	
+	
+	
+	
+	
+	
 		
+	"cleaning-sg": {
+	"name": "Cleaning (C)",
+	"lastSlot": "15:00",
+	"disableLocations": [],
+	"startPrice": {
+		"SGD": "66",
+		"MYR": "95",
+		"CNY": "20"
+	},
+	"hasNote": 1,
+	"options": {
+
+		"Standard Clean Condo & HDB": {
+			"handle": "cleaning_sg_condo_hdb",
+			"label": "1 Crew - Condo/HDB. Standard Clean                                       SGD22/hr/crew                                        Min 3hrs",
+			"orderLabel": "Hours (1 Crew - Condo/HDB)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "22",
+				"MYR": "20",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 180,
+				"base": 60
+			}
+		},
+
+
+
+		"Standard Clean Landed Property": {
+			"handle": "cleaning_sg_landed_property",
+			"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
+			"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "22",
+				"MYR": "22",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 60,
+				"default": 300,
+				"base": 60
+			}
+		},
+
+		"Festive Clean Condo & HDB": {
+			"handle": "cleaning_sg_festive_condo_hdb",
+			"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
+			"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "25",
+				"MYR": "20",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 240,
+				"base": 60
+			}
+		},
+
+
+
+		"Festive Clean Landed Property": {
+			"handle": "cleaning_sg_festive_landed_property",
+			"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 6hrs",
+			"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "25",
+				"MYR": "22",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 450,
+				"increment": 60,
+				"default": 360,
+				"base": 60
+			}
+		},
+
+
+
+
+		"Top Up Package": {
+			"handle": "cleaning_sg_topup_package",
+			"label": "Cleaning Top-Up Package                                      SGD500/PKG                                        Bonus SGD50",
+			"orderLabel": "Package (Cleaning Top-Up Package)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "500",
+				"MYR": "80",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Package",
+				"min": 0,
+				"max": 0,
+				"increment": 1,
+				"default": 1,
+				"base": 1
+			}
+		}
+	},
+
+	"types": {
+		"house": {
+			"label": "Weekend?",
+			"description": "Label standard",
+			"values": {
+				"Weekends": {
+					"label": "Weekend +SGD10",
+					"orderLabel": "Weekend +SGD10",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "10",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+
+				"Weekdays": {
+					"label": "Weekdays +SGD0",
+					"orderLabel": "Weekdays +SGD0",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+
+					"oneOffCost": {
+						"SGD": "0",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				}
+			}
+		}
+	}
+},
 	
 	
 	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+		
 	
 	
 	
@@ -1860,166 +2030,6 @@
 	}
 },
 
-
-
-
-
-
-
-
-
-"plumbing": {
-	"name": "Plumbing",
-	"lastSlot": "16:00",
-	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
-	"startPrice": {
-		"SGD": "35",
-		"MYR": "100",
-		"CNY": "50"
-	},
-	"hasNote": 1,
-	"options": {
-
-		"Plumbing Transport Fee": {
-			"handle": "plumbing_transport",
-			"label": "Plumbing Transport Fee                                         SGD20/trip",
-			"orderLabel": "Trip (Plumbing Transport Fee)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "20",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Trip",
-				"min": 60,
-				"max": 0,
-				"increment": 60,
-				"default": 60,
-				"base": 60
-			}
-		},
-
-		"Standard Plumbing": {
-			"handle": "plumbing_standard",
-			"label": "Standard Plumbing                                              SGD45/hr",
-			"orderLabel": "Hour (Standard Plumbing)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "45",
-				"MYR": "70",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hour",
-				"min": 0,
-				"max": 0,
-				"increment": 30,
-				"default": 60,
-				"base": 60
-			}
-		},
-
-		"Plumbing Lumpsum Survey": {
-			"handle": "plumbing_survey",
-			"label": "Plumbing SURVEY                                               Free",
-			"orderLabel": "Trip (Plumbing SURVEY)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "0",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Trip",
-				"min": 0,
-				"max": 1,
-				"increment": 60,
-				"default": 0,
-				"base": 60
-			}
-		},
-
-		"Plumbing Lumpsum Confirmation": {
-			"handle": "plumbing_lumpsum_confirmation",
-			"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
-			"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "-20",
-				"MYR": "-30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Job",
-				"min": 0,
-				"max": 1,
-				"increment": 60,
-				"default": 0,
-				"base": 60
-			}
-		},
-
-
-		"Trouble Shoot": {
-			"handle": "trouble_shoot",
-			"label": "Trouble Shoot                                                         SGD15/job",
-			"orderLabel": "Job (Trouble Shoot)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "15",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Job",
-				"min": 0,
-				"max": 0,
-				"increment": 1,
-				"default": 1,
-				"base": 1
-			}
-		}
-	},
-
-	"types": {
-		"house": {
-			"label": "House Type",
-			"description": "Label standard",
-			"values": {
-				"condo": {
-					"label": "Condo/HDB +SGD0",
-					"orderLabel": "Condo/HDB +SGD0",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-					"oneOffCost": {
-						"SGD": "0",
-						"MYR": "10",
-						"CNY": "10"
-					}
-				},
-
-				"landed": {
-					"label": "Landed Property +SGD10",
-					"orderLabel": "Landed Property +SGD10",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-					"oneOffCost": {
-						"SGD": "10",
-						"MYR": "0",
-						"CNY": "0"
-					}
-				}
-			}
-		}
-	}
-},
 
 
 
