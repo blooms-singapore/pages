@@ -225,11 +225,11 @@
 
 		"Standard Plumbing": {
 			"handle": "plumbing_standard",
-			"label": "Standard Plumbing                                              SGD45/hr",
+			"label": "Standard Plumbing                                              SGD50/hr",
 			"orderLabel": "Hour (Standard Plumbing)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "45",
+				"SGD": "50",
 				"MYR": "70",
 				"CNY": "0"
 			},
