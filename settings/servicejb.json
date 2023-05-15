@@ -1382,7 +1382,7 @@
 						
 			"Renovation Project Survey": {
 				"handle": "others_project_survey",
-				"label": "Retrofit & Renovation Project Survey                                                        RM30/trip",
+				"label": "Retrofit & Renovate Project Survey                                                        RM30/trip",
 				"orderLabel": "Trip (Retrofit & Renovation Project Survey)",
 				"description": "Label standard",
 				"cost": {
@@ -1402,7 +1402,7 @@
 			
 			"Project Confirmation": {
 				"handle": "others_project",
-				"label": "Retrofit & Renovation Project Confirmation                                             Per Quotation",
+				"label": "Retrofit & Renovate Project Confirmation                                             Per Quotation",
 				"orderLabel" : "Job (Retrofit & Renovation Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
