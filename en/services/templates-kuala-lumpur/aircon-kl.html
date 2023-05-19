@@ -45,7 +45,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <tbody>
       <tr>
       <td>Transport Fee</td>
-      <td>${params.aircon_sg_transport}/trip</td>
+      <td>${params.aircon_kl_transport}/trip</td>
       </tr>
 
      <tr>
@@ -54,7 +54,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
 
       <tr>
-      <td>Extra big units<br>above 2hp</td>
+      <td>Extra big units<br>Refer FAQ 3</td>
       <td>+50.0/unit</td>
       </tr>
  
@@ -69,55 +69,71 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <tbody>
       
       <tr>
-      <td>Aircon Survey</td>
+      <td>Aircon Survey<>br>Refer FAQ4</td>
        <td>Free</td>
       </tr>
       
       
        <tr>
-        <td>Aircon Fault<br>Trouble-Shoot</td>
-        <td>${params.aircon_jb_troubleshoot}/unit</td>
+        <td>Trouble-Shoot<br>Refer FAQ3</td>
+        <td>${params.aircon_kl_troubleshoot}/trip</td>
       </tr>    
       
       <tr>
       <td>Water Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
-      <td>${params.aircon_jb_leak}/unit</td>
+      <td>${params.aircon_kl_leak}/unit</td>
       </tr>
        
       <tr>
-      <td>Aircon Lumpsum<br>Work Confirmation</td>
+      <td>Aircon Lumpsum<br>Works Confirmation</td>
        <td>Per Quotation</td>
       </tr>
        
  	    
- <!--Wall Mount Chemical Overhaul-->
-    <tr>
-        <th><b>Chemical Wash<br>Wall-Mount</b></th>
-        <th><b>Pricing (${params.currency})<br>Standard Size</b></th>
-      </tr>
-    </thead>
-    <tbody>
+ <!--Wall Mount Standard Wash-->
+<thead>
       <tr>
-	<td>Week-<b>DAYS</b></td>
-        <td>${params.aircon_chemical_overhaul_weekdays}/unit</td>
-      </tr>
-
-     <tr>
-	     <td>Week-<b>ENDS</b></td>
-        <td>${params.aircon_chemical_overhaul_weekends}/unit</td>
-      </tr>
-	    
-     <!--Cassette-->
-    <thead>
-      <tr>
-        <th><b>Chemical Wash<br>Cassette</b></th>
+        <th><b>Wall-Mount</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-      <td>Canvas Method</td>
-     <td>${params.aircon_jb_cassette_chemical_overhaul_standard}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+	<td>Week-<b>DAYS</b><br>Standard Wash<br>Min 2 units</td>
+        <td>${params.aircon_kl_standard_wash_weekdays}/unit</td>
+      </tr>
+
+     <tr>
+	<td>Week-<b>ENDS</b><br>Standard Wash<br>Min 2 units</td>
+        <td>${params.aircon_kl_standard_wash_weekends}/unit</td>
+      </tr>
+	
+<tr>
+	<td>Week-<b>DAYS</b><br>Chemical Wash</td>
+        <td>${params.aircon_kl_chemical_wash_weekdays}/unit</td>
+      </tr>
+
+     <tr>
+	<td>Week-<b>ENDS</b><br>Chemical Wash</td>
+        <td>${params.aircon_kl_chemical_wash_weekends}/unit</td>
+      </tr>
+	    
+     <!--Cassette-->
+      <thead>
+      <tr>
+        <th><b>Ceiling Cassette<br>Canvas Method</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>Chemical Wash<br>Below 5hp<br></td>
+     <td>${params.aircon_kl_cassette_chemical_wash}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+      </tr>
+	
+ <tr>
+      <td>Chemical Wash<br>Extra Big Units<br>Above 5hp<br></td>
+     <td>${params.aircon_kl_cassette_chemical_wash_extrabig}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
 	    
          
@@ -301,7 +317,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
 	  
   <span class = "more text">
   <input id="collapsible3" class="toggle" type="checkbox">
-  <label for="collapsible3" class="lbl-toggle">Q3 Why is there no Standard Wash anymore?</label>
+  <label for="collapsible3" class="lbl-toggle">Q3 Extra big AC units?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Standard Wash scope is superficial, cleaning only the external parts, which are less important.
