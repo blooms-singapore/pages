@@ -938,6 +938,29 @@
 			
 			
 			
+			"AC Compressor Service": {
+				"handle": "aircon_kl_compressor_service",
+				"label": "AC Compressor Service                                         RM60/unit",
+				"orderLabel": "Unit (AC Compressor Service)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
 			
 			"AC Cassette Chemical Wash": {
 				"handle": "aircon_kl_cassette_chemical_wash",
@@ -969,28 +992,6 @@
 				"cost": {
 					"SGD": "10",
 					"MYR": "350",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-			
-			"AC Compressor Service": {
-				"handle": "aircon_kl_compressor",
-				"label": "AC Compressor Service                                        RM60/unit",
-				"orderLabel": "Unit (AC Compressor Service)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "60",
 					"CNY": "260"
 				},
 				"quantity": {
