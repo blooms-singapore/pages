@@ -55,7 +55,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
 
       <tr>
       <td>Extra big units<br>Refer FAQ 3</td>
-      <td>+50.0/unit</td>
+      <td>+50.0 to 100.0/unit</td>
       </tr>
  
 	    
@@ -69,7 +69,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <tbody>
       
       <tr>
-      <td>Aircon Survey<>br>Refer FAQ4</td>
+      <td>Aircon Survey<br>Refer FAQ4</td>
        <td>Free</td>
       </tr>
       
@@ -99,23 +99,28 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     </thead>
     <tbody>
       <tr>
-	<td>Week-<b>DAYS</b><br>Standard Wash<br>Min 2 units</td>
+      <td><b>STANDARD</b> Wash<br>Week-<b>DAYS</b>Min 2 units</td>
         <td>${params.aircon_kl_standard_wash_weekdays}/unit</td>
       </tr>
 
      <tr>
-	<td>Week-<b>ENDS</b><br>Standard Wash<br>Min 2 units</td>
+	<td><b>STANDARD</b> Wash<br>Week-<b>ENDS</b><br>Min 2 units</td>
         <td>${params.aircon_kl_standard_wash_weekends}/unit</td>
       </tr>
 	
 <tr>
-	<td>Week-<b>DAYS</b><br>Chemical Wash</td>
+	<td><b>CHEMICAL</b> Wash<br>Week-<b>DAYS</b></td>
         <td>${params.aircon_kl_chemical_wash_weekdays}/unit</td>
       </tr>
 
      <tr>
-	<td>Week-<b>ENDS</b><br>Chemical Wash</td>
+	<td><b>CHEMICAL</b> Wash<br>Week-<b>ENDS</b></td>
         <td>${params.aircon_kl_chemical_wash_weekends}/unit</td>
+      </tr>
+	    
+      <tr>
+	<td>Compressor<br>Service<br>Refer FAQ8</td>
+        <td>${params.aircon_kl_compressor_service}/unit</td>
       </tr>
 	    
      <!--Cassette-->
@@ -320,8 +325,10 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
   <label for="collapsible3" class="lbl-toggle">Q3 Extra big AC units?</label>
   <div class="collapsible-content">
   <div class="content-inner">
-   <p>Standard Wash scope is superficial, cleaning only the external parts, which are less important.
-<br><br>Our crews are skilled and we will focus on delivering chemical overhaul expertise to our customers for now.</p>
+   <p>The service fee is higher for extra big units.
+	   <br><br>For wall-mount units, above 2hp is considered extra big units. +RM50/unit.
+	  <br><br>For ceiling cassette units, above 5hp, + RM100/unit.
+	  <br><br>AC technician will let you know, and with your approval, proceed with the servicing.</p>
    </div>
    </div>
 
@@ -368,6 +375,17 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
    <br><br>This charge may also be use to compensate the parking charges, where applicable.</p>
    </div>
    </div>
+		
+		
+ <input id="collapsible8" class="toggle" type="checkbox">
+  <label for="collapsible8" class="lbl-toggle">Q8 Compressor Service?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>It is an optional service. If the crews deem the situation/task is unsafe, they will not proceed.
+<br><br>Customers who book for compressor service must themselves be able to photograph the units and upload to Blooms app.</p>
+   </div>
+   </div>
+
  
   <input id="collapsible8" class="toggle" type="checkbox">
   <label for="collapsible8" class="lbl-toggle">Q8 Is Credit Card payment safe?</label>
