@@ -856,8 +856,8 @@
 			
 			"Week-DAYS AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekdays",
-				"label": "Week-DAYS Wall-Mount Standard Wash                                          Min 2 units                                                  RM50/unit",
-				"orderLabel": "Unit (Week_DAYS Wall-Mount Standard Wash)",
+				"label": "Standard Wash Week-DAYS Wall-Mount                                          Min 2 units                                                  RM50/unit",
+				"orderLabel": "Unit (Standard Wash Week_DAYS Wall-Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -876,8 +876,8 @@
 			
 			"Week-ENDS AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekends",
-				"label": "Week-ENDS Wall-Mount Standard Wash                                           Min 2 units                                          RM60/unit",
-				"orderLabel": "Unit (Week-ENDS Wall-Mount Standard Wash)",
+				"label": "Standard Wash Week-ENDS Wall-Mount                                           Min 2 units                                          RM60/unit",
+				"orderLabel": "Unit (Standard Wash Week-ENDS Wall-Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -897,8 +897,8 @@
 					
 			"Week-DAYS AC Chemical Wash": {
 				"handle": "aircon_kl_chemical_wash_weekdays",
-				"label": "Week-DAYS Wall-Mount Chemical Wash                                                  RM100/unit",
-				"orderLabel": "Units (Week-DAYS Wall-Mount Chemical Wash)",
+				"label": "Chemical Wash Week-DAYS Wall-Mount                                                  RM100/unit",
+				"orderLabel": "Units (Chemical Wash Week-DAYS Wall-Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -917,8 +917,8 @@
 			
 			"Week-ENDS AC Chemical Wash": {
 				"handle": "aircon_kl_chemical_wash_weekends",
-				"label": "Week-ENDS Wall-Mount Chemical Wash                                           RM110/unit",
-				"orderLabel": "Units (Week-ENDS Wall-Mount Chemical Wash)",
+				"label": "Chemical Wash Week-ENDS Wall-Mount                                           RM110/unit",
+				"orderLabel": "Units (Chemical Wash Week-ENDS Wall-Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
@@ -941,8 +941,8 @@
 			
 			"AC Cassette Chemical Wash": {
 				"handle": "aircon_kl_cassette_chemical_wash",
-				"label": "Cassette Chemical Wash                                       Below 5hp                                       RM250/unit",
-				"orderLabel": "Unit (Cassette Chemical Wash)",
+				"label": "Chemical Wash Cassette                                       Below 5hp                                       RM250/unit",
+				"orderLabel": "Unit (Chemical Wash Cassette)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -961,14 +961,14 @@
 			
 			
 			
-		"Big AC Cassette Chemical Wash": {
-				"handle": "aircon_kl_cassette_chemical_wash_big",
-				"label": "Big Cassette Chemical Wash                                       5hp                                       RM300/unit",
-				"orderLabel": "Unit (Big Cassette Chemical Wash)",
+		"Extra Big AC Cassette Chemical Wash": {
+				"handle": "aircon_kl_cassette_chemical_wash_extrabig",
+				"label": "Chemical Wash Extra Big Cassette                                       5hp                                       RM350/unit",
+				"orderLabel": "Unit (Chemical Wash Extra Big Cassette)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "300",
+					"MYR": "350",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1024,8 +1024,8 @@
 						}
 					},
 					"landed": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+						"label": "Landed Property +RM0",
+						"orderLabel": "Landed Property +RM0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
