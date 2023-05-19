@@ -792,16 +792,16 @@
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_kl_troubleshoot",
-				"label": "AC Fault Trouble-Shoot                                           RM60/unit",
-				"orderLabel": "Unit (AC Fault Trouble-Shoot)",
+				"label": "AC Fault Trouble-Shoot                                           RM30/trip",
+				"orderLabel": "Trip (AC Fault Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "60",
+					"MYR": "30",
 					"CNY": "260"
 				},
 				"quantity": {
-					"label": "Unit",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 60,
@@ -812,12 +812,12 @@
 			
 			"AC Leak": {
 				"handle": "aircon_kl_leak",
-				"label": "AC Leak                                            RM60/unit",
+				"label": "AC Leak                                            RM50/unit",
 				"orderLabel": "Unit (AC Leak)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "60",
+					"MYR": "50",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -856,12 +856,12 @@
 			
 			"Weekdays AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekdays",
-				"label": "Week-DAYS Wall-Mount Standard Wash                                          Min 2 units                                                  RM35/unit",
+				"label": "Week-DAYS Wall-Mount Standard Wash                                          Min 2 units                                                  RM50/unit",
 				"orderLabel": "Unit (Week_DAYS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "35",
+					"MYR": "50",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -876,12 +876,12 @@
 			
 			"Weekends AC Standard Wash": {
 				"handle": "aircon_kl_standard_wash_weekends",
-				"label": "Week-ENDS Wall-Mount Standard Wash                                           Min 2 units                                          RM40/unit",
+				"label": "Week-ENDS Wall-Mount Standard Wash                                           Min 2 units                                          RM60/unit",
 				"orderLabel": "Unit (Week-ENDS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "40",
+					"MYR": "60",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -895,14 +895,14 @@
 			},
 			
 					
-			"Weekdays AC Chemical Overhaul": {
+			"Weekdays AC Chemical Wash": {
 				"handle": "aircon_kl_chemical_overhaul_weekdays",
-				"label": "Week-DAYS Wall-Mount Chemical Overhaul                                            RM120/unit",
+				"label": "Week-DAYS Wall-Mount Chemical Overhaul                                                  RM100/unit",
 				"orderLabel": "Units (Week-DAYS Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "120",
+					"MYR": "110",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -915,14 +915,14 @@
 				}
 			},
 			
-			"Weekends AC Chemical Overhaul": {
+			"Weekends AC Chemical Wash": {
 				"handle": "aircon_kl_chemical_overhaul_weekends",
-				"label": "Week-ENDS Wall-Mount Chemical Overhaul                                              RM130/unit",
+				"label": "Week-ENDS Wall-Mount Chemical Overhaul                                         Min 2 units                                RM110/unit",
 				"orderLabel": "Units (Week-ENDS Wall-Mount Chemical Overhaul)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "130",
+					"MYR": "110",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -930,7 +930,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			},
@@ -939,14 +939,14 @@
 			
 			
 			
-			"Standard AC Cassette Overhaul": {
-				"handle": "aircon_kl_cassette_chemical_overhaul_standard",
-				"label": "Standard Cassette Chemical Overhaul                                       Below 5hp                                       RM358/unit",
-				"orderLabel": "Unit (Standard Cassette Chemical Overhaul)",
+			"AC Cassette Chemical Wash": {
+				"handle": "aircon_kl_cassette_chemical_wash",
+				"label": "Cassette Chemical Wash                                       Below 5hp                                       RM250/unit",
+				"orderLabel": "Unit (Cassette Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "358",
+					"MYR": "250",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -961,14 +961,14 @@
 			
 			
 			
-		"Big AC Cassette Chemical Overhaul": {
-				"handle": "aircon_kl_cassette_chemical_overhaul_big",
-				"label": "Big Cassette Chemical Overhaul                                       5hp                                        RM408/unit",
-				"orderLabel": "Unit (Big Cassette Chemical Overhaul)",
+		"Big AC Cassette Chemical Wash": {
+				"handle": "aircon_kl_cassette_chemical_wash_big",
+				"label": "Big Cassette Chemical Wash                                       5hp                                       RM300/unit",
+				"orderLabel": "Unit (Big Cassette Chemical Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "408",
+					"MYR": "300",
 					"CNY": "260"
 				},
 				"quantity": {
