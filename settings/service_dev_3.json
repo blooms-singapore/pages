@@ -33,6 +33,30 @@
 			},
 			
 			
+		"Installation Video Call": {
+			"handle": "installation_sg_videocall",
+			"label": "Installation Video Call                                         SGD5/call",
+			"orderLabel": "Call (Installation Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+		
+			
+			
+			
+			
 		"Installation One Item": {
 				"handle": "installation_one_item",
 				"label": "Installation - One Item                                                   SGD30/pc",
