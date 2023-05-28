@@ -181,7 +181,7 @@
 	
 	
 	"aircon": {
-		"name": "Aircon Works (C)",
+		"name": "Aircon Works",
 		"lastSlot": "16:30",
 		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
@@ -665,7 +665,7 @@
 	
 	
 	"roof": {
-		"name": "Roof (C)",
+		"name": "Roof",
 		"lastSlot": "15:30",
 		"disableLocations": [],
 		"startPrice": {
@@ -801,7 +801,7 @@
 	
 	
 	"painting": {
-		"name": "Painting (C)",
+		"name": "Painting",
 		"lastSlot": "15:00",
 		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
@@ -1647,7 +1647,7 @@
 	
 	
 	"plumbing": {
-		"name": "Plumbing (C)",
+		"name": "Plumbing",
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
@@ -1875,7 +1875,7 @@
 	
 	
 	"waterproof": {
-		"name": "Waterproofing (C)",
+		"name": "Waterproofing",
 		"lastSlot": "16:00",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
