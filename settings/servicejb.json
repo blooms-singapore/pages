@@ -34,6 +34,27 @@
 				}
 			},
 			
+			
+		"Installation Video Call": {
+			"handle": "installation_jb_videocall",
+			"label": "Installation Video Call                                         RM5/call",
+			"orderLabel": "Call (Installation Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "-25",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+			
 			"Installation Standard": {
 				"handle": "installation_standard",
 				"label": "Standard Installation                                                 RM55/hr/crew",
