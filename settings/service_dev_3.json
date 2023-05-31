@@ -583,7 +583,7 @@
 	
 	"washing-machine": {
 		"name": "Washing Machine",
-		"lastSlot": "15:30",
+		"lastSlot": "16:30",
 		"disableLocations": ["kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "65",
