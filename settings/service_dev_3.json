@@ -758,7 +758,7 @@
 		"disableLocations": ["Johor Bahru", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "40",
-			"MYR": "90",
+			"MYR": "170",
 			"CNY": "230"
 		},
 		"hasNote": 1,
