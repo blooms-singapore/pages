@@ -757,7 +757,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Johor Bahru", "Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "40",
+			"SGD": "50",
 			"MYR": "170",
 			"CNY": "230"
 		},
@@ -852,11 +852,11 @@
 
 			"AC Trouble Shoot": {
 				"handle": "aircon_sg_troubleshoot",
-				"label": "Aircon Trouble-Shoot                                    SGD25/unit",
+				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
 				"orderLabel": "Unit (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "260"
 				},
