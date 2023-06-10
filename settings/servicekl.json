@@ -509,23 +509,69 @@
 			
 			"Plumbing Transport Fee": {
 				"handle": "plumbing_transport",
-				"label": "Plumbing Transport Fee                                         RM45/trip",
+				"label": "Plumbing Transport Fee                                         RM35/trip",
 				"orderLabel": "Trip (Plumbing Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "55",
-					"MYR": "45",
+					"MYR": "35",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "trip",
-					"min": 60,
-					"max": 0,
-					"increment": 60,
-					"default": 60,
-					"base": 60
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
 				}
 			},
+			
+			
+			
+		"Installation Video Call": {
+			"handle": "installation_sg_videocall",
+			"label": "Pumbling Video Call                                         RM5/call",
+			"orderLabel": "Call (Plumbing Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-15",
+				"MYR": "-25",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+		
+			
+			
+			
+			"Trouble Shoot": {
+				"handle": "trouble_shoot",
+				"label": "Trouble Shoot                                                         RM30/job",
+				"orderLabel": "Job (Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
 			
 			"Standard Plumbing": {
 				"handle": "plumbing_standard",
@@ -609,27 +655,8 @@
 				}
 			},
 			
-			
-						
-			"Trouble Shoot": {
-				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         RM30/job",
-				"orderLabel": "Job (Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
+									
+		
 			
 		"Tank Repair Confirmation": {
 				"handle": "tank_lumpsum_repair_confirmation",
@@ -658,8 +685,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Condo Surcharge +RM0",
+						"orderLabel": "Condo Surcharge +RM0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -667,7 +694,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "0",
 							"CNY": "10"
 						}
 					},
