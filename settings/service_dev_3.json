@@ -1,6 +1,6 @@
 {
 	
-		"installation": {
+	"installation": {
 		"name": "Installation & Dismantling",
 		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
@@ -399,7 +399,7 @@
 	
 	
 		
-	"cleaning-sg": {
+"cleaning-sg": {
 	"name": "Cleaning",
 	"lastSlot": "15:00",
 	"disableLocations": [],
@@ -1407,7 +1407,7 @@
 
 	"electrical": {
 		"name": "Electrical",
-		"lastSlot": "15:00",
+		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "80",
