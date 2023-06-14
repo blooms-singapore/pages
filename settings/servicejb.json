@@ -99,7 +99,7 @@
 			
 			
 			"2 crews Installation Technical": {
-				"handle": "installation_technical_2crew",
+				"handle": "installation_technical_2crews",
 				"label": "2 Crews Technical Install                                               RM140/hr/2crews",
 				"orderLabel": "Hour (2 Crews Technical Install)",
 				"description": "Label standard",
