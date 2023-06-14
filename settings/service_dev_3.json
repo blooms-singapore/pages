@@ -59,11 +59,11 @@
 			
 		"Installation One Item": {
 				"handle": "installation_one_item",
-				"label": "Installation - One Item                                                   SGD30/pc",
+				"label": "Installation - One Item                                                   SGD40/pc",
 				"orderLabel": "Pc (Installation - One Item)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "40",
 					"MYR": "55",
 					"CNY": "0"
 				},
