@@ -48,16 +48,20 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>5.0/call<br>PayNow Only</td>
       </tr>
        <tr>
-        <td>One Item<br>Refer FAQ14</td>
+        <td>One Item<br>Refer FAQ15</td>
         <td>${params.installation_one_item}/pc</td>
       </tr>
       <tr>
-        <td>Standard</td>
+        <td>1 Crew<br>Standard</td>
         <td>${params.installation_standard}/hr</td>
       </tr>
       <tr>
-        <td>Technical</td>
-        <td>${params.installation_technical}/hr</td>
+        <td>1 Crew<br>Technical</td>
+        <td>${params.installation_technical_1crew}/hr</td>
+      </tr>
+       <tr>
+        <td>2 Crews<br>Technical<br>Refer FAQ4</td>
+        <td>${params.installation_technical_1crew}/hr</td>
       </tr>
     </tbody>
     
@@ -70,11 +74,11 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </thead>
     <tbody>
       <tr>
-        <td>Site Survey</td>
+        <td>Site<br>Survey</td>
         <td>Free</td>
       </tr>
       <tr>
-        <td>Confirmation</td>
+        <td>Lumpsum Work<br>Confirmation</td>
         <td>Per Quotation</td>
       </tr>      
     </tbody>
@@ -224,15 +228,26 @@ Examples:
   <div class = "show-hide-text">
 
   <input id="collapsible4" class="toggle" type="checkbox">
-  <label for="collapsible4" class="lbl-toggle">Q4 Unsure of duration needed for my tasks?</label>
+  <label for="collapsible4" class="lbl-toggle">Q4 When to book 2 crews?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>For heavy duty tasks, where items to be installed are heavy, or require very precision alignment.
+   <br><br>Customers must upload item photos for 2-Crew booking.
+   <br><br>If task is deemed standard, Blooms will assign 1 crew.</p>
+   </div>
+   </div>
+
+  <input id="collapsible5" class="toggle" type="checkbox">
+  <label for="collapsible5" class="lbl-toggle">Q5 Unsure of duration needed for my tasks?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Just book minimum 1 hour. Blooms charges by actual time use.</p>
    </div>
    </div>
+    
  
-  <input id="collapsible5" class="toggle" type="checkbox">
-  <label for="collapsible5" class="lbl-toggle">Q5 Is there other cost if I book a time-charge service?</label>
+  <input id="collapsible6" class="toggle" type="checkbox">
+  <label for="collapsible6" class="lbl-toggle">Q6 Is there other cost if I book a time-charge service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
   <p>Time-Charge service is for workscope that can be executed on the same appointment day, and usually takes less than 4 hours.
@@ -240,16 +255,16 @@ Examples:
    </div>
    </div>
 
-  <input id="collapsible6" class="toggle" type="checkbox">
-  <label for="collapsible6" class="lbl-toggle">Q6 I don't know which Service item to book?</label>
+  <input id="collapsible7" class="toggle" type="checkbox">
+  <label for="collapsible7" class="lbl-toggle">Q7 I don't know which Service item to book?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Select Survey when in doubt. Our Crew will call and visit you to understand your installation needs.</p>
    </div>
    </div>
 
- <input id="collapsible7" class="toggle" type="checkbox">
-  <label for="collapsible7" class="lbl-toggle">Q7 Does Blooms install anything and everything?</label>
+ <input id="collapsible8" class="toggle" type="checkbox">
+  <label for="collapsible8" class="lbl-toggle">Q8 Does Blooms install anything and everything?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Of course not, because our installation crews do not possess every skill.
@@ -259,8 +274,8 @@ Examples:
    </div>
 
  
-  <input id="collapsible8" class="toggle" type="checkbox">
-  <label for="collapsible8" class="lbl-toggle">Q8 What is a Picking Fee?</label>
+  <input id="collapsible9" class="toggle" type="checkbox">
+  <label for="collapsible9" class="lbl-toggle">Q9 What is a Picking Fee?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>When our crews purchase items on customers' behalf.<br><br>Any items like lights, fans, water-heaters to bathroom assessories.
@@ -269,32 +284,32 @@ Examples:
    </div>
  
 
-  <input id="collapsible9" class="toggle" type="checkbox">
-  <label for="collapsible9" class="lbl-toggle">Q9 Is Credit Card payment safe?</label>
+  <input id="collapsible10" class="toggle" type="checkbox">
+  <label for="collapsible10" class="lbl-toggle">Q10 Is Credit Card payment safe?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes, very safe.<br><br>Blooms cannot assess card details and every transcastion is tracked digitally.</p>
    </div>
    </div>
 
-  <input id="collapsible10" class="toggle" type="checkbox">
-  <label for="collapsible10" class="lbl-toggle">Q10 When am I charged when using Credit Card as payment?</label>
+  <input id="collapsible11" class="toggle" type="checkbox">
+  <label for="collapsible11" class="lbl-toggle">Q11 When am I charged when using Credit Card as payment?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service first, Pay later.<br><br>Blooms charges upon completion of work, after issuance of receipt. Not at the point of placing Order.</p>
    </div>
    </div>
 
-  <input id="collapsible11" class="toggle" type="checkbox">
-  <label for="collapsible11" class="lbl-toggle">Q11 Can I book for someone else?</label>
+  <input id="collapsible12" class="toggle" type="checkbox">
+  <label for="collapsible12" class="lbl-toggle">Q12 Can I book for someone else?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes. Add their address, in your account and book choosing their address.<br><br>You have to pay for them as the Service is booked under your account.</p>
    </div>
    </div>
       
-  <input id="collapsible12" class="toggle" type="checkbox">
-  <label for="collapsible12" class="lbl-toggle">Q12 How do I cancel a Service?</label>
+  <input id="collapsible13" class="toggle" type="checkbox">
+  <label for="collapsible13" class="lbl-toggle">Q13 How do I cancel a Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service date which is <b>more than 3 days</b> into the future, use the <b>Cancel</b> button at the bottom of Order Confirmation page.
@@ -302,8 +317,8 @@ Examples:
    </div>
    </div>
 
- <input id="collapsible13" class="toggle" type="checkbox">
-  <label for="collapsible13" class="lbl-toggle">Q13 Can Blooms' crews install everything we want?</label>
+ <input id="collapsible14" class="toggle" type="checkbox">
+  <label for="collapsible14" class="lbl-toggle">Q14 Can Blooms' crews install everything we want?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>No. We do not promise that we are skilled to install everything a customer wants. To help us, please upload photos and describe the things you want to do.
@@ -312,8 +327,8 @@ Examples:
    </div>
     
     
-  <input id="collapsible14" class="toggle" type="checkbox">
-  <label for="collapsible14" class="lbl-toggle">Q14 What is the one item?</label>
+  <input id="collapsible15" class="toggle" type="checkbox">
+  <label for="collapsible15" class="lbl-toggle">Q15 What can be considered "One item"?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Only for standard household items, installed in ceiling, wall or floor. The work usually takes less than 30 mins for 1 item.
