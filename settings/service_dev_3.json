@@ -80,7 +80,7 @@
 			
 			
 
-			"Installation Standard": {
+			"1 Crew Standard Install": {
 				"handle": "installation_standard",
 				"label": "1 Crew Standard Install                                                   SGD50/hr",
 				"orderLabel": "Hour (1 Crew Standard Install)",
@@ -101,7 +101,7 @@
 			},
 
 
-			"Installation Technical": {
+			"1 Crew Technical Install": {
 				"handle": "installation_technical",
 				"label": "1 Crew Technical Install                                               SGD60/hr",
 				"orderLabel": "Hour (1 Crew Technical Install)",
@@ -122,7 +122,7 @@
 			},
 
 
-		"Installation Technical": {
+		"2 Crews Technical Install": {
 				"handle": "installation_technical_2crews",
 				"label": "2 Crews Technical Install                                               SGD120/hr",
 				"orderLabel": "Hour (2 Crews Technical Install)",
