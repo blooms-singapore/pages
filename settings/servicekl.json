@@ -55,7 +55,7 @@
 			
 			"1 Crew Standard Install": {
 				"handle": "installation_standard",
-				"label": "1 Crew Standard Install                                                 RM65/hr/crew",
+				"label": "1 Crew Standard Install                                                 RM65/hr",
 				"orderLabel": "Hour (1 Crew Standard Install)",
 				"description": "Label standard",
 				"cost": {
@@ -76,7 +76,7 @@
          
 			"1 Crew Technical Install": {
 				"handle": "installation_technical",
-				"label": "1 Crew Technical Install                                                RM95/hr/crew",
+				"label": "1 Crew Technical Install                                                RM95/hr",
 				"orderLabel": "Hour (Technical Installation)",
 				"description": "Label standard",
 				"cost": {
@@ -96,7 +96,7 @@
 
 			"2 Crews Technical Install": {
 				"handle": "installation_technical_2crews",
-				"label": "2 Crews Technical Install                                                RM180/hr/2crews",
+				"label": "2 Crews Technical Install                                                RM180/hr",
 				"orderLabel": "Hour (2 Crews Technical Install)",
 				"description": "Label standard",
 				"cost": {
