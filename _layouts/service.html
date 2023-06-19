@@ -10,6 +10,19 @@
       .hero {
         width: 100%;
       }
+      .image-gallery {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+      }
+      .image-gallery img {
+        scroll-snap-align: start;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-right: 10px; /* Adjust the margin between images as per your needs */
+      }
     </style>
     <link
       rel="stylesheet"
@@ -19,7 +32,7 @@
   </head>
   <body class="layout-{{page.layout}}">
     <div id="app">
-      <img class="hero" v-bind:src="banner" />
+      <div class="image-gallery" id="image-container"></div>
       <div class="content">
         <h1>{{page.title}}</h1>
 
@@ -84,6 +97,30 @@
         mounted() {
           function readResponseAsJSON(response) {
             return response.json();
+          }
+
+          const imageContainer = document.getElementById("image-container");
+          const url = window.location.href;
+          console.log('=== Window Url ===', url)
+          const serviceKey = window.location.pathname
+            .split("/")
+            .pop()
+            .replace(".html", "");
+
+          if (url.includes('singapore') && url.includes('electrical')) {
+            for (var i = 1; i <= 5; i++) {
+              const image = new Image();
+              image.src = "/assets/img/banners/" + serviceKey + ".png";
+              image.alt = "Service Image " + i;
+              image.class = "hero"
+              imageContainer.appendChild(image);
+            }
+          } else {
+            const image = new Image();
+            image.src = image.src = "/assets/img/banners/" + serviceKey + ".png";
+            image.alt = "Service Image Default";
+            image.class = "hero"
+            imageContainer.appendChild(image);
           }
 
           // var root = this
