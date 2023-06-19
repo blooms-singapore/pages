@@ -53,10 +53,10 @@
 		},
 			
 			
-			"Installation Standard": {
+			"1 Crew Standard Install": {
 				"handle": "installation_standard",
-				"label": "Standard Installation                                                 RM65/hr/crew",
-				"orderLabel": "Hour (Standard Installation)",
+				"label": "1 Crew Standard Install                                                 RM65/hr/crew",
+				"orderLabel": "Hour (1 Crew Standard Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
@@ -74,14 +74,34 @@
 			},
 			
          
-			"Installation Technical": {
+			"1 Crew Technical Install": {
 				"handle": "installation_technical",
-				"label": "Technical Installation                                                RM80/hr/crew",
+				"label": "1 Crew Technical Install                                                RM95/hr/crew",
 				"orderLabel": "Hour (Technical Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "80",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+
+			"2 Crews Technical Install": {
+				"handle": "installation_technical_2crews",
+				"label": "2 Crews Technical Install                                                RM180/hr/2crews",
+				"orderLabel": "Hour (2 Crews Technical Install)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "180",
 					"CNY": "0"
 				},
 				"quantity": {
