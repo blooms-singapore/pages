@@ -124,7 +124,7 @@
 
 		"2 Crews Technical Install": {
 				"handle": "installation_technical_2crews",
-				"label": "2 Crews Technical Install                                               SGD120/hr",
+				"label": "2 Crews Technical Install                                               SGD120/hr/2crews",
 				"orderLabel": "Hour (2 Crews Technical Install)",
 				"description": "Label standard",
 				"cost": {
