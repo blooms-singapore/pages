@@ -7,7 +7,7 @@
 		"lastSlot": "16:30",
 		"startPrice": {
 			"SGD": "55",
-			"MYR": "85",
+			"MYR": "95",
 			"CNY": "150"
 		},
 		"disableLocations": ["Seremban"],
@@ -57,12 +57,12 @@
 			
 			"Installation Standard": {
 				"handle": "installation_standard",
-				"label": "1 Crew Standard Install                                                 RM55/hr/crew",
+				"label": "1 Crew Standard Install                                                 RM65/hr/crew",
 				"orderLabel": "Hour (1 Crew Standard Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "55",
+					"MYR": "65",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -78,12 +78,12 @@
          
 			"1 crew Installation Technical": {
 				"handle": "installation_technical_1crew",
-				"label": "1 Crew Technical Install                                               RM70/hr/crew",
+				"label": "1 Crew Technical Install                                               RM90/hr/crew",
 				"orderLabel": "Hour (1 Crew Technical Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "70",
+					"MYR": "90",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -100,12 +100,12 @@
 			
 			"2 crews Installation Technical": {
 				"handle": "installation_technical_2crews",
-				"label": "2 Crews Technical Install                                               RM130/hr/2crews",
+				"label": "2 Crews Technical Install                                               RM150/hr/2crews",
 				"orderLabel": "Hour (2 Crews Technical Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "130",
+					"MYR": "150",
 					"CNY": "0"
 				},
 				"quantity": {
