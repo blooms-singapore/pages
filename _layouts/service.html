@@ -19,7 +19,7 @@
   </head>
   <body class="layout-{{page.layout}}">
     <div id="app">
-      <img class="hero" v-bind:src="banner" />
+      <img id="hero-container" class="hero" />
       <div class="content">
         <h1>{{page.title}}</h1>
 
@@ -84,6 +84,28 @@
         mounted() {
           function readResponseAsJSON(response) {
             return response.json();
+          }
+
+          const images = document.querySelectorAll('.image-container img');
+          let currentIndex = 0;
+          const imagesLength = 4;
+
+          const imageContainer = document.getElementById("hero-container");
+          const url = window.location.href;
+          console.log('=== Window Url ===', url)
+          const serviceKey = window.location.pathname
+            .split("/")
+            .pop()
+            .replace(".html", "");
+
+          if (url.includes('singapore') && url.includes('electrical')) {
+            imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (currentIndex).toString() + ".png"
+            setInterval(() => {
+              currentIndex = (currentIndex + 1) % imagesLength;
+              imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (currentIndex).toString() + ".png"
+            }, 3000);
+          } else {
+            imageContainer['src'] = "/assets/img/banners/" + serviceKey + ".png"
           }
 
           // var root = this
