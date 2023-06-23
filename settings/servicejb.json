@@ -288,13 +288,13 @@
 			
 			"Standard Clean Landed House": {
 				"handle": "cleaning_standard_landed",
-				"label": "Standard Clean Landed Property - 2 Crews                                                       RM22.5/hr/crew                                                       Min 4hrs",
+				"label": "Standard Clean Landed Property - 2 Crews                                                       RM23/hr/crew                                                       Min 4hrs",
 				"displayLabel": "Standard Clean Landed Property - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "45",
+					"MYR": "46",
 					"CNY": "82.5"
 				},
 				"quantity": {
