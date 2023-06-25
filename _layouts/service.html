@@ -9,6 +9,27 @@
     <style>
       .hero {
         width: 100%;
+        height: 100%;
+      }
+
+      .index-indicator {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+      }
+
+      .index-indicator span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: lightGray;
+        margin: 0 5px;
+      }
+
+      .index-indicator span.active {
+        background-color: gray;
       }
     </style>
     <link
@@ -20,6 +41,7 @@
   <body class="layout-{{page.layout}}">
     <div id="app">
       <img id="hero-container" class="hero" />
+      <div id="index-indicator" class="index-indicator"></div>
       <div class="content">
         <h1>{{page.title}}</h1>
 
@@ -88,24 +110,60 @@
 
           const images = document.querySelectorAll('.image-container img');
           let currentIndex = 0;
+          let touchStartX = 0;
+          let touchEndX = 0;
           const imagesLength = 4;
 
           const imageContainer = document.getElementById("hero-container");
+          const indexIndicator = document.getElementById("index-indicator");
           const url = window.location.href;
-          console.log('=== Window Url ===', url)
           const serviceKey = window.location.pathname
             .split("/")
             .pop()
             .replace(".html", "");
 
+          imageContainer.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+          });
+
+          imageContainer.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].clientX;
+            handleSwipe();
+          });
+
           if (url.includes('singapore') && url.includes('electrical')) {
             imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (currentIndex).toString() + ".png"
-            setInterval(() => {
-              currentIndex = (currentIndex + 1) % imagesLength;
-              imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (currentIndex).toString() + ".png"
-            }, 3000);
           } else {
             imageContainer['src'] = "/assets/img/banners/" + serviceKey + ".png"
+          }
+
+          for (let i = 0; i < imagesLength; i++) {
+            const spanNode = document.createElement("span");
+            if (i === 0) spanNode.className = 'active';
+            indexIndicator.appendChild(spanNode);
+          }
+
+          const indicatorSpans = indexIndicator.querySelectorAll('span')
+
+          function handleSwipe() {
+            const threshold = 1;
+            const distanceX = touchEndX - touchStartX;
+            const previousIndex = currentIndex
+
+            if (Math.abs(distanceX) >= threshold) {
+              if (distanceX > 0) {
+                currentIndex = currentIndex - 1 < 0 ? imagesLength - 1 : currentIndex - 1
+              } else {
+                currentIndex = (currentIndex + 1) % imagesLength;
+              }
+              changeImage(currentIndex, previousIndex);
+            }
+          }
+
+          function changeImage(index, previousIndex) {
+            imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (index).toString() + ".png"
+            indicatorSpans[index].className = 'active'
+            indicatorSpans[previousIndex].className = ''
           }
 
           // var root = this
