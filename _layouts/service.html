@@ -132,39 +132,38 @@
 
           if (url.includes('singapore') && url.includes('electrical')) {
             imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (currentIndex).toString() + ".png"
-          } else {
-            imageContainer['src'] = "/assets/img/banners/" + serviceKey + ".png"
-          }
+            if (imagesLength > 1) {
+              for (let i = 0; i < imagesLength; i++) {
+                const spanNode = document.createElement("span");
+                if (i === 0) spanNode.className = 'active';
+                indexIndicator.appendChild(spanNode);
+              }
 
-          if (imagesLength > 1) {
-            for (let i = 0; i < imagesLength; i++) {
-              const spanNode = document.createElement("span");
-              if (i === 0) spanNode.className = 'active';
-              indexIndicator.appendChild(spanNode);
-            }
+              const indicatorSpans = indexIndicator.querySelectorAll('span')
 
-            const indicatorSpans = indexIndicator.querySelectorAll('span')
+              function handleSwipe() {
+                const threshold = 1;
+                const distanceX = touchEndX - touchStartX;
+                const previousIndex = currentIndex
 
-            function handleSwipe() {
-              const threshold = 1;
-              const distanceX = touchEndX - touchStartX;
-              const previousIndex = currentIndex
-
-              if (Math.abs(distanceX) >= threshold) {
-                if (distanceX > 0) {
-                  currentIndex = currentIndex - 1 < 0 ? imagesLength - 1 : currentIndex - 1
-                } else {
-                  currentIndex = (currentIndex + 1) % imagesLength;
+                if (Math.abs(distanceX) >= threshold) {
+                  if (distanceX > 0) {
+                    currentIndex = currentIndex - 1 < 0 ? imagesLength - 1 : currentIndex - 1
+                  } else {
+                    currentIndex = (currentIndex + 1) % imagesLength;
+                  }
+                  changeImage(currentIndex, previousIndex);
                 }
-                changeImage(currentIndex, previousIndex);
+              }
+
+              function changeImage(index, previousIndex) {
+                imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (index).toString() + ".png"
+                indicatorSpans[index].className = 'active'
+                indicatorSpans[previousIndex].className = ''
               }
             }
-
-            function changeImage(index, previousIndex) {
-              imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (index).toString() + ".png"
-              indicatorSpans[index].className = 'active'
-              indicatorSpans[previousIndex].className = ''
-            }
+          } else {
+            imageContainer['src'] = "/assets/img/banners/" + serviceKey + ".png"
           }
 
           // var root = this
