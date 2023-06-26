@@ -205,7 +205,373 @@
 	},
 
 	
-	
+
+
+
+
+
+
+
+
+	"washing-machine": {
+		"name": "Washing Machine",
+		"lastSlot": "16:30",
+		"disableLocations": ["kuala Lumpur", "Johor Bahru"],
+		"startPrice": {
+			"SGD": "65",
+			"MYR": "0",
+			"CNY": "0"
+		},
+		"hasNote": 1,
+		"options": {
+
+			"Transport & Trouble-Shoot": {
+				"handle": "washing_machine_sg_transport_troubleshoot",
+				"label": "Transport & Trouble-Shoot                                               SGD45/trip",
+				"orderLabel": "Trip (Transport & Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 0,
+					"increment": 0,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+			"Washing Machine Lumpsum Repair Work": {
+				"handle": "washing _machine_lumpsum_repair",
+				"label": "Lumpsum Repair Confirmation                                      Per Quotation",
+				"orderLabel": "Job (Lumpsum Repair Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "168",
+					"CNY": "0"
+				},
+
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+
+			"Washing Machine HookUp New Installation": {
+				"handle": "washing_machine_new_installation",
+				"label": "Hook Up. New Installation                                         SGD50/unit",
+				"orderLabel": "Unit (Hook Up. New Installation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+
+			"Washing Machine HookUp Existing Utility": {
+				"handle": "washing_machine_existing_utility",
+				"label": "Hookup with Existing Utilities                                             SGD30/unit",
+				"orderLabel": "Unit (Hook Up with Existing Utilities)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+
+			"Washing Machine Plumbing Electrical": {
+				"handle": "washing_machine_plumbing_electrical",
+				"label": "Washing Machine Plumbing/Electrical                                           SGD60/hr",
+				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			}
+		},
+
+
+		"types": {
+			"house": {
+				"label": "Machine Type?",
+				"description": "Label standard",
+				"values": {
+					"Top Loading": {
+						"label": "Top Loading +SGD0",
+						"orderLabel": "Top Loading +SGD0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "25"
+						}
+					},
+					"Side Loading": {
+						"label": "Side Loading +SGD20",
+						"orderLabel": "Side Loading + SGD20",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "20",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+
+
+
+
+
+
+
+
+
+	"electrical": {
+		"name": "Electrical",
+		"lastSlot": "16:30",
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+		"startPrice": {
+			"SGD": "80",
+			"MYR": "95",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Electrical Transport": {
+				"handle": "electrical_transport",
+				"label": "Electrical Transport Fee                                                SGD20/trip",
+				"orderLabel": "Trip (Electrical Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+
+			"Electrical Survey": {
+				"handle": "electrical_survey",
+				"label": "Electrical Survey                                                    Free",
+				"orderLabel": "Trip (Electrical Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+
+
+			"Minor Electrical": {
+				"handle": "minor_electrical",
+				"label": "Minor Electrical Work                                                      SGD60/hr",
+				"orderLabel": "Hour (Minor Electrical Work)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+
+			"Electrical Lumpsum Work Confirmation": {
+				"handle": "major_electrical",
+				"label": "Electrical Lumpsum Work Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+
+			"Electrical Trouble Shoot": {
+				"handle": "electrical_trouble_shoot",
+				"label": "Electrical Trouble Shoot                                                     SGD30/trip",
+				"orderLabel": "Trip (Electrical Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+			"Emergency": {
+				"handle": "emergency",
+				"label": "Emergency Booking                                                          SGD100 - 150",
+				"orderLabel": "Trip (Emergency Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "100",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"cost_max": {
+					"SGD": "150",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo/HDB +SGD0",
+						"orderLabel": "Condo/HDB +SGD0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed Property +SGD10",
+						"orderLabel": "Landed Property +SGD10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+
+
+
+
+
 	
 	
 	
@@ -583,171 +949,7 @@
 	
 	
 	
-	"washing-machine": {
-		"name": "Washing Machine",
-		"lastSlot": "16:30",
-		"disableLocations": ["kuala Lumpur", "Johor Bahru"],
-		"startPrice": {
-			"SGD": "65",
-			"MYR": "0",
-			"CNY": "0"
-		},
-		"hasNote": 1,
-		"options": {
-
-			"Transport & Trouble-Shoot": {
-				"handle": "washing_machine_sg_transport_troubleshoot",
-				"label": "Transport & Trouble-Shoot                                               SGD45/trip",
-				"orderLabel": "Trip (Transport & Trouble-Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 0,
-					"increment": 0,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-			"Washing Machine Lumpsum Repair Work": {
-				"handle": "washing _machine_lumpsum_repair",
-				"label": "Lumpsum Repair Confirmation                                      Per Quotation",
-				"orderLabel": "Job (Lumpsum Repair Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "168",
-					"CNY": "0"
-				},
-
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-
-			"Washing Machine HookUp New Installation": {
-				"handle": "washing_machine_new_installation",
-				"label": "Hook Up. New Installation                                         SGD50/unit",
-				"orderLabel": "Unit (Hook Up. New Installation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-
-			"Washing Machine HookUp Existing Utility": {
-				"handle": "washing_machine_existing_utility",
-				"label": "Hookup with Existing Utilities                                             SGD30/unit",
-				"orderLabel": "Unit (Hook Up with Existing Utilities)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-
-			"Washing Machine Plumbing Electrical": {
-				"handle": "washing_machine_plumbing_electrical",
-				"label": "Washing Machine Plumbing/Electrical                                           SGD60/hr",
-				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			}
-		},
-
-
-		"types": {
-			"house": {
-				"label": "Machine Type?",
-				"description": "Label standard",
-				"values": {
-					"Top Loading": {
-						"label": "Top Loading +SGD0",
-						"orderLabel": "Top Loading +SGD0",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
-						}
-					},
-					"Side Loading": {
-						"label": "Side Loading +SGD20",
-						"orderLabel": "Side Loading + SGD20",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "20",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-
+	
 
 
 
@@ -1400,193 +1602,6 @@
 
 
 
-
-
-
-
-
-
-	"electrical": {
-		"name": "Electrical",
-		"lastSlot": "16:30",
-		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
-		"startPrice": {
-			"SGD": "80",
-			"MYR": "95",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Electrical Transport": {
-				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                                SGD20/trip",
-				"orderLabel": "Trip (Electrical Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-
-			"Electrical Survey": {
-				"handle": "electrical_survey",
-				"label": "Electrical Survey                                                    Free",
-				"orderLabel": "Trip (Electrical Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-
-
-			"Minor Electrical": {
-				"handle": "minor_electrical",
-				"label": "Minor Electrical Work                                                      SGD60/hr",
-				"orderLabel": "Hour (Minor Electrical Work)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-
-			"Electrical Lumpsum Work Confirmation": {
-				"handle": "major_electrical",
-				"label": "Electrical Lumpsum Work Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-
-			"Electrical Trouble Shoot": {
-				"handle": "electrical_trouble_shoot",
-				"label": "Electrical Trouble Shoot                                                     SGD30/trip",
-				"orderLabel": "Trip (Electrical Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-			"Emergency": {
-				"handle": "emergency",
-				"label": "Emergency Booking                                                          SGD100 - 150",
-				"orderLabel": "Trip (Emergency Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "100",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "150",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed Property +SGD10",
-						"orderLabel": "Landed Property +SGD10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
 
 
 
