@@ -629,7 +629,7 @@
 	"aircon": {
 		"name": "Aircon Works (C)",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Johor Bahru", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "100",
