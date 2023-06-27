@@ -131,7 +131,20 @@
             if (imagesLength > 1) handleSwipe();
           });
 
-          if (url.includes('singapore') && url.includes('electrical')) {
+          const scrollerPages = [
+            {
+              'location': 'singapore',
+              'service': 'electrical.html'
+            }
+          ]
+
+          const checkScrollerPage = (pages) => {
+            return pages.filter((page) => {
+              return url.includes(page['location']) && url.includes(page['service'])
+            }).length > 0
+          }
+
+          if (checkScrollerPage(scrollerPages)) {
             imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (currentIndex).toString() + ".png"
             if (imagesLength > 1) {
               for (let i = 0; i < imagesLength; i++) {
