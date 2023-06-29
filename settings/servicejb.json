@@ -620,7 +620,7 @@
 	
 	
 	
-	"electrical": {
+	"electrical-jb": {
 		"name": "Electrical",
 		"lastSlot": "16:00",
 		"disableLocations": [],
