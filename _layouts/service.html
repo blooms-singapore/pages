@@ -39,8 +39,8 @@
   </head>
   <body class="layout-{{page.layout}}">
     <div id="app">
-      <img id="hero-container" class="hero" />
-      <div id="index-indicator" class="index-indicator"></div>
+      <img id="hero-container" class="hero" :src="imageSrc" />
+      <div v-if="addScroller" id="index-indicator" class="index-indicator"></div>
       <div class="content">
         <h1>{{page.title}}</h1>
 
@@ -92,6 +92,32 @@
             options: null,
             types: null,
             banner: "/assets/img/banners/" + serviceKey + ".png",
+            scrollerPages: [
+              {
+                'location': 'singapore',
+                'service': 'electrical.html'
+              },
+              {
+                'location': 'johor-bahru',
+                'service': 'electrical-jb.html'
+              },
+              {
+                'location': 'singapore',
+                'service': 'installation.html'
+              },
+              {
+                'location': 'johor-bahru',
+                'service': 'installation.html'
+              },
+              {
+                'location': 'kuala-lumpur',
+                'service': 'installation.html'
+              }
+            ],
+            currentIndex: 0,
+            touchStartX: 0,
+            touchEndX: 0,
+            imagesLength: 4,
           };
         },
         computed: {
@@ -102,98 +128,55 @@
             }
             return newParams;
           },
+
+          addScroller() {
+            return this.imagesLength > 1
+          },
+
+          useScroller() {
+            const url = window.location.href;
+            return this.checkScrollerPage(this.scrollerPages, url)
+          },
+
+          imageSrc() {
+            const url = window.location.href;
+            if (this.useScroller) {
+              return "/assets/img/banners/" + serviceKey + "_" + (this.currentIndex).toString() + ".png"
+            } else {
+              return "/assets/img/banners/" + serviceKey + ".png"
+            }
+          },
+
+          indexIndicator() {
+            return document.getElementById("index-indicator")
+          },
+
+          indicatorSpans() {
+            return this.indexIndicator?.querySelectorAll('span')
+          }
         },
         mounted() {
           function readResponseAsJSON(response) {
             return response.json();
           }
 
-          const images = document.querySelectorAll('.image-container img');
-          let currentIndex = 0;
-          let touchStartX = 0;
-          let touchEndX = 0;
-          const imagesLength = 4;
-
           const imageContainer = document.getElementById("hero-container");
-          const indexIndicator = document.getElementById("index-indicator");
-          const url = window.location.href;
-          const serviceKey = window.location.pathname
-            .split("/")
-            .pop()
-            .replace(".html", "");
 
           imageContainer.addEventListener('touchstart', (e) => {
-            touchStartX = e.touches[0].clientX;
+            this.touchStartX = e.touches[0].clientX;
           });
 
           imageContainer.addEventListener('touchend', (e) => {
-            touchEndX = e.changedTouches[0].clientX;
-            if (imagesLength > 1) handleSwipe();
+            this.touchEndX = e.changedTouches[0].clientX;
+            if (this.imagesLength > 1) this.handleSwipe();
           });
 
-          const scrollerPages = [
-            {
-              'location': 'singapore',
-              'service': 'electrical.html'
-            },
-           {
-              'location': 'johor-bahru',
-              'service': 'electrical-jb.html'
-            },
-             {
-              'location': 'singapore',
-              'service': 'installation.html'
-            },
-              {
-              'location': 'johor-bahru',
-              'service': 'installation.html'
-            },
-              {
-              'location': 'kuala-lumpur',
-              'service': 'installation.html'
+          if (this.useScroller && this.addScroller) {
+            for (let i = 0; i < this.imagesLength; i++) {
+              const spanNode = document.createElement("span");
+              if (i === 0) spanNode.className = 'active';
+              this.indexIndicator.appendChild(spanNode);
             }
-          ]
-
-          const checkScrollerPage = (pages) => {
-            return pages.filter((page) => {
-              return url.includes(page['location']) && url.includes(page['service'])
-            }).length > 0
-          }
-
-          if (checkScrollerPage(scrollerPages)) {
-            imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (currentIndex).toString() + ".png"
-            if (imagesLength > 1) {
-              for (let i = 0; i < imagesLength; i++) {
-                const spanNode = document.createElement("span");
-                if (i === 0) spanNode.className = 'active';
-                indexIndicator.appendChild(spanNode);
-              }
-
-              const indicatorSpans = indexIndicator.querySelectorAll('span')
-
-              function handleSwipe() {
-                const threshold = 1;
-                const distanceX = touchEndX - touchStartX;
-                const previousIndex = currentIndex
-
-                if (Math.abs(distanceX) >= threshold) {
-                  if (distanceX > 0) {
-                    currentIndex = currentIndex - 1 < 0 ? imagesLength - 1 : currentIndex - 1
-                  } else {
-                    currentIndex = (currentIndex + 1) % imagesLength;
-                  }
-                  changeImage(currentIndex, previousIndex);
-                }
-              }
-
-              function changeImage(index, previousIndex) {
-                imageContainer['src'] = "/assets/img/banners/" + serviceKey + "_" + (index).toString() + ".png"
-                indicatorSpans[index].className = 'active'
-                indicatorSpans[previousIndex].className = ''
-              }
-            }
-          } else {
-            imageContainer['src'] = "/assets/img/banners/" + serviceKey + ".png"
           }
 
           // var root = this
@@ -228,6 +211,33 @@
           //     console.log('res', this.service)
           //   })
         },
+        methods: {
+          checkScrollerPage(pages, url) {
+            return pages.filter((page) => {
+              return url.includes(page['location']) && url.includes(page['service'])
+            }).length > 0
+          },
+
+          handleSwipe() {
+            const threshold = 1;
+            const distanceX = this.touchEndX - this.touchStartX;
+            const previousIndex = this.currentIndex
+
+            if (Math.abs(distanceX) >= threshold) {
+              if (distanceX > 0) {
+                this.currentIndex = this.currentIndex - 1 < 0 ? this.imagesLength - 1 : this.currentIndex - 1
+              } else {
+                this.currentIndex = (this.currentIndex + 1) % this.imagesLength;
+              }
+              this.changeImage(this.currentIndex, previousIndex);
+            }
+          },
+
+          changeImage(index, previousIndex) {
+            this.indicatorSpans[index].className = 'active'
+            this.indicatorSpans[previousIndex].className = ''
+          },
+        }
       });
     </script>
     <script src="/javascript/main.js"></script>
