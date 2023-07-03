@@ -626,7 +626,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
-			"MYR": "100",
+			"MYR": "60",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -704,12 +704,12 @@
 			
 			"Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Residential Minor Electrical Work                                                      RM70/hr",
+				"label": "Residential Minor Electrical Work                                                      RM90/hr",
 				"orderLabel": "Hour (Residential Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "70",
+					"MYR": "90",
 					"CNY": "0"
 				},
 				"quantity": {
