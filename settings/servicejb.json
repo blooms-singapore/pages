@@ -655,12 +655,12 @@
 
 	"Electrical Video-Call": {
 				"handle": "electrical_videocall",
-				"label": "Electrical Video Call                                                   RM10/call",
+				"label": "Electrical Video Call                                                   RM5/call",
 				"orderLabel": "Call (Electrical Video Call)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "-20",
+					"MYR": "-25",
 					"CNY": "0"
 				},
 				"quantity": {
