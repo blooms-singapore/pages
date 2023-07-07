@@ -1542,11 +1542,11 @@
 
 			"Painting Daily Rate": {
 				"handle": "painting_sg_daily",
-				"label": "1 Crew Daily Rate                                   SGD140/day                               10am to 6pm",
+				"label": "1 Crew Daily Rate                                   SGD150/day                               10am to 5pm",
 				"orderLabel": "Day (1 Crew Daily Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "140",
+					"SGD": "150",
 					"MYR": "350",
 					"CNY": "0"
 				},
@@ -1563,11 +1563,11 @@
 
 			"Painting Picking Fee": {
 				"handle": "painting_sg_picking_fee",
-				"label": "Paint Picking Fee                                           SGD50/trip                                          Optional",
+				"label": "Paint Picking Fee                                           SGD80/trip                                          Optional",
 				"orderLabel": "Trip (Paint Picking Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "80",
 					"MYR": "350",
 					"CNY": "0"
 				},
