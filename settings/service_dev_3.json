@@ -1951,12 +1951,16 @@
 
 
 
+
+	
+
+
 "carpentry-sg": {
 		"name": "Carpentry",
 		"lastSlot": "15:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "528",
+			"SGD": "80",
 			"MYR": "70",
 			"CNY": "20"
 		},
@@ -2011,6 +2015,27 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+	"Carpentry Lumpsum Confirmation": {
+				"handle": "carpentry_sg_confirmation",
+				"label": "Carpentry Lumpsum Confirmation                                                         Per Quotation",
+				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
 					"MYR": "30",
 					"CNY": "0"
 				},
