@@ -1558,6 +1558,27 @@
 					"default": 1,
 					"base": 1
 				}
+			},
+
+
+			"Painting Picking Fee": {
+				"handle": "painting_sg_picking fee",
+				"label": "Paint Picking Fee                                           SGD50/trip                                          Optional",
+				"orderLabel": "Trip (Paint Picking Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "350",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 2,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
 			}
 		},
 
