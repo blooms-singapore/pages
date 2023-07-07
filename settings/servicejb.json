@@ -622,7 +622,7 @@
 	
 	"electrical-jb": {
 		"name": "Electrical",
-		"lastSlot": "16:00",
+		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
@@ -807,7 +807,7 @@
 
  "washing-machine-jb": {
 		"name": "Washing Machine",
-		"lastSlot": "15:30",
+		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "45",
