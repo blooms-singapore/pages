@@ -1258,7 +1258,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "125",
+			"SGD": "120",
 			"MYR": "180",
 			"CNY": "110"
 		},
@@ -1518,11 +1518,11 @@
 
 			"Painting Hourly Rate": {
 				"handle": "painting_sg_hourly",
-				"label": "1 Crew Hourly Rate                                         SGD35/hr                       Min 2.5hrs",
+				"label": "1 Crew Hourly Rate                                         SGD40/hr                       Min 2.5hrs",
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "35",
+					"SGD": "40",
 					"MYR": "60",
 					"CNY": "80"
 				},
@@ -1531,7 +1531,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 180,
+					"default": 150,
 					"base": 60
 				}
 			},
