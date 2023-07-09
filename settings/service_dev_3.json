@@ -1518,7 +1518,7 @@
 
 			"Painting Hourly Rate": {
 				"handle": "painting_sg_hourly",
-				"label": "1 Crew Hourly Rate                                         SGD40/hr                       Min 2.5hrs",
+				"label": "1 Crew Hourly Rate                                            SGD40/hr                              Min 2.5hrs",
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
