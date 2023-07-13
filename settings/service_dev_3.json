@@ -423,15 +423,15 @@
 						}
 					},
 					"Side Loading": {
-						"label": "Side Loading +SGD20",
-						"orderLabel": "Side Loading + SGD20",
+						"label": "Side Loading +SGD30",
+						"orderLabel": "Side Loading + SGD30",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "20",
+							"SGD": "30",
 							"MYR": "0",
 							"CNY": "0"
 						}
