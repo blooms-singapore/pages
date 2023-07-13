@@ -313,11 +313,11 @@
 
 			"Washing Machine Dryer Clean": {
 				"handle": "washer_dryer_clean",
-				"label": "Washer-Dryer Clean                                           SGD220",
+				"label": "Washer-Dryer Clean                                           SGD240",
 				"orderLabel": "Unit (Washer-Dryer Clean)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "220",
+					"SGD": "240",
 					"MYR": "168",
 					"CNY": "0"
 				},
