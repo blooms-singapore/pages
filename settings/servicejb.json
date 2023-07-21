@@ -819,7 +819,7 @@
 			
 			"Transport & Trouble-Shoot": {
 				"handle": "washing_machine_sg_transport_troubleshoot",
-				"label": "Transport & Trouble-Shoot                                               RM45/trip",
+				"label": "Transport & Trouble-Shoot                                               RM60/trip",
 				"orderLabel": "Trip (Transport & Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
