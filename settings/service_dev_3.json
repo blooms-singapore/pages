@@ -2330,19 +2330,19 @@
 "mentoring": {
 		"name": "Mentoring",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "60",
+			"SGD": "90",
 			"MYR": "80",
 			"CNY": "150"
 		},
 		"hasNote": 1,
 		"options": {
 
-			"Installation Transport Fee": {
-				"handle": "transport_fee",
-				"label": "Installation Transport Fee                                                          SGD20/trip",
-				"orderLabel": "Trip (Installation Transport Fee)",
+			"Paint mentor": {
+				"handle": "paint_mentor",
+				"label": "Painting Mentor                                                       SGD20/session",
+				"orderLabel": "Session (Painting mentor)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -2350,30 +2350,30 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
+					"label": "Session",
+					"min": 0,
+					"max": 2,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
 			
 			
-		"Installation Video Call": {
-			"handle": "installation_sg_videocall",
-			"label": "Installation Video Call                                         SGD5/call",
-			"orderLabel": "Call (Installation Video Call)",
+		"Installation": {
+			"handle": "installation_mentor",
+			"label": "Installation Mentor                                         SGD20/session",
+			"orderLabel": "Session (Installation Mentor)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-15",
+				"SGD": "20",
 				"MYR": "30",
 				"CNY": "0"
 			},
 			"quantity": {
-				"label": "Call",
+				"label": "Session",
 				"min": 0,
-				"max": 1,
+				"max": 2,
 				"increment": 1,
 				"default": 0,
 				"base": 1
@@ -2384,20 +2384,20 @@
 			
 			
 			
-		"Installation One Item": {
-				"handle": "installation_one_item",
-				"label": "Installation - One Item                                                   SGD40/pc",
-				"orderLabel": "Pc (Installation - One Item)",
+		"Plumbing Mentor": {
+				"handle": "plumbing_mentor",
+				"label": "Plumbing Mentor                                                   SGD30/session",
+				"orderLabel": "Session (Plumbing Mentor)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "20",
 					"MYR": "55",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Pc",
+					"label": "Session",
 					"min": 0,
-					"max": 1,
+					"max": 0,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -2408,10 +2408,31 @@
 			
 
 			
-			"1 Crew Technical Install": {
-				"handle": "installation_technical",
-				"label": "1 Crew Install                                               SGD60/hr",
-				"orderLabel": "Hour (1 Crew Install)",
+			"Tool Rent Self Collect": {
+				"handle": "tool_rent",
+				"label": "Tool Rent Self-Collect                                               SGD30/set",
+				"orderLabel": "Set (Tool Rent Self-Collect)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 2,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+				
+		"Tool Rent Delivery": {
+				"handle": "tool_rent_delivery",
+				"label": "Tool Rent Delivery                                        SGD60/set",
+				"orderLabel": "Set (Tool Rent Delivery)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
@@ -2419,86 +2440,24 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Set",
 					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-
-
-		"2 Crews Technical Install": {
-				"handle": "installation_technical_2crews",
-				"label": "2 Crews Install                                               SGD120/hr",
-				"orderLabel": "Hour (2 Crews Install)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "120",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-
-			"Site Survey": {
-				"handle": "installation_site_survey",
-				"label": "Installation Site Survey                                                      Free",
-				"orderLabel": "Trip (Installation Site Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
+					"max": 2,
+					"increment": 1,
 					"default": 0,
-					"base": 60
-				}
-			},
-
-
-			"Project": {
-				"handle": "project",
-				"label": "Lumpsum Work Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "-15",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			}
 		},
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Peak Period?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+					"Weekdays": {
+						"label": "WeekDAYS +SGD0",
+						"orderLabel": "WeekDAYS +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2511,9 +2470,9 @@
 						}
 					},
 
-					"landed": {
-						"label": "Landed Property +SGD10",
-						"orderLabel": "Landed Property +SGD10",
+					"Weekends": {
+						"label": "WeekENDS +SGD20",
+						"orderLabel": "WeekENDS +SGD20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2521,7 +2480,7 @@
 						},
 						
 					"oneOffCost": {
-						"SGD": "10",
+						"SGD": "20",
 						"MYR": "10",
 						"CNY": "10"
 						}
