@@ -2409,7 +2409,7 @@
 
 			
 			"Tool Rent Self Collect": {
-				"handle": "tool_rent_selfcollect",
+				"handle": "tools_rent_selfcollect",
 				"label": "Tool Rent Self-Collect                                               SGD30/set",
 				"orderLabel": "Set (Tool Rent Self-Collect)",
 				"description": "Label standard",
@@ -2430,7 +2430,7 @@
 
 				
 		"Tool Rent Delivery": {
-				"handle": "tool_rent_delivery",
+				"handle": "tools_rent_delivery",
 				"label": "Tool Rent Delivery                                        SGD60/set",
 				"orderLabel": "Set (Tool Rent Delivery)",
 				"description": "Label standard",
