@@ -2340,9 +2340,9 @@
 		"options": {
 
 			"Paint mentor": {
-				"handle": "paint_mentor",
+				"handle": "painting_mentor",
 				"label": "Painting Mentor                                                       SGD20/session",
-				"orderLabel": "Session (Painting mentor)",
+				"orderLabel": "Session (Painting Mentor)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
