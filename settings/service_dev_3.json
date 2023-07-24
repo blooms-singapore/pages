@@ -2409,7 +2409,7 @@
 
 			
 			"Tool Rent Self Collect": {
-				"handle": "tool_rent",
+				"handle": "tool_rent_selfcollect",
 				"label": "Tool Rent Self-Collect                                               SGD30/set",
 				"orderLabel": "Set (Tool Rent Self-Collect)",
 				"description": "Label standard",
