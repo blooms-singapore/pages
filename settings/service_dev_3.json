@@ -2096,13 +2096,55 @@
 		},
 
 
+		"Carpentry Servicing": {
+			"handle": "carpentry_sg_servicing",
+			"label": "Carpentry Servicing                                         SGD270/session",
+			"orderLabel": "Session (Carpentry Servicing)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "270",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Session",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
+		"Carpentry Laminate Repair": {
+			"handle": "carpentry_sg_laminate_repair",
+			"label": "Carpentry Laminate Repair                                         SGD460/session",
+			"orderLabel": "Session (Carpentry Repair)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "460",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Session",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
 		"Carpentry Site Survey": {
 				"handle": "carpentry_survey",
-				"label": "Carpentry Site Survey                                                         SGD60/trip",
+				"label": "Carpentry Site Survey                                                         SGD20/Trip",
 				"orderLabel": "Trip (Carpentry Site Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "20",
 					"MYR": "30",
 					"CNY": "0"
 				},
