@@ -2098,11 +2098,11 @@
 
 		"Carpentry Servicing": {
 			"handle": "carpentry_sg_servicing",
-			"label": "Carpentry Servicing                                         SGD250/session",
+			"label": "Carpentry Servicing                                         SGD200/session",
 			"orderLabel": "Session (Carpentry Servicing)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "270",
+				"SGD": "200",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -2119,11 +2119,11 @@
 
 		"Carpentry Laminate Repair": {
 			"handle": "carpentry_sg_laminate_repair",
-			"label": "Carpentry Laminate Repair                                         SGD350/session",
+			"label": "Carpentry Laminate Repair                                         SGD300/session",
 			"orderLabel": "Session (Carpentry Repair)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "460",
+				"SGD": "300",
 				"MYR": "30",
 				"CNY": "0"
 			},
