@@ -2098,11 +2098,11 @@
 
 		"Carpentry Servicing": {
 			"handle": "carpentry_sg_servicing",
-			"label": "Carpentry Servicing                                         SGD120/hr",
+			"label": "Carpentry Servicing                                         SGD110/hr",
 			"orderLabel": "Hour (Carpentry Servicing)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "120",
+				"SGD": "110",
 				"MYR": "30",
 				"CNY": "0"
 			},
