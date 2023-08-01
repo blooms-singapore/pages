@@ -2048,7 +2048,7 @@
 		"lastSlot": "15:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "80",
+			"SGD": "140",
 			"MYR": "70",
 			"CNY": "20"
 		},
@@ -2098,18 +2098,18 @@
 
 		"Carpentry Servicing": {
 			"handle": "carpentry_sg_servicing",
-			"label": "Carpentry Servicing                                         SGD200/session",
-			"orderLabel": "Session (Carpentry Servicing)",
+			"label": "Carpentry Servicing                                         SGD120/hr",
+			"orderLabel": "Hour (Carpentry Servicing)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "200",
+				"SGD": "120",
 				"MYR": "30",
 				"CNY": "0"
 			},
 			"quantity": {
-				"label": "Session",
+				"label": "Hour",
 				"min": 0,
-				"max": 1,
+				"max": 3,
 				"increment": 1,
 				"default": 0,
 				"base": 1
@@ -2117,27 +2117,7 @@
 		},
 
 
-		"Carpentry Laminate Repair": {
-			"handle": "carpentry_sg_laminate_repair",
-			"label": "Carpentry Laminate Repair                                         SGD300/session",
-			"orderLabel": "Session (Carpentry Repair)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "300",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Session",
-				"min": 0,
-				"max": 1,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
-
-
+		
 		"Carpentry Site Survey": {
 				"handle": "carpentry_survey",
 				"label": "Carpentry Site Survey                                                         SGD20/Trip",
