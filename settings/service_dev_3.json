@@ -2096,10 +2096,10 @@
 		},
 
 
-		"Carpentry Servicing": {
-			"handle": "carpentry_sg_servicing",
-			"label": "Carpentry Servicing                                         SGD110/hr",
-			"orderLabel": "Hour (Carpentry Servicing)",
+		"1 Carpenter": {
+			"handle": "carpentry_service_1carpenter",
+			"label": "1 Carpenter                                        SGD110/hr",
+			"orderLabel": "Hour (1 Carpenter)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "110",
@@ -2115,6 +2115,29 @@
 				"base": 1
 			}
 		},
+
+
+
+		"2 Carpenters": {
+			"handle": "carpentry_service_2carpenters",
+			"label": "2 Carpenters                                        SGD220/hr",
+			"orderLabel": "Hour (2 Carpenters)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "220",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 3,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
 
 
 		
