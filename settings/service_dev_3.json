@@ -727,8 +727,8 @@
 
 		"Standard Plumbing": {
 			"handle": "plumbing_standard",
-			"label": "Standard Plumbing                                              SGD60/hr",
-			"orderLabel": "Hour (Standard Plumbing)",
+			"label": "1 Crew - Standard Plumbing                                             SGD60/hr/crew",
+			"orderLabel": "Hour (1 Crew - Standard Plumbing)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "60",
@@ -744,6 +744,28 @@
 				"base": 60
 			}
 		},
+
+		
+		"Non Standard Plumbing": {
+			"handle": "plumbing_non_standard",
+			"label": "2 Crews - Non Standard Plumbing                                              SGD140/hr",
+			"orderLabel": "Hours (2 Crews - Non Standard Plumbing)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "140",
+				"MYR": "70",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 150,
+				"base": 60
+			}
+		},
+		
 
 		"Plumbing Lumpsum Survey": {
 			"handle": "plumbing_survey",
