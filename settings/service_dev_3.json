@@ -1,5 +1,192 @@
 {
 	
+"carpentry-sg": {
+		"name": "Carpentry",
+		"lastSlot": "15:30",
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+		"startPrice": {
+			"SGD": "130",
+			"MYR": "70",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Carpentry Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Carpentry Transport Fee                                                          SGD20/trip",
+				"orderLabel": "Trip (Carpentry Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+		"Carpentry Video Call": {
+			"handle": "carpentry_sg_videocall",
+			"label": "Carpentry Video Call                                         SGD10/call",
+			"orderLabel": "Call (Carpentry Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-10",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
+		"1 Carpenter": {
+			"handle": "carpentry_sg_service_1carpenter",
+			"label": "1 Carpenter                                        SGD110/hr",
+			"orderLabel": "Hour (1 Carpenter)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "110",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 3,
+				"increment": 0.5,
+				"default": 1,
+				"base": 1
+			}
+		},
+
+
+
+		"2 Carpenters": {
+			"handle": "carpentry_sg_service_2carpenters",
+			"label": "2 Carpenters                                        SGD220/hr",
+			"orderLabel": "Hour (2 Carpenters)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "220",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 3,
+				"increment": 0.5,
+				"default": 1,
+				"base": 1
+			}
+		},
+
+
+
+		
+		"Carpentry Site Survey": {
+				"handle": "carpentry_survey",
+				"label": "Carpentry Site Survey                                                         SGD20/Trip",
+				"orderLabel": "Trip (Carpentry Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+	"Carpentry Lumpsum Confirmation": {
+				"handle": "carpentry_sg_confirmation",
+				"label": "Carpentry Lumpsum Confirmation                                                         Per Quotation",
+				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+
+
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"HDB or Condo": {
+						"label": "Condo/HDB +SGD0",
+						"orderLabel": "Condo/HDB +SGD0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+
+					"Landed House": {
+						"label": "Landed Property",
+						"orderLabel": "Landed Property",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
 	"installation": {
 		"name": "Install & Dismantle",
 		"lastSlot": "16:30",
@@ -2058,187 +2245,6 @@
 
 
 
-
-
-
-
-	
-
-
-"carpentry-sg": {
-		"name": "Carpentry",
-		"lastSlot": "15:30",
-		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
-		"startPrice": {
-			"SGD": "130",
-			"MYR": "70",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Carpentry Transport Fee": {
-				"handle": "transport_fee",
-				"label": "Carpentry Transport Fee                                                          SGD20/trip",
-				"orderLabel": "Trip (Carpentry Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-		"Carpentry Video Call": {
-			"handle": "carpentry_sg_videocall",
-			"label": "Carpentry Video Call                                         SGD10/call",
-			"orderLabel": "Call (Carpentry Video Call)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "-10",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Call",
-				"min": 0,
-				"max": 1,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
-
-
-		"1 Carpenter": {
-			"handle": "carpentry_sg_service_1carpenter",
-			"label": "1 Carpenter                                        SGD110/hr",
-			"orderLabel": "Hour (1 Carpenter)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "110",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hour",
-				"min": 0,
-				"max": 3,
-				"increment": 0.5,
-				"default": 1,
-				"base": 1
-			}
-		},
-
-
-
-		"2 Carpenters": {
-			"handle": "carpentry_sg_service_2carpenters",
-			"label": "2 Carpenters                                        SGD220/hr",
-			"orderLabel": "Hour (2 Carpenters)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "220",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hour",
-				"min": 0,
-				"max": 3,
-				"increment": 0.5,
-				"default": 1,
-				"base": 1
-			}
-		},
-
-
-
-		
-		"Carpentry Site Survey": {
-				"handle": "carpentry_survey",
-				"label": "Carpentry Site Survey                                                         SGD20/Trip",
-				"orderLabel": "Trip (Carpentry Site Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-	"Carpentry Lumpsum Confirmation": {
-				"handle": "carpentry_sg_confirmation",
-				"label": "Carpentry Lumpsum Confirmation                                                         Per Quotation",
-				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		},
-
-
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"HDB or Condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-
-					"Landed House": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
 
 	
 	
