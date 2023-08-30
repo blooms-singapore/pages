@@ -2793,18 +2793,18 @@
 				}
 			},
 			
-			"B-TN1000": {			
-				"label": "TN1000",
-				"orderLabel": "TN1000",
-				"type" : "HL-1110",
+			"Warranty": {			
+				"label": "Warranty",
+				"orderLabel": "Rubine Warranty",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "32",
+					"SGD": "50",
 					"MYR": "65",
 					"CNY": "70"
 				},
 				"quantity": {
-					"label": "Pcs",
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
@@ -2813,10 +2813,10 @@
 				}
 			},
 			
-			"B310-Black": {		
-				"label": "BTD60-Black",
-				"orderLabel": "BTD60-Black",
-				"type" : "DCP-T310",
+			"No Warranty": {		
+				"label": "No Warranty",
+				"orderLabel": "Rubine No Warranty",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -2824,7 +2824,7 @@
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Pcs",
+					"label": "Job",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
