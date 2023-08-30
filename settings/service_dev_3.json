@@ -2703,6 +2703,11 @@
 					{
 						"name" : "Fan",
 						"photo" : "printer/models/rubine-fan.png"
+					},
+					
+					{
+						"name" : "Fan1",
+						"photo" : "printer/models/rubine-fan1.png"
 					}
 				]
 			},
