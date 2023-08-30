@@ -2673,5 +2673,1758 @@
 			}
 		}
 	}
-}
+},
+
+
+
+
+"brand-sg": {
+		"name": "Service Support",
+		"lastSlot": "15:00",
+		"hasbrand" : "true",
+		"title": "Select Brand.",
+		"disableLocations": ["Kuala Lumpur","Johor Bahru"],
+		"startPrice": {
+			"SGD": "50",
+			"MYR": "100",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"brands" : [
+			{
+				"name" : "RUBINE",
+				"photo" : "printer/brands/brother.jpg",
+				"models" : [
+					{
+						"name" : "HL-1110",
+						"photo" : "printer/models/b1-HL1110.png"
+					},
+					{
+						"name" : "DCP-T310",
+						"photo" : "printer/models/b2-DCP-T310.png"
+					},
+					{
+						"name" : "DCP-T510W",
+						"photo" : "printer/models/b3-DCP-T510W.png"
+					},
+					{
+						"name" : "MFC-J200",
+						"photo" : "printer/models/b4-mfc-j200.png"
+					},
+					{
+						"name" : "J2330DW",
+						"photo" : "printer/models/b5-mfc-j2330dw.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			{	
+				"name" : "CANON",
+				"photo" : "printer/brands/cannon.jpg",
+				"models" : [
+					{
+						"name" : "MF3010",
+						"photo" : "printer/models/c1-MF3010.png"
+					},
+					{
+						"name" : "LPB6030",
+						"photo" : "printer/models/c2-LPB6030.png"
+					},
+					{
+						"name" : "E410",
+						"photo" : "printer/models/c3-e410.png"
+					},
+					{
+						"name" : "iP2870S",
+						"photo" : "printer/models/c4-ip2870s.png"
+					},
+					{
+						"name" : "E500/510",
+						"photo" : "printer/models/c5-e500-510.png"
+					},
+					{
+						"name" : "MX328",
+						"photo" : "printer/models/c6-mx328.png"
+					},
+					{
+						"name" : "MP237",
+						"photo" : "printer/models/c7-mp237.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			{
+				"name" : "EPSON",
+				"photo" : "printer/brands/epson.jpg",
+				"models" : [
+					{
+						"name" : "L3110",
+						"photo" : "printer/models/e1-L3110.png"
+					},
+					{
+						"name" : "LQ310",
+						"photo" : "printer/models/e2-LQ310.png"
+					},
+					{
+						"name" : "L3150",
+						"photo" : "printer/models/e3-L3150.png"
+					},
+					{
+						"name" : "L110",
+						"photo" : "printer/models/e4-L110.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			
+			{
+				"name" : "HP",
+				"photo" : "printer/brands/hp.png",
+				"models" : [
+					{
+						"name" : "MFP-M28W",
+						"photo" : "printer/models/h5-mfp-m28w.png"
+					},
+					{
+						"name" : "2100/2200",
+						"photo" : "printer/models/h9-2100-2200.png"
+					},
+					{
+						"name" : "2336",
+						"photo" : "printer/models/h1-2336.png"
+					},
+					{
+						"name" : "2410/2420",
+						"photo" : "printer/models/h6-2410-2420.png"
+					},
+					{
+						"name" : "3545",
+						"photo" : "printer/models/h3-3545.png"
+					},
+					{
+						"name" : "4000/4050",
+						"photo" : "printer/models/h8-4000-4050.png"
+					},
+					{
+						"name" : "5000/5100",
+						"photo" : "printer/models/h7-5000-5100.png"
+					},
+					{
+						"name" : "5020",
+						"photo" : "printer/models/h2-5020.png"
+					},
+					{
+						"name" : "6475",
+						"photo" : "printer/models/h4-6475.jpg"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			},
+			
+			
+			{
+				"name" : "FUJI XEROX",
+				"photo" : "printer/brands/fuji_xerox.jpg",
+				"models" : [
+					{
+						"name" : "CM115W",
+						"photo" : "printer/models/f1-CM115W.png"
+					},
+					{
+						"name" : "P375DW",
+						"photo" : "printer/models/f2-P375DW.png"
+					},
+					{
+						"name" : "P355d",
+						"photo" : "printer/models/f3-P355d.png"
+					},
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			}
+		],
+		
+		"options": {
+			
+			"Others": {			
+				"label": "Free Quote",
+				"orderLabel": "Free Quote",
+				"type" : "Others",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-TN1000": {			
+				"label": "TN1000",
+				"orderLabel": "TN1000",
+				"type" : "HL-1110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "32",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-Black": {		
+				"label": "BTD60-Black",
+				"orderLabel": "BTD60-Black",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-Cyan": {
+				"label": "BT5000-Cyan",
+				"orderLabel": "BT5000-Cyan",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B310-Magenta": {
+				"label": "BT5000-Magenta",
+				"orderLabel": "BT5000-Magenta",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B310-Yellow": {
+				"label": "BT5000-Yellow",
+				"orderLabel": "BT5000-Yellow",
+				"type" : "DCP-T310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B510-Black": {
+				"label": "BTD60-Black",
+				"orderLabel": "BTD60-Black",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B510-Cyan": {
+				"label": "BT5000-Cyan",
+				"orderLabel": "BT5000-Cyan",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+		
+			
+			"B510-Magenta": {
+				"label": "BT5000-Magenta",
+				"orderLabel": "BT5000-Magenta",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"B510-Yellow": {
+				"label": "BT5000-Yellow",
+				"orderLabel": "BT5000-Yellow",
+				"type" : "DCP-T510W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Black": {
+				"label": "Brother LC539XL-Black",
+				"orderLabel": "Brother LC539XL-Black",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Cyan": {
+				"label": "Brother LC539XL-Cyan",
+				"orderLabel": "Brother LC539XL-Cyan",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Magenta": {
+				"label": "Brother LC539XL-Magenta",
+				"orderLabel": "Brother LC539XL-Magenta",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J200-Yellow": {
+				"label": "Brother LC539XL-Yellow",
+				"orderLabel": "Brother LC539XL-Yellow",
+				"type" : "MFC-J200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "49",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Black": {
+				"label": "Brother LC3619XL-Black",
+				"orderLabel": "Brother LC3619XL-Black",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "106",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Cyan": {
+				"label": "Brother LC3619XL-Cyan",
+				"orderLabel": "Brother LC3619XL-Cyan",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "43",
+					"MYR": "86",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Magenta": {
+				"label": "Brother LC3619XL-Magenta",
+				"orderLabel": "Brother LC3619XL-Magenta",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "43",
+					"MYR": "86",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"B-MFC-J2330DW-Yellow": {
+				"label": "Brother LC3619XL-Yellow",
+				"orderLabel": "Brother LC3619XL-Yellow",
+				"type" : "J2330DW",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "43",
+					"MYR": "86",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Pcs",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"C-MF3010": {
+				"label": "3010 Catridge-325",
+				"orderLabel": "3010 Catridge-325",
+				"type" : "MF3010",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-LPB6030": {
+				"label": "6030 Catridge-325",
+				"orderLabel": "6030 Catridge-325",
+				"type" : "LPB6030",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Black": {
+				"label": "Canon 47-Black",
+				"orderLabel": "Canon 47-Black",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "18",
+					"MYR": "37",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Cyan": {
+				"label": "Canon 57-Cyan",
+				"orderLabel": "Canon 57-Cyan",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Magenta": {
+				"label": "Canon 57-Magenta",
+				"orderLabel": "Canon 57-Magenta",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E410-Yellow": {
+				"label": "Canon 57-Yellow",
+				"orderLabel": "Canon 57-Yellow",
+				"type" : "E410",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "74",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Black": {
+				"label": "Canon 745-Black",
+				"orderLabel": "Canon 745-Black",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "35",
+					"MYR": "71",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Cyan": {
+				"label": "Canon 746-Cyan",
+				"orderLabel": "Canon 746-Cyan",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "52",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Magenta": {
+				"label": "Canon 746-Magenta",
+				"orderLabel": "Canon 746-Magenta",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "52",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-IP2870S-Yellow": {
+				"label": "Canon 746-Yellow",
+				"orderLabel": "Canon 746-Yellow",
+				"type" : "iP2870S",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "52",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E500/510-Black": {
+				"label": "Canon 88-Black",
+				"orderLabel": "Canon 88-Black",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "63",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			"C-E500/510-Cyan": {
+				"label": "Canon 98-Cyan",
+				"orderLabel": "Canon 98-Cyan",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E500/510-Magenta": {
+				"label": "Canon 98-Magenta",
+				"orderLabel": "Canon 98-Magenta",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-E500/510-Yellow": {
+				"label": "Canon 98-Yellow",
+				"orderLabel": "Canon 98-Yellow",
+				"type" : "E500/510",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "75",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Black": {
+				"label": "Canon 810-Black",
+				"orderLabel": "Canon 810-Black",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "38",
+					"MYR": "77",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Cyan": {
+				"label": "Canon 811-Cyan",
+				"orderLabel": "Canon 811-Cyan",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Magenta": {
+				"label": "Canon 811-Magenta",
+				"orderLabel": "Canon 811-Magenta",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MX328-Yellow": {
+				"label": "Canon 811-Yellow",
+				"orderLabel": "Canon 811-Yellow",
+				"type" : "MX328",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Black": {
+				"label": "Canon 810-Black",
+				"orderLabel": "Canon 810-Black",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "38",
+					"MYR": "77",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Cyan": {
+				"label": "Canon 811-Cyan",
+				"orderLabel": "Canon 811-Cyan",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Magenta": {
+				"label": "Canon 811-Magenta",
+				"orderLabel": "Canon 811-Magenta",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"C-MP237-Yellow": {
+				"label": "Canon 811-Yellow",
+				"orderLabel": "Canon 811-Yellow",
+				"type" : "MP237",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "48",
+					"MYR": "97",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"E-L3110-Black": {
+				"label": "EPSON003-Black",
+				"orderLabel": "EPSON003-Black",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3110-Cyan": {
+				"label": "EPSON003-Cyan",
+				"orderLabel": "EPSON003-Cyan",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"E-L3110-Magenta": {
+				"label": "EPSON003-Magenta",
+				"orderLabel": "EPSON003-Magenta",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3110-Yellow": {
+				"label": "EPSON003-Yellow",
+				"orderLabel": "EPSON003-Yellow",
+				"type" : "L3110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-LQ310": {
+				"label": "EPSON LQ310",
+				"orderLabel": "EPSON LQ310",
+				"type" : "LQ310",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "24",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Black": {
+				"label": "EPSON003-Black",
+				"orderLabel": "EPSON003-Black",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Cyan": {
+				"label": "EPSON003-Cyan",
+				"orderLabel": "EPSON003-Cyan",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"E-L3150-Magenta": {
+				"label": "EPSON003-Magenta",
+				"orderLabel": "EPSON003-Magenta",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L3150-Yellow": {
+				"label": "EPSON003-Yellow",
+				"orderLabel": "EPSON003-Yellow",
+				"type" : "L3150",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			"E-L110-Black": {
+				"label": "EPSON664-Black",
+				"orderLabel": "EPSON664-Black",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Cyan": {
+				"label": "EPSON664-Cyan",
+				"orderLabel": "EPSON664-Cyan",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Magenta": {
+				"label": "EPSON664-Magenta",
+				"orderLabel": "EPSON664-Magenta",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"E-L110-Yellow": {
+				"label": "EPSON664-Yellow",
+				"orderLabel": "EPSON664-Yellow",
+				"type" : "L110",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "15",
+					"MYR": "31",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+				
+			"F-CM115W-Black": {
+				"label": "FX Laser Toner Black",
+				"orderLabel": "FX Laser Toner Black",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"F-CM115W-Cyan": {
+				"label": "FX Laser Toner Cyan",
+				"orderLabel": "FX Laser Toner Cyan",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"F-CM115W-Magenta": {
+				"label": "FX Laser Toner Magenta",
+				"orderLabel": "FX Laser Toner Magenta",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"F-CM115W-Yellow": {
+				"label": "FX Laser Toner Yellow",
+				"orderLabel": "FX Laser Toner Yellow",
+				"type" : "CM115W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "80",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-M28W-Black": {
+				"label": "Laserjet HP 48A-Black",
+				"orderLabel": "Laserjet HP 48A-Black",
+				"type" : "MFP-M28W",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "91",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"2100-2200": {
+				"label": "HP EP32 (C4096A) Toner",
+				"orderLabel": "HP EP32 (C4096A) Toner",
+				"type" : "2100/2200",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "105",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Black": {
+				"label": "HP Deskjet 682-Black",
+				"orderLabel": "HP Deskjet 682-Black",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Cyan": {
+				"label": "HP Deskjet 682-Cyan",
+				"orderLabel": "HP Deskjet 682-Cyan",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Magenta": {
+				"label": "HP Deskjet 682-Magenta",
+				"orderLabel": "HP Deskjet 682-Magenta",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-2336-Yellow": {
+				"label": "HP Deskjet 682-Yellow",
+				"orderLabel": "HP Deskjet 682-Yellow",
+				"type" : "2336",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5020-Black": {
+				"label": "HP Envy 65-Black",
+				"orderLabel": "HP Envy 65-Black",
+				"type" : "5020",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "33",
+					"MYR": "70",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5020-Tri Colour": {
+				"label": "HP Envy 65-Tri Colour",
+				"orderLabel": "HP Envy 65-Tri Colour",
+				"type" : "5020",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "33",
+					"MYR": "70",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Black": {
+				"label": "HP Deskjet 678-Black",
+				"orderLabel": "HP Deskjet 678-Black",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Cyan": {
+				"label": "HP Deskjet 678-Cyan",
+				"orderLabel": "HP Deskjet 678-Cyan",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Magenta": {
+				"label": "HP Deskjet 678-Magenta",
+				"orderLabel": "HP Deskjet 678-Magenta",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-3545-Yellow": {
+				"label": "HP Deskjet 678-Yellow",
+				"orderLabel": "HP Deskjet 678-Yellow",
+				"type" : "3545",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Black": {
+				"label": "HP Deskjet 682-Black",
+				"orderLabel": "HP Deskjet 682-Black",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Cyan": {
+				"label": "HP Deskjet 682-Cyan",
+				"orderLabel": "HP Deskjet 682-Cyan",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Magenta": {
+				"label": "HP Deskjet 682-Magenta",
+				"orderLabel": "HP Deskjet 682-Magenta",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-6475-Yellow": {
+				"label": "HP Deskjet 682-Yellow",
+				"orderLabel": "HP Deskjet 682-Yellow",
+				"type" : "6475",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "22",
+					"MYR": "46",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+					
+			"HP-2410-2420": {
+				"label": "Q6511X Toner",
+				"orderLabel": "Q6511X Toner",
+				"type" : "2410/2420",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "132",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-5000-5100": {
+				"label": "EP62 (C4129X) Toner",
+				"orderLabel": "EP62 (C4129X) Toner",
+				"type" : "5000/5100",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "154",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"HP-4000-4050": {
+				"label": "EP52 (C4127X) Toner",
+				"orderLabel": "EP52 (C4127X) Toner",
+				"type" : "4000/4050",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "46",
+					"MYR": "121",
+					"CNY": "60"
+				},
+				"quantity": {
+					"label": "Pc",
+					"min": 0,
+					"max":10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+			
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condominium",
+						"orderLabel": "Condo Surcharge",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+					"landed": {
+						"label": "Landed House",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	}
 }
