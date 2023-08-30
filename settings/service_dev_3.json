@@ -2696,28 +2696,13 @@
 				"photo" : "printer/brands/rubine.png",
 				"models" : [
 					{
-						"name" : "HL-1110",
-						"photo" : "printer/models/b1-HL1110.png"
+						"name" : "Water Heater",
+						"photo" : "printer/models/rubine-heater.png"
 					},
+										
 					{
-						"name" : "DCP-T310",
-						"photo" : "printer/models/b2-DCP-T310.png"
-					},
-					{
-						"name" : "DCP-T510W",
-						"photo" : "printer/models/b3-DCP-T510W.png"
-					},
-					{
-						"name" : "MFC-J200",
-						"photo" : "printer/models/b4-mfc-j200.png"
-					},
-					{
-						"name" : "J2330DW",
-						"photo" : "printer/models/b5-mfc-j2330dw.png"
-					},
-					{
-						"name" : "Others",
-						"photo" : "printer/models/others.png"
+						"name" : "Fan",
+						"photo" : "printer/models/rubine-fan.png"
 					}
 				]
 			},
