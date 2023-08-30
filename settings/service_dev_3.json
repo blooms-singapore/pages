@@ -2752,33 +2752,13 @@
 		
 		"options": {
 			
-			"Others": {			
-				"label": "Free Quote",
-				"orderLabel": "Free Quote",
-				"type" : "Others",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Pcs",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"Transport": {			
-				"label": "Transport",
-				"orderLabel": "Transport",
+			"Trouble Shoot": {			
+				"label": "Trouble Shoot",
+				"orderLabel": "Rubine Trouble Shoot",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "50",
 					"MYR": "65",
 					"CNY": "70"
 				},
@@ -2787,34 +2767,16 @@
 					"min": 1,
 					"max": 1,
 					"increment": 1,
-					"default": 0,
+					"default": 1,
 					"base": 1
 				}
 			},
 			
-			"Trouble shoot": {		
-				"label": "Trouble Shoot",
-				"orderLabel": "Trouble Shoot",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "40",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
+		
 			
 			"Rubine Warranty": {
 				"label": "Warranty",
-				"orderLabel": "Warranty",
+				"orderLabel": "Rubine Warranty",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -2835,7 +2797,7 @@
 			
 			"Rubine No Warranty": {
 				"label": "No Warranty",
-				"orderLabel": "No Warranty",
+				"orderLabel": "Rubine No Warranty",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -2853,13 +2815,13 @@
 				}
 			},
 			
-			"Rubine fan transport": {
-				"label": "Transport",
-				"orderLabel": "Transport",
+			"Rubine fan trouble shoot": {
+				"label": "Trouble Shoot",
+				"orderLabel": "Rubine Trouble Shoot",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "50",
 					"MYR": "40",
 					"CNY": "30"
 				},
@@ -2873,29 +2835,10 @@
 				}
 			},
 			
-			"Rubine fan trouble shoot": {
-				"label": "Trouble Shoot",
-				"orderLabel": "Trouble Shoot",
-				"type" : "fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "40",
-					"MYR": "46",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
+		
 			"Rubine fan warranty": {
 				"label": "Warranty",
-				"orderLabel": "Warranty",
+				"orderLabel": "Rubine Warranty",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -2916,7 +2859,7 @@
 			
 			"Rubine fan no warranty": {
 				"label": "No Warranty",
-				"orderLabel": "No Warranty",
+				"orderLabel": "Rubine No Warranty",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
