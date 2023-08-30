@@ -2793,83 +2793,83 @@
 				}
 			},
 			
-			"Warranty": {			
-				"label": "Warranty",
-				"orderLabel": "Rubine Warranty",
+			"Transport": {			
+				"label": "Transport",
+				"orderLabel": "Transport",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "20",
 					"MYR": "65",
 					"CNY": "70"
 				},
 				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
 					"increment": 1,
 					"default": 1,
 					"base": 1
 				}
 			},
 			
-			"No Warranty": {		
-				"label": "No Warranty",
-				"orderLabel": "Rubine No Warranty",
+			"Trouble shoot": {		
+				"label": "Trouble Shoot",
+				"orderLabel": "Trouble Shoot",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "30",
 					"MYR": "40",
 					"CNY": "30"
 				},
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
 			
-			"B310-Cyan": {
-				"label": "BT5000-Cyan",
-				"orderLabel": "BT5000-Cyan",
-				"type" : "DCP-T310",
+			"Rubine Warranty": {
+				"label": "Rubine Warranty",
+				"orderLabel": "Rubine Warranty",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "0",
 					"MYR": "40",
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Pcs",
+					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
 		
 			
-			"B310-Magenta": {
-				"label": "BT5000-Magenta",
-				"orderLabel": "BT5000-Magenta",
-				"type" : "DCP-T310",
+			"Rubine No Warranty": {
+				"label": "Rubine No Warranty",
+				"orderLabel": "Rubine No Warranty",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "0",
 					"MYR": "40",
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Pcs",
+					"label": "Job",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
