@@ -2683,7 +2683,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand.",
-		"disableLocations": ["Kuala Lumpur","Johor Bahru"],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "50",
 			"MYR": "100",
