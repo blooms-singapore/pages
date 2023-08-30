@@ -2761,85 +2761,10 @@
 				]
 			},
 			
+				
 			{
 				"name" : "BESTAR",
 				"photo" : "printer/brands/bestar.png",
-				"models" : [
-					{
-						"name" : "L3110",
-						"photo" : "printer/models/e1-L3110.png"
-					},
-					{
-						"name" : "LQ310",
-						"photo" : "printer/models/e2-LQ310.png"
-					},
-					{
-						"name" : "L3150",
-						"photo" : "printer/models/e3-L3150.png"
-					},
-					{
-						"name" : "L110",
-						"photo" : "printer/models/e4-L110.png"
-					},
-					{
-						"name" : "Others",
-						"photo" : "printer/models/others.png"
-					}
-				]
-			},
-			
-			
-			{
-				"name" : "HP",
-				"photo" : "printer/brands/hp.png",
-				"models" : [
-					{
-						"name" : "MFP-M28W",
-						"photo" : "printer/models/h5-mfp-m28w.png"
-					},
-					{
-						"name" : "2100/2200",
-						"photo" : "printer/models/h9-2100-2200.png"
-					},
-					{
-						"name" : "2336",
-						"photo" : "printer/models/h1-2336.png"
-					},
-					{
-						"name" : "2410/2420",
-						"photo" : "printer/models/h6-2410-2420.png"
-					},
-					{
-						"name" : "3545",
-						"photo" : "printer/models/h3-3545.png"
-					},
-					{
-						"name" : "4000/4050",
-						"photo" : "printer/models/h8-4000-4050.png"
-					},
-					{
-						"name" : "5000/5100",
-						"photo" : "printer/models/h7-5000-5100.png"
-					},
-					{
-						"name" : "5020",
-						"photo" : "printer/models/h2-5020.png"
-					},
-					{
-						"name" : "6475",
-						"photo" : "printer/models/h4-6475.jpg"
-					},
-					{
-						"name" : "Others",
-						"photo" : "printer/models/others.png"
-					}
-				]
-			},
-			
-			
-			{
-				"name" : "FUJI XEROX",
-				"photo" : "printer/brands/fuji_xerox.jpg",
 				"models" : [
 					{
 						"name" : "CM115W",
