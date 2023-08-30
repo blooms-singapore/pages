@@ -2723,8 +2723,8 @@
 			},
 			
 			{	
-				"name" : "KDK",
-				"photo" : "printer/brands/cannon.jpg",
+				"name" : "",
+				"photo" : "printer/brands/kdk.png",
 				"models" : [
 					{
 						"name" : "MF3010",
