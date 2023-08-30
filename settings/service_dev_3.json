@@ -2723,7 +2723,7 @@
 			},
 			
 			{	
-				"name" : "",
+				"name" : "KDK",
 				"photo" : "printer/brands/kdk.png",
 				"models" : [
 					{
@@ -2762,8 +2762,8 @@
 			},
 			
 			{
-				"name" : "EPSON",
-				"photo" : "printer/brands/epson.jpg",
+				"name" : "BESTAR",
+				"photo" : "printer/brands/bestar.png",
 				"models" : [
 					{
 						"name" : "L3110",
