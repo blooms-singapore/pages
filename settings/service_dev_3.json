@@ -2715,30 +2715,7 @@
 						"name" : "MF3010",
 						"photo" : "printer/models/c1-MF3010.png"
 					},
-					{
-						"name" : "LPB6030",
-						"photo" : "printer/models/c2-LPB6030.png"
-					},
-					{
-						"name" : "E410",
-						"photo" : "printer/models/c3-e410.png"
-					},
-					{
-						"name" : "iP2870S",
-						"photo" : "printer/models/c4-ip2870s.png"
-					},
-					{
-						"name" : "E500/510",
-						"photo" : "printer/models/c5-e500-510.png"
-					},
-					{
-						"name" : "MX328",
-						"photo" : "printer/models/c6-mx328.png"
-					},
-					{
-						"name" : "MP237",
-						"photo" : "printer/models/c7-mp237.png"
-					},
+					
 					{
 						"name" : "Others",
 						"photo" : "printer/models/others.png"
@@ -2755,10 +2732,7 @@
 						"name" : "CM115W",
 						"photo" : "printer/models/f1-CM115W.png"
 					},
-					{
-						"name" : "P375DW",
-						"photo" : "printer/models/f2-P375DW.png"
-					},
+				
 					{
 						"name" : "P355d",
 						"photo" : "printer/models/f3-P355d.png"
@@ -2834,8 +2808,8 @@
 			},
 			
 			"Rubine Warranty": {
-				"label": "Rubine Warranty",
-				"orderLabel": "Rubine Warranty",
+				"label": "Warranty",
+				"orderLabel": "Warranty",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -2844,7 +2818,7 @@
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Status",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
@@ -2855,13 +2829,53 @@
 		
 			
 			"Rubine No Warranty": {
-				"label": "Rubine No Warranty",
-				"orderLabel": "Rubine No Warranty",
+				"label": "No Warranty",
+				"orderLabel": "No Warranty",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Rubine fan transport": {
+				"label": "Transport",
+				"orderLabel": "Transport",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "40",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			"Rubine fan trouble shoot": {
+				"label": "Trouble Shoot",
+				"orderLabel": "Trouble Shoot",
+				"type" : "fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "40",
+					"MYR": "46",
 					"CNY": "30"
 				},
 				"quantity": {
@@ -2874,79 +2888,39 @@
 				}
 			},
 			
-			"B310-Yellow": {
-				"label": "BT5000-Yellow",
-				"orderLabel": "BT5000-Yellow",
-				"type" : "DCP-T310",
+			"Rubine fan warranty": {
+				"label": "Warranty",
+				"orderLabel": "Warranty",
+				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "40",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Pcs",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"B510-Black": {
-				"label": "BTD60-Black",
-				"orderLabel": "BTD60-Black",
-				"type" : "DCP-T510W",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
+					"SGD": "0",
 					"MYR": "46",
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Pcs",
+					"label": "Status",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			"B510-Cyan": {
-				"label": "BT5000-Cyan",
-				"orderLabel": "BT5000-Cyan",
-				"type" : "DCP-T510W",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "46",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Pcs",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
+					"default": 0,
 					"base": 1
 				}
 			},
 		
 			
-			"B510-Magenta": {
-				"label": "BT5000-Magenta",
-				"orderLabel": "BT5000-Magenta",
-				"type" : "DCP-T510W",
+			"Rubine fan no warranty": {
+				"label": "No Warranty",
+				"orderLabel": "No Warranty",
+				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "0",
 					"MYR": "46",
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Pcs",
+					"label": "Status",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
