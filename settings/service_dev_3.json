@@ -1141,208 +1141,7 @@
 	
 	
 	
-"plumbing": {
-	"name": "Plumbing",
-	"lastSlot": "16:00",
-	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
-	"startPrice": {
-		"SGD": "35",
-		"MYR": "100",
-		"CNY": "50"
-	},
-	"hasNote": 1,
-	"options": {
 
-		"Plumbing Transport Fee": {
-			"handle": "plumbing_sg_transport",
-			"label": "Plumbing Transport Fee                                         SGD20/trip",
-			"orderLabel": "Trip (Plumbing Transport Fee)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "20",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Trip",
-				"min": 60,
-				"max": 0,
-				"increment": 60,
-				"default": 60,
-				"base": 60
-			}
-		},
-		
-		
-		"Plumbing Video Call": {
-			"handle": "plumbing_sg_videocall",
-			"label": "Plumbing Video Call                                         SGD5/call",
-			"orderLabel": "Call (Plumbing Video Call)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "-15",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Call",
-				"min": 0,
-				"max": 1,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
-		
-		
-		
-		"Trouble Shoot": {
-			"handle": "trouble_shoot",
-			"label": "Trouble Shoot                                                         SGD15/job",
-			"orderLabel": "Job (Trouble Shoot)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "15",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Job",
-				"min": 0,
-				"max": 0,
-				"increment": 1,
-				"default": 1,
-				"base": 1
-			}
-		},
-		
-
-		"Standard Plumbing": {
-			"handle": "plumbing_standard",
-			"label": "1 Crew - Standard Plumbing                                             SGD60/hr/crew",
-			"orderLabel": "Hour (1 Crew - Standard Plumbing)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "60",
-				"MYR": "70",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hour",
-				"min": 0,
-				"max": 0,
-				"increment": 30,
-				"default": 60,
-				"base": 60
-			}
-		},
-
-		
-		"Non Standard Plumbing": {
-			"handle": "plumbing_non_standard",
-			"label": "2 Crews - Non Standard Plumbing                                              SGD140/hr",
-			"orderLabel": "Hours (2 Crews - Non Standard Plumbing)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "140",
-				"MYR": "70",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Hours",
-				"min": 0,
-				"max": 0,
-				"increment": 30,
-				"default": 150,
-				"base": 60
-			}
-		},
-		
-
-		"Plumbing Lumpsum Survey": {
-			"handle": "plumbing_survey",
-			"label": "Plumbing SURVEY                                               Free",
-			"orderLabel": "Trip (Plumbing SURVEY)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "0",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Trip",
-				"min": 0,
-				"max": 1,
-				"increment": 60,
-				"default": 0,
-				"base": 60
-			}
-		},
-
-		"Plumbing Lumpsum Confirmation": {
-			"handle": "plumbing_lumpsum_confirmation",
-			"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
-			"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "-20",
-				"MYR": "-30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Job",
-				"min": 0,
-				"max": 1,
-				"increment": 60,
-				"default": 0,
-				"base": 60
-			}
-		}
-	},
-
-	"types": {
-		"house": {
-			"label": "House Type",
-			"description": "Label standard",
-			"values": {
-				"condo": {
-					"label": "Condo/HDB +SGD0",
-					"orderLabel": "Condo/HDB +SGD0",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-					"oneOffCost": {
-						"SGD": "0",
-						"MYR": "10",
-						"CNY": "10"
-					}
-				},
-
-				"landed": {
-					"label": "Landed Property +SGD10",
-					"orderLabel": "Landed Property +SGD10",
-					"cost": {
-						"SGD": "0",
-						"MYR": "0",
-						"CNY": "0"
-					},
-					"oneOffCost": {
-						"SGD": "10",
-						"MYR": "0",
-						"CNY": "0"
-					}
-				}
-			}
-		}
-	}
-},
-
-
-	
-	
-	
 	
 	
 	
@@ -1896,6 +1695,206 @@
 
 
 
+	"plumbing": {
+	"name": "Plumbing",
+	"lastSlot": "16:00",
+	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+	"startPrice": {
+		"SGD": "35",
+		"MYR": "100",
+		"CNY": "50"
+	},
+	"hasNote": 1,
+	"options": {
+
+		"Plumbing Transport Fee": {
+			"handle": "plumbing_sg_transport",
+			"label": "Plumbing Transport Fee                                         SGD20/trip",
+			"orderLabel": "Trip (Plumbing Transport Fee)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "20",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 60,
+				"max": 0,
+				"increment": 60,
+				"default": 60,
+				"base": 60
+			}
+		},
+		
+		
+		"Plumbing Video Call": {
+			"handle": "plumbing_sg_videocall",
+			"label": "Plumbing Video Call                                         SGD5/call",
+			"orderLabel": "Call (Plumbing Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+		
+		
+		
+		"Trouble Shoot": {
+			"handle": "trouble_shoot",
+			"label": "Trouble Shoot                                                         SGD15/job",
+			"orderLabel": "Job (Trouble Shoot)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 0,
+				"increment": 1,
+				"default": 1,
+				"base": 1
+			}
+		},
+		
+
+		"Standard Plumbing": {
+			"handle": "plumbing_standard",
+			"label": "1 Crew - Standard Plumbing                                             SGD60/hr/crew",
+			"orderLabel": "Hour (1 Crew - Standard Plumbing)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "60",
+				"MYR": "70",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 60,
+				"base": 60
+			}
+		},
+
+		
+		"Non Standard Plumbing": {
+			"handle": "plumbing_non_standard",
+			"label": "2 Crews - Non Standard Plumbing                                              SGD140/hr",
+			"orderLabel": "Hours (2 Crews - Non Standard Plumbing)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "140",
+				"MYR": "70",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hours",
+				"min": 0,
+				"max": 0,
+				"increment": 30,
+				"default": 150,
+				"base": 60
+			}
+		},
+		
+
+		"Plumbing Lumpsum Survey": {
+			"handle": "plumbing_survey",
+			"label": "Plumbing SURVEY                                               Free",
+			"orderLabel": "Trip (Plumbing SURVEY)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Trip",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		},
+
+		"Plumbing Lumpsum Confirmation": {
+			"handle": "plumbing_lumpsum_confirmation",
+			"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
+			"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-20",
+				"MYR": "-30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 1,
+				"increment": 60,
+				"default": 0,
+				"base": 60
+			}
+		}
+	},
+
+	"types": {
+		"house": {
+			"label": "House Type",
+			"description": "Label standard",
+			"values": {
+				"condo": {
+					"label": "Condo/HDB +SGD0",
+					"orderLabel": "Condo/HDB +SGD0",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "0",
+						"MYR": "10",
+						"CNY": "10"
+					}
+				},
+
+				"landed": {
+					"label": "Landed Property +SGD10",
+					"orderLabel": "Landed Property +SGD10",
+					"cost": {
+						"SGD": "0",
+						"MYR": "0",
+						"CNY": "0"
+					},
+					"oneOffCost": {
+						"SGD": "10",
+						"MYR": "0",
+						"CNY": "0"
+					}
+				}
+			}
+		}
+	}
+},
+
+
+	
 
 
 
@@ -2061,6 +2060,11 @@
 	},
 
 
+
+
+
+
+	
 
 	"free-service": {
     "name": "Free Service",
