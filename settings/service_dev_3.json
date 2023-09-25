@@ -2764,9 +2764,9 @@
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "40",
 					"MYR": "0",
-					"CNY": "70"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
@@ -2787,8 +2787,8 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "40",
-					"CNY": "30"
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Status",
@@ -2807,9 +2807,8 @@
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
-					"MYR": "40",
-					"CNY": "30"
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Status",
@@ -2824,8 +2823,8 @@
 
 			"Rubine Water Heater Install": {
 				"handle": "rubine_install",
-				"label": "Water Heater Install",
-				"orderLabel": "Hour (Water Heater Install)",
+				"label": "Install - Water Heater",
+				"orderLabel": "Hour (Install - Water Heater)",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
