@@ -2735,26 +2735,6 @@
 		
 		"options": {
 
-			"Rubine Transport": {
-				"handle": "rubine_transport_fee",
-				"label": "Transport Fee",
-				"orderLabel": "Transport Fee",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "65",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
 
 			"Rubine Water Heater Video Call": {
 				"handle": "rubine_videocall",
@@ -2865,27 +2845,7 @@
 
 
 
-                  "Rubine Transport": {	
-			        "handle": "rubine_transport_fee",
-				"label": "Transport Fee",
-			        "orderLabel": "Transport Fee",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "0",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
+          			
 
 			"Rubine Fan Video Call": {			
 				"label": "Video Call - Fan",
@@ -2970,50 +2930,9 @@
 				}
 			},
 
-			"Rubine Fan Install": {
-				"handle": "rubine_install",
-				"label": "Fan Install" 
-				"orderLabel": "Hour (Fan Install)",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "0",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 4,
-					"increment": 0.5,
-					"default": 1,
-					"base": 1
-				}
-			},
+		
 
-
-
-			"Rubine Transport": {
-				"handle": "rubine_transport_fee",
-				"label": "Transport Fee",
-				"orderLabel": "Transport Fee",
-				"type" : "Accessories",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "65",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
+		
 
 			"Rubine Accessories Video Call": {			
 				"label": "Video Call - Accessories",
