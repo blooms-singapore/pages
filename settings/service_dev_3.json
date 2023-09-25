@@ -2736,8 +2736,8 @@
 		"options": {
 
 			"Rubine Water Heater Video Call": {			
-				"label": "Water Heater Video Call",
-				"orderLabel": "Water Heater Video Call",
+				"label": "Video Call - Water Heater",
+				"orderLabel": "Video Call - Water Heater",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -2756,8 +2756,8 @@
 			},
 			
 			"Rubine Water Heater Trouble Shoot": {			
-				"label": "Water Heater Trouble Shoot",
-				"orderLabel": "Water Heater Trouble Shoot",
+				"label": "Trouble Shoot - Water Heater",
+				"orderLabel": "Trouble Shoot - Water Heater",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -2819,8 +2819,8 @@
 			},
 
 			"Rubine Fan Video Call": {			
-				"label": "Fan Video Call",
-				"orderLabel": "Fan Video Call",
+				"label": "Video Call - Fan",
+				"orderLabel": "Video Call - Fan",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -2839,8 +2839,8 @@
 			},
 			
 			"Rubine Fan trouble shoot": {
-				"label": "Fan Trouble Shoot",
-				"orderLabel": "Fan Trouble Shoot",
+				"label": "Trouble Shoot - Fan",
+				"orderLabel": "Trouble Shoot - Fan",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -2903,8 +2903,8 @@
 
 
 			"Rubine Accessories Video Call": {			
-				"label": "Accessories Video Call",
-				"orderLabel": "Accessories Video Call",
+				"label": "Video Call - Accessories",
+				"orderLabel": "Video Call - Accessories",
 				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
@@ -2923,8 +2923,8 @@
 			},
 			
 			"Rubine Accessories trouble shoot": {
-				"label": "Accessories Trouble Shoot",
-				"orderLabel": "Accessories Trouble Shoot",
+				"label": "Trouble Shoot - Accessories",
+				"orderLabel": "Trouble Shoot - Accessories",
 				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
