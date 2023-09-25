@@ -2905,7 +2905,7 @@
 			"Rubine Accessories Video Call": {			
 				"label": "Accessories Video Call",
 				"orderLabel": "Accessories Video Call",
-				"type" : "Fan",
+				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -2925,7 +2925,7 @@
 			"Rubine Accessories trouble shoot": {
 				"label": "Accessories Trouble Shoot",
 				"orderLabel": "Accessories Trouble Shoot",
-				"type" : "Fan",
+				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
@@ -2946,7 +2946,7 @@
 			"Rubine Accessories Warranty": {
 				"label": "Warranty                                                         Free",
 				"orderLabel": "Rubine Warranty",
-				"type" : "Fan",
+				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2968,7 +2968,7 @@
 		"Rubine Accessories No Warranty": {
 				"label": "No Warranty                                               Per Quotation",
 				"orderLabel": "Rubine No Warranty",
-				"type" : "Fan",
+				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
