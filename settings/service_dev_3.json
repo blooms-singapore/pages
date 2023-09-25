@@ -2730,27 +2730,6 @@
 						"photo" : "printer/models/others.png"
 					}
 				]
-			},
-			
-				
-			{
-				"name" : "BESTAR",
-				"photo" : "printer/brands/bestar1.png",
-				"models" : [
-					{
-						"name" : "CM115W",
-						"photo" : "printer/models/f1-CM115W.png"
-					},
-				
-					{
-						"name" : "P355d",
-						"photo" : "printer/models/f3-P355d.png"
-					},
-					{
-						"name" : "Others",
-						"photo" : "printer/models/others.png"
-					}
-				]
 			}
 		],
 		
@@ -2845,8 +2824,8 @@
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "5",
-					"MYR": "65",
+					"SGD": "10",
+					"MYR": "0",
 					"CNY": "70"
 				},
 				"quantity": {
@@ -2921,25 +2900,85 @@
 					"base": 1
 				}
 			},
-		
-		
-			
-		
-			
-			"HP-4000-4050": {
-				"label": "EP52 (C4127X) Toner",
-				"orderLabel": "EP52 (C4127X) Toner",
-				"type" : "4000/4050",
+
+
+			"Rubine Accessories Video Call": {			
+				"label": "Accessories Video Call",
+				"orderLabel": "Accessories Video Call",
+				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "46",
-					"MYR": "121",
-					"CNY": "60"
+					"SGD": "10",
+					"MYR": "65",
+					"CNY": "70"
 				},
 				"quantity": {
-					"label": "Pc",
+					"label": "Call",
 					"min": 0,
-					"max":10,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Rubine Accessories trouble shoot": {
+				"label": "Accessories Trouble Shoot",
+				"orderLabel": "Accessories Trouble Shoot",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "50",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+		
+			"Rubine Accessories Warranty": {
+				"label": "Warranty                                                         Free",
+				"orderLabel": "Rubine Warranty",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+		"Rubine Accessories No Warranty": {
+				"label": "No Warranty                                               Per Quotation",
+				"orderLabel": "Rubine No Warranty",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -2967,15 +3006,15 @@
 						}
 					},
 					"Landed": {
-						"label": "Landed Property +SGD5",
-						"orderLabel": "HDB/Condo +SGD5",
+						"label": "Landed Property +SGD0",
+						"orderLabel": "HDB/Condo +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						}
