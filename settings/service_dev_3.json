@@ -2737,6 +2737,7 @@
 
 			"Rubine Transport": {			
 				"label": "Transport Fee",
+				"handle": "transport_fee",
 				"orderLabel": "Transport Fee",
 				"type" : "Water Heater",
 				"description": "Label standard",
@@ -2755,7 +2756,8 @@
 				}
 			},
 
-			"Rubine Water Heater Video Call": {			
+			"Rubine Water Heater Video Call": {
+				"handle": "rubine_videocall",
 				"label": "Video Call - Water Heater",
 				"orderLabel": "Video Call - Water Heater",
 				"type" : "Water Heater",
@@ -2775,7 +2777,8 @@
 				}
 			},
 			
-			"Rubine Water Heater Trouble Shoot": {			
+			"Rubine Water Heater Trouble Shoot": {
+				"handle": "rubine_troubleshoot",
 				"label": "Trouble Shoot - Water Heater",
 				"orderLabel": "Trouble Shoot - Water Heater",
 				"type" : "Water Heater",
@@ -2840,6 +2843,7 @@
 
 
 			"Rubine Water Heater Install": {
+				"handle": "rubine_install",
 				"label": "Water Heater Install",
 				"orderLabel": "Water Heater Install",
 				"type" : "Water Heater",
@@ -2863,6 +2867,7 @@
 
                   "Rubine Transport": {			
 				"label": "Transport Fee",
+			        "handle": "transport_fee",
 				"orderLabel": "Transport Fee",
 				"type" : "Fan",
 				"description": "Label standard",
@@ -2967,7 +2972,7 @@
 
 			"Rubine Fan Install": {
 				"handle": "rubine_install",
-				"label": "Fan Install",
+				"handle": "transport_fee",
 				"orderLabel": "Fan Install",
 				"type" : "Fan",
 				"description": "Label standard",
