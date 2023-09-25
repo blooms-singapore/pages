@@ -44,10 +44,15 @@ embedded video, style @ service.scss
        <td>50.0/trip</td>
       </tr>
 
+      <tr>
+        <td>Install</td>
+       <td>${params.rubine_install}/hr</td>
+      </tr>
+
       <!--Warrranty-->
       <thead>
       <tr>
-       <th><b>Repair or<br>Replace</b></th>
+       <th><b>Part(s)<br>Replacement</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -73,7 +78,7 @@ embedded video, style @ service.scss
     <tbody>
       <tr>
        <td>Transport<br>Fee</td>
-       <td>Waived</td>
+       <td>${params.transport_fee}/trip</td>
       </tr>
      <tr>
        <td>Condo/HDB</td>
