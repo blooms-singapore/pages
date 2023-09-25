@@ -2846,7 +2846,7 @@
 			},
 			
 			"Rubine Fan trouble shoot": {
-				"label": "Trouble Shoot - Fan                                               Per Hour",
+				"label": "Trouble Shoot - Fan",
 				"orderLabel": "Trouble Shoot - Fan",
 				"type" : "Fan",
 				"description": "Label standard",
