@@ -2845,7 +2845,7 @@
 			"Rubine Water Heater Install": {
 				"handle": "rubine_install",
 				"label": "Water Heater Install",
-				"orderLabel": "Water Heater Install",
+				"orderLabel": "Hour (Water Heater Install)",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -2854,7 +2854,7 @@
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Status",
+					"label": "Hour",
 					"min": 0,
 					"max": 4,
 					"increment": 0.5,
@@ -2973,7 +2973,7 @@
 			"Rubine Fan Install": {
 				"handle": "rubine_install",
 				"handle": "transport_fee",
-				"orderLabel": "Fan Install",
+				"orderLabel": "Hour (Fan Install)",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -2982,7 +2982,7 @@
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Status",
+					"label": "Hour",
 					"min": 0,
 					"max": 4,
 					"increment": 0.5,
@@ -3100,7 +3100,7 @@
 
 			"Rubine Accessories Install": {
 				"label": "Accessories Install",
-				"orderLabel": "Accessories Install",
+				"orderLabel": "Hour (Accessories Install)",
 				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
@@ -3109,7 +3109,7 @@
 					"CNY": "30"
 				},
 				"quantity": {
-					"label": "Status",
+					"label": "Hour",
 					"min": 0,
 					"max": 4,
 					"increment": 0.5,
