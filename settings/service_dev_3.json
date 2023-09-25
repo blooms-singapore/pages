@@ -2824,7 +2824,7 @@
 
 			"Rubine Water Heater Install": {
 				"handle": "rubine_install",
-				"label": "Install - Water Heater",
+				"label": "Install - Water Heater                                                  Per Hour",
 				"orderLabel": "Hour (Install - Water Heater)",
 				"type" : "Water Heater",
 				"description": "Label standard",
@@ -2868,7 +2868,7 @@
 			},
 			
 			"Rubine Fan trouble shoot": {
-				"label": "Trouble Shoot - Fan",
+				"label": "Trouble Shoot - Fan                                               Per Hour",
 				"orderLabel": "Trouble Shoot - Fan",
 				"type" : "Fan",
 				"description": "Label standard",
@@ -2934,7 +2934,7 @@
 
 		"Rubine Fan Install": {
 				"handle": "rubine_install",
-				"label": "Install - Fan",
+				"label": "Install - Fan                                                            Per Hour",
 				"orderLabel": "Hour (Install - Fan)",
 				"type" : "Fan",
 				"description": "Label standard",
@@ -3041,8 +3041,8 @@
 
 
 			"Rubine Accessories Install": {
-				"label": "Accessories Install",
-				"orderLabel": "Hour (Accessories Install)",
+				"label": "Install - Accessories                                                   Per Hour",
+				"orderLabel": "Hour (Install - Accessories)",
 				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
