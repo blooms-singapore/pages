@@ -2972,7 +2972,7 @@
 
 			"Rubine Fan Install": {
 				"handle": "rubine_install",
-				"handle": "transport_fee",
+				"label": "Fan Install" 
 				"orderLabel": "Hour (Fan Install)",
 				"type" : "Fan",
 				"description": "Label standard",
