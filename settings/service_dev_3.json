@@ -2737,7 +2737,7 @@
 
 
 	"Rubine Transport": {
-				"handle": "rubine_transport",
+				"handle": "rubine_transport_fee",
 				"label": "Trip (Transport Fee)",
 				"orderLabel": "Transport Fee",
 				"type" : "Water Heater",
