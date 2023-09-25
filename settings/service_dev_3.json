@@ -2807,6 +2807,7 @@
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -2872,7 +2873,7 @@
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "40",
 					"MYR": "0",
 					"CNY": "30"
 				},
@@ -2929,7 +2930,29 @@
 				}
 			},
 
-		
+
+
+		"Rubine Fan Install": {
+				"handle": "rubine_install",
+				"label": "Install - Fan",
+				"orderLabel": "Hour (Install - Fan)",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 4,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			},
+
 
 		
 
@@ -3004,7 +3027,7 @@
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
-					"CNY": "30"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Status",
