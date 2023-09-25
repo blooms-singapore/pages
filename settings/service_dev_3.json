@@ -2735,9 +2735,9 @@
 		
 		"options": {
 
-			"Rubine Transport": {			
-				"label": "Transport Fee",
+			"Rubine Transport": {
 				"handle": "rubine_transport_fee",
+				"label": "Transport Fee",
 				"orderLabel": "Transport Fee",
 				"type" : "Water Heater",
 				"description": "Label standard",
@@ -2865,10 +2865,10 @@
 
 
 
-                  "Rubine Transport": {			
-				"label": "Transport Fee",
+                  "Rubine Transport": {	
 			        "handle": "rubine_transport_fee",
-				"orderLabel": "Transport Fee",
+				"label": "Transport Fee",
+			        "orderLabel": "Transport Fee",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
