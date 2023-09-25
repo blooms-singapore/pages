@@ -2966,6 +2966,7 @@
 			},
 
 			"Rubine Fan Install": {
+				"handle": "rubine_install",
 				"label": "Fan Install",
 				"orderLabel": "Fan Install",
 				"type" : "Fan",
