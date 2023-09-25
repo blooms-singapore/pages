@@ -2735,6 +2735,26 @@
 		
 		"options": {
 
+			"Rubine Transport": {			
+				"label": "Transport Fee",
+				"orderLabel": "Transport Fee",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
 			"Rubine Water Heater Video Call": {			
 				"label": "Video Call - Water Heater",
 				"orderLabel": "Video Call - Water Heater",
@@ -2761,7 +2781,7 @@
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "30",
 					"MYR": "0",
 					"CNY": "70"
 				},
@@ -2818,6 +2838,50 @@
 				}
 			},
 
+
+			"Rubine Water Heater Install": {
+				"label": "Water Heater Install",
+				"orderLabel": "Water Heater Install",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 4,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+
+
+                  "Rubine Transport": {			
+				"label": "Transport Fee",
+				"orderLabel": "Transport Fee",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "0",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+
 			"Rubine Fan Video Call": {			
 				"label": "Video Call - Fan",
 				"orderLabel": "Video Call - Fan",
@@ -2844,7 +2908,7 @@
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "30",
 					"MYR": "0",
 					"CNY": "30"
 				},
@@ -2901,6 +2965,48 @@
 				}
 			},
 
+			"Rubine Fan Install": {
+				"label": "Fan Install",
+				"orderLabel": "Fan Install",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 4,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+
+
+			"Rubine Transport": {			
+				"label": "Transport Fee",
+				"orderLabel": "Transport Fee",
+				"type" : "Accessories",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
 
 			"Rubine Accessories Video Call": {			
 				"label": "Video Call - Accessories",
@@ -2928,7 +3034,7 @@
 				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "30",
 					"MYR": "0",
 					"CNY": "30"
 				},
@@ -2981,6 +3087,27 @@
 					"max": 1,
 					"increment": 1,
 					"default": 0,
+					"base": 1
+				}
+			},
+
+
+			"Rubine Accessories Install": {
+				"label": "Accessories Install",
+				"orderLabel": "Accessories Install",
+				"type" : "Accessories",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 4,
+					"increment": 0.5,
+					"default": 1,
 					"base": 1
 				}
 			}
