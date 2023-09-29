@@ -2782,7 +2782,7 @@
 		
 			
 			"Rubine Water Heater Warranty": {
-				"label": "Warranty                                                   Free",
+				"label": "Warranty                                                   Free Spare Parts",
 				"orderLabel": "Rubine Warranty",
 				"type" : "Water Heater",
 				"description": "Label standard",
@@ -2867,7 +2867,7 @@
 			
 		
 			"Rubine Fan Warranty": {
-				"label": "Warranty                                                         Free",
+				"label": "Warranty                                                         Free Spare Parts",
 				"orderLabel": "Rubine Warranty",
 				"type" : "Fan",
 				"description": "Label standard",
