@@ -2707,11 +2707,6 @@
 					{
 						"name" : "Fan",
 						"photo" : "printer/models/rubine-fan.png"
-					},
-					
-					{
-						"name" : "Accessories",
-						"photo" : "printer/models/rubine-tap.png"
 					}
 				]
 			},
