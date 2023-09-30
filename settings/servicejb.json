@@ -478,13 +478,13 @@
 			
 			"Move Condo": {
 				"handle": "move_condo",
-				"label": "Move Clean Condo/Apt                                                            RM28/hr/crew                                                Min 4hrs",
+				"label": "Move Clean Condo/Apt                                                            RM33/hr/crew                                                Min 4hrs",
 				"displayLabel": "Move Clean Condo/Apt",
 				"orderLabel": "Hours (Move Clean Condo/Apt)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "56",
+					"MYR": "66",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -501,13 +501,13 @@
 			
 			"Move Landed": {
 				"handle": "move_landed",
-				"label": "Move Clean Landed House                                                             RM28/hr/crew                                                    Min 5hrs",
+				"label": "Move Clean Landed House                                                             RM33/hr/crew                                                    Min 5hrs",
 				"displayLabel": "Move Clean Landed House",
 				"orderLabel": "Hours (Move Clean Landed House)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "56",
+					"MYR": "66",
 					"CNY": "82.5"
 				},
 				"quantity": {
