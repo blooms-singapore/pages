@@ -1188,14 +1188,55 @@
 			
 																		
 				
-			"AC Standard Wash": {
-				"handle": "aircon_compressor",
-				"label": "Standard Wash - Wall Mount                                           RM50/unit                                        Min 2 units",
-				"orderLabel": "Unit (Standard Wash - Wall Mount)",
+			"AC Standard Wash up to 1.5hp": {
+				"handle": "aircon_standardwash_small",
+				"label": "Standard Wash up to 1.5hp                                         RM40/unit                                        Min 2 units",
+				"orderLabel": "Unit (Standard Wash up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "50",
+					"MYR": "40",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			},
+
+
+			"AC Standard Wash 2 to 2.5hp": {
+				"handle": "aircon_standardwash_big",
+				"label": "Standard Wash 2 to 2.5hp                                         RM60/unit",
+				"orderLabel": "Unit (Standard Wash 2 to 2.5hp)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Units",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			},
+
+			"AC Standard Wash 2 to 2.5hp": {
+				"handle": "aircon_compressor",
+				"label": "Standard Wash up to 1.5hp                                         RM40/unit                                        Min 2 units",
+				"orderLabel": "Unit (Standard Wash up to 1.5hp)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "40",
 					"CNY": "300"
 				},
 				"quantity": {
