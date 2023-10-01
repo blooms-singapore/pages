@@ -1099,7 +1099,7 @@
 		
 				
 			
-			"Weekdays Chemical Overhaul up to 1.5hp": {
+			"Chemical Overhaul up to 1.5hp": {
 				"handle": "aircon_chemical_small_overhaul_weekdays",
 				"label": "Week-DAYS Chemical Overhaul - Up to 1.5hp                                               RM120/unit",
 				"orderLabel": "Unit (Week-DAYS Chemical Overhaul - Up to 1.5hp)",
@@ -1120,30 +1120,10 @@
 			},
 			
 			
-			
-			"Weekends Chemical Overhaul up to 1.5hp": {
-				"handle": "aircon_chemical_small_overhaul_weekends",
-				"label": "Week-ENDS Chemical Overhaul - Up to 1.5hp                                             RM140/unit",
-				"orderLabel": "Unit (Week-ENDS Chemical Overhaul - Up to 1.5hp)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "140",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
+						
 			
 		
-			"Weekdays Chemical Overhaul 2 to 2.5hp": {
+			"Chemical Overhaul 2 to 2.5hp": {
 				"handle": "aircon_chemical_big_overhaul_weekdays",
 				"label": "Week-DAYS Chemical Overhaul - 2 to 2.5hp                                               RM160/unit",
 				"orderLabel": "Unit (Week-DAYS Chemical Overhaul - 2 to 2.5hp)",
@@ -1163,29 +1143,7 @@
 				}
 			},
 			
-			
-			
-			"Weekends Chemical Overhaul 2 to 2.5hp": {
-				"handle": "aircon_chemical_big_overhaul_weekends",
-				"label": "Week-ENDS Chemical Overhaul - 2 to 2.5hp                                             RM180/unit",
-				"orderLabel": "Unit (Week-ENDS Chemical Overhaul - 2 to 2.5hp)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "180",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
+								
 																		
 				
 			"AC Standard Wash up to 1.5hp": {
@@ -1233,12 +1191,12 @@
 	
 			"Install up to 1.5hp": {
 				"handle": "aircon_jb_install_small",
-				"label": "Installation up to 1.5hp                                           RM350/unit",
+				"label": "Installation up to 1.5hp                                           RM320/unit",
 				"orderLabel": "Unit (Standard Wash - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "350",
+					"MYR": "320",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1254,12 +1212,12 @@
 
 			"Install 2 to 2.5hp": {
 				"handle": "aircon_jb_install_big",
-				"label": "Installation 2 to 2.5hp                                           RM430/unit",
+				"label": "Installation 2 to 2.5hp                                           RM400/unit",
 				"orderLabel": "Unit (Standard Wash - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "430",
+					"MYR": "400",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1279,8 +1237,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/Office +RM10",
-						"orderLabel": "Condo/Office +RM10",
+						"label": "Week-ENDS +RM20",
+						"orderLabel": "Week-ENDS +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1288,13 +1246,13 @@
 						},
 						"oneOffCost": {
 							"SGD": "5",
-							"MYR": "10",
+							"MYR": "20",
 							"CNY": "25"
 						}
 					},
 					"landed": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+						"label": "Week-DAYS +RM0",
+						"orderLabel": "Week-DAYS +RM0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
