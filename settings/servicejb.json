@@ -979,7 +979,7 @@
 	"aircon": {
 		"name": "Aircon Works (C)",
 		"lastSlot": "16:30",
-		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "100",
@@ -1101,12 +1101,12 @@
 			
 			"Weekdays Chemical Wash": {
 				"handle": "aircon_chemical_overhaul_weekdays",
-				"label": "Week-DAYS Chemical Wash - Wall Mount                                                RM130/unit",
+				"label": "Week-DAYS Chemical Wash - Wall Mount                                                RM140/unit",
 				"orderLabel": "Unit (Week-DAYS Chemical Wash - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "130",
+					"MYR": "140",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -1173,12 +1173,12 @@
 				
 			"AC Standard Wash": {
 				"handle": "aircon_compressor",
-				"label": "Standard Wash - Wall Mount                                           RM70/unit                                        Min 2 units",
+				"label": "Standard Wash - Wall Mount                                           RM60/unit                                        Min 2 units",
 				"orderLabel": "Unit (Standard Wash - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "70",
+					"MYR": "60",
 					"CNY": "300"
 				},
 				"quantity": {
