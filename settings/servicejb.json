@@ -1233,7 +1233,7 @@
 		
 		"types": {
 			"house": {
-				"label": "Property Type",
+				"label": "Week Type",
 				"description": "Label standard",
 				"values": {
 					"condo": {
