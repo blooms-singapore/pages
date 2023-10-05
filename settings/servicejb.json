@@ -3089,7 +3089,7 @@
 		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "30",
+			"MYR": "150",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -3097,12 +3097,12 @@
 			
 			"Disposal Van Load": {
 				"handle": "disposal_van_load",
-				"label": "Disposal Van Load                                                         RM100/Job",
+				"label": "Disposal Van Load                                                         RM150/Job",
 				"orderLabel": "Job (Disposal Van Load)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "100",
+					"MYR": "150",
 					"CNY": "0"
 				},
 				"quantity": {
