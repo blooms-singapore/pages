@@ -440,6 +440,70 @@
 					"base": 1
 				}
 			},
+
+
+			
+			"AC Survey": {
+				"handle": "aircon_survey",
+				"label": "Aircon Survey                                  Free",
+				"orderLabel": "Job (Aircon Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+
+			"AC Videocall": {
+				"handle": "aircon_videocall",
+				"label": "Aircon Videocall                                        SGD5",
+				"orderLabel": "Call (Aircon Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "-15",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+
+			"AC Trouble Shoot": {
+				"handle": "aircon_sg_troubleshoot",
+				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
+				"orderLabel": "Unit (Aircon Trouble-Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "60",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
+				}
+			},
 				
 			
 			"Weekdays Standard Wash": {
@@ -485,46 +549,6 @@
 				}
 			},
 
-			"AC Survey": {
-				"handle": "aircon_survey",
-				"label": "Aircon Survey                                  Free",
-				"orderLabel": "Job (Aircon Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-
-			"AC Trouble Shoot": {
-				"handle": "aircon_sg_troubleshoot",
-				"label": "Aircon Trouble-Shoot                                    SGD30/unit",
-				"orderLabel": "Unit (Aircon Trouble-Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "60",
-					"CNY": "260"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
 
 			"AC Water Leak": {
 				"handle": "aircon_sg_leak",
@@ -548,27 +572,6 @@
 
 
 
-			"AC Lumpsump Work Confirmation": {
-				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
-				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-
-			
 			
 			"Chemical Overhaul Wall Mount": {
 				"handle": "ac_overhaul_wallmount",
@@ -654,6 +657,26 @@
 					"increment": 1,
 					"default": 0,
 					"base": 1
+				}
+			},
+
+	"AC Lumpsump Work Confirmation": {
+				"handle": "aircon_repair_project_confirmation",
+				"label": "Aircon Lumpsum Work Confirmation                                       Per Quotation",
+				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 60,
+					"base": 60
 				}
 			}
 		},
