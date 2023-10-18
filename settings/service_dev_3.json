@@ -549,7 +549,7 @@
 			
 			"Weekdays Standard Wash": {
 				"handle": "aircon_standard_wash_weekdays",
-				"label": "Week-DAYS Wall-Mount Standard Wash                                                SGD20/unit",
+				"label": "Week-DAYS Wall-Mount Standard Wash                                                SGD20/unit                                        Up to 18K Btu",
 				"orderLabel": "Unit (Week-DAYS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -572,7 +572,7 @@
 
 			"Weekends Standard Wash": {
 				"handle": "aircon_standard_wash_weekends",
-				"label": "Week-ENDS Wall-Mount Standard Wash                                          SGD25/unit",
+				"label": "Week-ENDS Wall-Mount Standard Wash                                          SGD25/unit                                                 Up to 18K Btu",
 				"orderLabel": "Unit (Week-ENDS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
@@ -596,7 +596,7 @@
 			
 			"Chemical Overhaul Wall Mount": {
 				"handle": "aircon_overhaul_wallmount",
-				"label": "Chemical Overhaul - Wall Mount                                          SGD100/unit                                      up to 2hp",
+				"label": "Chemical Overhaul - Wall Mount                                          SGD100/unit                                      up to 18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
