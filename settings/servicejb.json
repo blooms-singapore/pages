@@ -1312,8 +1312,8 @@
 			
 		"Installation Video Call": {
 			"handle": "installation_sg_videocall",
-			"label": "Installation Video Call                                         RM5/call",
-			"orderLabel": "Call (Installation Video Call)",
+			"label": "Video Call                                         RM5/call",
+			"orderLabel": "Call (Video Call)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "-15",
