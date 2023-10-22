@@ -1544,7 +1544,7 @@
 	"landscape": {
 		"name": "Landscape",
 		"lastSlot": "15:00",
-		"disableLocations": ["Kuala Lumpur"],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "55",
