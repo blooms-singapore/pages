@@ -2841,7 +2841,7 @@
 	"locksmith": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore","Kuala Lumpur"],
+		"disableLocations": ["Johor Bahru","Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "60",
