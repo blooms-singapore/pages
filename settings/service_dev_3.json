@@ -1944,7 +1944,28 @@
 		
 		"options": {
 
-	
+					
+			"Rubine Water Heater Trouble Shoot": {
+				"handle": "rubine_troubleshoot",
+				"label": "Trouble Shoot - Water Heater",
+				"orderLabel": "Trouble Shoot - Water Heater",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
 
 			"Rubine Water Heater Video Call": {
 				"handle": "rubine_videocall",
@@ -1959,27 +1980,6 @@
 				},
 				"quantity": {
 					"label": "Call",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Rubine Water Heater Trouble Shoot": {
-				"handle": "rubine_troubleshoot",
-				"label": "Trouble Shoot - Water Heater",
-				"orderLabel": "Trouble Shoot - Water Heater",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
