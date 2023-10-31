@@ -712,7 +712,7 @@
 	"washing-machine": {
 		"name": "Washing Machine",
 		"lastSlot": "16:30",
-		"disableLocations": ["kuala Lumpur", "Johor Bahru"],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "0",
@@ -763,6 +763,29 @@
 
 
 
+			"No-Part Repair": {
+				"handle": "washing_machine_nopart_repair",
+				"label": "No-Part Repair                                      From SGD65",
+				"orderLabel": "Job (No-Part Repair)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "65",
+					"MYR": "0",
+					"CNY": "0"
+				},
+
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+			
 			"Washing Machine Lumpsum Repair Work": {
 				"handle": "washing_machine_lumpsum_repair",
 				"label": "Lumpsum Repair Confirmation                                      Per Quotation",
