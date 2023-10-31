@@ -765,7 +765,7 @@
 
 			"No-Part Repair": {
 				"handle": "washing_machine_nopart_repair",
-				"label": "No-Part Repair                                      From SGD65",
+				"label": "No-Part Repair                                      SGD65-SGD120",
 				"orderLabel": "Job (No-Part Repair)",
 				"description": "Label standard",
 				"cost": {
