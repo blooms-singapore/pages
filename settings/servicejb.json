@@ -1123,10 +1123,10 @@
 						
 			
 		
-			"Chemical Overhaul 2 to 2.5hp": {
+			"Chemical Overhaul 2 to 3hp": {
 				"handle": "aircon_chemical_big_overhaul_weekdays",
-				"label": "Chemical Overhaul - 2 to 2.5hp                                               RM160/unit",
-				"orderLabel": "Unit (Chemical Overhaul - 2 to 2.5hp)",
+				"label": "Chemical Overhaul - 2 to 3hp                                               RM160/unit",
+				"orderLabel": "Unit (Chemical Overhaul - 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -1167,14 +1167,14 @@
 			},
 
 
-			"AC Standard Wash 2 to 2.5hp": {
+			"AC Standard Wash 2 to 3hp": {
 				"handle": "aircon_standardwash_big",
-				"label": "Standard Wash 2 to 2.5hp                                         RM60/unit",
-				"orderLabel": "Unit (Standard Wash 2 to 2.5hp)",
+				"label": "Standard Wash 2 to 3hp                                            RM65/unit",
+				"orderLabel": "Unit (Standard Wash 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "65",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -1192,7 +1192,7 @@
 			"Install up to 1.5hp": {
 				"handle": "aircon_jb_install_small",
 				"label": "Installation up to 1.5hp                                           RM320/unit",
-				"orderLabel": "Unit (Standard Wash - Wall Mount)",
+				"orderLabel": "Unit (Install - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -1210,10 +1210,10 @@
 			},
 
 
-			"Install 2 to 2.5hp": {
+			"Install 2 to 3hp": {
 				"handle": "aircon_jb_install_big",
-				"label": "Installation 2 to 2.5hp                                           RM400/unit",
-				"orderLabel": "Unit (Standard Wash - Wall Mount)",
+				"label": "Installation 2 to 3hp                                           RM400/unit",
+				"orderLabel": "Unit (Install  - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
