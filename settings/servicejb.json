@@ -1547,7 +1547,7 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "20",
-			"MYR": "55",
+			"MYR": "82.5",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -1728,12 +1728,12 @@
 		
 		"types": {
 			"house": {
-				"label": "Your Location?",
-				"description": "Your Location?",
+				"label": "Your Area?",
+				"description": "Your Area?",
 				"values": {
 					"Standard": {
-						"label": "Outside Service Location +RM20",
-						"orderLabel": "Outside Service Location +RM20",
+						"label": "Outside Service Area +RM20",
+						"orderLabel": "Outside Service Area +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1748,8 +1748,8 @@
 						},
 						
 					"Distant": {
-						"label": "Within Service Location +RM0",
-						"orderLabel": "Within Service Location +RM0",
+						"label": "Within Service Area +RM0",
+						"orderLabel": "Within Service Area +RM0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
