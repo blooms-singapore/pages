@@ -1576,7 +1576,7 @@
 			
 			"Landscape 1 crew": {
 				"handle": "landscape_one_crew",
-				"label": "1 crew - Small Garden                                           RM55/hr                                                    Min 1hr",
+				"label": "1 crew - Small Garden                                           RM55/hr                                                    Min 1.5hrs",
 				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
 				"cost": {
@@ -1589,7 +1589,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 60,
+					"default": 90,
 					"base": 60
 				}
 			},
@@ -1622,12 +1622,12 @@
 			
 			"Overgrowth Clearance": {
 				"handle": "landscape_overgrowth_clearance",
-				"label": "2 Crews - Overgrowth Clearance                                  RM90/hr                                                       Min 3hrs",
+				"label": "2 Crews - Overgrowth Clearance                                  RM100/hr                                                       Min 3hrs",
 				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "90",
+					"MYR": "100",
 					"CNY": "50"
 				},
 				"quantity": {
@@ -1684,7 +1684,7 @@
 			
 			"Disposal by Lorry": {
 				"handle": "landscape_disposal_by_lorry",
-				"label": "Disposal by Lorry                                                        RM150/lorry",
+				"label": "Disposal by Lorry                                                        RM170/lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
 				"cost": {
@@ -1728,22 +1728,28 @@
 		
 		"types": {
 			"house": {
-				"label": "House Location",
-				"description": "Label standard",
+				"label": "Your Location?",
+				"description": "Your Location?",
 				"values": {
 					"Standard": {
-						"label": "Standard Location",
-						"orderLabel": "Standard Location",
+						"label": "Outside Service Location +RM20",
+						"orderLabel": "Outside Service Location +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 							}
 						},
+					
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
+							"CNY": "10"
+						}
 						
 					"Distant": {
-						"label": "Distant Location +RM20",
-						"orderLabel": "Distant Location +RM20",
+						"label": "Within Service Location +RM0",
+						"orderLabel": "Within Service Location +RM0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1751,7 +1757,7 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "20",
+							"MYR": "0",
 							"CNY": "10"
 						}
 					}
