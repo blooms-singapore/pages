@@ -1552,6 +1552,30 @@
 		},
 		"hasNote": 1,
 		"options": {
+	
+			
+			"Landscape videocall": {
+				"handle": "landscape_videocall",
+				"label": "Landscape Videocall                                               RM10/call",
+				"orderLabel": "Call (Landscape Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "10",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 60,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+			
+			
 			"Landscape Survey": {
 				"handle": "landscape_survey",
 				"label": "Landscape Survey                                             RM20/trip",
@@ -1576,12 +1600,12 @@
 			
 			"Landscape 1 crew": {
 				"handle": "landscape_one_crew",
-				"label": "1 crew - Small Garden                                           RM55/hr                                                    Min 1.5hrs",
+				"label": "1 crew - Small Garden                                           RM50/hr                                                    Min 1.5hrs",
 				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "55",
+					"MYR": "50",
 					"CNY": "50"
 				},
 				"quantity": {
