@@ -1738,14 +1738,14 @@
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
-							}
-						},
-					
+							},
+
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "20",
 							"CNY": "10"
-						}
+						      }
+						},
 						
 					"Distant": {
 						"label": "Within Service Location +RM0",
@@ -1755,6 +1755,7 @@
 							"MYR": "0",
 							"CNY": "0"
 						},
+						
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
