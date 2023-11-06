@@ -425,7 +425,7 @@
 				"min": 0,
 				"max": 3,
 				"increment": 0.5,
-				"default": 0,
+				"default": 1,
 				"base": 1
 			}
 		},
