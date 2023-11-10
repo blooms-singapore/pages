@@ -313,13 +313,13 @@
 						
 			"Festive Very Small Condo": {
 				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM120/unit                                      Up to 3hrs",
+				"label": "Festive Clean Very Small Condo - 1 Crew                                                     RM135/unit                                      Up to 3hrs",
 				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "100",
-					"MYR": "120",
+					"MYR": "135",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -336,13 +336,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo/Apt - 2 Crews                                                            RM25/hr/crew                                                  Min 3.5hrs",
+				"label": "Festive Clean Condo/Apt - 2 Crews                                                            RM27.5/hr/crew                                                  Min 3.5hrs",
 				"displayLabel": "Festive Clean Condo/Apt - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo/Apt - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "50",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -359,20 +359,20 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed Property - 2 Crews                                                       RM25/hr/crew                                                       Min 5hrs",
+				"label": "Festive Clean Landed Property - 2 Crews                                                       RM27.5/hr/crew                                                       Min 4.5hrs",
 				"displayLabel": "Festive Clean Landed Property - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "50",
+					"MYR": "55",
 					"CNY": "82.5"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 300,
+					"default": 270,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
