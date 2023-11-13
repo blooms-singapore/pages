@@ -2750,7 +2750,7 @@
 				"orderLabel": "Unit (Toilet Floor)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "2200",
+					"SGD": "0",
 					"MYR": "35",
 					"CNY": "50"
 				},
