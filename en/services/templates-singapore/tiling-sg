@@ -1,0 +1,380 @@
+---
+subtitle: Tiling & Concrete Works. Tile Washes.
+layout: service
+---
+
+<!--location image published direct archived in assets/news-->
+<div class="gap">
+<div class="service-info">  
+<h5 class="service-title">STANDARD LOCATIONS</h5>
+<h3 class="service-title">Transport charge waived.</h3> 
+  <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/tiling-standard-locations.png"> <!--border radius 15px, colour fuchsia pink-->
+</div>
+</div>
+
+
+<!--App Ads-->
+<div class="divider"></div>
+<div class="gap">
+<div class="service-info">
+<h5 class="service-title">WHY BLOOMS?</h5>
+<h3 class="service-title">Try our Time-Charge Service for smaller tiling/concrete work. Or book a free Survey.</h3>
+<br>
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/tiling-app-ads.png">
+</div>
+</div>
+
+<!--embedded video, style @ service.scss-->
+<div class = "iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o_b5_PtPV8A" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+
+
+<div class="divider"></div>
+<div class="gap">
+<h5 class="service-title">PRICES</h5>
+</div>
+  
+<div class="pricing">
+  <table>
+      <!--Project-->
+    <thead>
+      <tr>
+       <th><b>Lumpsum<br>Work</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Survey</td>
+        <td>Free</td>
+      </tr>
+               
+      <tr>
+        <td>Tiling Lumpsum<br>Work Confirmation</td>
+        <td>Per Quotation</td>
+       </tr>
+    
+     <!--non-Waterproof - hourly charge-->
+     <thead>
+      <tr>
+        <th><b>Non-Waterproof<br>Tile Works<br>Charge By Time</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+      <tbody>    
+      <tr>
+        <td>Hourly Service<br>Min 1.5hrs</b></td>
+        <td>${params.nonwaterproof_min_order}/hr</td>
+      </tr>
+      
+      
+     <!--Waterproof by area-->
+     <thead>
+      <tr>
+        <th><b>Waterproof<br>Tile Works<br>Charge by Area</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+      <tbody>    
+      <tr>
+        <td>Empty House<br>Min 30ft<sup>2</sup></td>
+        <td>${params.waterproof_empty_house_10ft2}/ft<sup>2</sup></td>
+      </tr>
+        
+        <tr>
+        <td>Occupied House<br>Min 30ft<sup>2</sup></td>
+        <td>${params.waterproof_occupied_house_10ft2}/ft<sup>2</sup></td>
+      </tr>
+                
+                
+      <!--Other Charges-->
+      <thead>
+      <tr>
+       <th><b>Other Charges</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+       <tr>
+        <td>Transport<br>Fee</td>
+        <td>${params.transport_fee}/trip</td>
+      </tr>
+      
+       <tr>
+        <td>Tile Dust<br>Protection<br>Survey</td>
+        <td>${params.tiling_dust_protection}/trip</td>
+      </tr>
+      
+      <tr>
+        <td>Service<br>Extension</td>
+        <td>Charge in<br>30-min blocks</td>
+      </tr>
+      
+      <tr>
+        <td>Picking Fee<br><b>Optional</b></td>
+        <td>45.0/trip</td>
+      </tr>
+  </tbody>
+  </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
+</div>
+
+
+
+
+<div class="divider"></div>
+<div class="gap">
+  <div class="service-info">
+    <h5 class="service-title">SERVICE INFO</h5>
+     <h6 class="service-title">Service by Time</h6>
+    <p>
+      Cheapest option in our tile service. Only for non-waterproof tile work. For small area <150ft<sup>2</sup>.
+    <!--start hide-->
+    <div class = "show-hide-text">
+Customer to supply tiles, otherwise, book a free Survey. Our supervisor will visit you to understand your requirements.
+     <ul>
+    <li>Tiling crew will bring all necessary tools and materials (sand, cement, plaster etc) to repair or change your tiles.</li>
+    <br>
+    <li>Service time is calculated according to total time spent in customer's home, including the cleaning up.</li>
+      <br>
+      <li>Charge is based on actual time used for the entire work, not the duration booked in the Order.</li>
+    </ul></p>
+     <!--end hide-->
+     </div>
+     <button class = "read-more-button">Show More</button>
+  
+  
+    
+<h6 class="service-title">Service by Area</h6>
+     <p>
+     For tile work which requires waterproofing toilets, roof slabs etc.
+       <br><br>Customers supply tiles.
+     
+       <!--start hide-->
+      <div class = "show-hide-text">
+  
+    <ul>
+    <li>Crew will confirm area (ft<sup>2</sup>) again on site, before work starts.</li>
+    <br>
+    <li>Charges will be based on actual measured area, not from Booking Order.</li>
+   </ul></p>
+   <!--end hide-->
+  </div>
+  <button class = "read-more-button">Show More</button>
+
+
+
+
+
+<h6 class="service-title">Lumpsum Work Payment Info</h6>
+ <p>Discount coupon does not apply to lumpsum work, but please discuss the Quote with us.
+  <!--start hide-->
+  <div class = "show-hide-text">  
+   Upon confirming your app booking, for us to schedule your work, we need payments as follows:
+    <br><br> 
+Payment schedules as follows:
+   <ul>
+    <li>35% to 50% downpayment - TT.</li>
+    <br>
+    <li>Variable % progress claims - TT.</li>
+    <br>
+  <li>Final 15% upon work complete.<br>Charged to Credit Card.</li>
+ </ul></p>
+               <!--end hide-->
+               </div>
+               <button class = "read-more-button">Show More</button>
+  </div>
+</div>
+
+
+<!--Area Measurement-->
+<div class="divider"></div>
+<div class="gap">
+<div class="service-info">
+ <h5 class="service-title">PROPER MEASUREMENT OF WORK AREA</h5>
+ <h6 class="service-title">Floor + Skirting Areas</h6>
+<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/tiling-area-measurement.png">
+</div>
+</div>
+
+
+
+<!--Distant Locations-->
+<div class="divider"></div>
+<div class="gap">
+  <div class="service-info">
+    <h5 class="service-title">DISTANT LOCATIONS</h5>
+    <h3 class="service-title">Additional transport charge may apply</h6>
+    <!--start hide-->
+    <div class = "show-hide-text">
+    <p><ul>
+    <li>Gelang Patah.</li>
+    <li>Kota Tinggi.</li>
+    <li>Masai.</li>
+    <li>Pasir Gudang.</li>
+    <li>Senai.</li>
+    <li>Kulai.</li>
+    </ul></p>
+    <!--end hide-->
+  </div>
+  <button class = "read-more-button">Show More</button>
+</div>
+</div>
+
+
+<!--FAQs-->
+<div class="divider"></div>
+<div class="gap">
+  <h5 class="service-title">FAQs</h5>
+   
+  <!--Hourly rate?-->
+  <div class="wrap-collapsible">
+  <input id="collapsible1" class="toggle" type="checkbox">
+  <label for="collapsible1" class="lbl-toggle">Q1 Why hourly service charge for minor repair work?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+  <p>It is cheaper and more transparent, where Customers pay for only skill services and the time used to complete the repair or work.
+   <br><br>Our crew will not rush through a job to ensure quality, and Customers can know exactly how much to pay from the time used.
+   <br><br>Our crew brings all tools and protection, and Customers just need to provide the tiles.</p>
+   </div>
+   </div>
+    
+  <!--Slow deliberately?-->
+  <input id="collapsible2" class="toggle" type="checkbox">
+  <label for="collapsible2" class="lbl-toggle">Q2 If crew deliberately work slowly?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Feedback to Blooms Office with video proof, and get a free service.</p>
+   </div>
+   </div>
+    <br>
+    <!--start hide-->
+    <div class = "show-hide-text">
+   
+  <input id="collapsible3" class="toggle" type="checkbox">
+  <label for="collapsible3" class="lbl-toggle">Q3 Unsure of duration needed for my tasks?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Just book minimum 1.5 hours. Blooms charges by actual time use.</p>
+   </div>
+   </div>
+   
+  <!--Book 4hrs?-->
+  <input id="collapsible4" class="toggle" type="checkbox">
+  <label for="collapsible4" class="lbl-toggle">Q4 How to book 4 Hours Service for Non-Waterproof Tile Works?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+  <p>Service fee is split into 2 parts as follows:
+  <ul>
+  <li>First 1.5 Hours fee price, taking into account transport cost,</li><br>
+  <li>2nd Hour onwards, Standard Fee, at a reduced price.</li>
+  </ul>
+    To book 4 hours, please select 2 options together:
+    <ul>
+    <li>Min 1.5 Hours and</li>
+    <li>2nd Hour or more X 2.5 Hours.</li>
+    <li>Total: 4 Hours.</li>
+    </ul>
+   </div>
+   </div>
+  
+  <!--Book Area?-->
+  <input id="collapsible5" class="toggle" type="checkbox">
+  <label for="collapsible5" class="lbl-toggle">Q5 How to book 85ft<sup>2</sup> for Waterproof Tile Works?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+  <p>There are two Area inputs:
+  <ul>
+  <li>1st input is for bigger increments, in 10s. ie, 30, 40, 50 and so on.</li><br>
+  <li>2nd input is for small increments, in 1s. ie, 1, 2, 3, 4 up to 9.</li>
+  </ul>
+    To book 85ft<sup>2</sup>, please select 2 options together:
+    <ul>
+      <li>1st Input: 80ft<sup>2</sup> and</li>
+      <li>2nd Input: 5ft<sup>2</sup>.</li>
+      <li>Total: 85ft<sup>2</sup>.</li>
+    </ul>
+   </div>
+   </div>
+ 
+  <!--Which item to book?-->
+  <input id="collapsible6" class="toggle" type="checkbox">
+  <label for="collapsible6" class="lbl-toggle">Q6 I don't know which Service item to book?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Select Survey when in doubt. Upload relevant photos and provide good information in our Comment Box.
+   <br><br>Our Crew will visit you on your selected date and time.</p>
+   </div>
+   </div>
+ 
+  <!--Picking Fee?-->
+  <input id="collapsible7" class="toggle" type="checkbox">
+  <label for="collapsible7" class="lbl-toggle">Q7 What is the RM45 Picking Fee?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>When our crews purchase items on customers' behalf, such as a few pieces of standard tiles.
+    <br><br>Original supplier receipt will be provided for claim. Blooms does not mark up on these items, but charge RM45 for the Picking Service.</p>
+   </div>
+   </div>
+ 
+  <!--Card safe?--> 
+  <input id="collapsible8" class="toggle" type="checkbox">
+  <label for="collapsible8" class="lbl-toggle">Q8 Is Credit Card payment safe?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Yes, very safe.<br><br>Blooms cannot assess card details and every transcastion is tracked digitally.</p>
+   </div>
+   </div>
+
+  <!--Card, when charge?-->  
+  <input id="collapsible9" class="toggle" type="checkbox">
+  <label for="collapsible9" class="lbl-toggle">Q9 When am I charged when using Credit Card as payment?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Service first, Pay later.<br><br>Blooms charges upon completion of work, after issuance of receipt. Not at the point of placing Order.</p>
+   </div>
+   </div>
+
+   <!--Book for someone?-->
+  <input id="collapsible10" class="toggle" type="checkbox">
+  <label for="collapsible10" class="lbl-toggle">Q10 Can I book for someone else?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Yes. Add their address, in your account and book choosing their address.<br><br>You have to pay for them as the Service is booked under your account.</p>
+   </div>
+   </div>
+   
+   <!--Cancel?--> 
+  <input id="collapsible11" class="toggle" type="checkbox">
+  <label for="collapsible11" class="lbl-toggle">Q11 How do I cancel a Service?</label>
+  <div class="collapsible-content">
+  <div class="content-inner">
+   <p>Service date which is <b>more than 3 days</b> into the future, use the <b>Cancel</b> button at the bottom of Order Confirmation page.
+   <br><br>For <b>urgent cancellation</b>, where your Service date is <b>within the next 3 days</b>, please call our Customer Care to inform. There is no cancellation charge.</p>
+   </div>
+   </div>
+    <br>
+    <!--end hide-->
+               </div>
+               <button class = "read-more-button">Show More</button>
+  <br>
+</div>  </div>
+  </div>
+
+
+
+<div class="divider"></div>
+<div class="gap">
+  <div class="service-info">
+    <h5 class="service-title">Customer Care</h5>
+    <p>${params.phone}</p>
+    <p>${params.email}</p>
+  </div>
+</div>
