@@ -2722,10 +2722,10 @@
 			
 			
 			
-			"Tiling Non-Waterproof": {
+			"Tiling Non-Waterproof Micro": {
 				"handle": "nonwaterproof_min_order",
-				"label": "Tile Non-Waterproof Works - Min 1.5hrs                                                SGD70/hr",
-				"orderLabel": "Hour (Tile Non-Waterproof Works - Min 1.5hrs)",
+				"label": "Non-Waterproof Micro Works - Min 1.5hrs                                                SGD70/hr",
+				"orderLabel": "Hour (Non-Waterproof Micro Works - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "70",
@@ -2735,19 +2735,20 @@
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 0,
+					"max": 6,
 					"increment": 0.5,
 					"default": 1.5,
 					"base": 1
 				}
 			},
-			
+
+
 				
-					
+						
 			"Tiling Toilet Floor": {
 				"handle": "tiling_toilet_floor",
-				"label": "Toilet Floor                                                    Coming Soon",
-				"orderLabel": "Unit (Toilet Floor)",
+				"label": "Toilet Floor Only                                                    Coming Soon",
+				"orderLabel": "Unit (Toilet Floor Only)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2762,8 +2763,33 @@
 					"default": 30,
 					"base": 1
 				}
+			},
+
+
+			
+
+			"Tiling Lumpsum Confirmation": {
+				"handle": "tiling_lumpsum",
+				"label": "Tiling Lumpsum Work Confirmation                                           Per Quotation",
+				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
 			}
 		},
+
+	
 		
 		"types": {
 			"house": {
@@ -2772,7 +2798,7 @@
 				"values": {
 					
 					"HDB/Condo": {
-						"label": "HDB/Landed Property",
+						"label": "HDB",
 						"orderLabel": "Standard Locations",
 						"cost": {
 							"SGD": "0",
@@ -2782,15 +2808,15 @@
 					},
 					
 					"Condo": {
-						"label": "Condo +SGD50",
-						"orderLabel": "Condo +SGD50",
+						"label": "Condo/Landed +SGD80",
+						"orderLabel": "Condo/Landed +SGD80",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "50",
+							"SGD": "80",
 							"MYR": "20",
 							"CNY": "10"
 						}
