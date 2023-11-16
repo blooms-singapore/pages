@@ -370,7 +370,7 @@
 		"options": {
 			"Carpentry Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Carpentry Transport Fee                                                          SGD20/trip",
+				"label": "Carpentry Transport Fee                                                    SGD20/trip                                                Waived when videocall",
 				"orderLabel": "Trip (Carpentry Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -558,7 +558,7 @@
 
 			"Installation Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Installation Transport Fee                                                          SGD20/trip",
+				"label": "Installation Transport Fee                                                     SGD20/trip                                                              Waived when videocall",
 				"orderLabel": "Trip (Installation Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -583,7 +583,7 @@
 			"orderLabel": "Call (Installation Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-15",
+				"SGD": "5",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -780,7 +780,7 @@
 			
 			"AC Transport Fee": {
 				"handle": "aircon_transport_fee",
-				"label": "AC Transport Fee                                               SGD20/trip",
+				"label": "AC Transport Fee                                               SGD20/trip                                                      Waived when videocall",
 				"orderLabel": "Trip (AC Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -793,7 +793,7 @@
 					"min": 1,
 					"max": 1,
 					"increment": 0,
-					"default": 0,
+					"default": 1,
 					"base": 1
 				}
 			},
@@ -1097,50 +1097,7 @@
 					"base": 1
 				}
 			},
-
-		"Washing Machine Video Call": {
-			"handle": "washing_machine_videocall",
-			"label": "Washing Machine Video Call                                         SGD5/call",
-			"orderLabel": "Call (Washing Machine Video Call)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "5",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Call",
-				"min": 0,
-				"max": 1,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
-
-
-
-			"No-Part Repair": {
-				"handle": "washing_machine_nopart_repair",
-				"label": "No-Part Repair                                      SGD65-120",
-				"orderLabel": "Job (No-Part Repair)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "65",
-					"MYR": "0",
-					"CNY": "0"
-				},
-
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
+			
 
 			
 			"Washing Machine Lumpsum Repair Work": {
@@ -1339,7 +1296,7 @@
 		"options": {
 			"Electrical Transport": {
 				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                                SGD20/trip",
+				"label": "Electrical Transport Fee                                                SGD20/trip                                                      Waived when videocall",
 				"orderLabel": "Trip (Electrical Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -1352,11 +1309,31 @@
 					"min": 1,
 					"max": 1,
 					"increment": 1,
-					"default": 0,
+					"default": 1,
 					"base": 1
 				}
 			},
 
+
+		"Electrical Video Call": {
+			"handle": "electrical_videocall",
+			"label": "Electrical Video Call                                              SGD5/call",
+			"orderLabel": "Call (Electrical Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
 
 
 
@@ -2090,7 +2067,7 @@
 
 		"Plumbing Transport Fee": {
 			"handle": "plumbing_sg_transport",
-			"label": "Plumbing Transport Fee                                         SGD20/trip",
+			"label": "Plumbing Transport Fee                                         SGD20/trip                                                      Waived when videocall",
 			"orderLabel": "Trip (Plumbing Transport Fee)",
 			"description": "Label standard",
 			"cost": {
@@ -2100,10 +2077,10 @@
 			},
 			"quantity": {
 				"label": "Trip",
-				"min": 60,
-				"max": 0,
+				"min": 1,
+				"max": 1,
 				"increment": 60,
-				"default": 60,
+				"default": 1,
 				"base": 60
 			}
 		},
@@ -2441,7 +2418,7 @@
 
 	
 
-	"free-service": {
+"free-service": {
     "name": "Free Service",
     "lastSlot": "16:30",
     "disableLocations": ["Johor Bahru", "Kuala Lumpur"],
@@ -2634,7 +2611,7 @@
 									
 			"Tiling Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Tiling Transport Fee                                                              SGD20/trip",
+				"label": "Tiling Transport Fee                                                         SGD20/trip                                                   Waived when videocall",
 				"orderLabel": "Trip (Tiling Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -2645,7 +2622,7 @@
 				"quantity": {
 					"label": "Trip",
 					"min": 1,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 1,
 					"base": 1
@@ -2666,7 +2643,7 @@
 				},
 				"quantity": {
 					"label": "Call",
-					"min": 0,
+					"min": 1,
 					"max": 1,
 					"increment": 1,
 					"default": 0,
