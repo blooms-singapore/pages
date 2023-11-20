@@ -2678,7 +2678,7 @@
 		
 
           			
-			"Tiling Non-Waterproof Micro": {
+			"Tiling Non-Waterproof Micro Repair": {
 				"handle": "nonwaterproof_min_order",
 				"label": "Non-Waterproof Micro Works - Min 1.5hrs                                                 SGD70/hr",
 				"orderLabel": "Hour (Non-Waterproof Micro Works - Min 1.5hrs)",
@@ -2703,16 +2703,16 @@
 						
 			"Tiling Toilet Floor": {
 				"handle": "tiling_toilet_floor",
-				"label": "HDB/Condo Toilet Floor Only                                                    < 35ft2                                                SGD2200/unit",
+				"label": "HDB/Condo Toilet Floor Only                                                    < 35ft2                                                SGD2180/unit",
 				"orderLabel": "Unit (HDB/Condo Toilet Floor Only)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "2200",
+					"SGD": "2180",
 					"MYR": "0",
 					"CNY": "50"
 				},
 				"quantity": {
-					"label": "unit",
+					"label": "Unit",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
@@ -2726,11 +2726,11 @@
 
 			"Tiling toilet floor & wall": {
 				"handle": "tiling_toilet_floor_wall",
-				"label": "HDB/Condo Toilet Floor & Wall                                                < 35ft2                                                SGD3500/unit",
+				"label": "HDB/Condo Toilet Floor & Wall                                                < 35ft2                                                SGD3480/unit",
 				"orderLabel": "Unit (HDB/Condo Toilet Floor & Wall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "3500",
+					"SGD": "3480",
 					"MYR": "0",
 					"CNY": "50"
 				},
