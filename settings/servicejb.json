@@ -1409,7 +1409,7 @@
 				"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "-30",
 					"MYR": "0",
 					"CNY": "0"
 				},
