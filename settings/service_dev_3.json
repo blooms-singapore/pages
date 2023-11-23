@@ -3167,7 +3167,25 @@
 		},
 
 
-
+	"Renovation Videocall": {
+				"handle": "sg_renovation_videocall",
+				"label": "Retrofit & Renovation Videocall                                                           SGD10/call",
+				"orderLabel": "Call (Retrofit & Renovation Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "-10",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
 
 		"SG Renovation Project Survey": {
 			"handle": "sg_renovation_project_survey",
@@ -3224,8 +3242,8 @@
 						"CNY": "0"
 					},
 					"oneOffCost": {
-						"SGD": "5",
-						"MYR": "10",
+						"SGD": "0",
+						"MYR": "0",
 						"CNY": "10"
 					}
 				},
