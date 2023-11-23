@@ -141,7 +141,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -300,7 +300,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -618,7 +618,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "0",
+					"MYR": "-35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -831,7 +831,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -991,7 +991,7 @@
 				"description": "Paint Lumpsum Work Confirmation",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1243,7 +1243,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-35",
 					"CNY": "20"
 				},
 				"quantity": {
@@ -1600,7 +1600,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "0",
+					"MYR": "-35",
 					"CNY": "0"
 				},
 				"quantity": {
