@@ -482,7 +482,7 @@
 				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "-20",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -693,7 +693,7 @@
 				"orderLabel": "Job (Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "-20",
 					"MYR": "-15",
 					"CNY": "0"
 				},
@@ -1385,7 +1385,7 @@
 				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "-20",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -1740,7 +1740,7 @@
 				"orderLabel": "Unit (Paint Project Lumpsum Confirmation)",
 				"description": "Painting Lumpsum Confirmation",
 				"cost": {
-					"SGD": "0",
+					"SGD": "-20",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -2751,7 +2751,7 @@
 				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "-20",
 					"MYR": "0",
 					"CNY": "50"
 				},
@@ -3195,7 +3195,7 @@
 			"orderLabel": "Job (Retrofit or Renovation Project Confirmation)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "0",
+				"SGD": "-20",
 				"MYR": "0",
 				"CNY": "0"
 			},
