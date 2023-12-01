@@ -3148,8 +3148,8 @@
 
 		"SG Renovation Transport": {
 			"handle": "sg_renovation_transport",
-			"label": "Retrofit or Renovation Transport Fee                                                   SGD20/trip",
-			"orderLabel": "Trip (Retrofit or Renovation Transport Fee)",
+			"label": "Retrofit/Renovation Transport Fee                                                   SGD20/trip",
+			"orderLabel": "Trip (Retrofit/Renovation Transport Fee)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "20",
@@ -3169,8 +3169,8 @@
 
 	"Renovation Videocall": {
 				"handle": "sg_renovation_videocall",
-				"label": "Retrofit & Renovation Videocall                                                           SGD10/call",
-				"orderLabel": "Call (Retrofit & Renovation Videocall)",
+				"label": "Retrofit/Renovation Videocall                                                           SGD10/call",
+				"orderLabel": "Call (Retrofit/Renovation Videocall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "-10",
@@ -3189,8 +3189,8 @@
 
 		"SG Renovation Project Survey": {
 			"handle": "sg_renovation_project_survey",
-			"label": "Retrofit or Renovation Survey                                                   Free",
-			"orderLabel": "Trip (Retrofit or Renovation Survey)",
+			"label": "Retrofit/Renovation Survey                                                   Free",
+			"orderLabel": "Trip (Retrofit/Renovation Survey)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "0",
