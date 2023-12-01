@@ -655,7 +655,7 @@
 
 	"Electrical Video-Call": {
 				"handle": "electrical_videocall",
-				"label": "Electrical Video Call                                                   RM5/call",
+				"label": "Electrical Video Call                                                   RM5/call                                                   Waived when videocall",
 				"orderLabel": "Call (Electrical Video Call)",
 				"description": "Label standard",
 				"cost": {
@@ -1012,7 +1012,7 @@
 			
 			
 			
-				"AC Survey": {				
+			"AC Survey": {				
 				"handle": "aircon_survey",
 				"label": "Aircon Survey                                  Free",
 				"orderLabel": "Job (Aircon Survey)",
@@ -1312,7 +1312,7 @@
 			
 		"Installation Video Call": {
 			"handle": "installation_sg_videocall",
-			"label": "Video Call                                         RM5/call",
+			"label": "Video Call                                         RM5/call                                                        Waived when videocall",
 			"orderLabel": "Call (Video Call)",
 			"description": "Label standard",
 			"cost": {
@@ -1556,8 +1556,8 @@
 			
 			"Landscape videocall": {
 				"handle": "landscape_videocall",
-				"label": "Landscape Videocall                                               RM10/call",
-				"orderLabel": "Call (Landscape Videocall)",
+				"label": "Landscape Video Call                                               RM10/call                                               Waived when videocall",
+				"orderLabel": "Call (Landscape Video Call)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
