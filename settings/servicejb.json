@@ -16,7 +16,7 @@
 			
 			"Installation Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Installation Transport Fee                                                          RM30/trip",
+				"label": "Installation Transport Fee                                                          RM30/trip                                               Waived when videocall",
 				"orderLabel": "Trip (Installation Transport Fee)",
 				"description": "Label standard",
 				"cost": {
