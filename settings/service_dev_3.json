@@ -3189,8 +3189,8 @@
 
 		"SG Renovation Project Survey": {
 			"handle": "sg_renovation_project_survey",
-			"label": "Retrofit or Renovation Project Survey                                                   Free",
-			"orderLabel": "Trip (Retrofit or Renovation Project Survey)",
+			"label": "Retrofit or Renovation Survey                                                   Free",
+			"orderLabel": "Trip (Retrofit or Renovation Survey)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "0",
