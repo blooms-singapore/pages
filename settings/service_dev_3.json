@@ -3169,8 +3169,8 @@
 
 	"Renovation Videocall": {
 				"handle": "sg_renovation_videocall",
-				"label": "Retrofit/Renovation Videocall                                                           SGD10/call",
-				"orderLabel": "Call (Retrofit/Renovation Videocall)",
+				"label": "Retrofit/Renovation Video Call                                                           SGD10/call",
+				"orderLabel": "Call (Retrofit/Renovation Video Call)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "-10",
