@@ -3148,7 +3148,7 @@
 
 		"SG Renovation Transport": {
 			"handle": "sg_renovation_transport",
-			"label": "Retrofit/Renovation Transport Fee                                                   SGD20/trip",
+			"label": "Retrofit/Renovation Transport Fee                                                   SGD20/trip                                             Waived when videocall",
 			"orderLabel": "Trip (Retrofit/Renovation Transport Fee)",
 			"description": "Label standard",
 			"cost": {
