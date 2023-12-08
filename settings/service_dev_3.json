@@ -370,7 +370,7 @@
 		"options": {
 			"Carpentry Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Carpentry Transport Fee                                                    SGD20/trip                                                Waived when videocall",
+				"label": "Carpentry Transport Fee                                                    SGD20/trip",
 				"orderLabel": "Trip (Carpentry Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -391,7 +391,7 @@
 			
 		"Carpentry Video Call": {
 			"handle": "carpentry_sg_videocall",
-			"label": "Carpentry Video Call                                         SGD10/call",
+			"label": "Carpentry Video Call                                         SGD10/call                                                  Waive Transport Fee",
 			"orderLabel": "Call (Carpentry Video Call)",
 			"description": "Label standard",
 			"cost": {
@@ -558,7 +558,7 @@
 
 			"Installation Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Installation Transport Fee                                                     SGD20/trip                                                              Waived when videocall",
+				"label": "Installation Transport Fee                                                     SGD20/trip",
 				"orderLabel": "Trip (Installation Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -579,7 +579,7 @@
 			
 		"Installation Video Call": {
 			"handle": "installation_sg_videocall",
-			"label": "Installation Video Call                                         SGD5/call",
+			"label": "Installation Video Call                                         SGD5/call                                                 Waive Transport Fee",
 			"orderLabel": "Call (Installation Video Call)",
 			"description": "Label standard",
 			"cost": {
@@ -780,7 +780,7 @@
 			
 			"AC Transport Fee": {
 				"handle": "aircon_transport_fee",
-				"label": "AC Transport Fee                                               SGD20/trip                                                      Waived when videocall",
+				"label": "AC Transport Fee                                               SGD20/trip",
 				"orderLabel": "Trip (AC Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -823,7 +823,7 @@
 
 			"AC Videocall": {
 				"handle": "aircon_videocall",
-				"label": "Aircon Videocall                                        SGD5",
+				"label": "Aircon Videocall                                        SGD5                                                       Waive Transport Fee",
 				"orderLabel": "Call (Aircon Videocall)",
 				"description": "Label standard",
 				"cost": {
@@ -1296,7 +1296,7 @@
 		"options": {
 			"Electrical Transport": {
 				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                                SGD20/trip                                                      Waived when videocall",
+				"label": "Electrical Transport Fee                                                SGD20/trip",
 				"orderLabel": "Trip (Electrical Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -1317,7 +1317,7 @@
 
 		"Electrical Video Call": {
 			"handle": "electrical_videocall",
-			"label": "Electrical Video Call                                              SGD5/call",
+			"label": "Electrical Video Call                                              SGD5/call                                                     Waive Transport Fee",
 			"orderLabel": "Call (Electrical Video Call)",
 			"description": "Label standard",
 			"cost": {
@@ -2067,7 +2067,7 @@
 
 		"Plumbing Transport Fee": {
 			"handle": "plumbing_sg_transport",
-			"label": "Plumbing Transport Fee                                         SGD20/trip                                                      Waived when videocall",
+			"label": "Plumbing Transport Fee                                         SGD20/trip",
 			"orderLabel": "Trip (Plumbing Transport Fee)",
 			"description": "Label standard",
 			"cost": {
@@ -2088,7 +2088,7 @@
 		
 		"Plumbing Video Call": {
 			"handle": "plumbing_sg_videocall",
-			"label": "Plumbing Video Call                                         SGD5/call",
+			"label": "Plumbing Video Call                                         SGD5/call                                                          Waive Transport Fee",
 			"orderLabel": "Call (Plumbing Video Call)",
 			"description": "Label standard",
 			"cost": {
@@ -2611,7 +2611,7 @@
 									
 			"Tiling Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Tiling Transport Fee                                                         SGD20/trip                                                   Waived when videocall",
+				"label": "Tiling Transport Fee                                                         SGD20/trip",
 				"orderLabel": "Trip (Tiling Transport Fee)",
 				"description": "Label standard",
 				"cost": {
@@ -2633,7 +2633,7 @@
 
 			"Tiling Videocall": {
 				"handle": "tiling_videocall",
-				"label": "Tiling Videocall                                                           SGD5/call",
+				"label": "Tiling Videocall                                                           SGD5/call                                                         Waive Transport Fee",
 				"orderLabel": "Call (Tiling Videocall)",
 				"description": "Label standard",
 				"cost": {
@@ -3148,7 +3148,7 @@
 
 		"SG Renovation Transport": {
 			"handle": "sg_renovation_transport",
-			"label": "Retrofit/Renovation Transport Fee                                                   SGD20/trip                                             Waived when videocall",
+			"label": "Retrofit/Renovation Transport Fee                                                   SGD20/trip",
 			"orderLabel": "Trip (Retrofit/Renovation Transport Fee)",
 			"description": "Label standard",
 			"cost": {
@@ -3169,7 +3169,7 @@
 
 	"Renovation Videocall": {
 				"handle": "sg_renovation_videocall",
-				"label": "Retrofit/Renovation Video Call                                                           SGD10/call",
+				"label": "Retrofit/Renovation Video Call                                                           SGD10/call                                                        Waive Transport Fee     ",
 				"orderLabel": "Call (Retrofit/Renovation Video Call)",
 				"description": "Label standard",
 				"cost": {
