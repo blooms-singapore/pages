@@ -829,7 +829,7 @@
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 1,
+					"min": 0,
 					"max": 0,
 					"increment": 0,
 					"default": 0,
