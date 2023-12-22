@@ -2891,11 +2891,11 @@
 
 		"Door & Wndow Videocall": {
 				"handle": "door_window_videocall",
-				"label": "Door & Window Videocall                                                           SGD5/call                                                         Waive Transport Fee",
+				"label": "Door & Window Videocall                                                           SGD10/call                                                         Waive Transport Fee",
 				"orderLabel": "Call (Door & Window Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-15",
+					"SGD": "-10",
 					"MYR": "0",
 					"CNY": "50"
 				},
