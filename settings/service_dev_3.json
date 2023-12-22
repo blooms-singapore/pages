@@ -2931,6 +2931,28 @@
 		},
 
 
+		
+	"Door & Window Lumpsum Worl Confirmation": {
+			"handle": "door_window_lumpsum_work_confirmation",
+			"label": "Door & Window Lumpsum Work Confirmation                                                     Per Quotation",
+			"orderLabel": "Job (Lumpsum Work Confirmation)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-20",
+				"MYR": "80",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Job",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
 		"Emergency": {
 			"handle": "door_window_emergency",
 			"label": "Emergency                                                              SGD120 - 150",
