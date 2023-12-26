@@ -1036,7 +1036,7 @@
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 150,
+					"default": 180,
 					"increment": 30,
 					"base": 60,
 					"multiplier": 1
@@ -1047,13 +1047,13 @@
 			
 			"Standard Clean Landed House": {
 				"handle": "cleaning_standard_landed",
-				"label": "Standard Clean Landed Property - 2 Crews                                                       RM23.5/hr/crew                                                       Min 4hrs",
+				"label": "Standard Clean Landed Property - 2 Crews                                                       RM25/hr/crew                                                       Min 4hrs",
 				"displayLabel": "Standard Clean Landed Property - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "47",
+					"SGD": "50",
+					"MYR": "50",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1095,13 +1095,13 @@
 			
 			"Festive Std Condo": {
 				"handle": "festive_big",
-				"label": "Festive Clean Condo/Apt - 2 Crews                                                            RM27.5/hr/crew                                                  Min 3.5hrs",
+				"label": "Festive Clean Condo/Apt - 2 Crews                                                            RM30/hr/crew                                                  Min 3.5hrs",
 				"displayLabel": "Festive Clean Condo/Apt - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo/Apt - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "55",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
@@ -1118,13 +1118,13 @@
 			
 			"Festive Landed House": {
 				"handle": "festive_big",
-				"label": "Festive Clean Landed Property - 2 Crews                                                       RM27.5/hr/crew                                                       Min 4.5hrs",
+				"label": "Festive Clean Landed Property - 2 Crews                                                       RM30/hr/crew                                                       Min 4.5hrs",
 				"displayLabel": "Festive Clean Landed Property - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "55",
+					"MYR": "60",
 					"CNY": "82.5"
 				},
 				"quantity": {
