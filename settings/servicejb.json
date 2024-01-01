@@ -881,13 +881,13 @@
 						
 			"Reno Very Small Condo": {
 				"handle": "reno_small_condo",
-				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM180/unit                                                  Up to 5hrs",
+				"label": "Renovation Clean Very Small Condo - 1 crew                                           RM220/unit                                                  Up to 5hrs",
 				"displayLabel": "Renovation Clean Very Small Condo - 1 Crew",
 				"orderLabel": "Unit (Renovation Clean Very Small Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "180",
-					"MYR": "180",
+					"MYR": "220",
 					"CNY": "82.5"
 				},
 				"quantity": {
