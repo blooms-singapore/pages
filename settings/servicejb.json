@@ -2436,12 +2436,12 @@
 			
 			"Standard Plumbing": {
 				"handle": "plumbing_standard",
-				"label": "Standard Plumbing                                              RM70/hr",
+				"label": "Standard Plumbing                                              RM90/hr",
 				"orderLabel": "Hour (Standard Plumbing)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "45",
-					"MYR": "70",
+					"MYR": "90",
 					"CNY": "0"
 				},
 				"quantity": {
