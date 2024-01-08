@@ -563,12 +563,12 @@
 				
 			"AC Standard Wash up to 1.5hp": {
 				"handle": "aircon_standardwash_small",
-				"label": "Standard Wash up to 1.5hp                                         RM40/unit                                        Min 2 units",
+				"label": "Standard Wash up to 1.5hp                                         RM60/unit                                        Min 2 units",
 				"orderLabel": "Unit (Standard Wash up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "40",
+					"MYR": "60",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -584,12 +584,12 @@
 
 			"AC Standard Wash 2 to 3hp": {
 				"handle": "aircon_standardwash_big",
-				"label": "Standard Wash 2 to 3hp                                            RM65/unit",
+				"label": "Standard Wash 2 to 3hp                                            RM75/unit",
 				"orderLabel": "Unit (Standard Wash 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "65",
+					"MYR": "75",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -606,12 +606,12 @@
 	
 			"Install up to 1.5hp": {
 				"handle": "aircon_jb_install_small",
-				"label": "Installation up to 1.5hp                                           RM320/unit",
+				"label": "Installation up to 1.5hp                                           RM400/unit",
 				"orderLabel": "Unit (Install - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "320",
+					"MYR": "400",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -627,12 +627,12 @@
 
 			"Install 2 to 3hp": {
 				"handle": "aircon_jb_install_big",
-				"label": "Installation 2 to 3hp                                           RM400/unit",
+				"label": "Installation 2 to 3hp                                           RM450/unit",
 				"orderLabel": "Unit (Install  - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "400",
+					"MYR": "450",
 					"CNY": "300"
 				},
 				"quantity": {
