@@ -201,7 +201,7 @@
 	"aircon-kl": {
 		"name": "Aircon Works",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "90",
@@ -318,12 +318,12 @@
 					
 			"Week-DAYS AC Chemical Wash": {
 				"handle": "aircon_kl_chemical_wash_weekdays",
-				"label": "Chemical Wash Week-DAYS Wall-Mount                                                  RM100/unit",
+				"label": "Chemical Wash Week-DAYS Wall-Mount                                                  RM120/unit",
 				"orderLabel": "Units (Chemical Wash Week-DAYS Wall-Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "90",
+					"MYR": "120",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -338,12 +338,12 @@
 			
 			"Week-ENDS AC Chemical Wash": {
 				"handle": "aircon_kl_chemical_wash_weekends",
-				"label": "Chemical Wash Week-ENDS Wall-Mount                                           RM110/unit",
+				"label": "Chemical Wash Week-ENDS Wall-Mount                                           RM140/unit",
 				"orderLabel": "Units (Chemical Wash Week-ENDS Wall-Mount)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "80",
-					"MYR": "110",
+					"MYR": "140",
 					"CNY": "300"
 				},
 				"quantity": {
