@@ -2747,11 +2747,11 @@
 						
 			"Tiling Toilet Floor": {
 				"handle": "tiling_toilet_floor",
-				"label": "HDB/Condo Toilet Floor Only                                                    < 35ft2                                                SGD2180/unit",
+				"label": "HDB/Condo Toilet Floor Only                                                    < 35ft2                                                SGD1980/unit",
 				"orderLabel": "Unit (HDB/Condo Toilet Floor Only)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "2180",
+					"SGD": "1980",
 					"MYR": "0",
 					"CNY": "50"
 				},
@@ -2770,11 +2770,11 @@
 
 			"Tiling toilet floor & wall": {
 				"handle": "tiling_toilet_floor_wall",
-				"label": "HDB/Condo Toilet Floor & Wall                                                < 35ft2                                                SGD3480/unit",
+				"label": "HDB/Condo Toilet Floor & Wall                                                < 35ft2                                                SGD3180/unit",
 				"orderLabel": "Unit (HDB/Condo Toilet Floor & Wall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "3480",
+					"SGD": "3180",
 					"MYR": "0",
 					"CNY": "50"
 				},
