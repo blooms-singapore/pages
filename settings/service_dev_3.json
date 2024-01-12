@@ -2913,11 +2913,11 @@
 
 		"Door & Wndow Videocall": {
 				"handle": "door_window_videocall",
-				"label": "Door & Window Videocall                                                           SGD10/call                                                         Waive Transport Fee",
+				"label": "Door & Window Videocall                                                           SGD5/call                                                         Waive Transport Fee",
 				"orderLabel": "Call (Door & Window Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-10",
+					"SGD": "-15",
 					"MYR": "0",
 					"CNY": "50"
 				},
@@ -2934,11 +2934,11 @@
 
 		"Door & Window Hourly": {
 			"handle": "door_window_hour",
-			"label": "Hourly Service                                                     SGD50/hr",
+			"label": "Hourly Service                                                     SGD110/hr",
 			"orderLabel": "Hour (Hourly Service)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "70",
+				"SGD": "110",
 				"MYR": "80",
 				"CNY": "0"
 			},
