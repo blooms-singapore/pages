@@ -2863,7 +2863,7 @@
 	"lastSlot": "16:00",
 	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 	"startPrice": {
-		"SGD": "90",
+		"SGD": "110",
 		"MYR": "20",
 		"CNY": "20"
 	},
@@ -2934,11 +2934,11 @@
 
 		"Door & Window Hourly": {
 			"handle": "door_window_hour",
-			"label": "Hourly Service                                                     SGD110/hr",
+			"label": "Hourly Service                                                     SGD90/hr",
 			"orderLabel": "Hour (Hourly Service)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "110",
+				"SGD": "90",
 				"MYR": "80",
 				"CNY": "0"
 			},
