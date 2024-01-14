@@ -700,7 +700,7 @@
 	"cleaning": {
 		"name": "Cleaning",
 		"lastSlot": "15:00",
-		"disableLocations": ["Jphor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "135",
