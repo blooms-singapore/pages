@@ -1,4 +1,245 @@
 {
+	"electrical": {
+		"name": "Electrical",
+		"lastSlot": "16:30",
+		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
+		"startPrice": {
+			"SGD": "80",
+			"MYR": "95",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Electrical Transport": {
+				"handle": "electrical_transport",
+				"label": "Electrical Transport Fee                                                SGD20/trip",
+				"orderLabel": "Trip (Electrical Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+
+		"Electrical Video Call": {
+			"handle": "electrical_videocall",
+			"label": "Electrical Video Call                                              SGD5/call                                                     Waive Transport Fee",
+			"orderLabel": "Call (Electrical Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
+
+			"Electrical Survey": {
+				"handle": "electrical_survey",
+				"label": "Electrical Survey                                                    Free",
+				"orderLabel": "Trip (Electrical Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+
+
+			"Hourly Minor Electrical": {
+				"handle": "minor_electrical",
+				"label": "Minor Electrical Work                                                      SGD60/hr/crew",
+				"orderLabel": "Hour (Minor Electrical Work)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 60,
+					"base": 60
+				}
+			},
+
+
+
+			"Daily Minor Electrical": {
+				"handle": "electrical_daily",
+				"label": "Daily Electrical Work                                          SGD280/day/crew                                                 (Max 8hrs)",
+				"orderLabel": "Day (Daily Electrical Work)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "280",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Day",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+			
+
+			"Electrical Lumpsum Work Confirmation": {
+				"handle": "major_electrical",
+				"label": "Electrical Lumpsum Work Confirmation                                     Per Quotation",
+				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "-20",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},
+
+
+			"Electrical Trouble Shoot": {
+				"handle": "electrical_trouble_shoot",
+				"label": "Electrical Trouble Shoot                                                SGD60/hr                                         Min SGD30",
+				"orderLabel": "Hour (Electrical Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "60",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 30,
+					"base": 60
+				}
+			},
+
+			"Emergency": {
+				"handle": "emergency",
+				"label": "Emergency Booking                                                          SGD100 - 150",
+				"orderLabel": "Trip (Emergency Booking)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "100",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"cost_max": {
+					"SGD": "150",
+					"MYR": "95",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo/HDB +SGD0",
+						"orderLabel": "Condo/HDB +SGD0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+					"landed": {
+						"label": "Landed Property +SGD10",
+						"orderLabel": "Landed Property +SGD10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						
+						"oneOffCost": {
+							"SGD": "10",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					}
+				}
+			}
+		}
+	},
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
 
 "brand": {
 		"name": "Service Support",
@@ -1277,244 +1518,6 @@
 
 
 
-
-
-
-
-
-
-	"electrical": {
-		"name": "Electrical",
-		"lastSlot": "16:30",
-		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
-		"startPrice": {
-			"SGD": "80",
-			"MYR": "95",
-			"CNY": "20"
-		},
-		"hasNote": 1,
-		"options": {
-			"Electrical Transport": {
-				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                                SGD20/trip",
-				"orderLabel": "Trip (Electrical Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-
-		"Electrical Video Call": {
-			"handle": "electrical_videocall",
-			"label": "Electrical Video Call                                              SGD5/call                                                     Waive Transport Fee",
-			"orderLabel": "Call (Electrical Video Call)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "-15",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Call",
-				"min": 0,
-				"max": 1,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
-
-
-
-			"Electrical Survey": {
-				"handle": "electrical_survey",
-				"label": "Electrical Survey                                                    Free",
-				"orderLabel": "Trip (Electrical Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-
-
-			"Hourly Minor Electrical": {
-				"handle": "minor_electrical",
-				"label": "Minor Electrical Work                                                      SGD60/hr/crew",
-				"orderLabel": "Hour (Minor Electrical Work)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-
-
-
-			"Daily Minor Electrical": {
-				"handle": "electrical_daily",
-				"label": "Daily Electrical Work                                          SGD280/day/crew                                                 (Max 8hrs)",
-				"orderLabel": "Day (Daily Electrical Work)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "280",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-			
-
-			"Electrical Lumpsum Work Confirmation": {
-				"handle": "major_electrical",
-				"label": "Electrical Lumpsum Work Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "-20",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-
-
-			"Electrical Trouble Shoot": {
-				"handle": "electrical_trouble_shoot",
-				"label": "Electrical Trouble Shoot                                                SGD60/hr                                         Min SGD30",
-				"orderLabel": "Hour (Electrical Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "60",
-					"MYR": "60",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 30,
-					"base": 60
-				}
-			},
-
-			"Emergency": {
-				"handle": "emergency",
-				"label": "Emergency Booking                                                          SGD100 - 150",
-				"orderLabel": "Trip (Emergency Booking)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "100",
-					"MYR": "80",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "150",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					},
-					"landed": {
-						"label": "Landed Property +SGD10",
-						"orderLabel": "Landed Property +SGD10",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						
-						"oneOffCost": {
-							"SGD": "10",
-							"MYR": "10",
-							"CNY": "10"
-						}
-					}
-				}
-			}
-		}
-	},
-
-
-
-
-
-	
-	
 	
 	
 	
