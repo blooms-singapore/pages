@@ -31,26 +31,6 @@
 			},
 
 
-		"Electrical Video Call": {
-			"handle": "electrical_videocall",
-			"label": "Electrical Video Call                                              SGD5/call                                                     Waive Transport Fee",
-			"orderLabel": "Call (Electrical Video Call)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "-15",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Call",
-				"min": 0,
-				"max": 1,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
-
 
 
 			"Electrical Survey": {
