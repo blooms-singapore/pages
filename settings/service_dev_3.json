@@ -77,26 +77,6 @@
 
 
 
-			"Daily Minor Electrical": {
-				"handle": "electrical_daily",
-				"label": "Daily Electrical Work                                          SGD280/day/crew                                                 Max 8hrs",
-				"orderLabel": "Day (Daily Electrical Work)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "280",
-					"MYR": "95",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Day",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
 			
 
 			"Electrical Lumpsum Work Confirmation": {
