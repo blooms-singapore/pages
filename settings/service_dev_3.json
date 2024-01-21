@@ -1383,7 +1383,7 @@
 
 			"Daily Minor Electrical": {
 				"handle": "electrical_daily",
-				"label": "Daily Electrical Work                                                 SGD250/day/crew (7.5hrs)",
+				"label": "Daily Electrical Work                                                 SGD250/day/crew (Max 7.5hrs)",
 				"orderLabel": "Day (Daily Electrical Work)",
 				"description": "Label standard",
 				"cost": {
