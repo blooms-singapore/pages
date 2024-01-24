@@ -3571,7 +3571,7 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "90",
