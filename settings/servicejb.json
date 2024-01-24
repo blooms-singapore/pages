@@ -1,4 +1,4 @@
-{	
+ {	
 
 	
 
@@ -470,12 +470,12 @@
 			
 			"AC Water Leak": {
 				"handle": "aircon_jb_leak",
-				"label": "Water Leak                                                           RM60/unit",
+				"label": "Water Leak                                                           RM80/unit",
 				"orderLabel": "Unit (Water Leak)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "80",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -516,12 +516,12 @@
 			
 			"Chemical Overhaul up to 1.5hp": {
 				"handle": "aircon_chemical_small_overhaul_weekdays",
-				"label": "Chemical Overhaul - Up to 1.5hp                                               RM120/unit",
+				"label": "Chemical Overhaul - Up to 1.5hp                                               RM140/unit",
 				"orderLabel": "Unit (Chemical Overhaul - Up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "120",
+					"MYR": "140",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -540,12 +540,12 @@
 		
 			"Chemical Overhaul 2 to 3hp": {
 				"handle": "aircon_chemical_big_overhaul_weekdays",
-				"label": "Chemical Overhaul - 2 to 3hp                                               RM160/unit",
+				"label": "Chemical Overhaul - 2 to 3hp                                               RM230/unit",
 				"orderLabel": "Unit (Chemical Overhaul - 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "160",
+					"MYR": "230",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -563,12 +563,12 @@
 				
 			"AC Standard Wash up to 1.5hp": {
 				"handle": "aircon_standardwash_small",
-				"label": "Standard Wash up to 1.5hp                                         RM60/unit                                        Min 2 units",
+				"label": "Standard Wash up to 1.5hp                                         RM65/unit                                        Min 2 units",
 				"orderLabel": "Unit (Standard Wash up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "65",
 					"CNY": "300"
 				},
 				"quantity": {
@@ -584,12 +584,12 @@
 
 			"AC Standard Wash 2 to 3hp": {
 				"handle": "aircon_standardwash_big",
-				"label": "Standard Wash 2 to 3hp                                            RM75/unit",
+				"label": "Standard Wash 2 to 3hp                                            RM80/unit",
 				"orderLabel": "Unit (Standard Wash 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "75",
+					"MYR": "80",
 					"CNY": "300"
 				},
 				"quantity": {
