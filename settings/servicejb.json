@@ -647,7 +647,7 @@
 
 
 	"Cassette Chemical Overhaul up to 1.5hp": {
-				"handle": "aircon_chemical_cassette_1.5hp",
+				"handle": "aircon_chemical_cassette_15hp",
 				"label": "Cassette Chemical Overhaul - 1.5hp                                               RM270/unit",
 				"orderLabel": "Unit (Cassette Chemical Overhaul - 1.5hp)",
 				"description": "Label standard",
