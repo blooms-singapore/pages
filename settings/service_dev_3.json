@@ -1365,11 +1365,11 @@
 
 			"Washing Machine Top Load Clean": {
 				"handle": "washing_machine_clean",
-				"label": "Washing Machine Clean                                           SGD120",
+				"label": "Washing Machine Clean                                           SGD140",
 				"orderLabel": "Unit (Washing Machine Clean)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "120",
+					"SGD": "140",
 					"MYR": "168",
 					"CNY": "0"
 				},
