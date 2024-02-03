@@ -288,12 +288,12 @@
 			
 			"2 crews Installation Technical": {
 				"handle": "installation_technical_2crews",
-				"label": "2 Crews Technical Install                                               RM150/hr",
+				"label": "2 Crews Technical Install                                               RM180/hr",
 				"orderLabel": "Hour (2 Crews Technical Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "150",
+					"MYR": "180",
 					"CNY": "0"
 				},
 				"quantity": {
