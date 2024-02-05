@@ -4,7 +4,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "80",
+			"SGD": "100",
 			"MYR": "95",
 			"CNY": "20"
 		},
@@ -75,11 +75,11 @@
 
 			"Hourly Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Minor Electrical Work                                                      SGD60/hr/crew",
+				"label": "Minor Electrical Work                                                      SGD80/hr/crew",
 				"orderLabel": "Hour (Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "80",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -142,11 +142,11 @@
 
 			"Electrical Trouble Shoot": {
 				"handle": "electrical_trouble_shoot",
-				"label": "Electrical Trouble Shoot                                                SGD60/hr                                         Min SGD30",
+				"label": "Electrical Trouble Shoot                                                SGD80/hr                                         Min SGD30",
 				"orderLabel": "Hour (Electrical Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "80",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -790,7 +790,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "60",
+			"SGD": "80",
 			"MYR": "80",
 			"CNY": "150"
 		},
@@ -844,11 +844,11 @@
 			
 		"Installation One Item": {
 				"handle": "installation_one_item",
-				"label": "Installation - One Item                                                   SGD40/pc",
+				"label": "Installation - One Item                                                   SGD60/pc",
 				"orderLabel": "Pc (Installation - One Item)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "60",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -868,11 +868,11 @@
 			
 			"1 Crew Technical Install": {
 				"handle": "installation_technical",
-				"label": "1 Crew Install                                               SGD60/hr",
+				"label": "1 Crew Install                                               SGD80/hr",
 				"orderLabel": "Hour (1 Crew Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "80",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -889,11 +889,11 @@
 
 		"2 Crews Technical Install": {
 				"handle": "installation_technical_2crews",
-				"label": "2 Crews Install                                               SGD120/hr",
+				"label": "2 Crews Install                                               SGD160/hr",
 				"orderLabel": "Hour (2 Crews Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "120",
+					"SGD": "160",
 					"MYR": "0",
 					"CNY": "0"
 				},
