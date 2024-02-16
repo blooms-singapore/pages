@@ -75,11 +75,11 @@
 
 			"Hourly Minor Electrical": {
 				"handle": "minor_electrical",
-				"label": "Minor Electrical Work                                                      SGD80/hr/crew",
+				"label": "Minor Electrical Work                                                      SGD60/hr/crew",
 				"orderLabel": "Hour (Minor Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "60",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -97,11 +97,11 @@
 			
 			"Daily Electrical": {
 				"handle": "electrical_daily",
-				"label": "Daily Electrical Work                                                      SGD250/day/crew                                       Max 8hrs",
+				"label": "Daily Electrical Work                                                      SGD230/day/crew                                       Max 8hrs",
 				"orderLabel": "Day (Daily Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "250",
+					"SGD": "230",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -142,11 +142,11 @@
 
 			"Electrical Trouble Shoot": {
 				"handle": "electrical_trouble_shoot",
-				"label": "Electrical Trouble Shoot                                                SGD80/hr                                         Min SGD30",
+				"label": "Electrical Trouble Shoot                                                SGD60/hr                                         Min SGD30",
 				"orderLabel": "Hour (Electrical Trouble Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "60",
 					"MYR": "60",
 					"CNY": "0"
 				},
@@ -162,7 +162,7 @@
 
 			"Emergency": {
 				"handle": "emergency",
-				"label": "Emergency Booking                                                          SGD100 - 150",
+				"label": "Emergency Booking                                                          SGD100 - 120",
 				"orderLabel": "Trip (Emergency Booking)",
 				"description": "Label standard",
 				"cost": {
@@ -171,7 +171,7 @@
 					"CNY": "0"
 				},
 				"cost_max": {
-					"SGD": "150",
+					"SGD": "120",
 					"MYR": "95",
 					"CNY": "0"
 				},
@@ -844,11 +844,11 @@
 			
 		"Installation One Item": {
 				"handle": "installation_one_item",
-				"label": "Installation - One Item                                                   SGD60/pc",
+				"label": "Installation - One Item                                                   SGD40/pc",
 				"orderLabel": "Pc (Installation - One Item)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "40",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -868,11 +868,11 @@
 			
 			"1 Crew Technical Install": {
 				"handle": "installation_technical",
-				"label": "1 Crew Install                                               SGD80/hr",
+				"label": "1 Crew Install                                               SGD60/hr",
 				"orderLabel": "Hour (1 Crew Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "80",
+					"SGD": "60",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -889,11 +889,11 @@
 
 		"2 Crews Technical Install": {
 				"handle": "installation_technical_2crews",
-				"label": "2 Crews Install                                               SGD160/hr",
+				"label": "2 Crews Install                                               SGD120/hr",
 				"orderLabel": "Hour (2 Crews Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "160",
+					"SGD": "120",
 					"MYR": "0",
 					"CNY": "0"
 				},
