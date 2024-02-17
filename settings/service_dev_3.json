@@ -844,11 +844,11 @@
 			
 		"Installation One Item": {
 				"handle": "installation_one_item",
-				"label": "Installation - One Item                                                   SGD40/pc",
+				"label": "Installation - One Item                                                   SGD30/pc",
 				"orderLabel": "Pc (Installation - One Item)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "30",
 					"MYR": "0",
 					"CNY": "0"
 				},
