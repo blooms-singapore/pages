@@ -1363,52 +1363,7 @@
 			},
 
 
-			"Washing Machine Top Load Clean": {
-				"handle": "washing_machine_clean",
-				"label": "Washing Machine Clean                                           SGD140",
-				"orderLabel": "Unit (Washing Machine Clean)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "140",
-					"MYR": "168",
-					"CNY": "0"
-				},
-
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-			"Washing Machine Dryer Clean": {
-				"handle": "washer_dryer_clean",
-				"label": "Washer-Dryer Clean                                           SGD240",
-				"orderLabel": "Unit (Washer-Dryer Clean)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "240",
-					"MYR": "168",
-					"CNY": "0"
-				},
-
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-
+		
 			"Washing Machine HookUp New Installation": {
 				"handle": "washing_machine_new_installation",
 				"label": "Hook Up. New Installation                                         SGD95/unit",
