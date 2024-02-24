@@ -33,11 +33,11 @@
 
 		"Electrical Video Call": {
 			"handle": "electrical_sg_videocall",
-			"label": "Electrical Video Call                                         SGD5/call                                                  Waive Transport Fee",
+			"label": "Electrical Video Call                                         SGD3/call                                                  Waive Transport Fee",
 			"orderLabel": "Call (Electrical Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-15",
+				"SGD": "-17",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -319,7 +319,7 @@
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "5",
 					"MYR": "65",
 					"CNY": "70"
 				},
@@ -385,7 +385,7 @@
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "5",
 					"MYR": "0",
 					"CNY": "70"
 				},
@@ -472,7 +472,7 @@
 				"type" : "Accessories",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "5",
 					"MYR": "65",
 					"CNY": "70"
 				},
@@ -632,11 +632,11 @@
 			
 		"Carpentry Video Call": {
 			"handle": "carpentry_sg_videocall",
-			"label": "Carpentry Video Call                                         SGD10/call                                                  Waive Transport Fee",
+			"label": "Carpentry Video Call                                         SGD3/call                                                  Waive Transport Fee",
 			"orderLabel": "Call (Carpentry Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-10",
+				"SGD": "-17",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -820,11 +820,11 @@
 			
 		"Installation Video Call": {
 			"handle": "installation_sg_videocall",
-			"label": "Installation Video Call                                         SGD5/call                                                 Waive Transport Fee",
+			"label": "Installation Video Call                                         SGD3/call                                                 Waive Transport Fee",
 			"orderLabel": "Call (Installation Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-15",
+				"SGD": "-17",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -1064,11 +1064,11 @@
 
 			"AC Videocall": {
 				"handle": "aircon_videocall",
-				"label": "Aircon Videocall                                        SGD5                                                       Waive Transport Fee",
+				"label": "Aircon Videocall                                        SGD3/call                                                       Waive Transport Fee",
 				"orderLabel": "Call (Aircon Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-15",
+					"SGD": "-17",
 					"MYR": "20",
 					"CNY": "0"
 				},
@@ -1695,11 +1695,11 @@
 			
 		"Painting Video Call": {
 			"handle": "painting_videocall",
-			"label": "Painting Video Call                                              SGD5/call                                                     Waive Transport Fee",
+			"label": "Painting Video Call                                              SGD3/call                                                     Waive Transport Fee",
 			"orderLabel": "Call (Painting Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-15",
+				"SGD": "-17",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -2091,11 +2091,11 @@
 		
 		"Plumbing Video Call": {
 			"handle": "plumbing_sg_videocall",
-			"label": "Plumbing Video Call                                         SGD5/call                                                          Waive Transport Fee",
+			"label": "Plumbing Video Call                                         SGD3/call                                                          Waive Transport Fee",
 			"orderLabel": "Call (Plumbing Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-15",
+				"SGD": "-17",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -2466,11 +2466,11 @@
 
 			"Tiling Videocall": {
 				"handle": "tiling_videocall",
-				"label": "Tiling Videocall                                                           SGD5/call                                                         Waive Transport Fee",
+				"label": "Tiling Videocall                                                           SGD3/call                                                         Waive Transport Fee",
 				"orderLabel": "Call (Tiling Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-15",
+					"SGD": "-17",
 					"MYR": "0",
 					"CNY": "50"
 				},
@@ -2702,11 +2702,11 @@
 
 		"Door & Wndow Videocall": {
 				"handle": "door_window_videocall",
-				"label": "Door & Window Videocall                                                           SGD5/call                                                         Waive Transport Fee",
+				"label": "Door & Window Videocall                                                           SGD3/call                                                         Waive Transport Fee",
 				"orderLabel": "Call (Door & Window Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-15",
+					"SGD": "-17",
 					"MYR": "0",
 					"CNY": "50"
 				},
@@ -3045,11 +3045,11 @@
 
 	"Renovation Videocall": {
 				"handle": "sg_renovation_videocall",
-				"label": "Retrofit/Renovation Video Call                                                           SGD10/call                                                        Waive Transport Fee     ",
+				"label": "Retrofit/Renovation Video Call                                                           SGD5/call                                                        Waive Transport Fee     ",
 				"orderLabel": "Call (Retrofit/Renovation Video Call)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-10",
+					"SGD": "-15",
 					"MYR": "0",
 					"CNY": "50"
 				},
