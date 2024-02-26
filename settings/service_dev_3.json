@@ -1151,7 +1151,7 @@
 				"orderLabel": "Unit (Week-DAYS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "25",
 					"MYR": "130",
 					"CNY": "260"
 				},
@@ -1174,7 +1174,7 @@
 				"orderLabel": "Unit (Week-ENDS Wall-Mount Standard Wash)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "25",
+					"SGD": "30",
 					"MYR": "130",
 					"CNY": "260"
 				},
