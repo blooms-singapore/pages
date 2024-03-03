@@ -394,7 +394,7 @@
 	"aircon": {
 		"name": "Aircon Works (C)",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "65",
 			"MYR": "90",
