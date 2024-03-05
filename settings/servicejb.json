@@ -396,7 +396,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "65",
+			"SGD": "95",
 			"MYR": "90",
 			"CNY": "230"
 		},
@@ -455,7 +455,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
+					"MYR": "65",
 					"CNY": "260"
 				},
 				"quantity": {
@@ -516,12 +516,12 @@
 			
 			"Chemical Overhaul up to 1.5hp": {
 				"handle": "aircon_chemical_small_overhaul_weekdays",
-				"label": "Chemical Overhaul - Up to 1.5hp                                               RM140/unit",
+				"label": "Chemical Overhaul - Up to 1.5hp                                               RM160/unit",
 				"orderLabel": "Unit (Chemical Overhaul - Up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
-					"MYR": "140",
+					"MYR": "160",
 					"CNY": "260"
 				},
 				"quantity": {
