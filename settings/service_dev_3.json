@@ -377,6 +377,28 @@
 			},
 
 
+
+			"Rubine Water Heater Repair Confirmation": {
+				"label": "Repair Confirmation - Water Heater                                            Per Quotation",
+				"orderLabel": "Repair Confirmation - Water Heater",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
 		          			
 
 			"Rubine Fan Video Call": {			
@@ -462,77 +484,12 @@
 				}
 			},
 
-
-
-	
-
-			"Rubine Accessories Video Call": {			
-				"label": "Video Call - Accessories",
-				"orderLabel": "Video Call - Accessories",
-				"type" : "Accessories",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "65",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Call",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
 			
-			"Rubine Accessories trouble shoot": {
-				"label": "Trouble Shoot - Accessories",
-				"orderLabel": "Trouble Shoot - Accessories",
-				"type" : "Accessories",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "0",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-		
-			"Rubine Accessories Warranty": {
-				"label": "Warranty                                                         Free Spare Parts",
-				"orderLabel": "Rubine Warranty",
-				"type" : "Accessories",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
 
-
-
-		"Rubine Accessories No Warranty": {
-				"label": "No Warranty                                               Per Quotation",
-				"orderLabel": "Rubine No Warranty",
-				"type" : "Accessories",
+			"Rubine Fan Repair Confirmation": {
+				"label": "Repair Confirmation - Fan                                            Per Quotation",
+				"orderLabel": "Repair Confirmation - Fan",
+				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -548,7 +505,9 @@
 					"base": 1
 				}
 			}
-	},
+		},
+
+	
 			
 		"types": {
 			"house": {
