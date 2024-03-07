@@ -97,7 +97,7 @@
 			
 			"Daily Electrical": {
 				"handle": "electrical_daily",
-				"label": "Daily Electrical Work                                                      SGD230/day/crew                                       Max 8hrs",
+				"label": "Daily Electrical Work                                                      SGD230/day/crew                                       Max 7hrs",
 				"orderLabel": "Day (Daily Electrical Work)",
 				"description": "Label standard",
 				"cost": {
