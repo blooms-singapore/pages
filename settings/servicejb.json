@@ -2614,7 +2614,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "210",
@@ -3564,7 +3564,7 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "15:00",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "90",
