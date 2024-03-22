@@ -1264,7 +1264,7 @@
 	"roof": {
 		"name": "Roof",
 		"lastSlot": "15:30",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -2046,7 +2046,7 @@
 	"clean-water": {
 		"name": "Clean Water",
 		"lastSlot": "15:30",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "528",
 			"MYR": "1600",
@@ -2211,7 +2211,7 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "16:00",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -2348,7 +2348,7 @@
 "plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:30",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "50",
