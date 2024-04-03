@@ -795,12 +795,12 @@
 			
 		"Washing Machine HookUp New Installation": {
 				"handle": "washing_machine_new_installation",
-				"label": "Hook Up. New Installation                                         RM60/unit",
+				"label": "Hook Up. New Installation                                         RM90/unit",
 				"orderLabel": "Unit (Hook Up. New Installation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "95",
-					"MYR": "60",
+					"MYR": "90",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -841,12 +841,12 @@
 			
 		"Washing Machine Plumbing Electrical": {
 				"handle": "washing_machine_plumbing_electrical",
-				"label": "Washing Machine Plumbing/Electrical                                           RM60/hr",
+				"label": "Washing Machine Plumbing/Electrical                                           RM90/hr",
 				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "60",
+					"MYR": "90",
 					"CNY": "0"
 				},
 				"quantity": {
