@@ -1044,12 +1044,12 @@
 			
 			"Landscape Survey": {
 				"handle": "landscape_survey",
-				"label": "Landscape Survey                                             RM20/trip",
+				"label": "Landscape Survey                                             RM35/trip",
 				"orderLabel": "Trip (Landscape Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "20",
+					"MYR": "35",
 					"CNY": "50"
 				},
 				"quantity": {
