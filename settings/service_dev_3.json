@@ -562,7 +562,7 @@
 		"lastSlot": "15:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
-			"SGD": "75",
+			"SGD": "100",
 			"MYR": "70",
 			"CNY": "20"
 		},
