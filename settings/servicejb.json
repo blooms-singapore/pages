@@ -1597,6 +1597,30 @@
 					"base": 60
 				}
 			},
+
+			
+
+		"Retrofit videocall": {
+				"handle": "retrofit_videocall",
+				"label": "Retrofit Video Call                                               RM5/call",
+				"orderLabel": "Call (Retrofit Video Call)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "5",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+			
 			
 			"Project Confirmation": {
 				"handle": "others_project",
