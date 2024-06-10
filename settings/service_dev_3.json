@@ -2018,7 +2018,7 @@
 	"plumbing": {
 	"name": "Plumbing",
 	"lastSlot": "16:00",
-	"disableLocations": ["Singapore"],
+	"disableLocations": [],
 	"startPrice": {
 		"SGD": "35",
 		"MYR": "100",
