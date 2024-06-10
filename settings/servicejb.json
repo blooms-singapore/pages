@@ -2372,7 +2372,7 @@
 "plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:30",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "50",
