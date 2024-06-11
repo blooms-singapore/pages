@@ -3017,7 +3017,7 @@
 		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "60",
+			"MYR": "80",
 			"CNY": "80"
 		},
 		"hasNote": 1,
@@ -3066,12 +3066,12 @@
 			
 			"unlock-morning": {
 				"handle": "unlock_morning",
-				"label": "Room Door Unlock (10am to 6pm)                                       RM60 - 100",
+				"label": "Room Door Unlock (10am to 6pm)                                       RM80 - 100",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "50",
-					"MYR": "60",
+					"MYR": "80",
 					"CNY": "80"
 				},
 				"cost_max": {
@@ -3090,12 +3090,12 @@
 			},
 			"unlock-evening": {
 				"handle": "unlock_evening",
-				"label": "Room Door Unlock (After 6pm)                                            RM90 - 130",
+				"label": "Room Door Unlock (After 6pm)                                            RM100 - 130",
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "90",
+					"MYR": "100",
 					"CNY": "120"
 				},
 				"cost_max": {
@@ -3114,12 +3114,12 @@
 			},
 			"unlock-metal": {
 				"handle": "unlock_metal",
-				"label": "Metal Door Unlock                                          from RM85",
+				"label": "Metal Door Unlock                                          from RM80",
 				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "35",
-					"MYR": "85",
+					"MYR": "80",
 					"CNY": "95"
 				},
 				"quantity": {
