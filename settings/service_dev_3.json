@@ -591,11 +591,11 @@
 			
 		"Carpentry Video Call": {
 			"handle": "carpentry_sg_videocall",
-			"label": "Carpentry Video Call                                         SGD3/call                                                  Waive Transport Fee",
+			"label": "Carpentry Video Call                                         SGD5/call                                                  Waive Transport Fee",
 			"orderLabel": "Call (Carpentry Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-17",
+				"SGD": "-15",
 				"MYR": "30",
 				"CNY": "0"
 			},
