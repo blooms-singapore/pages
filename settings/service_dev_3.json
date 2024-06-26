@@ -634,11 +634,11 @@
 
 		"2 Carpenters": {
 			"handle": "carpentry_sg_service_2carpenters",
-			"label": "2 Carpenters                                        SGD180/hr",
+			"label": "2 Carpenters                                        SGD160/hr",
 			"orderLabel": "Hour (2 Carpenters)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "180",
+				"SGD": "160",
 				"MYR": "30",
 				"CNY": "0"
 			},
