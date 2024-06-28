@@ -247,7 +247,7 @@
 		"lastSlot": "15:00",
 		"hasbrand" : "true",
 		"title": "Select Brand.",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "10",
 			"MYR": "100",
