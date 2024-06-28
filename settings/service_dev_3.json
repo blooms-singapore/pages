@@ -231,12 +231,333 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+	"grip-bar": {
+		"name": "Grip Bar",
+		"lastSlot": "15:00",
+		"hasbrand" : "true",
+		"title": "Select Brand.",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "10",
+			"MYR": "100",
+			"CNY": "110"
+		},
+		"hasNote": 1,
+		"brands" : [
+			{
+				"name" : "RUBINE",
+				"photo" : "printer/brands/rubine.png",
+				"models" : [
+					{
+						"name" : "Water Heater",
+						"photo" : "printer/models/rubine-heater.png"
+					},
+										
+					{
+						"name" : "Fan",
+						"photo" : "printer/models/rubine-fan.png"
+					}
+				]
+			},
+			
+			{	
+				"name" : "KDK",
+				"photo" : "printer/brands/kdk.png",
+				"models" : [
+					{
+						"name" : "Fan",
+						"photo" : "printer/models/kdk-fan.png"
+					},
+					
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			}
+		],
+		
+		"options": {
+
+					
+			"Rubine Water Heater Trouble Shoot": {
+				"handle": "rubine_troubleshoot",
+				"label": "Trouble Shoot - Water Heater",
+				"orderLabel": "Trouble Shoot - Water Heater",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+
+			"Rubine Water Heater Video Call": {
+				"handle": "rubine_videocall",
+				"label": "Video Call - Water Heater",
+				"orderLabel": "Video Call - Water Heater",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+		
+			
+			"Rubine Water Heater Warranty": {
+				"label": "Warranty                                                   Free Spare Parts",
+				"orderLabel": "Rubine Warranty",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+		
+			
+			"Rubine Water Heater No Warranty": {
+				"label": "No Warranty                                                     Per Quotation",
+				"orderLabel": "Rubine No Warranty",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+			"Rubine Water Heater Repair Confirmation": {
+				"label": "Repair Confirmation - Water Heater                                            Per Quotation",
+				"orderLabel": "Repair Confirmation - Water Heater",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+		          			
+
+			"Rubine Fan Video Call": {			
+				"label": "Video Call - Fan",
+				"orderLabel": "Video Call - Fan",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "0",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Rubine Fan trouble shoot": {
+				"label": "Trouble Shoot - Fan",
+				"orderLabel": "Trouble Shoot - Fan",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+		
+			"Rubine Fan Warranty": {
+				"label": "Warranty                                                         Free Spare Parts",
+				"orderLabel": "Rubine Warranty",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+		"Rubine Fan No Warranty": {
+				"label": "No Warranty                                               Per Quotation",
+				"orderLabel": "Rubine No Warranty",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+			
+
+			"Rubine Fan Repair Confirmation": {
+				"label": "Repair Confirmation - Fan                                            Per Quotation",
+				"orderLabel": "Repair Confirmation - Fan",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+
+	
+			
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"HDB/Condo": {
+						"label": "HDB/Condo +SGD0",
+						"orderLabel": "HDB/Condo +SGD0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "0"
+						}
+					},
+					"Landed": {
+						"label": "Landed Property +SGD0",
+						"orderLabel": "HDB/Condo +SGD0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
 	
 
 
 
 
 
+
+
+
+	
 
 
 	
