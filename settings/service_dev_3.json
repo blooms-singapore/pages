@@ -249,7 +249,7 @@
 		"title": "Select Brand.",
 		"disableLocations": ["Singapore"],
 		"startPrice": {
-			"SGD": "10",
+			"SGD": "30",
 			"MYR": "100",
 			"CNY": "110"
 		},
