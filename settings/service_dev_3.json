@@ -288,44 +288,44 @@
 		},
 
 
-		"1 Carpenter": {
-			"handle": "carpentry_sg_service_1carpenter",
-			"label": "1 Carpenter                                        SGD80/hr",
-			"orderLabel": "Hour (1 Carpenter)",
+		"Grip Bar Short Straight": {
+			"handle": "grip_bar_short_straight",
+			"label": "Grip Bar Short Straight                                      SGD10/pc",
+			"orderLabel": "Piece (Grip Bar Short Straight)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "80",
+				"SGD": "10",
 				"MYR": "30",
 				"CNY": "0"
 			},
 			"quantity": {
-				"label": "Hour",
+				"label": "Trip",
 				"min": 0,
-				"max": 3,
-				"increment": 0.5,
-				"default": 1,
+				"max": 10,
+				"increment": 1,
+				"default": 0,
 				"base": 1
 			}
 		},
 
 
 
-		"2 Carpenters": {
-			"handle": "carpentry_sg_service_2carpenters",
-			"label": "2 Carpenters                                        SGD160/hr",
-			"orderLabel": "Hour (2 Carpenters)",
+		"Grip Bar Long Straight": {
+			"handle": "grip_bar_long_straight",
+			"label": "Grip Bar Long Straight                                        SGD15/pc",
+			"orderLabel": "Trip (Grip Bar Long Straight)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "160",
+				"SGD": "15",
 				"MYR": "30",
 				"CNY": "0"
 			},
 			"quantity": {
-				"label": "Hour",
+				"label": "Piece",
 				"min": 0,
-				"max": 3,
-				"increment": 0.5,
-				"default": 1,
+				"max": 10,
+				"increment": 1,
+				"default": 0,
 				"base": 1
 			}
 		},
