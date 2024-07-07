@@ -333,10 +333,10 @@
 
 
 		
-		"Grip Bar Stairway": {
-				"handle": "grip_bar_stairway",
-				"label": "Grip Bar Stairway                                                         SGD30/trip",
-				"orderLabel": "Piece (Grip Bar Stairway)",
+		"Grip Bar Bend": {
+				"handle": "grip_bar_bend",
+				"label": "Grip Bar Bend                                                      SGD30/pc",
+				"orderLabel": "Piece (Grip Bar Bend)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -374,7 +374,8 @@
 				}
 			},
 
-	"Grip Bar Bathroom Seat": {
+
+			"Grip Bar Bathroom Seat": {
 				"handle": "grip_bar_bathroom_seat",
 				"label": "Grip Bar Bathroom Seat                                           SGD70/pc",
 				"orderLabel": "Piece (Grip Bar Bathroom Seat)",
@@ -386,6 +387,48 @@
 				},
 				"quantity": {
 					"label": "Piece",
+					"min": 0,
+					"max": 10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+			"Grip Bar Install One Item": {
+				"handle": "grip_bar_install_one_item",
+				"label": "Install 1 Item                                           SGD30/pc",
+				"orderLabel": "Piece (Install 1 Item)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Piece",
+					"min": 0,
+					"max": 10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+		"Grip Bar 1 Crew Install": {
+				"handle": "grip_bar_one_crew_install",
+				"label": "1 Crew Install                                         SGD60/hr",
+				"orderLabel": "Hour (1 Crew Install)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
 					"min": 0,
 					"max": 10,
 					"increment": 1,
