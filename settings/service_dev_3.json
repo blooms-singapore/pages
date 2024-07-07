@@ -333,20 +333,20 @@
 
 
 		
-		"Carpentry Site Survey": {
-				"handle": "carpentry_survey",
-				"label": "Carpentry Site Survey                                                         SGD20/Trip",
-				"orderLabel": "Trip (Carpentry Site Survey)",
+		"Grip Bar Stairway": {
+				"handle": "grip_bar_stairway",
+				"label": "Grip Bar Stairway                                                         SGD30/trip",
+				"orderLabel": "Piece (Grip Bar Stairway)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "30",
 					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Piece",
 					"min": 0,
-					"max": 1,
+					"max": 10,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -354,20 +354,40 @@
 			},
 
 
-	"Carpentry Lumpsum Confirmation": {
-				"handle": "carpentry_sg_confirmation",
-				"label": "Carpentry Lumpsum Confirmation                                                         Per Quotation",
-				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
+	"Grip Bar Bathroom Support": {
+				"handle": "grip_bar_bathroom_support",
+				"label": "Grip Bar Bathroom Support                                           SGD30/pc",
+				"orderLabel": "Piece (Grip Bar Bathroom Support)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-20",
+					"SGD": "30",
 					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Piece",
 					"min": 0,
-					"max": 1,
+					"max": 10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+	"Grip Bar Bathroom Seat": {
+				"handle": "grip_bar_bathroom_seat",
+				"label": "Grip Bar Bathroom Seat                                           SGD70/pc",
+				"orderLabel": "Piece (Grip Bar Bathroom Seat)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "70",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Piece",
+					"min": 0,
+					"max": 10,
 					"increment": 1,
 					"default": 0,
 					"base": 1
