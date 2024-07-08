@@ -615,7 +615,7 @@
 		"hasNote": 1,
 		"options": {
 
-			"Paint mentor": {
+			"Paint Mentor": {
 				"handle": "painting_mentor",
 				"label": "Painting Mentor                                                       SGD20/session",
 				"orderLabel": "Session (Painting Mentor)",
@@ -636,7 +636,7 @@
 			},
 			
 			
-		"Installation": {
+		"Installation Mentor": {
 			"handle": "installation_mentor",
 			"label": "Installation Mentor                                         SGD20/session",
 			"orderLabel": "Session (Installation Mentor)",
