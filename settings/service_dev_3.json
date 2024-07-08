@@ -299,7 +299,7 @@
 				"CNY": "0"
 			},
 			"quantity": {
-				"label": "Trip",
+				"label": "Piece",
 				"min": 0,
 				"max": 10,
 				"increment": 1,
