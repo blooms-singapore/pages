@@ -398,11 +398,11 @@
 
 			"Grip Bar Install One Item": {
 				"handle": "grip_bar_install_one_item",
-				"label": "Install 1 Item                                            SGD30/pc",
+				"label": "Install 1 Item                                            SGD15/pc",
 				"orderLabel": "Piece (Install 1 Item)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "15",
 					"MYR": "30",
 					"CNY": "0"
 				},
