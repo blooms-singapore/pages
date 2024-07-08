@@ -40,7 +40,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <tbody>
       <tr>
       <td>Transport</td>
-      <td>${params.transport}/trip</td>
+      <td>${params.transport_fee}/trip</td>
       </tr>
 
       <tr>
@@ -49,12 +49,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
 
        <tr>
-      <td>Short<br>Straight</td>
+      <td>Short Straight</td>
        <td>${params.grip_bar_short_straight}/unit</td>
       </tr>
 
        <tr>
-        <td>Long<br>Straight</td>
+        <td>Long Straight</td>
         <td>${params.grip_bar_long_straight}/unit</td>
       </tr>
 
@@ -64,12 +64,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
 
        <tr>
-      <td>Bathroom<br>Support</td>
+      <td>Bathroom Support</td>
       <td>${params.grip_bar_bathroom_support}/unit</td>
       </tr>             
       	     
       <tr>
-      <td>Bathroom<br>Seat</td>
+      <td>Bathroom Seat</td>
        <td>${params.grip_bar_bathroom_seat}/unit</td>
       </tr>
 
@@ -79,11 +79,10 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
 
        <tr>
-      <td>1 Crew<br>Install</td>
+      <td>Install<br>Multiple Items</td>
        <td>${params.grip_bar_one_crew_install}/hour</td>
       </tr>
- 
-      
+       
    </tbody>
     </table>
   <div class="fineprint">
@@ -101,55 +100,25 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
   <table>
             
         
-    <!--Standard Wash-->
     <thead>
       <tr>
-        <th><b>Standard Wash<br>Wall-Mount</b></th>
+        <th><b>Miscellaneous</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
     
       <tr>
-	<td>Week-<b>DAYS</b></td>
-        <td>${params.aircon_standard_wash_weekdays}/unit</td>
+	<td>Service<br>Extension</td>
+        <td>Charge in<br>30-min blocks</td>
       </tr>
 	    
 	
      <tr>
-	<td>Week-<b>ENDS</b></td>
-        <td>${params.aircon_standard_wash_weekends}/unit</td>
+	<td>Picking fee<br>(Optional)</td>
+        <td>${params.picking_fee}/trip</td>
       </tr>
-	    
-	    
-<!--Chemical Overhaul-->
-     <thead>
-      <tr>
-        <th><b>Chemical<br>Overhaul</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-                
-    <tr>
-	<td>Wall-Mount</b></td>
-        <td>${params.aircon_overhaul_wallmount}/unit</td>
-      </tr>
-
-   <tr>
-	<td>Cassette</b></td>
-        <td>${params.aircon_overhaul_cassette}/unit</td>
-      </tr>
-
-   <tr>
-	<td>Compressor</b></td>
-        <td>${params.aircon_overhaul_compressor}/unit</td>
-      </tr>
-
-     <tr>
-      <td>Extra Big Units<br>Above 18K Btu</td>
-      <td>+20.0 to 40.0/unit</td>
-      </tr>
+	
   </tbody>
     </table>
     <div class="fineprint">
