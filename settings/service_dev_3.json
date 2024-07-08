@@ -288,7 +288,7 @@
 		},
 
 
-		"Grip Bar Short Straight": {
+		"Grip Bar 40cm Straight": {
 			"handle": "grip_bar_40cm_straight",
 			"label": "Grip Bar 40cm Straight                                      SGD15/pc",
 			"orderLabel": "Piece (Grip Bar 40cm Straight)",
@@ -310,7 +310,7 @@
 
 
 
-		"Grip Bar Long Straight": {
+		"Grip Bar 60cm Straight": {
 			"handle": "grip_bar_60cm_straight",
 			"label": "Grip Bar 60cm Straight                                        SGD22/pc",
 			"orderLabel": "Trip (Grip Bar 60cm Straight)",
@@ -335,29 +335,8 @@
 		
 		"Grip Bar Angle Handrail": {
 				"handle": "grip_bar_angle_handrail",
-				"label": "Grip Bar Angle Handrail                                                     SGD38/pc",
+				"label": "Grip Bar Angle Handrail                                                     SGD40/pc",
 				"orderLabel": "Piece (Grip Bar Angle Handrail)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "38",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Piece",
-					"min": 0,
-					"max": 10,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-	"Grip Bar Bathroom Support": {
-				"handle": "grip_bar_bathroom_support",
-				"label": "Grip Bar Bathroom Support                                           SGD40/pc",
-				"orderLabel": "Piece (Grip Bar Bathroom Support)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -375,13 +354,34 @@
 			},
 
 
+	"Grip Bar Bathroom Support": {
+				"handle": "grip_bar_bathroom_support",
+				"label": "Grip Bar Bathroom Support                                           SGD60/pc",
+				"orderLabel": "Piece (Grip Bar Bathroom Support)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Piece",
+					"min": 0,
+					"max": 10,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
 			"Grip Bar Bathroom Seat": {
 				"handle": "grip_bar_bathroom_seat",
-				"label": "Grip Bar Bathroom Seat                                           SGD88/pc",
+				"label": "Grip Bar Bathroom Seat                                           SGD120/pc",
 				"orderLabel": "Piece (Grip Bar Bathroom Seat)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "88",
+					"SGD": "120",
 					"MYR": "30",
 					"CNY": "0"
 				},
