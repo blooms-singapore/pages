@@ -418,7 +418,7 @@
 
 
 		"Grip Bar Install Multiple Items": {
-				"handle": "grip_bar_one_crew_install",
+				"handle": "grip_bar_install_multiple_items",
 				"label": "Install Multiple Items                                         SGD60/hr",
 				"orderLabel": "Hour (Install Multiple Items)",
 				"description": "Label standard",
