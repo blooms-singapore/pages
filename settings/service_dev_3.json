@@ -289,9 +289,9 @@
 
 
 		"Grip Bar Short Straight": {
-			"handle": "grip_bar_short_straight",
-			"label": "Grip Bar Short Straight                                      SGD15/pc",
-			"orderLabel": "Piece (Grip Bar Short Straight)",
+			"handle": "grip_bar_40cm_straight",
+			"label": "Grip Bar 40cm Straight                                      SGD15/pc",
+			"orderLabel": "Piece (Grip Bar 40cm Straight)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "15",
@@ -311,12 +311,12 @@
 
 
 		"Grip Bar Long Straight": {
-			"handle": "grip_bar_long_straight",
-			"label": "Grip Bar Long Straight                                        SGD20/pc",
-			"orderLabel": "Trip (Grip Bar Long Straight)",
+			"handle": "grip_bar_60cm_straight",
+			"label": "Grip Bar 60cm Straight                                        SGD22/pc",
+			"orderLabel": "Trip (Grip Bar 60cm Straight)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "20",
+				"SGD": "22",
 				"MYR": "30",
 				"CNY": "0"
 			},
