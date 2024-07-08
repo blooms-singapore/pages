@@ -238,7 +238,7 @@
 "grip-bar": {
 		"name": "Grip Bar",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "70",
@@ -483,7 +483,7 @@
 "packages-sg": {
 		"name": "Packages",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "70",
