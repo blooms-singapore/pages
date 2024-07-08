@@ -269,8 +269,8 @@
 			
 		"Grip Bar Video Call": {
 			"handle": "grip_bar_videocall",
-			"label": "Grip Bar Video Call                                         SGD3/call                                                  Waive Transport Fee",
-			"orderLabel": "Call (Grip Bar Video Call)",
+			"label": "Grip Bar Videocall                                         SGD3/call                                          Waive Transport Fee",
+			"orderLabel": "Call (Grip Bar Videocall)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "-17",
@@ -290,11 +290,11 @@
 
 		"Grip Bar Short Straight": {
 			"handle": "grip_bar_short_straight",
-			"label": "Grip Bar Short Straight                                      SGD10/pc",
+			"label": "Grip Bar Short Straight                                      SGD15/pc",
 			"orderLabel": "Piece (Grip Bar Short Straight)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "10",
+				"SGD": "15",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -312,11 +312,11 @@
 
 		"Grip Bar Long Straight": {
 			"handle": "grip_bar_long_straight",
-			"label": "Grip Bar Long Straight                                        SGD15/pc",
+			"label": "Grip Bar Long Straight                                        SGD20/pc",
 			"orderLabel": "Trip (Grip Bar Long Straight)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "15",
+				"SGD": "20",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -333,13 +333,13 @@
 
 
 		
-		"Grip Bar Bend": {
-				"handle": "grip_bar_bend",
-				"label": "Grip Bar Bend                                                      SGD30/pc",
-				"orderLabel": "Piece (Grip Bar Bend)",
+		"Grip Bar Angle Handrail": {
+				"handle": "grip_bar_angle_handrail",
+				"label": "Grip Bar Angle Handrail                                                     SGD38/pc",
+				"orderLabel": "Piece (Grip Bar Angle Handrail)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "38",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -356,11 +356,11 @@
 
 	"Grip Bar Bathroom Support": {
 				"handle": "grip_bar_bathroom_support",
-				"label": "Grip Bar Bathroom Support                                           SGD30/pc",
+				"label": "Grip Bar Bathroom Support                                           SGD40/pc",
 				"orderLabel": "Piece (Grip Bar Bathroom Support)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "40",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -377,11 +377,11 @@
 
 			"Grip Bar Bathroom Seat": {
 				"handle": "grip_bar_bathroom_seat",
-				"label": "Grip Bar Bathroom Seat                                           SGD70/pc",
+				"label": "Grip Bar Bathroom Seat                                           SGD88/pc",
 				"orderLabel": "Piece (Grip Bar Bathroom Seat)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "70",
+					"SGD": "88",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -398,11 +398,11 @@
 
 			"Grip Bar Install One Item": {
 				"handle": "grip_bar_install_one_item",
-				"label": "Install 1 Item                                            SGD15/pc",
+				"label": "Install 1 Item                                            SGD20/pc",
 				"orderLabel": "Piece (Install 1 Item)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "20",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -495,8 +495,8 @@
 
 		"Packages Videocall": {
 				"handle": "packages_sg_videocall",
-				"label": "Packages Videocall                                                    SGD3/call",
-				"orderLabel": "Call (Packages Videocall)",
+				"label": "Packages Inquiry Videocall                                                    SGD3/call",
+				"orderLabel": "Call (Packages Inquiry Videocall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "3",
@@ -549,7 +549,7 @@
 			"quantity": {
 				"label": "Card",
 				"min": 0,
-				"max": 10,
+				"max": 1,
 				"increment": 1,
 				"default": 0,
 				"base": 1
