@@ -269,8 +269,8 @@
 			
 		"Grip Bar Video Call": {
 			"handle": "grip_bar_videocall",
-			"label": "Grip Bar Videocall                                         SGD3/call                                          Waive Transport Fee",
-			"orderLabel": "Call (Grip Bar Videocall)",
+			"label": "Grip Bar Inquiry Videocall                                         SGD3/call                                          Waive Transport Fee",
+			"orderLabel": "Call (Grip Bar Inquiry Videocall)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "-17",
@@ -334,9 +334,9 @@
 
 		
 		"Grip Bar Angle Handrail": {
-				"handle": "grip_bar_angle_handrail",
-				"label": "Grip Bar Angle Handrail                                                     SGD40/pc",
-				"orderLabel": "Piece (Grip Bar Angle Handrail)",
+				"handle": "grip_bar_135_angle_handrail",
+				"label": "Grip Bar 135 Angle Handrail                                                     SGD40/pc",
+				"orderLabel": "Piece (Grip Bar 135 Angle Handrail)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
