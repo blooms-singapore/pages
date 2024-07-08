@@ -598,6 +598,128 @@
 
 
 
+
+
+
+
+
+
+	
+
+
+"mentoring": {
+		"name": "Mentoring",
+		"lastSlot": "15:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "100",
+			"MYR": "70",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+
+
+		"Packages Videocall": {
+				"handle": "packages_sg_videocall",
+				"label": "Packages Inquiry Videocall                                                    SGD3/call",
+				"orderLabel": "Call (Packages Inquiry Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "3",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
+		"Aircon Package": {
+			"handle": "packages_sg_aircon",
+			"label": "Packages Aircon Standard Wash                                         SGD25/unit                                             Waive Transport Fee",
+			"orderLabel": "Units (Packages Aircon Standard Wash)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "25",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Units",
+				"min": 0,
+				"max": 20,
+				"increment": 1,
+				"default": 9,
+				"base": 1
+			}
+		},
+
+
+		"AMK Member Discount": {
+			"handle": "packages_sg_amk_member",
+			"label": "Packages AMK Member                                      SGD100/Card",
+			"orderLabel": "Card (Packages AMK Member)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "100",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Card",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		}
+	},
+
+
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"HDB or Condo": {
+						"label": "Condo/HDB +SGD0",
+						"orderLabel": "Condo/HDB +SGD0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+
+					"Landed House": {
+						"label": "Landed Property",
+						"orderLabel": "Landed Property",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+
 	
 
 
