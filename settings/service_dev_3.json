@@ -603,37 +603,32 @@
 
 
 
-
-	
-
-
 "mentoring": {
 		"name": "Mentoring",
-		"lastSlot": "15:30",
+		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "100",
-			"MYR": "70",
-			"CNY": "20"
+			"SGD": "90",
+			"MYR": "80",
+			"CNY": "150"
 		},
 		"hasNote": 1,
 		"options": {
 
-
-		"Packages Videocall": {
-				"handle": "packages_sg_videocall",
-				"label": "Packages Inquiry Videocall                                                    SGD3/call",
-				"orderLabel": "Call (Packages Inquiry Videocall)",
+			"Paint mentor": {
+				"handle": "painting_mentor",
+				"label": "Painting Mentor                                                       SGD20/session",
+				"orderLabel": "Session (Painting Mentor)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "3",
+					"SGD": "20",
 					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Call",
+					"label": "Session",
 					"min": 0,
-					"max": 1,
+					"max": 2,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -641,58 +636,104 @@
 			},
 			
 			
-			
-		"Aircon Package": {
-			"handle": "packages_sg_aircon",
-			"label": "Packages Aircon Standard Wash                                         SGD25/unit                                             Waive Transport Fee",
-			"orderLabel": "Units (Packages Aircon Standard Wash)",
+		"Installation": {
+			"handle": "installation_mentor",
+			"label": "Installation Mentor                                         SGD20/session",
+			"orderLabel": "Session (Installation Mentor)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "25",
+				"SGD": "20",
 				"MYR": "30",
 				"CNY": "0"
 			},
 			"quantity": {
-				"label": "Units",
+				"label": "Session",
 				"min": 0,
-				"max": 20,
-				"increment": 1,
-				"default": 9,
-				"base": 1
-			}
-		},
-
-
-		"AMK Member Discount": {
-			"handle": "packages_sg_amk_member",
-			"label": "Packages AMK Member                                      SGD100/Card",
-			"orderLabel": "Card (Packages AMK Member)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "100",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Card",
-				"min": 0,
-				"max": 1,
+				"max": 2,
 				"increment": 1,
 				"default": 0,
 				"base": 1
 			}
-		}
-	},
+		},
+		
+			
+			
+			
+			
+		"Plumbing Mentor": {
+				"handle": "plumbing_mentor",
+				"label": "Plumbing Mentor                                                   SGD30/session",
+				"orderLabel": "Session (Plumbing Mentor)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "55",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Session",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+			
 
+			
+			"Tool Rent Self Collect": {
+				"handle": "tools_rent_selfcollect",
+				"label": "Tool Rent Self-Collect                                               SGD30/set",
+				"orderLabel": "Set (Tool Rent Self-Collect)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 2,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+				
+		"Tool Rent Delivery": {
+				"handle": "tools_rent_delivery",
+				"label": "Tool Rent Delivery                                        SGD60/set",
+				"orderLabel": "Set (Tool Rent Delivery)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "60",
+					"MYR": "70",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Set",
+					"min": 0,
+					"max": 2,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Peak Period?",
 				"description": "Label standard",
 				"values": {
-					"HDB or Condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+					"Weekdays": {
+						"label": "WeekDAYS +SGD0",
+						"orderLabel": "WeekDAYS +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -701,17 +742,23 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "10",
-							"CNY": "10"
+							"CNY": "25"
 						}
 					},
 
-					"Landed House": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+					"Weekends": {
+						"label": "WeekENDS +SGD20",
+						"orderLabel": "WeekENDS +SGD20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
+						},
+						
+					"oneOffCost": {
+						"SGD": "20",
+						"MYR": "10",
+						"CNY": "10"
 						}
 					}
 				}
@@ -719,320 +766,10 @@
 		}
 	},
 
-
 	
-
-
 	
-
-"brand": {
-		"name": "Service Support",
-		"lastSlot": "15:00",
-		"hasbrand" : "true",
-		"title": "Select Brand.",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "10",
-			"MYR": "100",
-			"CNY": "110"
-		},
-		"hasNote": 1,
-		"brands" : [
-			{
-				"name" : "RUBINE",
-				"photo" : "printer/brands/rubine.png",
-				"models" : [
-					{
-						"name" : "Water Heater",
-						"photo" : "printer/models/rubine-heater.png"
-					},
-										
-					{
-						"name" : "Fan",
-						"photo" : "printer/models/rubine-fan.png"
-					}
-				]
-			},
-			
-			{	
-				"name" : "KDK",
-				"photo" : "printer/brands/kdk.png",
-				"models" : [
-					{
-						"name" : "Fan",
-						"photo" : "printer/models/kdk-fan.png"
-					},
-					
-					{
-						"name" : "Others",
-						"photo" : "printer/models/others.png"
-					}
-				]
-			}
-		],
-		
-		"options": {
-
-					
-			"Rubine Water Heater Trouble Shoot": {
-				"handle": "rubine_troubleshoot",
-				"label": "Trouble Shoot - Water Heater",
-				"orderLabel": "Trouble Shoot - Water Heater",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-
-			"Rubine Water Heater Video Call": {
-				"handle": "rubine_videocall",
-				"label": "Video Call - Water Heater",
-				"orderLabel": "Video Call - Water Heater",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "65",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Call",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-		
-			
-			"Rubine Water Heater Warranty": {
-				"label": "Warranty                                                   Free Spare Parts",
-				"orderLabel": "Rubine Warranty",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-		
-			
-			"Rubine Water Heater No Warranty": {
-				"label": "No Warranty                                                     Per Quotation",
-				"orderLabel": "Rubine No Warranty",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-			"Rubine Water Heater Repair Confirmation": {
-				"label": "Repair Confirmation - Water Heater                                            Per Quotation",
-				"orderLabel": "Repair Confirmation - Water Heater",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-		          			
-
-			"Rubine Fan Video Call": {			
-				"label": "Video Call - Fan",
-				"orderLabel": "Video Call - Fan",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "0",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Call",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			"Rubine Fan trouble shoot": {
-				"label": "Trouble Shoot - Fan",
-				"orderLabel": "Trouble Shoot - Fan",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-		
-			"Rubine Fan Warranty": {
-				"label": "Warranty                                                         Free Spare Parts",
-				"orderLabel": "Rubine Warranty",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
-		"Rubine Fan No Warranty": {
-				"label": "No Warranty                                               Per Quotation",
-				"orderLabel": "Rubine No Warranty",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-			
-
-			"Rubine Fan Repair Confirmation": {
-				"label": "Repair Confirmation - Fan                                            Per Quotation",
-				"orderLabel": "Repair Confirmation - Fan",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			}
-		},
-
 	
-			
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"HDB/Condo": {
-						"label": "HDB/Condo +SGD0",
-						"orderLabel": "HDB/Condo +SGD0",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "0"
-						}
-					},
-					"Landed": {
-						"label": "Landed Property +SGD0",
-						"orderLabel": "HDB/Condo +SGD0",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-
-
-
+	
 	
 
 
@@ -3276,125 +3013,273 @@
 
 
 
+
+
+
 	
 
 	
-"mentoring": {
-		"name": "Mentoring",
-		"lastSlot": "16:30",
-		"disableLocations": ["Singapore"],
+
+	
+"brand": {
+		"name": "Service Support",
+		"lastSlot": "15:00",
+		"hasbrand" : "true",
+		"title": "Select Brand.",
+		"disableLocations": [],
 		"startPrice": {
-			"SGD": "90",
-			"MYR": "80",
-			"CNY": "150"
+			"SGD": "10",
+			"MYR": "100",
+			"CNY": "110"
 		},
 		"hasNote": 1,
+		"brands" : [
+			{
+				"name" : "RUBINE",
+				"photo" : "printer/brands/rubine.png",
+				"models" : [
+					{
+						"name" : "Water Heater",
+						"photo" : "printer/models/rubine-heater.png"
+					},
+										
+					{
+						"name" : "Fan",
+						"photo" : "printer/models/rubine-fan.png"
+					}
+				]
+			},
+			
+			{	
+				"name" : "KDK",
+				"photo" : "printer/brands/kdk.png",
+				"models" : [
+					{
+						"name" : "Fan",
+						"photo" : "printer/models/kdk-fan.png"
+					},
+					
+					{
+						"name" : "Others",
+						"photo" : "printer/models/others.png"
+					}
+				]
+			}
+		],
+		
 		"options": {
 
-			"Paint mentor": {
-				"handle": "painting_mentor",
-				"label": "Painting Mentor                                                       SGD20/session",
-				"orderLabel": "Session (Painting Mentor)",
+					
+			"Rubine Water Heater Trouble Shoot": {
+				"handle": "rubine_troubleshoot",
+				"label": "Trouble Shoot - Water Heater",
+				"orderLabel": "Trouble Shoot - Water Heater",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "30",
+					"SGD": "45",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Session",
+					"label": "Trip",
 					"min": 0,
-					"max": 2,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+
+			"Rubine Water Heater Video Call": {
+				"handle": "rubine_videocall",
+				"label": "Video Call - Water Heater",
+				"orderLabel": "Video Call - Water Heater",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
 			},
 			
-			
-		"Installation": {
-			"handle": "installation_mentor",
-			"label": "Installation Mentor                                         SGD20/session",
-			"orderLabel": "Session (Installation Mentor)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "20",
-				"MYR": "30",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Session",
-				"min": 0,
-				"max": 2,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
 		
 			
-			
-			
-			
-		"Plumbing Mentor": {
-				"handle": "plumbing_mentor",
-				"label": "Plumbing Mentor                                                   SGD30/session",
-				"orderLabel": "Session (Plumbing Mentor)",
+			"Rubine Water Heater Warranty": {
+				"label": "Warranty                                                   Free Spare Parts",
+				"orderLabel": "Rubine Warranty",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "55",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Session",
+					"label": "Status",
 					"min": 0,
-					"max": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
 			},
+		
 			
-			
-			
-
-			
-			"Tool Rent Self Collect": {
-				"handle": "tools_rent_selfcollect",
-				"label": "Tool Rent Self-Collect                                               SGD30/set",
-				"orderLabel": "Set (Tool Rent Self-Collect)",
+			"Rubine Water Heater No Warranty": {
+				"label": "No Warranty                                                     Per Quotation",
+				"orderLabel": "Rubine No Warranty",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "70",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Set",
+					"label": "Status",
 					"min": 0,
-					"max": 2,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
 				}
 			},
 
-				
-		"Tool Rent Delivery": {
-				"handle": "tools_rent_delivery",
-				"label": "Tool Rent Delivery                                        SGD60/set",
-				"orderLabel": "Set (Tool Rent Delivery)",
+
+
+			"Rubine Water Heater Repair Confirmation": {
+				"label": "Repair Confirmation - Water Heater                                            Per Quotation",
+				"orderLabel": "Repair Confirmation - Water Heater",
+				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
-					"MYR": "70",
+					"SGD": "0",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Set",
+					"label": "Status",
 					"min": 0,
-					"max": 2,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+		          			
+
+			"Rubine Fan Video Call": {			
+				"label": "Video Call - Fan",
+				"orderLabel": "Video Call - Fan",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "0",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			"Rubine Fan trouble shoot": {
+				"label": "Trouble Shoot - Fan",
+				"orderLabel": "Trouble Shoot - Fan",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "45",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+		
+			"Rubine Fan Warranty": {
+				"label": "Warranty                                                         Free Spare Parts",
+				"orderLabel": "Rubine Warranty",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+		"Rubine Fan No Warranty": {
+				"label": "No Warranty                                               Per Quotation",
+				"orderLabel": "Rubine No Warranty",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "30"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+			
+
+			"Rubine Fan Repair Confirmation": {
+				"label": "Repair Confirmation - Fan                                            Per Quotation",
+				"orderLabel": "Repair Confirmation - Fan",
+				"type" : "Fan",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Status",
+					"min": 0,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -3402,14 +3287,16 @@
 			}
 		},
 
+	
+			
 		"types": {
 			"house": {
-				"label": "Peak Period?",
+				"label": "House Type",
 				"description": "Label standard",
 				"values": {
-					"Weekdays": {
-						"label": "WeekDAYS +SGD0",
-						"orderLabel": "WeekDAYS +SGD0",
+					"HDB/Condo": {
+						"label": "HDB/Condo +SGD0",
+						"orderLabel": "HDB/Condo +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3418,23 +3305,21 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "10",
-							"CNY": "25"
+							"CNY": "0"
 						}
 					},
-
-					"Weekends": {
-						"label": "WeekENDS +SGD20",
-						"orderLabel": "WeekENDS +SGD20",
+					"Landed": {
+						"label": "Landed Property +SGD0",
+						"orderLabel": "HDB/Condo +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
-						
-					"oneOffCost": {
-						"SGD": "20",
-						"MYR": "10",
-						"CNY": "10"
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
 						}
 					}
 				}
@@ -3442,9 +3327,10 @@
 		}
 	},
 
-	
-	
-	
+
+
+
+
 	
 	
 	
