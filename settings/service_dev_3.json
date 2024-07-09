@@ -615,13 +615,13 @@
 		"hasNote": 1,
 		"options": {
 
-			"Paint Mentor": {
+			"Painting Mentor": {
 				"handle": "painting_mentor",
-				"label": "Painting Mentor                                                       SGD20/session",
+				"label": "Painting Mentor                                                       SGD25/session",
 				"orderLabel": "Session (Painting Mentor)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "25",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -638,11 +638,11 @@
 			
 		"Installation Mentor": {
 			"handle": "installation_mentor",
-			"label": "Installation Mentor                                         SGD20/session",
+			"label": "Installation Mentor                                         SGD25/session",
 			"orderLabel": "Session (Installation Mentor)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "20",
+				"SGD": "25",
 				"MYR": "30",
 				"CNY": "0"
 			},
@@ -662,11 +662,11 @@
 			
 		"Plumbing Mentor": {
 				"handle": "plumbing_mentor",
-				"label": "Plumbing Mentor                                                   SGD30/session",
+				"label": "Plumbing Mentor                                                   SGD25/session",
 				"orderLabel": "Session (Plumbing Mentor)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "25",
 					"MYR": "55",
 					"CNY": "0"
 				},
@@ -686,8 +686,8 @@
 			
 			"Tool Rent Self Collect": {
 				"handle": "tools_rent_selfcollect",
-				"label": "Tool Rent Self-Collect                                               SGD30/set",
-				"orderLabel": "Set (Tool Rent Self-Collect)",
+				"label": "Tools Rent Self-Collect                                               SGD30/set",
+				"orderLabel": "Set (Tools Rent Self-Collect)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
@@ -707,8 +707,8 @@
 				
 		"Tool Rent Delivery": {
 				"handle": "tools_rent_delivery",
-				"label": "Tool Rent Delivery                                        SGD60/set",
-				"orderLabel": "Set (Tool Rent Delivery)",
+				"label": "Tools Rent Delivery                                        SGD60/set",
+				"orderLabel": "Set (Tools Rent Delivery)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
