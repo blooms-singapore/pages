@@ -606,9 +606,9 @@
 "mentoring": {
 		"name": "Mentoring",
 		"lastSlot": "16:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
-			"SGD": "90",
+			"SGD": "55",
 			"MYR": "80",
 			"CNY": "150"
 		},
