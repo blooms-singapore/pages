@@ -681,29 +681,6 @@
 			
 			
 			
-			
-		"Plumbing Mentor": {
-				"handle": "plumbing_mentor",
-				"label": "Plumbing Mentor                                                   SGD25/session",
-				"orderLabel": "Session (Plumbing Mentor)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "55",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Session",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			
 
 			
 			"Tool Rent Self Collect": {
