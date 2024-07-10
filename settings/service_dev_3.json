@@ -695,7 +695,7 @@
 				"quantity": {
 					"label": "Set",
 					"min": 0,
-					"max": 2,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
@@ -716,7 +716,7 @@
 				"quantity": {
 					"label": "Set",
 					"min": 0,
-					"max": 2,
+					"max": 1,
 					"increment": 1,
 					"default": 0,
 					"base": 1
