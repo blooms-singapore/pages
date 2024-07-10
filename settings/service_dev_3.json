@@ -635,28 +635,7 @@
 				}
 			},
 
-			
-
-			"Painting Mentor": {
-				"handle": "painting_mentor",
-				"label": "Painting Mentor                                                       SGD25/session",
-				"orderLabel": "Session (Painting Mentor)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "25",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Session",
-					"min": 0,
-					"max": 2,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
+					
 			
 		"Installation Mentor": {
 			"handle": "installation_mentor",
@@ -678,6 +657,27 @@
 			}
 		},
 		
+			
+
+	"Painting Mentor": {
+				"handle": "painting_mentor",
+				"label": "Painting Mentor                                                       SGD25/session",
+				"orderLabel": "Session (Painting Mentor)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "25",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Session",
+					"min": 0,
+					"max": 2,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
 			
 			
 			
