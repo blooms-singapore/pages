@@ -639,7 +639,7 @@
 			
 		"Installation Mentor": {
 			"handle": "installation_mentor",
-			"label": "Installation Mentor                                         SGD35/session",
+			"label": "Installation Mentor                                         SGD25/session",
 			"orderLabel": "Session (Installation Mentor)",
 			"description": "Label standard",
 			"cost": {
@@ -680,30 +680,6 @@
 			},
 
 
-
-		"Plumbing Mentor": {
-				"handle": "plumbing_mentor",
-				"label": "Plumbing Mentor                                                       SGD35/session",
-				"orderLabel": "Session (Plumbing Mentor)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Session",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
-			
-			
 
 			
 			"Tool Rent Self Collect": {
