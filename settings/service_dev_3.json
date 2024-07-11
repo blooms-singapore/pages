@@ -1338,7 +1338,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 2,
+					"default": 3,
 					"base": 1
 				}
 			},
@@ -1361,7 +1361,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 2,
+					"default": 3,
 					"base": 1
 				}
 			},
