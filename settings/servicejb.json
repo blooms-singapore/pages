@@ -1264,7 +1264,7 @@
 	"roof": {
 		"name": "Roof",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "30",
@@ -1569,7 +1569,7 @@
 	"renovation": {
 		"name": "Retrofit & Renovate (C)",
 		"lastSlot": "15:30",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "30",
@@ -2235,7 +2235,7 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
@@ -2638,7 +2638,7 @@
 	"tiling": {
 		"name": "Tiling & Concrete",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "45.5",
 			"MYR": "210",
@@ -3588,7 +3588,7 @@
 	"door-window": {
 		"name": "Door & Window",
 		"lastSlot": "15:00",
-		"disableLocations": [],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "60",
 			"MYR": "90",
