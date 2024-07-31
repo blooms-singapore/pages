@@ -722,6 +722,185 @@
 	
 	
 	
+	"carpentry": {
+		"name": "Carpentry",
+		"lastSlot": "15:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "0",
+			"MYR": "70",
+			"CNY": "20"
+		},
+		"hasNote": 1,
+		"options": {
+			"Carpentry Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Carpentry Transport Fee                                                    RM30/trip",
+				"orderLabel": "Trip (Carpentry Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+		"Carpentry Video Call": {
+			"handle": "carpentry_sg_videocall",
+			"label": "Carpentry Video Call                                         MYR5/call                                                  Waive Transport Fee",
+			"orderLabel": "Call (Carpentry Video Call)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "-15",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
+		"1 Carpenter": {
+			"handle": "carpentry_sg_service_1carpenter",
+			"label": "1 Carpenter                                            RM150/hr",
+			"orderLabel": "Hour (1 Carpenter)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "80",
+				"MYR": "150",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 3,
+				"increment": 0.5,
+				"default": 1,
+				"base": 1
+			}
+		},
+
+
+
+		"2 Carpenters": {
+			"handle": "carpentry_sg_service_2carpenters",
+			"label": "2 Carpenters                                                  RM300/hr",
+			"orderLabel": "Hour (2 Carpenters)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "300",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Hour",
+				"min": 0,
+				"max": 3,
+				"increment": 0.5,
+				"default": 1,
+				"base": 1
+			}
+		},
+
+
+
+		
+		"Carpentry Site Survey": {
+				"handle": "carpentry_survey",
+				"label": "Carpentry Site Survey                                                   RM20/trip",
+				"orderLabel": "Trip (Carpentry Site Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+	"Carpentry Lumpsum Confirmation": {
+				"handle": "carpentry_sg_confirmation",
+				"label": "Carpentry Lumpsum Confirmation                                                         Per Quotation",
+				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "-20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			}
+		},
+
+
+		"types": {
+			"house": {
+				"label": "House Type",
+				"description": "Label standard",
+				"values": {
+					"HDB or Condo": {
+						"label": "Condo/HDB +RM",
+						"orderLabel": "Condo/HDB +RM10",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "10",
+							"CNY": "10"
+						}
+					},
+
+					"Landed House": {
+						"label": "Landed Property +RM0",
+						"orderLabel": "Landed Property +RM0",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+
+
+
+
+
 	
 
 	
@@ -2080,7 +2259,7 @@
 		"options": {
 			"ik900": {
 				"handle": "clean_water_ik900",
-				"label": "IK900                                                             RM1600/Set",
+				"label": "IK900                                                             RM1600/set",
 				"orderLabel": "Set (IK900)",
 				"description": "Label standard",
 				"cost": {
@@ -2102,7 +2281,7 @@
 			
 		"Filter 1 Sediment": {
 				"handle": "clean_water_filter1",
-				"label": "Filter 1 Sediment & Pre-Carbon                                                    RM88/Unit",
+				"label": "Filter 1 Sediment & Pre-Carbon                                                    RM88/unit",
 				"orderLabel": "Unit (Filter 1 Sediment & Pre-Carbon)",
 				"description": "Label standard",
 				"cost": {
@@ -2124,7 +2303,7 @@
 			
 		"Filter 2 UF Membrane": {
 				"handle": "clean_water_filter2",
-				"label": "Filter 2 UF Membrane                                                         RM168/Unit",
+				"label": "Filter 2 UF Membrane                                                         RM168/unit",
 				"orderLabel": "Unit (Filter 2 UF Membrane)",
 				"description": "Label standard",
 				"cost": {
@@ -2146,7 +2325,7 @@
 				
 		"Filter 3 AG": {
 				"handle": "clean_water_filter3",
-				"label": "Filter 3 Alkaline & Nano Silver AG+                                                RM288/Unit",
+				"label": "Filter 3 Alkaline & Nano Silver AG+                                                RM288/unit",
 				"orderLabel": "Unit (Alkaline & Filter 3 Nano-Silver AG+)",
 				"description": "Label standard",
 				"cost": {
@@ -2168,7 +2347,7 @@
 		
 			"Survey": {
 				"handle": "clean_water_survey",
-				"label": "Clean Water Survey                                                         RM30/Trip",
+				"label": "Clean Water Survey                                                         RM30/trip",
 				"orderLabel": "Trip (Clean Water Survey)",
 				"description": "Label standard",
 				"cost": {
