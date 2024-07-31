@@ -755,7 +755,7 @@
 			
 			
 		"Carpentry Video Call": {
-			"handle": "carpentry_sg_videocall",
+			"handle": "carpentry_jb_videocall",
 			"label": "Carpentry Video Call                                         MYR5/call                                                  Waive Transport Fee",
 			"orderLabel": "Call (Carpentry Video Call)",
 			"description": "Label standard",
@@ -776,7 +776,7 @@
 
 
 		"1 Carpenter": {
-			"handle": "carpentry_sg_service_1carpenter",
+			"handle": "carpentry_jb_service_1carpenter",
 			"label": "1 Carpenter                                            RM150/hr",
 			"orderLabel": "Hour (1 Carpenter)",
 			"description": "Label standard",
@@ -798,7 +798,7 @@
 
 
 		"2 Carpenters": {
-			"handle": "carpentry_sg_service_2carpenters",
+			"handle": "carpentry_jb_service_2carpenters",
 			"label": "2 Carpenters                                                  RM300/hr",
 			"orderLabel": "Hour (2 Carpenters)",
 			"description": "Label standard",
@@ -842,7 +842,7 @@
 
 
 	"Carpentry Lumpsum Confirmation": {
-				"handle": "carpentry_sg_confirmation",
+				"handle": "carpentry_jb_confirmation",
 				"label": "Carpentry Lumpsum Confirmation                                                         Per Quotation",
 				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
 				"description": "Label standard",
@@ -869,8 +869,8 @@
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "Condo/HDB +RM",
-						"orderLabel": "Condo/HDB +RM10",
+						"label": "Condo/Office +RM10",
+						"orderLabel": "Condo/Office +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
