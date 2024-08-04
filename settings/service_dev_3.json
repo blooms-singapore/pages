@@ -1372,11 +1372,11 @@
 			
 			"Chemical Overhaul Wall Mount": {
 				"handle": "aircon_overhaul_wallmount",
-				"label": "Chemical Overhaul - Wall Mount                                          SGD100/unit                                      Up to 18K Btu",
+				"label": "Chemical Overhaul - Wall Mount                                          SGD150/unit                                      Up to 18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul - Wall Mount)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "100",
+					"SGD": "150",
 					"MYR": "130",
 					"CNY": "300"
 				},
