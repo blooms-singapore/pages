@@ -3356,7 +3356,7 @@
 	"lights-sg": {
 		"name": "Lights & More",
 		"lastSlot": "15:30",
-		"disableLocations": ["Singapore"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "100",
 			"MYR": "70",
