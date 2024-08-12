@@ -778,7 +778,7 @@
 	
 "carpentry-sg": {
 		"name": "Carpentry",
-		"lastSlot": "15:30",
+		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "100",
