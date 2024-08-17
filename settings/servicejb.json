@@ -1118,7 +1118,7 @@
 				}
 			},
 
-		"Washing Machine Side Load": {
+		"Washing Machine Front Load": {
 				"handle": "washing_machine_maintenance_sideload",
 				"label": "Side Load Wash                                               RM380-450/unit",
 				"orderLabel": "Unit (Side Load Wash)",
@@ -1161,7 +1161,7 @@
 					},
 					
 					"Side Loading": {
-						"label": "Side Loading +RM30",
+						"label": "Front Loading +RM30",
 						"orderLabel": "Side Loading +RM30",
 						"cost": {
 							"SGD": "0",
