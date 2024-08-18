@@ -997,7 +997,7 @@
 			
 		"Washing Machine HookUp Existing Utility": {
 				"handle": "washing_machine_existing_utility",
-				"label": "Hookup with Existing Utilities                                             RM40/unit",
+				"label": "Hookup with Existing Utilities                                                 RM40/unit",
 				"orderLabel": "Unit (Hook Up with Existing Utilities)",
 				"description": "Label standard",
 				"cost": {
