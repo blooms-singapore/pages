@@ -1040,28 +1040,8 @@
 
 		"Washing Machine Top Load 7 to 10Kg": {
 				"handle": "washing_machine_maintenance_10",
-				"label": "Top Load Wash 7-10KG                                                RM180/unit",
+				"label": "Top Load Wash 7-10KG                                                RM200/unit",
 				"orderLabel": "Unit (Top Load Wash 7-10KG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "180",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-		 "Washing Machine Top Load 11 to 14Kg": {
-				"handle": "washing_machine_maintenance_14",
-				"label": "Top Load Wash 11-14KG                                                RM200/unit",
-				"orderLabel": "Unit (Top Load Wash 11-14KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1078,14 +1058,34 @@
 				}
 			},
 
+		 "Washing Machine Top Load 11 to 14Kg": {
+				"handle": "washing_machine_maintenance_14",
+				"label": "Top Load Wash 11-14KG                                                RM250/unit",
+				"orderLabel": "Unit (Top Load Wash 11-14KG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "250",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
 		"Washing Machine Top Load 15 to 18Kg": {
 				"handle": "washing_machine_maintenance_18",
-				"label": "Top Load Wash 15-18KG                                                RM220/unit",
+				"label": "Top Load Wash 15-18KG                                                RM300/unit",
 				"orderLabel": "Unit (Top Load Wash 15-18KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "220",
+					"MYR": "300",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1100,12 +1100,12 @@
 
 		"Washing Machine Top Load 19 to 22Kg": {
 				"handle": "washing_machine_maintenance_22",
-				"label": "Top Load Wash 19-22KG                                                RM240/unit",
+				"label": "Top Load Wash 19-22KG                                                RM350/unit",
 				"orderLabel": "Unit (Top Load Wash 19-22KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "240",
+					"MYR": "350",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1120,8 +1120,8 @@
 
 		"Washing Machine Front Load": {
 				"handle": "washing_machine_maintenance_sideload",
-				"label": "Side Load Wash                                               RM380-450/unit",
-				"orderLabel": "Unit (Side Load Wash)",
+				"label": "Front Load Wash                                               RM380-450/unit",
+				"orderLabel": "Unit (Front Load Wash)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1142,12 +1142,12 @@
 				
 	    "types": {
 			"house": {
-				"label": "Machine Type",
+				"label": "Week-DAYS or Week-ENDS",
 				"description": "Label standard",
 				"values": {
 					"Top Loading": {
-						"label": "Top Loading",
-						"orderLabel": "Top Load",
+						"label": "Week-DAYS",
+						"orderLabel": "Week-DAYS",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1160,9 +1160,9 @@
 						}
 					},
 					
-					"Side Loading": {
-						"label": "Front Loading +RM30",
-						"orderLabel": "Side Loading +RM30",
+					"Front Loading": {
+						"label": "Week-ENDS +RM30",
+						"orderLabel": "Week-ENDS +RM30",
 						"cost": {
 							"SGD": "0",
 							"MYR": "30",
