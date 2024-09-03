@@ -3362,7 +3362,7 @@
 	"locksmith-sg": {
 		"name": "Locksmith",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "80",
 			"MYR": "80",
