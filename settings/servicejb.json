@@ -1679,12 +1679,12 @@
 									
 			"Daily Rate": {
 				"handle": "painting_day",
-				"label": "1 Crew Daily Rate                                            RM370/day                                          10am to 6pm",
+				"label": "1 Crew Daily Rate                                            RM220/day                                          10am to 6pm",
 				"orderLabel": "Day (1 Crew Daily Rate)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
-					"MYR": "370",
+					"MYR": "220",
 					"CNY": "0"
 				},
 				"quantity": {
