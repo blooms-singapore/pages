@@ -1748,7 +1748,7 @@
 	"renovation": {
 		"name": "Retrofit & Renovate (C)",
 		"lastSlot": "15:30",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "20",
 			"MYR": "30",
