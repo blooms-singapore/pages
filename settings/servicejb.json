@@ -392,7 +392,7 @@
 
 	
 	"aircon": {
-		"name": "Aircon Works (C)",
+		"name": "Aircon Works",
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
@@ -659,6 +659,29 @@
 				"cost": {
 					"SGD": "10",
 					"MYR": "400",
+					"CNY": "260"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+			
+
+			"Compressor Wash": {
+				"handle": "aircon_compressor_wash",
+				"label": "Compressor Wash                                               RM100/unit",
+				"orderLabel": "Unit (Compressor Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "10",
+					"MYR": "100",
 					"CNY": "260"
 				},
 				"quantity": {
