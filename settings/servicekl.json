@@ -1620,8 +1620,8 @@
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+						"label": "Landed Property +RM20",
+						"orderLabel": "Landed Property +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1629,13 +1629,13 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "20",
 							"CNY": "10"
 						}
 					},
 					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+						"label": "Condo/Apt",
+						"orderLabel": "Condo/Apt",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
