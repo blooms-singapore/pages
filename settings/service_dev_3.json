@@ -2664,12 +2664,12 @@
 
 
 			"Tiling Videocall": {
-				"handle": "tiling_videocall",
-				"label": "Tiling Videocall                                                           SGD3/call                                                         Waive Transport Fee",
+				"handle": "tiling_sg_videocall",
+				"label": "Tiling Videocall                                                           SGD2/call                                                         Waive Transport Fee",
 				"orderLabel": "Call (Tiling Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-17",
+					"SGD": "-18",
 					"MYR": "0",
 					"CNY": "50"
 				},
