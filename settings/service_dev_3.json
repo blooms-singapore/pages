@@ -712,8 +712,8 @@
 
 
 				"Grip Bar Install": {
-				"handle": "grip_bar_install_multiple_items",
-				"label": "Install                                         SGD60/hr",
+				"handle": "grip_bar_install,
+				"label": "Install                                           SGD60/hr",
 				"orderLabel": "Hour (Install)",
 				"description": "Label standard",
 				"cost": {
