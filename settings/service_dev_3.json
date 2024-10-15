@@ -1504,27 +1504,7 @@
 		"hasNote": 1,
 		"options": {
 
-         	    "Side Load": {
-				"handle": "washing_machine_sg_side_load",
-				"label": "Side Load                                               SGD20/unit",
-				"orderLabel": "Unit (Side Load)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},		
-			
-
+         	 
 			"Transport & Trouble-Shoot": {
 				"handle": "washing_machine_sg_transport_troubleshoot",
 				"label": "Transport & Trouble-Shoot                                               SGD40/trip",
@@ -1666,8 +1646,8 @@
 				"description": "Label standard",
 				"values": {
 					"Top Loading": {
-						"label": "Top Loading +SGD0",
-						"orderLabel": "Top Loading +SGD0",
+						"label": "Top Load +SGD0",
+						"orderLabel": "Top Load +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1680,8 +1660,8 @@
 						}
 					},
 					"Side Loading": {
-						"label": "Side Loading +SGD20",
-						"orderLabel": "Side Loading + SGD20",
+						"label": "Side Load +SGD20",
+						"orderLabel": "Side Load + SGD20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
