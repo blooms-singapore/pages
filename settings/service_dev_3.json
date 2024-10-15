@@ -3738,8 +3738,8 @@
 		},
 
 		"Project Confirmation": {
-			"handle": "others_project",
-			"label": "Retrofit/Renovation Lumpsum Work Confirmation                                             Per Quotation",
+			"handle": "retrofit_sg_lumpsum_confirmation",
+			"label": "Retrofit/Renovation Lumpsum Work Confirmation                                             Per Quote",
 			"orderLabel": "Job (Retrofit/Renovation Lumpsum Work Confirmation)",
 			"description": "Label standard",
 			"cost": {
