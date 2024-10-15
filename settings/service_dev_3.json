@@ -711,31 +711,10 @@
 			},
 
 
-			"Grip Bar Install One Item": {
-				"handle": "grip_bar_install_one_item",
-				"label": "Install 1 Item                                            SGD20/pc",
-				"orderLabel": "Piece (Install 1 Item)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Piece",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-		"Grip Bar Install Multiple Items": {
+				"Grip Bar Install": {
 				"handle": "grip_bar_install_multiple_items",
-				"label": "Install Multiple Items                                         SGD60/hr",
-				"orderLabel": "Hour (Install Multiple Items)",
+				"label": "Install                                         SGD60/hr",
+				"orderLabel": "Hour (Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
