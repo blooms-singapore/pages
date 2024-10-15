@@ -1506,16 +1506,37 @@
 
 			"Transport & Trouble-Shoot": {
 				"handle": "washing_machine_sg_transport_troubleshoot",
-				"label": "Transport & Trouble-Shoot                                               SGD45/trip",
+				"label": "Transport & Trouble-Shoot                                               SGD40/trip",
 				"orderLabel": "Trip (Transport & Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "40",
 					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+			"WM Videocall": {
+				"handle": "washing_machine_sg_videocall",
+				"label": "Washing Machine Videocall                                               SGD2/call",
+				"orderLabel": "Call (Washing Machine Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "-38",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
