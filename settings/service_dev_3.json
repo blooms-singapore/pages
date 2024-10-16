@@ -1708,8 +1708,8 @@
 
 		"Standard Clean Condo & HDB": {
 			"handle": "cleaning_sg_condo_hdb",
-			"label": "1 Crew - Condo/HDB. Standard Clean                                       SGD22/hr/crew                                        Min 3hrs",
-			"orderLabel": "Hours (1 Crew - Condo/HDB)",
+			"label": "Standard Clean - HDB/Condo                                      SGD22/hr/crew                                        min 3hrs",
+			"orderLabel": "Hours (Standard Clean - HDB/Condo)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "22",
@@ -1730,8 +1730,8 @@
 
 		"Standard Clean Landed Property": {
 			"handle": "cleaning_sg_landed_property",
-			"label": "1 Crew - Landed Property. Standard Clean                                        SGD22/hr/crew                                             Min 5hrs",
-			"orderLabel": "Hours (1 Crew - Landed Property. Standard Clean)",
+			"label": "Standard Clean - Landed                                   SGD22/hr/crew                                             min 5hrs",
+			"orderLabel": "Hours (Standard Clean - Landed)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "22",
@@ -1750,8 +1750,8 @@
 
 		"Festive Clean Condo & HDB": {
 			"handle": "cleaning_sg_festive_condo_hdb",
-			"label": "1 Crew - Condo/HDB. Festive Clean                                        SGD25/hr/crew                                        Min 4hrs",
-			"orderLabel": "Hours (1 Crew - Condo/HDB. Festive Clean)",
+			"label": "Festive Clean - HDB/Condo                                      SGD25/hr/crew                                        min 4hrs",
+			"orderLabel": "Hours (Festive Clean - HDB/Condo)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "25",
@@ -1772,8 +1772,8 @@
 
 		"Festive Clean Landed Property": {
 			"handle": "cleaning_sg_festive_landed_property",
-			"label": "1 Crew - Landed Property. Festive Clean                                        SGD25/hr/crew                                             Min 6hrs",
-			"orderLabel": "Hours (1 Crew - Landed Property. Festive Clean)",
+			"label": "Festive Clean - Landed                                     SGD25/hr/crew                                             min 6hrs",
+			"orderLabel": "Hours (Festive Clean - Landed)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "25",
