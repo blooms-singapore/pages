@@ -28,6 +28,7 @@ layout: service
        <th><b>Misc Project<br>Lumpsum</b><br>Labour + Paint</th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
+<!--Require Quote-->
     </thead>
     <tbody>
         <tr>
@@ -37,7 +38,7 @@ layout: service
      
        <tr>
        <td>Video Call<br>Refer FAQ</td>
-       <td>3.0/call</td>
+       <td>2.0/call</td>
       </tr>
      
       <tr>
@@ -47,15 +48,44 @@ layout: service
      
        <tr>
        <td>Paint Project<br>Lumpsum Confirmation</td>
-       <td>Per<br>Quotation</td>
+       <td>Per<br>Quote</td>
       </tr>
+
+<!--Time Charge Rate-->
+     <thead>
+      <tr>
+       <th><b>1 Crew<br>Time-Charge Service</b><br>Labour Only</th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Hourly Rate<br>Min 2.5 hrs</td>
+        <td>${params.painting_sg_hourly}/hr</td>
+      </tr>
+     
+     <tr>
+       <td>1 Painter<br>Daily Rate</td>
+       <td>${params.one_painter_sg_daily}/day</td>
+      </tr>
+
+        <tr>
+       <td>2 Painters<br>Daily Rate</td>
+       <td>${params.two_painters_sg_daily}/day</td>
+      </tr>
+
+      <tr>
+       <td>Paint<br>Picking Fee<br>Refer FAQ</td>
+       <td>${params.painting_sg_picking_fee}/trip</td>
+      </tr>
+    </tbody>
       
  
       
-       <!--HDB Labour Only-->
+       <!--Lumpsum HDB Labour Only-->
      <thead>
        <tr>
-         <th><b>Economical HDB<br>Lumpsum</b><br>Labour Only<br><b>FAQ & 9</b></th>
+         <th><b>Economical HDB<br>Lumpsum</b><br>Labour Only<br><b>FAQ 10</b></th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
     </thead>
@@ -81,33 +111,7 @@ layout: service
       </tr>
       
    
-    <thead>
-      <tr>
-       <th><b>1 Crew<br>Time-Charge Service<br>Weekdays</b><br>Labour Only</th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-        <td>Hourly Rate<br>Min 2.5 hrs</td>
-        <td>${params.painting_sg_hourly}/hr</td>
-      </tr>
-     
-     <tr>
-       <td>1 Painter<br>Daily Rate</td>
-       <td>${params.one_painter_sg_daily}/day</td>
-      </tr>
 
-        <tr>
-       <td>2 Painters<br>Daily Rate</td>
-       <td>${params.two_painters_sg_daily}/day</td>
-      </tr>
-
-      <tr>
-       <td>Paint<br>Picking Fee<br>Refer FAQ</td>
-       <td>${params.painting_sg_picking_fee}/trip</td>
-      </tr>
-    </tbody>
          
      <thead>
       <tr>
