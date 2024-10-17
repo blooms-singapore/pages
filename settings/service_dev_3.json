@@ -1994,7 +1994,7 @@
 			
 			"2 Painters Daily Rate": {
 				"handle": "two_painters_sg_daily",
-				"label": "2 Painters Daily Rate                                       SGD280/day                               10am to 5pm",
+				"label": "2 Painters Daily Rate                                       SGD300/day                               10am to 5pm",
 				"orderLabel": "Day (2 Painters Daily Rate)",
 				"description": "Label standard",
 				"cost": {
