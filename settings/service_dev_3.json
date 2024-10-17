@@ -2132,8 +2132,8 @@
 
 			"Painting Hourly Rate": {
 				"handle": "painting_sg_hourly",
-				"label": "1 Crew Hourly Rate                                            SGD40/hr                              Min 2.5hrs",
-				"orderLabel": "Hour (1 Crew Hourly Rate)",
+				"label": "1 Painter Hourly Rate                                            SGD40/hr                              Min 2.5hrs",
+				"orderLabel": "Hour (1 Painter Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
@@ -2156,11 +2156,11 @@
 
 			"1 Painter Daily Rate": {
 				"handle": "one_painter_sg_daily",
-				"label": "1 Painter Daily Rate                                   SGD150/day                                   10am to 5pm",
+				"label": "1 Painter Daily Rate                                   SGD130/day                                   10am to 5pm",
 				"orderLabel": "Day (1 Painter Daily Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "150",
+					"SGD": "130",
 					"MYR": "350",
 					"CNY": "0"
 				},
@@ -2177,11 +2177,11 @@
 			
 			"2 Painters Daily Rate": {
 				"handle": "two_painters_sg_daily",
-				"label": "2 Painters Daily Rate                                       SGD300/day                               10am to 5pm",
+				"label": "2 Painters Daily Rate                                       SGD280/day                               10am to 5pm",
 				"orderLabel": "Day (2 Painters Daily Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "300",
+					"SGD": "280",
 					"MYR": "350",
 					"CNY": "0"
 				},
