@@ -1949,11 +1949,11 @@
 
 			"Painting Hourly Rate": {
 				"handle": "painting_sg_hourly",
-				"label": "1 Painter Hourly Rate                                            SGD40/hr                              Min 1.5hrs",
+				"label": "1 Painter Hourly Rate                                            SGD30/hr                              Min 2hrs",
 				"orderLabel": "Hour (1 Painter Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "40",
+					"SGD": "30",
 					"MYR": "60",
 					"CNY": "80"
 				},
@@ -1962,7 +1962,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 30,
-					"default": 90,
+					"default": 120,
 					"base": 60
 				}
 			},
@@ -1973,11 +1973,11 @@
 
 			"1 Painter Daily Rate": {
 				"handle": "one_painter_sg_daily",
-				"label": "1 Painter Daily Rate                                   SGD130/day                                   10am to 5pm",
+				"label": "1 Painter Daily Rate                                   SGD170/day                                   10am to 5pm",
 				"orderLabel": "Day (1 Painter Daily Rate)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "130",
+					"SGD": "150",
 					"MYR": "350",
 					"CNY": "0"
 				},
