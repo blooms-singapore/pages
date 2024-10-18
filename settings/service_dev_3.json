@@ -3689,8 +3689,8 @@
 
 		"SG Renovation Transport": {
 			"handle": "sg_renovation_transport",
-			"label": "Retrofit/Renovation Transport Fee                                                   SGD20/trip",
-			"orderLabel": "Trip (Retrofit/Renovation Transport Fee)",
+			"label": "Retrofit/Reno Transport Fee                                                   SGD20/trip",
+			"orderLabel": "Trip (Retrofit/Reno Transport Fee)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "20",
@@ -3730,8 +3730,8 @@
 
 		"SG Renovation Project Survey": {
 			"handle": "sg_renovation_project_survey",
-			"label": "Retrofit/Renovation Survey                                                   Free",
-			"orderLabel": "Trip (Retrofit/Renovation Survey)",
+			"label": "Retrofit/Reno Survey                                                   Free",
+			"orderLabel": "Trip (Retrofit/Reno Survey)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "0",
@@ -3750,8 +3750,8 @@
 
 		"Project Confirmation": {
 			"handle": "retrofit_sg_lumpsum_confirmation",
-			"label": "Retrofit/Renovation Lumpsum Work Confirmation                                             Per Quote",
-			"orderLabel": "Job (Retrofit/Renovation Lumpsum Work Confirmation)",
+			"label": "Retrofit/Reno Lumpsum Work Confirmation                                             Per Quote",
+			"orderLabel": "Job (Retrofit/Reno Lumpsum Work Confirmation)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "-20",
