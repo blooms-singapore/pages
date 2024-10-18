@@ -3172,7 +3172,7 @@
 		          			
 
 			"Rubine Fan Video Call": {
-				"handle": "rubine_videocall",
+				"handle": "rubine_videocall_fan",
 				"label": "Videocall - Rubine Fan",
 				"orderLabel": "Videocall - Rubine Fan",
 				"type" : "Fan",
@@ -3193,7 +3193,7 @@
 			},
 			
 			"Rubine Fan trouble shoot": {
-				"handle": "rubine_troubleshoot",
+				"handle": "rubine_troubleshoot_fan",
 				"label": "Trouble Shoot - Rubine Fan",
 				"orderLabel": "Trouble Shoot - Rubine Fan",
 				"type" : "Fan",
