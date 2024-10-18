@@ -3058,7 +3058,7 @@
 		"title": "Select Brand.",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "10",
+			"SGD": "45",
 			"MYR": "100",
 			"CNY": "110"
 		},
@@ -3099,11 +3099,33 @@
 		
 		"options": {
 
+	        "Rubine Water Heater Video Call": {
+				"handle": "rubine_videocall",
+				"label": "Videocall - Rubine Water Heater",
+				"orderLabel": "Videcall - Rubine Water Heater",
+				"type" : "Water Heater",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "5",
+					"MYR": "65",
+					"CNY": "70"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+
 					
 			"Rubine Water Heater Trouble Shoot": {
 				"handle": "rubine_troubleshoot",
-				"label": "Trouble Shoot - Water Heater",
-				"orderLabel": "Trouble Shoot - Water Heater",
+				"label": "Trouble Shoot - Rubine Water Heater",
+				"orderLabel": "Trouble Shoot - Rubine Water Heater",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -3122,32 +3144,10 @@
 			},
 
 
-			"Rubine Water Heater Video Call": {
-				"handle": "rubine_videocall",
-				"label": "Video Call - Water Heater",
-				"orderLabel": "Video Call - Water Heater",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "5",
-					"MYR": "65",
-					"CNY": "70"
-				},
-				"quantity": {
-					"label": "Call",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-		
-			
+					
 			"Rubine Water Heater Warranty": {
-				"label": "Warranty                                                   Free Spare Parts",
-				"orderLabel": "Rubine Warranty",
+				"label": "Yes Rubine Warranty",
+				"orderLabel": "Yes Rubine Warranty",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -3167,8 +3167,8 @@
 		
 			
 			"Rubine Water Heater No Warranty": {
-				"label": "No Warranty                                                     Per Quotation",
-				"orderLabel": "Rubine No Warranty",
+				"label": "No Rubune Warranty - Water Heater                                                    Per Quote",
+				"orderLabel": "No Rubine Warranty - Water Heater",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -3189,8 +3189,8 @@
 
 
 			"Rubine Water Heater Repair Confirmation": {
-				"label": "Repair Confirmation - Water Heater                                            Per Quotation",
-				"orderLabel": "Repair Confirmation - Water Heater",
+				"label": "Repair Confirmation - Rubine Water Heater                                            Per Quote",
+				"orderLabel": "Repair Confirmation - Rubine Water Heater",
 				"type" : "Water Heater",
 				"description": "Label standard",
 				"cost": {
@@ -3212,8 +3212,8 @@
 		          			
 
 			"Rubine Fan Video Call": {			
-				"label": "Video Call - Fan",
-				"orderLabel": "Video Call - Fan",
+				"label": "Videocall - Rubine Fan",
+				"orderLabel": "Videocall - Rubine Fan",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -3232,8 +3232,8 @@
 			},
 			
 			"Rubine Fan trouble shoot": {
-				"label": "Trouble Shoot - Fan",
-				"orderLabel": "Trouble Shoot - Fan",
+				"label": "Trouble Shoot - Rubine Fan",
+				"orderLabel": "Trouble Shoot - Rubine Fan",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -3253,8 +3253,8 @@
 			
 		
 			"Rubine Fan Warranty": {
-				"label": "Warranty                                                         Free Spare Parts",
-				"orderLabel": "Rubine Warranty",
+				"label": "Yes Rubine Warranty",
+				"orderLabel": "Yes Rubine Warranty",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -3275,8 +3275,8 @@
 
 
 		"Rubine Fan No Warranty": {
-				"label": "No Warranty                                               Per Quotation",
-				"orderLabel": "Rubine No Warranty",
+				"label": "No Rubine Warranty                                               Per Quote",
+				"orderLabel": "No Rubine Warranty",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
@@ -3297,8 +3297,8 @@
 			
 
 			"Rubine Fan Repair Confirmation": {
-				"label": "Repair Confirmation - Fan                                            Per Quotation",
-				"orderLabel": "Repair Confirmation - Fan",
+				"label": "Repair Confirmation - Rubine Fan                                            Per Quote",
+				"orderLabel": "Repair Confirmation - Rubine Fan",
 				"type" : "Fan",
 				"description": "Label standard",
 				"cost": {
