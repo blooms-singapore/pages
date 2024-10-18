@@ -3144,52 +3144,9 @@
 			},
 
 
-					
-			"Rubine Water Heater Warranty": {
-				"handle": "rubine_yes_warranty_waterheater",
-				"label": "Yes Rubine Warranty",
-				"orderLabel": "Yes Rubine Warranty",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-		
+							
 			
-			"Rubine Water Heater No Warranty": {
-				"handle": "rubine_no_warranty_waterheater",
-				"label": "No Rubune Warranty - Water Heater                                                    Per Quote",
-				"orderLabel": "No Rubine Warranty - Water Heater",
-				"type" : "Water Heater",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-
+		
 			"Rubine Water Heater Repair Confirmation": {
 				"handle": "rubine_repair_confirmation_waterheater",
 				"label": "Repair Confirmation - Rubine Water Heater                                            Per Quote",
@@ -3214,7 +3171,8 @@
 
 		          			
 
-			"Rubine Fan Video Call": {			
+			"Rubine Fan Video Call": {
+				"handle": "rubine_videocall",
 				"label": "Videocall - Rubine Fan",
 				"orderLabel": "Videocall - Rubine Fan",
 				"type" : "Fan",
@@ -3235,6 +3193,7 @@
 			},
 			
 			"Rubine Fan trouble shoot": {
+				"handle": "rubine_troubleshoot",
 				"label": "Trouble Shoot - Rubine Fan",
 				"orderLabel": "Trouble Shoot - Rubine Fan",
 				"type" : "Fan",
@@ -3255,51 +3214,13 @@
 			},
 			
 		
-			"Rubine Fan Warranty": {
-				"label": "Yes Rubine Warranty",
-				"orderLabel": "Yes Rubine Warranty",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
+		
 
-
-
-		"Rubine Fan No Warranty": {
-				"label": "No Rubine Warranty                                               Per Quote",
-				"orderLabel": "No Rubine Warranty",
-				"type" : "Fan",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Status",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
 
 			
 
 			"Rubine Fan Repair Confirmation": {
+				"handle": "rubine_repair_confirmation_fan",
 				"label": "Repair Confirmation - Rubine Fan                                            Per Quote",
 				"orderLabel": "Repair Confirmation - Rubine Fan",
 				"type" : "Fan",
@@ -3324,12 +3245,12 @@
 			
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Warranty?",
 				"description": "Label standard",
 				"values": {
-					"HDB/Condo": {
-						"label": "HDB/Condo +SGD0",
-						"orderLabel": "HDB/Condo +SGD0",
+					"Yes": {
+						"label": "Yes",
+						"orderLabel": "Yes",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3341,9 +3262,9 @@
 							"CNY": "0"
 						}
 					},
-					"Landed": {
-						"label": "Landed Property +SGD0",
-						"orderLabel": "HDB/Condo +SGD0",
+					"No": {
+						"label": "No",
+						"orderLabel": "No",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
