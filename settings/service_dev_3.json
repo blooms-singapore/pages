@@ -3710,11 +3710,11 @@
 
 	"Renovation Videocall": {
 				"handle": "sg_renovation_videocall",
-				"label": "Retrofit/Renovation Video Call                                                           SGD5/call                                                        Waive Transport Fee     ",
-				"orderLabel": "Call (Retrofit/Renovation Video Call)",
+				"label": "Retrofit/Reno Videocall                                                           SGD2/call",
+				"orderLabel": "Call (Retrofit/Reno Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-15",
+					"SGD": "-18",
 					"MYR": "0",
 					"CNY": "50"
 				},
