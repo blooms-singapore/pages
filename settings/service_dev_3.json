@@ -1026,8 +1026,8 @@
 				"description": "Label standard",
 				"values": {
 					"Weekdays": {
-						"label": "WeekDAYS +SGD0",
-						"orderLabel": "WeekDAYS +SGD0",
+						"label": "Week-DAYS +SGD0",
+						"orderLabel": "Week-DAYS +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1041,8 +1041,8 @@
 					},
 
 					"Weekends": {
-						"label": "WeekENDS +SGD20",
-						"orderLabel": "WeekENDS +SGD20",
+						"label": "Week-ENDS +SGD15",
+						"orderLabel": "Week-ENDS +SGD15",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1050,7 +1050,7 @@
 						},
 						
 					"oneOffCost": {
-						"SGD": "20",
+						"SGD": "15",
 						"MYR": "10",
 						"CNY": "10"
 						}
