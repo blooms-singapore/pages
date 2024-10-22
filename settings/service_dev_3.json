@@ -791,11 +791,11 @@
 
 		"Packages Videocall": {
 				"handle": "packages_sg_videocall",
-				"label": "Packages Inquiry Videocall                                                    SGD3/call",
-				"orderLabel": "Call (Packages Inquiry Videocall)",
+				"label": "Package Enquiry Videocall                                                    SGD2/call",
+				"orderLabel": "Call (Package Enquiry Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "3",
+					"SGD": "2",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -813,8 +813,8 @@
 			
 		"Aircon Package": {
 			"handle": "packages_sg_aircon",
-			"label": "Packages Aircon Standard Wash                                         SGD25/unit                                             Waive Transport Fee",
-			"orderLabel": "Units (Packages Aircon Standard Wash)",
+			"label": "Aircon Package                                         SGD25/unit                                    waive transport fee",
+			"orderLabel": "Units (Aircon Package)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "25",
@@ -834,8 +834,8 @@
 
 		"AMK Member Discount": {
 			"handle": "packages_sg_amk_member",
-			"label": "Packages AMK Member                                      SGD100/Card",
-			"orderLabel": "Card (Packages AMK Member)",
+			"label": "AMK Member                                       SGD100/Card",
+			"orderLabel": "Card (AMK Member)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "100",
@@ -856,12 +856,12 @@
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+						"label": "HDB/Condo +SGD0",
+						"orderLabel": "HDB/Condo +SGD0",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
