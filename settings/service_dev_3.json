@@ -2483,7 +2483,7 @@
 
 		"Clean Water Videocall": {
 			"handle": "clean_water_sg_videocall",
-			"label": "Clean Watewr Videocall                                         SGD2/call",
+			"label": "Clean Water Videocall                                         SGD2/call",
 			"orderLabel": "Call (Clean Water Videocall)",
 			"description": "Label standard",
 			"cost": {
