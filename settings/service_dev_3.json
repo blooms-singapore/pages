@@ -2480,10 +2480,57 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"ik900": {
+
+		"Clean Water Videocall": {
+			"handle": "clean_water_sg_videocall",
+			"label": "Clean Watewr Videocall                                         SGD2/call",
+			"orderLabel": "Call (Clean Water Videocall)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "2",
+				"MYR": "30",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+			
+
+			
+			
+        	"Clean Water Survey": {
+				"handle": "clean_water_survey",
+				"label": "Clean Water Survey                                                         SGD20/trip",
+				"orderLabel": "Trip (Clean Water Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "20",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+			
+			"IK900": {
 				"handle": "clean_water_ik900",
-				"label": "IK900 with installation                                                 SGD528/set",
-				"orderLabel": "Set (IK900)",
+				"label": "Model IK-900                                                   SGD528/set",
+				"orderLabel": "Set (Model IK-900)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "528",
@@ -2564,28 +2611,6 @@
 					"default": 0,
 					"base": 1
 				}
-			},
-
-
-
-			"Survey": {
-				"handle": "clean_water_survey",
-				"label": "Clean Water Survey                                                         SGD10/trip",
-				"orderLabel": "Trip (Clean Water Survey)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
 			}
 		},
 
@@ -2596,7 +2621,7 @@
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "Condo/HDB +SGD5",
+						"label": "HDB/Condo +SGD5",
 						"orderLabel": "Condo/HDB +SGD5",
 						"cost": {
 							"SGD": "0",
