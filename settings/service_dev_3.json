@@ -2617,27 +2617,27 @@
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Week-END?",
 				"description": "Label standard",
 				"values": {
-					"HDB or Condo": {
-						"label": "HDB/Condo +SGD5",
-						"orderLabel": "Condo/HDB +SGD5",
+					"No": {
+						"label": "No",
+						"orderLabel": "No",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
 					},
 
-					"Landed House": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+					"Yes": {
+						"label": "Yes",
+						"orderLabel": "Yes",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
