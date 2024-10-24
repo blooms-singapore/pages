@@ -3354,7 +3354,7 @@
 			
 			"Lock Work Confirmation": {
 				"handle": "locksmith_lock_work_confirmation",
-				"label": "Lock Work Confirmation                                         Per Quotation",
+				"label": "Lock Work Confirmation                                         Per Quote",
 				"orderLabel": "Job (Lock Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
@@ -3444,12 +3444,12 @@
 		
 		"types": {
 			"house": {
-				"label": "Property Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "HDB/Condo +SGD0",
-						"orderLabel": "HDB/Condo +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3462,8 +3462,8 @@
 						}
 					},
 					"landed": {
-						"label": "Landed Property/Office",
-						"orderLabel": "Landed Property/Office",
+						"label": "Landed/Office",
+						"orderLabel": "Landed/Office",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3578,8 +3578,8 @@
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
