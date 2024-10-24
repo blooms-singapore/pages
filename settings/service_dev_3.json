@@ -3333,7 +3333,7 @@
 		"options": {
 			
 			"Survey": {
-				"handle": "locksmith_survey",
+				"handle": "locksmith_sg_survey",
 				"label": "Lock Work Survey                                                    SGD20/trip",
 				"orderLabel": "Trip (Lock Work Survey)",
 				"description": "Label standard",
