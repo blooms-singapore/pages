@@ -1379,7 +1379,7 @@
 
 
 			"Project": {
-				"handle": "install_sg_work_confirmation",
+				"handle": "installation_sg_work_confirmation",
 				"label": "Installation Work Confirmation                                     Per Quote",
 				"orderLabel": "Job (Installation Work Confirmation)",
 				"description": "Label standard",
