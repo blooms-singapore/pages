@@ -3353,7 +3353,7 @@
 			},
 			
 			"Lock Work Confirmation": {
-				"handle": "locksmith_lock_work_confirmation",
+				"handle": "locksmith_sg_work_confirmation",
 				"label": "Lock Work Confirmation                                         Per Quote",
 				"orderLabel": "Job (Lock Work Confirmation)",
 				"description": "Label standard",
@@ -3374,7 +3374,7 @@
 			
 			
 			"unlock-morning": {
-				"handle": "unlock_morning",
+				"handle": "locksmith_sg_unlock_morning",
 				"label": "Room Door Unlock (10am to 6pm)                                       SGD80 - 100",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
@@ -3398,7 +3398,7 @@
 				}
 			},
 			"unlock-evening": {
-				"handle": "unlock_evening",
+				"handle": "locksmith_sg_unlock_evening",
 				"label": "Room Door Unlock (After 6pm)                                            SGD100 - 130",
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
@@ -3422,7 +3422,7 @@
 				}
 			},
 			"unlock-metal": {
-				"handle": "unlock_metal",
+				"handle": "locksmith_sg_unlock_metal",
 				"label": "Metal Door Unlock                                          from SGD80",
 				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
