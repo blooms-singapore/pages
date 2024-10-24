@@ -2887,17 +2887,17 @@
 	"lastSlot": "16:00",
 	"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 	"startPrice": {
-		"SGD": "110",
+		"SGD": "65",
 		"MYR": "20",
 		"CNY": "20"
 	},
 	"hasNote": 1,
 	"options": {
 
-		"Transport": {
+		"Door & Window Transport": {
 			"handle": "door_transport",
-			"label": "Service Transport Fee                                                 SGD20/trip",
-			"orderLabel": "Trip (Service Transport Fee)",
+			"label": "Transport Fee                                                 SGD20/trip",
+			"orderLabel": "Trip (Transport Fee)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "20",
@@ -2914,10 +2914,32 @@
 			}
 		},
 
-		"Survey": {
+
+		
+		"Door & Wndow Videocall": {
+				"handle": "door_window_videocall",
+				"label": "Enquiry Videocall                                                           SGD2/call                                                         Waive Transport Fee",
+				"orderLabel": "Call (Enquiry Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "-18",
+					"MYR": "0",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+		"Door & Window Survey": {
 			"handle": "door_window_survey",
-			"label": "Door or Window Survey                                          Free",
-			"orderLabel": "Trip (Door / Window Survey)",
+			"label": "Enquiry Survey                                          Free",
+			"orderLabel": "Trip (Enquiry Survey)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "0",
@@ -2935,31 +2957,10 @@
 		},
 
 
-		"Door & Wndow Videocall": {
-				"handle": "door_window_videocall",
-				"label": "Door & Window Videocall                                                           SGD3/call                                                         Waive Transport Fee",
-				"orderLabel": "Call (Door & Window Videocall)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "-17",
-					"MYR": "0",
-					"CNY": "50"
-				},
-				"quantity": {
-					"label": "Call",
-					"min": 0,
-					"max": 1,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
 		"Door & Window Hourly": {
 			"handle": "door_window_hour",
-			"label": "Hourly Service                                                     SGD90/hr",
-			"orderLabel": "Hour (Hourly Service)",
+			"label": "Door & Window Hourly Service                                                     SGD90/hr",
+			"orderLabel": "Hour (Door & Window Hourly Service)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "90",
@@ -2978,10 +2979,10 @@
 
 
 		
-	"Door & Window Lumpsum Worl Confirmation": {
+	"Door & Window Work Confirmation": {
 			"handle": "door_window_lumpsum_work_confirmation",
-			"label": "Door & Window Lumpsum Work Confirmation                                                     Per Quotation",
-			"orderLabel": "Job (Lumpsum Work Confirmation)",
+			"label": "Door & Window Work Confirmation                                                     Per Quote",
+			"orderLabel": "Job (Door & Window Work Confirmation)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "-20",
@@ -3001,7 +3002,7 @@
 
 		"Emergency": {
 			"handle": "door_window_emergency",
-			"label": "Emergency                                                              SGD120 - 150",
+			"label": "Emergency                                                              SGD100 - 150",
 			"orderLabel": "Trip (Emergency)",
 			"description": "Label standard",
 			"cost": {
@@ -3010,7 +3011,7 @@
 				"CNY": "0"
 			},
 			"cost_max": {
-				"SGD": "100",
+				"SGD": "80",
 				"MYR": "150",
 				"CNY": "0"
 			},
@@ -3027,12 +3028,12 @@
 
 	"types": {
 		"house": {
-			"label": "House Type",
+			"label": "Property Type",
 			"description": "Label standard",
 			"values": {
 				"condo": {
-					"label": "Condo/HDB +SGD0",
-					"orderLabel": "Condo/HDB +SGD0",
+					"label": "HDB/Condo",
+					"orderLabel": "HDB/Condo",
 					"cost": {
 						"SGD": "0",
 						"MYR": "0",
@@ -3046,8 +3047,8 @@
 				},
 				
 				"landed": {
-					"label": "Landed Property SGD+10",
-					"orderLabel": "Landed Property SGD+10",
+					"label": "Landed Property",
+					"orderLabel": "Landed Property",
 					"cost": {
 						"SGD": "0",
 						"MYR": "0",
@@ -3055,7 +3056,7 @@
 					},
 					
 					"oneOffCost": {
-							"SGD": "10",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 					}
