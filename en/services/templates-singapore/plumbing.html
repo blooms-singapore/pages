@@ -36,38 +36,43 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
     </thead>
     <tbody>
-     
       <tr>
-       <td>Video Call<br>Refer FAQ1</td>
-        <td>3.0/call<br>PayNow Only</td>
+        <td>Transport<br>Fee</td>
+        <td>${params.plumbing_sg_transport}/trip</td>
+      </tr>
+      
+      <tr>
+       <td>Videocall<br>Refer FAQ1</td>
+        <td>2.0/call<br>On-line Payment</td>
       </tr>
            
-        <tr>
-       <td>On site<br>Trouble-shoot<br>Refer FAQ7</td>
+       <tr>
+       <td>Trouble Shoot<br>Refer FAQ7</td>
        <td>${params.trouble_shoot}/job<br>Waive upon<br>award of Job</td>
       </tr>
        
  
     <thead>
       <tr>
-        <th><b>Plumbing</b></th>
+        <th><b>Standard Plumbing</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>         
       <tr>
-       <td>1 Crew<br>Standard Scope<br>Refer FAQ2</td>
-        <td>${params.plumbing_standard}/hr</td>
+       <td>Hourly Service</td>
+        <td>${params.plumbing_sg_hourly_service}/hr/crew</td>
       </tr>
 
-       <tr>
-       <td>2 Crews<br>Non-Standard Scope<br>More info below</td>
-        <td>${params.plumbing_non_standard}/hr</td>
+         <tr>
+       <td>Daily Service</td>
+        <td>${params.plumbing_sg_daily_service}/hr/crew</td>
       </tr>
-          
+
+    
      <thead>
       <tr>
-        <th><b>Miscellaneous<br>Lumpsum</b></th>
+        <th><b>Plumbing<br>Project</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
@@ -76,26 +81,37 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
          <td>Survey<br>Refer FAQ6</td>
         <td>Free</td>
       </tr>
-
       <tr>
-       <td>Lumpsum Work<br>Confirmation</td>
-        <td>Per Quotation</td>
+       <td>Plumbing Work<br>Confirmation</td>
+        <td>Per Quote</td>
         </tr>
     </tbody>
-      
-   
-   <thead>
+  </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
+</div>
+
+
+
+ <div class = "gap">
+  <div class = "pricing">
+    
+ <!--start hide-->
+<div class = "show-hide-text">
+  <table>
+            
+        
+ 
+<!--Plumbing Other Charges-->
+     <thead>
       <tr>
         <th><b>Other<br>Charges</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Service<br>Transport Fee</td>
-        <td>${params.plumbing_sg_transport}/trip</td>
-      </tr>
-      
+                
        <tr>
         <td>Service Extension<br>Hourly Service</td>
         <td>Charge in<br>30-min blocks</td>
@@ -103,20 +119,23 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       
       <tr>
        <td>Picking Fee<br>(Optional)</td>
-        <td>+20.0/trip</td>
+        <td>20.0/trip</td>
       </tr>
-  
-      <tr>
-       <td>Public<br>Holiday</td>
-        <td>+30.0/trip</td>
-      </tr>
-      
-    </tbody>
-  </table>
-  <div class="fineprint">
+  </tbody>
+    </table>
+    <div class="fineprint">
     Prices subject to change without prior notice
-  </div>
-</div>
+    </div>
+<br>
+
+  
+    
+    <!--end hide-->
+    </div>
+    <button class = "read-more-button">Show More</button>
+    </div> <!--pricing-->
+    </div> <!--gap-->
+
 
 
 
