@@ -2231,8 +2231,8 @@
 
 		"Plumbing Transport Fee": {
 			"handle": "plumbing_sg_transport",
-			"label": "Plumbing Transport Fee                                         SGD20/trip",
-			"orderLabel": "Trip (Plumbing Transport Fee)",
+			"label": "Transport Fee                                         SGD20/trip",
+			"orderLabel": "Trip (Transport Fee)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "20",
