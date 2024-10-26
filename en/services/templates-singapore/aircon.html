@@ -44,13 +44,13 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
 
       <tr>
-      <td>Site Survey</td>
+      <td>AirconSurvey</td>
        <td>Free</td>
       </tr>
 
        <tr>
       <td>Videocall</td>
-       <td>3.0/call</td>
+       <td>2.0/call</td>
       </tr>
 
        <tr>
@@ -59,19 +59,44 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
 
       <tr>
-      <td>Water Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
+      <td>Water Leak<br><b>Refer After<br>Service Committment</b></td>
       <td>${params.aircon_sg_leak}/unit</td>
       </tr>
 
        <tr>
       <td>Coolant Gas<br>Top-Up
-      <td>40.0 to 140.0/unit<br><b>Scroll below<br>for more info</b></td>
+      <td>40.0 to 140.0/unit<br><b>More info below</b></td>
       </tr>             
       	     
       <tr>
-      <td>Aircon Lumpsum<br>Work Confirmation</td>
-       <td>Per Quotation</td>
+      <td>Aircon Work<br>Confirmation</td>
+       <td>Per Quote</td>
       </tr>
+
+	        <!--Standard Service-->
+    <thead>
+      <tr>
+        <th><b>Standard<br>Service</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      <tr>
+	<td>Wall-Mount<br>Week-<b>DAYS</b></td>
+        <td>${params.aircon_standard_service_weekdays}/unit</td>
+      </tr>
+	    
+	
+     <tr>
+	<td>Wall-Mount<br>Week-<b>ENDS</b></td>
+        <td>${params.aircon_sg_standard_service_weekends}/unit</td>
+      </tr>
+
+      <tr>
+	<td>Compressor</b></td>
+        <td>${params.aircon_sg_standard_service_compressor}/unit</td>
+      </tr
  
       
    </tbody>
@@ -90,29 +115,9 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
 <div class = "show-hide-text">
   <table>
             
-        
-    <!--Standard Wash-->
-    <thead>
-      <tr>
-        <th><b>Standard Wash<br>Wall-Mount</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-    
-      <tr>
-	<td>Week-<b>DAYS</b></td>
-        <td>${params.aircon_standard_wash_weekdays}/unit</td>
-      </tr>
+        	    
 	    
-	
-     <tr>
-	<td>Week-<b>ENDS</b></td>
-        <td>${params.aircon_standard_wash_weekends}/unit</td>
-      </tr>
-	    
-	    
-<!--Chemical Overhaul-->
+<!--Chemical Overhaul Wall Mount-->
      <thead>
       <tr>
         <th><b>Chemical<br>Overhaul</b></th>
@@ -122,27 +127,21 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <tbody>
                 
     <tr>
-	<td>Wall-Mount SMALL</b>
-          <br>Up to 18K BTU</td>
-        <td>${params.aircon_overhaul_wallmount_small}/unit</td>
+	<td>Wall-Mount<br>Small Unit<br>Below 18K BTU</td>
+        <td>${params.aircon_sg_chemical_small}/unit</td>
       </tr>
 
-	   <tr>
-	<td>Wall-Mount BIG</b>
-          <br>>18K BTU</td>
-        <td>${params.aircon_overhaul_wallmount_big}/unit</td>
+  <tr>
+	<td>Wall-Mount<br>Big Unit<br>Above 18K BTU</td>
+        <td>${params.aircon_sg_chemical_big}/unit</td>
+      </tr>
+
+	    <tr>
+	<td>Cassette</td>
+        <td>${params.aircon_sg_chemical_cassette}/unit</td>
       </tr>
 
 
-   <tr>
-	<td>Cassette</b></td>
-        <td>${params.aircon_overhaul_cassette}/unit</td>
-      </tr>
-
-   <tr>
-	<td>Compressor</b></td>
-        <td>${params.aircon_overhaul_compressor}/unit</td>
-      </tr>
   
   </tbody>
     </table>
