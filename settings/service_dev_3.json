@@ -393,7 +393,7 @@
 			
 
 			"AC Standard Wash Compressor": {
-				"handle": "aircon_sg_standard-service_compressor",
+				"handle": "aircon_sg_standard_service_compressor",
 				"label": "Standard Service Compressor                                            SGD50/unit",
 				"orderLabel": "Unit (Standard Service Compressor)",
 				"description": "Label standard",
