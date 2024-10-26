@@ -366,7 +366,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 3,
+					"default": 2,
 					"base": 1
 				}
 			},
@@ -389,7 +389,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 3,
+					"default": 2,
 					"base": 1
 				}
 			},
@@ -413,7 +413,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 1,
-					"default": 0,
+					"default": 2,
 					"base": 1
 				}
 			},
