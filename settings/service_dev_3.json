@@ -400,11 +400,11 @@
 
 			"AC Standard Wash Compressor": {
 				"handle": "aircon_sg_standard_service_compressor",
-				"label": "Standard Service Compressor                                            SGD50/unit",
+				"label": "Standard Service Compressor                                            SGD35/unit",
 				"orderLabel": "Unit (Standard Service Compressor)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "35",
 					"MYR": "130",
 					"CNY": "300"
 				},
@@ -421,11 +421,11 @@
 
 			"Chemical Overhaul Wall-Mount Small": {
 				"handle": "aircon_sg_chemical_wallmount_small",
-				"label": "Chemical Overhaul Wall-Mount Small Unit                                          SGD100/unit                                      <18K Btu",
+				"label": "Chemical Overhaul Wall-Mount Small Unit                                          SGD80/unit                                      <18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul Wall Mount SMALL Unit)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "150",
+					"SGD": "80",
 					"MYR": "130",
 					"CNY": "300"
 				},
@@ -442,11 +442,11 @@
 
 			"Chemical Overhaul Wall-Mount Big": {
 				"handle": "aircon_sg_chemical_wallmount_big",
-				"label": "Chemical Overhaul Wall-Mount Big Unit                                          SGD150/unit                                      >18K Btu",
+				"label": "Chemical Overhaul Wall-Mount Big Unit                                          SGD120/unit                                      >18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul Wall-Mount BIG unit)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "150",
+					"SGD": "120",
 					"MYR": "130",
 					"CNY": "300"
 				},
