@@ -389,28 +389,7 @@
 			},
 
 
-
-
-			
-			"AC Wall Mount Small": {
-				"handle": "aircon_overhaul_wallmount_small",
-				"label": "Chemical Overhaul Small - Wall Mount                                          SGD100/unit                                      Up to 18K Btu",
-				"orderLabel": "Unit (Chemical Overhaul Small - Wall Mount)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "100",
-					"MYR": "130",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
+	
 			
 
 			"AC Standard Wash Compressor": {
@@ -434,7 +413,7 @@
 			},
 
 
-			"Chemical Overhaul Wall Mount Small": {
+			"Chemical Overhaul Wall-Mount Small": {
 				"handle": "aircon_sg_chemical_wallmount_small",
 				"label": "Chemical Overhaul Wall-Mount SMALL Unit                                          SGD100/unit                                      <18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul Wall Mount SMALL Unit)",
@@ -455,7 +434,7 @@
 			},
 
 
-			"Chemical Overhaul Wall Mount Big": {
+			"Chemical Overhaul Wall-Mount Big": {
 				"handle": "aircon_sg_chemical_wallmount_big",
 				"label": "Chemical Overhaul Wall-Mount BIG Unit                                          SGD150/unit                                      >18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul Wall-Mount BIG unit)",
