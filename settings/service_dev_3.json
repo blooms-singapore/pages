@@ -421,7 +421,7 @@
 
 			"Chemical Overhaul Wall-Mount Small": {
 				"handle": "aircon_sg_chemical_wallmount_small",
-				"label": "Chemical Overhaul Wall-Mount Small Unit                                          SGD80/unit                                      <18K Btu",
+				"label": "Chemical Overhaul Wall-Mount Small Unit                                          SGD80/unit                                      18K Btu and smaller",
 				"orderLabel": "Unit (Chemical Overhaul Wall Mount SMALL Unit)",
 				"description": "Label standard",
 				"cost": {
@@ -442,7 +442,7 @@
 
 			"Chemical Overhaul Wall-Mount Big": {
 				"handle": "aircon_sg_chemical_wallmount_big",
-				"label": "Chemical Overhaul Wall-Mount Big Unit                                          SGD120/unit                                      >18K Btu",
+				"label": "Chemical Overhaul Wall-Mount Big Unit                                          SGD120/unit                                      > 18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul Wall-Mount BIG unit)",
 				"description": "Label standard",
 				"cost": {
