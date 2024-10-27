@@ -442,11 +442,11 @@
 
 			"Chemical Overhaul Wall-Mount Big": {
 				"handle": "aircon_sg_chemical_wallmount_big",
-				"label": "Chemical Overhaul Wall-Mount Big Unit                                          SGD120/unit                                      > 18K Btu",
+				"label": "Chemical Overhaul Wall-Mount Big Unit                                          SGD110/unit                                      > 18K Btu",
 				"orderLabel": "Unit (Chemical Overhaul Wall-Mount BIG unit)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "120",
+					"SGD": "110",
 					"MYR": "130",
 					"CNY": "300"
 				},
@@ -464,11 +464,11 @@
 			
 			"Chemical Overhaul Cassette": {
 				"handle": "aircon_sg_chemical_cassette",
-				"label": "Chemical Overhaul Cassette                                             SGD250/unit",
+				"label": "Chemical Overhaul Cassette                                             SGD3000/unit",
 				"orderLabel": "Unit (Chemical Overhaul Cassette)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "250",
+					"SGD": "300",
 					"MYR": "130",
 					"CNY": "300"
 				},
