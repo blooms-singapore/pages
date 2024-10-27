@@ -464,11 +464,11 @@
 			
 			"Chemical Overhaul Cassette": {
 				"handle": "aircon_sg_chemical_cassette",
-				"label": "Chemical Overhaul Cassette                                             SGD3000/unit",
+				"label": "Chemical Overhaul Cassette                                             SGD280/unit",
 				"orderLabel": "Unit (Chemical Overhaul Cassette)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "300",
+					"SGD": "280",
 					"MYR": "130",
 					"CNY": "300"
 				},
