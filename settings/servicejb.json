@@ -1237,9 +1237,9 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "20",
-			"MYR": "75",
-			"CNY": "20"
+			"SGD": "0",
+			"MYR": "50",
+			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
@@ -1248,7 +1248,7 @@
 			"Landscape videocall": {
 				"handle": "landscape_videocall",
 				"label": "Videocall                                               RM2/call",
-				"orderLabel": "Call (VideoCall)",c
+				"orderLabel": "Call (VideoCall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
