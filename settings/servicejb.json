@@ -654,12 +654,12 @@
 
 	"AC Cassette Chemical Overhaul up to 1.5hp": {
 				"handle": "aircon_jb_chemical_cassette_small",
-				"label": "Chemical Overhaul Cassette 1.5hp                                               RM270/unit",
+				"label": "Chemical Overhaul Cassette 1.5hp                                               RM250/unit",
 				"orderLabel": "Unit (Chemical Overhaul Cassette 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "270",
+					"MYR": "250",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -678,12 +678,12 @@
 		
 	"AC Cassette Chemical Overhaul 2hp": {
 				"handle": "aircon_jb_chemical_cassette_2hp",
-				"label": "Chemical Overhaul Cassette 2hp                                               RM350/unit",
+				"label": "Chemical Overhaul Cassette 2hp                                               RM320/unit",
 				"orderLabel": "Unit (Chemical Overhaul Cassette Overhaul 2hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "350",
+					"MYR": "320",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -699,12 +699,12 @@
 
 	"AC Cassette Chemical Overhaul 3hp": {
 				"handle": "aircon_jb_chemical_cassette_3hp",
-				"label": "Chemical Overhaul Cassette 3hp                                               RM400/unit",
+				"label": "Chemical Overhaul Cassette 3hp                                               RM370/unit",
 				"orderLabel": "Unit (Chemical Overhaul Cassette 3hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "400",
+					"MYR": "370",
 					"CNY": "0"
 				},
 				"quantity": {
