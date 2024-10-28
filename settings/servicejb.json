@@ -492,7 +492,7 @@
 			},
 			
 			"AC Water Leak": {
-				"handle": "aircon_jb_leak",
+				"handle": "aircon_jb_water_leak",
 				"label": "Aircon Water Leak                                                           RM65/unit",
 				"orderLabel": "Unit (Aircon Water Leak)",
 				"description": "Label standard",
@@ -538,8 +538,8 @@
 					
 			"AC Standard Service up to 1.5hp": {
 				"handle": "aircon_jb_standard_service_small",
-				"label": "Standard Service Wall-Mount up to 1.5hp                                         RM65/unit                                        Min 2 units",
-				"orderLabel": "Unit (Standard Service Wall-Mount up to 1.5hp)",
+				"label": "Standard Service Wall-Mount Up to 1.5hp                                         RM65/unit                                        Min 2 units",
+				"orderLabel": "Unit (Standard Service Wall-Mount Up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -559,7 +559,7 @@
 
 			"AC Standard Service 2 to 3hp": {
 				"handle": "aircon_jb_standard_service_big",
-				"label": "Standard Service Wall-mount 2 to 3hp                                            RM80/unit",
+				"label": "Standard Service Wall-Mount 2 to 3hp                                            RM80/unit",
 				"orderLabel": "Unit (Standard Service Wall-Mount 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
@@ -583,7 +583,7 @@
 			"AC Chemical Overhaul up to 1.5hp": {
 				"handle": "aircon_jb_chemical_small",
 				"label": "Chemical Overhaul Wall-Mount up to 1.5hp                                               RM160/unit",
-				"orderLabel": "Unit (Chemical Overhaul Wall-Mount up to 1.5hp)",
+				"orderLabel": "Unit (Chemical Overhaul Wall-Mount Up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
