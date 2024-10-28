@@ -49,16 +49,9 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <tbody>
       <tr>
       <td>Transport Fee</td>
-      <td>${params.aircon_jb_transport}/trip</td>
+      <td>${params.transport_fee}/trip</td>
       </tr>
-	    
-      <tr>
-      <td>Videocall</td>
-      <td>${params.aircon_jb_videocall}/call</td>
-      </tr>
-    
-
-
+	 
      <tr>
       <td>Weekends</td>
       <td>+20</td>
@@ -73,6 +66,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
     </thead>
     <tbody>
+
+   <tr>
+      <td>Aircon Videocall</td>
+      <td>${params.aircon_jb_videocall}/call</td>
+      </tr>
+    
       
       <tr>
       <td>Aircon Survey</td>
@@ -81,18 +80,18 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       
       
        <tr>
-        <td>Aircon Fault<br>Trouble-Shoot</td>
+        <td>Aircon<br>Trouble-Shoot</td>
         <td>${params.aircon_jb_troubleshoot}/unit</td>
       </tr>    
       
       <tr>
-      <td>Water Leak<br>More info @<br><b>After Service<br>Commitment</b></td>
-      <td>${params.aircon_jb_leak}/unit</td>
+      <td>Aircon Water Leak<br>More info @<br><b>Refer After<br>Service Committment</b></td>
+      <td>${params.aircon_jb_water_leak}/unit</td>
       </tr>
        
       <tr>
-      <td>Aircon Lumpsum<br>Work Confirmation</td>
-       <td>Per Quotation</td>
+      <td>Aircon Work<br>Confirmation</td>
+       <td>Per Quote</td>
       </tr>
         	       
 
@@ -100,20 +99,25 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
 	       <!--STANDARD Wash-->
      <thead>
       <tr>
-        <th><b>Standard Wash<br>Wall-Mount</b></th>
+        <th><b>Standard Service<br>Wall-Mount</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       
       <tr>
-	<td>Up to 1.5hp<br><b>Min 2 units</b></td>
-       <td>${params.aircon_standardwash_small}/unit</td>
+	<td>Up to 1.5hp<br>Min 2 units</td>
+       <td>${params.aircon_jb_standard_service_small}/unit</td>
       </tr>
 
       <tr>
 	<td>2 to 3hp</td>
-       <td>${params.aircon_standardwash_big}/unit</td>
+       <td>${params.aircon_jb_standard_service_big}/unit</td>
+      </tr>
+
+     <tr>
+      <td>Aircon Compressor</td>
+     <td>${params.aircon_jb_standard_service_compressor}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
             
 
@@ -143,58 +147,45 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
   <thead>
     <tr>
         <th><b>Chemical Overhaul<br>Wall-Mount</b></th>
-        <th><b>Pricing (${params.currency})<br>Standard Size</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
 	<td>Up to 1.5hp</b></td>
-        <td>${params.aircon_chemical_small_overhaul_weekdays}/unit</td>
+        <td>${params.aircon_jb_chemical_small}/unit</td>
       </tr>
 
      <tr>
 	<td>2 to 3hp</b></td>
-        <td>${params.aircon_chemical_big_overhaul_weekdays}/unit</td>
+        <td>${params.aircon_jb_chemical_big}/unit</td>
       </tr>
 
 
 <!--Cassette Chemical Overhaul-->
 <thead>
       <tr>
-        <th><b>Ceiling Cassette<br>Overhaul</b></th>
+        <th><b>Chemical Overhaul<br>Cassette</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
       <td>1.5hp</td>
-     <td>${params.aircon_chemical_cassette_15hp}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+     <td>${params.aircon_jb_chemical_cassette_small}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
 	  
      <tr>
       <td>2hp</td>
-     <td>${params.aircon_chemical_cassette_2hp}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+     <td>${params.aircon_jb_chemical_cassette_2hp}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
   </tr>
 	  
    <tr>
     <td>3hp</td>
-     <td>${params.aircon_chemical_cassette_3hp}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
+     <td>${params.aircon_jb_chemical_cassette_3hp}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
   </tr>
 	  
-
-
-<!--Compressor-->
-<thead>
-      <tr>
-        <th><b>Compressor<br>Wash</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-      <td>Outdoor Unit</td>
-     <td>${params.aircon_compressor_wash}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
-      </tr>
+   
 
     <!--Misc Charges-->
      <thead>
@@ -205,15 +196,14 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     </thead>
     <tbody>
       
-    
-         
+             
      <tr>
-      <td>Coolant Gas<br>Top-Up
-      <td>80.0 to 150.0/unit<br><b>Scroll below<br>for more info</b></td>
+      <td>Gas Top-Up<br>Refer below<br>For more info</td>
+      <td>80-150/unit</td>
       </tr>
 	    
  <tr>
-      <td>Distant Surcharge<br>Outside<br>Service Location</td>
+      <td>Outside<br>Service Location</td>
       <td>+20</td>
       </tr>
 	  
