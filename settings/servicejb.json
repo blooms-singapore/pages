@@ -1,6 +1,252 @@
  {	
 
+"plumbing": {
+		"name": "Plumbing",
+		"lastSlot": "16:30",
+		"disableLocations": [],
+		"startPrice": {
+			"SGD": "55",
+			"MYR": "50",
+			"CNY": "50"
+		},
+		"hasNote": 1,
+		"options": {
+			
+			"Plumbing Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Transport Fee                                         RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
 	
+			
+		"Plumbing Videocall": {
+			"handle": "plumbing_jb_videocall",
+			"label": "Plumbing Videocall                                         RM2/call                                           Waive Transport Fee",
+			"orderLabel": "Call (Plumbing Videocall)",
+			"description": "Label standard",
+			"cost": {
+				"SGD": "0",
+				"MYR": "-28",
+				"CNY": "0"
+			},
+			"quantity": {
+				"label": "Call",
+				"min": 0,
+				"max": 1,
+				"increment": 1,
+				"default": 0,
+				"base": 1
+			}
+		},
+
+
+
+		
+		"Plumbing Survey": {
+				"handle": "plumbing_survey",
+				"label": "Plumbing Survey                                              Free",
+				"orderLabel": "Trip (Plumbing Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			},		
+			
+			
+			
+					
+		"Plumbing Trouble Shoot": {
+				"handle": "plumbing_jb_troubleshoot",
+				"label": "Plumbing Trouble Shoot                                                         RM20/job",
+				"orderLabel": "Job (Plumbing Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "20",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+			
+			
+			"Standard Plumbing": {
+				"handle": "plumbing_hourly_rate_standard",
+				"label": "Hourly Rate - Standard Plumbing                                             RM90/hr",
+				"orderLabel": "Hour (Hourly Rate - Standard Plumbing)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+			
+				
+		
+			
+		
+			
+			"Tank Wash": {
+				"handle": "plumbing_tank_wash",
+				"label": "Tank WASH                                            RM100/hr                                                 Min 1.5hrs",
+				"orderLabel": "Hour (Tank WASH)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 0,
+					"increment": 30,
+					"default": 90,
+					"base": 60
+				}
+			},
+			
+			
+			"Tank Ball Float Valve Repair": {
+				"handle": "plumbing_ball_float",
+				"label": "Tank Ball Float Valve Repair                                           RM100/unit",
+				"orderLabel": "Unit (Tank Ball Float Valve Repair)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "100",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+						
+			
+		
+
+			"Plumbing Work Confirmation": {
+				"handle": "plumbing_work_confirmation",
+				"label": "Plumbing Work Confirmation                                      Per Quote",
+				"orderLabel": "Job (Plumbing Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "-30",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"increment": 60,
+					"default": 0,
+					"base": 60
+				}
+			}
+		},
+		
+		"types": {
+			"house": {
+				"label": "Property Type?",
+				"description": "Label standard",
+				"values": {
+					"condo": {
+						"label": "Condo/Apt",
+						"orderLabel": "Condo/Apt",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "10"
+						}
+					},
+					
+					"landed": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						}
+					}
+				}
+			}
+		}
+	},
+			
+	
+	
+	
+
+
+
+
+
+	 
 
 
 	
@@ -2594,265 +2840,7 @@
 
 
 
-"plumbing": {
-		"name": "Plumbing",
-		"lastSlot": "16:30",
-		"disableLocations": [],
-		"startPrice": {
-			"SGD": "55",
-			"MYR": "50",
-			"CNY": "50"
-		},
-		"hasNote": 1,
-		"options": {
-			
-			"Plumbing Transport Fee": {
-				"handle": "plumbing_transport",
-				"label": "Plumbing Transport Fee                                         RM30/trip",
-				"orderLabel": "Trip (Plumbing Transport Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "55",
-					"MYR": "30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 1,
-					"max": 1,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-			
-	
-			
-		"Plumbing Video Call": {
-			"handle": "installation_sg_videocall",
-			"label": "Video Call                                         RM5/call                                                        Waive Transport Fee",
-			"orderLabel": "Call (Video Call)",
-			"description": "Label standard",
-			"cost": {
-				"SGD": "-15",
-				"MYR": "-25",
-				"CNY": "0"
-			},
-			"quantity": {
-				"label": "Call",
-				"min": 0,
-				"max": 1,
-				"increment": 1,
-				"default": 0,
-				"base": 1
-			}
-		},
-		
-			
-			
-			
-			
-			
-					
-		"Trouble Shoot": {
-				"handle": "trouble_shoot",
-				"label": "Trouble Shoot                                                         RM20/job",
-				"orderLabel": "Job (Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "35",
-					"MYR": "20",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-			
-			
-			
-			
-			"Standard Plumbing": {
-				"handle": "plumbing_standard",
-				"label": "Standard Plumbing                                              RM90/hr",
-				"orderLabel": "Hour (Standard Plumbing)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "90",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			
-			
-			"Plumbing Lumpsum Survey": {
-				"handle": "plumbing_survey",
-				"label": "Plumbing SURVEY                                               Free",
-				"orderLabel": "Trip (Plumbing SURVEY)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "20",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-			
-			"Plumbing Lumpsum Confirmation": {
-				"handle": "plumbing_lumpsum_confirmation",
-				"label": "Plumbing Lumpsum Work Confirmation                                      Per Quotation",
-				"orderLabel": "Job (Plumbing Lumpsum Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "-30",
-					"MYR": "-30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-			
-		
-			
-			"Tank Wash": {
-				"handle": "tank_wash",
-				"label": "Tank WASH                                            RM100/hr                                                 Min 1.5hrs",
-				"orderLabel": "Hour (Tank WASH)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 90,
-					"base": 60
-				}
-			},
-			
-			
-			"Tank Ball Float Valve Repair": {
-				"handle": "plumbing_ball_float",
-				"label": "Tank Ball Float Valve Repair                                           RM100/unit",
-				"orderLabel": "Unit (Tank Ball Float Valve Repair)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-			
-						
-	
-			
-			
-			"Tank Repair": {
-				"handle": "plumbing_tank_repair",
-				"label": "Tank Lumpsum Repair Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tank Lumpsum Repair Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "-30",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}
-		},
-		
-		"types": {
-			"house": {
-				"label": "House Type",
-				"description": "Label standard",
-				"values": {
-					"condo": {
-						"label": "Condo/Office +RM0",
-						"orderLabel": "Condo/Office +RM0",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "10"
-						}
-					},
-					
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						}
-					}
-				}
-			}
-		}
-	},
-			
-	
-	
-	
+
 	
 	
 	
