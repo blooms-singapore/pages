@@ -181,8 +181,8 @@
 						}
 					},
 					"landed": {
-						"label": "Landed/Commercial +SGD10",
-						"orderLabel": "Landed/Commercial +SGD10",
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -190,7 +190,7 @@
 						},
 						
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "0",
 							"MYR": "10",
 							"CNY": "10"
 						}
@@ -485,12 +485,12 @@
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -503,15 +503,15 @@
 						}
 					},
 					"landed": {
-						"label": "Landed Property +SGD20",
-						"orderLabel": "Landed Property +SGD20",
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "20",
+							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						}
@@ -918,12 +918,12 @@
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -937,8 +937,8 @@
 					},
 
 					"Landed House": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+						"label": "Landed",
+						"orderLabel": "Landed",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1041,8 +1041,8 @@
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "HDB/Condo +SGD0",
-						"orderLabel": "HDB/Condo +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1056,8 +1056,8 @@
 					},
 
 					"Landed House": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+						"label": "Landed",
+						"orderLabel": "Landed",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1207,8 +1207,8 @@
 				"description": "Label standard",
 				"values": {
 					"Weekdays": {
-						"label": "Week-DAYS +SGD0",
-						"orderLabel": "Week-DAYS +SGD0",
+						"label": "Week-DAYS",
+						"orderLabel": "Week-DAYS",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1396,12 +1396,12 @@
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
 					"HDB or Condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1415,8 +1415,8 @@
 					},
 
 					"Landed House": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1582,12 +1582,12 @@
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1601,8 +1601,8 @@
 					},
 
 					"landed": {
-						"label": "Landed Property +SGD10",
-						"orderLabel": "Landed Property +SGD10",
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1610,7 +1610,7 @@
 						},
 						
 					"oneOffCost": {
-						"SGD": "10",
+						"SGD": "0",
 						"MYR": "10",
 						"CNY": "10"
 						}
@@ -1652,7 +1652,7 @@
 	"washing-machine": {
 		"name": "Washing Machine",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "45",
 			"MYR": "0",
@@ -1969,8 +1969,8 @@
 				},
 
 				"Weekdays": {
-					"label": "Weekdays +SGD0",
-					"orderLabel": "Weekdays +SGD0",
+					"label": "Weekdays",
+					"orderLabel": "Weekdays",
 					"cost": {
 						"SGD": "0",
 						"MYR": "0",
@@ -2379,12 +2379,12 @@
 
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Condo/HDB +SGD0",
-						"orderLabel": "Condo/HDB +SGD0",
+						"label": "HDB/Condo",
+						"orderLabel": "HDB/Condo",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2398,15 +2398,15 @@
 					},
 
 					"landed": {
-						"label": "Landed Property +SGD20",
-						"orderLabel": "Landed Property +SGD20",
+						"label": "Landed/Commercial +SGD10",
+						"orderLabel": "Landed/Commercial +SGD10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "20",
+							"SGD": "10",
 							"MYR": "0",
 							"CNY": "0"
 						}
@@ -2596,10 +2596,10 @@
 					},
 
 					"Yes": {
-						"label": "Yes",
-						"orderLabel": "Yes",
+						"label": "Yes +SGD10",
+						"orderLabel": "Yes +SGD10",
 						"cost": {
-							"SGD": "0",
+							"SGD": "10",
 							"MYR": "0",
 							"CNY": "0"
 						}
@@ -2813,15 +2813,15 @@
 					},
 					
 					"Landed Property": {
-						"label": "Landed Property +SGD30",
-						"orderLabel": "Landed Property +SGD30",
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "30",
+							"SGD": "0",
 							"MYR": "20",
 							"CNY": "10"
 						}
@@ -2988,7 +2988,7 @@
 
 	"types": {
 		"house": {
-			"label": "Property Type",
+			"label": "Property Type?",
 			"description": "Label standard",
 			"values": {
 				"condo": {
@@ -3007,8 +3007,8 @@
 				},
 				
 				"landed": {
-					"label": "Landed Property",
-					"orderLabel": "Landed Property",
+					"label": "Landed/Commercial",
+					"orderLabel": "Landed/Commercial",
 					"cost": {
 						"SGD": "0",
 						"MYR": "0",
@@ -3422,8 +3422,8 @@
 						}
 					},
 					"landed": {
-						"label": "Landed/Office",
-						"orderLabel": "Landed/Office",
+						"label": "Landed/Commercial +SGD10",
+						"orderLabel": "Landed/Commercial +SGD10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3681,12 +3681,12 @@
 
 	"types": {
 		"house": {
-			"label": "House Type",
+			"label": "Property Type?",
 			"description": "Label standard",
 			"values": {
 				"condo": {
-					"label": "HDB/Condo +SGD0",
-					"orderLabel": "HDB/Condo +SGD0",
+					"label": "HDB/Condo",
+					"orderLabel": "HDB/Condo",
 					"cost": {
 						"SGD": "0",
 						"MYR": "0",
@@ -3699,8 +3699,8 @@
 					}
 				},
 				"landed": {
-					"label": "Landed Property",
-					"orderLabel": "Landed Property",
+					"label": "Landed/Commercial",
+					"orderLabel": "Landed/Commercial",
 					"cost": {
 						"SGD": "0",
 						"MYR": "0",
