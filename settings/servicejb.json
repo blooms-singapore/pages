@@ -404,12 +404,12 @@
 		"options": {
 			
 			"AC Transport": {
-				"handle" : "aircon_sg_transport",
-				"label": "Transport Fee                                           RM30/trip",
+				"handle" : "transport_fee",
+				"label": "Transport Fee                                             RM30/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Transport Fee",
 				"cost": {
-					"SGD": "40",
+					"SGD": "0",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -423,14 +423,37 @@
 					"multiplier": 1
 				}
 			},
+
+
+	"AC Videocall": {				
+				"handle": "aircon_jb_videocall",
+				"label": "Aircon Videocall                                       RM2/call",
+				"orderLabel": "Call (Aircon Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "2",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+
 			
 			
 			
 			
 			"AC Survey": {				
 				"handle": "aircon_survey",
-				"label": "Aircon Survey                                  Free",
-				"orderLabel": "Job (Aircon Survey)",
+				"label": "Aircon Survey                                    Free",
+				"orderLabel": "Trip (Aircon Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -438,19 +461,19 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Job",
+					"label": "Trip",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
 			
 			"AC Trouble Shoot": {
 				"handle": "aircon_jb_troubleshoot",
-				"label": "Aircon Trouble-Shoot                                    RM60/unit",
+				"label": "Aircon Trouble-Shoot                                    RM65/unit",
 				"orderLabel": "Unit (Aircon Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
@@ -470,13 +493,13 @@
 			
 			"AC Water Leak": {
 				"handle": "aircon_jb_leak",
-				"label": "Water Leak                                                           RM80/unit",
+				"label": "Water Leak                                                           RM65/unit",
 				"orderLabel": "Unit (Water Leak)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
-					"MYR": "80",
-					"CNY": "260"
+					"SGD": "0",
+					"MYR": "65",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Unit",
@@ -491,9 +514,9 @@
 			
 			
 			"AC Lumpsump Work Confirmation": {
-				"handle": "aircon_repair_project_confirmation",
-				"label": "Aircon Lumpsum Work Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Aircon Lumpsum Work Confirmation)",
+				"handle": "aircon_jb_work_confirmation",
+				"label": "Aircon Work Confirmation                                         Per Quote",
+				"orderLabel": "Job (Aircon Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -510,19 +533,62 @@
 				}
 			},
 			
-			
+
+
+					
+			"AC Standard Service up to 1.5hp": {
+				"handle": "aircon_jb_standard_service_small",
+				"label": "Standard Service - Wall-Mount up to 1.5hp                                         RM65/unit                                        Min 2 units",
+				"orderLabel": "Unit (Standard Service - Wall-Mount up to 1.5hp)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "65",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 2,
+					"base": 1
+				}
+			},
+
+
+			"AC Standard Service 2 to 3hp": {
+				"handle": "aircon_jb_standard_service_big",
+				"label": "Standard Service 2 to 3hp                                            RM80/unit",
+				"orderLabel": "Unit (Standard Service 2 to 3hp)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "30",
+					"MYR": "80",
+					"CNY": "300"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
 		
 				
 			
-			"Chemical Overhaul up to 1.5hp": {
-				"handle": "aircon_chemical_small_overhaul_weekdays",
-				"label": "Chemical Overhaul - Up to 1.5hp                                               RM160/unit",
-				"orderLabel": "Unit (Chemical Overhaul - Up to 1.5hp)",
+			"AC Chemical Overhaul up to 1.5hp": {
+				"handle": "aircon_jb_chemical_small",
+				"label": "Chemical Overhaul Wall-mount up to 1.5hp                                               RM160/unit",
+				"orderLabel": "Unit (Chemical Overhaul Wall-mount up to 1.5hp)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "160",
-					"CNY": "260"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Unit",
@@ -538,10 +604,10 @@
 						
 			
 		
-			"Chemical Overhaul 2 to 3hp": {
-				"handle": "aircon_chemical_big_overhaul_weekdays",
-				"label": "Chemical Overhaul - 2 to 3hp                                               RM230/unit",
-				"orderLabel": "Unit (Chemical Overhaul - 2 to 3hp)",
+			"AC Chemical Overhaul 2 to 3hp": {
+				"handle": "aircon_jb_chemical_big",
+				"label": "Chemical Overhaul Wall-Mount 2 to 3hp                                               RM230/unit",
+				"orderLabel": "Unit (Chemical Overhaul Wall-Mount 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -560,61 +626,20 @@
 			
 								
 																		
-				
-			"AC Standard Wash up to 1.5hp": {
-				"handle": "aircon_standardwash_small",
-				"label": "Standard Wash up to 1.5hp                                         RM65/unit                                        Min 2 units",
-				"orderLabel": "Unit (Standard Wash up to 1.5hp)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "65",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Units",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 2,
-					"base": 1
-				}
-			},
-
-
-			"AC Standard Wash 2 to 3hp": {
-				"handle": "aircon_standardwash_big",
-				"label": "Standard Wash 2 to 3hp                                            RM80/unit",
-				"orderLabel": "Unit (Standard Wash 2 to 3hp)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "80",
-					"CNY": "300"
-				},
-				"quantity": {
-					"label": "Units",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
+		
 		
 	
 	
 
-	"Cassette Chemical Overhaul up to 1.5hp": {
-				"handle": "aircon_chemical_cassette_15hp",
-				"label": "Ceiling Cassette Overhaul - 1.5hp                                               RM270/unit",
-				"orderLabel": "Unit (Ceiling Cassette Overhaul - 1.5hp)",
+	"AC Cassette Chemical Overhaul up to 1.5hp": {
+				"handle": "aircon_jb_chemical_cassette_small",
+				"label": "Chemical Overhaul Cassette 1.5hp                                               RM270/unit",
+				"orderLabel": "Unit (Chemical Overhaul Cassette 1.5hp)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "270",
-					"CNY": "260"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Unit",
@@ -630,10 +655,10 @@
 						
 			
 		
-	"Cassette Chemical Overhaul 2hp": {
-				"handle": "aircon_chemical_cassette_2hp",
-				"label": "Ceiling Cassette Overhaul 2hp                                               RM350/unit",
-				"orderLabel": "Unit (Ceiling Cassette Overhaul - 2hp)",
+	"AC Cassette Chemical Overhaul 2hp": {
+				"handle": "aircon_jb_chemical_cassette_2hp",
+				"label": "Chemical Overhaul Cassette 2hp                                               RM350/unit",
+				"orderLabel": "Unit (Chemical Overhaul Cassette Overhaul 2hp)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "10",
@@ -651,15 +676,15 @@
 			},
 
 
-	"Cassette Chemical Overhaul 3hp": {
-				"handle": "aircon_chemical_cassette_3hp",
-				"label": "Ceiling Cassette Overhaul 3hp                                               RM400/unit",
-				"orderLabel": "Unit (Ceiling Cassette Overhaul - 3hp)",
+	"AC Cassette Chemical Overhaul 3hp": {
+				"handle": "aircon_jb_chemical_cassette_3hp",
+				"label": "Chemical Overhaul Cassette 3hp                                               RM400/unit",
+				"orderLabel": "Unit (Chemical Overhaul Cassette 3hp)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "400",
-					"CNY": "260"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Unit",
@@ -674,8 +699,8 @@
 
 			
 
-			"Compressor Wash": {
-				"handle": "aircon_compressor_wash",
+			"AC Compressor Wash": {
+				"handle": "aircon_jb_compressor_wash",
 				"label": "Compressor Wash                                               RM100/unit",
 				"orderLabel": "Unit (Compressor Wash)",
 				"description": "Label standard",
@@ -698,26 +723,26 @@
 		
 		"types": {
 			"house": {
-				"label": "Week Type",
+				"label": "Weekend?",
 				"description": "Label standard",
 				"values": {
 					"condo": {
-						"label": "Week-ENDS +RM20",
-						"orderLabel": "Week-ENDS +RM20",
+						"label": "Yes +RM20",
+						"orderLabel": "Yes +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "5",
+							"SGD": "0",
 							"MYR": "20",
-							"CNY": "25"
+							"CNY": "0"
 						}
 					},
 					"landed": {
-						"label": "Week-DAYS +RM0",
-						"orderLabel": "Week-DAYS +RM0",
+						"label": "No",
+						"orderLabel": "No",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
