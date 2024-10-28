@@ -60,7 +60,7 @@
 
 		
 		"Plumbing Survey": {
-				"handle": "plumbing_survey",
+				"handle": "plumbing_jb_survey",
 				"label": "Plumbing Survey                                              Free",
 				"orderLabel": "Trip (Plumbing Survey)",
 				"description": "Label standard",
@@ -107,7 +107,7 @@
 			
 			
 			"Standard Plumbing": {
-				"handle": "plumbing_hourly_rate_standard",
+				"handle": "plumbing_jb_hourly_rate_standard",
 				"label": "Hourly Rate - Standard Plumbing                                             RM90/hr",
 				"orderLabel": "Hour (Hourly Rate - Standard Plumbing)",
 				"description": "Label standard",
@@ -134,7 +134,7 @@
 		
 			
 			"Tank Wash": {
-				"handle": "plumbing_tank_wash",
+				"handle": "plumbing_jb_tank_wash",
 				"label": "Tank WASH                                            RM100/hr                                                 Min 1.5hrs",
 				"orderLabel": "Hour (Tank WASH)",
 				"description": "Label standard",
@@ -155,7 +155,7 @@
 			
 			
 			"Tank Ball Float Valve Repair": {
-				"handle": "plumbing_ball_float",
+				"handle": "plumbing_jb_ball_float_valve",
 				"label": "Tank Ball Float Valve Repair                                           RM100/unit",
 				"orderLabel": "Unit (Tank Ball Float Valve Repair)",
 				"description": "Label standard",
@@ -179,7 +179,7 @@
 		
 
 			"Plumbing Work Confirmation": {
-				"handle": "plumbing_work_confirmation",
+				"handle": "plumbing_jb_work_confirmation",
 				"label": "Plumbing Work Confirmation                                      Per Quote",
 				"orderLabel": "Job (Plumbing Work Confirmation)",
 				"description": "Label standard",
