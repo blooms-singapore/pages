@@ -580,8 +580,8 @@
 
 			"AC Compressor Wash": {
 				"handle": "aircon_jb_standard_service_compressor",
-				"label": "Compressor Wash                                               RM80/unit",
-				"orderLabel": "Unit (Compressor Wash)",
+				"label": "Standard Service Compressor                                               RM80/unit",
+				"orderLabel": "Unit (Standard Service Compressor)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
