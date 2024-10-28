@@ -427,12 +427,12 @@
 
 	"AC Videocall": {				
 				"handle": "aircon_jb_videocall",
-				"label": "Aircon Videocall                                       RM2/call",
+				"label": "Aircon Videocall                                       RM2/call                                           Transport Waived",
 				"orderLabel": "Call (Aircon Videocall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "2",
+					"MYR": "-28",
 					"CNY": "0"
 				},
 				"quantity": {
