@@ -1245,7 +1245,7 @@
 		"options": {
 	
 			
-			"Landscape videocall": {
+			"Landscape Videocall": {
 				"handle": "landscape_videocall",
 				"label": "Videocall                                               RM2/call",
 				"orderLabel": "Call (VideoCall)",
@@ -1269,13 +1269,13 @@
 			
 			"Landscape Survey": {
 				"handle": "landscape_survey",
-				"label": "Survey                                             RM35/trip",
+				"label": "Survey                                             RM30/trip",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "35",
-					"CNY": "50"
+					"SGD": "0",
+					"MYR": "30",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
