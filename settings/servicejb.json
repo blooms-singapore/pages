@@ -1443,12 +1443,12 @@
 		
 		"types": {
 			"house": {
-				"label": "Your Location?",
-				"description": "Your Location?",
+				"label": "Within Service Location?",
+				"description": "Within Service Location?",
 				"values": {
-					"Landscape Within Service Area": {
-						"label": "Within Service Area",
-						"orderLabel": "Within Service Area",
+					"Yes": {
+						"label": "Yes",
+						"orderLabel": "Yes",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1462,9 +1462,9 @@
 						      }
 						},
 						
-					"Landscape Outside Service Area": {
-						"label": "Outside Service Area +RM20",
-						"orderLabel": "Outside Service Area +RM20",
+					"No": {
+						"label": "No +RM15",
+						"orderLabel": "No +RM15",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1473,8 +1473,8 @@
 						
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "20",
-							"CNY": "10"
+							"MYR": "15",
+							"CNY": "0"
 						}
 					}
 				}
