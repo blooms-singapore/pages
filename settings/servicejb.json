@@ -1420,7 +1420,7 @@
 			
 	
 			"Landscape Work Confirmation": {
-				"handle": "landscape_jb_work_confirmation",
+				"handle": "landscape_work_confirmation",
 				"label": "Landscape Work Confirmation                                     Per Quote",
 				"orderLabel": "Job (Landscape Work Confirmation)",
 				"description": "Label standard",
