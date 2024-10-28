@@ -1,5 +1,5 @@
 ---
-subtitle: Aircon Works - Wall Mount and Ceiling Cassettes. Washes and Repairs.
+subtitle: Aircon Works - Wall Mount and Ceiling Cassettes. Servicing, Repair & Installation.
 layout: service
 ---
 
@@ -42,23 +42,26 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
   <!--Transport Fee-->
    <thead>
       <tr>
-        <th><b>Other Charges<br>Where Applicable</b></th>
+        <th><b>Services</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
       <td>Transport Fee</td>
-      <td>${params.aircon_sg_transport}/trip</td>
+      <td>${params.aircon_jb_transport}/trip</td>
       </tr>
-    <tr>
-      <td>Distant Surcharge<br>Outside<br>Service Location</td>
-      <td>+30.0</td>
+	    
+      <tr>
+      <td>Videocall</td>
+      <td>${params.aircon_jb_videocall}/call</td>
       </tr>
+    
+
 
      <tr>
       <td>Weekends</td>
-      <td>+20.0</td>
+      <td>+20</td>
       </tr>
 
     
@@ -91,24 +94,28 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       <td>Aircon Lumpsum<br>Work Confirmation</td>
        <td>Per Quotation</td>
       </tr>
-       
- 	    
- <!--Wall Mount Chemical Overhaul-->
-    <tr>
-        <th><b>Chemical Overhaul<br>Wall-Mount</b></th>
-        <th><b>Pricing (${params.currency})<br>Standard Size</b></th>
+        	       
+
+
+	       <!--STANDARD Wash-->
+     <thead>
+      <tr>
+        <th><b>Standard Wash<br>Wall-Mount</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
+      
       <tr>
-	<td>Up to 1.5hp</b></td>
-        <td>${params.aircon_chemical_small_overhaul_weekdays}/unit</td>
+	<td>Up to 1.5hp<br><b>Min 2 units</b></td>
+       <td>${params.aircon_standardwash_small}/unit</td>
       </tr>
 
-     <tr>
-	<td>2 to 3hp</b></td>
-        <td>${params.aircon_chemical_big_overhaul_weekdays}/unit</td>
+      <tr>
+	<td>2 to 3hp</td>
+       <td>${params.aircon_standardwash_big}/unit</td>
       </tr>
+            
 
            
    </tbody>
@@ -128,31 +135,26 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
   <table>
             
        
-   
-     <!--STANDARD Wash-->
-     <thead>
-      <tr>
-        <th><b>Standard Wash<br>Wall-Mount</b></th>
-        <th><b>Pricing (${params.currency})</b></th>
+
+
+
+	    
+ <!--Wall Mount Chemical Overhaul-->
+    <tr>
+        <th><b>Chemical Overhaul<br>Wall-Mount</b></th>
+        <th><b>Pricing (${params.currency})<br>Standard Size</b></th>
       </tr>
     </thead>
     <tbody>
-      
       <tr>
-	<td>Up to 1.5hp<br><b>Min 2 units</b></td>
-       <td>${params.aircon_standardwash_small}/unit</td>
+	<td>Up to 1.5hp</b></td>
+        <td>${params.aircon_chemical_small_overhaul_weekdays}/unit</td>
       </tr>
 
-      <tr>
-	<td>2 to 3hp</td>
-       <td>${params.aircon_standardwash_big}/unit</td>
-      </tr>
-         
      <tr>
-      <td>Coolant Gas<br>Top-Up
-      <td>80.0 to 150.0/unit<br><b>Scroll below<br>for more info</b></td>
+	<td>2 to 3hp</b></td>
+        <td>${params.aircon_chemical_big_overhaul_weekdays}/unit</td>
       </tr>
-
 
 
 <!--Cassette Chemical Overhaul-->
@@ -177,8 +179,8 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <td>3hp</td>
      <td>${params.aircon_chemical_cassette_3hp}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
   </tr>
+	  
 
- </tbody>
 
 <!--Compressor-->
 
@@ -192,6 +194,28 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       <td>Outdoor Unit</td>
      <td>${params.aircon_compressor_wash}/unit</td><!--${params.aircon_cassette_chemical_overhaul_weekdays}/unit</td><!--${(params.aircon_cassette * 1.5).toFixed(1)} to ${(params.aircon_cassette * 2.0).toFixed(1)}--></td>
       </tr>
+
+    <!--Misc Charges-->
+     <thead>
+      <tr>
+        <th><b>Misc<br>Charge</b></th>
+        <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    
+         
+     <tr>
+      <td>Coolant Gas<br>Top-Up
+      <td>80.0 to 150.0/unit<br><b>Scroll below<br>for more info</b></td>
+      </tr>
+	    
+ <tr>
+      <td>Distant Surcharge<br>Outside<br>Service Location</td>
+      <td>+20</td>
+      </tr>
+	  
 </tbody>
 	  
     </table>
