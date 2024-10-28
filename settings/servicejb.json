@@ -1331,6 +1331,28 @@
 					"base": 1
 				}
 			},
+
+
+			"Landscape Work Confirmation": {
+				"handle": "landscape_work_confirmation",
+				"label": "Landscape Work Confirmation                                     Per Quote",
+				"orderLabel": "Job (Landscape Work Confirmation)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Job",
+					"min": 0,
+					"max": 1,
+					"default": 0,
+					"increment": 1,
+					"base": 1,
+					"multiplier": 1
+				}
+			 }
 						
 					
 			
@@ -1411,28 +1433,6 @@
 					"label": "Job",
 					"min": 0,
 					"max": 2,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-				}
-			 },
-			
-	
-			"Landscape Work Confirmation": {
-				"handle": "landscape_work_confirmation",
-				"label": "Landscape Work Confirmation                                     Per Quote",
-				"orderLabel": "Job (Landscape Work Confirmation)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
 					"default": 0,
 					"increment": 1,
 					"base": 1,
