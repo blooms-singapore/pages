@@ -724,21 +724,7 @@
 				"label": "Weekend?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Yes +RM20",
-						"orderLabel": "Yes +RM20",
-						"cost": {
-							"SGD": "0",
-							"MYR": "0",
-							"CNY": "0"
-						},
-						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "20",
-							"CNY": "0"
-						}
-					},
-					"landed": {
+					"No": {
 						"label": "No",
 						"orderLabel": "No",
 						"cost": {
@@ -749,6 +735,20 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
+							"CNY": "0"
+						}
+					},
+					"Yes": {
+						"label": "Yes +SGD20",
+						"orderLabel": "Yes +SGD20",
+						"cost": {
+							"SGD": "0",
+							"MYR": "0",
+							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "20",
 							"CNY": "0"
 						}
 					}
