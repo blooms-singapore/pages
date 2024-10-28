@@ -1289,8 +1289,8 @@
 			
 			
 			
-			"Landscape 1 crew": {
-				"handle": "landscape_one_crew",
+			"Landscape Garden Maintenance 1 crew": {
+				"handle": "landscape_garden_maintenance_1crew",
 				"label": "1 crew - Small Garden                                           RM50/hr                                                    Min 1hr",
 				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
@@ -1312,8 +1312,8 @@
 			
 			
 			
-			"Landscape 2 crews": {
-				"handle": "landscape_two_crews",
+			"Landscape Garden Maintenance 2 crews": {
+				"handle": "landscape_garden_maintenance_2crews",
 				"label": "2 Crews - Large Garden                                              RM75/hr                                                     Min 3hrs",
 				"orderLabel": "Hours (2 Crews - Large Garden)",
 				"description": "Label standard",
@@ -1357,8 +1357,8 @@
 					
 			
 			
-			"Overgrowth Clearance": {
-				"handle": "landscape_overgrowth_clearance",
+			"Landscape Overgrowth Clearance 2 crews": {
+				"handle": "landscape_overgrowth_clearance_2crews",
 				"label": "2 Crews - Overgrowth Clearance                                  RM100/hr                                                       Min 3hrs",
 				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
 				"description": "Label standard",
@@ -1377,8 +1377,8 @@
 				}
 			},
 			
-			"Small Debris": {
-				"handle": "small_debris",
+			"Landscape Small Disposal": {
+				"handle": "landscape_small_disposal",
 				"label": "Small Disposal Fee                                        RM30                                                Up to 3 bags",
 				"orderLabel": "Job (Small Disposal Fee)",
 				"description": "Label standard",
@@ -1398,8 +1398,8 @@
 				}
 			},
 			
-			"Big Debris": {
-				"handle": "big_debris",
+			"Landscape Big Disposal": {
+				"handle": "landscape_big_disposal",
 				"label": "Big Disposal Fee                                 RM10/bag",
 				"orderLabel": "Bags (Big Disposal Fee)",
 				"description": "Label standard",
@@ -1419,8 +1419,8 @@
 				}
 			},
 			
-			"Disposal by Lorry": {
-				"handle": "landscape_disposal_by_lorry",
+			"Landscape Disposal by Lorry": {
+				"handle": "landscape_disposal_lorry",
 				"label": "Disposal by Lorry                                                        RM150/lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
