@@ -739,8 +739,8 @@
 						}
 					},
 					"Yes": {
-						"label": "Yes +SGD20",
-						"orderLabel": "Yes +SGD20",
+						"label": "Yes +RM20",
+						"orderLabel": "Yes +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
