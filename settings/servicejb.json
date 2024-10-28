@@ -577,6 +577,27 @@
 				}
 			},
 
+
+			"AC Compressor Wash": {
+				"handle": "aircon_jb_compressor_wash",
+				"label": "Compressor Wash                                               RM80/unit",
+				"orderLabel": "Unit (Compressor Wash)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
 		
 				
 			
@@ -610,9 +631,9 @@
 				"orderLabel": "Unit (Chemical Overhaul Wall-Mount 2 to 3hp)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "230",
-					"CNY": "260"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Unit",
@@ -661,9 +682,9 @@
 				"orderLabel": "Unit (Chemical Overhaul Cassette Overhaul 2hp)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "350",
-					"CNY": "260"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Unit",
@@ -685,29 +706,6 @@
 					"SGD": "0",
 					"MYR": "400",
 					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-
-
-			
-
-			"AC Compressor Wash": {
-				"handle": "aircon_jb_compressor_wash",
-				"label": "Compressor Wash                                               RM100/unit",
-				"orderLabel": "Unit (Compressor Wash)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "10",
-					"MYR": "100",
-					"CNY": "260"
 				},
 				"quantity": {
 					"label": "Unit",
