@@ -1359,7 +1359,7 @@
 			
 			"Landscape Overgrowth Clearance 2 crews": {
 				"handle": "landscape_overgrowth_clearance_2crews",
-				"label": "2 Crews - Overgrowth Clearance                                  RM100/hr                                                       Min 3hrs",
+				"label": "2 Crews - Overgrowth Clearance                                  RM100/hr                                       Min 3.5hrs",
 				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
 				"description": "Label standard",
 				"cost": {
@@ -1372,7 +1372,7 @@
 					"min": 0,
 					"max": 7,
 					"increment": 0.5,
-					"default": 3,
+					"default": 3.5,
 					"base": 1
 				}
 			},
