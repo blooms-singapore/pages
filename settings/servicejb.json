@@ -2956,7 +2956,7 @@
 			"Tiling Non-Waterproof": {
 				"handle": "tiling_jb_nonwaterproof_hourly_rate",
 				"label": "Tile Non-Waterproof Works                                                 RM120/hr                                                   Min 1hr",
-				"orderLabel": "Hour (Tile Non-Waterproof Works - Min 1.5hrs)",
+				"orderLabel": "Hour (Tile Non-Waterproof Works)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "5",
@@ -2997,7 +2997,7 @@
 			
 			"Tiling Waterproof Empty House - 1ft2": {
 				"handle": "tiling_jb_waterproof_empty_house_1ft2",
-				"label": "Tile Waterproof Work - Empty House - 1ft2 Increment                                              RM35/ft2",
+				"label": "Tile Waterproof Work - Empty House - 1ft2 Increments                                              RM35/ft2",
 				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
 				"description": "Label standard",
 				"cost": {
@@ -3039,7 +3039,7 @@
 			
 			"Tiling Waterproof Occupied House - 1ft2": {
 				"handle": "tiling_waterproof_occupied_house_1ft2",
-				"label": "Tile Waterproof Work - Occupied House - 1ft2 Increment                                                   RM40/ft2",
+				"label": "Tile Waterproof Work - Occupied House - 1ft2 Increments                                                  RM40/ft2",
 				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
 				"description": "Label standard",
 				"cost": {
