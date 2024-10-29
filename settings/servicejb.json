@@ -2853,9 +2853,9 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "45.5",
-			"MYR": "210",
-			"CNY": "20"
+			"SGD": "0",
+			"MYR": "150",
+			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
@@ -2863,13 +2863,13 @@
 									
 			"Tiling Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Tiling Transport Fee                                                              RM30/trip",
-				"orderLabel": "Trip (Tiling Transport Fee)",
+				"label": "Transport Fee                                                              RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "30",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
@@ -2880,18 +2880,42 @@
 					"base": 1
 				}
 			},
+
+
+
+
+
+			"Tiling Videocall": {
+				"handle": "tiling_jb_videocall",
+				"label": "Tiling Videocall                                                        RM2/call                                         Transport Waived",
+				"orderLabel": "Call (Tiling Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "-28",
+					"CNY": "50"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
 			
 		
 
 			"Tiling Survey": {
-				"handle": "tiling_survey",
+				"handle": "tiling_jb_survey",
 				"label": "Tiling Survey                                                              Free",
 				"orderLabel": "Trip (Tiling Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
@@ -2907,10 +2931,10 @@
 			
 		
 
-          		"Tiling Lumpsum Confirmation": {
-				"handle": "tiling_lumpsum",
-				"label": "Tiling Lumpsum Work Confirmation                                           Per Quotation",
-				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
+          		"Tiling Work Confirmation": {
+				"handle": "tiling_jb_work_confirmation",
+				"label": "Tiling Work Confirmation                                           Per Quote",
+				"orderLabel": "Job (Tiling Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2930,8 +2954,8 @@
 			
 			
 			"Tiling Non-Waterproof": {
-				"handle": "nonwaterproof_min_order",
-				"label": "Tile Non-Waterproof Works - Min 1.5hrs                                                 RM120/hr",
+				"handle": "tiling_jb_nonwaterproof_hourly_rate",
+				"label": "Tile Non-Waterproof Works                                                 RM120/hr                                                   Min 1hr",
 				"orderLabel": "Hour (Tile Non-Waterproof Works - Min 1.5hrs)",
 				"description": "Label standard",
 				"cost": {
@@ -2944,7 +2968,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 0.5,
-					"default": 1.5,
+					"default": 1,
 					"base": 1
 				}
 			},
@@ -2952,7 +2976,7 @@
 				
 					
 			"Tiling Waterproof Empty House - 10ft2": {
-				"handle": "waterproof_empty_house_10ft2",
+				"handle": "tiling_jb_waterproof_empty_house_10ft2",
 				"label": "Tile Waterproof Work - Empty House - 10ft2 Increments                                                    RM35/ft2",
 				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
 				"description": "Label standard",
@@ -2971,8 +2995,8 @@
 				}
 			},
 			
-			"Waterproof Empty House - 1ft2": {
-				"handle": "waterproof_empty_house_1ft2",
+			"Tiling Waterproof Empty House - 1ft2": {
+				"handle": "tiling_jb_waterproof_empty_house_1ft2",
 				"label": "Tile Waterproof Work - Empty House - 1ft2 Increment                                              RM35/ft2",
 				"orderLabel": "ft2 (Tile Waterproof Work - Empty House)",
 				"description": "Label standard",
@@ -2993,8 +3017,8 @@
 			},
 			
 					
-			"Waterproof Occupied House - 10ft2": {
-				"handle": "waterproof_occupied_house_10ft2",
+			"Tiling Waterproof Occupied House - 10ft2": {
+				"handle": "tiling_jb_waterproof_occupied_house_10ft2",
 				"label": "Tile Waterproof Work - Occupied House - 10ft2 Increments                                                     RM40/ft2",
 				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
 				"description": "Label standard",
@@ -3013,8 +3037,8 @@
 				}
 			},
 			
-			"Waterproof Occupied House - 1ft2": {
-				"handle": "waterproof_occupied_house_1ft2",
+			"Tiling Waterproof Occupied House - 1ft2": {
+				"handle": "tiling_waterproof_occupied_house_1ft2",
 				"label": "Tile Waterproof Work - Occupied House - 1ft2 Increment                                                   RM40/ft2",
 				"orderLabel": "ft2 (Tile Waterproof Work - Occupied House)",
 				"description": "Label standard",
@@ -3063,13 +3087,13 @@
 		
 		"types": {
 			"house": {
-				"label": "Location?",
+				"label": "Within Service Location?",
 				"description": "Label standard",
 				"values": {
 					
-					"Standard Location": {
-						"label": "Standard Location",
-						"orderLabel": "Standard Locations",
+					"Yes": {
+						"label": "Yes",
+						"orderLabel": "Yes",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3077,9 +3101,9 @@
 						}
 					},
 					
-					"Distant Location": {
-						"label": "Distant Location +RM20",
-						"orderLabel": "Distant Locations +RM20",
+					"No": {
+						"label": "No +RM20",
+						"orderLabel": "No +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
