@@ -44,51 +44,62 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <!--Project-->
     <thead>
       <tr>
-       <th><b>Lumpsum<br>Work</b></th>
+       <th><b>Tiling & Concrete</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
+  <tr>
+        <td>Transport<br>Fee</td>
+        <td>${params.transport_fee}/trip</td>
+      </tr>
+
+        <tr>
+        <td>Videocall</td>
+        <td>${params.tiling_jb_videocall}/trip</td>
+      </tr>
+      
+      
       <tr>
         <td>Survey</td>
         <td>Free</td>
       </tr>
                
       <tr>
-        <td>Tiling Lumpsum<br>Work Confirmation</td>
+        <td>Tiling Work<br>Confirmation</td>
         <td>Per Quotation</td>
        </tr>
     
      <!--non-Waterproof - hourly charge-->
      <thead>
       <tr>
-        <th><b>Non-Waterproof<br>Tile Works<br>Charge By Time</b></th>
+        <th><b>Non-Waterproof<br>Tile Works<br>By Time</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
       <tbody>    
       <tr>
-        <td>Hourly Service<br>Min 1.5hrs</b></td>
-        <td>${params.nonwaterproof_min_order}/hr</td>
+        <td>Hourly Rate<br>Min 1.5hrs</b></td>
+        <td>${params.tiling_jb_hourly_rate}/hr</td>
       </tr>
       
       
      <!--Waterproof by area-->
      <thead>
       <tr>
-        <th><b>Waterproof<br>Tile Works<br>Charge by Area</b></th>
+        <th><b>Waterproof<br>Tile Works<br>By Area</b></th>
         <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
       <tbody>    
       <tr>
         <td>Empty House<br>Min 30ft<sup>2</sup></td>
-        <td>${params.waterproof_empty_house_10ft2}/ft<sup>2</sup></td>
+        <td>${params.tiling_jb_waterproof_empty_house_10ft2}/ft<sup>2</sup></td>
       </tr>
         
         <tr>
         <td>Occupied House<br>Min 30ft<sup>2</sup></td>
-        <td>${params.waterproof_occupied_house_10ft2}/ft<sup>2</sup></td>
+        <td>${params.tiling_jb_waterproof_occupied_house_10ft2}/ft<sup>2</sup></td>
       </tr>
                 
                 
@@ -102,23 +113,13 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>
       
        <tr>
-        <td>Transport<br>Fee</td>
-        <td>${params.transport_fee}/trip</td>
-      </tr>
-      
-       <tr>
-        <td>Tile Dust<br>Protection<br>Survey</td>
-        <td>${params.tiling_dust_protection}/trip</td>
-      </tr>
-      
-      <tr>
-        <td>Service<br>Extension</td>
+        <td>Hourly Rated<br>Service Extension</td>
         <td>Charge in<br>30-min blocks</td>
       </tr>
       
       <tr>
         <td>Picking Fee<br><b>Optional</b></td>
-        <td>45.0/trip</td>
+        <td>45/trip</td>
       </tr>
   </tbody>
   </table>
