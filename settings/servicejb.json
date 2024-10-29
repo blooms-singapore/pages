@@ -1689,8 +1689,8 @@
 		
 		"types": {
 			"house": {
-				"label": "Within Service Location?",
-				"description": "Within Service Location?",
+				"label": "Within Service Area?",
+				"description": "Within Service Area?",
 				"values": {
 					"Yes": {
 						"label": "Yes",
@@ -3087,7 +3087,7 @@
 		
 		"types": {
 			"house": {
-				"label": "Within Service Location?",
+				"label": "Within Service Area?",
 				"description": "Label standard",
 				"values": {
 					
