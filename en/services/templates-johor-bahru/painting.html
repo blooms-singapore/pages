@@ -40,37 +40,46 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
   <table>
     <thead>
       <tr>
-       <th><b>Misc Project<br>Lumpsum</b><br>Labour + Paint</th>
+       <th><b>Lumpsum Work</b><br>Labour + Paint</th>
        <th><b>Pricing (${params.currency})</b></th>
        </tr>
     </thead>
     <tbody>
-        
       <tr>
-       <td>Survey</td>
+        <td>Transport Fee</td>
+        <td>${params.transport_fee}/trip</td>
+      </tr>
+
+      <tr>
+        <td>Painting Videocall</td>
+        <td>${params.painting_jb_videocall}/call</td>
+      </tr>
+      
+      <tr>
+       <td>Painting Survey</td>
        <td>Free</td>
       </tr>
      
        <tr>
-       <td>Paint Project<br>Lumpsum Confirmation</td>
-       <td>Per Quotation</td>
+       <td>Paint Work<br>Confirmation</td>
+       <td>Per Quote</td>
       </tr>
    
     <thead>
       <tr>
-       <th><b>1 Crew<br>Time-Charge Service</b><br>Labour Only</th>
+       <th>1 Crew<br>Hourly Rate<br>Skill Labour Only</th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
        <tr>
-        <td>Hourly Rate<br>Min 3 hrs</td>
-        <td>${params.painting_hourly_service}/hr</td>
+        <td>Hourly Rate<br>Min 2 hrs</td>
+        <td>${params.painting_jb_hourly_rate}/hr</td>
       </tr>
      
      <tr>
        <td>Daily Rate<br>Min 1 day</td>
-       <td>${params.painting_day}/day</td>
+       <td>${params.painting_jb_daily_rate}/day</td>
       </tr>
     </tbody>
          
@@ -81,24 +90,15 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
       </tr>
     </thead>
     <tbody>
-       <tr>
-        <td>Transport<br>Fee</td>
-        <td>${params.painting_transport}/trip</td>
-      </tr>
-            
+   
       <tr>
-        <td>Time-Charge<br>Extension</td>
-        <td>in 30-min blocks</td>
+        <td>Hourly Rate<br>Extension</td>
+        <td>Charge in<br>30-min blocks</td>
       </tr>
 
       <tr>
         <td>Picking Fee<br>Optional</td>
-        <td>${params.painting_transport}/trip</td>
-      </tr>
-            
-      <tr>
-        <td>Condo<br>Surcharge</td>
-        <td>10.0</td>
+        <td>30/trip</td>
       </tr>
       
    </tbody>
