@@ -492,7 +492,7 @@
 					
          
 			"1 crew Install": {
-				"handle": "install_jb__1crew",
+				"handle": "install_jb_1crew",
 				"label": "1 Crew Install                                               RM90/hr                                          Min 1hr",
 				"orderLabel": "Hour (1 Crew Install)",
 				"description": "Label standard",
