@@ -2707,11 +2707,11 @@
 	"waterproof": {
 		"name": "Waterproofing",
 		"lastSlot": "16:00",
-		"disableLocations": ["Johor Bahru"],
+		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "66",
-			"CNY": "20"
+			"CNY": ""
 		},
 		"hasNote": 1,
 		"options": {
