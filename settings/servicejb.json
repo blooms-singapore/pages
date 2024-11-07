@@ -2718,8 +2718,8 @@
 			
 			"Waterproof Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Waterproofing Transport Fee                                                          RM30/trip",
-				"orderLabel": "Trip (Waterproofing Transport Fee)",
+				"label": "Transport Fee                                                          RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2735,12 +2735,34 @@
 					"base": 1
 				}
 			 },
+
+
+	"Waterproofing Videocall": {
+				"handle": "waterproofing_jb_videocall",
+				"label": "Waterproofing Videocall                                                        RM2/call                                     Waive Transport Fee",
+				"orderLabel": "Call (Waterproofing Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "-28",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			 },
 			
 			
-			"Survey": {
-				"handle": "survey",
-				"label": "Survey                                                        Free",
-				"orderLabel": "Trip (Survey)",
+			
+			"Waterproofing Survey": {
+				"handle": "waterproofing_jb_survey",
+				"label": "Waterproofing Survey                                                        Free",
+				"orderLabel": "Trip (Waterproofing Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2757,10 +2779,10 @@
 				}
 			 },
 			
-			"Waterproof Project": {
-				"handle": "waterproof_project",
-				"label": "Waterproof Project Confirmation                                Per Quotation",
-				"orderLabel": "Job (Waterproof Project Confirmation)",
+			"Waterproof Work Confirmation": {
+				"handle": "waterproofing_jb_work_confirmation",
+				"label": "Waterproofing Work Confirmation                                  Per Quote",
+				"orderLabel": "Job (Waterproofing Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2778,8 +2800,8 @@
 			 },
 			
 						
-			"Std Silicon": {
-				"handle": "waterproofing_silicon_application",
+			"Waterproofing Std Silicon": {
+				"handle": "waterproofing_jb_silicon_application",
 				"label": "Silicon Application                                              RM70/hr/crew                                                Exclude material",
 				"orderLabel": "Hour (Silicon Application)",
 				"description": "Label standard",
@@ -2793,7 +2815,7 @@
 					"min": 0,
 					"max": 0,
 					"increment": 0.5,
-					"default": 1.5,
+					"default": 1,
 					"base": 1
 				}
 			 }
@@ -2801,12 +2823,12 @@
 		
 	    "types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo/Office +RM10",
-						"orderLabel": "Condo/Office +RM10",
+					"Condo/Apt": {
+						"label": "Condo/Apt",
+						"orderLabel": "Condo/Apt",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2814,13 +2836,13 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+					"Landed/Commercial": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
