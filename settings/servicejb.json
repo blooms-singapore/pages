@@ -450,11 +450,11 @@
 			
 			"Installation Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Installation Transport Fee                                                          RM30/trip",
-				"orderLabel": "Trip (Installation Transport Fee)",
+				"label": "Transport Fee                                                          RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
+					"SGD": "0",
 					"MYR": "30",
 					"CNY": "0"
 				},
@@ -469,14 +469,14 @@
 			},
 			
 			
-		"Installation Video Call": {
-			"handle": "installation_jb_videocall",
-			"label": "Installation Video Call                                         RM5/call                                         Waive Transport Fee",
-			"orderLabel": "Call (Installation Video Call)",
+		"Installation Videocall": {
+			"handle": "install_jb_videocall",
+			"label": "Installation Videocall                                         RM2/call                                         Waive Transport Fee",
+			"orderLabel": "Call (Installation Videocall)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "0",
-				"MYR": "-25",
+				"MYR": "-28",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -489,34 +489,15 @@
 			}
 		},
 			
-			"Installation Standard": {
-				"handle": "installation_standard",
-				"label": "1 Crew Standard Install                                                 RM65/hr",
-				"orderLabel": "Hour (1 Crew Standard Install)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "45",
-					"MYR": "65",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Hour",
-					"min": 0,
-					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
+					
          
-			"1 crew Installation Technical": {
-				"handle": "installation_technical_1crew",
-				"label": "1 Crew Technical Install                                               RM90/hr",
-				"orderLabel": "Hour (1 Crew Technical Install)",
+			"1 crew Install": {
+				"handle": "install_jb__1crew",
+				"label": "1 Crew Install                                               RM90/hr                                          Min 1hr",
+				"orderLabel": "Hour (1 Crew Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "0",
 					"MYR": "90",
 					"CNY": "0"
 				},
@@ -524,21 +505,21 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
 				}
 			},
 			
 			
 			
-			"2 crews Installation Technical": {
-				"handle": "installation_technical_2crews",
-				"label": "2 Crews Technical Install                                               RM180/hr",
+			"2 crews Install": {
+				"handle": "install_jb_2crews",
+				"label": "2 Crews Install                                               RM180/hr",
 				"orderLabel": "Hour (2 Crews Technical Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "50",
+					"SGD": "0",
 					"MYR": "180",
 					"CNY": "0"
 				},
@@ -546,20 +527,20 @@
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
+					"increment": 0.5,
+					"default": 0,
+					"base": 1
 				}
 			},
 			
 			
 			"Site Survey": {
-				"handle": "installation_site_survey",
-				"label": "Installation Site Survey                                                      Free",
-				"orderLabel": "Trip (Installation Site Survey)",
+				"handle": "install_jb__survey",
+				"label": "Installation Survey                                                      Free",
+				"orderLabel": "Trip (Installation Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -575,12 +556,12 @@
 			
 			
 			"Project": {
-				"handle": "project",
-				"label": "Lumpsum Work Confirmation                                     Per Quotation",
-				"orderLabel": "Job (Lumpsum Work Confirmation)",
+				"handle": "install_jb_work_confirmation",
+				"label": "Install Work Confirmation                                     Per Quote",
+				"orderLabel": "Job (Install Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "-30",
+					"SGD": "0",
 					"MYR": "-30",
 					"CNY": "0"
 				},
@@ -597,12 +578,12 @@
 		
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo/Office +RM0",
-						"orderLabel": "Condo/Office +RM0 ",
+					"condo/apt": {
+						"label": "Condo/Apt",
+						"orderLabel": "Condo/Apt",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -611,12 +592,12 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
-							"CNY": "25"
+							"CNY": "0"
 						}
 					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+					"landed/commercial": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
