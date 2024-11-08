@@ -40,22 +40,32 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <table>
     <thead>
       <tr>
-       <th><b>Home< 20km</b></th>
+       <th><b>Service Location<br>< 30km</b></th>
        <th><b>Pricing (${params.currency})<br>Exclude lock & parts</b></th>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td>Transport Fee</td>
+        <td>${params.transport_fee}/Trip</td>
+      </tr>
+
        <tr>
-        <td>Lock Work<br>Survey</td>
-        <td>${params.locksmith_survey}/Trip<br>Waive upon<br>award of Job</td>
+        <td>Locksmith Videocall</td>
+        <td>2/Call</td>
+      </tr>
+      
+       <tr>
+        <td>Locksmith Survey</td>
+        <td>${params.locksmith_jb_survey}/Trip<br>Waive upon<br>award of Job</td>
       </tr>
        <tr>
-       <td>Lock Work<br>Confirmation</td>
-        <td>Per Quotation</td>
+       <td>Locksmith Work<br>Confirmation</td>
+        <td>Per Quote</td>
       </tr>
       <tr>
-        <td>Room Door Unlock<br>(10am to 6pm)</td>
-        <td>${params.unlock_morning}/unit</td>
+        <td>Door Unlock<br>(10am to 6pm)</td>
+        <td>${params.unlock_jb_morning}/unit</td>
       </tr>
       <tr>
         <td>Room Door Unlock<br>After 6pm</td>
@@ -66,8 +76,30 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>From ${params.unlock_metal}</td>
       </tr>
       </tr>
-     </tbody>
-    <thead>
+      </tbody>
+  </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
+</div>
+
+
+ <div class = "gap">
+  <div class = "pricing">
+    
+ <!--start hide-->
+<div class = "show-hide-text">
+  <table>
+            
+   <thead>
+      <tr>
+       <th><b>Other Charges</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+
+        <thead>
       <tr>
        <th><b>Car Key Copy</b></th>
        <th><b>Pricing (${params.currency})</b></th>
@@ -98,12 +130,13 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>EZope Smart Lock Installation</td>
         <td>${params.digital_lock}/Unit<br><a class="btn" href="https://youtu.be/QHub69M5PJQ">Download brochure<br><b>EZope Smart Lock</b></a></td>
       </tr>
-      </tbody>
-  </table>
-  <div class="fineprint">
+</tbody>
+	  
+    </table>
+    <div class="fineprint">
     Prices subject to change without prior notice
-  </div>
-</div>
+    </div>
+<br>
 
 
 
