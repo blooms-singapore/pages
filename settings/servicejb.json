@@ -3256,11 +3256,11 @@
 		},
 		"hasNote": 1,
 		"options": {
-			
-			"Survey": {
-				"handle": "locksmith_jb_survey",
-				"label": "Lock Work Survey                                                    RM30/trip",
-				"orderLabel": "Trip (Lock Work Survey)",
+
+		"Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Transport Fee                                                    RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3269,11 +3269,32 @@
 				},
 				"quantity": {
 					"label": "Trip",
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+			
+			
+		"Locksmith Videocall": {
+				"handle": "locksmith_jb_videocall",
+				"label": "Locksmith Videocall                                                    RM2/call",
+				"orderLabel": "Call (Locksmith Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "-28",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
+					"increment": 1,
+					"default": 0,
+					"base": 1
 				}
 			},
 			
