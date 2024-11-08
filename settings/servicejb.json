@@ -3277,10 +3277,10 @@
 				}
 			},
 			
-			"Lock Work Confirmation": {
+			"Locksmith Work Confirmation": {
 				"handle": "locksmith_jb_work_confirmation",
-				"label": "Lock Work Confirmation                                         Per Quotation",
-				"orderLabel": "Job (Lock Work Confirmation)",
+				"label": "Locksmith Work Confirmation                                         Per Quote",
+				"orderLabel": "Job (Locksmith Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3298,8 +3298,8 @@
 			},
 			
 			
-			"unlock-morning": {
-				"handle": "unlock_morning",
+			"Locksmith unlock-morning": {
+				"handle": "locksmith_jb_unlock_morning",
 				"label": "Room Door Unlock (10am to 6pm)                                       RM80 - 100",
 				"orderLabel": "Unit (Room Door Unlock - 10am to 9pm)",
 				"description": "Label standard",
@@ -3322,8 +3322,9 @@
 					"base": 60
 				}
 			},
-			"unlock-evening": {
-				"handle": "unlock_evening",
+			
+			"Locksmith unlock-evening": {
+				"handle": "locksmith_jb_unlock_evening",
 				"label": "Room Door Unlock (After 6pm)                                            RM100 - 130",
 				"orderLabel": "Unit (Room Door Unlock - After 9pm)",
 				"description": "Label standard",
@@ -3346,8 +3347,9 @@
 					"base": 60
 				}
 			},
-			"unlock-metal": {
-				"handle": "unlock_metal",
+			
+			"Locksmith unlock-metal": {
+				"handle": "locksmith_jb_unlock_metal",
 				"label": "Metal Door Unlock                                          from RM80",
 				"orderLabel": "Unit (Metal Door Unlock)",
 				"description": "Label standard",
@@ -3368,8 +3370,8 @@
 			
 			
 			
-			"Premium Car Key Copy": {
-				"handle": "premium_car_key_copy",
+			"Premium Car Key": {
+				"handle": "locksmith_jb_premium_carkey",
 				"label": "Foreign Car Key Copy                                                 from RM260",
 				"orderLabel": "Unit (Foreign Car Key Copy)",
 				"description": "Label standard",
@@ -3388,8 +3390,8 @@
 				}
 			},
 			
-			"National Car Key Copy": {
-				"handle": "national_car_key_copy",
+			"National Car Key": {
+				"handle": "locksmith_jb_national_carkey",
 				"label": "Proton/Perodua Key Copy                                       from RM120",
 				"orderLabel": "Unit (Proton/Perodua Key Copy)",
 				"description": "Label standard",
@@ -3406,57 +3408,17 @@
 					"default": 0,
 					"base": 60
 				}
-			},
-			
-			"Digital Lock": {
-				"handle": "digital_lock",
-				"label": "EZope Smart Lock Install                                       RM1399/unit",
-				"orderLabel": "Unit (EZope Smart Lock Install)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "699",
-					"MYR": "1399",
-					"CNY": "80"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
-			},
-			
-			"Projects": {
-				"handle": "misc_projects",
-				"label":"Lock Projects                                              Per Quotation",
-				"orderLabel": "Job (Lock Projects)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "0",
-					"CNY": "30"
-				},
-				"quantity": {
-					"label": "Job",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 60,
-					"base": 60
-				}
 			}
 		},
 		
 		"types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo/Office +RM10",
-						"orderLabel": "Condo/Office +RM10",
+					"Condo/Apt": {
+						"label": "Condo/Apt",
+						"orderLabel": "Condo/Apt",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3464,13 +3426,13 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "0",
 							"CNY": "0"
 						}
 					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+					"Landed/Commercial": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
