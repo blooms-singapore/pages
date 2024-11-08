@@ -3250,15 +3250,15 @@
 		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
-			"SGD": "80",
+			"SGD": "0",
 			"MYR": "80",
-			"CNY": "80"
+			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
 			
 			"Survey": {
-				"handle": "locksmith_survey",
+				"handle": "locksmith_jb_survey",
 				"label": "Lock Work Survey                                                    RM30/trip",
 				"orderLabel": "Trip (Lock Work Survey)",
 				"description": "Label standard",
@@ -3278,7 +3278,7 @@
 			},
 			
 			"Lock Work Confirmation": {
-				"handle": "locksmith_lock_work_confirmation",
+				"handle": "locksmith_jb_work_confirmation",
 				"label": "Lock Work Confirmation                                         Per Quotation",
 				"orderLabel": "Job (Lock Work Confirmation)",
 				"description": "Label standard",
