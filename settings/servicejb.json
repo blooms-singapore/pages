@@ -3392,7 +3392,7 @@
 			
 			
 			"Premium Car Key": {
-				"handle": "locksmith_jb_premium_carkey",
+				"handle": "locksmith_jb_foreign_carkey",
 				"label": "Foreign Car Key Copy                                                 from RM260",
 				"orderLabel": "Unit (Foreign Car Key Copy)",
 				"description": "Label standard",
