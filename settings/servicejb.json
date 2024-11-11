@@ -1190,7 +1190,7 @@
 		"lastSlot": "16:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "45",
+			"SGD": "0",
 			"MYR": "120",
 			"CNY": "0"
 		},
@@ -1198,13 +1198,13 @@
 		"options": {
 			
 			"Transport & Trouble-Shoot": {
-				"handle": "washing_machine_sg_transport_troubleshoot",
-				"label": "Transport & Trouble-Shoot                                               RM60/trip",
+				"handle": "washing_machine_jb_transport_troubleshoot",
+				"label": "Transport & Trouble-Shoot                                               RM50/trip",
 				"orderLabel": "Trip (Transport & Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
-					"MYR": "60",
+					"SGD": "0",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1221,14 +1221,14 @@
 		
 							
 			
-		"Washing Machine Lumpsum Repair Work": {
-				"handle": "washing _machine_lumpsum_repair",
-				"label": "Lumpsum Repair Confirmation                                      Per Quotation",
-				"orderLabel": "Job (Lumpsum Repair Confirmation)",
+		"Washing Machine Work Confirmation": {
+				"handle": "washing _machine_jb_work_confirmation",
+				"label": "Washing Machine Work Confirmation                                      Per Quote",
+				"orderLabel": "Job (Washing Machine Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "-60",
+					"MYR": "-50",
 					"CNY": "0"
 				},
 				
@@ -1245,13 +1245,13 @@
 			
 			
 			
-		"Washing Machine HookUp New Installation": {
-				"handle": "washing_machine_new_installation",
-				"label": "Hook Up. New Installation                                         RM90/unit",
-				"orderLabel": "Unit (Hook Up. New Installation)",
+		"Washing Machine HookUp Install": {
+				"handle": "washing_machine_jb_hookup",
+				"label": "Hook Up/Install                                           RM90/unit",
+				"orderLabel": "Unit (Hook Up/Install)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "95",
+					"SGD": "0",
 					"MYR": "90",
 					"CNY": "0"
 				},
@@ -1268,36 +1268,15 @@
 			
 			
 			
-		"Washing Machine HookUp Existing Utility": {
-				"handle": "washing_machine_existing_utility",
-				"label": "Hookup with Existing Utilities                                                 RM40/unit",
-				"orderLabel": "Unit (Hook Up with Existing Utilities)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "75",
-					"MYR": "40",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 0,
-					"base": 1
-				}
-			},
-			
-			
 			
 			
 		"Washing Machine Plumbing Electrical": {
-				"handle": "washing_machine_plumbing_electrical",
+				"handle": "washing_machine_jb_plumbing_electrical",
 				"label": "Washing Machine Plumbing/Electrical                                           RM90/hr",
 				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "60",
+					"SGD": "0",
 					"MYR": "90",
 					"CNY": "0"
 				},
@@ -1311,10 +1290,10 @@
 				}
 			},
 
-		"Washing Machine Top Load 7 to 10Kg": {
-				"handle": "washing_machine_maintenance_10",
-				"label": "Top Load Wash 7-10KG                                                RM200/unit",
-				"orderLabel": "Unit (Top Load Wash 7-10KG)",
+		"Washing Machine maintenance Top Load 7 to 10Kg": {
+				"handle": "washing_machine_jb_maintenance_10",
+				"label": "Machine Maintenance Top Load Wash 7-10KG                                                RM200/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load Wash 7-10KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1332,9 +1311,9 @@
 			},
 
 		 "Washing Machine Top Load 11 to 14Kg": {
-				"handle": "washing_machine_maintenance_14",
-				"label": "Top Load Wash 11-14KG                                                RM250/unit",
-				"orderLabel": "Unit (Top Load Wash 11-14KG)",
+				"handle": "washing_machine_jb_maintenance_14",
+				"label": "Machine Maintenance Top Load Wash 11-14KG                                                RM250/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load Wash 11-14KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1352,9 +1331,29 @@
 			},
 
 		"Washing Machine Top Load 15 to 18Kg": {
-				"handle": "washing_machine_maintenance_18",
-				"label": "Top Load Wash 15-18KG                                                RM300/unit",
-				"orderLabel": "Unit (Top Load Wash 15-18KG)",
+				"handle": "washing_machine_jb_maintenance_18",
+				"label": "Machine Maintenance Top Load Wash 15-18KG                                                RM280/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load Wash 15-18KG)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "280",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Unit",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			},
+
+		"Washing Machine Maintenance Top Load 19 to 22Kg": {
+				"handle": "washing_machine_jb_maintenance_22",
+				"label": "Machine Maintenance Top Load Wash 19-22KG                                                RM300/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load Wash 19-22KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1371,30 +1370,10 @@
 				}
 			},
 
-		"Washing Machine Top Load 19 to 22Kg": {
-				"handle": "washing_machine_maintenance_22",
-				"label": "Top Load Wash 19-22KG                                                RM350/unit",
-				"orderLabel": "Unit (Top Load Wash 19-22KG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "350",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-		"Washing Machine Front Load": {
-				"handle": "washing_machine_maintenance_sideload",
-				"label": "Front Load Wash                                               RM380-450/unit",
-				"orderLabel": "Unit (Front Load Wash)",
+		"Washing Machine Maintenance Front Load": {
+				"handle": "washing_machine_jb_maintenance_frontload",
+				"label": "Machine Maintenance Front Load                                               RM380-420/unit",
+				"orderLabel": "Unit (Machine Maintenance Front Load)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1415,30 +1394,30 @@
 				
 	    "types": {
 			"house": {
-				"label": "Week-DAYS or Week-ENDS",
+				"label": "Week-ENDS?",
 				"description": "Label standard",
 				"values": {
-					"Top Loading": {
-						"label": "Week-DAYS",
-						"orderLabel": "Week-DAYS",
+					"Yes": {
+						"label": "Yes +RM20",
+						"orderLabel": "Yes +RM20",
 						"cost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "20",
 							"CNY": "0"
 						},
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
-							"CNY": "10"
+							"CNY": "0"
 						}
 					},
 					
-					"Front Loading": {
-						"label": "Week-ENDS +RM30",
-						"orderLabel": "Week-ENDS +RM30",
+					"No": {
+						"label": "No",
+						"orderLabel": "N0",
 						"cost": {
 							"SGD": "0",
-							"MYR": "30",
+							"MYR": "0",
 							"CNY": "0"
 						}
 					}
