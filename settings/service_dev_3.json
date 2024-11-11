@@ -1802,9 +1802,9 @@
 				"label": "Machine Type?",
 				"description": "Label standard",
 				"values": {
-					"Top Loading": {
-						"label": "Top Load +SGD0",
-						"orderLabel": "Top Load +SGD0",
+					"Top Load": {
+						"label": "Top Load",
+						"orderLabel": "Top Load",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1812,13 +1812,13 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
-					"Side Loading": {
-						"label": "Side Load +SGD20",
-						"orderLabel": "Side Load + SGD20",
+					"Front Load": {
+						"label": "Front Load +SGD20",
+						"orderLabel": "Front Load + SGD20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
