@@ -1029,12 +1029,12 @@
 			
 		"Carpentry Video Call": {
 			"handle": "carpentry_jb_videocall",
-			"label": "Carpentry Video Call                                         MYR5/call                                                  Waive Transport Fee",
+			"label": "Carpentry Videocall                                         RM5/call                                                  Waive Transport Fee",
 			"orderLabel": "Call (Carpentry Video Call)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-15",
-				"MYR": "30",
+				"SGD": "0",
+				"MYR": "-25",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -1116,7 +1116,7 @@
 
 	"Carpentry Lumpsum Confirmation": {
 				"handle": "carpentry_jb_confirmation",
-				"label": "Carpentry Lumpsum Confirmation                                                         Per Quotation",
+				"label": "Carpentry Lumpsum Confirmation                                                         Per Quote",
 				"orderLabel": "Trip (Carpentry Lumpsum Confirmation)",
 				"description": "Label standard",
 				"cost": {
