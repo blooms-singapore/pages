@@ -8,7 +8,7 @@
   "promptAddress": "For our crews to reach you, please register your address, contact name and phone number.",
   "promptLogin": "Please register your address, name & contact number to continue.",
   "noteLabel": "Home issues? Tell us more. Requests, quoted prices etc.",
-  "defaultCountryCode": "60",
+  "defaultCountryCode": "65",
   "defaultCurrency": "MYR",
   "customerSupport": "+6587775231",
   "cancelBuffer": 72,
