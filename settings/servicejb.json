@@ -1292,8 +1292,8 @@
 
 		"Washing Machine maintenance Top Load 7 to 10Kg": {
 				"handle": "washing_machine_jb_maintenance_10",
-				"label": "Machine Maintenance Top Load Wash 7-10KG                                                RM200/unit",
-				"orderLabel": "Unit (Machine Maintenance Top Load Wash 7-10KG)",
+				"label": "Machine Maintenance Top Load 7-10KG                                                RM200/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load 7-10KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1312,8 +1312,8 @@
 
 		 "Washing Machine Top Load 11 to 14Kg": {
 				"handle": "washing_machine_jb_maintenance_14",
-				"label": "Machine Maintenance Top Load Wash 11-14KG                                                RM250/unit",
-				"orderLabel": "Unit (Machine Maintenance Top Load Wash 11-14KG)",
+				"label": "Machine Maintenance Top Load 11-14KG                                                RM250/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load 11-14KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1332,8 +1332,8 @@
 
 		"Washing Machine Top Load 15 to 18Kg": {
 				"handle": "washing_machine_jb_maintenance_18",
-				"label": "Machine Maintenance Top Load Wash 15-18KG                                                RM280/unit",
-				"orderLabel": "Unit (Machine Maintenance Top Load Wash 15-18KG)",
+				"label": "Machine Maintenance Top Load 15-18KG                                                RM280/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load 15-18KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1352,8 +1352,8 @@
 
 		"Washing Machine Maintenance Top Load 19 to 22Kg": {
 				"handle": "washing_machine_jb_maintenance_22",
-				"label": "Machine Maintenance Top Load Wash 19-22KG                                                RM300/unit",
-				"orderLabel": "Unit (Machine Maintenance Top Load Wash 19-22KG)",
+				"label": "Machine Maintenance Top Load 19-22KG                                                RM300/unit",
+				"orderLabel": "Unit (Machine Maintenance Top Load 19-22KG)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
