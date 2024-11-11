@@ -1394,7 +1394,7 @@
 				
 	    "types": {
 			"house": {
-				"label": "Week-ENDS?",
+				"label": "Week-Ends?",
 				"description": "Label standard",
 				"values": {
 					"Yes": {
