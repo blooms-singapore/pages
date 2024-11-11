@@ -1424,12 +1424,12 @@
 						"orderLabel": "Yes +RM20",
 						"cost": {
 							"SGD": "0",
-							"MYR": "20",
+							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "0",
+							"MYR": "20",
 							"CNY": "0"
 						}
 					},
