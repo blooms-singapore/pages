@@ -1416,12 +1416,12 @@
 				
 	    "types": {
 			"house": {
-				"label": "Week-Ends?",
+				"label": "Machine Type?",
 				"description": "Label standard",
 				"values": {
-					"Yes": {
-						"label": "Yes +RM20",
-						"orderLabel": "Yes +RM20",
+					"Top load": {
+						"label": "Top Load",
+						"orderLabel": "Top Load",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1429,19 +1429,25 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "20",
+							"MYR": "0",
 							"CNY": "0"
 						}
 					},
 					
-					"No": {
-						"label": "No",
-						"orderLabel": "N0",
+					"Front Load": {
+						"label": "Front Load + RM30",
+						"orderLabel": "Front Load +RM30",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
+						},
+						"oneOffCost": {
+							"SGD": "0",
+							"MYR": "30",
+							"CNY": "0"
 						}
+					}
 					}
 				}
 			}
