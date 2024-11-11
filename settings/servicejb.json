@@ -1269,8 +1269,8 @@
 			
 		"Washing Machine HookUp Install": {
 				"handle": "washing_machine_jb_hookup",
-				"label": "Hook Up/Install                                           RM60/unit",
-				"orderLabel": "Unit (Hook Up/Install)",
+				"label": "Machine Hook Up/Install                                           RM60/unit",
+				"orderLabel": "Unit (Machine Hook Up/Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1294,8 +1294,8 @@
 			
 		"Washing Machine Plumbing Electrical": {
 				"handle": "washing_machine_jb_plumbing_electrical",
-				"label": "Washing Machine Plumbing/Electrical                                           RM90/hr",
-				"orderLabel": "Hour (Washing Machine Plumbing/Electrical)",
+				"label": "Machine Plumbing/Electrical                                           RM90/hr",
+				"orderLabel": "Hour (Machine Plumbing/Electrical)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
