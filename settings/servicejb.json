@@ -1220,16 +1220,16 @@
 	
 			"Washing Machine Videocall": {
 				"handle": "washing_machine_jb_videocall",
-				"label": "Washing Machine Videocall                                              RM2/trip",
-				"orderLabel": "Trip (Transport & Trouble-Shoot)",
+				"label": "Washing Machine Videocall                                              RM2/call                                   Waive Transport Fee",
+				"orderLabel": "Call (Washing Machine Videocall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "-58",
+					"MYR": "-48",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Call",
 					"min": 0,
 					"max": 0,
 					"increment": 1,
