@@ -1372,26 +1372,7 @@
 				}
 			},
 
-		"Washing Machine Maintenance Top Load 19 to 22Kg": {
-				"handle": "washing_machine_jb_maintenance_22",
-				"label": "Machine Maintenance Top Load 19-22KG                                                RM270/unit",
-				"orderLabel": "Unit (Machine Maintenance Top Load 19-22KG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "0",
-					"MYR": "270",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Unit",
-					"min": 0,
-					"max": 0,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
+	
 		"Washing Machine Maintenance Front Load": {
 				"handle": "washing_machine_jb_maintenance_frontload",
 				"label": "Machine Maintenance Front Load                                               RM350-400/unit",
