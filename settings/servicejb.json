@@ -3117,16 +3117,16 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "0",
-			"MYR": "30",
+			"MYR": "60",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
-			
-			"Home Security Survey": {
-				"handle": "home_security_survey",
-				"label": "Home Security Survey                                                                   RM30/trip",
-				"orderLabel": "Trip (Home Security Survey)",
+
+	"Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Transport Fee                                                                   RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3142,16 +3142,38 @@
 					"base": 1
 				}
 			},
-			
-			
-		"Project Confirmation": {
-				"handle": "home_security_project_confirmation",
-				"label": "Home Security Project Confirmation                                        Per Quotation",
-				"orderLabel": "Job (Home Security Project Confirmation)",
+
+
+			"Home Security Videocall": {
+				"handle": "home_security_jb_videocall",
+				"label": "Home Security Videocall                                                                RM2/call",
+				"orderLabel": "Call (Home Security Videocall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "-30",
+					"MYR": "-28",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 0,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+			
+			
+						
+			"Home Security Trouble Shoot": {
+				"handle": "home_security_jb_troubleshoot",
+				"label": "Home Security Trouble Shoot                                                            RM30/trip",
+				"orderLabel": "Job (Home Security Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3163,16 +3185,17 @@
 					"base": 1
 				}
 			},
-									
-					
-			"CCTV Trouble Shoot": {
-				"handle": "home_security_trouble_shoot",
-				"label": "Trouble Shoot                                                            RM50/trip",
-				"orderLabel": "Job (Trouble Shoot)",
+			
+		
+			
+		"Home Security Work Confirmation": {
+				"handle": "home_security_jb_work_confirmation",
+				"label": "Home Security Work Confirmation                                        Per Quote",
+				"orderLabel": "Job (Home Security Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "-30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3190,12 +3213,12 @@
 				
 	    "types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+					"Landed/Commercial": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3204,15 +3227,15 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "0",
-							"CNY": "10"
+							"CNY": "0"
 						}
 					},
-					"condo": {
-						"label": "Condo/Office +RM10",
-						"orderLabel": "Condo/Office +RM10",
+					"Condo/Apt": {
+						"label": "Condo/Apt",
+						"orderLabel": "Condo/Apt",
 						"cost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "0",
 							"CNY": "0"
 						}
 					}
