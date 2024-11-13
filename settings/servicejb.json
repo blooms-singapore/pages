@@ -2031,17 +2031,17 @@
 		"lastSlot": "15:30",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "20",
+			"SGD": "0",
 			"MYR": "30",
-			"CNY": "20"
+			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
 						
-			"Renovation Project Survey": {
-				"handle": "others_project_survey",
-				"label": "Retrofit & Renovate Project Survey                                                        RM30/trip",
-				"orderLabel": "Trip (Retrofit & Renovation Project Survey)",
+		"Transport Fee": {
+				"handle": "transport_fee",
+				"label": "Transport Fee                                                        RM30/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2050,25 +2050,25 @@
 				},
 				"quantity": {
 					"label": "Trip",
-					"min": 0,
+					"min": 1,
 					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
+					"increment": 1,
+					"default": 1,
+					"base": 1
 				}
 			},
 
 			
 
-		"Retrofit videocall": {
-				"handle": "retrofit_videocall",
-				"label": "Retrofit Video Call                                               RM5/call",
-				"orderLabel": "Call (Retrofit Video Call)",
+		"Retrofit Videocall": {
+				"handle": "retrofit_jb_videocall",
+				"label": "Retrofit/Renovation Videocall                                      RM2/call                                        Waive Transport Fee",
+				"orderLabel": "Call (Retrofit/Renovation Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
-					"MYR": "5",
-					"CNY": "50"
+					"SGD": "0",
+					"MYR": "-28",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Call",
@@ -2080,12 +2080,34 @@
 				}
 			},
 
+
+
+		"Retrofit Renovation Survey": {
+				"handle": "retrofit_jb_survey",
+				"label": "Retrofit/Renovate Survey                                                        Free",
+				"orderLabel": "Trip (Retrofit/Renovation Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "0",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
 			
 			
-			"Project Confirmation": {
-				"handle": "others_project",
-				"label": "Retrofit & Renovate Project Confirmation                                             Per Quotation",
-				"orderLabel" : "Job (Retrofit & Renovation Project Confirmation)",
+		"Retrofit Renovation Work Confirmation": {
+				"handle": "retrofit_jb_work_confirmation",
+				"label": "Retrofit/Renovate Work Confirmation                                             Per Quote",
+				"orderLabel" : "Job (Retrofit/Renovation Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -2096,21 +2118,21 @@
 					"label": "Job",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			}			
 		},
 		
 	    "types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo/Office +RM10",
-						"orderLabel": "Condo/Office +RM10",
+					"Condo/Apt": {
+						"label": "Condo/Apt",
+						"orderLabel": "Condo/Apt",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -2118,13 +2140,13 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
-					"landed": {
-						"label": "Landed House / Commercial",
-						"orderLabel": "Landed House",
+					"Landed/Commercial": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
