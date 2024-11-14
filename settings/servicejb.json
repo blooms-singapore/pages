@@ -3675,13 +3675,13 @@
 		"hasNote": 1,
 		"options": {
 			"Curtain Transport 2 Way": {
-				"handle": "curtain_transport_2way",
-				"label": "Transport 2-Way: Curtain Collection & Delivery                                                          RM50",
+				"handle": "curtain_jb_transport_2way",
+				"label": "Transport 2-Way: Curtain Collection & Delivery                                                          RM35",
 				"orderLabel": "Order (Transport 2-Way: Curtain Collection & Delivery)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "50",
+					"MYR": "35",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3695,13 +3695,13 @@
 			 },
 			
 			"Curtain Transport 1-Way": {
-				"handle": "curtain_transport_1way",
-				"label": "1-Way Survey only                                                       RM30/trip",
+				"handle": "curtain_jb_transport_1way",
+				"label": "1-Way Survey only                                                       RM20/trip",
 				"orderLabel": "Trip (1-Way Survey Only)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "20",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3713,10 +3713,31 @@
 					"base": 1
 				}
 			 },
+
+
+			"Curtain Videocall": {
+				"handle": "curtain_jb_videocall",
+				"label": "Curtain Videocall                                          RM2/call",
+				"orderLabel": "Call (Curtain Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "2",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
+				}
+			 },
 			
 			"Curtain Dismantle": {
-				"handle": "curtain_dismantle",
-				"label": "Curtain Dismantling                                                                   RM35/hr",
+				"handle": "curtain_jb_ dismantle",
+				"label": "Curtain Dismantle                                                                   RM35/hr",
 				"orderLabel": "Hour (Curtain Dismantling)",
 				"description": "Label standard",
 				"cost": {
@@ -3736,8 +3757,8 @@
 			
 			
 			"Curtain Install": {
-				"handle": "curtain_install",
-				"label": "Curtain Installation                                                                       RM50/hr",
+				"handle": "curtain_jb_install",
+				"label": "Curtain Install                                                                       RM50/hr",
 				"orderLabel": "Hour (Curtain Installation)",
 				"description": "Label standard",
 				"cost": {
@@ -3756,10 +3777,10 @@
 			},
 			
 			
-			"Vertical Trim Qty": {
-				"handle": "curtain_vertical_trim",
-				"label": "Vertical Trim by Quantity - Min 2pcs                                                 RM10/pc",
-				"orderLabel": "Pc (Vertical Trim by Quantity - Min 2pcs)",
+			"Curtain Vertical Trim Qty": {
+				"handle": "curtain_jb_vertical_trim",
+				"label": "Curtain Vertical Trim by Quantity                                                 RM10/pc                                         min 2pcs",
+				"orderLabel": "Pc (Curtain Vertical Trim by Quantity)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3777,14 +3798,14 @@
 			 },
 			
 						
-			"Unstitch Horizontal Trim Length": {
-				"handle": "curtain_unstitch_horizontal_trim",
-				"label": "Horizontal Trim - Unstitch Required - Min 1m                                                RM18/m",
-				"orderLabel": "m (Horizontal Trim - Unstitch Required - Min 1m)",
+			"Curtain Horizontal Unstitch & Trim": {
+				"handle": "curtain_jb_horizontal_unstitch_trim",
+				"label": "Curtain Horizontal Unstitch + Trim                                                RM12/m                                      min 1m",
+				"orderLabel": "Meter (Curtain Horizontal Unstitch + Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "18",
+					"MYR": "12",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3797,10 +3818,10 @@
 				}
 			 },
 			
-			"Direct Cut Horizontal Trim Length": {
-				"handle": "curtain_direct_cut_horizontal_trim",
-				"label": "Horizontal Trim - Direct Cut - Min 2.5m                                                RM8/m",
-				"orderLabel": "m (Horizontal Trim - Direct Cut - Min 2.5m)",
+			"Curtain Horizontal Trim": {
+				"handle": "curtain_jb_horizontal_trim",
+				"label": "   Curtain Horizontal Trim                                             RM8/m                                            min 2.5m",
+				"orderLabel": "Meter (Curtain Horizontal Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3820,12 +3841,12 @@
 		
 	    "types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo/Office +RM20",
-						"orderLabel": "Condo/Office +RM20",
+					"Condo/Apt": {
+						"label": "Condo/Apt +RM10",
+						"orderLabel": "Condo/Apt +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -3834,12 +3855,12 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "10",
-							"CNY": "10"
+							"CNY": "0"
 						}
 					},
-					"landed": {
-						"label": "Landed Property",
-						"orderLabel": "Landed Property",
+					"Landed/Commercial": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
