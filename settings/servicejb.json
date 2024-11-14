@@ -3801,12 +3801,12 @@
 						
 			"Curtain Horizontal Unstitch & Trim": {
 				"handle": "curtain_jb_horizontal_unstitch_trim",
-				"label": "Curtain Horizontal Unstitch + Trim                                                RM12/m                                      min 1.5m",
+				"label": "Curtain Horizontal Unstitch + Trim                                                RM18/m                                      min 1.5m",
 				"orderLabel": "Meter (Curtain Horizontal Unstitch + Trim)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "12",
+					"MYR": "18",
 					"CNY": "0"
 				},
 				"quantity": {
