@@ -3718,7 +3718,7 @@
 			"Curtain Laundry": {
 				"handle": "curtain_jb_laundry",
 				"label": "Curtain Laundry                                      Market Rate",
-				"orderLabel": "Hour (Curtain Laundry)",
+				"orderLabel": "Job (Curtain Laundry)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3726,7 +3726,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hour",
+					"label": "Job",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
