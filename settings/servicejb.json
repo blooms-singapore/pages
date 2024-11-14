@@ -1199,12 +1199,12 @@
 			
 			"Transport & Trouble-Shoot": {
 				"handle": "washing_machine_jb_transport_troubleshoot",
-				"label": "Transport & Trouble-Shoot                                               RM30/trip",
+				"label": "Transport & Trouble-Shoot                                               RM50/trip",
 				"orderLabel": "Trip (Transport & Trouble-Shoot)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "30",
+					"MYR": "50",
 					"CNY": "0"
 				},
 				"quantity": {
