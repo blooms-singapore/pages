@@ -3736,7 +3736,7 @@
 			 },
 			
 			"Curtain Dismantle": {
-				"handle": "curtain_jb_ dismantle",
+				"handle": "curtain_jb_dismantle",
 				"label": "Curtain Dismantle                                                                   RM35/hr",
 				"orderLabel": "Hour (Curtain Dismantling)",
 				"description": "Label standard",
