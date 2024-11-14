@@ -3664,7 +3664,7 @@
 	
 		
 	"curtain": {
-		"name": "Curtain Alteration & Laundry",
+		"name": "Curtain",
 		"lastSlot": "15:00",
 		"disableLocations": ["Singapore", "Kuala Lumpur"],
 		"startPrice": {
