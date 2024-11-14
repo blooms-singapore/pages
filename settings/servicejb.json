@@ -3821,7 +3821,7 @@
 			
 			"Curtain Horizontal Trim": {
 				"handle": "curtain_jb_horizontal_trim",
-				"label": "   Curtain Horizontal Trim                                             RM8/m                                            min 2m",
+				"label": "Curtain Horizontal Trim                                             RM8/m                                            min 2m",
 				"orderLabel": "Meter (Curtain Horizontal Trim)",
 				"description": "Label standard",
 				"cost": {
