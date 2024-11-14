@@ -3520,7 +3520,7 @@
 	"disposal": {
 		"name": "Disposal",
 		"lastSlot": "15:00",
-		"disableLocations": ["Singapore", "Kuala Lumpur"],
+		"disableLocations": ["Johor Bahru"],
 		"startPrice": {
 			"SGD": "0",
 			"MYR": "90",
