@@ -3676,7 +3676,7 @@
 		"options": {
 			"Curtain Transport 2 Way": {
 				"handle": "curtain_jb_transport_2way",
-				"label": "Transport 2-Way: Collection & Delivery                                                          RM30",
+				"label": "Transport 2-Way: Collection & Delivery                                                          RM30/order",
 				"orderLabel": "Order (Transport 2-Way: Curtain Collection & Delivery)",
 				"description": "Label standard",
 				"cost": {
