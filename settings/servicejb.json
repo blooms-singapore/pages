@@ -3676,12 +3676,12 @@
 		"options": {
 			"Curtain Transport 2 Way": {
 				"handle": "curtain_jb_transport_2way",
-				"label": "Transport 2-Way: Curtain Collection & Delivery                                                          RM35",
+				"label": "Transport 2-Way: Collection & Delivery                                                          RM30",
 				"orderLabel": "Order (Transport 2-Way: Curtain Collection & Delivery)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "35",
+					"MYR": "30",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -3696,8 +3696,8 @@
 			
 			"Curtain Transport 1-Way": {
 				"handle": "curtain_jb_transport_1way",
-				"label": "1-Way Survey only                                                       RM20/trip",
-				"orderLabel": "Trip (1-Way Survey Only)",
+				"label": "Transport 1-Way: Survey only                                                       RM20/trip",
+				"orderLabel": "Trip (Transport 1-Way: Survey Only)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3715,18 +3715,18 @@
 			 },
 
 
-			"Curtain Videocall": {
-				"handle": "curtain_jb_videocall",
-				"label": "Curtain Videocall                                          RM2/call",
-				"orderLabel": "Call (Curtain Videocall)",
+			"Curtain Laundry": {
+				"handle": "curtain_jb_laundry",
+				"label": "Curtain Laundry                                      Market Rate",
+				"orderLabel": "Hour (Curtain Laundry)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "2",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Call",
+					"label": "Hour",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
@@ -3734,11 +3734,12 @@
 					"base": 1
 				}
 			 },
+
 			
 			"Curtain Dismantle": {
 				"handle": "curtain_jb_dismantle",
 				"label": "Curtain Dismantle                                                                   RM35/hr",
-				"orderLabel": "Hour (Curtain Dismantling)",
+				"orderLabel": "Hour (Curtain Dismantle)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -3759,7 +3760,7 @@
 			"Curtain Install": {
 				"handle": "curtain_jb_install",
 				"label": "Curtain Install                                                                       RM50/hr",
-				"orderLabel": "Hour (Curtain Installation)",
+				"orderLabel": "Hour (Curtain Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
