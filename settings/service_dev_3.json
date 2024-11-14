@@ -1652,7 +1652,7 @@
 	"washing-machine": {
 		"name": "Washing Machine",
 		"lastSlot": "16:30",
-		"disableLocations": [],
+		"disableLocations": ["Singapore"],
 		"startPrice": {
 			"SGD": "40",
 			"MYR": "0",
