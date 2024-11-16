@@ -1529,7 +1529,7 @@
 			
 			"Landscape Garden Maintenance 2 crews": {
 				"handle": "landscape_jb_garden_maintenance_2crews",
-				"label": "2 Crews - Large Garden Maintenance                                            RM75/hr                                                     Min 3hrs",
+				"label": "2 Crews - Big Garden Maintenance                                         RM75/hr                                                     Min 3hrs",
 				"orderLabel": "Hours (2 Crews - Large Garden)",
 				"description": "Label standard",
 				"cost": {
