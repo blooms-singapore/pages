@@ -1441,7 +1441,7 @@
 	
 	
 	"installation": {
-		"name": "Install & Dismantle",
+		"name": "Installation",
 		"lastSlot": "16:30",
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
