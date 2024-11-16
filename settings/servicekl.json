@@ -931,7 +931,7 @@
 	"painting": {
 		"name": "Painting",
 		"lastSlot": "16:00",
-		"disableLocations": ["Singapore"],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "115",
 			"MYR": "217.5",
