@@ -51,21 +51,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 </div>
 <div class="pricing">
   <table>
-    <!--TopUp Package-->
-  <thead>
-      <tr>
-        <th><b>CLEANING<br>PACKAGE</b><br>Scroll below<br>for FAQs</th>
-        <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr>
-         <td>Top Up<br>Package<br><b>Bonus RM50</b></td>
-         <td>${params.cleaning_topup_package_kl}/package</td> 
-      </tr>
-    </tbody>
-    
-      
+     
     <!--Standard Clean-->
       <thead>
       <tr>
@@ -75,12 +61,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </thead>
     <tbody>
       <tr>
-        <td><b>Condo</b><br>(2BR or more)<br>2 Crews</td>
-        <td>${(params.standard_condo * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
+        <td><b>Condo</b><br>(2BR or more)<br>2 crews</td>
+        <td>${(params.standard_condo * 0.5).toFixed(1)}/hr<br>Min 3hrs</td>
       </tr> 
       <tr>
         <td><b>Landed Property</b><br>2 Crews</td>
-        <td>${(params.standard_landed_house * 0.5).toFixed(1)}/hr/crew<br>Min 4hrs</td>
+        <td>${(params.standard_landed_house * 0.5).toFixed(1)}/hr<br>Min 4hrs</td>
       </tr>
     </tbody>
     
@@ -100,15 +86,30 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <tr>
         <td>
         <p><b>Condo</b><br>(2BR or more)<br>2 Crews</p>
-        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
+        <td>${(params.festive_big * 0.5).toFixed(1)}/hr<br>Min 3hrs</td>
       </tr>
       <tr>
         <td>
         <p><b>Landed Property</b><br>2 Crews</p>
-        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min Book 5hrs</td>
+        <td>${(params.festive_big * 0.5).toFixed(1)}/hr<br>Min Book 5hrs</td>
       </tr>
 </tbody>
+  </table>
+  <div class="fineprint">
+  Prices subject to change without prior notice
+</div>
+</div>
 
+
+
+  <!--start hide-->
+<div class = "gap">
+<div class="pricing">
+
+  <div class = "show-hide-text">
+    
+  <table>
+    <thead>
 
     <thead>
       <tr>
@@ -124,14 +125,9 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       
       <tr>
       <td>Blooms' Tools</td>
-      <td>+30.0/Order</td>
+      <td>+30</td>
       </tr>
-     
-      <tr>
-      <td>Distant Location<br>where applicable</td>
-      <td>+30.0/trip</td>
-      </tr>
-      
+         
       <tr>
       <td>No-Show<br>Charge</td>
       <td>40% of Order</td>
@@ -139,9 +135,21 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </tbody>
   </table>
   <div class="fineprint">
-  Prices subject to change without prior notice
-</div>
-</div>
+    Prices subject to change without prior notice
+  </div>
+  <br>
+
+  </div>
+  <button class = "read-more-button">Show More</button>
+</div> <!--pricing-->
+</div> <!--gap-->
+
+  <!--end hide-->
+
+
+
+
+
 
 <div class="divider"></div>
 <div class="gap">
