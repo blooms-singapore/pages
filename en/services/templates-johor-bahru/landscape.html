@@ -7,9 +7,8 @@ layout: service
 <div class="service-info">  
 <h5 class="service-title">SERVICE AREAS</h5>
 <h3 class="service-title">Select your property area correctly.</h3>
-  <p>Areas not depicted in map below, Blooms may still serve but will incur an additional transport charge.</p>
-  <p>
-  <img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/jb-landscape-location.png"> </p><!--border radius 15px, colour fuchsia pink-->
+  <p>Additional transport charge may apply.</p>
+  <br><img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/jb-landscape-location.png"><!--border radius 15px, colour fuchsia pink-->
 </div>
 </div>
 
@@ -19,8 +18,7 @@ layout: service
 <h5 class="service-title">WHY BLOOMS?</h5>
 <h3 class="service-title">Take control of your time.</h3>
 <p>Confirm your appointment instantly at our booking calendar.</p>
-  <br>
-<img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/landscape_app_jb.png">
+<br><img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/landscape_app_jb.png">
 <br>
 <br>
 
@@ -75,22 +73,22 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody> 
     <tr>
       <td>Landscape Videocall<br>Refer FAQ1</td>
-        <td>${params.landscape_videocall}/call</td>
+        <td>${params.landscape_jb_videocall}/call</td>
       </tr>
 
         <td>Landscape Survey</td>
-        <td>${params.landscape_survey}/trip</td>
+        <td>${params.landscape_jb_survey}/trip</td>
       </tr>
       
       <tr>
         <td>1 Crew<br>Small Garden<br>Min 1 hour</td>
-        <td>${params.landscape_garden_maintenance_1crew}/hr</td>
+        <td>${params.landscape_jb_garden_maintenance_1crew}/hr</td>
       </tr>
 
          
      <tr>
         <td>2 Crews<br>Large Garden<br>Min 3 hours</td>
-        <td>${params.landscape_garden_maintenance_2crews}/hr</td>
+        <td>${params.landscape_jb_garden_maintenance_2crews}/hr</td>
       </tr>
 
          <tr>
@@ -108,34 +106,9 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     <tbody>      
       <tr>
         <td>2 Crews<br>Hourly Rate<br>Min 3.5 hours</td>
-        <td>${params.landscape_overgrowth_clearance_2crews}/hr</td>
-      </tr>
+        <td>${params.landscape_jb_overgrowth_clearance}/hr</td>
+      </tr>      
     </tbody>
-    
-     <thead>
-      <tr>
-       <th><b>Debris<br>Disposal</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>      
-     <tr>
-       <td>Small Disposal Fee<br> Up to 3 bags</td>
-        <td>${params.landscape_small_disposal}/job</td>
-      </tr>
-        
-      <tr>
-       <td>Big Disposal Fee<br>4 Bags or more</td>
-        <td>${params.landscape_big_disposal}/bag</td>
-      </tr>
-      
-       <tr>
-       <td>Disposal<br>by Lorry</td>
-        <td>${params.landscape_disposal_lorry}/lorry</td>
-      </tr>
-      
-    </tbody>
-     
    </table>
   <div class="fineprint">
     Prices subject to change without prior notice
@@ -143,12 +116,37 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 </div>
 
 
+
+  <!--start hide-->
 <div class = "gap">
 <div class="pricing">
-  <!--start hide-->
+
   <div class = "show-hide-text">
     
   <table>
+  <thead>
+      <tr>
+       <th><b>Debris<br>Disposal</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>      
+     <tr>
+       <td>Small Disposal<br> Up to 3 bags</td>
+        <td>${params.landscape_jb_small_disposal}/job</td>
+      </tr>
+        
+      <tr>
+       <td>Big Disposal<br>4 Bags or more</td>
+        <td>${params.landscape_jb_big_disposal}/bag</td>
+      </tr>
+      
+       <tr>
+       <td>Disposal<br>by Lorry</td>
+        <td>${params.landscape_jb_disposal_lorry}/lorry</td>
+      </tr>
+    </tbody>
+    
       <thead>
       <tr>
        <th><b>Other Charges</b></th>
@@ -156,30 +154,25 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </thead>
     <tbody>
-       <!--<tr>
-        <td>Wash 4 to 5 units</td>
-        <td>${(params.aircon_standard_hour * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal
-       <p>Book 1.5Hrs</td>
-      </tr>-->
-      <tr>
-        <td><b>1 Crew</b><br>Garden Maintenance<br>Extension<br>(Optional)</td>
-        <td>${(params.landscape_garden_maintenance_1crew * 0.5).toFixed(1)}<br>per 30-min block</td>
+       <tr>
+        <td><b>1 Crew</b><br>Garden Maintenance<br>Extension<br>Optional</td>
+        <td>${(params.landscape_jb_garden_maintenance_1crew * 0.5).toFixed(1)}<br>per 30-min block</td>
       </tr>
        <tr>
-         <td><b>2 Crews</b><br>Garden Maintenance<br>Extension<br>(Optional)</td>
-        <td>${(params.landscape_garden_maintenance_2crews * 0.5).toFixed(1)}<br>per 30-min block</td>
+         <td><b>2 Crews</b><br>Garden Maintenance<br>Extension<br>Optional</td>
+        <td>${(params.landscape_jb_garden_maintenance_2crews * 0.5).toFixed(1)}<br>per 30-min block</td>
       </tr>
        <tr>
-         <td><b>2 Crews</b><br>Overgrowth Clearance<br>Extension<br>(Optional)</td>
-        <td>${(params.landscape_overgrowth_clearance_2crews * 0.5).toFixed(1)}<br>per 30-min block</td>
+         <td><b>2 Crews</b><br>Overgrowth Clearance<br>Extension<br>Optional</td>
+        <td>${(params.landscape_jb_overgrowth_clearance * 0.5).toFixed(1)}<br>per 30-min block</td>
       </tr>
       <tr>
        <td>Outside<br>Service Area</td>
        <td>+20/trip</td>
       </tr>      
       <tr>
-        <td>Material Picking Fee</td>
-        <td>30/trip</td>
+        <td>Picking Fee</td>
+        <td>+30/trip</td>
       </tr>      
     </tbody>
   </table>
@@ -187,11 +180,14 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     Prices subject to change without prior notice
   </div>
   <br>
-  <!--end hide-->
+
   </div>
   <button class = "read-more-button">Show More</button>
 </div> <!--pricing-->
 </div> <!--gap-->
+  <!--end hide-->
+
+
 
 
 <div class="divider"></div>
