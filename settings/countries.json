@@ -6,7 +6,7 @@
       "minAmount": 2.5,
       "len": 9,
       "phone": "+60 10 935 2700",
-      "email": "admin@blooms.my"
+      "email": "query@blooms.sg"
        },
    
    "65": {
@@ -17,13 +17,5 @@
       "len": 8,
       "phone": "+65 8777 5231",
       "email": "query@blooms.sg"
-      },
-   
-   "86": {
-      "country": "China",
-      "code": "CN",
-      "currency": "CNY",
-      "minAmount": 4,
-      "len": 11
-   }
+      }
 }
