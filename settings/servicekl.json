@@ -499,7 +499,7 @@
 	"plumbing": {
 		"name": "Plumbing",
 		"lastSlot": "16:00",
-		"disableLocations": [],
+		"disableLocations": ["Kuala Lumpur"],
 		"startPrice": {
 			"SGD": "55",
 			"MYR": "110",
