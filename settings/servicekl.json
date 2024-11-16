@@ -1456,11 +1456,11 @@
 		
 			
 			
-			"Cleaning Survey": {
+			"Cleaning Project Survey": {
 				"handle": "cleaning_kl_survey",
-				"label": "Specialise Cleaning Project Survey                                                        RM30/survey",
-				"displayLabel": "Specialise Cleaning Project Survey",
-				"orderLabel": "Survey (Specialise Cleaning Project Survey)",
+				"label": "Cleaning Project Survey                                                        RM30/survey",
+				"displayLabel": "Cleaning Project Survey",
+				"orderLabel": "Survey (Cleaning Project Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
