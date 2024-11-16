@@ -18,4 +18,13 @@
       "phone": "65 8777 5231",
       "email": "query@blooms.sg"
       }
+},
+
+"86": {
+      "country": "China",
+      "code": "CN",
+      "currency": "CNY",
+      "minAmount": 4,
+      "len": 11
+   }
 }
