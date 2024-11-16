@@ -1107,40 +1107,62 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Landscape Survey": {
-				"handle": "landscape_survey",
-				"label": "Landscape Survey                                             RM35/trip",
-				"orderLabel": "Trip (Landscape Survey)",
+
+		"Landscape Survey": {
+				"handle": "landscape_kl_videocall",
+				"label": "Landscape Videocall                                             RM2/call",
+				"orderLabel": "Trip (Landscape Videocall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
-					"MYR": "35",
+					"MYR": "2",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Trip",
 					"min": 0,
-					"max": 0,
-					"increment": 60,
+					"max": 1,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
+				}
+			},
+			
+			
+			"Landscape Survey": {
+				"handle": "landscape_kl_survey",
+				"label": "Landscape Survey                                             RM35/trip",
+				"orderLabel": "Trip (Landscape Survey)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "35",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Trip",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
 				}
 			},
 			
 		
 			
-			"Landscape 2 crews": {
-				"handle": "landscape_two_crews",
-				"label": "2 Crews - Large Garden                                              RM110/hr                                                     Min 2hrs",
-				"orderLabel": "Hours (2 Crews - Large Garden)",
+			"Landscape Garden Maintenance 2 crews": {
+				"handle": "landscape_kl_garden_maintenance_2crews",
+				"label": "2 Crews - Garden Maintenance                                              RM80/hr                                                     Min 2hrs",
+				"orderLabel": "Hour (2 Crews - Garden Maintenance)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
-					"MYR": "110",
-					"CNY": "50"
+					"SGD": "0",
+					"MYR": "80",
+					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hours",
+					"label": "Hour",
 					"min": 0,
 					"max": 6,
 					"increment": 0.5,
@@ -1152,35 +1174,35 @@
 					
 			
 			
-			"Overgrowth Clearance": {
-				"handle": "landscape_overgrowth_clearance",
-				"label": "2 Crews - Overgrowth Clearance                                  RM90/hr                                                       Min 3hrs",
+			"Landscape Overgrowth Clearance": {
+				"handle": "landscape_kl_overgrowth_clearance",
+				"label": "2 Crews - Overgrowth Clearance                                  RM100/hr                                                       Min 3hrs",
 				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "15",
-					"MYR": "90",
+					"MYR": "100",
 					"CNY": "50"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
-					"max": 7,
+					"max": 6,
 					"increment": 0.5,
 					"default": 3,
 					"base": 1
 				}
 			},
 			
-			"Small Debris": {
-				"handle": "small_debris",
-				"label": "Small Disposal Fee                                        RM30                                                Up to 3 bags",
-				"orderLabel": "Job (Small Disposal Fee)",
+			"Landscape Small Disposal": {
+				"handle": "landscape_kl_small_disposal",
+				"label": "Small Disposal                                        RM30                                                Up to 3 bags",
+				"orderLabel": "Job (Small Disposal)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "15",
+					"SGD": "0",
 					"MYR": "30",
-					"CNY": "20"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
@@ -1193,15 +1215,15 @@
 				}
 			},
 			
-			"Big Debris": {
-				"handle": "big_debris",
-				"label": "Big Disposal Fee                                 RM10/bag",
-				"orderLabel": "Bags (Big Disposal Fee)",
+			"Landscape Big Disposal": {
+				"handle": "landscape_kl_big_disposal",
+				"label": "Big Disposal                                 RM10/bag",
+				"orderLabel": "Bags (Big Disposal)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "0",
 					"MYR": "10",
-					"CNY": "20"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Bags",
@@ -1214,20 +1236,20 @@
 				}
 			},
 			
-			"Disposal by Lorry": {
-				"handle": "landscape_disposal_by_lorry",
-				"label": "Disposal by Lorry                                                        RM150/lorry",
+			"Landscape Disposal by Lorry": {
+				"handle": "landscape_kl_disposal_lorry",
+				"label": "Disposal by Lorry                                                        RM170/lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "170",
-					"CNY": "20"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
 					"min": 0,
-					"max": 2,
+					"max": 0,
 					"default": 0,
 					"increment": 1,
 					"base": 1,
@@ -1236,14 +1258,14 @@
 			 },
 			
 	
-			"Lumpsum Project": {
-				"handle": "project",
-				"label": "Lumpsum Project Confirmation                                    Per Quotation",
-				"orderLabel": "Job (Lumpsum Project Confirmation)",
+			"Landscape Work Confirmation": {
+				"handle": "landscape_kl_work_confirmation",
+				"label": "Landscape Work Confirmation                                    Per Quote",
+				"orderLabel": "Job (Landscape Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "-35",
+					"MYR": "0",
 					"CNY": "20"
 				},
 				"quantity": {
@@ -1260,12 +1282,12 @@
 		
 		"types": {
 			"house": {
-				"label": "House Location",
+				"label": "Within Service Location?",
 				"description": "Label standard",
 				"values": {
-					"Standard": {
-						"label": "Standard Location",
-						"orderLabel": "Standard Location",
+					"Yes": {
+						"label": "Yes",
+						"orderLabel": "Yes",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1273,9 +1295,9 @@
 							}
 						},
 						
-					"Distant": {
-						"label": "Distant Location +RM20",
-						"orderLabel": "Distant Location +RM20",
+					"No": {
+						"label": "No +RM20",
+						"orderLabel": "No +RM20",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1284,7 +1306,7 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "20",
-							"CNY": "10"
+							"CNY": "0"
 						}
 					}
 				}
