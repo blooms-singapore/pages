@@ -1461,7 +1461,7 @@
 	
 			
 			"Landscape Videocall": {
-				"handle": "landscape_videocall",
+				"handle": "landscape_jb_videocall",
 				"label": "Videocall                                               RM2/call",
 				"orderLabel": "Call (VideoCall)",
 				"description": "Label standard",
@@ -1483,7 +1483,7 @@
 			
 			
 			"Landscape Survey": {
-				"handle": "landscape_survey",
+				"handle": "landscape_jb_survey",
 				"label": "Survey                                             RM30/trip",
 				"orderLabel": "Trip (Survey)",
 				"description": "Label standard",
@@ -1505,7 +1505,7 @@
 			
 			
 			"Landscape Garden Maintenance 1 crew": {
-				"handle": "landscape_garden_maintenance_1crew",
+				"handle": "landscape_jb_garden_maintenance_1crew",
 				"label": "1 crew - Small Garden                                           RM50/hr                                                    Min 1hr",
 				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
@@ -1528,7 +1528,7 @@
 			
 			
 			"Landscape Garden Maintenance 2 crews": {
-				"handle": "landscape_garden_maintenance_2crews",
+				"handle": "landscape_jb_garden_maintenance_2crews",
 				"label": "2 Crews - Large Garden                                              RM75/hr                                                     Min 3hrs",
 				"orderLabel": "Hours (2 Crews - Large Garden)",
 				"description": "Label standard",
@@ -1549,7 +1549,7 @@
 
 
 			"Landscape Work Confirmation": {
-				"handle": "landscape_work_confirmation",
+				"handle": "landscape_jb_work_confirmation",
 				"label": "Landscape Work Confirmation                                     Per Quote",
 				"orderLabel": "Job (Landscape Work Confirmation)",
 				"description": "Label standard",
@@ -1573,7 +1573,7 @@
 			
 			
 			"Landscape Overgrowth Clearance 2 crews": {
-				"handle": "landscape_overgrowth_clearance_2crews",
+				"handle": "landscape_jb_overgrowth_clearance",
 				"label": "2 Crews - Overgrowth Clearance                                  RM100/hr                                       Min 3.5hrs",
 				"orderLabel": "Hour (2 Crews - Overgrowth Clearance)",
 				"description": "Label standard",
@@ -1593,7 +1593,7 @@
 			},
 			
 			"Landscape Small Disposal": {
-				"handle": "landscape_small_disposal",
+				"handle": "landscape_jb_small_disposal",
 				"label": "Small Disposal Fee                                        RM30                                                Up to 3 bags",
 				"orderLabel": "Job (Small Disposal Fee)",
 				"description": "Label standard",
@@ -1614,7 +1614,7 @@
 			},
 			
 			"Landscape Big Disposal": {
-				"handle": "landscape_big_disposal",
+				"handle": "landscape_jb_big_disposal",
 				"label": "Big Disposal Fee                                 RM10/bag",
 				"orderLabel": "Bags (Big Disposal Fee)",
 				"description": "Label standard",
@@ -1635,7 +1635,7 @@
 			},
 			
 			"Landscape Disposal by Lorry": {
-				"handle": "landscape_disposal_lorry",
+				"handle": "landscape_jb_disposal_lorry",
 				"label": "Disposal by Lorry                                                        RM150/lorry",
 				"orderLabel": "Job (Disposal by Lorry)",
 				"description": "Label standard",
