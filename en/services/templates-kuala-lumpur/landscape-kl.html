@@ -17,7 +17,7 @@ layout: service
 <div class="service-info">
 <h5 class="service-title">WHY BLOOMS?</h5>
 <h3 class="service-title">Take control of your time.</h3>
- <p>Confirm your appointment instantly at our booking calendar.
+ <p>Confirm your appointment instantly at our booking calendar.</p>
 <br><img style="width:100%; border-radius:15px; border:1px solid #fd8f82" src="/assets/img/news/landscape_app_kl.png">
 <br>
 <br>
@@ -66,33 +66,51 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
   <table>
     <thead>
       <tr>
-       <th><b>Garden<br>Maintenance</b></th>
+       <th><b>Garden Services</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
-      
-   
+
+       <tr>
+        <td>Landscape<br>Videocall</td>
+        <td>${params.landscape_kl_videocall}/call</td>
+      </tr>
+
+      <tr>
+        <td>Landscape<br>Survey</td>
+        <td>${params.landscape_kl_survey}/trip</td>
+      </tr>
+         
      <tr>
-        <td>2 Crews<br>Large Garden<br>Min 2 hours</td>
-        <td>${params.landscape_two_crews}/hr</td>
+        <td>Maintenance<br>2 Crews<br>Large Garden<br>Min 2 hours</td>
+        <td>${params.landscape_kl_maintenance}/hr</td>
+      </tr>
+    
+       <tr>
+        <td>Over-Growth Clearance<br>2 Crews<br>Hourly Rate<br>Min 3.5 hours</td>
+        <td>${params.landscape_kl_overgrowth_clearance}/hr</td>
+      </tr>
+
+        <tr>
+         <td>Landscape Work<br>Confirmation</td>
+        <td>Per Quoten</td>
       </tr>
     </tbody>
+   </table>
+  <div class="fineprint">
+    Prices subject to change without prior notice
+  </div>
+</div>
+
+  <!--start hide-->
+<div class = "gap">
+<div class="pricing">
+
+  <div class = "show-hide-text">
     
-     <thead>
-      <tr>
-       <th><b>Overgrowth<br>Clearance</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>      
-      <tr>
-        <td>2 Crews<br>Hourly Rate<br>Min 3.5 hours</td>
-        <td>${params.landscape_overgrowth_clearance}/hr</td>
-      </tr>
-    </tbody>
-    
-     <thead>
+  <table>
+    <thead>
       <tr>
        <th><b>Debris<br>Disposal</b></th>
        <th><b>Pricing (${params.currency})</b></th>
@@ -100,50 +118,19 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </thead>
     <tbody>      
      <tr>
-       <td>Small Disposal Fee<br> Up to 3 bags</td>
-        <td>${params.small_debris}/job</td>
+       <td>Small Disposal<br> Up to 3 bags</td>
+        <td>${params.landscape_kl_small_disposal}/job</td>
       </tr>
         
       <tr>
-       <td>Big Disposal Fee<br>4 Bags or more</td>
-        <td>${params.big_debris}/bag</td>
+       <td>Big Disposal<br>4 Bags or more</td>
+        <td>${params.landscape_kl_big_disposal}/bag</td>
       </tr>
       
        <tr>
        <td>Disposal<br>by Lorry</td>
-        <td>${params.landscape_disposal_by_lorry}/lorry</td>
+        <td>${params.landscape_kl_disposal_lorry}/lorry</td>
       </tr>
-    </tbody>
-     
-   </table>
-  <div class="fineprint">
-    Prices subject to change without prior notice
-  </div>
-</div>
-
-
-<div class = "gap">
-<div class="pricing">
-  <!--start hide-->
-  <div class = "show-hide-text">
-    
-  <table>
-    <thead>
-      <tr>
-       <th><b>Maintenance<br>Project</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>      
-      <tr>
-        <td>Landscape<br>Survey</td>
-        <td>${params.landscape_survey}/trip</td>
-      </tr>
-      <tr>
-        <td>Lumpsum Project<br>Confirmation</td>
-        <td>Per Quotation</td>
-      </tr>
-      </tbody>
       
     <thead>
       <tr>
@@ -152,46 +139,31 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </thead>
     <tbody>
-       <!--<tr>
-        <td>Wash 4 to 5 units</td>
-        <td>${(params.aircon_standard_hour * 1.5).toFixed(1)} <!--for hour factor, need to fix decimal
-       <p>Book 1.5Hrs</td>
-      </tr>-->
       <tr>
-        <td><b>1 Crew</b><br>Cut & Trim<br>Service Extension<br>(Optional)</td>
-        <td>${(params.landscape_one_crew * 0.5).toFixed(1)}<br>per 30-min block</td>
-      </tr>
-       <tr>
-         <td><b>2 Crews</b><br>Garden Maintenance<br>Service Extension<br>(Optional)</td>
+         <td>Garden Maintenance<br>Extension<br>Optional</td>
         <td>${(params.landscape_two_crews * 0.5).toFixed(1)}<br>per 30-min block</td>
       </tr>
        <tr>
-         <td><b>2 Crews</b><br>Overgrowth Clearance<br>Service Extension<br>(Optional)</td>
+         <td>Overgrowth Clearance<br>Extension<br>Optional</td>
         <td>${(params.landscape_overgrowth_clearance * 0.5).toFixed(1)}<br>per 30-min block</td>
       </tr>
      <tr>
-        <td>Material Picking Fee<br>(Optional)</td>
-        <td>45.0/Trip</td>
-      </tr>      
-      <tr>
-        <td>Public Holiday<br>Surcharge</td>
-        <td>20.0</td>
-      </tr>      
-      <tr>
-        <td>Condo Surcharge</td>
-        <td>10.0</td>
-      </tr>      
+        <td>Picking Fee<br>Optional</td>
+        <td>30/trip</td>
+      </tr>
     </tbody>
   </table>
   <div class="fineprint">
     Prices subject to change without prior notice
   </div>
   <br>
-  <!--end hide-->
+
   </div>
   <button class = "read-more-button">Show More</button>
 </div> <!--pricing-->
 </div> <!--gap-->
+
+  <!--end hide-->
 
 
 <div class="divider"></div>
