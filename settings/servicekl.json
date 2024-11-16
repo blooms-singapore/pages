@@ -1114,9 +1114,9 @@
 				"orderLabel": "Trip (Landscape Videocall)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "20",
+					"SGD": "0",
 					"MYR": "2",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
