@@ -1462,8 +1462,8 @@
 			
 			"Landscape Videocall": {
 				"handle": "landscape_jb_videocall",
-				"label": "Videocall                                               RM2/call",
-				"orderLabel": "Call (VideoCall)",
+				"label": "Landscape Videocall                                               RM2/call",
+				"orderLabel": "Call (Landscape VideoCall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1484,8 +1484,8 @@
 			
 			"Landscape Survey": {
 				"handle": "landscape_jb_survey",
-				"label": "Survey                                             RM30/trip",
-				"orderLabel": "Trip (Survey)",
+				"label": "Landscape Survey                                             RM30/trip",
+				"orderLabel": "Trip (Landscape Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1506,7 +1506,7 @@
 			
 			"Landscape Garden Maintenance 1 crew": {
 				"handle": "landscape_jb_garden_maintenance_1crew",
-				"label": "1 crew - Small Garden                                           RM50/hr                                                    Min 1hr",
+				"label": "1 crew - Small Garden Maintenance                                       RM50/hr                                                    Min 1hr",
 				"orderLabel": "Hour (1 crew - Small Garden)",
 				"description": "Label standard",
 				"cost": {
@@ -1529,7 +1529,7 @@
 			
 			"Landscape Garden Maintenance 2 crews": {
 				"handle": "landscape_jb_garden_maintenance_2crews",
-				"label": "2 Crews - Large Garden                                              RM75/hr                                                     Min 3hrs",
+				"label": "2 Crews - Large Garden Maintenance                                            RM75/hr                                                     Min 3hrs",
 				"orderLabel": "Hours (2 Crews - Large Garden)",
 				"description": "Label standard",
 				"cost": {
