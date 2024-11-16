@@ -1334,87 +1334,65 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Top Up Package": {
-				"handle": "cleaning_topup_package_kl",				
-				"label": "Top Up Package                                           RM1100                                       Bonus RM50",
-				"displayLabel": "Top Up Package",
-				"orderLabel": "Package (Top Up PKG)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "15",
-					"MYR": "1100",
-					"CNY": "15"
-				},
-				"quantity": {
-					"label": "Package",
-					"min": 0,
-					"max": 1,
-					"default": 0,
-					"increment": 1,
-					"base": 1,
-					"multiplier": 1
-											
-				}
-			},
 			
 						
-			"Std Clean Condo": {
-				"handle": "standard_condo",
-				"label": "Standard Clean Condo - 2 Crews                                               RM28/hr/crew                                            Min 3hrs",
-				"displayLabel": "Standard Clean Condo - 2 Crews",
-				"orderLabel": "Hours (Standard Clean Condo - 2 Crews)",
+			"Cleaning Standard Condo/Apt": {
+				"handle": "cleaning_kl_standard_condo",
+				"label": "Standard Clean Condo/Apt - 2 Crews                                               RM56/hr                                            Min 3hrs",
+				"displayLabel": "Standard Clean Condo/Apt - 2 Crews",
+				"orderLabel": "Hours (Standard Clean Condo/Apt - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22",
+					"SGD": "0",
 					"MYR": "56",
-					"CNY": "82.5"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 180,
-					"increment": 30,
-					"base": 60,
+					"default": 3,
+					"increment": 0.5,
+					"base": 1,
 					"multiplier": 1
 					
 				}
 			},
 			
 			
-			"Std Clean Landed House": {
-				"handle": "standard_landed_house",
-				"label": "Standard Clean Landed Property - 2 Crews                                                RM28/hr/crew                                            Min 4hrs",
+			"Cleaning Standard Landed Property": {
+				"handle": "cleaning_kl_standard_landed",
+				"label": "Standard Clean Landed Property - 2 Crews                                                RM56/hr                                            Min 4hrs",
 				"displayLabel": "Standard Clean Landed Property - 2 Crews",
 				"orderLabel": "Hours (Standard Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "22",
+					"SGD": "0",
 					"MYR": "56",
-					"CNY": "82.5"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 240,
-					"increment": 30,
-					"base": 60,
+					"default": 4,
+					"increment": 0.5,
+					"base": 1,
 					"multiplier": 1
 					
 				}
 			},
 			
-			"Festive Very Small Condo": {
-				"handle": "festive_small_condo",
-				"label": "Festive Clean Very Small Condo - 1 Crew                                              RM135/unit                                            Up to 4hrs",
-				"displayLabel": "Festive Clean Very Small Condo - 1 Crew",
-				"orderLabel": "Unit (Festive Clean Very Small Condo - 1 Crew)",
+			"Cleaning Festive Tiny Condo": {
+				"handle": "cleaning_kl_festive_tiny_condo",
+				"label": "Festive Clean Tiny Condo - 1 Crew                                              RM135/unit                                            Up to 4hrs",
+				"displayLabel": "Festive Clean Tiny Condo - 1 Crew",
+				"orderLabel": "Unit (Festive Clean Tiny Condo - 1 Crew)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "100",
+					"SGD": "0",
 					"MYR": "135",
-					"CNY": "82.5"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Unit",
@@ -1428,47 +1406,47 @@
 				}
 			},
 			
-			"Festive Std Condo": {
-				"handle": "festive_big",
-				"label": "Festive Clean Condo - 2 Crews                                        RM35/hr/crew                                                    Min 3hrs",
-				"displayLabel": "Festive Clean Condo - 2 Crews",
+			"Cleaning Festive Condo/Apt": {
+				"handle": "cleaning_kl_festive_condo",
+				"label": "Festive Clean Condo/Apt - 2 Crews                                        RM70/hr                                                    Min 3hrs",
+				"displayLabel": "Festive Clean Condo/Apt - 2 Crews",
 				"orderLabel": "Hours (Festive Clean Std Condo - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "0",
 					"MYR": "70",
-					"CNY": "82.5"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hours",
 					"min": 0,
 					"max": 0,
-					"default": 180,
-					"increment": 30,
-					"base": 60,
+					"default": 3,
+					"increment": 0.5,
+					"base": 1,
 					"multiplier": 1
 					
 				}
 			},
 			
-			"Festive Landed House": {
-				"handle": "festive_big",
-				"label": "Festive Clean Landed Property - 2 Crews                                          RM35/hr/crew                                            Min 5hrs",
+			"Cleaning Festive Landed Property": {
+				"handle": "cleaning_kl_festive_landed",
+				"label": "Festive Clean Landed Property - 2 Crews                                          RM70/hr                                           Min 5hrs",
 				"displayLabel": "Festive Clean Landed Property - 2 Crews",
-				"orderLabel": "Hours (Festive Clean Landed Property - 2 Crews)",
+				"orderLabel": "Hour (Festive Clean Landed Property - 2 Crews)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "45",
+					"SGD": "0",
 					"MYR": "70",
-					"CNY": "82.5"
+					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Hours",
+					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"default": 300,
-					"increment": 30,
-					"base": 60,
+					"default": 5,
+					"increment": 0.5,
+					"base": 1,
 					"multiplier": 1
 					
 				}
@@ -1478,16 +1456,16 @@
 		
 			
 			
-			"Project Survey": {
-				"handle": "cleaning_project_survey",
+			"Cleaning Survey": {
+				"handle": "cleaning_kl_survey",
 				"label": "Specialise Cleaning Project Survey                                                        RM30/survey",
 				"displayLabel": "Specialise Cleaning Project Survey",
 				"orderLabel": "Survey (Specialise Cleaning Project Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "30",
+					"SGD": "0",
 					"MYR": "30",
-					"CNY": "82.5"
+					"CNY": "0"
 				}, 
 				"quantity": {
 					"label": "Survey",
@@ -1502,11 +1480,11 @@
 			},
 			
 			
-			"Project Confirmation": {
+			"Cleaning Project Confirmation": {
 				"handle": "cleaning_project_confirmation",
-				"label": "Specialise Cleaning Project Confirmation                                                         Per Quotation",
-				"displayLabel": "Specialisew Cleaning Project Confirmation",
-				"orderLabel": "Project (Specialise Cleaning Project Confirmation)",
+				"label": "Cleaning Project Confirmation                                                         Per Quote",
+				"displayLabel": "Cleaning Project Confirmation",
+				"orderLabel": "Project (Cleaning Project Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1529,13 +1507,13 @@
 		
 	"types": {
 			"tools": {
-				"label": "Tools?",
+				"label": "Customer Provides Tools?",
 				"description": "Label standard",
 				"values": {
 					
-					"Customers tools": {
-						"label": "Customer provides",
-						"orderLabel": "Customer provides",
+					"Yes": {
+						"label": "Yes",
+						"orderLabel": "Yes",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -1550,9 +1528,9 @@
 					},
 					
 														
-					"Blooms tools": {
-						"label": "Blooms provides +RM30",
-						"orderLabel": "Blooms provides +RM30",
+					"No": {
+						"label": "No +RM30",
+						"orderLabel": "No +RM30",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
