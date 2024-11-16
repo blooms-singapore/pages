@@ -739,39 +739,65 @@
 		"disableLocations": [],
 		"startPrice": {
 			"SGD": "65",
-			"MYR": "115",
+			"MYR": "80",
 			"CNY": "20"
 		},
 		"hasNote": 1,
 		"options": {
 			
-			"Electrical Transport Fee": {
-				"handle": "electrical_transport",
-				"label": "Electrical Transport Fee                                         RM35/trip",
-				"orderLabel": "Trip (Electrical Transport Fee)",
+			"Transport Fee KL": {
+				"handle": "transport_fee_kl",
+				"label": "Transport Fee                                         RM35/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "55",
+					"SGD": "0",
 					"MYR": "35",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "trip",
-					"min": 60,
-					"max": 0,
-					"increment": 60,
-					"default": 60,
-					"base": 60
+					"min": 1,
+					"max": 1,
+					"increment": 1,
+					"default": 1,
+					"base": 1
 				}
 			},
+
+
+
+		"Electrical Videocall": {
+				"handle": "electrical_kl_videocall",
+				"label": "Electrical Videocall                                                   RM2/call                                         Waive Transport Fee",
+				"orderLabel": "Call (Electrical Videocall)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "-33",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Call",
+					"min": 0,
+					"max": 1,
+					"increment": 1,
+					"default": 0,
+					"base": 1
+				}
+			},
+
+
+
+			
 			
 			"Electrical Survey": {
-				"handle": "electrical_survey",
+				"handle": "electrical_kl_survey",
 				"label": "Electrical Survey                                                    Free",
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "10",
+					"SGD": "0",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -779,38 +805,61 @@
 					"label": "Trip",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
 			},
 			
 			
 			
-			"Minor Electrical": {
-				"handle": "minor_electrical",
-				"label": "Residential Minor Electrical Work - Min 1hr                                                      RM80/hr",
-				"orderLabel": "Hour (Residential Minor Electrical Work - Min 1hr)",
+			"Electrical 1 Crew": {
+				"handle": "electrical_kl_1electrician",
+				"label": "1 Electrician                                                     RM90/hr                                                 Min 1hr",
+				"orderLabel": "Hour (1 Electrican)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "65",
-					"MYR": "80",
+					"SGD": "0",
+					"MYR": "90",
 					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 60,
-					"base": 60
+					"increment": 0.5,
+					"default": 1,
+					"base": 1
 				}
 			},
+
+
+
+			"Electrical Trouble Shoot": {
+				"handle": "electrical_kl_troubleshoot",
+				"label": "Electrical Trouble Shoot                                          RM90/hr",
+				"orderLabel": "Hour (Electrical Trouble Shoot)",
+				"description": "Label standard",
+				"cost": {
+					"SGD": "0",
+					"MYR": "90",
+					"CNY": "0"
+				},
+				"quantity": {
+					"label": "Hour",
+					"min": 0,
+					"max": 1,
+					"increment": 0.5,
+					"default": 0,
+					"base": 1
+				}
+			},
+				
 			
-			"Electrical Project Confirmation": {
-				"handle": "major_electrical",
-				"label": "Electrical Lumpsum Work Confirmation                                               Per Quotation",
-				"orderLabel": "Job (Electrical Lumpsum Work Confirmation)",
+			"Electrical Work Confirmation": {
+				"handle": "electrical_kl_work_confirmation",
+				"label": "Electrical Work Confirmation                                               Per Quote",
+				"orderLabel": "Job (Electrical Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -821,67 +870,21 @@
 					"label": "Job",
 					"min": 0,
 					"max": 1,
-					"increment": 60,
+					"increment": 1,
 					"default": 0,
-					"base": 60
+					"base": 1
 				}
-			},
-			
-			
-			"Electrical Trouble Shoot": {
-				"handle": "electrical_trouble_shoot",
-				"label": "Electrical Trouble Shoot                                                     RM70/trip",
-				"orderLabel": "Trip (Electrical Trouble Shoot)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "30",
-					"MYR": "70",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			},
-				
-			"Emergency": {
-				"handle": "electrical_emergency",
-				"label": "Electrical Emergency                                                             RM100 - 150/trip",
-				"orderLabel": "Trip (Electrical Emergency)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "100",
-					"CNY": "0"
-				},
-				"cost_max": {
-					"SGD": "0",
-					"MYR": "150",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 1,
-					"increment": 60,
-					"default": 0,
-					"base": 60
-				}
-			}	
+			}
 		},
 
 	    "types": {
 			"house": {
-				"label": "House Type",
+				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
-						"label": "Condo Surcharge +RM10",
-						"orderLabel": "Condo Surcharge +RM10",
+					"Condo/Apt": {
+						"label": "Condo/Apt. +RM10",
+						"orderLabel": "Condo/Apt. +RM10",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
@@ -890,12 +893,12 @@
 						"oneOffCost": {
 							"SGD": "0",
 							"MYR": "10",
-							"CNY": "10"
+							"CNY": "0"
 						}
 					},
-					"landed": {
-						"label": "Landed House",
-						"orderLabel": "Landed House",
+					"Landed/Commercial": {
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
