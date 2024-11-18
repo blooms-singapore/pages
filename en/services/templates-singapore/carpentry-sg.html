@@ -31,71 +31,94 @@ layout: service
   <table>  
    <thead>
       <tr>
-       <th><b>Carpentry<br>Servicing</b></th>
+       <th><b>Carpentry</b></th>
        <th><b>Pricing (${params.currency})</b></th>
       </tr>
     </thead>
     <tbody>
+   <tr>
+       <td>Transport<br>Fee</td>
+       <td>${params.transport_fee}/trip</td>
+      </tr>
+
        <tr>
-        <td>Video Call<br>Refer FAQ</td>
-       <td>5.0/call<br>PayNow or<br>Credit Card</td>
+      <td>Carpentry<br>Survey</td>
+       <td>${params.carpentry_sg_survey}/trip</td>
+      </tr>
+      
+       <tr>
+        <td>Videocall<br>Refer FAQ</td>
+       <td>2/call<br>On-line Payment</td>
       </tr>
       
        <tr>
         <td>1 Carpenter<br>Within 3 hrs</td>
-       <td>${params.carpentry_sg_service_1carpenter}/hour</td>
+       <td>${params.carpentry_sg_1carpenter}/hour</td>
       </tr>
 
        <tr>
         <td>2 Carpenters<br>Within 3 hrs</td>
-       <td>${params.carpentry_sg_service_2carpenters}/hour</td>
+       <td>${params.carpentry_sg_2carpenters}/hour</td>
        </tr>
 
-      <!--Retrofit Lumpsum-->
-      <thead>
-      <tr>
-       <th><b>Retrofit<br>Lumpsum</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
+       <tr>
+        <td>Carpentry<br>Work Confirmation</td>
+        <td>Per Quote</td>
       </tr>
-    </thead>
-    <tbody>
-  <tr>
-      <td>Site<br>Survey</td>
-       <td>${params.carpentry_survey}/trip</td>
-      </tr>
-      
-      <tr>
-        <td>Lumpsum<br>Confirmation</td>
-        <td>Per Quotation</td>
-      </tr>
-     
-     <!--Misc Charge-->
-     
-      <thead>
-      <tr>
-       <th><b>Misc Charges<br>Where Applicable</b></th>
-       <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-       <td>Transport<br>Fee</td>
-       <td>20.0/trip</td>
-      </tr>
-      <tr>
-       <td>Perspective<br>Drawing</td>
-       <td>100.0 to 140.0/pc</td>
-      </tr>
-     <tr>
-       <td>Condo/HDB</td>
-       <td>Waived</td>
-      </tr>
-    </tbody>
+     </tbody>
   </table>
   <div class="fineprint">
     Prices subject to change without prior notice
   </div>
 </div>
+
+
+
+ <!--start hide-->
+ <div class = "gap">
+  <div class = "pricing">
+    
+<div class = "show-hide-text">
+  <table>
+            
+   <!--Misc Charge-->
+     
+      <thead>
+      <tr>
+       <th><b>Misc Charge<br>Where Applicable</b></th>
+       <th><b>Pricing (${params.currency})</b></th>
+      </tr>
+    </thead>
+    <tbody>
+   
+      <tr>
+       <td>Perspective<br>Drawing</td>
+       <td>100 to 120/pc</td>
+      </tr>       
+ 
+      <tr>
+        <td>Service<br>Extension</td>
+        <td>Charge in<br>30-min blocks</td>
+      </tr>
+      <tr>
+        <td>Picking Fee<br>Hourly Service<br><b>Optional</b></td>
+        <td>20/trip</td>
+      </tr>
+
+  </tbody>
+    </table>
+    <div class="fineprint">
+    Prices subject to change without prior notice
+    </div>
+<br>
+    
+
+    </div>
+    <button class = "read-more-button">Show More</button>
+    </div> <!--pricing-->
+    </div> <!--gap-->
+    <!--end hide--> 
+	  	  
 
 
 
