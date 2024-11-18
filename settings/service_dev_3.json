@@ -1333,11 +1333,11 @@
 
 		"Carpentry 1crew": {
 			"handle": "carpentry_sg_1crew",
-			"label": "1 Carpenter                                        SGD80/hr",
+			"label": "1 Carpenter                                        SGD90/hr",
 			"orderLabel": "Hour (1 Carpenter)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "80",
+				"SGD": "90",
 				"MYR": "0",
 				"CNY": "0"
 			},
