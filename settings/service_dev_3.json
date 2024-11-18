@@ -11,7 +11,7 @@
 		"hasNote": 1,
 		"options": {
 			"Electrical Transport": {
-				"handle": "electrical_transport",
+				"handle": "transport_fee",
 				"label": "Transport Fee                                                SGD20/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
@@ -220,7 +220,7 @@
 
 			
 			"AC Transport Fee": {
-				"handle": "aircon_transport_fee",
+				"handle": "transport_fee",
 				"label": "Transport Fee                                               SGD20/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
@@ -541,7 +541,7 @@
 	"options": {
 
 		"Plumbing Transport Fee": {
-			"handle": "plumbing_sg_transport",
+			"handle": "transport_fee",
 			"label": "Transport Fee                                         SGD20/trip",
 			"orderLabel": "Trip (Transport Fee)",
 			"description": "Label standard",
@@ -742,10 +742,10 @@
 		},
 		"hasNote": 1,
 		"options": {
-			"Grip Bar Transport": {
+			"Grip Bar Transport Fee": {
 				"handle": "transport_fee",
-				"label": "Grip Bar Transport Fee                                                    SGD20/trip",
-				"orderLabel": "Trip (Grip Bar Transport Fee)",
+				"label": "Transport Fee                                                    SGD20/trip",
+				"orderLabel": "Trip (Transport Fee)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -763,14 +763,14 @@
 			},
 			
 			
-		"Grip Bar Video Call": {
-			"handle": "grip_bar_videocall",
-			"label": "Grip Bar Inquiry Videocall                                         Free                                          Waive Transport Fee",
-			"orderLabel": "Call (Grip Bar Inquiry Videocall)",
+		"Grip Bar Videocall": {
+			"handle": "gripbar_sg_videocall",
+			"label": "Grip Bar Enquiry Videocall                                        SGD2/call                                          Waive Transport Fee",
+			"orderLabel": "Call (Grip Bar Enquiry Videocall)",
 			"description": "Label standard",
 			"cost": {
-				"SGD": "-20",
-				"MYR": "30",
+				"SGD": "-18",
+				"MYR": "0",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -785,13 +785,13 @@
 
 
 		"Grip Bar 40cm Straight": {
-			"handle": "grip_bar_40cm_straight",
+			"handle": "gripbar_sg_40cm_straight",
 			"label": "Grip Bar 40cm Straight                                      SGD15/pc",
 			"orderLabel": "Piece (Grip Bar 40cm Straight)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "15",
-				"MYR": "30",
+				"MYR": "0",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -807,13 +807,13 @@
 
 
 		"Grip Bar 60cm Straight": {
-			"handle": "grip_bar_60cm_straight",
+			"handle": "gripbar_sg_60cm_straight",
 			"label": "Grip Bar 60cm Straight                                        SGD22/pc",
 			"orderLabel": "Trip (Grip Bar 60cm Straight)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "22",
-				"MYR": "30",
+				"MYR": "0",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -830,13 +830,13 @@
 
 		
 		"Grip Bar Angle Handrail": {
-				"handle": "grip_bar_135_angle_handrail",
+				"handle": "gripbar_sg_135_angle_handrail",
 				"label": "Grip Bar 135 Angle Handrail                                                     SGD40/pc",
 				"orderLabel": "Piece (Grip Bar 135 Angle Handrail)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "40",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -851,13 +851,13 @@
 
 
 	"Grip Bar Bathroom Support": {
-				"handle": "grip_bar_bathroom_support",
+				"handle": "gripbar_sg_bathroom_support",
 				"label": "Grip Bar Bathroom Support                                           SGD70/pc",
 				"orderLabel": "Piece (Grip Bar Bathroom Support)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "70",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -872,13 +872,13 @@
 
 
 			"Grip Bar Bathroom Seat": {
-				"handle": "grip_bar_bathroom_seat",
+				"handle": "gripbar_sg_bathroom_seat",
 				"label": "Grip Bar Bathroom Seat                                           SGD120/pc",
 				"orderLabel": "Piece (Grip Bar Bathroom Seat)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "120",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -895,13 +895,13 @@
 			
 
 			"Grip Bar Install": {
-				"handle": "grip_bar_install",
-				"label": "Install                                           SGD60/hr                                       min SGD30",
+				"handle": "gripbar_sg_install",
+				"label": "Grip Bar Install                                           SGD60/hr                                       min SGD30",
 				"orderLabel": "Hour (Install)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "60",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -931,12 +931,12 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
 
-					"Landed House": {
+					"Landed": {
 						"label": "Landed",
 						"orderLabel": "Landed",
 						"cost": {
@@ -977,7 +977,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "2",
-					"MYR": "30",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -999,7 +999,7 @@
 			"description": "Label standard",
 			"cost": {
 				"SGD": "25",
-				"MYR": "30",
+				"MYR": "0",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -1020,7 +1020,7 @@
 			"description": "Label standard",
 			"cost": {
 				"SGD": "100",
-				"MYR": "30",
+				"MYR": "0",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -1050,8 +1050,8 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
 
@@ -1094,7 +1094,7 @@
 
 	"Mentor Consultation Videocall": {
 				"handle": "mentor_consulation_videocall",
-				"label": "Consultation Videocall                                                       Free",
+				"label": "Consultation Videocall                                                       SGD2/call",
 				"orderLabel": "Call (Consultation Videocall)",
 				"description": "Label standard",
 				"cost": {
@@ -1287,7 +1287,7 @@
 			
 		"Carpentry Videocall": {
 			"handle": "carpentry_sg_videocall",
-			"label": "Carpentry Videocall                                         SGD2/call                                                  Waive Transport Fee",
+			"label": "Carpentry Videocall                                         SGD2/call                                           Waive Transport Fee",
 			"orderLabel": "Call (Carpentry Videocall)",
 			"description": "Label standard",
 			"cost": {
