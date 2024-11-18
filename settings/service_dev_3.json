@@ -1309,10 +1309,10 @@
 
 
 
-	"Carpentry Survey": {
-				"handle": "carpentry_sg_survey",
-				"label": "Carpentry Survey                                                         SGD20/Trip",
-				"orderLabel": "Trip (Carpentry Survey)",
+	"Carpentry Consultation": {
+				"handle": "carpentry_sg_consultation",
+				"label": "Carpentry Consultation                                      SGD20/ession",
+				"orderLabel": "Session (Carpentry Consultation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "20",
@@ -1320,7 +1320,7 @@
 					"CNY": "0"
 				},
 				"quantity": {
-					"label": "Trip",
+					"label": "Session",
 					"min": 0,
 					"max": 1,
 					"increment": 1,
