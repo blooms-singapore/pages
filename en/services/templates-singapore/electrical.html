@@ -39,12 +39,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <tbody>
     <tr>
         <td>Transport<br>Fee</td>
-        <td>${params.electrical_transport}/trip</td>
+        <td>${params.transport_fee}/trip</td>
       </tr>
       
     <tr>
         <td>Electrical<br>Videocall</td>
-           <td>2.0/call<br>On-line Payment</td>
+           <td>2/call<br>On-line Payment</td>
       </tr>
       
        <tr>
@@ -54,12 +54,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
      
       <tr>
         <td>Hourly<br>Electrical Work<br>Refer FAQ</td>
-        <td>${params.minor_electrical}/hr/crew</td>
+        <td>${params.electrical_sg_hourly}/hr/crew</td>
       </tr>
 
        <tr>
         <td>Daily<br>Electrical Work<br>Max 7hrs</td>
-        <td>${params.electrical_daily}/day/crew</td>
+        <td>${params.electrical_sg_daily}/day/crew</td>
       </tr>
               
       <tr>
@@ -69,7 +69,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
         
        <tr>
         <td>Electrical<br>Trouble Shoot</td>
-        <td>Min ${(params.electrical_trouble_shoot * 0.5) . toFixed(1)}</td>
+        <td>Min ${(params.electrical_sg_troubleshoot * 0.5) . toFixed(1)}</td>
       </tr>
              
   </tbody>
@@ -108,7 +108,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
       </tr>
       <tr>
         <td>Picking Fee<br>Hourly Service<br><b>Optional</b></td>
-        <td>20.0/trip</td>
+        <td>20/trip</td>
       </tr>
   </tbody>
     </table>
