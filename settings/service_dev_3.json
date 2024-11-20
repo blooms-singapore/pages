@@ -52,7 +52,7 @@
 		},
 
 			"Electrical Survey": {
-				"handle": "electrical_survey",
+				"handle": "electrical_sg_survey",
 				"label": "Electrical Survey                                                    Free",
 				"orderLabel": "Trip (Electrical Survey)",
 				"description": "Label standard",
@@ -74,7 +74,7 @@
 
 
 			"Hourly Minor Electrical": {
-				"handle": "minor_electrical",
+				"handle": "minor_sg_electrical",
 				"label": "Hourly Electrical Work                                                      SGD60/hr/crew",
 				"orderLabel": "Hour (Hourly Electrical Work)",
 				"description": "Label standard",
@@ -96,13 +96,13 @@
 
 			
 			"Daily Electrical": {
-				"handle": "electrical_daily",
-				"label": "Daily Electrical Work                                                      SGD200/day/crew                                       Max 7hrs",
+				"handle": "electrical_sg_daily",
+				"label": "Daily Electrical Work                                                      SGD260/day/crew                                       Max 7hrs",
 				"orderLabel": "Day (Daily Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "200",
-					"MYR": "95",
+					"SGD": "260",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -120,7 +120,7 @@
 			
 
 			"Electrical Work Confirmation": {
-				"handle": "major_electrical",
+				"handle": "electrical_sg_work_confirmation",
 				"label": "Electrical Work Confirmation                                     Per Quote",
 				"orderLabel": "Job (Electrical Work Confirmation)",
 				"description": "Label standard",
