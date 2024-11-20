@@ -74,7 +74,7 @@
 
 
 			"Hourly Minor Electrical": {
-				"handle": "minor_sg_electrical",
+				"handle": "electrical_sg_hourly",
 				"label": "Hourly Electrical Work                                                      SGD60/hr/crew",
 				"orderLabel": "Hour (Hourly Electrical Work)",
 				"description": "Label standard",
@@ -141,7 +141,7 @@
 
 
 			"Electrical Trouble Shoot": {
-				"handle": "electrical_trouble_shoot",
+				"handle": "electrical_sg_troubleshoot",
 				"label": "Electrical Trouble Shoot                                                SGD60/hr                                         Min SGD30",
 				"orderLabel": "Hour (Electrical Trouble Shoot)",
 				"description": "Label standard",
