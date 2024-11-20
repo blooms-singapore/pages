@@ -1499,8 +1499,8 @@
 			
 
 			
-			"1 Crew Technical Install": {
-				"handle": "installation_technical",
+			"Installation 1 Crew": {
+				"handle": "installation_sg_1crew",
 				"label": "1 Crew Install                                               SGD60/hr",
 				"orderLabel": "Hour (1 Crew Install)",
 				"description": "Label standard",
@@ -1520,8 +1520,8 @@
 			},
 
 
-		"2 Crews Technical Install": {
-				"handle": "installation_technical_2crews",
+		"Installation 2 Crews": {
+				"handle": "installation_sg_2crews",
 				"label": "2 Crews Install                                               SGD120/hr",
 				"orderLabel": "Hour (2 Crews Install)",
 				"description": "Label standard",
@@ -1540,10 +1540,10 @@
 				}
 			},
 
-			"Site Survey": {
-				"handle": "installation_site_survey",
-				"label": "Installation Site Survey                                                      Free",
-				"orderLabel": "Trip (Installation Site Survey)",
+			"Installation Survey": {
+				"handle": "installation_sg_survey",
+				"label": "Installation Survey                                                      Free",
+				"orderLabel": "Trip (Installation Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
@@ -1568,7 +1568,7 @@
 				"description": "Label standard",
 				"cost": {
 					"SGD": "-20",
-					"MYR": "-15",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -1597,8 +1597,8 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
 
@@ -1613,8 +1613,8 @@
 						
 					"oneOffCost": {
 						"SGD": "0",
-						"MYR": "10",
-						"CNY": "10"
+						"MYR": "0",
+						"CNY": "0"
 						}
 					}
 				}
