@@ -99,11 +99,11 @@
 			
 			"Electrical Daily": {
 				"handle": "electrical_sg_daily",
-				"label": "Daily Electrical Work                                                      SGD260/day/crew                                       Max 7hrs",
+				"label": "Daily Electrical Work                                                      SGD250/day/crew                                       Max 7hrs",
 				"orderLabel": "Day (Daily Electrical Work)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "260",
+					"SGD": "250",
 					"MYR": "0",
 					"CNY": "0"
 				},
@@ -167,7 +167,7 @@
 				"label": "Property Type?",
 				"description": "Label standard",
 				"values": {
-					"condo": {
+					"HDB/Condo": {
 						"label": "HDB/Condo",
 						"orderLabel": "HDB/Condo",
 						"cost": {
@@ -177,11 +177,11 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
-					"landed": {
+					"Landed/Commercial": {
 						"label": "Landed/Commercial",
 						"orderLabel": "Landed/Commercial",
 						"cost": {
@@ -191,9 +191,9 @@
 						},
 						
 						"oneOffCost": {
-							"SGD": "0",
-							"MYR": "10",
-							"CNY": "10"
+							"SGD": "10",
+							"MYR": "0",
+							"CNY": "0"
 						}
 					}
 				}
