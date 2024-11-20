@@ -535,8 +535,8 @@
 	"disableLocations": [],
 	"startPrice": {
 		"SGD": "55",
-		"MYR": "100",
-		"CNY": "50"
+		"MYR": "0",
+		"CNY": "0"
 	},
 	"hasNote": 1,
 	"options": {
@@ -585,7 +585,7 @@
 		
 		
 		"Trouble Shoot": {
-			"handle": "plumbing_sg_trouble_shoot",
+			"handle": "plumbing_sg_troubleshoot",
 			"label": "Plumbing Trouble Shoot                                                         SGD15/job",
 			"orderLabel": "Job (Plumbing Trouble Shoot)",
 			"description": "Label standard",
@@ -606,7 +606,7 @@
 		
 
 		"Hourly Service": {
-			"handle": "plumbing_sg_hourly_service",
+			"handle": "plumbing_sg_hourly",
 			"label": "Hourly Service                                             SGD60/hr/crew",
 			"orderLabel": "Hour (Hourly Service)",
 			"description": "Label standard",
@@ -627,7 +627,7 @@
 
 		
 		"Daily Service": {
-			"handle": "plumbing_sg_daily_service",
+			"handle": "plumbing_sg_daily",
 			"label": "Daily Service                                              SGD140/hr",
 			"orderLabel": "Day (Daily Service)",
 			"description": "Label standard",
@@ -693,7 +693,7 @@
 			"label": "Property Type?",
 			"description": "Label standard",
 			"values": {
-				"condo": {
+				"HDB/Condo": {
 					"label": "HDB/Condo",
 					"orderLabel": "HDB/Condo",
 					"cost": {
@@ -703,12 +703,12 @@
 					},
 					"oneOffCost": {
 						"SGD": "0",
-						"MYR": "10",
-						"CNY": "10"
+						"MYR": "0",
+						"CNY": "0"
 					}
 				},
 
-				"landed": {
+				"Landed/Commercial": {
 					"label": "Landed/Commercial",
 					"orderLabel": "Landed/Commercial",
 					"cost": {
