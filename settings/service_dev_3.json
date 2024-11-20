@@ -548,7 +548,7 @@
 			"description": "Label standard",
 			"cost": {
 				"SGD": "20",
-				"MYR": "30",
+				"MYR": "0",
 				"CNY": "0"
 			},
 			"quantity": {
