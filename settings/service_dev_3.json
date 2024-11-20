@@ -243,7 +243,7 @@
 
 
 			"AC Videocall": {
-				"handle": "aircon_videocall",
+				"handle": "aircon_sg_videocall",
 				"label": "Aircon Videocall                                        SGD2/call                                                  Waive Transport Fee",
 				"orderLabel": "Call (Aircon Videocall)",
 				"description": "Label standard",
@@ -268,7 +268,7 @@
 
 			
 			"AC Survey": {
-				"handle": "aircon_survey",
+				"handle": "aircon_sg_survey",
 				"label": "Aircon Survey                                  Free",
 				"orderLabel": "Trip (Aircon Survey)",
 				"description": "Label standard",
@@ -499,8 +499,8 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
-							"CNY": "25"
+							"MYR": "0",
+							"CNY": "0"
 						}
 					},
 					"landed": {
