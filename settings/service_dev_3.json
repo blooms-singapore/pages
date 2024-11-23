@@ -337,7 +337,7 @@
 				"orderLabel": "Job (Aircon Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
-					"SGD": "0",
+					"SGD": "-20",
 					"MYR": "0",
 					"CNY": "0"
 				},
