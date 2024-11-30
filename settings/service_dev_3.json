@@ -3663,8 +3663,8 @@
 
 		"Project Confirmation": {
 			"handle": "retrofit_sg_lumpsum_confirmation",
-			"label": "Retrofit/Reno Lumpsum Work Confirmation                                             Per Quote",
-			"orderLabel": "Job (Retrofit/Reno Lumpsum Work Confirmation)",
+			"label": "Retrofit/Reno Work Confirmation                                             Per Quote",
+			"orderLabel": "Job (Retrofit/Reno Work Confirmation)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "-20",
