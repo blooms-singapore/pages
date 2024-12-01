@@ -2632,8 +2632,8 @@
 		"lastSlot": "15:00",
 		"disableLocations": [],
 		"startPrice": {
-			"SGD": "125",
-			"MYR": "210",
+			"SGD": "90",
+			"MYR": "0",
 			"CNY": "20"
 		},
 		"hasNote": 1,
@@ -2670,7 +2670,7 @@
 				"cost": {
 					"SGD": "-18",
 					"MYR": "0",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Call",
@@ -2685,14 +2685,14 @@
 			
 
 			"Tiling Survey": {
-				"handle": "tiling_survey",
+				"handle": "tiling_sg_survey",
 				"label": "Tiling Survey                                                        Free",
 				"orderLabel": "Trip (Tiling Survey)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
 					"MYR": "0",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Trip",
@@ -2709,22 +2709,22 @@
 		
 
           			
-			"Tiling Non-Waterproof Micro Repair": {
-				"handle": "nonwaterproof_min_order",
-				"label": "Non-Waterproof Micro Works - Min 1.5hrs                                                 SGD70/hr",
-				"orderLabel": "Hour (Non-Waterproof Micro Works - Min 1.5hrs)",
+			"Tiling Non-Waterproof Hourly": {
+				"handle": "tiling_sg_hourly",
+				"label": "Non-Waterproof Works - Min 1.5hr                                                 SGD70/hr",
+				"orderLabel": "Hour (Non-Waterproof Works - Min 1hr)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "70",
 					"MYR": "0",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
 					"max": 7,
 					"increment": 0.5,
-					"default": 1.5,
+					"default": 1,
 					"base": 1
 				}
 			},
@@ -2733,7 +2733,7 @@
 				
 						
 			"Tiling Toilet Floor": {
-				"handle": "tiling_toilet_floor",
+				"handle": "tiling_sg_toilet_floor",
 				"label": "HDB/Condo Toilet Floor Only                                                    < 35ft2                                                SGD2500/unit",
 				"orderLabel": "Unit (HDB/Condo Toilet Floor Only)",
 				"description": "Label standard",
@@ -2756,7 +2756,7 @@
 			
 
 			"Tiling toilet floor & wall": {
-				"handle": "tiling_toilet_floor_wall",
+				"handle": "tiling_sg_toilet_floor_wall",
 				"label": "HDB/Condo Toilet Floor & Wall                                                < 35ft2                                                SGD3300/unit",
 				"orderLabel": "Unit (HDB/Condo Toilet Floor & Wall)",
 				"description": "Label standard",
@@ -2777,14 +2777,14 @@
 
 
 		"Tiling Lumpsum Work Confirmation": {
-				"handle": "tiling_lumpsum",
-				"label": "Tiling Lumpsum Work Confirmation                                             Per Quotation",
-				"orderLabel": "Job (Tiling Lumpsum Work Confirmation)",
+				"handle": "tiling_sg_work_confirmation",
+				"label": "Tiling Work Confirmation                                             Per Quote",
+				"orderLabel": "Job (Tiling Work Confirmation)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "-20",
 					"MYR": "0",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Job",
