@@ -2011,20 +2011,20 @@
 		"disableLocations": ["Kuala Lumpur", "Johor Bahru"],
 		"startPrice": {
 			"SGD": "80",
-			"MYR": "180",
-			"CNY": "110"
+			"MYR": "0",
+			"CNY": "0"
 		},
 		"hasNote": 1,
 		"options": {
 
-			"Painting Transport": {
-				"handle": "painting_sg_transport",
+			"Painting Transport Fee": {
+				"handle": "transport_fee",
 				"label": "Transport Fee                                           SGD20/trip",
 				"orderLabel": "Trip (Transport Fee)",
 				"description": "Transport Fee",
 				"cost": {
 					"SGD": "20",
-					"MYR": "20",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2063,12 +2063,12 @@
 			
 		"Painting Video Call": {
 			"handle": "painting_videocall",
-			"label": "Painting Video Call                                              SGD2/call                                                     Waive Transport Fee",
-			"orderLabel": "Call (Painting Video Call)",
+			"label": "Painting Videocall                                              SGD2/call                                                     Waive Transport Fee",
+			"orderLabel": "Call (Painting Videocall)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "-18",
-				"MYR": "30",
+				"MYR": "0",
 				"CNY": "0"
 			},
 			"quantity": {
@@ -2083,11 +2083,11 @@
 			
 
 
-			"Paint Project": {
-				"handle": "painting_sg_project",
-				"label": "Paint Project Lumpsum Confirmation                                      Per Quotation",
-				"orderLabel": "Unit (Paint Project Lumpsum Confirmation)",
-				"description": "Painting Lumpsum Confirmation",
+			"Painting Work Confirmation": {
+				"handle": "painting_sg_work_confirmation",
+				"label": "Painting Work Confirmation                                      Per Quote",
+				"orderLabel": "Unit (Painting Work Confirmation)",
+				"description": "Painting Work Confirmation",
 				"cost": {
 					"SGD": "-20",
 					"MYR": "0",
@@ -2107,23 +2107,23 @@
 
 
 
-			"Painting Hourly Rate": {
+			"Painting Hourly": {
 				"handle": "painting_sg_hourly",
-				"label": "1 Painter Hourly Rate                                            SGD30/hr                              Min 2hrs",
+				"label": "1 Painter Hourly                                            SGD30/hr                              Min 2hrs",
 				"orderLabel": "Hour (1 Painter Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "30",
-					"MYR": "60",
-					"CNY": "80"
+					"MYR": "0",
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Hour",
 					"min": 0,
 					"max": 0,
-					"increment": 30,
-					"default": 120,
-					"base": 60
+					"increment": 0.5,
+					"default": 2,
+					"base": 1
 				}
 			},
 
@@ -2131,10 +2131,10 @@
 
 
 
-			"1 Painter Daily Rate": {
-				"handle": "one_painter_sg_daily",
-				"label": "1 Painter Daily Rate                                   SGD150/day                                   10am to 5pm",
-				"orderLabel": "Day (1 Painter Daily Rate)",
+			"1 Painter Daily": {
+				"handle": "painting_sg_daily_1crew",
+				"label": "1 Painter Daily                                   SGD150/day                                   10am to 5pm",
+				"orderLabel": "Day (1 Painter Daily)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "150",
@@ -2152,14 +2152,14 @@
 			},
 
 			
-			"2 Painters Daily Rate": {
-				"handle": "two_painters_sg_daily",
-				"label": "2 Painters Daily Rate                                       SGD280/day                               10am to 5pm",
-				"orderLabel": "Day (2 Painters Daily Rate)",
+			"2 Painters Daily": {
+				"handle": "painting_sg_daily_2crews",
+				"label": "2 Painters Daily                                       SGD280/day                               10am to 5pm",
+				"orderLabel": "Day (2 Painters Daily)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "280",
-					"MYR": "350",
+					"MYR": "0",
 					"CNY": "0"
 				},
 				"quantity": {
@@ -2173,34 +2173,11 @@
 			},
 
 
-
-			"Paint Picking Fee": {
-				"handle": "painting_sg_picking_fee",
-				"label": "Paint Picking Fee                                           SGD50/trip                                          Optional",
-				"orderLabel": "Trip (Paint Picking Fee)",
-				"description": "Label standard",
-				"cost": {
-					"SGD": "50",
-					"MYR": "350",
-					"CNY": "0"
-				},
-				"quantity": {
-					"label": "Trip",
-					"min": 0,
-					"max": 2,
-					"increment": 1,
-					"default": 1,
-					"base": 1
-				}
-			},
-
-
-
-	"HDB 2-Room Labour Only": {
-				"handle": "painting_hdb_labour_two_room",
-				"label": "Economical HDB 2-Room                                  Labour Only                                 SGD380/unit",
-				"orderLabel": "Unit (Economical HDB 2-Room, Labour Only)",
-				"description": "Economiocal HDB 2-Room, Labour Only",
+	"Painting 2 Room HDB Labour": {
+				"handle": "painting_sg_hdb_labour_2room",
+				"label": "Economical HDB 2-Room                                     SGD380/unit                                       Labour Only",
+				"orderLabel": "Unit (Economical HDB 2-Room)",
+				"description": "Economiocal HDB 2-Room",
 				"cost": {
 					"SGD": "360",
 					"MYR": "0",
@@ -2219,9 +2196,9 @@
 
 
 
-			"HDB 3-Room Labour Only": {
-				"handle": "painting_hdb_labour_three_room",
-				"label": "Economical HDB 3-Room                                  Labour Only                                 SGD530/unit",
+			"Painting 3 Room HDB Labour": {
+				"handle": "painting_sg_hdb_labour_3room",
+				"label": "Economical HDB 3-Room                                       SGD530/unit                                           Labour Only",
 				"orderLabel": "Unit (Economical HDB 3-Room, Labour Only)",
 				"description": "Economical HDB 3-Room, Labour Only",
 				"cost": {
@@ -2242,11 +2219,11 @@
 
 
 
-			"HDB 4-Room Labour Only": {
-				"handle": "painting_hdb_labour_four_room",
-				"label": "Economical HDB 4-Room                                  Labour Only                                 SGD830/unit",
-				"orderLabel": "Unit (Economical HDB 4-Room, Labour Only)",
-				"description": "Economical HDB 4-Room, Labour Only",
+			"Painting 4 room HDB Labour": {
+				"handle": "painting_sg_hdb_labour_4room",
+				"label": "Economical HDB 4-Room                                    SGD830/unit                                          Labour Only",
+				"orderLabel": "Unit (Economical HDB 4-Room)",
+				"description": "Economical HDB 4-Room",
 				"cost": {
 					"SGD": "810",
 					"MYR": "0",
@@ -2265,11 +2242,11 @@
 			
 			
 			
-			"HDB 5-Room Labour Only": {
-				"handle": "painting_hdb_labour_five_room",
-				"label": "Economical HDB 5-Room                                  Labour Only                                 SGD1080/unit",
-				"orderLabel": "Unit (Economical HDB 5-Room, Labour Only)",
-				"description": "Economical HDB 5-Room, Labour Only",
+			"Painting 5 room HDB Labour": {
+				"handle": "painting_sg_hdb_labour_5room",
+				"label": "Economical HDB 5-Room                                        SGD1080/unit                                         Labour Only",
+				"orderLabel": "Unit (Economical HDB 5-Room)",
+				"description": "Economical HDB 5-Room",
 				"cost": {
 					"SGD": "1060",
 					"MYR": "0",
@@ -2290,11 +2267,11 @@
 
 
 
-			"HDB 2-Room Labour & Paint": {
-				"handle": "painting_hdb_labour_paint_two_room",
-				"label": "Comprehensive HDB 2-Room                                     Labour + Paint                                   SGD880/unit",
-				"orderLabel": "Unit (Comprehensive HDB 2-Room Labour + Paint)",
-				"description": "Comprehensive HDB 2-Room, Labour + Paint",
+			"Painting 2 Room HDB Labour & Paint": {
+				"handle": "painting_sg_hdb_comprehensive_2room",
+				"label": "Comprehensive HDB 2-Room                                        SGD880/unit                                              Labour + Paint",
+				"orderLabel": "Unit (Comprehensive HDB 2-Room)",
+				"description": "Comprehensive HDB 2-Room",
 				"cost": {
 					"SGD": "860",
 					"MYR": "0",
@@ -2313,11 +2290,11 @@
 
 
 
-			"HDB 3-Room Labour & Paint": {
-				"handle": "painting_hdb_labour_paint_three_room",
-				"label": "Comprehensive HDB 3-Room                                  Labour + Paint                                SGD1030/unit",
-				"orderLabel": "Unit (Comprehensive HDB 3-Room Labour + Paint)",
-				"description": "Comprehensive HDB 3-Room, Labour + Paint",
+			"Painting 3 Room HDB Labour & Paint": {
+				"handle": "painting_sg_hdb_comprehensive_3room",
+				"label": "Comprehensive HDB 3-Room                                     SGD1030/unit                                          Labour + Paint",
+				"orderLabel": "Unit (Comprehensive HDB 3-Room)",
+				"description": "Comprehensive HDB 3-Room",
 				"cost": {
 					"SGD": "1010",
 					"MYR": "0",
@@ -2336,11 +2313,11 @@
 
 
 
-			"HDB 4-Room Labour & Paint": {
-				"handle": "painting_hdb_labour_paint_four_room",
-				"label": "Comprehensive HDB 4-Room                                  Labour + Paint                              SGD1380/unit",
-				"orderLabel": "Unit (Comprehensive HDB 4-Room Labour + Paint)",
-				"description": "Comprehensive HDB 4-Room, Labour + Paint",
+			"Painting 4 Room HDB Labour & Paint": {
+				"handle": "painting_sg_hdb_comprehensive_4room",
+				"label": "Comprehensive HDB 4-Room                                           SGD1380/unit                                        Labour + Paint",
+				"orderLabel": "Unit (Comprehensive HDB 4-Room)",
+				"description": "Comprehensive HDB 4-Room",
 				"cost": {
 					"SGD": "1360",
 					"MYR": "0",
@@ -2358,11 +2335,11 @@
 			},
 			
 			
-			"HDB 5-Room Labour & Paint": {
-				"handle": "painting_hdb_labour_paint_five_room",
-				"label": "Comprehensive HDB 5-Room                                  Labour + Paint                                    SGD1530/unit",
-				"orderLabel": "Unit (Comprehensive HDB 5-Room Labour + Paint)",
-				"description": "Comprehensive HDB 5-Room, Labour + Paint",
+			"Painting 5 Room HDB Labour & Paint": {
+				"handle": "painting_sg_hdb_comprehensive_5room",
+				"label": "Comprehensive HDB 5-Room                                     SGD1530/unit                                           Labour + Paint",
+				"orderLabel": "Unit (Comprehensive HDB 5-Room)",
+				"description": "Comprehensive HDB 5-Room",
 				"cost": {
 					"SGD": "1510",
 					"MYR": "0",
@@ -2395,21 +2372,21 @@
 						},
 						"oneOffCost": {
 							"SGD": "0",
-							"MYR": "10",
+							"MYR": "0",
 							"CNY": "0"
 						}
 					},
 
 					"landed": {
-						"label": "Landed/Commercial +SGD10",
-						"orderLabel": "Landed/Commercial +SGD10",
+						"label": "Landed/Commercial",
+						"orderLabel": "Landed/Commercial",
 						"cost": {
 							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						},
 						"oneOffCost": {
-							"SGD": "10",
+							"SGD": "0",
 							"MYR": "0",
 							"CNY": "0"
 						}
