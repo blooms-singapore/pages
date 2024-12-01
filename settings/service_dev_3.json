@@ -2711,8 +2711,8 @@
           			
 			"Tiling Non-Waterproof Hourly": {
 				"handle": "tiling_sg_hourly",
-				"label": "Non-Waterproof Works - Min 1.5hr                                                 SGD70/hr",
-				"orderLabel": "Hour (Non-Waterproof Works - Min 1hr)",
+				"label": "Hourly Service                                                 SGD70/hr                                             Min 1hr",
+				"orderLabel": "Hour (Hourly Service)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "70",
