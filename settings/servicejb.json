@@ -1938,9 +1938,9 @@
 			},
 
 			
-			"Painting Hourly Rate": {
-				"handle": "painting_jb_hourly_rate",
-				"label": "1 Crew Hourly Rate                                         RM60/hr                                         Min 2.5hrs",
+			"Painting Hourly": {
+				"handle": "painting_jb_hourly",
+				"label": "1 Crew Hourly                                         RM60/hr                                         Min 2hrs",
 				"orderLabel": "Hour (1 Crew Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
@@ -1953,19 +1953,19 @@
 					"min": 0,
 					"max": 0,
 					"increment": 0.5,
-					"default": 2.5,
+					"default": 2,
 					"base": 1
 				}
 			},
 									
-			"Daily Rate": {
-				"handle": "painting_jb_daily_rate",
-				"label": "1 Crew Daily Rate                                            RM300/day                                          Max 7hrs",
-				"orderLabel": "Day (1 Crew Daily Rate)",
+			"Painting Daily": {
+				"handle": "painting_jb_daily",
+				"label": "1 Crew Daily                                            RM200/day                                          Max 7hrs",
+				"orderLabel": "Day (1 Crew Daily)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "0",
-					"MYR": "300",
+					"MYR": "200",
 					"CNY": "0"
 				},
 				"quantity": {
