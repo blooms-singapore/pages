@@ -3601,9 +3601,9 @@
 
 
 		"SG Renovation Transport": {
-			"handle": "sg_renovation_transport",
-			"label": "Retrofit/Reno Transport Fee                                                   SGD20/trip",
-			"orderLabel": "Trip (Retrofit/Reno Transport Fee)",
+			"handle": "transport_fee",
+			"label": "Transport Fee                                                   SGD20/trip",
+			"orderLabel": "Trip (Transport Fee)",
 			"description": "Label standard",
 			"cost": {
 				"SGD": "20",
@@ -3622,14 +3622,14 @@
 
 
 	"Renovation Videocall": {
-				"handle": "sg_renovation_videocall",
+				"handle": "renovation_sg_videocall",
 				"label": "Retrofit/Reno Videocall                                                           SGD2/call",
 				"orderLabel": "Call (Retrofit/Reno Videocall)",
 				"description": "Label standard",
 				"cost": {
 					"SGD": "-18",
 					"MYR": "0",
-					"CNY": "50"
+					"CNY": "0"
 				},
 				"quantity": {
 					"label": "Call",
@@ -3641,8 +3641,8 @@
 				}
 			},
 
-		"SG Renovation Project Survey": {
-			"handle": "sg_renovation_project_survey",
+		"Renovation Survey": {
+			"handle": "renovation_sg_survey",
 			"label": "Retrofit/Reno Survey                                                   Free",
 			"orderLabel": "Trip (Retrofit/Reno Survey)",
 			"description": "Label standard",
@@ -3661,8 +3661,8 @@
 			}
 		},
 
-		"Project Confirmation": {
-			"handle": "retrofit_sg_lumpsum_confirmation",
+		"Renovation Work Confirmation": {
+			"handle": "renovation_sg_work_confirmation",
 			"label": "Retrofit/Reno Work Confirmation                                             Per Quote",
 			"orderLabel": "Job (Retrofit/Reno Work Confirmation)",
 			"description": "Label standard",
@@ -3698,7 +3698,7 @@
 					"oneOffCost": {
 						"SGD": "0",
 						"MYR": "0",
-						"CNY": "10"
+						"CNY": "0"
 					}
 				},
 				"landed": {
