@@ -2061,8 +2061,8 @@
 			},
 
 			
-		"Painting Video Call": {
-			"handle": "painting_videocall",
+		"Painting Videocall": {
+			"handle": "painting_sg_videocall",
 			"label": "Painting Videocall                                              SGD2/call                                                     Waive Transport Fee",
 			"orderLabel": "Call (Painting Videocall)",
 			"description": "Label standard",
@@ -2153,7 +2153,7 @@
 
 			
 			"2 Painters Daily": {
-				"handle": "painting_sg_daily_2crews",
+				"handle": "painting_sg_daily_2crew",
 				"label": "2 Painters Daily                                       SGD280/day                               10am to 5pm",
 				"orderLabel": "Day (2 Painters Daily)",
 				"description": "Label standard",
