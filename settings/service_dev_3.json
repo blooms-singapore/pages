@@ -2109,7 +2109,7 @@
 
 			"Painting Hourly": {
 				"handle": "painting_sg_hourly",
-				"label": "1 Painter Hourly                                            SGD30/hr                              Min 2hrs",
+				"label": "1 Painter Hourly                                            SGD30/hr                                             Min 2hrs",
 				"orderLabel": "Hour (1 Painter Hourly Rate)",
 				"description": "Label standard",
 				"cost": {
