@@ -47,6 +47,15 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Debug - Check _site directory  # 👀 Debug step
+        run: |
+          if [ -d "_site" ]; then
+            echo "_site exists"
+            ls -la _site
+          else
+            echo "ERROR: _site directory is missing!"
+            exit 1
+          fi
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
