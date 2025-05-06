@@ -254,5 +254,56 @@
       });
     </script>
     <script src="/javascript/main.js"></script>
+
+    <!-- Tobias' price video script -->
+
+    <!-- <div class="popup-overlay" id="popup" onclick="closePopup()">
+      <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-button" onclick="closePopup()">×</span>
+        <iframe id="popup-video" src="" allowfullscreen></iframe>
+      </div>
+    </div>
+  
+    <script>
+      function openVideoPopup(url) {
+        const popup = document.getElementById('popup');
+        const content = popup.querySelector('.popup-content');
+        const video = document.getElementById('popup-video');
+        video.src = url;
+        
+        // Show popup with fade in
+        popup.style.visibility = 'visible';
+        popup.style.opacity = '1';
+        popup.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+        
+        content.style.animation = 'popupFadeIn 0.3s ease forwards';
+        
+        // Lock page scroll
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closePopup() {
+        const popup = document.getElementById('popup');
+        const content = popup.querySelector('.popup-content');
+        const video = document.getElementById('popup-video');
+        
+        // Play fade out animation
+        content.style.animation = 'popupFadeOut 0.3s ease forwards';
+        
+        // Fade out overlay
+        popup.style.opacity = '0';
+        popup.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+        
+        setTimeout(() => {
+          // Hide completely after fade out
+          popup.style.visibility = 'hidden';
+          video.src = '';
+          document.body.style.overflow = '';
+        }, 300); // match animation time
+      }
+    </script> -->
+
+    <!-- End of Tobias' price video script -->
+    
   </body>
 </html>
