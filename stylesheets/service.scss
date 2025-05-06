@@ -236,147 +236,147 @@
       }
     }
 
-    // // === Price Video Cell Styles ===
-    // // These elements only appear inside .price-cell and are scoped here
-    // // to avoid global styling conflicts and to keep related styles organized
-    // .price-cell {
-    //   position: relative;
-    //   padding: 5px;
-    //   cursor: pointer;
-    //   vertical-align: middle;
-    //   background: #ffffff;
-    //   overflow: hidden;
+    // === Price Video Cell Styles ===
+    // These elements only appear inside .price-cell and are scoped here
+    // to avoid global styling conflicts and to keep related styles organized
+    .price-cell {
+      position: relative;
+      padding: 5px;
+      cursor: pointer;
+      vertical-align: middle;
+      background: #ffffff;
+      overflow: hidden;
 
-    //   &:active {
-    //     background-color: #ffe5e0;
-    //   }
+      &:active {
+        background-color: #ffe5e0;
+      }
 
-    //   &::before {
-    //     content: "";
-    //     position: absolute;
-    //     top: 0;
-    //     right: 0;
-    //     width: 50px;
-    //     height: 100%;
-    //     background: radial-gradient(
-    //       circle at calc(100% + 20px) 50%,
-    //       #fd8f82 0%,
-    //       #fd8f82 60%,
-    //       rgba(253, 143, 130, 0.4) 75%,
-    //       transparent 90%
-    //     );
-    //     pointer-events: none;
-    //     z-index: 0;
-    //   }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        background: radial-gradient(
+          circle at calc(100% + 20px) 50%,
+          #fd8f82 0%,
+          #fd8f82 60%,
+          rgba(253, 143, 130, 0.4) 75%,
+          transparent 90%
+        );
+        pointer-events: none;
+        z-index: 0;
+      }
 
-    //   .price-cell-inner {
-    //     position: relative;
-    //     z-index: 1;
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //   }
+      .price-cell-inner {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-    //   .price-text {
-    //     color: inherit;
-    //     text-align: center;
-    //   }
+      .price-text {
+        color: inherit;
+        text-align: center;
+      }
 
-    //   .price-question-mark {
-    //     position: absolute;
-    //     right: -4px;
-    //     width: 24px;
-    //     height: 24px;
-    //     background-color: transparent;
-    //     color: white;
-    //     font-weight: bold;
-    //     font-size: 16px;
-    //     line-height: 24px;
-    //     text-align: center;
-    //     border-radius: 50%;
-    //     pointer-events: none;
-    //   }
-    // }
+      .price-question-mark {
+        position: absolute;
+        right: -4px;
+        width: 24px;
+        height: 24px;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 50%;
+        pointer-events: none;
+      }
+    }
 
   }
 
-// // === Global Video Popup Overlay Styles ===
+// === Global Video Popup Overlay Styles ===
 
-// .popup-overlay {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   position: fixed;
-//   inset: 0;
-//   background-color: rgba(0, 0, 0, 0);
-//   backdrop-filter: blur(5px);
-//   z-index: 1000;
-//   opacity: 0;
-//   visibility: hidden;
-//   transition: opacity 0.3s ease, background-color 0.3s ease;
-// }
+.popup-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
 
-// .popup-content {
-//   position: relative;
-//   width: 90vw;
-//   max-width: 600px;
-//   background: transparent;
-//   overflow: hidden;
-// }
+.popup-content {
+  position: relative;
+  width: 90vw;
+  max-width: 600px;
+  background: transparent;
+  overflow: hidden;
+}
 
-// .popup-overlay iframe {
-//   width: 90vw;
-//   max-width: 600px;
-//   height: calc(90vw * 9 / 16);
-//   max-height: 340px;
-//   border-radius: 8px;
-//   border: none;
-//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-// }
+.popup-overlay iframe {
+  width: 90vw;
+  max-width: 600px;
+  height: calc(90vw * 9 / 16);
+  max-height: 340px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
-// .close-button {
-//   position: absolute;
-//   top: 8px;
-//   right: 8px;
-//   background: #fd8f82;
-//   color: white;
-//   width: 30px;
-//   height: 30px;
-//   font-size: 18px;
-//   font-weight: bold;
-//   border-radius: 50%;
-//   text-align: center;
-//   line-height: 30px;
-//   cursor: pointer;
-//   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-//   transition: background-color 0.3s;
-//   z-index: 10;
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #fd8f82;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s;
+  z-index: 10;
 
-//   &:active {
-//     background: #e57870;
-//   }
-// }
+  &:active {
+    background: #e57870;
+  }
+}
 
-// @keyframes popupFadeIn {
-//   0% {
-//     opacity: 0;
-//     transform: scale(0.9);
-//   }
-//   100% {
-//     opacity: 1;
-//     transform: scale(1);
-//   }
-// }
+@keyframes popupFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 
-// @keyframes popupFadeOut {
-//   0% {
-//     opacity: 1;
-//     transform: scale(1);
-//   }
-//   100% {
-//     opacity: 0;
-//     transform: scale(0.9);
-//   }
-// }
+@keyframes popupFadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
 
 }
