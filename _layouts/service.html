@@ -286,6 +286,7 @@
         
         // Lock page scroll
         document.body.style.overflow = 'hidden';
+        document.documentElement.style.overflow = 'hidden';
       }
 
       function closePopup() {
@@ -305,6 +306,7 @@
           popup.style.visibility = 'hidden';
           video.src = '';
           document.body.style.overflow = '';
+          document.documentElement.style.overflow = '';
         }, 300); // match animation time
       }
 
