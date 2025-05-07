@@ -247,9 +247,9 @@
       background: #ffffff;
       overflow: hidden;
 
-      &:active {
-        background-color: #ffe5e0;
-      }
+      // &:active {
+      //   background-color: #ffe5e0;
+      // }
 
       &::before {
         content: "";
@@ -298,6 +298,10 @@
       }
     }
 
+    .price-cell.active-tap {
+      background-color: #ffe5e0;
+    }
+
   }
 
 // === Global Video Popup Overlay Styles ===
@@ -318,18 +322,18 @@
 
 .popup-content {
   position: relative;
-  width: 90vw;
-  max-width: 600px;
+  width: 100vw;
+  max-width: 100%;
+  padding: 0;
   background: transparent;
   overflow: hidden;
 }
 
 .popup-overlay iframe {
-  width: 90vw;
-  max-width: 600px;
-  height: calc(90vw * 9 / 16);
-  max-height: 340px;
-  border-radius: 8px;
+  width: 100vw;
+  max-width: 100%;
+  height: calc(100vw * 9 / 16);
+  border-radius: 0;
   border: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }

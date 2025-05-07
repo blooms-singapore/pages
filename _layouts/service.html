@@ -265,11 +265,17 @@
     </div>
   
     <script>
-      function openVideoPopup(url) {
+      function openVideoPopup(url, cellElement) {
         const popup = document.getElementById('popup');
         const content = popup.querySelector('.popup-content');
         const video = document.getElementById('popup-video');
         video.src = url;
+
+        // Add tap effect
+        if (cellElement) {
+          cellElement.classList.add('active-tap');
+          setTimeout(() => cellElement.classList.remove('active-tap'), 150);
+        }
         
         // Show popup with fade in
         popup.style.visibility = 'visible';
@@ -301,6 +307,28 @@
           document.body.style.overflow = '';
         }, 300); // match animation time
       }
+
+      // Touch feedback for close button
+      const closeBtn = document.querySelector('.close-button');
+
+      if (closeBtn) {
+        closeBtn.addEventListener('touchstart', () => {
+          closeBtn.style.transform = 'scale(0.9)';
+          closeBtn.style.backgroundColor = '#e57870';
+        });
+
+        closeBtn.addEventListener('touchend', () => {
+          closeBtn.style.transform = 'scale(1)';
+          closeBtn.style.backgroundColor = '#fd8f82';
+        });
+
+        // Revert in case of cancelled touch
+        closeBtn.addEventListener('touchcancel', () => {
+          closeBtn.style.transform = 'scale(1)';
+          closeBtn.style.backgroundColor = '#fd8f82';
+        });
+      }
+
     </script>
 
     <!-- End of price video script -->
