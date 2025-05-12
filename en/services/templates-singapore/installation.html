@@ -56,8 +56,16 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
       <tr>
         <td>1 Crew</td>
-        <td>${params.installation_sg_1crew}/hr</td>
-      </tr>
+        <!-- Price video cell -->
+      <!-- <td>${params.aircon_kl_transport}/trip</td> -->
+      <td class="price-cell" onclick="openVideoPopup('https://www.youtube.com/embed/TRZXSvmg7ik', this)">
+        <div class="price-cell-inner">
+          <span class="price-text">${params.installation_sg_1crew}/trip</span>
+          <span class="price-question-mark">?</span>
+        </div>
+      </td>
+      <!-- End of price video cell -->
+       </tr>
        <tr>
         <td>2 Crews<br>Refer FAQ4</td>
         <td>${params.installation_sg_2crews}/hr</td>
