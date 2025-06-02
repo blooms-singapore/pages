@@ -75,7 +75,17 @@ layout: service
       </tr>
      
      <tr>
-       <td>1 Painter Daily<br>Min 1 day</td>
+       <td>1 Painter Daily
+   <!-- Price video cell -->
+         <td class="price-cell" onclick="openVideoPopup('https://www.youtube.com/embed/YD0ZSiOyij4?si=8SQbt87JzcG3ysCd', this)">
+          <div class="price-cell-inner">
+          <span class="price-text">${params.installation_sg_1crew}/trip</span>
+          <span class="price-question-mark">?</span>
+        </div>
+      </td>
+      <!-- End of price video cell -->
+
+<br>Min 1 day</td>
        <td>${params.painting_sg_daily_1crew}/day</td>
       </tr>
 
