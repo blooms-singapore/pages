@@ -66,13 +66,24 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
         <td>2.0/call<br>On-line Payment</td>
       </tr>
       <tr>
-        <td>1 Crew Install</td>
+        <td>1 Crew</td>
         <td>${params.install_jb_1crew}/hr</td>
       </tr>
       
        <tr>
-      <td>2 Crews Install<br>Refer FAQ11</td>
-        <td>${params.install_jb_2crews}/hr</td>
+      <td>2 Crews</td>
+           <!-- End of price video cell -->
+       </tr>
+       <tr>
+        <td>2 Crews</td>
+         <!-- Price video cell -->
+         <td class="price-cell" onclick="openVideoPopup('https://www.youtube.com/embed/xjAGhoiTH18?si=f48gRK-pDHGeirmK', this)">
+          <div class="price-cell-inner">
+          <span class="price-text">${params.install_jb_2crews}/hr</span>
+          <span class="price-question-mark">?</span>
+        </div>
+      </td>
+      <!-- End of price video cell -->
       </tr>
     </tbody>
     
@@ -295,42 +306,33 @@ Examples:
    </div>
     
     
-  <input id="collapsible11" class="toggle" type="checkbox">
-  <label for="collapsible11" class="lbl-toggle">Q11 When to book 2 crews?</label>
-  <div class="collapsible-content">
-  <div class="content-inner">
-   <p>Usually for huge DIY furniture assemblies, installation of numerous items for the whole house.
-     <br><br>In doubt, book a video call to show us your items or scope.
-   <br><br>Blooms supervisor will assign 1 or 2 crews, base on his experience.</p>
-   </div>
-   </div>
  
-  <input id="collapsible12" class="toggle" type="checkbox">
-  <label for="collapsible12" class="lbl-toggle">Q12 Is Credit Card payment safe?</label>
+  <input id="collapsible11" class="toggle" type="checkbox">
+  <label for="collapsible11" class="lbl-toggle">Q11 Is Credit Card payment safe?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes, very safe.<br><br>Blooms cannot assess card details and every transcastion is tracked digitally.</p>
    </div>
    </div>
 
-  <input id="collapsible13" class="toggle" type="checkbox">
-  <label for="collapsible13" class="lbl-toggle">Q13 When am I charged when using Credit Card as payment?</label>
+  <input id="collapsible12" class="toggle" type="checkbox">
+  <label for="collapsible12" class="lbl-toggle">Q12 When am I charged when using Credit Card as payment?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service first, Pay later.<br><br>Blooms charges upon completion of work, after issuance of receipt. Not at the point of placing Order.</p>
    </div>
    </div>
 
-  <input id="collapsible14" class="toggle" type="checkbox">
-  <label for="collapsible14" class="lbl-toggle">Q14 Can I book for someone else?</label>
+  <input id="collapsible13" class="toggle" type="checkbox">
+  <label for="collapsible13" class="lbl-toggle">Q13 Can I book for someone else?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Yes. Add their address, in your account and book choosing their address.<br><br>You have to pay for them as the Service is booked under your account.</p>
    </div>
    </div>
       
-  <input id="collapsible15" class="toggle" type="checkbox">
-  <label for="collapsible15" class="lbl-toggle">Q15 How do I cancel a Service?</label>
+  <input id="collapsible14" class="toggle" type="checkbox">
+  <label for="collapsible14" class="lbl-toggle">Q14 How do I cancel a Service?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>Service date which is <b>more than 3 days</b> into the future, use the <b>Cancel</b> button at the bottom of Order Confirmation page.
@@ -339,8 +341,8 @@ Examples:
    </div>
 
 
-  <input id="collapsible16" class="toggle" type="checkbox">
-  <label for="collapsible16" class="lbl-toggle">Q16 Can Blooms' crews install everything we want?</label>
+  <input id="collapsible15" class="toggle" type="checkbox">
+  <label for="collapsible15" class="lbl-toggle">Q15 Can Blooms' crews install everything we want?</label>
   <div class="collapsible-content">
   <div class="content-inner">
    <p>No. We do not promise that we are skilled to install everything a customer wants. To help us, please upload photos and describe the things you want to do.
@@ -349,8 +351,8 @@ Examples:
    </div>
 
 
-  <input id="collapsible17" class="toggle" type="checkbox">
-  <label for="collapsible17" class="lbl-toggle">Q17 Do Blooms' crews do repair works?</label>
+  <input id="collapsible16" class="toggle" type="checkbox">
+  <label for="collapsible16" class="lbl-toggle">Q16 Do Blooms' crews do repair works?</label>
   <div class="collapsible-content">
   <div class="content-inner">
   <p>No. Our technicians do not repair appliances & home fixtures or items. Please contact the item manufacturer.
