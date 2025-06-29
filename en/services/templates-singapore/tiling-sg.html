@@ -67,9 +67,15 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
     </thead>
       <tbody>    
       <tr>
-        <td>Hourly Service<br>Min 1hr<br>Refer FAQ</td>
-        <td>${params.tiling_sg_hourly}/hr</td>
-      </tr>
+        <td>Hourly Service<br>Min 1hr</td>
+        <!-- Price video call starts -->
+         <td class="price-cell" onclick="openVideoPopup('https://www.youtube.com/embed/wHpFd_K0Ne4?si=CUBo9L_Khj6A0-on', this)">
+          <div class="price-cell-inner">
+          <span class="price-text"><${params.tiling_sg_hourly}/hr/span>
+          <span class="price-question-mark">?</span>
+        </div>
+	 </td>
+       </tr>
 
       <tr>
         <td>Above 80ft<sup>2</sup></td>
