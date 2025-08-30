@@ -66,16 +66,21 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 
 
       <tr>
-        <td>Hourly Service<br>Min 0.5hr</td>
+        <td>1 Crew Hourly<br>Min 0.5hr</td>
          <!-- Price video cell -->
          <td class="price-cell" onclick="openVideoPopup('https://www.youtube.com/embed/3HMj_AGwgm4?si=sCgusPMKJ8fFLixO', this)">
           <div class="price-cell-inner">
-          <span class="price-text">${params.door_window_hour}/hr</span>
+          <span class="price-text">${params.door_window_sg_hour_1crew}/hr</span>
           <span class="price-question-mark">?</span>
         </div>
       </td>
       <!-- End of price video cell -->
         </tr>
+
+      <tr>
+        <td>2 Crews Hourly<br>Min 0.5hr</td>
+        <td>${params.door_window_sg_hour_2crews}/hr/2 crews</td>
+      </tr>
 
      <tr>
         <td>Work<br>Confirmation</td>
