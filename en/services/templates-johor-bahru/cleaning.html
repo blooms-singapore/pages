@@ -51,25 +51,7 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
 <div class="pricing">
   <table>
 
-    <!--Specialise Clean-->
-    <thead>
-      <tr>
-      <th><b>SPECIALISE<br>CLEANING</b></th> 
-      <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-       <td>Survey</td>
-       <td>${params.cleaning_project_survey}/survey</td>
-      </tr>
-      
-      <tr>
-        <td>Cleaning Project<br>Confirmation</td> 
-        <td>Per Quotation</td>
-      </tr>
-      </tbody>
-     
+
    <!--Standard Clean-->
      <thead>
       <tr>
@@ -113,8 +95,20 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
    </tbody>
    
-      
-    <thead>
+  </table>
+  <div class="fineprint">
+  Prices subject to change without prior notice
+</div>
+</div>
+
+
+<div class = "gap">
+<div class="pricing">
+ 
+ <!--start hide-->
+<div class = "show-hide-text">
+   <table>     
+     <thead>
        <tbody>
       <tr>
         <th><b>OTHER<br>CHARGES</b></th>
@@ -147,72 +141,6 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       <td>40% of order</td>
       </tr>
     </tbody>
-  </table>
-  <div class="fineprint">
-  Prices subject to change without prior notice
-</div>
-</div>
-
-
-<div class = "gap">
-<div class="pricing">
- 
- <!--start hide-->
-<div class = "show-hide-text">
-   <table>     
-    <!--Renovation-->
-      <thead>
-      <tr>
-      <th><b>RENOVATION<br>CLEAN</b></th> 
-      <th><b>Pricing (${params.currency})<br>Include tools &<br>cleaning solution</b></th> 
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Very Small Condo</b><br>(Studio, 1BR)</td> <!--Reno Very Small Condo-->
-        <td>${params.reno_small_condo}/unit<br>Up to 5hrs</td>
-      </tr>
-      
-      <tr>
-        <td><b>Standard House <br>1 to 2 storey<br>or Condo</b></td>
-        <td>${(params.reno_standard_house * 0.5).toFixed(1)}/hr/crew<br><br>   <!--Standard house or Condo-->
-          <p><b>2BR Condo</b><br>Book 5.5hrs<br>
-          <p><b>3BR++ Condo</b><br>Book 7.0hrs<br>
-          <p><b>1-2 Storey<br>House or<br>Commercial</b><br>Book 5.5 to 8.0hrs</td> <!--${(params.malaysia_sw * 2.5).toFixed(0)}-->
-      </tr>
-
-      <tr>
-        <td><b>Big House</b></td>       <!--Reno Big House-->
-        <td>${params.reno_big_house}/day<br><br>
-          <p><b>2-3 Storey House</b><br>Book 1 day<br>
-          <p><b>Bungalow</b><br>Book 1.5 days</td>
-      </tr>
-     </tbody>
-    
-     <!--Move Clean-->
-     <thead>
-      <tr>
-      <th><b>MOVE IN/OUT<br>CLEAN</b></th>
-      <th><b>Pricing (${params.currency})</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-       <td><b>Very Small Condo</b><br>(Studio, 1BR)<br>1 Crew</td> <!--Very Small Condo-->
-       <td>${params.move_small_condo}/unit<br>Up to 3.5hrs</td>
-      </tr>
-      
-      <tr>
-        <td><b>Condo/Apt</b><br>(2BR or more)<br>2 Crews</td> <!--Std Condo-->
-        <td>${(params.move_landed * 0.5).toFixed(1)}/hr/crew<br>Min 4hrs</td>
-      </tr>
-      
-      <tr>
-        <td><b>Landed Property</b><br>2 Crews</tp>    <!--Landed House-->
-        <td>${(params.move_landed * 0.5).toFixed(1)}/hr/crew<br>Min 5hrs</td>
-      </tr>
-   </tbody>
    
    </table>
   <div class="fineprint">
