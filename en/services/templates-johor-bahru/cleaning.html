@@ -60,14 +60,18 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
       </tr>
     </thead>
     <tbody>
-     
+     <!--
       <tr>
        <td><b>Condo/Apt</b><br>(2BR or more)<br>2 Crews</td>
         <td>${(params.cleaning_standard_condo*0.5).toFixed(1)}/hr/crew<br>Min 3hrs</td>
-      </tr> 
+      </tr> -->
+       <tr>
+       <td><b>Condo/Apt</b><br>(2BR or more)<br>2 Crews</td>
+        <td>${(params.cleaning_standard_condo)}/hr/crew<br>Min 3hrs</td>
+      </tr
       <tr>
         <td><b>Landed Property</b><br>2 Crews</td>
-        <td>${(params.cleaning_standard_landed*0.5).toFixed(1)}/hr/crew<br>Min 4hrs</td>
+        <td>${(params.cleaning_standard_landed)}/hr/crew<br>Min 4hrs</td>
       </tr>
      
    
@@ -82,12 +86,12 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow
        <tr>
         <td>
         <p><b>Condo/Apt</b><br>(2BR or more)<br>2 Crews</p>
-        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min 3.5hrs</td>
+        <td>${(params.festive_big)}/hr/crew<br>Min 4hrs</td>
       </tr>
       <tr>
         <td>
         <p><b>Landed Property</b><br>2 Crews</p>
-        <td>${(params.festive_big * 0.5).toFixed(1)}/hr/crew<br>Min 5hrs</td>
+        <td>${(params.festive_big)}/hr/crew<br>Min 6hrs</td>
       </tr>
    </tbody>
    
